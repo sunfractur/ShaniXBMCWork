@@ -2362,5 +2362,46 @@
             <category>gulf</category>
         </assignedcategory>
     </channel>
+    <channel>
+        <cname>ART Cinema</cname>
+        <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash1/t1.0-1/c14.13.167.167/374515_229093787228619_524999548_n.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>drama</category>
+        </assignedcategory>
+    </channel>
+    <channel>
+        <cname>ART hykayet1</cname>
+        <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash1/t1.0-1/c14.13.167.167/374515_229093787228619_524999548_n.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>drama</category>
+        </assignedcategory>
+    </channel>
+    <channel>
+        <cname>ART hykayet2</cname>
+        <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash1/t1.0-1/c14.13.167.167/374515_229093787228619_524999548_n.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>drama</category>
+        </assignedcategory>
+    </channel>
+    <channel>
+        <cname>ALFALASTINIAH</cname>
+        <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn2/t1.0-1/c12.12.155.155/1149060_450569898390285_1766236908_a.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>sham</category>
+        </assignedcategory>
+    </channel>
+    <channel>
+        <cname>AlYawm</cname>
+        <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc3/t1.0-1/10003994_613112398763454_1363557654_a.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>egypt</category>
+        </assignedcategory>
+    </channel>
+
 
 </channels>
