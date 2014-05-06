@@ -1,5 +1,14 @@
 <channels>
  <channel>
+        <cname>Maghreb24 Entertaiment</cname>
+        <imageurl>http://www.maghreb24tv.com/commons/images/m24Entertainment.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>magreb</category>
+        </assignedcategory>
+    </channel>
+    
+ <channel>
         <cname>Bein2 HD</cname>
         <imageurl>http://2.bp.blogspot.com/-90vek3OtDyE/UsOgqFDWjqI/AAAAAAAAHzQ/Z_gUKJpB6dQ/s1600/f_beIN+Sports+HD2+%5Bbein2%5D.png</imageurl>
         <enabled>True</enabled>
