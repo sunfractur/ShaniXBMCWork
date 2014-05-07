@@ -36,6 +36,14 @@
         </assignedcategory>
     </channel>
     <channel>
+        <cname>W9</cname>
+        <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash3/t1.0-1/166568_10150944766269831_50838980_n.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>french</category>
+        </assignedcategory>
+    </channel>
+    <channel>
         <cname>NT1</cname>
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/NT1_zps0cf6c707.png</imageurl>
         <enabled>True</enabled>
