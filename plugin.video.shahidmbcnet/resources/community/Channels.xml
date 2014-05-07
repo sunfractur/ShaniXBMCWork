@@ -76,6 +76,25 @@
             <category>sham</category>
         </assignedcategory>
     </channel>
+    
+    <channel>
+        <cname>AlFajer Gaza</cname>
+        <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc3/t1.0-1/p160x160/1510792_10151952424443801_1499060125_n.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>sham</category>
+            <category>sport</category>
+        </assignedcategory>
+    </channel>
+    
+    <channel>
+        <cname>Alfajr Int</cname>
+        <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash3/t1.0-1/c48.48.603.603/s160x160/1234314_380583395402173_1897807652_n.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>sham</category>
+        </assignedcategory>
+    </channel>
 
     <channel>
         <cname>El Djazairia</cname>
