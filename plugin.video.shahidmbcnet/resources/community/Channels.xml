@@ -307,6 +307,14 @@
         </assignedcategory>
     </channel>
     <channel>
+        <cname>alwatan</cname>
+        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/adtv1_zps489b3a87.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>gulf</category>
+        </assignedcategory>
+    </channel>
+    <channel>
         <cname>Aghanina</cname>
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/gning_zps9d4014d9.png</imageurl>
         <enabled>True</enabled>
