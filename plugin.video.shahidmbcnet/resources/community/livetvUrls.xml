@@ -5,11 +5,40 @@
         <chnumber>ch296</chnumber>
     </streaminginfo>
     
-    <streaminginfo>
-        <cname>Bein9 HD</cname>
-        <chnumber>ch307</chnumber>
+ <streaminginfo>
+        <cname>Bein6 HD</cname>
+        <chnumber>ch500</chnumber>
     </streaminginfo>
     
+    <streaminginfo>
+        <cname>Bein7 HD</cname>
+        <chnumber>ch501</chnumber>
+    </streaminginfo>
+    
+    <streaminginfo>
+        <cname>Bein8 HD</cname>
+        <chnumber>ch502</chnumber>
+    </streaminginfo>
+    
+    <streaminginfo>
+        <cname>Bein9 HD</cname>
+        <chnumber>ch503</chnumber>
+    </streaminginfo>
+    
+    <streaminginfo>
+        <cname>Bein10 HD</cname>
+        <chnumber>ch504</chnumber>
+    </streaminginfo>
+    
+    <streaminginfo>
+        <cname>Bein11 HD</cname>
+        <chnumber>ch505</chnumber>
+    </streaminginfo>
+    <streaminginfo>
+        <cname>Bein912h506</chnumber>
+    </streaminginfo>
+    
+
     <streaminginfo>
         <cname>TMC</cname>
         <chnumber>ch298</chnumber>
