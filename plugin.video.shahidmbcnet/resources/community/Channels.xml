@@ -988,14 +988,7 @@
             <category>sports</category>
         </assignedcategory>
     </channel>
-    <channel>
-        <cname>Nile Sport</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/nilsport_zpsd74a553d.png</imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-            <category>sports</category>
-        </assignedcategory>
-    </channel>
+
     <channel>
         <cname>KTV SPORT</cname>
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/ktvsport_zps6400d496.png</imageurl>
