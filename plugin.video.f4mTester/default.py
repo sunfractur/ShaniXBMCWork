@@ -124,6 +124,7 @@ if mode ==None:
     ['http://hlscache.fptplay.net.vn/live/htvcmovieHD_2500.stream/manifest.f4m|Referer=http://play.fpt.vn/static/mediaplayer/FPlayer.swf','Viet 2500bitrate','',0],
     ['http://hlscache.fptplay.net.vn/live/onetv_1000.stream/manifest.f4m|Referer=http://play.fpt.vn/static/mediaplayer/FPlayer.swf','Viet 1000bitrate','',0], 
     ['http://88.157.194.246/live/ramdisk/zsic/HDS/zviseu.f4m','Sic http://viseu.es.tl/','',0], 
+    ['http://www.rte.ie/manifests/rte1.f4m','Rte.ie multi nested manifests','',0], 
     ['http://77.245.150.95/hds-live/livepkgr/_definst_/liveevent/livestream.f4m','something else','',0]]
      
 

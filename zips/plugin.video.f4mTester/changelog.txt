@@ -18,3 +18,5 @@
 - couple of links fixed
 [B]Version 1.0.15[/B]
 - making easier for livestream call
+[B]Version 1.0.16[/B]
+- added nested manifest example

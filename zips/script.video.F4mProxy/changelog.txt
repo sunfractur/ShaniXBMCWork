@@ -18,3 +18,5 @@
 - code reformating and failed attempt for seek
 [B]Version 1.0.14[/B]
 - disable seek
+[B]Version 1.0.16[/B]
+- Support for nested manifest, thanks to the-one
