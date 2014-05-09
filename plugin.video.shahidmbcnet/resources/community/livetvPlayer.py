@@ -94,6 +94,7 @@ def getCookieJar(login=False):
 
 	
 def performLogin():
+	print 'performing login'
 	userName=selfAddon.getSetting( "liveTvLogin" )
 	password=selfAddon.getSetting( "liveTvPassword" )
 	cookieJar = cookielib.LWPCookieJar()
@@ -127,6 +128,7 @@ def shoudforceLogin():
                 lastUpdate = datetime.datetime.fromtimestamp(time.mktime(time.strptime(lastUpdate, "%Y-%m-%d %H:%M:%S")))
         
             t=(now_datetime-lastUpdate).seconds/60
+            print 'lastUpdate',lastUpdate,now_datetime
             print 't',t
             if t>15:
                 do_login=True
