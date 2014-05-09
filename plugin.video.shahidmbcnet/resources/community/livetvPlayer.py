@@ -128,7 +128,7 @@ def shoudforceLogin():
         
             t=(now_datetime-lastUpdate).seconds/60
             print 't',t
-            if t>60:
+            if t>15:
                 do_login=True
         print 'do_login',do_login
         return do_login
