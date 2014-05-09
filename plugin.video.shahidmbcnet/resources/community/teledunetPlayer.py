@@ -26,9 +26,12 @@ def PlayStream(sourceSoup, urlSoup, name, url):
 			response.close()
 			match =re.findall('aut=\'\?id0=(.*?)\'', link)
 			print match
-			timesegment=str(long(float(match[0])))
-			rtmp =re.findall(('rtmp://(.*?)/%s\''%channelId), link)[0]
-			rtmp='rtmp://%s/%s'%(rtmp,channelId)
+			timesegment=match[0];str(long(float(match[0])))
+			try:
+				rtmp =re.findall(('rtmp://(.*?)/%s\''%channelId), link)[0]
+				rtmp='rtmp://%s/%s'%(rtmp,channelId)
+			except:
+				rtmp='rtmp://5.135.134.110:1935/teledunet/%s'%(channelId)
 
 		liveLink= sourceSoup.rtmpstring.text;
 
