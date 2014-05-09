@@ -409,6 +409,18 @@ class F4MDownloader():
             #print F4Mversion,_add_ns('media')
             doc = etree.fromstring(manifest)
             print doc
+            
+            # Added the-one 05082014
+            # START
+            # Check if manifest defines a baseURL tag
+            baseURL_tag = doc.find(_add_ns('baseURL'))
+            if baseURL_tag != None:
+                man_url = baseURL_tag.text
+                url = man_url
+                self.url = url
+                print 'base url defined as: %s' % man_url
+            # END
+            
             try:
                 #formats = [(int(f.attrib.get('bitrate', -1)),f) for f in doc.findall(_add_ns('media'))]
                 formats=[]
@@ -450,7 +462,53 @@ class F4MDownloader():
                 #self._write_flv_header(dest_stream, metadata)
                 #dest_stream.flush()
             except: pass
-            mediaUrl=media.attrib['url']
+        
+            # Modified the-one 05082014
+            # START
+            # url and href can be used interchangeably
+            # so if url attribute is not present
+            # check for href attribute
+            try:
+                mediaUrl=media.attrib['url']
+            except:
+                mediaUrl=media.attrib['href']
+            # END
+            
+            # Added the-one 05082014
+            # START
+            # if media url/href points to another f4m file
+            if '.f4m' in mediaUrl:
+                sub_f4m_url = join(man_url,mediaUrl)
+                print 'media points to another f4m file: %s' % sub_f4m_url
+                
+                print 'Downloading f4m sub manifest'
+                sub_manifest = self.getUrl(sub_f4m_url)#.read()
+                if not sub_manifest:
+                    return False
+                print len(sub_manifest)
+                try:
+                    print sub_manifest
+                except: pass
+                self.status='sub manifest done'
+                F4Mversion =re.findall(version_fine, sub_manifest)[0]
+                doc = etree.fromstring(sub_manifest)
+                print doc
+                media = doc.find(_add_ns('media'))
+                if media == None:
+                    return False
+                    
+                try:
+                    self.metadata = base64.b64decode(media.find(_add_ns('metadata')).text)
+                    print 'metadata stream read done'
+                except: pass
+                
+                try:
+                    mediaUrl=media.attrib['url']
+                except:
+                    mediaUrl=media.attrib['href']
+            # END
+            
+            
             try:
                 bootStrapID = media.attrib['bootstrapInfoId']
             except: bootStrapID='xx'
