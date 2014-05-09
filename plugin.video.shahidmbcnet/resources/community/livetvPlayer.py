@@ -27,19 +27,24 @@ communityStreamPath = os.path.join(addonPath,'resources/community')
 def PlayStream(sourceSoup, urlSoup, name, url):
 	try:
 		playpath=urlSoup.chnumber.text
+		pDialog = xbmcgui.DialogProgress()
+		pDialog.create('XBMC', 'Communicating with Livetv')
+		pDialog.update(40, 'Attempting to Login')
 		code=getcode(shoudforceLogin());
 		print 'firstCode',code
 		if not code or code[0:1]=="w":
+			pDialog.update(40, 'Refreshing Login')
 			code=getcode(True);
 			print 'secondCode',code
 		liveLink= sourceSoup.rtmpstring.text;
-
+		pDialog.update(80, 'Login Completed, now playing')
 		print 'rtmpstring',liveLink
 		#liveLink=liveLink%(playpath,match)
 		liveLink=liveLink%(playpath,code)
 		name+='-LiveTV'
 		print 'liveLink',liveLink
 		listitem = xbmcgui.ListItem( label = str(name), iconImage = "DefaultVideo.png", thumbnailImage = xbmc.getInfoImage( "ListItem.Thumb" ), path=liveLink )
+		pDialog.close()
 		player = CustomPlayer.MyXBMCPlayer()
 		start = time.time()
 		#xbmc.Player().play( liveLink,listitem)
@@ -106,7 +111,6 @@ def performLogin():
 
 
 def shoudforceLogin():
-    return True
     try:
 #        import dateime
         lastUpdate=selfAddon.getSetting( "lastLivetvLogin" )

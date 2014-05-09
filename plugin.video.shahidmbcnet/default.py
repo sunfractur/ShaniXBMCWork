@@ -273,7 +273,7 @@ def RefreshResources(auto=False):
 	totalFile = len(resources)
 	
 	for rfile in resources:
-		progr = (fileno/totalFile)*80
+		progr = (fileno*80)/totalFile
 		fname = rfile['fname']
 		remoteUrl=None
 		try:
@@ -294,7 +294,7 @@ def RefreshResources(auto=False):
 			pDialog.update(20+progr, 'imported ...'+fname)
 		else:
 			pDialog.update(20+progr, 'Failed..zero byte.'+fname)
-        fileno+=1
+		fileno+=1
 	pDialog.close()
 	dialog = xbmcgui.Dialog()
 	ok = dialog.ok('XBMC', 'Download finished. Close close Addon and come back')
