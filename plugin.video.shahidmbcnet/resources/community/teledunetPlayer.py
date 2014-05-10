@@ -12,9 +12,12 @@ import sys
 import CustomPlayer
 
 
-def PlayStream(sourceSoup, urlSoup, name, url):
+def PlayStream(sourceEtree, urlSoup, name, url):
 	try:
 		channelId = urlSoup.url.text
+		pDialog = xbmcgui.DialogProgress()
+		pDialog.create('XBMC', 'Communicating with Teledunet')
+		pDialog.update(10, 'fetching channel page')
 		if 1==1:
 			newURL='http://www.teledunet.com/mobile/?con'
 			print 'newURL',newURL
@@ -32,14 +35,15 @@ def PlayStream(sourceSoup, urlSoup, name, url):
 				rtmp='rtmp://%s/%s'%(rtmp,channelId)
 			except:
 				rtmp='rtmp://5.135.134.110:1935/teledunet/%s'%(channelId)
-
-		liveLink= sourceSoup.rtmpstring.text;
+		pDialog.update(80, 'trying to play')
+		liveLink= sourceEtree.findtext('rtmpstring');
 
 		print 'rtmpstring',liveLink,rtmp
 #		liveLink=liveLink%(rtmp,channelId,match,channelId,channelId)
 		liveLink=liveLink%(rtmp,channelId,timesegment,channelId)
 		name+='-Teledunet'
 		print 'liveLink',liveLink
+		pDialog.close()
 		listitem = xbmcgui.ListItem( label = str(name), iconImage = "DefaultVideo.png", thumbnailImage = xbmc.getInfoImage( "ListItem.Thumb" ), path=liveLink )
 		player = CustomPlayer.MyXBMCPlayer()
 		#xbmc.Player().play( liveLink,listitem)

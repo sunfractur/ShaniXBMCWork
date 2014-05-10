@@ -24,7 +24,7 @@ addonArt = os.path.join(addonPath,'resources/images')
 communityStreamPath = os.path.join(addonPath,'resources/community')
 
 
-def PlayStream(sourceSoup, urlSoup, name, url):
+def PlayStream(sourceEtree, urlSoup, name, url):
 	try:
 		playpath=urlSoup.chnumber.text
 		pDialog = xbmcgui.DialogProgress()
@@ -36,7 +36,7 @@ def PlayStream(sourceSoup, urlSoup, name, url):
 			pDialog.update(40, 'Refreshing Login')
 			code=getcode(True);
 			print 'secondCode',code
-		liveLink= sourceSoup.rtmpstring.text;
+		liveLink= sourceEtree.findtext('rtmpstring')
 		pDialog.update(80, 'Login Completed, now playing')
 		print 'rtmpstring',liveLink
 		#liveLink=liveLink%(playpath,match)
