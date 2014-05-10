@@ -350,7 +350,7 @@
 </streaminginfo>
 
 <streaminginfo>
-		<cname>Rotana Cinema</cname>
+		<cname>Rotana cinema</cname>
 <item>
 <title>Rotana Cinema LOW(FILMON SOURCE)</title>
 <link>rtmp://$doregex[url] app=live/$doregex[key] playpath=2615.low.stream swfUrl=http://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf pageUrl=http://www.filmon.com live=true timeout=15</link>
@@ -369,7 +369,7 @@
 </streaminginfo>
 
 <streaminginfo>
-		<cname>Rotana Cinema</cname>
+		<cname>Rotana cinema</cname>
 <item>
 <title>Rotana Cinema HIGH(FILMON SOURCE)</title>
 <link>rtmp://$doregex[url] app=live/$doregex[key] playpath=2615.high.stream swfUrl=http://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf pageUrl=http://www.filmon.com live=true timeout=15</link>
