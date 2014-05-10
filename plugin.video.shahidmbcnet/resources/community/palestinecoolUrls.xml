@@ -1,40 +1,5 @@
 
 <streamingInfos>
-	<streaminginfo>
-		<cname>Melody Hits</cname>
-
-		<item>
-			<title>Melody Hits youtube</title>
-			<thumbnail>https://lh3.ggpht.com/-DE3GqoUaC4g/UuNmaROcywI/AAAAAAAABDM/trn-g__hU7M/s1600/melody_hits.png</thumbnail>
-			<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=FBBLhRgrw0o</link>
-		</item>
-	</streaminginfo>
-	
-
-	<streaminginfo>
-		<cname>Melody Hits</cname>
-
-		<item>
-			<title>Melody Hits .24 sab9a</title>
-			<thumbnail>https://lh3.ggpht.com/-DE3GqoUaC4g/UuNmaROcywI/AAAAAAAABDM/trn-g__hU7M/s1600/melody_hits.png</thumbnail>
-			<link>http://38.96.148.24//MelodyHits/MHits_576p/playlist.m3u8</link>
-		</item>
-	</streaminginfo>
-
-	<streaminginfo>
-		<cname>Melody Arabia</cname>
-
-		<item>
-			<title>Melody arabia HD.24 sab9a</title>
-			<thumbnail>http://www.lyngsat-logo.com/hires/mm/melody_arabia.png</thumbnail>
-			<link>http://38.96.148.24/MelodyArabia/MArabia_576p/playlist.m3u8</link>
-		</item>
-	</streaminginfo>
-
-
-
-
-
 
 	<streaminginfo>
 		<cname>Al Jazeera America</cname>
@@ -460,23 +425,6 @@
 <thumbnail>http://4.bp.blogspot.com/-To19LCENgNw/T5b78zj06PI/AAAAAAAAASQ/4ppgQO6XRv0/s1600/Rotana+Classic.jpg</thumbnail>
 </item>
 </streaminginfo>
-
-<streaminginfo>
-		<cname>Melody Aflem</cname>
-<item> 
-<title>Melody Aflam (Alternative Source)</title>
-<link>rtmp://38.96.148.24/MelodyAflam playpath=MAflam_576p swfUrl=http://www.melody.net/flowplayer/flowplayer.commercial-3.2.16.swf pageUrl=http://www.melody.net/pages/view/id/1 live=1 timeout=15</link>  
-</item>
-</streaminginfo>
-
-<streaminginfo>
-		<cname>Melody Classic</cname>
-<item> 
-<title>Melody Classic (Alternative Source)</title>
-<link>rtmp://38.96.148.24/MelodyClassic playpath=MClassic_576p swfUrl=http://www.melody.net/flowplayer/flowplayer.commercial-3.2.16.swf live=1 pageUrl=http://www.melody.net/halilou.com live=1 timeout=15</link> 
-</item>
-</streaminginfo>
-
 
 
 <streaminginfo>
