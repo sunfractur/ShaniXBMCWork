@@ -331,6 +331,10 @@ def removeLoginFile():
 		COOKIEFILE = communityStreamPath+'/livePlayerLoginCookie.lwp'
 		os.remove(COOKIEFILE)
 	except: pass
+	try:
+		COOKIEFILE = communityStreamPath+'/teletdunetPlayerLoginCookie.lwp'
+		os.remove(COOKIEFILE)
+	except: pass
 
 def ShowSettings(Fromurl):
 	selfAddon.openSettings()
