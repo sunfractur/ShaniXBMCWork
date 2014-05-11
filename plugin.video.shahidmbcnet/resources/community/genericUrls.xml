@@ -1,50 +1,52 @@
 <streamingInfos>
 
 <streaminginfo>
-<cname>Melody Drama</cname>
-<item>
-<title>24</title>
-<link>http://38.96.148.24//MelodyDrama/MDrama_576p/playlist.m3u8</link>
-</item>
-</streaminginfo>
-<streaminginfo>
-<cname>Melody Drama</cname>
-<item>
-<title>26</title>
-<link>http://38.96.148.24//MelodyDrama/MDrama_576p/playlist.m3u8</link>
-</item>
+   	<cname>Melody Drama</cname>
+	<item>
+	<title>24</title>
+	<link>http://38.96.148.24//MelodyDrama/MDrama_576p/playlist.m3u8</link>
+	</item>
 </streaminginfo>
 
 <streaminginfo>
-<cname>Melody Classic</cname>
-<item>
-<title>24</title>
-<link>http://38.96.148.24//MelodyClassic/MClassic_576p/playlist.m3u8</link>
-</item>
+	<cname>Melody Drama</cname>
+	<item>
+	<title>26</title>
+	<link>http://38.96.148.24//MelodyDrama/MDrama_576p/playlist.m3u8</link>
+	</item>
 </streaminginfo>
 
 <streaminginfo>
-<cname>Melody Classic</cname>
-<item>
-<title>26</title>
-<link>http://38.96.148.26//MelodyClassic/MClassic_576p/playlist.m3u8</link>
-</item>
+	<cname>Melody Classic</cname>
+	<item>
+	<title>24</title>
+	<link>http://38.96.148.24//MelodyClassic/MClassic_576p/playlist.m3u8</link>
+	</item>
 </streaminginfo>
 
 <streaminginfo>
-<cname>Melody Aflem</cname>
-<item>
-<title>24</title>
-<link>http://38.96.148.24//MelodyAflam/MAflam_576p/playlist.m3u8</link>
-</item>
+	<cname>Melody Classic</cname>
+	<item>
+	<title>26</title>
+	<link>http://38.96.148.26//MelodyClassic/MClassic_576p/playlist.m3u8</link>
+	</item>
 </streaminginfo>
+
 <streaminginfo>
-<cname>Melody Aflem</cname>
-<item>
-<title>26</title>
-<link>http://38.96.148.26//MelodyAflam/MAflam_576p/playlist.m3u8</link>
-</item>
+	<cname>Melody Aflem</cname>
+	<item>
+	<title>24</title>
+	<link>http://38.96.148.24//MelodyAflam/MAflam_576p/playlist.m3u8</link>
+	</item>
 </streaminginfo>
+
+<streaminginfo>
+	<cname>Melody Aflem</cname>
+	<item>
+	<title>26</title>
+	<link>http://38.96.148.26//MelodyAflam/MAflam_576p/playlist.m3u8</link>
+	</item>
+	</streaminginfo>
 
 <streaminginfo>
 		<cname>Maghreb24 Entertainment</cname>	
