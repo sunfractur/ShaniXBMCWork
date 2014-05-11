@@ -1,6 +1,15 @@
 <streamingInfos>
 
 <streaminginfo>
+   	<cname>Sama Cinema</cname>
+   	<title>Sama Cinema</title>
+	<item>
+	<link>http://cdn-streamer1.magictvbox.com/live/10144.stream/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+
+
+<streaminginfo>
    	<cname>Melody Drama</cname>
 	<item>
 	<title>24</title>
