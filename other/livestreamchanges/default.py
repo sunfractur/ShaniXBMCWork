@@ -84,6 +84,7 @@ def getSources():
             addDir('Community Files','community_files',16,icon,FANART,'','','','')
         if os.path.exists(source_file)==True:
             sources = json.loads(open(source_file,"r").read())
+            print 'sources',sources
             if len(sources) > 1:
                 for i in sources:
                     ## for pre 1.0.8 sources
@@ -255,7 +256,7 @@ def getCommunitySources(browse=False):
 
 
 def getSoup(url):
-        if url.startswith('http://'):
+        if url.startswith('http://') or url.startswith('https://'):
             data = makeRequest(url)
         else:
             if xbmcvfs.exists(url):
@@ -445,6 +446,11 @@ def getItems(items,fanart):
             except:
                 addon_log('Error <link> element, Passing:'+name.encode('utf-8', 'ignore'))
                 continue
+            isXMLSource=False
+
+            try:
+                isXMLSource = not item('isxmlsource')[0].string==None
+            except: pass
             
             try:
                 thumbnail = item('thumbnail')[0].string
@@ -552,14 +558,18 @@ def getItems(items,fanart):
                     playlist = []
                     for i in url:
                         playlist.append(i)
-                    if addon.getSetting('add_playlist') == "false":
-                        for i in url:
-                            alt += 1
-                            addLink(i,'%s) %s' %(alt, name.encode('utf-8', 'ignore')),thumbnail,fanArt,desc,genre,date,True,playlist,regexs,total)
+                    if addon.getSetting('add_playlist') == "false":                    
+                            for i in url:
+                                alt += 1
+                                addLink(i,'%s) %s' %(alt, name.encode('utf-8', 'ignore')),thumbnail,fanArt,desc,genre,date,True,playlist,regexs,total)                            
                     else:
                         addLink('', name.encode('utf-8', 'ignore'),thumbnail,fanArt,desc,genre,date,True,playlist,regexs,total)
                 else:
-                    addLink(url[0],name.encode('utf-8', 'ignore'),thumbnail,fanArt,desc,genre,date,True,None,regexs,total)
+                    if not isXMLSource:    
+                        addLink(url[0],name.encode('utf-8', 'ignore'),thumbnail,fanArt,desc,genre,date,True,None,regexs,total)
+                    else: 
+                        addDir(name.encode('utf-8'),url[0].encode('utf-8'),1,thumbnail,fanart,desc,genre,date,None,'source')
+                        
                     #print 'success'
             except:
                 addon_log('There was a problem adding item - '+name.encode('utf-8', 'ignore'))
@@ -654,6 +664,7 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
 
                     response.close()
                     cachedPages[m['page']] = link
+                    #print link
                     print 'store link for',m['page'],forCookieJarOnly
                     if forCookieJarOnly:
                         return cookieJar# do nothing
