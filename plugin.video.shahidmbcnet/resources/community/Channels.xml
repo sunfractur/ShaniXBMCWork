@@ -1,4 +1,17 @@
 <channels>
+
+<channel>
+        <cname>OSN Ya Hala +2</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/oo/osn_ya_hala_hd_plus2.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+           
+            <category>drama</category>
+        </assignedcategory>
+    </channel>
+    <channel>
+    
+    
     <channel>
         <cname>Sama Cinema</cname>
         <imageurl>http://s18.postimg.org/cradfbeo9/samacinema.jpg</imageurl>
