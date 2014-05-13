@@ -5,12 +5,9 @@
         <imageurl>http://www.lyngsat-logo.com/hires/oo/osn_ya_hala_hd_plus2.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-           
-            <category>drama</category>
+        <category>drama</category>
         </assignedcategory>
     </channel>
-    <channel>
-    
     
     <channel>
         <cname>Sama Cinema</cname>
