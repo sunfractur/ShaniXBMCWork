@@ -5,17 +5,13 @@
 <link>http://cdnehlsdubaisports3.endavomedia.com/smil:dmilivedubaisports3.smil/manifest.m3u8</link>
 <thumbnail></thumbnail>
 </item>
-
 <item>
 <title>suchtv</title>
 
-<link>rtmp://cdn.ebound.tv/tv?wmsAuthSign=/suchtv app=tv?wmsAuthSign=?$doregex[auth] swfurl=http://www.eboundservices.com/live/v6/player.swf?domain=&amp;channel=suchtv&amp;country=GB pageUrl=http://www.eboundservices.com/iframe/newads/iframe.php?stream=suchtv tcUrl=rtmp://cdn.ebound.tv/tv?wmsAuthSign=?$doregex[auth] live=true  timeout=15</link>
-<regex>
-<name>auth</name>
-<expres>=(.*)<expres>
-<page>http://eboundservices.com/flashplayerhash/index.php</page>
-<referer>http://www.eboundservices.com</referer>
-<post>username:hash</post>
-</ignorecache>
-</regex>
+
+<item>
+<title>BBC1</title>
+<link>plugin://plugin.video.f4mTester/?url=http%3A%2F%2Fzaphod-live.bbc.co.uk.edgesuite.net%2Fhds-live%2Flivepkgr%2F_definst_%2Fbbc1%2Fbbc1_1500.f4m&amp;mode=play&amp;name=bbc1+%28uk%29+1500kbps</link>
+</item> 
+
 </item>
