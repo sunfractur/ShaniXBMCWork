@@ -21,7 +21,8 @@ selfAddon = xbmcaddon.Addon(id=addon_id)
 addonPath = xbmcaddon.Addon().getAddonInfo("path")
 addonArt = os.path.join(addonPath,'resources/images')
 communityStreamPath = os.path.join(addonPath,'resources/community')
-
+COOKIEFILE = communityStreamPath+'/teletdunetPlayerLoginCookie.lwp'
+		
 def PlayStream(sourceEtree, urlSoup, name, url):
 	try:
 		channelId = urlSoup.url.text
@@ -30,25 +31,29 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 		pDialog.update(10, 'fetching channel page')
 		loginName=selfAddon.getSetting( "teledunetTvLogin" )
 
-		if not (loginName==None or loginName==""):
-			cookieJar,loginPerformed= getCookieJar(shoudforceLogin())
-			if cookieJar and not loginPerformed:
-				print 'adding cookie jar'
-				now_datetime=datetime.datetime.now()
-				selfAddon.setSetting( id="lastteledunetLogin" ,value=now_datetime.strftime("%Y-%m-%d %H:%M:%S"))
-				cookie_handler = urllib2.HTTPCookieProcessor(cookieJar)
-				opener = urllib2.build_opener(cookie_handler, urllib2.HTTPBasicAuthHandler(), urllib2.HTTPHandler())
-				opener = urllib2.install_opener(opener)
-			
+		if not loginName=="":
+			if shouldforceLogin():
+				if performLogin():
+					print 'done login'
+				else:
+					print 'login failed??'
+			else:
+				print 'Login not forced.. perhaps reusing the session'
+		else:
+			print 'login name not defined'
+		print 'ooops'
+		
+
 		if 1==1:
 			newURL='http://www.teledunet.com/mobile/?con'
 			print 'newURL',newURL
-			req = urllib2.Request(newURL)
-			req.add_header('User-Agent','Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36')
-			req.add_header('Referer',newURL)
-			response = urllib2.urlopen(req)
-			link=response.read()
-			response.close()
+			#req = urllib2.Request(newURL)
+			#req.add_header('User-Agent','Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36')
+			#req.add_header('Referer',newURL)
+			#response = urllib2.urlopen(req)
+			#link=response.read()
+			#response.close()
+			link=getUrl(newURL, getCookieJar())
 			match =re.findall('aut=\'\?id0=(.*?)\'', link)
 			print match
 			timesegment=match[0];str(long(float(match[0])))
@@ -60,6 +65,7 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 			except:
 				traceback.print_exc(file=sys.stdout)  
 				rtmp='rtmp://5.135.134.110:1935/teledunet/%s'%(channelId)
+				print 'error in channel using hardcoded value'
 		pDialog.update(80, 'trying to play')
 		liveLink= sourceEtree.findtext('rtmpstring');
 
@@ -89,7 +95,7 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 
 
 
-def getCookieJar(login=False):
+def getCookieJarOld(login=False):
 	try:
 		cookieJar=None
 		COOKIEFILE = communityStreamPath+'/teletdunetPlayerLoginCookie.lwp'
@@ -105,12 +111,13 @@ def getCookieJar(login=False):
 			loginPerformed=True
 		if cookieJar:
 			cookieJar.save (COOKIEFILE)
+		print 'saved'
 		return cookieJar,loginPerformed
 	except:
 		traceback.print_exc(file=sys.stdout)
 		return None, False
 	
-def performLogin():
+def performLoginOLD():
 	print 'performing login'
 	userName=selfAddon.getSetting( "teledunetTvLogin" )
 	password=selfAddon.getSetting( "teledunetTvPassword" )
@@ -133,8 +140,26 @@ def performLogin():
 	response.close()
 	return cookieJar;
 
+def performLogin():
+	try:
+		cookieJar=cookielib.LWPCookieJar()
+		userName=selfAddon.getSetting( "teledunetTvLogin" )
+		password=selfAddon.getSetting( "teledunetTvPassword" )
+		print 'Values are ',userName,password
+		post={'login_user':userName,'pass_user':password}
+		post = urllib.urlencode(post)
+		html_text=getUrl("http://www.teledunet.com/boutique/connexion.php",cookieJar,post)
+		cookieJar.save (COOKIEFILE,ignore_discard=True)
+		print 'cookie jar saved',cookieJar
+		html_text=getUrl("http://www.teledunet.com/",cookieJar)
+		cookieJar.save (COOKIEFILE,ignore_discard=True)
+		return shouldforceLogin(cookieJar)==False
+	except:
+		traceback.print_exc(file=sys.stdout)
+		return False
 
-def shoudforceLogin():
+
+def shoudforceLoginOLD():
     return True #disable login
     try:
 #        import dateime
@@ -158,6 +183,48 @@ def shoudforceLogin():
                 do_login=True
         print 'do_login',do_login
         return do_login
+    except:
+        traceback.print_exc(file=sys.stdout)
+    return True
+
+def getCookieJar():
+	cookieJar=None
+
+	try:
+		cookieJar = cookielib.LWPCookieJar()
+		cookieJar.load(COOKIEFILE,ignore_discard=True)
+	except: 
+		cookieJar=None
+	
+	if not cookieJar:
+		cookieJar = cookielib.LWPCookieJar()
+
+	return cookieJar
+
+def getUrl(url, cookieJar=None,post=None):
+
+	cookie_handler = urllib2.HTTPCookieProcessor(cookieJar)
+	opener = urllib2.build_opener(cookie_handler, urllib2.HTTPBasicAuthHandler(), urllib2.HTTPHandler())
+	#opener = urllib2.install_opener(opener)
+	req = urllib2.Request(url)
+	req.add_header('User-Agent','Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36')
+	response = opener.open(req,post)
+	link=response.read()
+	response.close()
+	return link;
+	
+def shouldforceLogin(cookieJar=None):
+    try:
+        url="http://www.teledunet.com/boutique/connexion.php"
+        if not cookieJar:
+            cookieJar=getCookieJar()
+        html_txt=getUrl(url,cookieJar)
+        
+            
+        if '<input name="login_user"' in html_txt:
+            return True
+        else:
+            return False
     except:
         traceback.print_exc(file=sys.stdout)
     return True
