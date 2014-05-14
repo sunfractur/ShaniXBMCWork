@@ -22,7 +22,8 @@ selfAddon = xbmcaddon.Addon(id=addon_id)
 addonPath = xbmcaddon.Addon().getAddonInfo("path")
 addonArt = os.path.join(addonPath,'resources/images')
 communityStreamPath = os.path.join(addonPath,'resources/community')
-
+COOKIEFILE = communityStreamPath+'/livePlayerLoginCookie.lwp'
+profile_path =  xbmc.translatePath(selfAddon.getAddonInfo('profile'))
 
 def PlayStream(sourceEtree, urlSoup, name, url):
 	try:
@@ -30,9 +31,16 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 		pDialog = xbmcgui.DialogProgress()
 		pDialog.create('XBMC', 'Communicating with Livetv')
 		pDialog.update(40, 'Attempting to Login')
-		code=getcode(shoudforceLogin());
+		if shouldforceLogin():
+			if performLogin():
+				print 'done login'
+		print 'ooops'
+
+		code=getcode();
+
 		print 'firstCode',code
-		if not code or code[0:1]=="w":
+
+		if 1==2 and not code or code[0:1]=="w":
 			pDialog.update(40, 'Refreshing Login')
 			code=getcode(True);
 			print 'secondCode',code
@@ -63,55 +71,104 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 		traceback.print_exc(file=sys.stdout)    
 	return False    
 
-def getcode(forceLogin=False):
+def getcode():
 	#url = urlSoup.url.text
-	cookieJar= getCookieJar(forceLogin)
+	cookieJar=getCookieJar()
+	link=getUrl('http://www.livetv.tn/index.php',cookieJar)
+	captcha=None
+	
+	match =re.findall('<img src=\"(.*?)\" alt=\"CAPT', link)
+	if len(match)>0:
+		captcha="http://www.livetv.tn"+match[0]
+	else:
+		captcha=None
+	solution=None
+	if captcha:
+		local_captcha = os.path.join(profile_path, "captchaC.img" )
+		localFile = open(local_captcha, "wb")
+		localFile.write(getUrl(captcha,cookieJar))
+		localFile.close()
+		solver = InputWindow(captcha=local_captcha)
+		solution = solver.get()
+
+	if solution:
+		#do captcha post
+		post={'capcode':solution}
+
+		post = urllib.urlencode(post)
+		link=getUrl("http://www.livetv.tn/",cookieJar,post)
+	
+	code =re.findall('code=([^\']*)', link)[0]
+	return code
+
+def getUrl(url, cookieJar=None,post=None):
+
 	cookie_handler = urllib2.HTTPCookieProcessor(cookieJar)
 	opener = urllib2.build_opener(cookie_handler, urllib2.HTTPBasicAuthHandler(), urllib2.HTTPHandler())
-	opener = urllib2.install_opener(opener)
-	req = urllib2.Request('http://www.livetv.tn/index.php')
+	#opener = urllib2.install_opener(opener)
+	req = urllib2.Request(url)
 	req.add_header('User-Agent','Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36')
-	response = urllib2.urlopen(req)
+	response = opener.open(req,post)
 	link=response.read()
 	response.close()
-	match =re.findall('code=([^\']*)', link)
-	return match[0]
+	return link;
 
-def getCookieJar(login=False):
+    
+def getCookieJar():
 	cookieJar=None
-	COOKIEFILE = communityStreamPath+'/livePlayerLoginCookie.lwp'
+
 	try:
 		cookieJar = cookielib.LWPCookieJar()
-		cookieJar.load(COOKIEFILE)
+		cookieJar.load(COOKIEFILE,ignore_discard=True)
 	except: 
 		cookieJar=None
 	
-	if login or not cookieJar:
-		cookieJar=performLogin()
-	if cookieJar:
-		cookieJar.save (COOKIEFILE)
+	if not cookieJar:
+		cookieJar = cookielib.LWPCookieJar()
+
 	return cookieJar
 
 	
 def performLogin():
-	print 'performing login'
-	userName=selfAddon.getSetting( "liveTvLogin" )
-	password=selfAddon.getSetting( "liveTvPassword" )
-	cookieJar = cookielib.LWPCookieJar()
-	cookie_handler = urllib2.HTTPCookieProcessor(cookieJar)
-	opener = urllib2.build_opener(cookie_handler, urllib2.HTTPBasicAuthHandler(), urllib2.HTTPHandler())
-	opener = urllib2.install_opener(opener)
-	req = urllib2.Request('http://www.livetv.tn/login.php')
-	req.add_header('User-Agent','Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36')
-	post={'pseudo':userName,'mpass':password}
-	post = urllib.urlencode(post)
-	response = urllib2.urlopen(req,post)
-	now_datetime=datetime.datetime.now()
-	selfAddon.setSetting( id="lastLivetvLogin" ,value=now_datetime.strftime("%Y-%m-%d %H:%M:%S"))
-	return cookieJar;
+	cookieJar=cookielib.LWPCookieJar()
+	html_text=getUrl("http://www.livetv.tn/login.php",cookieJar)
+	cookieJar.save (COOKIEFILE,ignore_discard=True)
+	print 'cookie jar saved',cookieJar
+
+	match =re.findall('<img src=\"(.*?)\" alt=\"Cap', html_text)
+	if len(match)>0:
+		captcha="http://www.livetv.tn/"+match[0]
+	else:
+		captcha=None
+	
+
+		
+	if captcha:
+		local_captcha = os.path.join(profile_path, "captcha.img" )
+		localFile = open(local_captcha, "wb")
+		localFile.write(getUrl(captcha,cookieJar))
+		localFile.close()
+		solver = InputWindow(captcha=local_captcha)
+		solution = solver.get()
+
+	if solution or captcha==None:
+
+		print 'performing login'
+		userName=selfAddon.getSetting( "liveTvLogin" )
+		password=selfAddon.getSetting( "liveTvPassword")
+		if captcha:
+			post={'pseudo':userName,'epass':password,'capcode':solution}
+		else:
+			post={'pseudo':userName,'epass':password}
+		post = urllib.urlencode(post)
+		getUrl("http://www.livetv.tn/login.php",cookieJar,post)
+
+		return shouldforceLogin(cookieJar)==False
+	else:
+		return False
 
 
-def shoudforceLogin():
+def shoudforceLogin2():
     try:
 #        import dateime
         lastUpdate=selfAddon.getSetting( "lastLivetvLogin" )
@@ -137,3 +194,37 @@ def shoudforceLogin():
     except:
         traceback.print_exc(file=sys.stdout)
     return True
+
+def shouldforceLogin(cookieJar=None):
+    try:
+        url="http://www.livetv.tn/index.php"
+        if not cookieJar:
+            cookieJar=getCookieJar()
+        html_txt=getUrl(url,cookieJar)
+        
+            
+        if '<a  href="http://www.livetv.tn/login.php">' in html_txt:
+            return True
+        else:
+            return False
+    except:
+        traceback.print_exc(file=sys.stdout)
+    return True
+    
+class InputWindow(xbmcgui.WindowDialog):
+    def __init__(self, *args, **kwargs):
+        self.cptloc = kwargs.get('captcha')
+        self.img = xbmcgui.ControlImage(335,30,624,60,self.cptloc)
+        self.addControl(self.img)
+        self.kbd = xbmc.Keyboard()
+
+    def get(self):
+        self.show()
+        time.sleep(3)        
+        self.kbd.doModal()
+        if (self.kbd.isConfirmed()):
+            text = self.kbd.getText()
+            self.close()
+            return text
+        self.close()
+        return False
