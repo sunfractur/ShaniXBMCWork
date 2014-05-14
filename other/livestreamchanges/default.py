@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 
 import urllib
 import urllib2
@@ -280,6 +280,15 @@ def getData(url,fanart):
         if len(soup('channels')) > 0:
             channels = soup('channel')
             for channel in channels:
+#                print channel
+
+                linkedUrl=''
+                try:
+                    linkedUrl =  channel('link')[0].string
+                    
+
+                except: pass
+
                 name = channel('name')[0].string
                 thumbnail = channel('thumbnail')[0].string
                 if thumbnail == None:
@@ -327,7 +336,11 @@ def getData(url,fanart):
                     credits = ''
 
                 try:
-                    addDir(name.encode('utf-8', 'ignore'),url.encode('utf-8'),2,thumbnail,fanArt,desc,genre,date,credits,True)
+                    if linkedUrl=='':
+                        addDir(name.encode('utf-8', 'ignore'),url.encode('utf-8'),2,thumbnail,fanArt,desc,genre,date,credits,True)
+                    else:
+                        print linkedUrl
+                        addDir(name.encode('utf-8'),linkedUrl.encode('utf-8'),1,thumbnail,fanArt,desc,genre,date,None,'source')
                 except:
                     addon_log('There was a problem adding directory from getData(): '+name.encode('utf-8', 'ignore'))
         else:
