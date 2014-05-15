@@ -98,7 +98,7 @@ def getcode():
 		post = urllib.urlencode(post)
 		link=getUrl("http://www.livetv.tn/",cookieJar,post)
 	
-	code =re.findall('code=([^\']*)', link)[0]
+	code =re.findall('code=(.*?)[\'\"]', link)[0]
 	return code
 
 def getUrl(url, cookieJar=None,post=None):
