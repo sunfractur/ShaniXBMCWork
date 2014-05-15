@@ -8,7 +8,14 @@
         <category>drama</category>
         </assignedcategory>
     </channel>
-    
+    <channel>
+        <cname>Libya 2</cname>
+        <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash2/t1.0-1/c48.22.276.276/p320x320/302788_190009627738036_1004835846_n.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>magreb</category>
+        </assignedcategory>
+    </channel>
     <channel>
         <cname>Sama Cinema</cname>
         <imageurl>http://s18.postimg.org/cradfbeo9/samacinema.jpg</imageurl>
@@ -31,6 +38,14 @@
  <channel>
         <cname>Maghreb24 Entertainment</cname>
         <imageurl>http://www.maghreb24tv.com/commons/images/m24Entertainment.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>magreb</category>
+        </assignedcategory>
+    </channel>
+    <channel>
+        <cname>alnabaa</cname>
+        <imageurl>https://scontent-a-ams.xx.fbcdn.net/hphotos-prn1/t1.0-9/1013507_275899339229364_107213502_n.jpg</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>magreb</category>
