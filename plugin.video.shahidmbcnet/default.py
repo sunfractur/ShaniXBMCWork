@@ -326,19 +326,26 @@ def RefreshResources(auto=False):
 	dialog = xbmcgui.Dialog()
 	ok = dialog.ok('XBMC', 'Download finished. Close close Addon and come back')
 
-def removeLoginFile():
+def removeLoginFile(livePlayer,TeleDunet):
 	try:
-		COOKIEFILE = communityStreamPath+'/livePlayerLoginCookie.lwp'
-		os.remove(COOKIEFILE)
+		if livePlayer:
+			COOKIEFILE = communityStreamPath+'/livePlayerLoginCookie.lwp'
+			os.remove(COOKIEFILE)
 	except: pass
 	try:
-		COOKIEFILE = communityStreamPath+'/teletdunetPlayerLoginCookie.lwp'
-		os.remove(COOKIEFILE)
+		if TeleDunet:
+			COOKIEFILE = communityStreamPath+'/teletdunetPlayerLoginCookie.lwp'
+			os.remove(COOKIEFILE)
 	except: pass
 
 def ShowSettings(Fromurl):
+	current_LivePlayerLogin=selfAddon.getSetting( "liveTvLogin" )+selfAddon.getSetting( "liveTvPassword")
+	current_teleDunetLogin=selfAddon.getSetting( "teledunetTvLogin" )+selfAddon.getSetting( "teledunetTvPassword")
 	selfAddon.openSettings()
-	removeLoginFile()
+	print 'after settings'
+	after_LivePlayerLogin=selfAddon.getSetting( "liveTvLogin" )+selfAddon.getSetting( "liveTvPassword")
+	after_teleDunetLogin=selfAddon.getSetting( "teledunetTvLogin" )+selfAddon.getSetting( "teledunetTvPassword")
+	removeLoginFile(not current_LivePlayerLogin==after_LivePlayerLogin, not current_teleDunetLogin==after_teleDunetLogin )
 	return
 	
 def AddSeries(Fromurl,pageNumber=""):
