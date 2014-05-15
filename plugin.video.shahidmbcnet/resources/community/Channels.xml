@@ -582,6 +582,15 @@
             <category>news</category>
         </assignedcategory>
     </channel>
+	
+	<channel>
+        <cname>DW Arabic</cname>
+        <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn1/t1.0-1/541845_520284407995418_1818147167_a.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>news</category>
+        </assignedcategory>
+    </channel>
 
     <channel>
         <cname>Alarabiya Ahdas</cname>
