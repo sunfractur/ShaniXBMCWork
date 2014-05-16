@@ -32,14 +32,14 @@
     <string id="32037">Disable Local source</string>
     
     <string id="32038">Check which sources to disable</string>
-    <string id="32038">Teledunet Login</string>
+    <string id="32045">Teledunet Login</string>
 	<string id="32039">Teledunet User Name</string>
     <string id="32040">Teledunet Password</string>
     <string id="32041">LiveTv Login</string>
 	<string id="32042">iptvosn Login</string>
 	<string id="32043">iptvosn User Name</string>
 	<string id="32044">iptvosn Password</string>
-	
+	<string id="32044">Premium Account Code</string>	
 	
 	
 </strings>

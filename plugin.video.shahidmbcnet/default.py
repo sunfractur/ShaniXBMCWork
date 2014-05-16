@@ -330,6 +330,7 @@ def RefreshResources(auto=False):
 def removeLoginFile(livePlayer,TeleDunet):
 	try:
 		if livePlayer:
+			selfAddon.setSetting( id="lastLivetvWorkingCode" ,value="")
 			COOKIEFILE = communityStreamPath+'/livePlayerLoginCookie.lwp'
 			os.remove(COOKIEFILE)
 	except: pass

@@ -37,90 +37,117 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 		pDialog = xbmcgui.DialogProgress()
 		pDialog.create('XBMC', 'Communicating with Livetv')
 		pDialog.update(40, 'Attempting to Login')
-		if shouldforceLogin():
-			if performLogin():
-				print 'done login'
-		print 'ooops'
+		
+		retryPlay=True
+		while retryPlay:
+			retryPlay=False
+			liveTvPremiumCode=selfAddon.getSetting( "liveTvPremiumCode" )
+			lastWorkingCode=selfAddon.getSetting( "lastLivetvWorkingCode" )
+			usingLastWorkingCode=False
+			if liveTvPremiumCode=="":
+				if lastWorkingCode=="" :
+					if shouldforceLogin():
+						if not performLogin():
+							timeD = 1000  #in miliseconds
+							line1="Login failed, still trying"
+							xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, timeD, __icon__))
+					code=getcode();
+					if code==None:
+							timeD = 2000  #in miliseconds
+							line1="Enable to get the code, livetv down? or something changed"
+							xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, timeD, __icon__))
+							return False
+				else:
+					print 'using last working code',lastWorkingCode
+					code=lastWorkingCode
+					usingLastWorkingCode=True
+			else:
+				print 'using premium code',lastWorkingCode
+				code=liveTvPremiumCode
 
-		code=getcode();
+			print 'firstCode',code
 
-		print 'firstCode',code
 
-		if 1==2:# and not code or code[0:1]=="w":
-			pDialog.update(40, 'Refreshing Login')
-			code=getcode(True);
-			print 'secondCode',code
-		liveLink= sourceEtree.findtext('rtmpstring')
-		pDialog.update(80, 'Login Completed, now playing')
-		print 'rtmpstring',liveLink
-		#liveLink=liveLink%(playpath,match)
-		liveLink=liveLink%(playpath,code)
-		name+='-LiveTV'
-		print 'liveLink',liveLink
-		listitem = xbmcgui.ListItem( label = str(name), iconImage = "DefaultVideo.png", thumbnailImage = xbmc.getInfoImage( "ListItem.Thumb" ), path=liveLink )
-		pDialog.close()
-		player = CustomPlayer.MyXBMCPlayer()
-		start = time.time()
-		#xbmc.Player().play( liveLink,listitem)
-		player.play( liveLink,listitem)
-		while player.is_active:
-			xbmc.sleep(200)
-		#return player.urlplayed
-		#done = time.time()
-		done = time.time()
-		elapsed = done - start
-		if player.urlplayed and elapsed>=3:
-			return True
-		else:
-			return False 
+			liveLink= sourceEtree.findtext('rtmpstring')
+			pDialog.update(80, 'Login Completed, now playing')
+			print 'rtmpstring',liveLink
+			if liveTvPremiumCode=="":
+				liveLink=liveLink%(playpath,code)
+				#liveLink="rtmp://tdsiptv.ddns.me/live/%s?code=%s"%(playpath,code)
+			else:
+				liveLink="rtmp://tdsiptv.ddns.me/live/%s?code=%s"%(playpath,liveTvPremiumCode)
+			name+='-LiveTV'
+			print 'liveLink',liveLink
+			listitem = xbmcgui.ListItem( label = str(name), iconImage = "DefaultVideo.png", thumbnailImage = xbmc.getInfoImage( "ListItem.Thumb" ), path=liveLink )
+			pDialog.close()
+			player = CustomPlayer.MyXBMCPlayer()
+			start = time.time()
+			#xbmc.Player().play( liveLink,listitem)
+			player.play( liveLink,listitem)
+			while player.is_active:
+				xbmc.sleep(200)
+			#return player.urlplayed
+			#done = time.time()
+			done = time.time()
+			elapsed = done - start
+			if player.urlplayed and elapsed>=3:
+				selfAddon.setSetting( id="lastLivetvWorkingCode" ,value=code)
+				return True
+			else:
+				selfAddon.setSetting( id="lastLivetvWorkingCode" ,value="")
+				retryPlay=usingLastWorkingCode
+		return False
 	except:
 		traceback.print_exc(file=sys.stdout)    
 	return False    
 
 def getcode():
-	#url = urlSoup.url.text
-	cookieJar=getCookieJar()
-	link=getUrl('http://www.livetv.tn/index.php',cookieJar)
-	captcha=None
-	
-	match =re.findall('<img src=\"(.*?)\" alt=\"CAPT', link)
-	if len(match)>0:
-		captcha="http://www.livetv.tn"+match[0]
-	else:
-		print link
+	try:
+		#url = urlSoup.url.text
+		cookieJar=getCookieJar()
+		link=getUrl('http://www.livetv.tn/index.php',cookieJar)
 		captcha=None
-	solution=None
-	
-
-	
-	if captcha:
-		local_captcha = os.path.join(profile_path, "captchaC.img" )
-		localFile = open(local_captcha, "wb")
-		localFile.write(getUrl(captcha,cookieJar))
-		localFile.close()
-		cap="";#cap=parseCaptcha(local_captcha)
-		print 'parsed cap',cap
-		if cap=="" or not len(cap)==3:
-			solver = InputWindow(captcha=local_captcha)
-			solution = solver.get()
-		else:
-			solution=cap
-
-
-	if solution:
-		#do captcha post
 		
-		postVar=re.findall('input type="text" name=\"(.*?)\"', link)[0]
-		post={postVar:solution}
-		post = urllib.urlencode(post)
-		link=getUrl("http://www.livetv.tn/",cookieJar,post)
-	
-	code =re.findall('code=(.*?)[\'\"]', link)
-	if code:
-		code=code[0]
-	else:
-		print link
-	return code
+		match =re.findall('<img src=\"(.*?)\" alt=\"CAPT', link)
+		if len(match)>0:
+			captcha="http://www.livetv.tn"+match[0]
+		else:
+			#print link
+			captcha=None
+		solution=None
+
+		if captcha:
+			local_captcha = os.path.join(profile_path, "captchaC.img" )
+			localFile = open(local_captcha, "wb")
+			localFile.write(getUrl(captcha,cookieJar))
+			localFile.close()
+			cap="";#cap=parseCaptcha(local_captcha)
+			print 'parsed cap',cap
+			if cap=="" or not len(cap)==3:
+				solver = InputWindow(captcha=local_captcha)
+				solution = solver.get()
+			else:
+				solution=cap
+
+
+		if solution:
+			#do captcha post
+			
+			postVar=re.findall('input type="text" name=\"(.*?)\"', link)[0]
+			post={postVar:solution}
+			post = urllib.urlencode(post)
+			link=getUrl("http://www.livetv.tn/",cookieJar,post)
+		
+		code =re.findall('code=(.*?)[\'\"]', link)
+		if not code==None:
+			code=code[0]
+			return code
+		else:
+			print link
+			return None
+	except:
+		traceback.print_exc(file=sys.stdout)
+	return None
 
 def parseCaptcha(filePath):
 	retVal=""
