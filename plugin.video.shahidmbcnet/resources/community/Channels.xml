@@ -1146,15 +1146,7 @@
         </assignedcategory>
     </channel>
 
-    <channel>
-        <cname>CBC Tv</cname>
-        <imageurl>http://www.teledunet.com/player/icones/cbc_drama.jpg</imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-            <category>oth</category>
-        </assignedcategory>
-    </channel>
-
+   
     <channel>
         <cname>CBC</cname>
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/cbc_zps770dbcaf.png</imageurl>
