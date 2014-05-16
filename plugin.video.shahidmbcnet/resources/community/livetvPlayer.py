@@ -13,6 +13,9 @@ import sys
 import time
 import CustomPlayer
 
+try:
+	import livetvcaptcha
+except: pass
 
 __addon__       = xbmcaddon.Addon()
 __addonname__   = __addon__.getAddonInfo('name')
@@ -21,7 +24,10 @@ addon_id = 'plugin.video.shahidmbcnet'
 selfAddon = xbmcaddon.Addon(id=addon_id)
 addonPath = xbmcaddon.Addon().getAddonInfo("path")
 addonArt = os.path.join(addonPath,'resources/images')
-communityStreamPath = os.path.join(addonPath,'resources/community')
+#communityStreamPath = os.path.join(addonPath,'resources/community')
+communityStreamPath = os.path.join(addonPath,'resources')
+communityStreamPath =os.path.join(communityStreamPath,'community')
+
 COOKIEFILE = communityStreamPath+'/livePlayerLoginCookie.lwp'
 profile_path =  xbmc.translatePath(selfAddon.getAddonInfo('profile'))
 
@@ -40,7 +46,7 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 
 		print 'firstCode',code
 
-		if 1==2 and not code or code[0:1]=="w":
+		if 1==2:# and not code or code[0:1]=="w":
 			pDialog.update(40, 'Refreshing Login')
 			code=getcode(True);
 			print 'secondCode',code
@@ -81,15 +87,23 @@ def getcode():
 	if len(match)>0:
 		captcha="http://www.livetv.tn"+match[0]
 	else:
+		print link
 		captcha=None
 	solution=None
+
+
 	if captcha:
 		local_captcha = os.path.join(profile_path, "captchaC.img" )
 		localFile = open(local_captcha, "wb")
 		localFile.write(getUrl(captcha,cookieJar))
 		localFile.close()
-		solver = InputWindow(captcha=local_captcha)
-		solution = solver.get()
+		cap=parseCaptcha(local_captcha)
+		print 'parsed cap',cap
+		if cap=="" or not len(cap)==3:
+			solver = InputWindow(captcha=local_captcha)
+			solution = solver.get()
+		else:
+			solution=cap
 
 	if solution:
 		#do captcha post
@@ -101,6 +115,14 @@ def getcode():
 	code =re.findall('code=(.*?)[\'\"]', link)[0]
 	return code
 
+def parseCaptcha(filePath):
+	retVal=""
+	try:
+
+		retVal=livetvcaptcha.getString(filePath)
+		print 'the captcha val is',retVal
+	except:  traceback.print_exc(file=sys.stdout)
+	return retVal
 def getUrl(url, cookieJar=None,post=None):
 
 	cookie_handler = urllib2.HTTPCookieProcessor(cookieJar)
@@ -148,9 +170,14 @@ def performLogin():
 		localFile = open(local_captcha, "wb")
 		localFile.write(getUrl(captcha,cookieJar))
 		localFile.close()
-		solver = InputWindow(captcha=local_captcha)
-		solution = solver.get()
+		cap=parseCaptcha(local_captcha)
+		print 'login parsed cap',cap
 
+		if cap=="" or not len(cap)==4:
+			solver = InputWindow(captcha=local_captcha)
+			solution = solver.get()
+		else:
+			solution=cap
 	if solution or captcha==None:
 
 		print 'performing login'
@@ -161,7 +188,10 @@ def performLogin():
 		else:
 			post={'pseudo':userName,'epass':password}
 		post = urllib.urlencode(post)
-		getUrl("http://www.livetv.tn/login.php",cookieJar,post)
+		
+		postpage=re.findall('<form.?action=\"(.*?)\"',html_text)
+		
+		getUrl(postpage[0],cookieJar,post)
 
 		return shouldforceLogin(cookieJar)==False
 	else:

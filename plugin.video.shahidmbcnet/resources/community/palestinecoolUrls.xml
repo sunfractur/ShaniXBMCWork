@@ -1,15 +1,6 @@
 
 <streamingInfos>
 	
-<streaminginfo>
-		<cname>Melody Hits</cname>
-
-		<item>
-			<title>Melody Hits youtube</title>
-			<thumbnail>https://lh3.ggpht.com/-DE3GqoUaC4g/UuNmaROcywI/AAAAAAAABDM/trn-g__hU7M/s1600/melody_hits.png</thumbnail>
-			<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=FBBLhRgrw0o</link>
-		</item>
-	</streaminginfo>
 	<streaminginfo>
 		<cname>Al Jazeera America</cname>
 
@@ -660,17 +651,17 @@
 <streaminginfo>
 		<cname>MBC 1</cname>
 <item>
-<title>FILMON SOURCE (not working for the moment)</title>
-<link>rtmp://$doregex[url]/live/?id=$doregex[key]/308.high.stream playpath=308.high.stream swfUrl=http://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf pageUrl=http://www.filmon.com/ live=true timeout=15 swfVfy=1</link>
+<title>FILMON SOURCE</title>
+<link>rtmp://$doregex[url]/live/?id=$doregex[key]/367.high.stream playpath=367.high.stream swfUrl=http://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf pageUrl=http://www.filmon.com/ live=true timeout=15 swfVfy=1</link>
    <regex>
      <name>url</name>
      <expres>\"qualit.*rtmp:....(.*?)\\</expres>
-     <page>http://www.filmon.com/tv/channel/export?channel_id=308</page>
+     <page>http://www.filmon.com/tv/channel/export?channel_id=367</page>
    </regex>
    <regex>
      <name>key</name>
      <expres>\"qualit.*rtmp:.*?id=(.*?)\"</expres>
-     <page>http://www.filmon.com/tv/channel/export?channel_id=308</page>
+     <page>http://www.filmon.com/tv/channel/export?channel_id=367</page>
    </regex>
 <thumbnail>http://3alkanaba.com/uploads/channels/501ec_Aflam_rotana_242.jpg</thumbnail>
 </item>
@@ -679,8 +670,8 @@
 <streaminginfo>
 		<cname>MBC Action</cname>
 <item>
-<title>FILMON SOURCE (not working for the moment)</title>
-<link>rtmp://$doregex[url]/live/?id=$doregex[key]/369.high.stream playpath=369.high.stream swfUrl=http://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf pageUrl=http://www.filmon.com/ live=true timeout=15 swfVfy=1</link>
+<title>FILMON SOURCE (down for now, get it from F.T.V.)</title>
+<link>rtmp://$doregex[url]/live/?id=$doregex[key]/369.high.stream playpath=369.high.stream swfUrl=http://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf pageUrl=http://www.filmon.com/ live=true timeout=10 swfVfy=1</link>
    <regex>
      <name>url</name>
      <expres>\"qualit.*rtmp:....(.*?)\\</expres>
@@ -695,5 +686,71 @@
 </item>
 </streaminginfo>
 
-</streamingInfos>
+<streaminginfo>
+		<cname>Melody Hits</cname>
 
+		<item>
+			<title>youtube live (down for now)</title>
+			<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=FBBLhRgrw0o</link>
+			<thumbnail>https://lh3.ggpht.com/-DE3GqoUaC4g/UuNmaROcywI/AAAAAAAABDM/trn-g__hU7M/s1600/melody_hits.png</thumbnail>
+		</item>
+</streaminginfo>
+	
+<streaminginfo>
+		<cname>Melody Aflem</cname>
+
+		<item>
+			<title>youtube live (down for now)</title>
+			<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=hao_p9Dge0g</link>
+			<thumbnail>https://lh3.ggpht.com/-DE3GqoUaC4g/UuNmaROcywI/AAAAAAAABDM/trn-g__hU7M/s1600/melody_hits.png</thumbnail>
+		</item>
+</streaminginfo>
+	<streaminginfo>
+		<cname>Melody Classic</cname>
+
+		<item>
+			<title>youtube live (down for now)</title>
+			<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=QP33rkquzac</link>
+			<thumbnail>https://lh3.ggpht.com/-DE3GqoUaC4g/UuNmaROcywI/AAAAAAAABDM/trn-g__hU7M/s1600/melody_hits.png</thumbnail>
+		</item>
+</streaminginfo>
+	<streaminginfo>
+		<cname>Melody Arabia</cname>
+
+		<item>
+			<title>youtube live (down for now)</title>
+			<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=VyRxnmfshHc</link>
+			<thumbnail>https://lh3.ggpht.com/-DE3GqoUaC4g/UuNmaROcywI/AAAAAAAABDM/trn-g__hU7M/s1600/melody_hits.png</thumbnail>
+		</item>
+</streaminginfo>
+	<streaminginfo>
+		<cname>Melody Drama</cname>
+
+		<item>
+			<title>youtube live (down for now)</title>
+			<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=bXIUyQoLug8</link>
+			<thumbnail>https://lh3.ggpht.com/-DE3GqoUaC4g/UuNmaROcywI/AAAAAAAABDM/trn-g__hU7M/s1600/melody_hits.png</thumbnail>
+		</item>
+</streaminginfo>
+	
+	<streaminginfo>
+		<cname>BBC Arabic</cname>
+
+		<item>
+			<title>Alternative Source</title>
+			<link>rtmp://hd7.lsops.net/live/ playpath=bbcarab_ar_364 swfUrl=http://static.ls-cdn.com/player/5.10/livestation-player.swf swfVfy=1 live=1</link>
+			<thumbnail>https://lh3.ggpht.com/-DE3GqoUaC4g/UuNmaROcywI/AAAAAAAABDM/trn-g__hU7M/s1600/melody_hits.png</thumbnail>
+		</item>
+</streaminginfo>
+
+	<streaminginfo>
+		<cname>Russia Alyaum</cname>
+
+		<item>
+			<title>Alternative Source</title>
+			<link>http://odna.octoshape.net/f3f5m2v4/cds/ch3_auto.smil/playlist.m3u8</link>
+			<thumbnail>https://lh3.ggpht.com/-DE3GqoUaC4g/UuNmaROcywI/AAAAAAAABDM/trn-g__hU7M/s1600/melody_hits.png</thumbnail>
+		</item>
+</streaminginfo>
+
+</streamingInfos>

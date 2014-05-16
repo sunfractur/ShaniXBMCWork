@@ -20,7 +20,10 @@ addon_id = 'plugin.video.shahidmbcnet'
 selfAddon = xbmcaddon.Addon(id=addon_id)
 addonPath = xbmcaddon.Addon().getAddonInfo("path")
 addonArt = os.path.join(addonPath,'resources/images')
-communityStreamPath = os.path.join(addonPath,'resources/community')
+#communityStreamPath = os.path.join(addonPath,'resources/community')
+communityStreamPath = os.path.join(addonPath,'resources')
+communityStreamPath =os.path.join(communityStreamPath,'community')
+
 COOKIEFILE = communityStreamPath+'/teletdunetPlayerLoginCookie.lwp'
 		
 def PlayStream(sourceEtree, urlSoup, name, url):

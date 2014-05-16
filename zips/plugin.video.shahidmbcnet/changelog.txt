@@ -1,3 +1,6 @@
+[B]Version 2.9.0[/B]
+LiveTV login catchpa support, the login session files are not deleted when you goto settings and some other tweaking. 
+
 [B]Version 2.8.3[/B]
 Small bug in teledunet, its fixed now
 [B]Version 2.8.2[/B]
