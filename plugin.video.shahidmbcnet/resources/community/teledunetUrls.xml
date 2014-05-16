@@ -359,10 +359,7 @@
 		<cname>CBC Sofra</cname>
 		<url>cbc_sofra</url>
 	</streaminginfo>
-	<streaminginfo>
-		<cname>CBC Tv</cname>
-		<url>cbc_tv</url>
-	</streaminginfo>
+
 	<streaminginfo>
 		<cname>CBC</cname>
 		<url>cbc</url>
