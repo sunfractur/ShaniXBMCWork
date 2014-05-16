@@ -10,6 +10,75 @@
     </channel>
 
     
+<channel>
+        <cname>OSN Movies Premiere HD</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/oo/osn_movies_hd.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>drama</category>
+        </assignedcategory>
+    </channel>
+	
+	<channel>
+        <cname>OSN Movies Comedy</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/oo/osn_movies_comedy_hd.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>drama</category>
+        </assignedcategory>
+    </channel>
+	<channel>
+        <cname>OSN Movies HD +2</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/oo/osn_movies_hd_plus2.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>drama</category>
+        </assignedcategory>
+    </channel>
+	<channel>
+        <cname>OSN Movies Action HD</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/oo/osn_movies_action_hd.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>drama</category>
+        </assignedcategory>
+    </channel>
+
+
+<channel>
+        <cname>OSN Yahala HD</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/oo/osn_ya_hala_hd.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>drama</category>
+        </assignedcategory>
+    </channel>
+	
+<channel>
+        <cname>OSN Yahala Drama</cname>
+        <imageurl>http://press.osn.com/logo/logos/OYA.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>drama</category>
+        </assignedcategory>
+    </channel>
+	<channel>
+        <cname>ART Hekayat</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/aa/art_hekayat.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>drama</category>
+        </assignedcategory>
+    </channel>
+	<channel>
+        <cname>ART Hekayat 2</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/aa/art_hekayat2.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>drama</category>
+        </assignedcategory>
+    </channel>
+    
     <channel>
         <cname>Sama Cinema</cname>
         <imageurl>http://s18.postimg.org/cradfbeo9/samacinema.jpg</imageurl>
