@@ -1,6 +1,24 @@
 <channels>
 
 <channel>
+        <cname>Arab Woman</cname>
+        <imageurl>http://www.talfazat.com/talfazat/marketing/images/channels/arab-woman-channel.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>cook</category>
+        </assignedcategory>
+    </channel>
+
+    <channel>
+        <cname>ETV Ethiopia</cname>
+        <imageurl>http://1.bp.blogspot.com/-m4XUFK-_cZI/UWT0ntZBbmI/AAAAAAAAAx0/MleTQ1XcI6k/s400/Ethiopian+TV+ETV.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>africa</category>
+        </assignedcategory>
+    </channel>
+    
+<channel>
         <cname>OSN Ya Hala +2</cname>
         <imageurl>http://www.lyngsat-logo.com/hires/oo/osn_ya_hala_hd_plus2.png</imageurl>
         <enabled>True</enabled>
