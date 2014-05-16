@@ -1921,6 +1921,15 @@
             <category>kids</category>
         </assignedcategory>
     </channel>
+	
+	<channel>
+        <cname>Karameesh</cname>
+        <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash3/t1.0-1/c22.22.276.276/p320x320/1176322_553192081414676_893267265_n.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>kids</category>
+        </assignedcategory>
+    </channel>
 
     <channel>
         <cname>Star Cinema</cname>
