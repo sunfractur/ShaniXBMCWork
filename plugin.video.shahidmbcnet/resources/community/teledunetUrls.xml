@@ -1,4 +1,43 @@
 <streamingInfos>
+
+
+<streaminginfo>
+<cname>OSN Movies Premiere HD</cname>
+<url>osn_moies_prem</url>
+</streaminginfo>
+
+<streaminginfo>
+<cname>OSN Movies Comedy</cname>
+<url>osn_moies_comdy</url>
+</streaminginfo>
+
+<streaminginfo>
+<cname>OSN Movies HD +2</cname>
+<url>osn_moies_2</url>
+</streaminginfo>
+
+<streaminginfo>
+<cname>OSN Movies Action HD</cname>
+<url>osn_moies_action</url>
+</streaminginfo>
+
+<streaminginfo>
+<cname>OSN Yahala HD</cname>
+<url>osn_yahala_hd</url>
+</streaminginfo>
+<streaminginfo>
+<cname>OSN Yahala Drama</cname>
+<url>osn_yahala_Drama</url>
+</streaminginfo>
+
+<streaminginfo>
+<cname>ART Hekayat</cname>
+<url>art-hek</url>
+</streaminginfo>
+<streaminginfo>
+<cname>ART Hekayat 2</cname>
+<url>art-hek2</url>
+</streaminginfo>
 <streaminginfo>
 <cname>Palestine</cname>
 <url>palestine</url>
