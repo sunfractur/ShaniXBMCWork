@@ -467,6 +467,15 @@
             <category>sports</category>
         </assignedcategory>
     </channel>
+	
+	 <channel>
+        <cname>AL AHLY</cname>
+        <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash2/t1.0-1/c0.0.320.320/p320x320/10342431_786683428017569_444476441238564112_n.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>sports</category>
+        </assignedcategory>
+    </channel>
 
     <channel>
         <cname>Abu Dhabi</cname>
@@ -1328,6 +1337,15 @@
             <category>music</category>
         </assignedcategory>
     </channel>
+	
+	<channel>
+        <cname>SHAABIYAT</cname>
+        <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn2/t1.0-1/c29.0.320.320/p320x320/1209063_427223027379685_669342624_n.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>music</category>
+        </assignedcategory>
+    </channel>
 
 	
     <channel>
@@ -1583,7 +1601,8 @@
             <category>egypt</category>
         </assignedcategory>
     </channel>
-
+	
+	
     <channel>
         <cname>Melody</cname>
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/mldi_zpse1b15543.png</imageurl>
@@ -1906,6 +1925,15 @@
     <channel>
         <cname>Star Cinema</cname>
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/strmov_zps987ece1f.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>drama</category>
+        </assignedcategory>
+    </channel>
+	
+	<channel>
+        <cname>LCD AFLAM</cname>
+        <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc3/t1.0-1/c43.21.263.263/321019_243533255779451_1204166563_n.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>drama</category>
@@ -2431,6 +2459,15 @@
             <category>egypt</category>
         </assignedcategory>
     </channel>
+	
+	<channel>
+        <cname>AlQahera W Elnas</cname>
+        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/khera_zps73a890a9.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>egypt</category>
+        </assignedcategory>
+    </channel>
 
     <channel>
         <cname>Al Nahar 2</cname>
@@ -2637,6 +2674,24 @@
             <category>kids</category>
         </assignedcategory>
     </channel>
+	
+	<channel>
+        <cname>E 1 KIDS</cname>
+        <imageurl>http://www.ejunior.ae/en/system/images/generic/select-master.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>kids</category>
+        </assignedcategory>
+    </channel>
+	
+	<channel>
+        <cname>SM SM KIDS</cname>
+        <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn2/t1.0-1/c12.12.155.155/1186794_532214620178823_985146457_a.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>kids</category>
+        </assignedcategory>
+    </channel>
 
     <channel>
         <cname>France 24 FR</cname>
@@ -2803,6 +2858,15 @@
     <channel>
         <cname>M3Ali Tv</cname>
         <imageurl>http://www.m3ali.tv/images23/index_06.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>islam</category>
+        </assignedcategory>
+    </channel>
+	
+	<channel>
+        <cname>TIME CORAN</cname>
+        <imageurl>https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSvCuUovOLzdsi6maLgdUC1r5TZ80U4mZ8H9kVzBADkbxx65ljQ</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>islam</category>
