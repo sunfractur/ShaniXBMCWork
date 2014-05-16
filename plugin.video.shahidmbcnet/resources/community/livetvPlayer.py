@@ -90,14 +90,15 @@ def getcode():
 		print link
 		captcha=None
 	solution=None
+	
 
-
+	
 	if captcha:
 		local_captcha = os.path.join(profile_path, "captchaC.img" )
 		localFile = open(local_captcha, "wb")
 		localFile.write(getUrl(captcha,cookieJar))
 		localFile.close()
-		cap=parseCaptcha(local_captcha)
+		cap="";#cap=parseCaptcha(local_captcha)
 		print 'parsed cap',cap
 		if cap=="" or not len(cap)==3:
 			solver = InputWindow(captcha=local_captcha)
@@ -105,14 +106,20 @@ def getcode():
 		else:
 			solution=cap
 
+
 	if solution:
 		#do captcha post
-		post={'capcode':solution}
-
+		
+		postVar=re.findall('input type="text" name=\"(.*?)\"', link)[0]
+		post={postVar:solution}
 		post = urllib.urlencode(post)
 		link=getUrl("http://www.livetv.tn/",cookieJar,post)
 	
-	code =re.findall('code=(.*?)[\'\"]', link)[0]
+	code =re.findall('code=(.*?)[\'\"]', link)
+	if code:
+		code=code[0]
+	else:
+		print link
 	return code
 
 def parseCaptcha(filePath):
