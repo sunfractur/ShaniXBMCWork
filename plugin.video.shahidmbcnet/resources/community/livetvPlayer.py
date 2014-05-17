@@ -108,7 +108,7 @@ def getcode():
 		link=getUrl('http://www.livetv.tn/index.php',cookieJar)
 		captcha=None
 		
-		match =re.findall('<img src=\"(.*?)\" alt=\"CAPT', link)
+		match =re.findall('\"(\/simple*.php.*?)\"', link)
 		if len(match)>0:
 			captcha="http://www.livetv.tn"+match[0]
 		else:
@@ -188,12 +188,12 @@ def getCookieJar():
 
 	
 def performLogin():
-	cookieJar=cookielib.LWPCookieJar()
+	cookieJar=getCookieJar()
 	html_text=getUrl("http://www.livetv.tn/login.php",cookieJar)
 	cookieJar.save (COOKIEFILE,ignore_discard=True)
 	print 'cookie jar saved',cookieJar
 
-	match =re.findall('<img src=\"(.*?)\" alt=\"Cap', html_text)
+	match =re.findall('src=\"(capimg.*?)\"\/', html_text)
 	if len(match)>0:
 		captcha="http://www.livetv.tn/"+match[0]
 	else:
@@ -209,7 +209,7 @@ def performLogin():
 		cap=parseCaptcha(local_captcha)
 		print 'login parsed cap',cap
 
-		if cap=="" or not len(cap)==4:
+		if 1==2:#cap=="" or not len(cap)==4:
 			solver = InputWindow(captcha=local_captcha)
 			solution = solver.get()
 		else:
