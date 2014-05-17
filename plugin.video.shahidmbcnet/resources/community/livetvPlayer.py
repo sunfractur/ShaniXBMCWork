@@ -134,12 +134,22 @@ def getcode():
 		if solution:
 			#do captcha post
 			
-			postVar=re.findall('input\s*name=\"(.*?)\".*autof', link)[0]
+			js=re.findall('unescape\(\'(.*?)\'',link)
+			print 'js',js
+			if (not js==None) and len(js)>0:
+				for j in js:
+					print urllib.unquote(j)
+					link=link.replace(j ,urllib.unquote(j))
+			postVar=re.findall('input\s*.*name=\"(.*?)\".*autof', link)[0]#on man! find something which is not possible in python!
+																		#if you think i would give up due to changes... then you don't know me
+																		#hint! dont focus on the addon, focus on your setup, there are better ways to defeat me!
+																		# let me know if you need help!
 			postVar2=re.findall('input type=\"text\" name=\"(.*?)\"', link) #additional textbox
 			post={postVar:solution}
 			print 'pst',post
 			if len(postVar2)>0:
-				post[postVar2[0]]=""
+				if postVar2[0] not in post:
+					post[postVar2[0]]=""
 			print 'pst',post
 			post = urllib.urlencode(post)
 			link=getUrl("http://www.livetv.tn/index.php",cookieJar,post)
