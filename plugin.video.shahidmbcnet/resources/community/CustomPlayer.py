@@ -8,11 +8,11 @@ class MyXBMCPlayer(xbmc.Player):
         self.urlplayed = False
         print "#XBMCPlayer#"
     
-    def play(self, url, listitem):
-        print 'Now im playing... %s' % url
-        self.is_active = True
-        self.urlplayed = False
-        xbmc.Player(xbmc.PLAYER_CORE_AUTO).play(url, listitem)
+    #def play(self, url, listitem):
+    #   print 'Now im playing... %s' % url
+    #    self.is_active = False
+    #    self.urlplayed = False
+    #    xbmc.Player(xbmc.PLAYER_CORE_AUTO).play(url, listitem)
 
     def onPlayBackStarted( self ):
         print "#Playback Started#"

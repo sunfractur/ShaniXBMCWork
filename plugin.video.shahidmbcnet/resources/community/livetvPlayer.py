@@ -108,7 +108,7 @@ def getcode():
 		link=getUrl('http://www.livetv.tn/index.php',cookieJar)
 		captcha=None
 		
-		match =re.findall('\"(\/simple*.php.*?)\"', link)
+		match =re.findall('<img src=\"(\/simple-php-captcha\.php\?_CAPTCHA\&.*?)\">', link) #keep doing it :), you think i will get bored? lols
 		if len(match)>0:
 			captcha="http://www.livetv.tn"+match[0]
 		else:
@@ -119,6 +119,7 @@ def getcode():
 		if captcha:
 			local_captcha = os.path.join(profile_path, "captchaC.img" )
 			localFile = open(local_captcha, "wb")
+			print ' c capurl',captcha
 			localFile.write(getUrl(captcha,cookieJar))
 			localFile.close()
 			cap="";#cap=parseCaptcha(local_captcha)
@@ -133,8 +134,13 @@ def getcode():
 		if solution:
 			#do captcha post
 			
-			postVar=re.findall('input type="text" name=\"(.*?)\"', link)[0]
+			postVar=re.findall('input\s*name=\"(.*?)\".*autof', link)[0]
+			postVar2=re.findall('input type=\"text\" name=\"(.*?)\"', link) #additional textbox
 			post={postVar:solution}
+			print 'pst',post
+			if len(postVar2)>0:
+				post[postVar2[0]]=""
+			print 'pst',post
 			post = urllib.urlencode(post)
 			link=getUrl("http://www.livetv.tn/index.php",cookieJar,post)
 			if link=="":
@@ -204,6 +210,7 @@ def performLogin():
 	if captcha:
 		local_captcha = os.path.join(profile_path, "captcha.img" )
 		localFile = open(local_captcha, "wb")
+		print 'capurl',captcha
 		localFile.write(getUrl(captcha,cookieJar))
 		localFile.close()
 		cap=parseCaptcha(local_captcha)
