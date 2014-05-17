@@ -136,10 +136,12 @@ def getcode():
 			postVar=re.findall('input type="text" name=\"(.*?)\"', link)[0]
 			post={postVar:solution}
 			post = urllib.urlencode(post)
-			link=getUrl("http://www.livetv.tn/",cookieJar,post)
-		
+			link=getUrl("http://www.livetv.tn/index.php",cookieJar,post)
+			if link=="":
+				link=getUrl("http://www.livetv.tn/index.php",cookieJar)
 		code =re.findall('code=(.*?)[\'\"]', link)
-		if not code==None:
+		if (not code==None) and len(code)>0:
+			#print 'print link is ',link
 			code=code[0]
 			return code
 		else:
