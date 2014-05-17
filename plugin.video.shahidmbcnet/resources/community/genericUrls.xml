@@ -1,6 +1,14 @@
 <streamingInfos>
 
 <streaminginfo>
+        <cname>sunnah TV</cname>
+	<item>
+	<title>Original Source</title>
+	<link>rtmp://myafricanmega.tulix.tv:1935/map-alsunnah/map-alsunnah.stream</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
         <cname>Dubai One</cname>
 	<item>
 	<title>Original Source</title>
