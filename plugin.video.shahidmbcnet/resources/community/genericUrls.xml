@@ -1,4 +1,21 @@
 <streamingInfos>
+
+<streaminginfo>
+        <cname>Dubai One</cname>
+	<item>
+	<title>Original Source</title>
+	<link>http://cdnedvrdubaione.endavomedia.com/smil:dmilivedubaione.smil/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+        <cname>Ahlulbayt</cname>
+	<item>
+	<title>Original Source</title>
+	<link>rtmp://46.23.67.34:1935/live/livestream1.sdp</link>
+	</item>
+</streaminginfo>
+
 <streaminginfo>
         <cname>TRT Arabic</cname>
 	<item>
