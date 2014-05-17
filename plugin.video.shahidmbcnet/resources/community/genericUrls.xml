@@ -1,5 +1,11 @@
 <streamingInfos>
-
+<streaminginfo>
+   	<cname>Baraem</cname>
+	<item>
+	<title>Hassuni</title>
+	<link>rtmp://AgendaStreamer2.qna.org.qa/brm/brm</link>
+	</item>
+</streaminginfo>
 <streaminginfo>
    	<cname>Sama Cinema</cname>
 	<item>
