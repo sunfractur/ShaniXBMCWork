@@ -1,4 +1,31 @@
 <channels>
+<channel>
+        <cname>Syria Nour</cname>
+        <imageurl>http://live.rtv.gov.sy/images/nour.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>islam</category>
+        </assignedcategory>
+</channel>
+
+<channel>
+        <cname>Syria Talaqie</cname>
+        <imageurl>http://live.rtv.gov.sy/images/talaqie.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>sham</category>
+        </assignedcategory>
+</channel>
+
+
+<channel>
+        <cname>Syria Sedu</cname>
+        <imageurl>http://live.rtv.gov.sy/images/sedu.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>sham</category>
+        </assignedcategory>
+</channel>
 
 <channel>
         <cname>Arab Woman</cname>
