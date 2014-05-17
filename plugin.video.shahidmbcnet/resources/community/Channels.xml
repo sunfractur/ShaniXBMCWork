@@ -1,4 +1,14 @@
 <channels>
+
+<channel>
+        <cname>TRT Arabic</cname>
+        <imageurl>http://www.trt.net.tr/img/logolar/2012/trtarapca_b.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>news</category>
+        </assignedcategory>
+    </channel>
+    
 <channel>
         <cname>Syria Nour</cname>
         <imageurl>http://live.rtv.gov.sy/images/nour.jpg</imageurl>
