@@ -66,9 +66,16 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 				#if '5.135.134.110' in rtmp and 'bein' in channelId:
 				#	rtmp=rtmp.replace('5.135.134.110','www.teledunet.com')
 			except:
-				traceback.print_exc(file=sys.stdout)  
-				rtmp='rtmp://5.135.134.110:1935/teledunet/%s'%(channelId)
-				print 'error in channel using hardcoded value'
+				traceback.print_exc(file=sys.stdout)
+				print 'trying backup'
+				try:
+					link=getUrl("https://dl.dropboxusercontent.com/s/ku3n4n53qphqnmn/Frame-code.txt", getCookieJar())
+					rtmp =re.findall(('rtmp://(.*?)/%s\''%channelId), link)[0]
+					rtmp='rtmp://%s/%s'%(rtmp,channelId)
+				except:
+					traceback.print_exc(file=sys.stdout)
+					rtmp='rtmp://5.135.134.110:1935/teledunet/%s'%(channelId)
+					print 'error in channel using hardcoded value'
 		pDialog.update(80, 'trying to play')
 		liveLink= sourceEtree.findtext('rtmpstring');
 
@@ -231,3 +238,4 @@ def shouldforceLogin(cookieJar=None):
     except:
         traceback.print_exc(file=sys.stdout)
     return True
+
