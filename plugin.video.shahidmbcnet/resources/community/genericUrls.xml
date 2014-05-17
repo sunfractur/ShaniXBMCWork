@@ -1,8 +1,57 @@
 <streamingInfos>
+
+<streaminginfo>
+   	<cname>Syria Nour</cname>
+	<item>
+	<title>Original Source</title>
+	<link>http://live.rtv.gov.sy/live/Nour/Nour_LQ.m3u8</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+   	<cname>Syria Talaqie</cname>
+	<item>
+	<title>Original Source</title>
+	<link>http://live.rtv.gov.sy/live/Talaqie/Talaqie_LQ.m3u8</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+   	<cname>Syria</cname>
+	<item>
+	<title>Original Source</title>
+	<link>http://82.137.248.16:1935/Sat/livestream1/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+   	<cname>Syria Sedu</cname>
+	<item>
+	<title>Original Source</title>
+	<link>http://live.rtv.gov.sy/live/SEdu/SEdu_LQ.m3u8</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+   	<cname>Syria Drama</cname>
+	<item>
+	<title>Original Source</title>
+	<link>http://live.rtv.gov.sy/live/Drama/Drama_MQ.m3u8</link>
+	</item>
+</streaminginfo>
+
+
+<streaminginfo>
+   	<cname>Al Ikhbaria</cname>
+	<item>
+	<title>Original Source</title>
+	<link>http://live.rtv.gov.sy/live/Snews/Snews_DVR.m3u8</link>
+	</item>
+</streaminginfo>
+
 <streaminginfo>
    	<cname>Baraem</cname>
 	<item>
-	<title>Hassuni</title>
+	<title>Original Source</title>
 	<link>rtmp://AgendaStreamer2.qna.org.qa/brm/brm</link>
 	</item>
 </streaminginfo>
