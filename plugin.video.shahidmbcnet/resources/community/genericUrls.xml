@@ -1,6 +1,15 @@
 <streamingInfos>
 
 <streaminginfo>
+        <cname>Quran TV ksa</cname>
+	<item>
+	<title>Original Source</title>
+	<link>rtmp://208.75.224.165:1935/map-alquraan/map-alquraan.stream</link>
+	</item>
+</streaminginfo>
+
+
+<streaminginfo>
         <cname>sunnah TV</cname>
 	<item>
 	<title>Original Source</title>
