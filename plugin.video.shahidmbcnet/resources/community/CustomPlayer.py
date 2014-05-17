@@ -8,16 +8,16 @@ class MyXBMCPlayer(xbmc.Player):
         self.urlplayed = False
         print "#XBMCPlayer#"
     
-    def onPlayBackPaused( self ):
-        xbmc.log("#Im paused#")
-        
-    def onPlayBackResumed( self ):
-        xbmc.log("#Im Resumed #")
-        
+    def play(self, url, listitem):
+        print 'Now im playing... %s' % url
+        self.is_active = True
+        self.urlplayed = False
+        xbmc.Player(xbmc.PLAYER_CORE_AUTO).play(url, listitem)
+
     def onPlayBackStarted( self ):
         print "#Playback Started#"
         try:
-            print "#Im playing :: " + self.getPlayingFile()
+            print "#Im playing :: " 
         except:
             print "#I failed get what Im playing#"
         self.urlplayed = True

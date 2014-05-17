@@ -68,6 +68,7 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 		start = time.time() 
 		#xbmc.Player().play( liveLink,listitem)
 		player.play( liveLink,listitem)
+		xbmc.sleep(2000)
 		while player.is_active:
 			xbmc.sleep(200)
 		#return player.urlplayed
