@@ -1,6 +1,15 @@
 <channels>
 
 <channel>
+        <cname>Ahlulbayt</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/aa/ahlulbayt.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>islam</category>
+        </assignedcategory>
+    </channel>
+    
+<channel>
         <cname>TRT Arabic</cname>
         <imageurl>http://www.trt.net.tr/img/logolar/2012/trtarapca_b.png</imageurl>
         <enabled>True</enabled>
