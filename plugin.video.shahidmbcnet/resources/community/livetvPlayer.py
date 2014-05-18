@@ -12,6 +12,7 @@ import datetime
 import sys
 import time
 import CustomPlayer
+import random
 
 try:
 	import livetvcaptcha
@@ -49,10 +50,15 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 			if liveTvPremiumCode=="":
 				if lastWorkingCode=="" and liveTvNonPremiumCode=="" :
 					if shouldforceLogin():
+						print 'performing login'
 						if not performLogin():
 							timeD = 1000  #in miliseconds
-							line1="Login failed, still trying"
+							line1="Login failed-still trying"
 							xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, timeD, __icon__))
+						else:
+							print 'login worked!'
+					else:
+						print 'not performing login, reusing cache'
 					code=getcode();
 					if code==None:
 							timeD = 2000  #in miliseconds
@@ -108,11 +114,15 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 		traceback.print_exc(file=sys.stdout)    
 	return False    
 
+codepages=['http://www.livetv.tn/2M-Maroc-en-direct-live.html','http://www.livetv.tn/Al-Masria-en-direct-live.html','http://www.livetv.tn/Al-Shar9ia-en-direct-live.html','http://www.livetv.tn/Al-Maghrebia-en-direct-live.html','http://www.livetv.tn/Al-Sumaria-en-direct-live.html','http://www.livetv.tn/MBC-4-en-direct-live.html']
+codepage=random.choice(codepages)
+
 def getcode():
 	try:
 		#url = urlSoup.url.text
+		print 'codepage',codepage
 		cookieJar=getCookieJar()
-		link=getUrl('http://www.livetv.tn/index.php',cookieJar)
+		link=getUrl(codepage,cookieJar)
 		link=javascriptUnEscape(link)
 		captcha=None
 		originalcaptcha=False
@@ -164,9 +174,9 @@ def getcode():
 					post[postVar2[0]]=""
 			print 'pst',post
 			post = urllib.urlencode(post)
-			link=getUrl("http://www.livetv.tn/index.php",cookieJar,post)
+			link=getUrl(codepage,cookieJar,post)
 			if link=="":
-				link=getUrl("http://www.livetv.tn/index.php",cookieJar)
+				link=getUrl(codepage,cookieJar)
 			link=javascriptUnEscape(link)
 		code =re.findall('code=(.*?)[\'\"]', link)
 		if (not code==None) and len(code)>0:
@@ -231,7 +241,9 @@ def performLogin():
 	cookieJar.save (COOKIEFILE,ignore_discard=True)
 	print 'cookie jar saved',cookieJar
 
-	match =re.findall('src=\"(capimg.*?)\"\/', html_text)
+	if 'capimg.php?do=show' in html_text:
+	#match =re.findall('src=\"(capimg.*?)\"\/', html_text)
+		match=['capimg.php?do=show']
 	if len(match)>0:
 		captcha="http://www.livetv.tn/"+match[0]
 	else:
@@ -302,7 +314,7 @@ def shoudforceLogin2():
 
 def shouldforceLogin(cookieJar=None):
     try:
-        url="http://www.livetv.tn/index.php"
+        url=codepage
         if not cookieJar:
             cookieJar=getCookieJar()
         html_txt=getUrl(url,cookieJar)

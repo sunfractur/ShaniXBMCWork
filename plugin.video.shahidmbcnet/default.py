@@ -1053,7 +1053,7 @@ def removeFromMyChannels(cname):
 def addCommunityCats():
 	#soup=getSoup('Categories.xml');
 	cats=getEtreeFromFile('Categories.xml');
-	print cats 
+	#print cats 
 
 	addDir('My Channels' ,'My Channels' ,15,addonArt+'/mychannels.png', False,isItFolder=True)		#name,url,mode,icon
 
@@ -1129,10 +1129,10 @@ def addCommunityChannels(catType):
 
 def getEtreeFromFile(fileName, isabsolutePath=False):
 	try:
-		print 'communityStreamPath',communityStreamPath
-		print 'fileName',fileName
+		#print 'communityStreamPath',communityStreamPath
+		#print 'fileName',fileName
 		strpath=os.path.join(communityStreamPath, fileName)
-		print 'strpath',strpath
+		#print 'strpath',strpath
 		if isabsolutePath:
 			strpath=fileName
 		data = open(strpath, "r").read()
