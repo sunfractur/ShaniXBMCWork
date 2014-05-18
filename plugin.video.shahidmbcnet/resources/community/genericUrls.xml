@@ -1,5 +1,13 @@
 <streamingInfos>
 <streaminginfo>
+        <cname>Al Hiwar</cname>
+	<item>
+	<title>185.2 Source</title>
+	<link>rtmp://185.2.136.148:1935/livepkgr playpath=livestream swfUrl=http://fpdownload.adobe.com/strobe/FlashMediaPlayback.swf/[[DYNAMIC]]/1 live=1 pageUrl=http://habbabi.com/alhiwar-tv-live.aspx</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
         <cname>Alasr</cname>
 	<item>
 	<title>Mobi Source</title>
