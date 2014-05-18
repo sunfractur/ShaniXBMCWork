@@ -130,6 +130,15 @@
 </streaminginfo>
 
 <streaminginfo>
+        <cname>Dubai Racing</cname>
+	<item>
+	<title>Original Source</title>
+	<link>http://cdnehlsdubairacing2.endavomedia.com/smil:dmilivedubairacing2.smil/gmswf.m3u8</link>
+	</item>
+</streaminginfo>
+
+
+<streaminginfo>
         <cname>Dubai One</cname>
 	<item>
 	<title>Original Source</title>
