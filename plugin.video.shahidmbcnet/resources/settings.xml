@@ -31,6 +31,9 @@
 		<setting label="32042" type="lsep"/>
 			<setting label="32043" type="text" id="setting_iptvosnUser" values="" default=""/>
 			<setting label="32044" type="text" id="setting_iptvosnPwd" values="" default=""/>  
+		<setting type="sep"/>
+		
+		<setting type="bool" label="32047" id="clearLogonSettings"  default="false"/>
 	  </category>
 	  
 	   <category label="32027">
@@ -46,6 +49,7 @@
         <setting label="32035" type="bool"   id="isPCSourceDisabled" default="false"/>
         <setting label="32036" type="bool"   id="isZombiSourceDisabled" default="false"/>
         <setting label="32037" type="bool"   id="isLocalSourceDisabled" default="false"/>        
+		
 
 	  </category>
 

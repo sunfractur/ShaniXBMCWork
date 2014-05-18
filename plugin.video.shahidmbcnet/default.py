@@ -343,11 +343,13 @@ def removeLoginFile(livePlayer,TeleDunet):
 def ShowSettings(Fromurl):
 	current_LivePlayerLogin=selfAddon.getSetting( "liveTvLogin" )+selfAddon.getSetting( "liveTvPassword")
 	current_teleDunetLogin=selfAddon.getSetting( "teledunetTvLogin" )+selfAddon.getSetting( "teledunetTvPassword")
+	selfAddon.setSetting( id="clearLogonSettings" ,value="false")
 	selfAddon.openSettings()
 	print 'after settings'
+	clearLogonSettings=selfAddon.getSetting( "clearLogonSettings" )
 	after_LivePlayerLogin=selfAddon.getSetting( "liveTvLogin" )+selfAddon.getSetting( "liveTvPassword")
 	after_teleDunetLogin=selfAddon.getSetting( "teledunetTvLogin" )+selfAddon.getSetting( "teledunetTvPassword")
-	removeLoginFile(not current_LivePlayerLogin==after_LivePlayerLogin, not current_teleDunetLogin==after_teleDunetLogin )
+	removeLoginFile(clearLogonSettings=="true" or not current_LivePlayerLogin==after_LivePlayerLogin, clearLogonSettings=="true" or not current_teleDunetLogin==after_teleDunetLogin )
 	return
 	
 def AddSeries(Fromurl,pageNumber=""):
@@ -1442,6 +1444,15 @@ try:
 			mode=15
 			url="My Channels"
 			print mode
+	if mode==299: #add communutycats
+		print 'delete cache'
+		removeLoginFile(True,True)
+		line1 = 'Login sessions cleared!'
+		time = 2000  #in miliseconds
+		xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
+		xbmc.executebuiltin('Container.Update(plugin://plugin.video.shahidmbcnet)')
+		mode=-1
+		
 	if mode==None or url==None or len(url)<1:
 		print "InAddTypes"
 		checkAndRefresh()        
@@ -1500,6 +1511,7 @@ try:
 	elif mode==23: #add communutycats
 		print "play youtube url is "+url,mode
 		AddYoutubeVideosByPlaylist(url);	
+
 except:
 	print 'somethingwrong'
 	traceback.print_exc(file=sys.stdout)
