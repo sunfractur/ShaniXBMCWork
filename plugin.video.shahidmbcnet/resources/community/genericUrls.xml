@@ -1,6 +1,15 @@
 <streamingInfos>
 
 <streaminginfo>
+        <cname>Dubai One</cname>
+	<item>
+	<title>f4m_tester addon</title>
+	<link>plugin://plugin.video.f4mTester/?url=http://cdnedvrdubaione.endavomedia.com/smil:dmilivedubaione.smil/manifest.f4m</link>
+	</item>
+</streaminginfo>
+
+
+<streaminginfo>
         <cname>Moga Comedy</cname>
 	<item>
 	<title>Justin addons</title>
