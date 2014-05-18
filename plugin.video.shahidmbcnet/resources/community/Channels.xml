@@ -1,6 +1,15 @@
 <channels>
 
 <channel>
+        <cname>Oman</cname>
+        <imageurl>http://s13.postimg.org/7kb0py2sn/Oman.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>sham</category>
+        </assignedcategory>
+</channel>
+
+<channel>
         <cname>Ahlulbayt</cname>
         <imageurl>http://www.lyngsat-logo.com/hires/aa/ahlulbayt.png</imageurl>
         <enabled>True</enabled>
