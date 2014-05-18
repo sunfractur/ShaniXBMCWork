@@ -106,6 +106,7 @@ def getcode():
 		#url = urlSoup.url.text
 		cookieJar=getCookieJar()
 		link=getUrl('http://www.livetv.tn/index.php',cookieJar)
+		link=javascriptUnEscape(link)
 		captcha=None
 		
 		match =re.findall('<img src=\"(\/simple-php-captcha\.php\?_CAPTCHA\&.*?)\">', link) #keep doing it :), you think i will get bored? lols
@@ -131,15 +132,10 @@ def getcode():
 				solution=cap
 
 
+
 		if solution:
 			#do captcha post
 			
-			js=re.findall('unescape\(\'(.*?)\'',link)
-			print 'js',js
-			if (not js==None) and len(js)>0:
-				for j in js:
-					print urllib.unquote(j)
-					link=link.replace(j ,urllib.unquote(j))
 			postVar=re.findall('input\s*.*name=\"(.*?)\".*autof', link)[0]#on man! find something which is not possible in python!
 																		#if you think i would give up due to changes... then you don't know me
 																		#hint! dont focus on the addon, focus on your setup, there are better ways to defeat me!
@@ -155,6 +151,7 @@ def getcode():
 			link=getUrl("http://www.livetv.tn/index.php",cookieJar,post)
 			if link=="":
 				link=getUrl("http://www.livetv.tn/index.php",cookieJar)
+			link=javascriptUnEscape(link)
 		code =re.findall('code=(.*?)[\'\"]', link)
 		if (not code==None) and len(code)>0:
 			#print 'print link is ',link
@@ -166,6 +163,15 @@ def getcode():
 	except:
 		traceback.print_exc(file=sys.stdout)
 	return None
+
+def javascriptUnEscape(str):
+	js=re.findall('unescape\(\'(.*?)\'',str)
+	print 'js',js
+	if (not js==None) and len(js)>0:
+		for j in js:
+			print urllib.unquote(j)
+			str=str.replace(j ,urllib.unquote(j))
+	return str
 
 def parseCaptcha(filePath):
 	retVal=""
