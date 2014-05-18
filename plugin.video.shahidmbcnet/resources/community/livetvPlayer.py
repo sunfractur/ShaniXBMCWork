@@ -116,9 +116,11 @@ def getcode():
 		else:
 			#print link
 			captcha=None
-			match =re.findall('src=\"(capimg.*?)\"\/', link) #keep doing it :), you think i will get bored? lols
+			if 'capimg.php?do=show' in link:
+				match='capimg.php?do=show'
+			#match =re.findall('<img src="(.*?)"/>', link) #keep doing it :), you think i will get bored? lols
 			if len(match)>0:
-				captcha="http://www.livetv.tn/"+match[0]
+				captcha="http://www.livetv.tn/"+match
 				originalcaptcha=True
 		
 		solution=None
