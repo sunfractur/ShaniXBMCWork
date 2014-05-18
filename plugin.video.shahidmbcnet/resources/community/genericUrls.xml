@@ -1,6 +1,15 @@
 <streamingInfos>
 
 <streaminginfo>
+        <cname>Fatafeat</cname>
+	<item>
+	<title>Negmtv Source</title>
+	<link>http://live-f01.vustream.net/live/livestream3/negmtv.m3u8</link>
+	</item>
+</streaminginfo>
+
+
+<streaminginfo>
         <cname>Alwatan Plus</cname>
 	<item>
 	<title>Original Source</title>
