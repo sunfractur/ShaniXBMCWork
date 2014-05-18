@@ -66,6 +66,7 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 				code=liveTvPremiumCode
 
 			print 'firstCode',code
+			
 
 
 			liveLink= sourceEtree.findtext('rtmpstring')
@@ -108,13 +109,18 @@ def getcode():
 		link=getUrl('http://www.livetv.tn/index.php',cookieJar)
 		link=javascriptUnEscape(link)
 		captcha=None
-		
+		originalcaptcha=False
 		match =re.findall('<img src=\"(\/simple-php-captcha\.php\?_CAPTCHA\&.*?)\">', link) #keep doing it :), you think i will get bored? lols
 		if len(match)>0:
 			captcha="http://www.livetv.tn"+match[0]
 		else:
 			#print link
 			captcha=None
+			match =re.findall('src=\"(capimg.*?)\"\/', link) #keep doing it :), you think i will get bored? lols
+			if len(match)>0:
+				captcha="http://www.livetv.tn/"+match[0]
+				originalcaptcha=True
+		
 		solution=None
 
 		if captcha:
@@ -124,8 +130,10 @@ def getcode():
 			localFile.write(getUrl(captcha,cookieJar))
 			localFile.close()
 			cap="";#cap=parseCaptcha(local_captcha)
+			if originalcaptcha:
+				cap=parseCaptcha(local_captcha)
 			print 'parsed cap',cap
-			if cap=="" or not len(cap)==3:
+			if cap=="":
 				solver = InputWindow(captcha=local_captcha)
 				solution = solver.get()
 			else:
