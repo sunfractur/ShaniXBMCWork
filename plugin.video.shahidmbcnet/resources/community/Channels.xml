@@ -64,6 +64,23 @@
         </assignedcategory>
     </channel>
     
+    <channel>
+        <cname>OSN First HD</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/oo/osn_first_hd.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>drama</category>
+        </assignedcategory>
+    </channel>
+	
+	<channel>
+        <cname>OSN Ya Hala Shabab HD</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/oo/osn_ya_hala_shabab_hd.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>drama</category>
+        </assignedcategory>
+    </channel>
 <channel>
         <cname>OSN Ya Hala +2</cname>
         <imageurl>http://www.lyngsat-logo.com/hires/oo/osn_ya_hala_hd_plus2.png</imageurl>
