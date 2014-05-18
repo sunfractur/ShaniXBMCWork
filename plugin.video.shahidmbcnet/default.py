@@ -9,7 +9,7 @@ import os
 import sys
 from BeautifulSoup import BeautifulStoneSoup, BeautifulSoup, BeautifulSOAP, Tag,NavigableString
 try:
-  from lxml import etree
+  from lxmlERRRORRRR import etree
   print("running with lxml.etree")
 except ImportError:
 	try:
@@ -1051,7 +1051,7 @@ def removeFromMyChannels(cname):
 def addCommunityCats():
 	#soup=getSoup('Categories.xml');
 	cats=getEtreeFromFile('Categories.xml');
-#	print cats 
+	print cats 
 
 	addDir('My Channels' ,'My Channels' ,15,addonArt+'/mychannels.png', False,isItFolder=True)		#name,url,mode,icon
 
@@ -1126,12 +1126,19 @@ def addCommunityChannels(catType):
 	return
 
 def getEtreeFromFile(fileName, isabsolutePath=False):
-	strpath=os.path.join(communityStreamPath, fileName)
-	if isabsolutePath:
-		strpath=fileName
-	data = open(strpath, "r").read()
-	return getETreeFromString(data)
-
+	try:
+		print 'communityStreamPath',communityStreamPath
+		print 'fileName',fileName
+		strpath=os.path.join(communityStreamPath, fileName)
+		print 'strpath',strpath
+		if isabsolutePath:
+			strpath=fileName
+		data = open(strpath, "r").read()
+		return getETreeFromString(data)
+	except:
+		print 'somethingwrong'
+		traceback.print_exc(file=sys.stdout)
+	
 #obselete
 def getSoup(fileName, isabsolutePath=False):
 	strpath=os.path.join(communityStreamPath, fileName)
