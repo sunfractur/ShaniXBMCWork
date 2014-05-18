@@ -48,7 +48,11 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 			lastWorkingCode=selfAddon.getSetting( "lastLivetvWorkingCode" )
 			usingLastWorkingCode=False
 			if liveTvPremiumCode=="":
-				if lastWorkingCode=="" and liveTvNonPremiumCode=="" :
+				timeD = 2000  #in miliseconds
+				line1="Free account access disabled"
+				xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, timeD, __icon__))
+				
+				if lastWorkingCode=="" and liveTvNonPremiumCode=="" : #stop free account
 					if shouldforceLogin():
 						print 'performing login'
 						if not performLogin():
@@ -207,14 +211,14 @@ def parseCaptcha(filePath):
 		print 'the captcha val is',retVal
 	except:  traceback.print_exc(file=sys.stdout)
 	return retVal
-def getUrl(url, cookieJar=None,post=None):
+def getUrl(url, cookieJar=None,post=None, timeout=20):
 
 	cookie_handler = urllib2.HTTPCookieProcessor(cookieJar)
 	opener = urllib2.build_opener(cookie_handler, urllib2.HTTPBasicAuthHandler(), urllib2.HTTPHandler())
 	#opener = urllib2.install_opener(opener)
 	req = urllib2.Request(url)
 	req.add_header('User-Agent','Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36')
-	response = opener.open(req,post)
+	response = opener.open(req,post,timeout=timeout)
 	link=response.read()
 	response.close()
 	return link;

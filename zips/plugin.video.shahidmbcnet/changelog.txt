@@ -1,3 +1,6 @@
+[B]Version 2.9.6[/B]
+Stop Livetv.tn free account access, till we resolve the differences.
+
 [B]Version 2.9.5[/B]
 Setting for clearing the session data.
 
