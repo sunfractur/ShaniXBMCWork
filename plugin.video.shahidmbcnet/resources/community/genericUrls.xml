@@ -1,4 +1,43 @@
 <streamingInfos>
+<streaminginfo>
+        <cname>Sudan TV</cname>
+	<item>
+	<title>Ukk Source</title>
+	<link>http://ukk.live.net.sa:1935/live/africatv/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+        <cname>SkyNewsArabia</cname>
+	<item>
+	<title>Sky Source</title>
+	<link>http://skynewsl.skynews.cshls.lldns.net/skynews/skynewsl/skynewsl/skynewsl_800.m3u8</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+        <cname>MBC 2</cname>
+	<item>
+	<title>Marocforum Source</title>
+	<link>http://www.vlc.eu.pn@live-f01.vustream.net/live/livestream2/marocforum.m3u8</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+        <cname>Fatafeat</cname>
+	<item>
+	<title>Marocforum Source</title>
+	<link>http://www.vlc.eu.pn@live-f01.vustream.net/live/livestream3/marocforum.m3u8</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+        <cname>Fatafeat</cname>
+	<item>
+	<title>212.179 Source</title>
+	<link>http://212.179.77.42/live/livestream3/gmswf.m3u8</link>
+	</item>
+</streaminginfo>
+
 
 <streaminginfo>
         <cname>Fatafeat</cname>
