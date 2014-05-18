@@ -558,7 +558,23 @@
             <category>gulf</category>
         </assignedcategory>
     </channel>
-
+ <channel>
+        <cname>Alwatan Ghanawi</cname>
+        <imageurl>http://www.bluetechkw.com/wp-content/uploads/2013/05/Ghanawilogo.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>gulf</category>
+        </assignedcategory>
+    </channel>
+     <channel>
+        <cname>Alwatan Plus</cname>
+        <imageurl>http://www.bluetechkw.com/wp-content/uploads/2013/05/watanPlus1.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>gulf</category>
+        </assignedcategory>
+    </channel>
+    
     <channel>
         <cname>alwatan</cname>
         <imageurl>https://yt3.ggpht.com/-KbhxwZdyA4Q/AAAAAAAAAAI/AAAAAAAAAAA/i0C3-T7Uz1A/s100-c-k-no/photo.jpg</imageurl>
