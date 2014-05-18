@@ -106,6 +106,15 @@
 <streaminginfo>
         <cname>Quran TV ksa</cname>
 	<item>
+	<title>m3u8 Source</title>
+	<link>http://46.245.160.224/mekke/mekke/chunklist_w581447799.m3u8</link>
+	</item>
+</streaminginfo>
+
+
+<streaminginfo>
+        <cname>Quran TV ksa</cname>
+	<item>
 	<title>Original Source</title>
 	<link>rtmp://208.75.224.165:1935/map-alquraan/map-alquraan.stream</link>
 	</item>
