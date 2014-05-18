@@ -1354,7 +1354,15 @@
             <category>drama</category>
         </assignedcategory>
     </channel>
-
+<channel>
+        <cname>Dubai Racing</cname>
+        <imageurl>http://www.mems-cg.com/library/images/uploaded%20images/Dxb_Racing_C.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>sports</category>
+        </assignedcategory>
+    </channel>
+    
     <channel>
         <cname>Dubai Sport 1</cname>
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/dubai_zps8de42d6d.png</imageurl>
