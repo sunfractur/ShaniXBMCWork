@@ -42,10 +42,12 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 		while retryPlay:
 			retryPlay=False
 			liveTvPremiumCode=selfAddon.getSetting( "liveTvPremiumCode" )
+			liveTvNonPremiumCode=selfAddon.getSetting( "liveTvNonPremiumCode" )
+			
 			lastWorkingCode=selfAddon.getSetting( "lastLivetvWorkingCode" )
 			usingLastWorkingCode=False
 			if liveTvPremiumCode=="":
-				if lastWorkingCode=="" :
+				if lastWorkingCode=="" and liveTvNonPremiumCode=="" :
 					if shouldforceLogin():
 						if not performLogin():
 							timeD = 1000  #in miliseconds
@@ -54,13 +56,17 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 					code=getcode();
 					if code==None:
 							timeD = 2000  #in miliseconds
-							line1="Enable to get the code, livetv down? or something changed"
+							line1="Unable to get the code-livetv down? or something changed"
 							xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, timeD, __icon__))
 							return False
 				else:
 					print 'using last working code',lastWorkingCode
-					code=lastWorkingCode
-					usingLastWorkingCode=True
+					if not lastWorkingCode=="":
+						code=lastWorkingCode
+						usingLastWorkingCode=True
+					else:
+						code=liveTvNonPremiumCode
+					
 			else:
 				print 'using premium code',lastWorkingCode
 				code=liveTvPremiumCode
