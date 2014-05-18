@@ -1,6 +1,15 @@
 <channels>
 
 <channel>
+        <cname>Alasr</cname>
+        <imageurl>http://4.bp.blogspot.com/-o9kBpBMJ4eM/UuBd3NHJOOI/AAAAAAAAE1U/Et7FhFfYpkI/s1600/alasr_tv.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>magreb</category>
+        </assignedcategory>
+    </channel>
+    
+<channel>
         <cname>IDF1</cname>
         <imageurl>https://yt3.ggpht.com/-cJg9hMxtr10/AAAAAAAAAAI/AAAAAAAAAAA/YtwxMBzhg9U/s100-c-k-no/photo.jpg</imageurl>
         <enabled>True</enabled>
