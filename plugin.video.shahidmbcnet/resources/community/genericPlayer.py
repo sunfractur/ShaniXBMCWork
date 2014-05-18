@@ -64,20 +64,25 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 		print 'liveLink',liveLink
 		pDialog.close()
 		listitem = xbmcgui.ListItem( label = str(name), iconImage = "DefaultVideo.png", thumbnailImage = xbmc.getInfoImage( "ListItem.Thumb" ), path=liveLink )
-		player = CustomPlayer.MyXBMCPlayer()
-		start = time.time() 
-		#xbmc.Player().play( liveLink,listitem)
-		player.play( liveLink,listitem)
-		xbmc.sleep(2000)
-		while player.is_active:
-			xbmc.sleep(200)
-		#return player.urlplayed
-		done = time.time()
-		elapsed = done - start
-		if player.urlplayed and elapsed>=3:
-			return True
+		if not 'plugin.video.f4mTester' in liveLink:
+			player = CustomPlayer.MyXBMCPlayer()
+			start = time.time() 
+			#xbmc.Player().play( liveLink,listitem)
+			player.play( liveLink,listitem)
+			xbmc.sleep(2000)
+			while player.is_active:
+				xbmc.sleep(200)
+			#return player.urlplayed
+			done = time.time()
+			elapsed = done - start
+			if player.urlplayed and elapsed>=3:
+				return True
+			else:
+				return False
 		else:
-			return False  
+			xbmc.executebuiltin('XBMC.RunPlugin('+liveLink+')')
+			return True
+				
 	except:
 		traceback.print_exc(file=sys.stdout)    
 	return False  
