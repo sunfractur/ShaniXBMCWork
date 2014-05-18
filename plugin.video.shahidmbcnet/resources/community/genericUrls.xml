@@ -206,6 +206,13 @@
 	<link>http://live.rtv.gov.sy/live/Snews/Snews_DVR.m3u8</link>
 	</item>
 </streaminginfo>
+<streaminginfo>
+   	<cname>Baraem</cname>
+	<item>
+	<title>m3u8 Source</title>
+	<link>http://78.100.40.198:1935/brm/brm/gmswf.m3u8?keylive87-163-224-792014-05-18-16-28-09&v=hghpl]</link>
+	</item>
+</streaminginfo>
 
 <streaminginfo>
    	<cname>Baraem</cname>
