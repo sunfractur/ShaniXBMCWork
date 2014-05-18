@@ -1,6 +1,14 @@
 <streamingInfos>
 
 <streaminginfo>
+        <cname>Moga Comedy</cname>
+	<item>
+	<title>Justin addons</title>
+	<link>plugin://plugin.video.jtv.archives/?mode=get_channel&amp;name=20satttt&amp;play=1</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
         <cname>Al Hiwar</cname>
 	<item>
 	<title>185.2 Source</title>
