@@ -1,6 +1,22 @@
 <streamingInfos>
 
 <streaminginfo>
+        <cname>Alwatan Plus</cname>
+	<item>
+	<title>Original Source</title>
+	<link>http://alwatan_hls-lh.akamaihd.net/i/alwaplus_ar@91169/master.m3u8</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+        <cname>Alwatan Ghanawi</cname>
+	<item>
+	<title>Original Source</title>
+	<link>http://alwatan_hls-lh.akamaihd.net/i/ghanawi_ar@51110/master.m3u8</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
         <cname>Oman</cname>
 	<item>
 	<title>Original Source</title>
