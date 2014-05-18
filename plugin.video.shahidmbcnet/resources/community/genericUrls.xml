@@ -3,7 +3,7 @@
 <streaminginfo>
         <cname>Dubai One</cname>
 	<item>
-	<title>f4m_tester addon</title>
+	<title>You need to install f4m_tester addon from Shani Repo</title>
 	<link>plugin://plugin.video.f4mTester/?url=http://cdnedvrdubaione.endavomedia.com/smil:dmilivedubaione.smil/manifest.f4m</link>
 	</item>
 </streaminginfo>
@@ -12,7 +12,7 @@
 <streaminginfo>
         <cname>Moga Comedy</cname>
 	<item>
-	<title>Justin addons</title>
+	<title>you need to install Justin addons</title>
 	<link>plugin://plugin.video.jtv.archives/?mode=get_channel&amp;name=20satttt&amp;play=1</link>
 	</item>
 </streaminginfo>
