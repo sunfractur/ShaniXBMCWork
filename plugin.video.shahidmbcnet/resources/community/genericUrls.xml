@@ -1,6 +1,34 @@
 <streamingInfos>
 
 <streaminginfo>
+        <cname>Al Nahar Sport</cname>
+		<item>
+		<title>Original Source</title>
+		<link>http://50.7.180.18:1935/nahar1/smil:naharsports-smil.smil/playlist.m3u8</link>
+		</item>
+</streaminginfo>
+<streaminginfo>
+        <cname>Al Nahar</cname>
+		<item>
+		<title>Original Source</title>
+		<link>http://50.7.180.18:1935/nahar1/smil:nahar1-smil.smil/playlist.m3u8</link>
+		</item>
+</streaminginfo>
+<streaminginfo>
+        <cname>Al-Nahar Drama</cname>
+		<item>
+		<title>Original Source</title>
+		<link>http://50.7.180.18:1935/nahar1/smil:alnahardrama-smil.smil/playlist.m3u8</link>
+		</item>
+</streaminginfo>
+<streaminginfo>
+        <cname>Al Nahar 2</cname>
+		<item>
+		<title>Original Source</title>
+		<link>http://50.7.180.18:1935/nahar1/smil:alnahar2-smil.smil/playlist.m3u8</link>
+		</item>
+</streaminginfo>
+<streaminginfo>
         <cname>Dubai One</cname>
 	<item>
 	<title>You need to install f4m_tester addon from Shani Repo</title>
