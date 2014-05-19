@@ -190,7 +190,12 @@ def getcode():
 			headers=[('Referer',codepage)]
 			#post
 			postPage=re.findall('<form .*?action=\"(.*?)\"', link)[0]
-			postPage=('http://www.livetv.tn/'+postPage) ## i will follow you, so keep doing it
+			if not postPage.startswith("http"):
+				if postPage.startswith('/'):
+					postPage=('http://www.livetv.tn'+postPage) ## You only going to make this perfect haha
+				else:
+					postPage=('http://www.livetv.tn/'+postPage) ## i will follow you, so keep doing it
+                
 			print 'postPage',postPage
 
 			link=getUrl(postPage,cookieJar,post,headers=headers)
