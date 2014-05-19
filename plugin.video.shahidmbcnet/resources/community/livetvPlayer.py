@@ -47,7 +47,7 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 			
 			lastWorkingCode=selfAddon.getSetting( "lastLivetvWorkingCode" )
 			usingLastWorkingCode=False
-			disableFreeForNow=True
+			disableFreeForNow=False
 			if liveTvPremiumCode=="":
 				if disableFreeForNow:
 					timeD = 2000  #in miliseconds
