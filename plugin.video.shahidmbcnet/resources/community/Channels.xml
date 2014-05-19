@@ -1,5 +1,14 @@
 <channels>
-
+<channel>
+        <cname>Al Nahar Sport</cname>
+        <imageurl>http://www.alnaharlive.net/wp-content/themes/nahar/images/channel2.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>sports</category>
+        </assignedcategory>
+    </channel>
+    
+    
 <channel>
         <cname>Alasr</cname>
         <imageurl>http://4.bp.blogspot.com/-o9kBpBMJ4eM/UuBd3NHJOOI/AAAAAAAAE1U/Et7FhFfYpkI/s1600/alasr_tv.png</imageurl>
