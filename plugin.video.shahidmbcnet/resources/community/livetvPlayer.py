@@ -47,11 +47,13 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 			
 			lastWorkingCode=selfAddon.getSetting( "lastLivetvWorkingCode" )
 			usingLastWorkingCode=False
+			disableFreeForNow=True
 			if liveTvPremiumCode=="":
-				timeD = 2000  #in miliseconds
-				line1="Free account access disabled"
-				xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, timeD, __icon__))
-				return False
+				if disableFreeForNow:
+					timeD = 2000  #in miliseconds
+					line1="Free account access disabled"
+					xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, timeD, __icon__))
+					return False
 				if lastWorkingCode=="" and liveTvNonPremiumCode=="" : #stop free account
 					if shouldforceLogin():
 						print 'performing login'
@@ -60,7 +62,9 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 							line1="Login failed-still trying"
 							xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, timeD, __icon__))
 						else:
+							
 							print 'login worked!'
+
 					else:
 						print 'not performing login, reusing cache'
 					code=getcode();
@@ -178,7 +182,15 @@ def getcode():
 					post[postVar2[0]]=""
 			print 'pst',post
 			post = urllib.urlencode(post)
-			link=getUrl(codepage,cookieJar,post)
+
+			#ck = cookielib.Cookie(version=0, name='name', value='value', port=None, port_specified=False, domain='www.livetv.tn', domain_specified=False, domain_initial_dot=False, path='/', path_specified=True, secure=False, expires=None, discard=True, comment=None, comment_url=None, rest={'HttpOnly': None}, rfc2109=False)
+			#cookieJar.set_cookie(ck)
+			#for index, cookie in enumerate(cookieJar):
+			#	print index, ' : ', cookie
+			headers=[('Referer',codepage)]
+
+
+			link=getUrl(codepage,cookieJar,post,headers=headers)
 			if link=="":
 				link=getUrl(codepage,cookieJar)
 			link=javascriptUnEscape(link)
@@ -211,13 +223,18 @@ def parseCaptcha(filePath):
 		print 'the captcha val is',retVal
 	except:  traceback.print_exc(file=sys.stdout)
 	return retVal
-def getUrl(url, cookieJar=None,post=None, timeout=20):
+def getUrl(url, cookieJar=None,post=None, timeout=20, headers=None):
+
 
 	cookie_handler = urllib2.HTTPCookieProcessor(cookieJar)
 	opener = urllib2.build_opener(cookie_handler, urllib2.HTTPBasicAuthHandler(), urllib2.HTTPHandler())
 	#opener = urllib2.install_opener(opener)
 	req = urllib2.Request(url)
 	req.add_header('User-Agent','Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36')
+	if headers:
+		for h,hv in headers:
+			req.add_header(h,hv)
+
 	response = opener.open(req,post,timeout=timeout)
 	link=response.read()
 	response.close()
@@ -226,6 +243,8 @@ def getUrl(url, cookieJar=None,post=None, timeout=20):
     
 def getCookieJar():
 	cookieJar=None
+	
+
 
 	try:
 		cookieJar = cookielib.LWPCookieJar()
@@ -235,13 +254,17 @@ def getCookieJar():
 	
 	if not cookieJar:
 		cookieJar = cookielib.LWPCookieJar()
-
+	
 	return cookieJar
 
 	
 def performLogin():
 	cookieJar=getCookieJar()
+	
 	html_text=getUrl("http://www.livetv.tn/login.php",cookieJar)
+	
+	
+	
 	cookieJar.save (COOKIEFILE,ignore_discard=True)
 	print 'cookie jar saved',cookieJar
 
@@ -278,13 +301,14 @@ def performLogin():
 			post={'pseudo':userName,'epass':password,'capcode':solution}
 		else:
 			post={'pseudo':userName,'epass':password}
+		print 'post',post
 		post = urllib.urlencode(post)
 		
 		postpage=re.findall('<form.?action=\"(.*?)\"',html_text)
 		
-		getUrl(postpage[0],cookieJar,post)
-
-		return shouldforceLogin(cookieJar)==False
+		link=getUrl(postpage[0],cookieJar,post)
+		
+		return shouldforceLogin(cookieJar, link)==False
 	else:
 		return False
 
@@ -316,13 +340,16 @@ def shoudforceLogin2():
         traceback.print_exc(file=sys.stdout)
     return True
 
-def shouldforceLogin(cookieJar=None):
+def shouldforceLogin(cookieJar=None, currentPage=None):
     try:
         url=codepage
         if not cookieJar:
             cookieJar=getCookieJar()
-        html_txt=getUrl(url,cookieJar)
-        
+        if currentPage==None:
+            html_txt=getUrl(url,cookieJar)
+        else:
+            html_txt=currentPage
+            print 'html_txt',currentPage
             
         if '<a  href="http://www.livetv.tn/login.php">' in html_txt:
             return True
