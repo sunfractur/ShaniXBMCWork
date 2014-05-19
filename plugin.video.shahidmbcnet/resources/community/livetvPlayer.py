@@ -51,7 +51,7 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 				timeD = 2000  #in miliseconds
 				line1="Free account access disabled"
 				xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, timeD, __icon__))
-				
+				return False
 				if lastWorkingCode=="" and liveTvNonPremiumCode=="" : #stop free account
 					if shouldforceLogin():
 						print 'performing login'
