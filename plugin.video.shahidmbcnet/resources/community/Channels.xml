@@ -54,8 +54,17 @@
         </assignedcategory>
     </channel>
     
-<channel>
+	<channel>
         <cname>TRT Arabic</cname>
+        <imageurl>http://www.trt.net.tr/img/logolar/2012/trtarapca_b.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>news</category>
+        </assignedcategory>
+    </channel>
+	
+	<channel>
+        <cname>Almajd News</cname>
         <imageurl>http://www.trt.net.tr/img/logolar/2012/trtarapca_b.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
@@ -670,9 +679,72 @@
             <category>gulf</category>
         </assignedcategory>
     </channel>
+	
+	<channel>
+        <cname>Almajd Quran</cname>
+        <imageurl>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQYGrqNBNful4lyLQlkie7r9VG_mw80AeKX_Z2O-dAc8Y-L2Gx</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>islam</category>
+        </assignedcategory>
+    </channel>
+	
+	<channel>
+        <cname>Al Majd Hadeeth</cname>
+        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/mjd1_zps6cc89fac.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>islam</category>
+        </assignedcategory>
+    </channel>
+	
+	<channel>
+        <cname>Alburhan</cname>
+        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/mjd1_zps6cc89fac.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>islam</category>
+        </assignedcategory>
+    </channel>
+	
+	<channel>
+        <cname>Wesal Kurdi</cname>
+        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/mjd1_zps6cc89fac.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>islam</category>
+        </assignedcategory>
+    </channel>
+	
+	<channel>
+        <cname>Wesal Indo</cname>
+        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/mjd1_zps6cc89fac.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>islam</category>
+        </assignedcategory>
+    </channel>
+	
+	<channel>
+        <cname>Wesal Haq</cname>
+        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/mjd1_zps6cc89fac.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>islam</category>
+        </assignedcategory>
+    </channel>
+	
+	<channel>
+        <cname>Wesal English</cname>
+        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/mjd1_zps6cc89fac.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>islam</category>
+        </assignedcategory>
+    </channel>
 
     <channel>
-        <cname>ALMAJAD ALMAIA</cname>
+        <cname>ALMAJAD Science</cname>
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/mjdalam_zps7bb76e3e.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
@@ -2900,7 +2972,7 @@
 
 
     <channel>
-        <cname>ALMAJD NATURE</cname>
+        <cname>ALMAJD Natural</cname>
         <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn1/t1.0-1/c14.21.172.172/297622_125611950872282_2086713406_n.jpg</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
@@ -2910,7 +2982,7 @@
 
 
     <channel>
-        <cname>ALMAJD DOC</cname>
+        <cname>ALMAJD Documentary</cname>
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/mjddoc_zpsb53e249f.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
@@ -2930,7 +3002,7 @@
 
 
     <channel>
-        <cname>ALMAJD RODA</cname>
+        <cname>Almajd Rawdhah</cname>
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/roda_zps138bad78.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
@@ -2940,7 +3012,7 @@
 
 
     <channel>
-        <cname>ALMAJD TAGHARID </cname>
+        <cname>Almajd Tagareed</cname>
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/mjdtghreed_zps5118518f.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
@@ -2950,7 +3022,7 @@
 
 
     <channel>
-        <cname>ALMAJD KIDS 2</cname>
+        <cname>Almajd Basmah</cname>
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/mjd_zps1318b73d.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
@@ -2960,7 +3032,7 @@
 
 
     <channel>
-        <cname>ALMAJD KIDS</cname>
+        <cname>Almajd Kids</cname>
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/mjd_zps1318b73d.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
@@ -3050,7 +3122,7 @@
     </channel>
 
     <channel>
-        <cname>ALMAJD MASSAH </cname>
+        <cname>Almajd Masah</cname>
         <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash3/t1.0-1/549503_356335044445213_724191675_n.jpg</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
