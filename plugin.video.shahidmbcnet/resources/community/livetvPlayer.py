@@ -47,11 +47,11 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 			
 			lastWorkingCode=selfAddon.getSetting( "lastLivetvWorkingCode" )
 			usingLastWorkingCode=False
-			disableFreeForNow=False
+			disableFreeForNow=True# lol i want to see how many users you get before i break that captcha
 			if liveTvPremiumCode=="":
-				if disableFreeForNow:
+				if lastWorkingCode=="" and liveTvNonPremiumCode=="":
 					timeD = 2000  #in miliseconds
-					line1="Free account access disabled"
+					line1="Login disabled, use Non Premium code"
 					xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, timeD, __icon__))
 					return False
 				if lastWorkingCode=="" and liveTvNonPremiumCode=="" : #stop free account
