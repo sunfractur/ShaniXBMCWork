@@ -15,6 +15,9 @@ try:
 except:
     import simplejson as json
 import SimpleDownloader as downloader
+import time
+
+
 g_ignoreSetResolved=['plugin.video.f4mTester','plugin.video.shahidmbcnet']
 
 REMOTE_DBG=False;
@@ -667,6 +670,7 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
                     if 'rawpost' in m:
                         post=m['rawpost']
 
+                        
 
                     if post:
                         response = urllib2.urlopen(req,post)
@@ -679,21 +683,29 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
                     cachedPages[m['page']] = link
                     #print link
                     print 'store link for',m['page'],forCookieJarOnly
+                    
                     if forCookieJarOnly:
                         return cookieJar# do nothing
                     if  '$doregex' in m['expre']:
                         m['expre']=getRegexParsed(regexs, m['expre'],cookieJar,recursiveCall=True,cachedPages=cachedPages)
+                    
                 print 'exp k and url'
                 print m['expre'],k,url
                 print 'aa'
                 if not m['expre']=='':
                     print 'doing it ',m['expre']
-                    reg = re.compile(m['expre']).search(link)
-                    val=reg.group(1).strip()
-                    if rawPost:
-                        print 'rawpost'
-                        val=urllib.quote_plus(val)
-                    url = url.replace("$doregex[" + k + "]", val)
+                    if not '$LiveStreamCaptcha' in m['expre']:
+                        reg = re.compile(m['expre']).search(link)
+                        val=reg.group(1).strip()
+                        if rawPost:
+                            print 'rawpost'
+                            val=urllib.quote_plus(val)
+                        url = url.replace("$doregex[" + k + "]", val)
+                    else:
+                        val=askCaptcha(m,link,cookieJar)
+                        print 'url and val',url,val
+                        url = url.replace("$doregex[" + k + "]", val)
+                        #return val
                 else:
                     url = url.replace("$doregex[" + k + "]",'')
         if '$epoctime$' in url:
@@ -707,6 +719,64 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
         #xbmc.Player().play(item=url)
         xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, item)
 
+def askCaptcha(m,html_page, cookieJar):
+    expre= m['expre']
+    page_url = m['page']
+    captcha_regex=re.compile('\$LiveStreamCaptcha\[([^\]]*)\]').findall(expre)[0]
+
+    captcha_url=re.compile(captcha_regex).findall(html_page)[0]
+    print expre,captcha_regex,captcha_url
+    if not captcha_url.startswith("http"):
+        page_='http://'+"".join(page_url.split('/')[2:3])
+        if captcha_url.startswith("/"):
+            captcha_url=page_+captcha_url
+        else:
+            captcha_url=page_+'/'+captcha_url
+    
+    local_captcha = os.path.join(profile, "captcha.jpg" )
+    localFile = open(local_captcha, "wb")
+    print ' c capurl',captcha_url
+    req = urllib2.Request(captcha_url)
+    req.add_header('User-Agent', 'Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1')
+    if 'refer' in m:
+        req.add_header('Referer', m['refer'])
+    if 'agent' in m:
+        req.add_header('User-agent', m['agent'])
+    if 'setcookie' in m:
+        print 'adding cookie',m['setcookie']
+        req.add_header('Cookie', m['setcookie'])
+        
+    #cookie_handler = urllib2.HTTPCookieProcessor(cookieJar)
+    #opener = urllib2.build_opener(cookie_handler, urllib2.HTTPBasicAuthHandler(), urllib2.HTTPHandler())
+    #opener = urllib2.install_opener(opener)
+    urllib2.urlopen(req)
+    response = urllib2.urlopen(req)
+
+    localFile.write(response.read())
+    response.close()
+    localFile.close()
+    solver = InputWindow(captcha=local_captcha)
+    solution = solver.get()
+    return solution
+    
+class InputWindow(xbmcgui.WindowDialog):
+    def __init__(self, *args, **kwargs):
+        self.cptloc = kwargs.get('captcha')
+        self.img = xbmcgui.ControlImage(335,30,624,60,self.cptloc)
+        self.addControl(self.img)
+        self.kbd = xbmc.Keyboard()
+
+    def get(self):
+        self.show()
+        time.sleep(3)        
+        self.kbd.doModal()
+        if (self.kbd.isConfirmed()):
+            text = self.kbd.getText()
+            self.close()
+            return text
+        self.close()
+        return False
+    
 def getEpocTime():
     import time
     return str(int(time.time()*1000))
@@ -911,7 +981,7 @@ def addLink(url,name,iconimage,fanart,description,genre,date,showcontext,playlis
 
 
 ## Thanks to daschacka, an epg scraper for http://i.teleboy.ch/programm/station_select.php
-##  http://forum.xbmc.org/showpost.php?p=936228&postcount=1076
+##  http://forum.xbmc.org/post.php?p=936228&postcount=1076
 def getepg(link):
         url=urllib.urlopen(link)
         source=url.read()
