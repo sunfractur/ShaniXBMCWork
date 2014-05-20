@@ -65,7 +65,7 @@
 	
 	<channel>
         <cname>Almajd News</cname>
-        <imageurl>http://www.trt.net.tr/img/logolar/2012/trtarapca_b.png</imageurl>
+        <imageurl>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1osGvD_3j8miCSKQM36rtkrgf_WVowFGHXxRirtheYG8KAQ3Ulw</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>news</category>
