@@ -719,7 +719,10 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
         #xbmc.Player().play(item=url)
         xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, item)
 
+iid=0
 def askCaptcha(m,html_page, cookieJar):
+    global iid
+    iid+=1
     expre= m['expre']
     page_url = m['page']
     captcha_regex=re.compile('\$LiveStreamCaptcha\[([^\]]*)\]').findall(expre)[0]
@@ -733,7 +736,7 @@ def askCaptcha(m,html_page, cookieJar):
         else:
             captcha_url=page_+'/'+captcha_url
     
-    local_captcha = os.path.join(profile, "captcha.jpg" )
+    local_captcha = os.path.join(profile, str(iid)+"captcha.jpg" )
     localFile = open(local_captcha, "wb")
     print ' c capurl',captcha_url
     req = urllib2.Request(captcha_url)
@@ -768,7 +771,7 @@ class InputWindow(xbmcgui.WindowDialog):
 
     def get(self):
         self.show()
-        time.sleep(3)        
+        time.sleep(2)        
         self.kbd.doModal()
         if (self.kbd.isConfirmed()):
             text = self.kbd.getText()
