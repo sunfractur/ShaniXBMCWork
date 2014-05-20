@@ -1,5 +1,63 @@
 <streamingInfos>
 
+
+<streaminginfo>
+        <cname>Nile Sport</cname>
+	<item>
+	<title>Original Source</title>
+	<link>rtmp://livestreaming4.onlinehorizons.net/NTNNileSport playpath=livestream swfUrl=http://niletc.tv/player/player.swf live=1 pageUrl=http://niletc.tv/stream.php?ch=sport swfVfy=true live=true timeout=60</link>
+	</item>
+</streaminginfo>
+
+
+<streaminginfo>
+        <cname>Nile Comedy</cname>
+	<item>
+	<title>Original Source</title>
+	<link>rtmp://livestreaming4.onlinehorizons.net/NTNNileComedy/ playpath=livestream swfUrl=http://niletc.tv/player/player.swf pageUrl=http://niletc.tv/stream.php?ch=comedy swfVfy=true live=true timeout=60</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+        <cname>Nile Cinema</cname>
+	<item>
+	<title>Original Source</title>
+	<link>rtmp://livestreaming4.onlinehorizons.net/NTNNileCinema playpath=livestream swfUrl=http://niletc.tv/player/player.swf live=1 pageUrl=http://niletc.tv/stream.php?ch=cinema</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+        <cname>Nile Culture</cname>
+	<item>
+	<title>Original Source</title>
+	<link>rtmp://livestreaming4.onlinehorizons.net/NTNNileCulture playpath=livestream swfUrl=http://niletc.tv/player/player.swf live=1 pageUrl=http://niletc.tv/stream.php?ch=culture</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+        <cname>Nile Family</cname>
+	<item>
+	<title>Original Source</title>
+	<link>rtmp://livestreaming4.onlinehorizons.net/NTNNileFamily playpath=livestream swfUrl=http://niletc.tv/player/player.swf live=1 pageUrl=http://niletc.tv/stream.php?ch=family</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+        <cname>Nile Life</cname>
+	<item>
+	<title>Original Source</title>
+	<link>rtmp://livestreaming4.onlinehorizons.net/NTNNileLife playpath=livestream swfUrl=http://niletc.tv/player/player.swf live=1 pageUrl=http://niletc.tv/stream.php?ch=life</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+        <cname>Nile Drama</cname>
+	<item>
+	<title>Original Source</title>
+	<link>rtmp://livestreaming4.onlinehorizons.net/NTNNileDrama playpath=livestream?ch=drama swfUrl=http://ntn.onlinehorizons.net/player/player.swf pageUrl=http://www.ntnegypt.net/stream.php live=1</link>
+	</item>
+</streaminginfo>
+
+
 <streaminginfo>
         <cname>Al Nahar Sport</cname>
 		<item>
