@@ -189,12 +189,16 @@ def getcode():
 			#	print index, ' : ', cookie
 			headers=[('Referer',codepage)]
 			#post
-			postPage=re.findall('<form .*?action=\"(.*?)\"', link)[0]
-			if not postPage.startswith("http"):
-				if postPage.startswith('/'):
-					postPage=('http://www.livetv.tn'+postPage) ## You only going to make this perfect haha
-				else:
-					postPage=('http://www.livetv.tn/'+postPage) ## i will follow you, so keep doing it
+			postPage=re.findall('<form .*?action=\"(.*?)\"', link)
+			if postPage and len(postPage)>0 and len(postPage[0]):
+				postPage=postPage[0]
+				if not postPage.startswith("http"):
+					if postPage.startswith('/'):
+						postPage=('http://www.livetv.tn'+postPage) ## You only going to make this perfect haha
+					else:
+						postPage=('http://www.livetv.tn/'+postPage) ## i will follow you, so keep doing it
+			else:
+				postPage=codepage
                 
 			print 'postPage',postPage
 
