@@ -40,11 +40,11 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 		pDialog.update(40, 'Attempting to Login')
 		
 		retryPlay=True
+		liveTvPremiumCode=selfAddon.getSetting( "liveTvPremiumCode" )
+		liveTvNonPremiumCode=selfAddon.getSetting( "liveTvNonPremiumCode" )
+		lastWorkingCode=selfAddon.getSetting( "lastLivetvWorkingCode" )
 		while retryPlay:
 			retryPlay=False
-			liveTvPremiumCode=selfAddon.getSetting( "liveTvPremiumCode" )
-			liveTvNonPremiumCode=selfAddon.getSetting( "liveTvNonPremiumCode" )
-			lastWorkingCode=selfAddon.getSetting( "lastLivetvWorkingCode" )
 			usingLastWorkingCode=False
 			disableFreeForNow=True# Tick tock tick tock.. you were lucking that you didn't play the game. but no more games anymore :(
 			#dont worry, its still disable
@@ -57,7 +57,7 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 					print 'no code speficied'
 					#no login for time being ;)
 				if lastWorkingCode=="" and liveTvNonPremiumCode=="" : #stop free account
-					if 1==2 and shouldforceLogin():
+					if shouldforceLogin():
 						print 'performing login'
 						if not performLogin():
 							timeD = 1000  #in miliseconds
@@ -117,7 +117,8 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 				selfAddon.setSetting( id="lastLivetvWorkingCode" ,value=code)
 				return True
 			else:
-				selfAddon.setSetting( id="lastLivetvWorkingCode" ,value="")
+				#selfAddon.setSetting( id="lastLivetvWorkingCode" ,value="")
+				lastWorkingCode=""
 				retryPlay=usingLastWorkingCode
 		return False
 	except:
@@ -277,7 +278,7 @@ def performLogin():
 	
 	html_text=getUrl("http://www.livetv.tn/login.php",cookieJar)
 	
-
+	selfAddon.setSetting( id="lastLivetvWorkingCode" ,value="")
 	if 1==2: #future planning
 		postPage=re.findall('<form .*?action=\"(.*?)\"', html_text)
 		if postPage and len(postPage)>0 and len(postPage[0]):
@@ -325,27 +326,34 @@ def performLogin():
 
 	recapChallenge=""
 	solution=""
-	cap_reg="<iframe src=\"(.*?noscript\?.*?)\&?\""
+	cap_reg="<script.*?src=\"(.*?recap.*?)\""
 	match =re.findall(cap_reg, html_text)
 	captcha=False
 	if match and len(match)>0: #new shiny captcha!
 		captcha_url=match[0]
 		captcha=True
 		
-		cap_chall_reg='recaptcha_challenge_field\" value=\"(.*?)\"'
-		cap_image_reg='<img.*?src=\"(.*?)\"'
+		cap_chall_reg='challenge.*?\'(.*?)\''
+		cap_image_reg='\'(.*?)\''
 		captcha_script=getUrl(captcha_url)
 		recapChallenge=re.findall(cap_chall_reg, captcha_script)[0]
-		captcha_image_url=re.findall(cap_image_reg, captcha_script)[0]
+		captcha_reload='http://www.google.com/recaptcha/api/reload?c=';
+		captcha_k=captcha_url.split('k=')[1]
+		captcha_reload+=recapChallenge+'&k='+captcha_k+'&captcha_k=1&type=image&lang=en-GB'
+		captcha_reload_js=getUrl(captcha_reload)
+		captcha_reload_response_chall=re.findall(cap_image_reg, captcha_reload_js)[0]
+		captcha_image_url='http://www.google.com/recaptcha/api/image?c='+captcha_reload_response_chall
 		if not captcha_image_url.startswith("http"):
 			captcha_image_url='http://www.google.com/recaptcha/api/'+captcha_image_url
-		local_captcha = os.path.join(profile_path, "captcha.img" )
+		import random
+		n=random.randrange(100,1000,5)
+		local_captcha = os.path.join(profile_path,str(n) +"captcha.img" )
 		localFile = open(local_captcha, "wb")
 		localFile.write(getUrl(captcha_image_url))
 		localFile.close()
 		solver = InputWindow(captcha=local_captcha)
 		solution = solver.get()
-	
+		os.remove(local_captcha)
 	
 	if solution or captcha==None:
 
@@ -353,7 +361,7 @@ def performLogin():
 		userName=selfAddon.getSetting( "liveTvLogin" )
 		password=selfAddon.getSetting( "liveTvPassword")
 		if captcha:
-			post={'pseudo':userName,'epass':password,'recaptcha_challenge_field':recapChallenge,'recaptcha_response_field':solution}
+			post={'pseudo':userName,'epass':password,'recaptcha_challenge_field':captcha_reload_response_chall,'recaptcha_response_field':solution}
 		else:
 			post={'pseudo':userName,'epass':password}
 		print 'post',post
