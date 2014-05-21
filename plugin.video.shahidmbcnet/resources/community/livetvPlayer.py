@@ -44,10 +44,10 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 			retryPlay=False
 			liveTvPremiumCode=selfAddon.getSetting( "liveTvPremiumCode" )
 			liveTvNonPremiumCode=selfAddon.getSetting( "liveTvNonPremiumCode" )
-			
 			lastWorkingCode=selfAddon.getSetting( "lastLivetvWorkingCode" )
 			usingLastWorkingCode=False
-			disableFreeForNow=True# lol i want to see how many users you get before i break that captcha
+			disableFreeForNow=True# Tick tock tick tock.. you were lucking that you didn't play the game. but no more games anymore :(
+			#dont worry, its still disable
 			if liveTvPremiumCode=="":
 				if lastWorkingCode=="" and liveTvNonPremiumCode=="":
 					timeD = 2000  #in miliseconds
@@ -275,42 +275,83 @@ def performLogin():
 	
 	html_text=getUrl("http://www.livetv.tn/login.php",cookieJar)
 	
-	
+
+	if 1==2: #future planning
+		postPage=re.findall('<form .*?action=\"(.*?)\"', html_text)
+		if postPage and len(postPage)>0 and len(postPage[0]):
+			postPage=postPage[0]
+			if not postPage.startswith("http"):
+				if postPage.startswith('/'):
+					postPage=('http://www.livetv.tn'+postPage) ## You only going to make this perfect haha
+				else:
+					postPage=('http://www.livetv.tn/'+postPage) ## i will follow you, so keep doing it
+		else:
+			postPage='http://www.livetv.tn/login.php'
+				
 	
 	cookieJar.save (COOKIEFILE,ignore_discard=True)
 	print 'cookie jar saved',cookieJar
 
-	if 'capimg.php?do=show' in html_text:
-	#match =re.findall('src=\"(capimg.*?)\"\/', html_text)
-		match=['capimg.php?do=show']
-	if len(match)>0:
-		captcha="http://www.livetv.tn/"+match[0]
-	else:
-		captcha=None
+	if 1==2: #old captcha
+		if 'capimg.php?do=show' in html_text:
+		#match =re.findall('src=\"(capimg.*?)\"\/', html_text)
+			match=['capimg.php?do=show']
+		if len(match)>0:
+			captcha="http://www.livetv.tn/"+match[0]
+		else:
+			captcha=None
+		
+
+			
+		if captcha:
+			local_captcha = os.path.join(profile_path, "captcha.img" )
+			localFile = open(local_captcha, "wb")
+			print 'capurl',captcha
+			localFile.write(getUrl(captcha,cookieJar))
+			localFile.close()
+			cap=parseCaptcha(local_captcha)
+			print 'login parsed cap',cap
+
+			if 1==2:#cap=="" or not len(cap)==4:
+				solver = InputWindow(captcha=local_captcha)
+				solution = solver.get()
+			else:
+				solution=cap
+
+				
 	
 
+	recapChallenge=""
+	solution=""
+	cap_reg="<iframe src=\"(.*?noscript\?.*?)\&?\""
+	match =re.findall(cap_reg, html_text)
+	captcha=False
+	if match and len(match)>0: #new shiny captcha!
+		captcha_url=match[0]
+		captcha=True
 		
-	if captcha:
+		cap_chall_reg='recaptcha_challenge_field\" value=\"(.*?)\"'
+		cap_image_reg='<img.*?src=\"(.*?)\"'
+		captcha_script=getUrl(captcha_url)
+		recapChallenge=re.findall(cap_chall_reg, captcha_script)[0]
+		captcha_image_url=re.findall(cap_image_reg, captcha_script)[0]
+		if not captcha_image_url.startswith("http"):
+			captcha_image_url='http://www.google.com/recaptcha/api/'+captcha_image_url
 		local_captcha = os.path.join(profile_path, "captcha.img" )
 		localFile = open(local_captcha, "wb")
-		print 'capurl',captcha
-		localFile.write(getUrl(captcha,cookieJar))
+		localFile.write(getUrl(captcha_image_url))
 		localFile.close()
-		cap=parseCaptcha(local_captcha)
-		print 'login parsed cap',cap
-
-		if 1==2:#cap=="" or not len(cap)==4:
-			solver = InputWindow(captcha=local_captcha)
-			solution = solver.get()
-		else:
-			solution=cap
+		solver = InputWindow(captcha=local_captcha)
+		solution = solver.get()
+	
+	
 	if solution or captcha==None:
 
 		print 'performing login'
 		userName=selfAddon.getSetting( "liveTvLogin" )
 		password=selfAddon.getSetting( "liveTvPassword")
 		if captcha:
-			post={'pseudo':userName,'epass':password,'capcode':solution}
+			post={'pseudo':userName,'epass':password,'recaptcha_challenge_field':recapChallenge,'recaptcha_response_field':solution}
 		else:
 			post={'pseudo':userName,'epass':password}
 		print 'post',post
@@ -374,7 +415,7 @@ def shouldforceLogin(cookieJar=None, currentPage=None):
 class InputWindow(xbmcgui.WindowDialog):
     def __init__(self, *args, **kwargs):
         self.cptloc = kwargs.get('captcha')
-        self.img = xbmcgui.ControlImage(335,30,624,60,self.cptloc)
+        self.img = xbmcgui.ControlImage(335,30,624,80,self.cptloc)
         self.addControl(self.img)
         self.kbd = xbmc.Keyboard()
 
