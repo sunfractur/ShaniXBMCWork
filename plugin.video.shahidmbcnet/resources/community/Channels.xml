@@ -1,4 +1,14 @@
 <channels>
+<channel>
+        <cname>Mekamleen</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/mm/mekameleen_tv_eg.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>egypt</category>
+            <category>news</category>
+        </assignedcategory>
+    </channel>
+    
  <channel>
         <cname>Alrabi3a Egypt</cname>
         <imageurl>http://fc04.deviantart.net/fs70/f/2013/356/2/5/rabaa_tv_channel_logot_by_badrmedia-d6yybvc.jpg</imageurl>
