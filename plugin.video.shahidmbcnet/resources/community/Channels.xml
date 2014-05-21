@@ -1,14 +1,5 @@
 <channels>
-<channel>
-        <cname>Alrabi3a Egypt</cname>
-        <imageurl>http://fc04.deviantart.net/fs70/f/2013/356/2/5/rabaa_tv_channel_logot_by_badrmedia-d6yybvc.jpg</imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-            <category>egypt</category>
-            <category>news</category>
-        </assignedcategory>
-    </channel>
-    
+
 <channel>
         <cname>Al Nahar Sport</cname>
         <imageurl>http://www.alnaharlive.net/wp-content/themes/nahar/images/channel2.png</imageurl>
