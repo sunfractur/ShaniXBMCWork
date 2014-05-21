@@ -1,6 +1,14 @@
 <streamingInfos>
 
 <streaminginfo>
+        <cname>Mekamleen</cname>
+	<item>
+	<title>85.111 Source</title>
+	<link>rtmp://85.111.14.52/r_mekameleen?a2V5bGl2ZTY5LTE4MC0yNDYtMTA0MjAxNC0wNS0xNC0yMC01OS0wMQ==/live1</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
         <cname>Alrabi3a Egypt</cname>
 	<item>
 	<title>Ustream Source</title>
