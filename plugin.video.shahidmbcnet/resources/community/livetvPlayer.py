@@ -50,12 +50,14 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 			#dont worry, its still disable
 			if liveTvPremiumCode=="":
 				if lastWorkingCode=="" and liveTvNonPremiumCode=="":
-					timeD = 2000  #in miliseconds
-					line1="Login disabled, use Non Premium code"
-					xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, timeD, __icon__))
-					return False
+					#timeD = 2000  #in miliseconds
+					#line1="Login disabled, use Non Premium code"
+					#xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, timeD, __icon__))
+					#return False
+					print 'no code speficied'
+					#no login for time being ;)
 				if lastWorkingCode=="" and liveTvNonPremiumCode=="" : #stop free account
-					if shouldforceLogin():
+					if 1==2 and shouldforceLogin():
 						print 'performing login'
 						if not performLogin():
 							timeD = 1000  #in miliseconds
@@ -149,7 +151,7 @@ def getcode():
 		
 		solution=None
 
-		if captcha:
+		if 1==2 and captcha:
 			local_captcha = os.path.join(profile_path, "captchaC.img" )
 			localFile = open(local_captcha, "wb")
 			print ' c capurl',captcha
@@ -206,7 +208,7 @@ def getcode():
 			if link=="":
 				link=getUrl(codepage,cookieJar)
 			link=javascriptUnEscape(link)
-		code =re.findall('code=(.*?)[\'\"]', link)
+		code =re.findall('\?c=(.*?)[\'\"]', link)
 		if (not code==None) and len(code)>0:
 			#print 'print link is ',link
 			code=code[0]
