@@ -104,7 +104,7 @@ def Colored(text = '', colorid = '', isBold = False):
 		text = '[B]' + text + '[/B]'
 	return '[COLOR ' + color + ']' + text + '[/COLOR]'	
 	
-def addDir(name,url,mode,iconimage	,showContext=False,isItFolder=True,pageNumber="", isHTML=True,addIconForPlaylist=False, AddRemoveMyChannels=None):
+def addDir(name,url,mode,iconimage	,showContext=False,isItFolder=True,pageNumber="", isHTML=True,addIconForPlaylist=False, AddRemoveMyChannels=None, SelectDefaultSource=None, hideChannel=None):
 #	print name
 #	name=name.decode('utf-8','replace')
 	if isHTML:
@@ -144,6 +144,21 @@ def addDir(name,url,mode,iconimage	,showContext=False,isItFolder=True,pageNumber
 		else:
 			cmd1 = "XBMC.RunPlugin(%s&AddRemoveMyChannels=remove)" % (u)
 			liz.addContextMenuItems([('Remove from My Channels',cmd1)])
+
+
+	if SelectDefaultSource:
+		#print 'select defauly'
+		cmd2 = "XBMC.RunPlugin(%s&selectDefaultSource=yes)" % (u)
+		liz.addContextMenuItems([('Select default source',cmd2)])
+
+	if 1==2 and not hideChannel==None:
+		if hideChannel:
+			cmd3 = "XBMC.RunPlugin(%s&HideChannel=yes)" % (u)
+			liz.addContextMenuItems([('Hide this Channel',cmd3)])
+		else:
+			cmd3 = "XBMC.RunPlugin(%s&HideChannel=no)" % (u)
+			liz.addContextMenuItems([('Unhide this Channel',cmd3)])
+
 			
 	ok=xbmcplugin.addDirectoryItem(handle=int(sys.argv[1]),url=u,listitem=liz,isFolder=isItFolder)
 	return ok
@@ -328,24 +343,32 @@ def RefreshResources(auto=False):
 	ok = dialog.ok('XBMC', 'Download finished. Close close Addon and come back')
 
 def removeLoginFile(livePlayer,TeleDunet):
+	something_done=False
 	try:
 		if livePlayer:
+			something_done=True
 			selfAddon.setSetting( id="lastLivetvWorkingCode" ,value="")
 			COOKIEFILE = communityStreamPath+'/livePlayerLoginCookie.lwp'
 			os.remove(COOKIEFILE)
+			
 	except: pass
 	try:
 		if TeleDunet:
+			something_done=True
 			COOKIEFILE = communityStreamPath+'/teletdunetPlayerLoginCookie.lwp'
 			os.remove(COOKIEFILE)
 	except: pass
+	if something_done:
+		time = 2000  #in miliseconds
+		line1="Session data removed!"
+		xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
 
 def ShowSettings(Fromurl):
 	current_LivePlayerLogin=selfAddon.getSetting( "liveTvLogin" )+selfAddon.getSetting( "liveTvPassword")
 	current_teleDunetLogin=selfAddon.getSetting( "teledunetTvLogin" )+selfAddon.getSetting( "teledunetTvPassword")
 	selfAddon.setSetting( id="clearLogonSettings" ,value="false")
 	selfAddon.openSettings()
-	print 'after settings'
+	#print 'after settings'
 	clearLogonSettings=selfAddon.getSetting( "clearLogonSettings" )
 	after_LivePlayerLogin=selfAddon.getSetting( "liveTvLogin" )+selfAddon.getSetting( "liveTvPassword")
 	after_teleDunetLogin=selfAddon.getSetting( "teledunetTvLogin" )+selfAddon.getSetting( "teledunetTvPassword")
@@ -603,7 +626,7 @@ def getFirstElement(elements,attrib, val):
 	for el in elements:
 		#print el.attrib[attrib]
 		if el.attrib[attrib]==val:
-			print 'found next'
+			#print 'found next'
 			return el
 	return None
 
@@ -756,14 +779,30 @@ def getSourceAndStreamInfo(channelId, returnOnFirst,pDialog):
 		ret=[]
 		#Ssoup=getSoup('Sources.xml');
 		sourcesXml=getEtreeFromFile('Sources.xml');
+		default_source=''
+		config=getChannelSettings( channelId)
+		if config and 'defaultsource' in config:
+			default_source=config['defaultsource']
+		#print 'default_source',default_source
 		orderlist={}
+		default_source_exists=False
 		for n in range(6):
 			val=selfAddon.getSetting( "order"+str(n+1) )
 			if val and not val=="":
+				#print 'val',val,default_source
 				orderlist[val]=n*100
+				if not default_source=='' and default_source ==val:
+					orderlist[val]=-100
+		#print orderlist
+
+
+					
+			
 		#print orderlist
 		#print 'sources',sources
 		num=0
+
+		
 		pDialog.update(30, 'Looping on sources')
 		sources=sourcesXml.findall('source')
 		for source in sources:
@@ -802,6 +841,9 @@ def getSourceAndStreamInfo(channelId, returnOnFirst,pDialog):
 					sInfo=[]
 					for inf in sInfos:
 						if inf.findtext('cname').lower()==channelId.lower():
+							#print default_source,sid
+							if not default_source=='' and default_source==sname:
+								default_source_exists=True
 							sInfo.append(inf)
 					name_find=sname
 					if name_find in orderlist:
@@ -813,6 +855,7 @@ def getSourceAndStreamInfo(channelId, returnOnFirst,pDialog):
 						#print 'sInfo...................',len(sInfo)
 						
 						for single in sInfo:
+
 							ret.append([source,single,order])
 						#if returnOnFirst:
 						#	break;
@@ -823,7 +866,11 @@ def getSourceAndStreamInfo(channelId, returnOnFirst,pDialog):
 		traceback.print_exc(file=sys.stdout)
 		pass
 	#print 'unsorted ret',ret
-	return sorted(ret,key=lambda x:x[2])
+
+	#print ret
+	ret= sorted(ret,key=lambda x:x[2])
+	#print ret
+	return ret,default_source_exists and not default_source==''
 
 def selectSource(sources):
     if 1==1 or len(sources) > 1:
@@ -835,9 +882,9 @@ def selectSource(sources):
             #print 'i',i.id,i
             if s.findtext('id')=="generic":
                 try:
-                    print 'trying generic name'
+                    #print 'trying generic name'
                     titles.append(s.findtext('sname')+': '+i.find('item').findtext('title'))
-                    print 'trying generic name end '
+                    #print 'trying generic name end '
                 except:
                     titles.append(s.findtext('sname'))
             else:
@@ -848,6 +895,27 @@ def selectSource(sources):
         else:
             return False
 
+def selectDefaultSourcesForChannel(channelId ):
+	try:
+		pDialog = xbmcgui.DialogProgress()
+		ret = pDialog.create('XBMC', 'Finding available resources...')
+		pDialog.update(20, 'Finding sources..')
+		providers, default_source_exists=getSourceAndStreamInfo(channelId,False,pDialog)
+		if len(providers)==0:
+			pDialog.close()
+			time = 2000  #in miliseconds
+			line1="No sources found"
+			xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
+			return None
+		selectedprovider=selectSource(providers)
+		if not selectedprovider:
+			return None
+		source,sInfo,order=selectedprovider #pick first one
+		return source.findtext('sname')
+	except:
+		traceback.print_exc(file=sys.stdout)
+		return None
+		
 def PlayCommunityStream(channelId, name, mode):
 	try:
 		#print 'PlayCommunityStream'
@@ -862,7 +930,9 @@ def PlayCommunityStream(channelId, name, mode):
 			playFirst=True
 		playFirst=bool(playFirst)
 		pDialog.update(20, 'Finding sources..')
-		providers=getSourceAndStreamInfo(channelId,playFirst,pDialog)
+		providers,default_source_exists=getSourceAndStreamInfo(channelId,playFirst,pDialog)
+		if default_source_exists:
+			playFirst=True
 		if len(providers)==0:
 			pDialog.close()
 			time = 2000  #in miliseconds
@@ -1019,7 +1089,7 @@ def addToMyChannels(cname):
 		MyChannelList= BeautifulSOAP('<channels></channels>')
 	
 	val=MyChannelList.find("channel",{"cname":cname})
-	print 'val is ',val
+	#print 'val is ',val
 	if not val:
 		channeltag = Tag(MyChannelList, "channel")
 		channeltag['cname']=cname
@@ -1028,7 +1098,7 @@ def addToMyChannels(cname):
 		#cnametag.insert(0, ctext)
 		#channeltag.insert(0, cnametag)
 		MyChannelList.channels.insert(0, channeltag)
-		print MyChannelList.prettify()
+		#print MyChannelList.prettify()
 
 		with open(fileName, "wb") as filewriter:
 			filewriter.write(str(MyChannelList))
@@ -1044,7 +1114,7 @@ def removeFromMyChannels(cname):
 	
 	val=MyChannelList.find("channel",{"cname":cname})
 	if val:
-		print 'val to be deleted',val
+		#print 'val to be deleted',val
 		val.extract()
 
 		with open(fileName, "wb") as filewriter:
@@ -1074,20 +1144,23 @@ def getCommunityChannels(catType):
 	searchCall='channel'
 	#if not catType=="all":
 	searchCall='.//category'
-	print searchCall
+	#print searchCall
 	MyChannelList=None
+	hidechanneloption=True
 	if catType=="My Channels":
 		try:
 			fileName=os.path.join(profile_path, 'MyChannels.xml')
-			print fileName
+			#print fileName
 			MyChannelList=getSoup(fileName,True)
-			print MyChannelList
+			#print MyChannelList
 		except: MyChannelList=None
 		
 	for channel in Channelsxml.findall('channel'):
 		#print channel
 		chName=channel.findtext('cname')
 		if 1==1:
+			config=getChannelSettings( chName)
+			#print 'config is ',config
 			if not catType=="all":
 				exists=False
 				if not catType=="My Channels":
@@ -1105,14 +1178,19 @@ def getCommunityChannels(catType):
 						val=MyChannelList.find("channel",{"cname":chName})
 						if val:
 							exists=True
+				if config and 'hidden' in config:
+					exists=not config['hidden']=="yes"
 				if not exists:
 					continue
+
 			
 
 		
+		if config and 'hidden' in config:
+			hidechanneloption=not config['hidden']=="yes"
 		#chUrl = channel.id.text
 		imageUrl =channel.findtext('imageurl')
- 		retVal.append([chName,chName,imageUrl])
+ 		retVal.append([chName,chName,imageUrl,hidechanneloption])
 	return retVal
 	
 
@@ -1123,10 +1201,40 @@ def addCommunityChannels(catType):
 		chName=channel[1]
 		chUrl = channel[0]
 		imageUrl = channel[2]
+		hideChannel=channel[3]
 		addRemoveMyChannel=not catType=="My Channels"
- 		addDir(chName ,chUrl ,16,imageUrl, False,isItFolder=False,AddRemoveMyChannels=addRemoveMyChannel)		#name,url,mode,icon
+ 		addDir(chName ,chUrl ,16,imageUrl, False,isItFolder=False,AddRemoveMyChannels=addRemoveMyChannel, SelectDefaultSource=True,hideChannel=hideChannel )		#name,url,mode,icon
 	return
 
+def setChannelSettings(cname,settingName,SettingVal):
+	current_setting=getChannelSettings(cname)
+	if current_setting==None:
+		current_setting={settingName:SettingVal}
+	else:
+		current_setting[settingName]=SettingVal
+	#print 'current_setting',current_setting
+	saveChannelSettings(cname,current_setting)
+
+
+def getChannelSettings(cname):
+	current_string=selfAddon.getSetting( cname+"-settings")
+	#print cname+"-settings",current_string
+	if current_string=="":
+		return None
+	#print 'current_string',current_string
+	return json.loads(current_string)
+
+
+def saveChannelSettings(cname, json_data):
+	store=""
+	if json_data:
+		store=json_data
+	selfAddon.setSetting( id=cname+"-settings" ,value=json.dumps(store))
+
+
+
+	
+	
 def getEtreeFromFile(fileName, isabsolutePath=False):
 	try:
 		#print 'communityStreamPath',communityStreamPath
@@ -1422,9 +1530,20 @@ try:
 except:
 	pass
 
+selectDefaultSource=None
+
+try:
+	selectDefaultSource=args.get('selectDefaultSource', None)[0]
+except:
+	pass
+
+HidChannel=None
+try:
+	HidChannel=args.get('HideChannel', None)[0]
+except:
+	pass
+
 	
-
-
 
 print 	mode,pageNumber
 
@@ -1444,6 +1563,32 @@ try:
 			mode=15
 			url="My Channels"
 			print mode
+
+	if not HidChannel==None:
+		if HidChannel=="yes":
+			setChannelSettings(url,'hidden',HidChannel)
+			line1 = 'Channel has been hidden in categories'
+			time = 2000  #in miliseconds
+			xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
+			mode=-1
+		else:
+			setChannelSettings(url,'hidden','')
+			line1 = 'Channel has been unhidden in categories'
+			time = 2000  #in miliseconds
+			xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
+			mode=-1
+			url=""
+			
+	if not selectDefaultSource==None:
+		default_source=selectDefaultSourcesForChannel(url)
+		print 'v',default_source
+		if default_source:
+			setChannelSettings(url,'defaultsource',default_source)
+			line1 = 'setting saved'
+			time = 2000  #in miliseconds
+			xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
+		mode=-1
+
 	if mode==299: #add communutycats
 		print 'delete cache'
 		removeLoginFile(True,True)
