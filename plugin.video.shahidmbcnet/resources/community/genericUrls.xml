@@ -1,4 +1,13 @@
 <streamingInfos>
+
+<streaminginfo>
+        <cname>Euro News Arabic</cname>
+	<item>
+	<title>Original Source</title>
+	<link>http://hd1.lsops.net/live/smil:euronews_ar.smil/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+
 <streaminginfo>
         <cname>LBC</cname>
 	<item>
