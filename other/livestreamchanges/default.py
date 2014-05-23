@@ -537,6 +537,11 @@ def getItems(items,fanart):
                             regexs[i('name')[0].string]['rawpost'] = i('rawpost')[0].string
                         except:
                             addon_log("Regex: -- Not a rawpost")
+                        try:
+                            regexs[i('name')[0].string]['htmlunescape'] = i('htmlunescape')[0].string
+                        except:
+                            addon_log("Regex: -- Not a htmlunescape")
+
 
                         try:
                             regexs[i('name')[0].string]['readcookieonly'] = i('readcookieonly')[0].string
@@ -710,6 +715,11 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
                         if rawPost:
                             print 'rawpost'
                             val=urllib.quote_plus(val)
+                        if 'htmlunescape' in m:
+                            #val=urllib.unquote_plus(val)
+                            import HTMLParser
+                            val=HTMLParser.HTMLParser().unescape(val)
+
                         url = url.replace("$doregex[" + k + "]", val)
                     else:
                         val=askCaptcha(m,link,cookieJar)
