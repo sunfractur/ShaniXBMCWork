@@ -4,12 +4,13 @@ import re, string
 import threading
 import os
 import base64
-from t0mm0.common.addon import Addon
-from t0mm0.common.net import Net
+#from t0mm0.common.addon import Addon
+#from t0mm0.common.net import Net
 import urlparse
 import xbmcplugin
-addon = Addon('plugin.video.f4mTester', sys.argv)
-net = Net()
+
+#addon = Addon('plugin.video.f4mTester', sys.argv)
+#net = Net()
 
 mode =None
 play=False
