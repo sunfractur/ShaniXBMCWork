@@ -19,7 +19,7 @@
         </assignedcategory>
     </channel>
     
-<channel>
+	<channel>
         <cname>Al Nahar Sport</cname>
         <imageurl>http://www.alnaharlive.net/wp-content/themes/nahar/images/channel2.png</imageurl>
         <enabled>True</enabled>
@@ -27,9 +27,45 @@
             <category>sports</category>
         </assignedcategory>
     </channel>
+	
+	<channel>
+        <cname>Sky Sports 1</cname>
+        <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc3/t1.0-1/c1.0.320.320/p320x320/1503820_10152083754583762_1175632840_n.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>sports</category>
+        </assignedcategory>
+    </channel>
+	
+	<channel>
+        <cname>Sky Sports 2</cname>
+        <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc3/t1.0-1/c1.0.320.320/p320x320/1503820_10152083754583762_1175632840_n.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>sports</category>
+        </assignedcategory>
+    </channel>
+	
+	<channel>
+        <cname>Sky Sports 3</cname>
+        <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc3/t1.0-1/c1.0.320.320/p320x320/1503820_10152083754583762_1175632840_n.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>sports</category>
+        </assignedcategory>
+    </channel>
+	
+	<channel>
+        <cname>Sky Sports 4</cname>
+        <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc3/t1.0-1/c1.0.320.320/p320x320/1503820_10152083754583762_1175632840_n.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>sports</category>
+        </assignedcategory>
+    </channel>
     
     
-<channel>
+	<channel>
         <cname>Alasr</cname>
         <imageurl>http://4.bp.blogspot.com/-o9kBpBMJ4eM/UuBd3NHJOOI/AAAAAAAAE1U/Et7FhFfYpkI/s1600/alasr_tv.png</imageurl>
         <enabled>True</enabled>
@@ -38,34 +74,18 @@
         </assignedcategory>
     </channel>
     
-<channel>
-        <cname>IDF1</cname>
-        <imageurl>https://yt3.ggpht.com/-cJg9hMxtr10/AAAAAAAAAAI/AAAAAAAAAAA/YtwxMBzhg9U/s100-c-k-no/photo.jpg</imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-            <category>french</category>
-        </assignedcategory>
-    </channel>
-	
-	<channel>
-        <cname>Weo</cname>
-        <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc3/t1.0-1/p320x320/1175197_10151981088524737_1901920123_n.jpg</imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-            <category>french</category>
-        </assignedcategory>
-    </channel>
 
-<channel>
+
+	<channel>
         <cname>Oman</cname>
         <imageurl>http://s13.postimg.org/7kb0py2sn/Oman.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>sham</category>
         </assignedcategory>
-</channel>
+	</channel>
 
-<channel>
+	<channel>
         <cname>Ahlulbayt</cname>
         <imageurl>http://www.lyngsat-logo.com/hires/aa/ahlulbayt.png</imageurl>
         <enabled>True</enabled>
@@ -786,6 +806,15 @@
     
     <channel>
         <cname>Al Rafidain</cname>
+        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/rffdin_zps7f3a34ea.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>Iraq</category>
+        </assignedcategory>
+    </channel>
+	
+	<channel>
+        <cname>Dijlah</cname>
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/rffdin_zps7f3a34ea.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
@@ -2323,6 +2352,15 @@
 
 	<channel>
         <cname>Maghreb24 Entertainment</cname>
+        <imageurl>http://www.maghreb24tv.com/commons/images/m24Entertainment.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>magreb</category>
+        </assignedcategory>
+    </channel>
+	
+	<channel>
+        <cname>Maghreb tv</cname>
         <imageurl>http://www.maghreb24tv.com/commons/images/m24Entertainment.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
