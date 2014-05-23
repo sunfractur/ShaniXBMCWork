@@ -659,6 +659,10 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
 
                     if 'post' in m:
                         postData=m['post']
+                        if '$LiveStreamRecaptcha' in postData:
+                            (captcha_challenge,catpcha_word)=processRecaptcha(m['page'])
+                            if captcha_challenge:
+                                postData+='recaptcha_challenge_field:'+captcha_challenge+',recaptcha_response_field:'+catpcha_word
                         splitpost=postData.split(',');
                         post={}
                         for p in splitpost:
@@ -669,6 +673,11 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
 
                     if 'rawpost' in m:
                         post=m['rawpost']
+                        if '$LiveStreamRecaptcha' in post:
+                            (captcha_challenge,catpcha_word)=processRecaptcha(m['page'])
+                            if captcha_challenge:
+                               post+='&recaptcha_challenge_field='+captcha_challenge+'&recaptcha_response_field='+catpcha_word
+
 
                         
 
@@ -678,6 +687,7 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
                         response = urllib2.urlopen(req)
 
                     link = response.read()
+                    link=javascriptUnEscape(link)
 
                     response.close()
                     cachedPages[m['page']] = link
@@ -718,6 +728,69 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
         #xbmc.playlist(xbmc.playlist_video).add(url)
         #xbmc.Player().play(item=url)
         xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, item)
+
+def processRecaptcha(url):
+	html_text=getUrl(url)
+	recapChallenge=""
+	solution=""
+	cap_reg="<script.*?src=\"(.*?recap.*?)\""
+	match =re.findall(cap_reg, html_text)
+	captcha=False
+	captcha_reload_response_chall=None
+	solution=None
+	
+	if match and len(match)>0: #new shiny captcha!
+		captcha_url=match[0]
+		captcha=True
+		
+		cap_chall_reg='challenge.*?\'(.*?)\''
+		cap_image_reg='\'(.*?)\''
+		captcha_script=getUrl(captcha_url)
+		recapChallenge=re.findall(cap_chall_reg, captcha_script)[0]
+		captcha_reload='http://www.google.com/recaptcha/api/reload?c=';
+		captcha_k=captcha_url.split('k=')[1]
+		captcha_reload+=recapChallenge+'&k='+captcha_k+'&captcha_k=1&type=image&lang=en-GB'
+		captcha_reload_js=getUrl(captcha_reload)
+		captcha_reload_response_chall=re.findall(cap_image_reg, captcha_reload_js)[0]
+		captcha_image_url='http://www.google.com/recaptcha/api/image?c='+captcha_reload_response_chall
+		if not captcha_image_url.startswith("http"):
+			captcha_image_url='http://www.google.com/recaptcha/api/'+captcha_image_url
+		import random
+		n=random.randrange(100,1000,5)
+		local_captcha = os.path.join(profile,str(n) +"captcha.img" )
+		localFile = open(local_captcha, "wb")
+		localFile.write(getUrl(captcha_image_url))
+		localFile.close()
+		solver = InputWindow(captcha=local_captcha)
+		solution = solver.get()
+		os.remove(local_captcha)
+	return captcha_reload_response_chall ,solution
+
+def getUrl(url, cookieJar=None,post=None, timeout=20, headers=None):
+
+
+	cookie_handler = urllib2.HTTPCookieProcessor(cookieJar)
+	opener = urllib2.build_opener(cookie_handler, urllib2.HTTPBasicAuthHandler(), urllib2.HTTPHandler())
+	#opener = urllib2.install_opener(opener)
+	req = urllib2.Request(url)
+	req.add_header('User-Agent','Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36')
+	if headers:
+		for h,hv in headers:
+			req.add_header(h,hv)
+
+	response = opener.open(req,post,timeout=timeout)
+	link=response.read()
+	response.close()
+	return link;
+
+def javascriptUnEscape(str):
+	js=re.findall('unescape\(\'(.*?)\'',str)
+	print 'js',js
+	if (not js==None) and len(js)>0:
+		for j in js:
+			print urllib.unquote(j)
+			str=str.replace(j ,urllib.unquote(j))
+	return str
 
 iid=0
 def askCaptcha(m,html_page, cookieJar):

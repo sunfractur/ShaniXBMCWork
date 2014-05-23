@@ -125,8 +125,8 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 		traceback.print_exc(file=sys.stdout)    
 	return False    
 
-codepages=['http://www.livetv.tn/2M-Maroc-en-direct-live.html','http://www.livetv.tn/Al-Masria-en-direct-live.html','http://www.livetv.tn/Al-Shar9ia-en-direct-live.html','http://www.livetv.tn/Al-Maghrebia-en-direct-live.html','http://www.livetv.tn/Al-Sumaria-en-direct-live.html','http://www.livetv.tn/MBC-4-en-direct-live.html']
-codepage=random.choice(codepages)
+ccodepages=['http://www.livetv.tn/']#,'http://www.livetv.tn/2M-Maroc-en-direct-live.html','http://www.livetv.tn/ARTE-en-direct-live.html',]
+codepage=random.choice(ccodepages)
 
 def getcode():
 	try:

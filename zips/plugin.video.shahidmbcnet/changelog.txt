@@ -1,4 +1,7 @@
 [B]Version 3.0.1[/B]
+small fix for play
+
+[B]Version 3.0.1[/B]
 fixed the hide/unhide button
 
 [B]Version 3.0.0[/B]
