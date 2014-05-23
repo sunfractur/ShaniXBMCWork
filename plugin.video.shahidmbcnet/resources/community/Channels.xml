@@ -29,6 +29,15 @@
     </channel>
 	
 	<channel>
+        <cname>alkass</cname>
+        <imageurl>http://www.qatarbroadcast.qa/images/kas.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>sports</category>
+        </assignedcategory>
+    </channel>
+	
+	<channel>
         <cname>Sky Sports 1</cname>
         <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc3/t1.0-1/c1.0.320.320/p320x320/1503820_10152083754583762_1175632840_n.jpg</imageurl>
         <enabled>True</enabled>
@@ -664,6 +673,24 @@
     <channel>
         <cname>alwatan</cname>
         <imageurl>https://yt3.ggpht.com/-KbhxwZdyA4Q/AAAAAAAAAAI/AAAAAAAAAAA/i0C3-T7Uz1A/s100-c-k-no/photo.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>gulf</category>
+        </assignedcategory>
+    </channel>
+	
+	<channel>
+        <cname>alrayan</cname>
+        <imageurl>http://www.qatarbroadcast.qa/images/ryn.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>gulf</category>
+        </assignedcategory>
+    </channel>
+	
+	<channel>
+        <cname>Qatar</cname>
+        <imageurl>http://www.qatarbroadcast.qa/images/qtv.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>gulf</category>
