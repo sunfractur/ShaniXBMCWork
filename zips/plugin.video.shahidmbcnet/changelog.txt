@@ -1,3 +1,6 @@
+[B]Version 3.0.1[/B]
+fixed the hide/unhide button
+
 [B]Version 3.0.0[/B]
 View/hide channels in categories, define default view and set default source for the individual channels
 

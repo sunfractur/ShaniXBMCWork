@@ -141,28 +141,31 @@ def addDir(name,url,mode,iconimage	,showContext=False,isItFolder=True,pageNumber
 		cmd3 = "XBMC.RunPlugin(%s&cdnType=%s)" % (u, "ak")
 		liz.addContextMenuItems([('Play using L3 Cdn',cmd1),('Play using XDN Cdn',cmd2),('Play using AK Cdn',cmd3)])
 
+	context_menu=[]
 	if not AddRemoveMyChannels==None:
 		if AddRemoveMyChannels:
 			cmd1 = "XBMC.RunPlugin(%s&AddRemoveMyChannels=add)" % (u)
-			liz.addContextMenuItems([('Add to My Channels',cmd1)])
+			context_menu.append(('Add to My Channels',cmd1))
 		else:
 			cmd1 = "XBMC.RunPlugin(%s&AddRemoveMyChannels=remove)" % (u)
-			liz.addContextMenuItems([('Remove from My Channels',cmd1)])
+			context_menu.append(('Remove from My Channels',cmd1))
 
 
 	if SelectDefaultSource:
 		#print 'select defauly'
 		cmd2 = "XBMC.RunPlugin(%s&selectDefaultSource=yes)" % (u)
-		liz.addContextMenuItems([('Select default source',cmd2)])
+		context_menu.append(('Select default source',cmd2))
 
-	if 1==2 and not hideChannel==None:
+	if not hideChannel==None:
 		if hideChannel:
 			cmd3 = "XBMC.RunPlugin(%s&HideChannel=yes)" % (u)
-			liz.addContextMenuItems([('Hide this Channel',cmd3)])
+			context_menu.append(('Hide this Channel',cmd3))
 		else:
 			cmd3 = "XBMC.RunPlugin(%s&HideChannel=no)" % (u)
-			liz.addContextMenuItems([('Unhide this Channel',cmd3)])
+			context_menu.append(('Unhide this Channel',cmd3))
 
+	if len(context_menu)>0:
+		liz.addContextMenuItems(context_menu,replaceItems=True)
 			
 	ok=xbmcplugin.addDirectoryItem(handle=int(sys.argv[1]),url=u,listitem=liz,isFolder=isItFolder)
 	return ok
