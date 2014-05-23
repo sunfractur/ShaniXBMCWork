@@ -1,5 +1,11 @@
 <streamingInfos>
-
+<streaminginfo>
+        <cname>Al Manar</cname>
+	<item>
+	<title>38.96 source</title>
+	<link>rtmp://38.96.148.200/live/livestream playpath=livestream conn=S:OK swfUrl=http://wwitv.com/player/player15.swf live=1 pageUrl=http://wwitv.com/tv_channels/7668.htm</link>
+	</item>
+</streaminginfo>
 <streaminginfo>
         <cname>Mekamleen</cname>
 	<item>
