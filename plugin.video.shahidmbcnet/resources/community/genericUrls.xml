@@ -1,4 +1,13 @@
 <streamingInfos>
+
+<streaminginfo>
+        <cname>MTV</cname>
+	<item>
+	<title>itworkscdn Source</title>
+	<link>rtmp://livestreaming1.itworkscdn.net/mtvlive playpath=murrtelevision_360p swfUrl=http://mtv.com.lb/Player/400/jwplayer.flash.swf pageUrl=http://mtv.com.lb/Player/600/400</link>
+	</item>
+</streaminginfo>
+
 <streaminginfo>
         <cname>Orient News</cname>
 	<item>
