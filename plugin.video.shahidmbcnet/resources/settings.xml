@@ -53,6 +53,7 @@
 		
 
 	  </category>
-
-	     
+		<category label="32049">
+			<setting label="32050" type="number" id="usethisviewmode" values="" default=""/>
+		 </category>
 </settings>

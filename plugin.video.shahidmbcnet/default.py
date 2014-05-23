@@ -78,9 +78,13 @@ VIEW_MODES = {
 }
 
 def get_view_mode_id( view_mode):
-	view_mode_ids = VIEW_MODES.get(view_mode.lower())
-	if view_mode_ids:
-		return view_mode_ids.get(xbmc.getSkinDir())
+	default_view_mode=selfAddon.getSetting( "usethisviewmode" )
+	if default_view_mode=="":
+		view_mode_ids = VIEW_MODES.get(view_mode.lower())
+		if view_mode_ids:
+			return view_mode_ids.get(xbmc.getSkinDir())
+	else:
+		return int(default_view_mode)
 	return None
 
 def addLink(name,url,iconimage):

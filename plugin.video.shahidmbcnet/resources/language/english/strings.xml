@@ -42,5 +42,7 @@
 	<string id="32046">Premium Account Code</string>	
 	<string id="32047">Clear Login Session Data</string>	
 	<string id="32048">Non premium code (when Addon Login not working)</string>	
+	<string id="32049">Misc settings</string>	
+	<string id="32050">Override default view mode</string>	
 	
 </strings>
