@@ -1,6 +1,14 @@
 <streamingInfos>
 
 <streaminginfo>
+        <cname>Al Alam</cname>
+	<item>
+	<title>Original Source</title>
+	<link>rtmp://hd6.lsops.net/live/alalam_ar_928</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
         <cname>Euro News Arabic</cname>
 	<item>
 	<title>Original Source</title>
