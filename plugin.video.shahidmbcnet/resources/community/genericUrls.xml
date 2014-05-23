@@ -1,5 +1,12 @@
 <streamingInfos>
 <streaminginfo>
+        <cname>Orient News</cname>
+	<item>
+	<title>Original Source</title>
+	<link>rtmp://67.228.105.241/live/ playpath=live3 swfUrl=http://orient-tv.net/live/jwplayer/player.swf pageUrl=http://orient-tv.net/live/ live=true</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
         <cname>Al Manar</cname>
 	<item>
 	<title>38.96 source</title>
