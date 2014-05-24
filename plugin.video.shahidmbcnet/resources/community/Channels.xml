@@ -1,4 +1,14 @@
 <channels>
+
+<channel>
+        <cname>Al sahraa</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/aa/al_sahraa_tv.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>sham</category>
+        </assignedcategory>
+    </channel>
+    
 <channel>
         <cname>New Media</cname>
         <imageurl>http://www.lyngsat-logo.com/hires/nn/numidia_news_tv_dz.png</imageurl>
