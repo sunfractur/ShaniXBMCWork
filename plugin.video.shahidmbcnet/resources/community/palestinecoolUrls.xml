@@ -117,22 +117,10 @@
 		<cname>Al mayaden</cname>
 
 <item> 
-<title>Al Mayadeen Source 2</title>
+<title>Al Mayadeen Source 2 Medium Quality</title>
 <link>rtmp://hd2.lsops.net/live/ playpath=almayade_ar_485 swfUrl=http://static.ls-cdn.com/player/5.10/livestation-player.swf?1377945036 live=1 timeout=15 pageUrl=http://www.livestation.com/en/almayadeen/popout</link> 
 </item>
 </streaminginfo>
-
-
-<streaminginfo>
-		<cname>Al mayaden</cname>
-<item> 
-<title>Al Mayadeen Source 3</title>
-<link>rtmp://livestreaming3.itworkscdn.net/mayadeenlive playpath=mayadsat swfUrl=http://www.almayadeen.net/content/jwplayer/jwplayer.flash.swf live=1 timeout=15 pageUrl=http://www.almayadeen.net/live</link>
-</item>
-</streaminginfo>
-
-
-
 
 <streaminginfo>
 		<cname>Al Alam</cname>
