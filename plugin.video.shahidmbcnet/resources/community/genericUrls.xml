@@ -1,5 +1,20 @@
 <streamingInfos>
 <streaminginfo>
+        <cname>New Media</cname>
+	<item>
+	<title>Original Source</title>
+	<link>http://130.255.190.142:1935/live/numidia/chunklist_w1397340134.m3u8</link>
+	</item>
+</streaminginfo>
+
+	<streaminginfo>
+        <cname>Sepide</cname>
+	<item>
+	<title>Original Source</title>
+	<link>rtmp://sepidehlive.nanocdn.com:1935/live/sepideh256</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
         <cname>Al-hurra Iraq</cname>
 	<item>
 	<title>Original Source</title>
