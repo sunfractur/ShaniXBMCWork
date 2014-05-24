@@ -1624,7 +1624,7 @@
     </channel>
 
     <channel>
-        <cname>France24 Arabic</cname>
+        <cname>France 24</cname>
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/fr24_zps2bc09892.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
