@@ -1,5 +1,20 @@
 <streamingInfos>
 <streaminginfo>
+    <cname>Al Alam</cname>
+	<item>
+	<title>Medium Quality</title>
+	<link>rtmp://hd6.lsops.net/live playpath=alalam_ar_584 swfUrl="http://static.ls-cdn.com/player/5.10/livestation-player.swf" swfVfy=true live=true</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+    <cname>Al Alam</cname>
+	<item>
+	<title>Low Quality</title>
+	<link>rtmp://hd6.lsops.net/live playpath=alalam_ar_162 swfUrl="http://static.ls-cdn.com/player/5.10/livestation-player.swf" swfVfy=true live=true</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
     <cname>alnabaa</cname>
 	<item>
 	<title>Medium Quality</title>
