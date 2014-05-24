@@ -1,5 +1,33 @@
 <streamingInfos>
 <streaminginfo>
+    <cname>alnabaa</cname>
+	<item>
+	<title>Medium Quality</title>
+	<link>rtmp://alnabaa.lsops.net/live/ playpath=alnabaa_ar_364 swfUrl="http://static.ls-cdn.com/player/5.10/livestation-player.swf" swfVfy=true live=true</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+    <cname>alnabaa</cname>
+	<item>
+	<title>Low Quality</title>
+	<link>rtmp://alnabaa.lsops.net/live/ playpath=alnabaa_ar_162 swfUrl="http://static.ls-cdn.com/player/5.10/livestation-player.swf" swfVfy=true live=true</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+    <cname>alnabaa</cname>
+	<item>
+	<title>Mobile Quality</title>
+	<link>http://alnabaa.lsops.net/live/alnabaa_ar_hls.smil/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+    <cname>Euro News Arabic</cname>
+	<item>
+	<title>Source1</title>
+	<link>rtmp://fr-par-10-stream-relay.hexaglobe.net/rtpeuronewslive/ar_video750_rtp.sdp swfUrl=http://www.euronews.com/media/player_live_1_14.swf swfVfy=true live=true</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
         <cname>Russia Alyaum</cname>
 	<item>
 	<title>HD 720p Original source</title>
