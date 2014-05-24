@@ -1,5 +1,19 @@
 <streamingInfos>
 <streaminginfo>
+        <cname>BBC Arabic</cname>
+	<item>
+	<title>You need to install f4m_tester addon from Shani Repo</title>
+	<link>plugin://plugin.video.f4mTester/?url=http://bbcwshdlive01-lh.akamaihd.net/z/atv_1@61433/manifest.f4m?hdcore=2.11.3</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>BBC Arabic</cname>
+	<item>
+	<title>m3u8</title>
+	<link>http://hd7.lsops.net/live/bbcarab_ar_hls.smil/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
     	<cname>France 24</cname>
 	<item>
 	<title>Arabic</title>
