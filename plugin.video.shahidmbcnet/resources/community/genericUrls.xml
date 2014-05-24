@@ -1,5 +1,93 @@
 <streamingInfos>
 <streaminginfo>
+        <cname>Aljazeera</cname>
+	<item>
+	<title>High Quality</title>
+	<link>rtmp://hd3.lsops.net/live playpath=aljazeer_ar_838 swfUrl="http://static.ls-cdn.com/player/5.10/livestation-player.swf" swfVfy=true live=true</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+        <cname>Aljazeera</cname>
+	<item>
+	<title>Medium Quality</title>
+	<link>rtmp://hd3.lsops.net/live playpath=aljazeer_ar_372 swfUrl="http://static.ls-cdn.com/player/5.10/livestation-player.swf" swfVfy=true live=true</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+        <cname>Aljazeera</cname>
+	<item>
+	<title>Mobile Quality</title>
+	<link>http://hd3.lsops.net/live/aljazeer_ar_hls.smil/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+        <cname>Aljazeera</cname>
+	<item>
+	<title>Low Quality</title>
+	<link>rtmp://hd3.lsops.net/live playpath=aljazeer_ar_145 swfUrl="http://static.ls-cdn.com/player/5.10/livestation-player.swf" swfVfy=true live=true</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+        <cname>AlJazeera En</cname>
+	<item>
+	<title>High Quality</title>
+	<link>rtmp://hd2.lsops.net/live playpath=aljazeer_en_838 swfUrl="http://static.ls-cdn.com/player/5.10/livestation-player.swf" swfVfy=true live=true</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+        <cname>AlJazeera En</cname>
+	<item>
+	<title>Medium Quality</title>
+	<link>rtmp://hd2.lsops.net/live playpath=aljazeer_en_372 swfUrl="http://static.ls-cdn.com/player/5.10/livestation-player.swf" swfVfy=true live=true</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+        <cname>AlJazeera En</cname>
+	<item>
+	<title>Mobile Quality</title>
+	<link>http://hd2.lsops.net/live/aljazeer_en_hls.smil/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+        <cname>AlJazeera En</cname>
+	<item>
+	<title>Low Quality</title>
+	<link>rtmp://hd2.lsops.net/live playpath=aljazeer_en_145 swfUrl="http://static.ls-cdn.com/player/5.10/livestation-player.swf" swfVfy=true live=true</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+        <cname>AlJazeera US</cname>
+	<item>
+	<title>High Quality</title>
+	<link>rtmp://ajam.lsops.net/live/ playpath=ajam_en_584 swfUrl="http://static.ls-cdn.com/player/5.10/livestation-player.swf" swfVfy=true live=true</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+        <cname>AlJazeera US</cname>
+	<item>
+	<title>Medium Quality</title>
+	<link>rtmp://ajam.lsops.net/live/ playpath=ajam_en_364 swfUrl="http://static.ls-cdn.com/player/5.10/livestation-player.swf" swfVfy=true live=true</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+        <cname>AlJazeera US</cname>
+	<item>
+	<title>Mobile Quality</title>
+	<link>http://ajam.lsops.net/live/ajam_en_hls.smil/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+        <cname>AlJazeera US</cname>
+	<item>
+	<title>Low Quality</title>
+	<link>rtmp://ajam.lsops.net/live/ playpath=ajam_en_162 swfUrl="http://static.ls-cdn.com/player/5.10/livestation-player.swf" swfVfy=true live=true</link>
+	</item>
+</streaminginfo>
+
+
+
+<streaminginfo>
         <cname>BBC Arabic</cname>
 	<item>
 	<title>You need to install f4m_tester addon from Shani Repo</title>
