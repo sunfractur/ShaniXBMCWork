@@ -117,8 +117,24 @@
 		<cname>Al mayaden</cname>
 
 <item> 
-<title>Al Mayadeen Source 2 Medium Quality</title>
+<title>Al Mayadeen Medium Quality</title>
 <link>rtmp://hd2.lsops.net/live/ playpath=almayade_ar_485 swfUrl=http://static.ls-cdn.com/player/5.10/livestation-player.swf?1377945036 live=1 timeout=15 pageUrl=http://www.livestation.com/en/almayadeen/popout</link> 
+</item>
+</streaminginfo>
+<streaminginfo>
+<cname>Al mayaden</cname>
+<item>
+<title>Al Mayadeen Low Quality</title>
+<link>rtmp://hd2.lsops.net/live playpath=almayade_ar_183 swfUrl="http://static.ls-cdn.com/player/5.10/livestation-player.swf" swfVfy=true live=true</link>
+</item>
+</streaminginfo>
+
+
+<streaminginfo>
+<cname>Al mayaden</cname>
+<item>
+<title>Al Mayadeen Mobile Quality</title>
+<link>http://hd2.lsops.net/live/almayade_ar_hls.smil/playlist.m3u8</link>
 </item>
 </streaminginfo>
 
