@@ -1,6 +1,36 @@
 <streamingInfos>
 <streaminginfo>
-    <cname>Ajyal</cname>
+    	<cname>France 24</cname>
+	<item>
+	<title>Arabic</title>
+	<link>http://vipwowza.yacast.net/f24_hlslive_ar/smil:iphone.fr24ar.smil/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+    	<cname>France 24</cname>
+	<item>
+	<title>English</title>
+	<link>http://vipwowza.yacast.net/f24_hlslive_en/smil:iphone.fr24en.smil/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+    	<cname>France 24</cname>
+	<item>
+	<title>France</title>
+	<link>http://vipwowza.yacast.net/f24_hlslive_fr/smil:iphone.fr24fr.smil/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+    	<cname>France 24 FR</cname>
+	<item>
+	<title>France</title>
+	<link>http://vipwowza.yacast.net/f24_hlslive_fr/smil:iphone.fr24fr.smil/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+    	<cname>Ajyal</cname>
 	<item>
 	<title>Original Source</title>
 	<link>rtmp://ib12.islambox.tv/live/?v=hghpl]=a2V5bGl2ZTIxNy0yMzAtMjIzLTIwMjIwMTQtMDUtMjQtMTEtNTAtNDY=/vb008_ajial.stream?</link>
