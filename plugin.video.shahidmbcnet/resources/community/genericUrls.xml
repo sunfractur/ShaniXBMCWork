@@ -1,5 +1,12 @@
 <streamingInfos>
 <streaminginfo>
+    <cname>Al sahraa</cname>
+	<item>
+	<title>Original Source</title>
+	<link>rtmp://79.134.137.65:1935/live/Sahraa.stream swfVfy=true live=true</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
     <cname>CBC Sofra</cname>
 	<item>
 	<title>Original Source</title>
