@@ -407,6 +407,10 @@ class F4MDownloader():
             version_fine="xmlns=\".*?\/([0-9].*?)\""
             F4Mversion =re.findall(version_fine, manifest)[0]
             #print F4Mversion,_add_ns('media')
+            #quick for one example where the xml was wrong.
+            if '\"bootstrapInfoId' in manifest:
+                manifest=manifest.replace('\"bootstrapInfoId','\" bootstrapInfoId')
+
             doc = etree.fromstring(manifest)
             print doc
             
