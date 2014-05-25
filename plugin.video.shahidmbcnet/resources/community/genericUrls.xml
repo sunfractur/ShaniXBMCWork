@@ -1,5 +1,12 @@
 <streamingInfos>
 <streaminginfo>
+    <cname>alkass</cname>
+	<item>
+	<title>Alkass +HD 720p</title>
+	<link>http://alkass-i.akamaihd.net/hls/live/205534/kassPlusHD/zq_180s20.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
     <cname>Al Alam</cname>
 	<item>
 	<title>Medium Quality</title>
