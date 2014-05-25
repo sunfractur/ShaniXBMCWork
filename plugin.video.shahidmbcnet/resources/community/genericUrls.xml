@@ -1,5 +1,12 @@
 <streamingInfos>
 <streaminginfo>
+        <cname>Aljazeera Mubasher Masr</cname>
+	<item>
+	<title>High Quality</title>
+	<link>rtmp://aljazeeraflashlivefs.fplive.net/aljazeeraflashlive-live playpath=aljazeera_misr_high swfUrl=http://www.arabztv.net/player.swf live=1 pageUrl=http://www.arabztv.com/ live=true swfVfy=true</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
     <cname>Albadawiya</cname>
 	<item>
 	<title>Original source: you need to install Justin addons</title>
