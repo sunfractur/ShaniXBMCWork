@@ -364,6 +364,15 @@
             <category>sports</category>
         </assignedcategory>
     </channel>
+	
+	<channel>
+        <cname>Iraqiya Sport</cname>
+        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/irq_zps5fe463d4.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>sports</category>
+        </assignedcategory>
+    </channel>
 
     
     
@@ -2283,6 +2292,15 @@
 
     <channel>
         <cname>Star Cinema</cname>
+        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/strmov_zps987ece1f.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>drama</category>
+        </assignedcategory>
+    </channel>
+	
+	<channel>
+        <cname>Star Cinema2</cname>
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/strmov_zps987ece1f.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
