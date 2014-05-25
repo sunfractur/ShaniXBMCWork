@@ -1,5 +1,13 @@
 <channels>
 <channel>
+        <cname>Albadawiya</cname>
+        <imageurl>http://royalalbadawiyahtv.com/wp-content/themes/badawiyahtv/images/royal-live-poster.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>sham</category>
+        </assignedcategory>
+    </channel>
+<channel>
         <cname>Aljazeera En</cname>
         <imageurl>http://www.3arablive.com/wp-content/uploads/2011/03/aljazeera-english.jpg</imageurl>
         <enabled>True</enabled>
