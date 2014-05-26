@@ -1,5 +1,12 @@
 <streamingInfos>
 <streaminginfo>
+     <cname>Hawacom</cname>
+	<item>
+	<title>low quality</title>
+	<link>http://mobilestreaming.itworkscdn.com/hawacom/hawacomlive/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
     <cname>Aghani</cname>
 	<item>
 	<title>Original Source</title>
