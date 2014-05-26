@@ -1,4 +1,15 @@
 <channels>
+
+<channel>
+        <cname>FM TV</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/ff/fm_tv.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+         <category>music</category>
+        </assignedcategory>
+</channel>
+
+
 <channel>
         <cname>Hawacom</cname>
         <imageurl>http://www.hawacom.tv/wp-content/uploads/2013/03/logo.png</imageurl>
