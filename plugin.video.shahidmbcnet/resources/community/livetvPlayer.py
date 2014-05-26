@@ -137,18 +137,19 @@ def getcode():
 		link=javascriptUnEscape(link)
 		captcha=None
 		originalcaptcha=False
-		match =re.findall('<img src=\"(\/simple-php-captcha\.php\?_CAPTCHA\&.*?)\">', link) #keep doing it :), you think i will get bored? lols
-		if len(match)>0:
-			captcha="http://www.livetv.tn"+match[0]
-		else:
-			#print link
-			captcha=None
-			if 'capimg.php?do=show' in link:
-				match='capimg.php?do=show'
-			#match =re.findall('<img src="(.*?)"/>', link) #keep doing it :), you think i will get bored? lols
+		match =[]#re.findall('<img src=\"(\/simple-php-captcha\.php\?_CAPTCHA\&.*?)\">', link) #keep doing it :), you think i will get bored? lols
+		if 1==2:#disable
 			if len(match)>0:
-				captcha="http://www.livetv.tn/"+match
-				originalcaptcha=True
+				captcha="http://www.livetv.tn"+match[0]
+			else:
+				#print link
+				captcha=None
+				if 'capimg.php?do=show' in link:
+					match='capimg.php?do=show'
+				#match =re.findall('<img src="(.*?)"/>', link) #keep doing it :), you think i will get bored? lols
+				if len(match)>0:
+					captcha="http://www.livetv.tn/"+match
+					originalcaptcha=True
 		
 		solution=None
 
@@ -168,22 +169,23 @@ def getcode():
 			else:
 				solution=cap
 
-
+		(captcha_reload_response_chall,solution)=performaceRecaptcha(link)
 
 		if solution:
 			#do captcha post
 			
-			postVar=re.findall('input\s*.*name=\"(.*?)\".*autof', link)[0]#on man! find something which is not possible in python!
+			#postVar=re.findall('input\s*.*name=\"(.*?)\".*autof', link)[0]#on man! find something which is not possible in python!
 																		#if you think i would give up due to changes... then you don't know me
 																		#hint! dont focus on the addon, focus on your setup, there are better ways to defeat me!
 																		# let me know if you need help!
-			postVar2=re.findall('input type=\"text\" name=\"(.*?)\"', link) #additional textbox
-			post={postVar:solution}
+			#postVar2=re.findall('input type=\"text\" name=\"(.*?)\"', link) #additional textbox
+			#post={postVar:solution}
+			post={'recaptcha_challenge_field':captcha_reload_response_chall,'recaptcha_response_field':solution}
 			print 'pst',post
-			if len(postVar2)>0:
-				if postVar2[0] not in post:
-					post[postVar2[0]]=""
-			print 'pst',post
+			#if len(postVar2)>0:
+			#	if postVar2[0] not in post:
+			#		post[postVar2[0]]=""
+			#print 'pst',post
 			post = urllib.urlencode(post)
 
 			#ck = cookielib.Cookie(version=0, name='name', value='value', port=None, port_specified=False, domain='www.livetv.tn', domain_specified=False, domain_initial_dot=False, path='/', path_specified=True, secure=False, expires=None, discard=True, comment=None, comment_url=None, rest={'HttpOnly': None}, rfc2109=False)
@@ -324,15 +326,35 @@ def performLogin():
 				
 	
 
-	recapChallenge=""
-	solution=""
+	(captcha_reload_response_chall,solution)=performaceRecaptcha(html_text)
+	
+
+	print 'performing login'
+	userName=selfAddon.getSetting( "liveTvLogin" )
+	password=selfAddon.getSetting( "liveTvPassword")
+	if captcha_reload_response_chall:
+		post={'pseudo':userName,'epass':password,'recaptcha_challenge_field':captcha_reload_response_chall,'recaptcha_response_field':solution}
+	else:
+		post={'pseudo':userName,'epass':password}
+	print 'post',post
+	post = urllib.urlencode(post)
+	
+	postpage=re.findall('<form.?action=\"(.*?)\"',html_text)
+	
+	link=getUrl(postpage[0],cookieJar,post)
+	
+	return shouldforceLogin(cookieJar, link)==False
+
+def performaceRecaptcha(html_text):
+	recapChallenge=None
+	captcha_reload_response_chall=None
+	solution=None
 	cap_reg="<script.*?src=\"(.*?recap.*?)\""
 	match =re.findall(cap_reg, html_text)
 	captcha=False
 	if match and len(match)>0: #new shiny captcha!
 		captcha_url=match[0]
 		captcha=True
-		
 		cap_chall_reg='challenge.*?\'(.*?)\''
 		cap_image_reg='\'(.*?)\''
 		captcha_script=getUrl(captcha_url)
@@ -354,27 +376,7 @@ def performLogin():
 		solver = InputWindow(captcha=local_captcha)
 		solution = solver.get()
 		os.remove(local_captcha)
-	
-	if solution or captcha==None:
-
-		print 'performing login'
-		userName=selfAddon.getSetting( "liveTvLogin" )
-		password=selfAddon.getSetting( "liveTvPassword")
-		if captcha:
-			post={'pseudo':userName,'epass':password,'recaptcha_challenge_field':captcha_reload_response_chall,'recaptcha_response_field':solution}
-		else:
-			post={'pseudo':userName,'epass':password}
-		print 'post',post
-		post = urllib.urlencode(post)
-		
-		postpage=re.findall('<form.?action=\"(.*?)\"',html_text)
-		
-		link=getUrl(postpage[0],cookieJar,post)
-		
-		return shouldforceLogin(cookieJar, link)==False
-	else:
-		return False
-
+	return captcha_reload_response_chall, solution
 
 def shoudforceLogin2():
     try:
