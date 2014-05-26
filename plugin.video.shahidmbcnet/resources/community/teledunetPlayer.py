@@ -59,7 +59,7 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 			link=getUrl(newURL, getCookieJar())
 			match =re.findall('aut=\'\?id0=(.*?)\'', link)
 			print match
-			timesegment=match[0];str(long(float(match[0])))
+			timesegment=str(long(float(match[0])))
 			try:
 				rtmp =re.findall(('rtmp://(.*?)/%s\''%channelId), link)[0]
 				rtmp='rtmp://%s/%s'%(rtmp,channelId)
