@@ -1,5 +1,12 @@
 <streamingInfos>
 <streaminginfo>
+    <cname>Aghani</cname>
+	<item>
+	<title>Original Source</title>
+	<link>rtmp://mobilestreaming.itworkscdn.com/aghanitv/aghanitv app=aghanitv/ pageUrl=http://www.freetv247.com/content/aghani-aghani-tv swfUrl=http://p.jwpcdn.com/6/7/jwplayer.flash.swf playPath=aghanitv swfVfy=true live=true timeout=10</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
         <cname>Sharjah</cname>
 	<item>
 	<title>itworkscdn</title>
