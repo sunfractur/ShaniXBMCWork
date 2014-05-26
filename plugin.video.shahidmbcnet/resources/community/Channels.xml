@@ -1,5 +1,13 @@
 <channels>
 <channel>
+        <cname>Hawacom</cname>
+        <imageurl>http://www.hawacom.tv/wp-content/uploads/2013/03/logo.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+         <category>music</category>
+        </assignedcategory>
+</channel>
+<channel>
         <cname>Albadawiya</cname>
         <imageurl>http://royalalbadawiyahtv.com/wp-content/themes/badawiyahtv/images/royal-live-poster.png</imageurl>
         <enabled>True</enabled>
