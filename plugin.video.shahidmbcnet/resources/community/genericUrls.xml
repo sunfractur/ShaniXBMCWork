@@ -767,6 +767,13 @@
 	</item>
 </streaminginfo>
 
+<streaminginfo>
+   	<cname>Melody Drama</cname>
+	<item>
+	<title>206</title>
+	<link>rtmp://38.96.148.206/Melody/MDramaWeb</link>
+	</item>
+</streaminginfo>
 
 <streaminginfo>
    	<cname>Melody Drama</cname>
@@ -787,8 +794,23 @@
 <streaminginfo>
 	<cname>Melody Classic</cname>
 	<item>
+	<title>206</title>
+	<link>rtmp://38.96.148.206/Melody/MClassicWeb</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+	<cname>Melody Classic</cname>
+	<item>
 	<title>24</title>
 	<link>http://38.96.148.24//MelodyClassic/MClassic_576p/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Melody Aflem</cname>
+	<item>
+	<title>206</title>
+	<link>rtmp://38.96.148.206/Melody/MAflamWeb</link>
 	</item>
 </streaminginfo>
 
@@ -822,6 +844,16 @@
 			<title>Maghreb24 Entertainment</title>
 			<thumbnail>http://www.maghreb24tv.com/commons/images/m24Entertainment.png</thumbnail>
 			<link>rtmp://maghreb24.tv:1935/view/8_261/stream8 swfUrl=http://www.maghreb24.tv/public/flash/expressInstall.swf live=true pageUrl=http://www.television.maghreb24tv.com/m24channel.php?dsTp=OurChannels&amp;dsId=136&amp;lang=fr</link>
+		</item>
+	</streaminginfo>
+
+
+	<streaminginfo>
+		<cname>Melody Hits</cname>	
+		<item>
+			<title>Melody Hits.206</title>
+			<thumbnail>https://lh3.ggpht.com/-DE3GqoUaC4g/UuNmaROcywI/AAAAAAAABDM/trn-g__hU7M/s1600/melody_hits.png</thumbnail>
+			<link>rtmp://38.96.148.206/Melody/ playpath=MHitsWeb swfUrl=http://p.jwpcdn.com/6/7/jwplayer.flash.swf pageUrl=http://freetv247.com/content/melody-hits-channel live=1 timeout=15</link>
 		</item>
 	</streaminginfo>
 
