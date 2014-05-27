@@ -1,9 +1,22 @@
 <streaminginfos>
 
+<streaminginfo>
+        <cname>ART Hekayat</cname>
+        <chnumber>ch407</chnumber>
+    </streaminginfo>
 	<streaminginfo>
+        <cname>ART Hekayat 2</cname>
+        <chnumber>ch408</chnumber>
+    </streaminginfo>
+	<streaminginfo>
+        <cname>ART Cinema</cname>
+        <chnumber>409</chnumber>
+    </streaminginfo>
+    
+<streaminginfo>
         <cname>OSN Movies Premiere HD</cname>
         <chnumber>ch606</chnumber>
-    </streaminginfo>
+</streaminginfo>
 	
 	 <streaminginfo>
         <cname>OSN Movies Comedy</cname>
