@@ -1,6 +1,13 @@
 <channels>
-
-	<channel>
+<channel>
+        <cname>Tamazigh Algeria</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/ee/entv_4_tv_tamazight.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>magreb</category>
+        </assignedcategory>
+</channel>
+<channel>
         <cname>SPORT TIME</cname>
         <imageurl>http://3.bp.blogspot.com/-F4oNbo2SQ9Q/UJaSuEgCS4I/AAAAAAAAL6s/etSeYt_sIog/s1600/sport-time-tv-logo.png</imageurl>
         <enabled>True</enabled>
