@@ -56,7 +56,7 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 			#response = urllib2.urlopen(req)
 			#link=response.read()
 			#response.close()
-			link=getUrl(newURL, getCookieJar())
+			link=getUrl(newURL, getCookieJar(),referer='http://www.teledunet.com/')
 			match =re.findall('aut=\'\?id0=(.*?)\'', link)
 			print match
 			timesegment=str(long(float(match[0])))
@@ -211,13 +211,15 @@ def getCookieJar():
 
 	return cookieJar
 
-def getUrl(url, cookieJar=None,post=None):
+def getUrl(url, cookieJar=None,post=None,referer=None):
 
 	cookie_handler = urllib2.HTTPCookieProcessor(cookieJar)
 	opener = urllib2.build_opener(cookie_handler, urllib2.HTTPBasicAuthHandler(), urllib2.HTTPHandler())
 	#opener = urllib2.install_opener(opener)
 	req = urllib2.Request(url)
 	req.add_header('User-Agent','Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36')
+	if referer:
+		req.add_header('Referer',referer)
 	response = opener.open(req,post)
 	link=response.read()
 	response.close()
