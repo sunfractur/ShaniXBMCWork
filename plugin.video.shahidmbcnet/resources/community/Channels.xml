@@ -1,5 +1,13 @@
 <channels>
 <channel>
+        <cname>Remas</cname>
+        <imageurl>http://a2.mzstatic.com/us/r30/Purple/v4/f4/be/f7/f4bef759-a6ca-951f-b94e-11b33a15ff53/icon_256.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+         <category>music</category>
+        </assignedcategory>
+</channel>
+<channel>
         <cname>Tamazigh Algeria</cname>
         <imageurl>http://www.lyngsat-logo.com/logo/tv/ee/entv_4_tv_tamazight.png</imageurl>
         <enabled>True</enabled>
