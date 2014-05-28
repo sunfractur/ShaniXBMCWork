@@ -1,5 +1,11 @@
 <streamingInfos>
-
+<streaminginfo>
+     <cname>Remas</cname>
+	<item>
+	<title>itworkscdn</title>
+	<link>http://livestreaming.itworkscdn.net/alremaslive/remastv/playlist.m3u8</link>
+	</item>
+</streaminginfo>
 <streaminginfo>
      <cname>AlGeria</cname>
 	<item>
