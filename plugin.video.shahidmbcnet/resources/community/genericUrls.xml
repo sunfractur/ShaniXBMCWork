@@ -1,5 +1,75 @@
 <streamingInfos>
 <streaminginfo>
+     <cname>Qatar</cname>
+	 <item>
+<title>Qatar Gini</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>file: "([^"]*)</expres>
+<page>http://giniko.com/watch.php?id=11</page>
+</regex>
+<thumbnail>http://giniko.com/logos/190x110/11.jpeg</thumbnail>
+</item>
+</streaminginfo>
+
+<streaminginfo>
+     <cname>Oman</cname>
+	 <item>
+<title>Oman Gini</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>file: "([^"]*)</expres>
+<page>http://giniko.com/watch.php?id=184</page>
+</regex>
+<thumbnail>http://giniko.com/logos/190x110/184.jpg</thumbnail>
+</item>
+</streaminginfo>
+
+<streaminginfo>
+     <cname>Aliraqiya</cname>
+	 <item>
+<title>Aliraqiya Gini</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>file: "([^"]*)</expres>
+<page>http://giniko.com/watch.php?id=182</page>
+</regex>
+<thumbnail>http://giniko.com/logos/190x110/182.jpg</thumbnail>
+</item>
+</streaminginfo>
+
+<streaminginfo>
+     <cname>Jordan</cname>
+	 <item>
+<title>Jordan Gini</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>file: "([^"]*)</expres>
+<page>http://giniko.com/watch.php?id=186</page>
+</regex>
+<thumbnail>http://giniko.com/logos/190x110/186.jpg</thumbnail>
+</item>
+</streaminginfo>
+
+<streaminginfo>
+     <cname>Abu Dhabi</cname>
+<item>
+<title>AD Aloula Gini</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>file: "([^"]*)</expres>
+<page>http://giniko.com/watch.php?id=80</page>
+</regex>
+<thumbnail>http://www.lyngsat-logo.com/hires/aa/abu_dhabi_tv.png</thumbnail>
+</item>
+
+</streaminginfo>
+<streaminginfo>
      <cname>Aghanina</cname>
 	<item>
 	<title>You need to install Justin addon: Low quality</title>
