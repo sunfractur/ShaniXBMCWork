@@ -2815,16 +2815,6 @@
         </assignedcategory>
     </channel>
 
-    
-		<channel>
-        <cname>Al oula Maroc</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/maroc1_zps8bc33870.png</imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-            <category>magreb</category>
-        </assignedcategory>
-    </channel>
-
     <channel>
         <cname>Tamazigh Maroc</cname>
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/tmzg_zps302fc6f4.png</imageurl>
