@@ -1,5 +1,13 @@
 <channels>
 <channel>
+        <cname>Music+</cname>
+        <imageurl>http://s29.postimg.org/8jnuixvp3/Music_Plus.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+         <category>music</category>
+        </assignedcategory>
+</channel>
+<channel>
         <cname>Egypt 1</cname>
         <imageurl>http://dotnet.ertu.org/images/tv/HTML-slice-Tv_18.jpg</imageurl>
         <enabled>True</enabled>
