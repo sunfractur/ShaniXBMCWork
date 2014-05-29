@@ -85,20 +85,36 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 		name+='-Teledunet'
 		print 'liveLink',liveLink
 		pDialog.close()
-		listitem = xbmcgui.ListItem( label = str(name), iconImage = "DefaultVideo.png", thumbnailImage = xbmc.getInfoImage( "ListItem.Thumb" ), path=liveLink )
-		player = CustomPlayer.MyXBMCPlayer()
-		#xbmc.Player().play( liveLink,listitem)
-		start = time.time()  
-		player.play( liveLink,listitem)  
-		while player.is_active:
-			xbmc.sleep(200)
-		#return player.urlplayed
-		done = time.time()
-		elapsed = done - start
-		if player.urlplayed and elapsed>=3:
-			return True
-		else:
-			return False
+		totalTried=0
+		howMaytimes=15
+
+		
+		pDialog = xbmcgui.DialogProgress()
+		pDialog.create('XBMC', 'Playing channel')
+		while totalTried<howMaytimes:
+
+			totalTried+=1
+			pDialog.update((totalTried*100)/howMaytimes, 'Try #' + str(totalTried) +' of ' + str(howMaytimes))
+			listitem = xbmcgui.ListItem( label = str(name), iconImage = "DefaultVideo.png", thumbnailImage = xbmc.getInfoImage( "ListItem.Thumb" ), path=liveLink )
+			player = CustomPlayer.MyXBMCPlayer()
+			#xbmc.Player().play( liveLink,listitem)
+			start = time.time()  
+			player.pdialogue=pDialog
+			if pDialog.iscanceled():
+				break
+			player.play( liveLink,listitem)  
+			if pDialog.iscanceled():
+				break
+			#pDialog.close()
+			while player.is_active:
+				xbmc.sleep(200)
+			#return player.urlplayed
+			done = time.time()
+			elapsed = done - start
+			if player.urlplayed and elapsed>=3:
+				return True
+		pDialog.close()
+		return False
 	except:
 		traceback.print_exc(file=sys.stdout)    
 	return False  
