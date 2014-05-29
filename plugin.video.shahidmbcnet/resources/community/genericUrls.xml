@@ -1,5 +1,18 @@
 <streamingInfos>
 <streaminginfo>
+     <cname>Karbala</cname>
+<item>
+<title>Original source</title>
+<link>rtmp://KarbalaTV.secureflash.internapcdn.net/ app=$doregex[get-app] playpath=karbalatv swfUrl=http://karbalatv.http.internapcdn.net/KarbalaTV/jwplayer58L/player.swf pageUrl=http://www.karbala-tv.net/live.php live=true timeout=15</link>
+<regex>
+<name>get-app</name>
+<expres>rtmp.*net\/([^&amp;]*)</expres>
+<page>http://www.karbala-tv.net/live.php</page>
+</regex>
+</item>
+</streaminginfo>
+
+<streaminginfo>
      <cname>Hanibal</cname>
 	<item>
 	<title>WebMedias</title>
