@@ -1,5 +1,38 @@
 <channels>
 <channel>
+        <cname>Egypt 1</cname>
+        <imageurl>http://dotnet.ertu.org/images/tv/HTML-slice-Tv_18.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>egypt</category>
+        </assignedcategory>
+    </channel>
+	
+<channel>
+        <cname>Egypt 2</cname>
+        <imageurl>http://dotnet.ertu.org/images/tv/HTML-slice-Tv_16.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>egypt</category>
+        </assignedcategory>
+    </channel>
+	 <channel>
+        <cname>MBC Drama+ plus</cname>
+        <imageurl>http://www.web-medias.net/uploads/thumbs/b094a4888-1.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>drama</category>
+        </assignedcategory>
+    </channel>
+<channel>
+        <cname>Alghad Alarabic</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/cc/chelsea_tv.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+         <category>sham</category>
+        </assignedcategory>
+</channel>
+<channel>
         <cname>Chelsea TV</cname>
         <imageurl>http://www.lyngsat-logo.com/hires/cc/chelsea_tv.png</imageurl>
         <enabled>True</enabled>
