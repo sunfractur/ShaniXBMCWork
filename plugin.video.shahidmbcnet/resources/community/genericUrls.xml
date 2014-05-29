@@ -15,6 +15,13 @@
 	</item>
 </streaminginfo>
 <streaminginfo>
+     <cname>Al Masriyah</cname>
+<item>
+<title>Original source</title>
+<link>rtmp://livestreaming4.onlinehorizons.net/ app=ERTUEgy playpath=livestream swfUrl=http://onlinehorizons.net/livestreaming/ertu/player.swf pageUrl=http://onlinehorizons.net/livestreaming/ertu/indexch1.html live=true timeout=15</link>
+</item>
+</streaminginfo>
+<streaminginfo>
      <cname>Egypt 2</cname>
 	<item>
 	<title>Original source</title>
