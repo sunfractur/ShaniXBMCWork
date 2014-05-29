@@ -1,6 +1,19 @@
 <streamingInfos>
+<streaminginfo>
+     <cname>Chelsea TV</cname>
+	<item>
+	<title>WebMedias</title>
+	<link>rtmp://cp96798.live.edgefcs.net/live playpath=ChelTV_Ch01_1000k@26291 swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/chelsea-tv-en-direct-live-sport-video_957eba4b8.html live=true timeout=15</link>
+	</item>
+</streaminginfo>
 
-
+<streaminginfo>
+     <cname>Zee Aflam</cname>
+	<item>
+	<title>WebMedias</title>
+	<link>rtmp://iptv.web-medias.net/live playpath=zee_aflam swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/iptv/%3Fch%3Dzee_aflam live=true timeout=15</link>
+	</item>
+</streaminginfo>
 <streaminginfo>
      <cname>MBC 4</cname>
 	<item>
