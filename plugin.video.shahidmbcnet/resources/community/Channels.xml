@@ -1032,14 +1032,6 @@
         </assignedcategory>
     </channel>
 
-    <channel>
-        <cname>Al Thaniya</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/eg2_zps1d7094e6.png</imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-            <category>egypt</category>
-        </assignedcategory>
-    </channel>
 
 	<channel>
         <cname>Al Masriyah</cname>
