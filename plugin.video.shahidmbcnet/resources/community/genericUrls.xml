@@ -1,5 +1,27 @@
 <streamingInfos>
 <streaminginfo>
+     <cname>Hanibal</cname>
+	<item>
+	<title>WebMedias</title>
+	<link>rtmp://iptv.web-medias.net/live playpath=hanibal swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/iptv/%3Fch%3Dhanibal live=true timeout=15</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+     <cname>Egypt 1</cname>
+	<item>
+	<title>Original source</title>
+	<link>rtmp://livestreaming4.onlinehorizons.net/ app=ERTUCH1 playpath=livestream swfUrl=http://onlinehorizons.net/livestreaming/ertu/player.swf pageUrl=http://onlinehorizons.net/livestreaming/ertu/indexch1.html live=true timeout=15</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+     <cname>Egypt 2</cname>
+	<item>
+	<title>Original source</title>
+	<link>rtmp://livestreaming4.onlinehorizons.net/ app=ERTUCH2 playpath=livestream swfUrl=http://onlinehorizons.net/livestreaming/ertu/player.swf pageUrl=http://onlinehorizons.net/livestreaming/ertu/indexch2.html live=true timeout=15</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
      <cname>Chelsea TV</cname>
 	<item>
 	<title>WebMedias</title>
