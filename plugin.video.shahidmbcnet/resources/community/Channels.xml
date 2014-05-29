@@ -1,5 +1,13 @@
 <channels>
 <channel>
+        <cname>Karbala</cname>
+        <imageurl>http://s25.postimg.org/49di475dr/karbalaa.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>Iraq</category>
+        </assignedcategory>
+    </channel>
+<channel>
         <cname>Music+</cname>
         <imageurl>http://s29.postimg.org/8jnuixvp3/Music_Plus.png</imageurl>
         <enabled>True</enabled>
