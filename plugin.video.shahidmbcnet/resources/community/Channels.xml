@@ -1,5 +1,13 @@
 <channels>
 <channel>
+        <cname>Alnahar Alyoum</cname>
+        <imageurl>http://www.alnaharlive.net/wp-content/uploads/2013/01/alyoum.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+         <category>egypt</category>
+        </assignedcategory>
+</channel>
+<channel>
         <cname>GearOne</cname>
         <imageurl>http://s25.postimg.org/8jo2syein/gearone.jpg</imageurl>
         <enabled>True</enabled>
