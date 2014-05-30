@@ -1,5 +1,12 @@
 <streamingInfos>
 <streaminginfo>
+     <cname>Hanibal</cname>
+	<item>
+	<title>zenex</title>
+	<link>rtmp://208.43.175.45/zenex playPath=hann002?id=68 conn=S:OK swfUrl=http://www.zenex.tv/data/scripts/eplayer.swf pageUrl=http://www.zenex.tv/embedplayer/hann002/1/500/400 live=1 timeout=10</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
      <cname>Karbala</cname>
 <item>
 <title>Original source</title>
