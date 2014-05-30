@@ -449,6 +449,13 @@
 	</item>
 </streaminginfo>
 <streaminginfo>
+        <cname>Euro News Arabic</cname>
+	<item>
+	<title>High</title>
+	<link>rtmp://fr-par-3.stream-relay.hexaglobe.net:1935/rtpeuronewslive/ar_video750_rtp.sdp swfUrl=http://arabic.euronews.com/media/player_live_1_13.swf pageUrl=http://www.elahmad.com/tv/euronews.php swfVfy=true live=true timeout=60</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
     <cname>Euro News Arabic</cname>
 	<item>
 	<title>Source1</title>
