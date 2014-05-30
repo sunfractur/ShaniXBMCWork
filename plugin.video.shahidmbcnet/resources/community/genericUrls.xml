@@ -1,5 +1,34 @@
 <streamingInfos>
 <streaminginfo>
+     	<cname>Alriadia Sport</cname>
+	<item>
+	<title>Janjua</title>
+	<link>rtmp://206.190.153.70/live playpath=arryadia?id=12387 conn=S:OK swfUrl=http://www.janjua.tv/resources/scripts/eplayer.swf pageUrl=http://www.janjua.tv/embedplayer/arryadia/1/500/400live=true timeout=15</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+     	<cname>Al Tunisia</cname>
+	<item>
+	<title>zenex</title>
+	<link>rtmp://208.43.175.45/zenex playPath=ettouns002?id=68 conn=S:OK swfUrl=http://www.zenex.tv/data/scripts/eplayer.swf pageUrl=http://www.zenex.tv/embedplayer/ettouns002/1/500/400 live=1 timeout=10</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+     	<cname>Tunisia national 2</cname>
+	<item>
+	<title>zenex</title>
+	<link>rtmp://208.43.175.45/zenex playPath=wat2001?id=68 conn=S:OK swfUrl=http://www.zenex.tv/data/scripts/eplayer.swf pageUrl=http://www.zenex.tv/embedplayer/wat2001/1/500/400 live=1 timeout=10</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+     	<cname>Al Mutawasit</cname>
+	<item>
+	<title>zenex</title>
+	<link>rtmp://208.43.175.45/zenex playPath=mutawa001?id=68 conn=S:OK swfUrl=http://www.zenex.tv/data/scripts/eplayer.swf pageUrl=http://www.zenex.tv/embedplayer/mutawa001/1/500/400 live=1 timeout=10</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
      <cname>Hanibal</cname>
 	<item>
 	<title>zenex</title>
