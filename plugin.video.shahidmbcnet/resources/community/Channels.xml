@@ -330,14 +330,7 @@
         </assignedcategory>
 </channel>
 
-<channel>
-        <cname>Arab Woman</cname>
-        <imageurl>http://www.talfazat.com/talfazat/marketing/images/channels/arab-woman-channel.png</imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-            <category>cook</category>
-        </assignedcategory>
-    </channel>
+
 
     <channel>
         <cname>ETV Ethiopia</cname>
