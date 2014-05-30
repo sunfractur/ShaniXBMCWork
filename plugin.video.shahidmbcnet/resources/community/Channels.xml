@@ -1,5 +1,85 @@
 <channels>
 <channel>
+        <cname>GearOne</cname>
+        <imageurl>http://s25.postimg.org/8jo2syein/gearone.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+         <category>sports</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Al Afasy</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/aa/alafasy_tv.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+         <category>islam</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Chobra Cima</cname>
+        <imageurl></imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+         <category>egypt</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>AlWatan Algerie</cname>
+        <imageurl>http://4.bp.blogspot.com/-aQitiER3dQI/U3KKPNFkUoI/AAAAAAAAAeY/M-gqKCf7i90/s1600/imgres.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+         <category>magreb</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Al Dafra</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/aa/al_dafrah.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+         <category>sham</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Imagines Movies</cname>
+        <imageurl>http://www.imaginemovies.ae/wp-content/themes/imagine/images/logo.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+         <category>drama</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Al Lubnania</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/aa/al_lubnania.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+         <category>sham</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>B4U Aflam</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/bb/b4u_aflam_ae.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+         <category>drama</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>AlQahera W Elnas 2</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/aa/al_kahera_wal_nes_plus2.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+         <category>egypt</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Sada Al Balad Drama</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/ss/sada_el_balad_drama.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+         <category>egypt</category>
+        </assignedcategory>
+</channel>
+<channel>
         <cname>Alinsen</cname>
         <imageurl>http://www.lyngsat-logo.com/hires/aa/al_insan_tv_tn.png</imageurl>
         <enabled>True</enabled>
