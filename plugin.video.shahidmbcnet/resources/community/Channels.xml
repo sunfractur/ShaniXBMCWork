@@ -1,5 +1,30 @@
 <channels>
 <channel>
+        <cname>Libya Kids</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/kk/karawan_kids_ly.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+         <category>kids</category>
+		 <category>magreb</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>TT1 Tunisie</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/tt/tunisia_tv_shop_tn.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+		 <category>magreb</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Jordan Sport</cname>
+        <imageurl>https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-prn1/539253_325639020859435_1061646324_n.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+         <category>sports</category>
+        </assignedcategory>
+</channel>
+<channel>
         <cname>Alnahar Alyoum</cname>
         <imageurl>http://www.alnaharlive.net/wp-content/uploads/2013/01/alyoum.png</imageurl>
         <enabled>True</enabled>
