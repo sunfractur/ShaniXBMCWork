@@ -2507,7 +2507,7 @@
     </channel>
 
     <channel>
-        <cname>Star Cinema</cname>
+        <cname>Star Cinema 1</cname>
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/strmov_zps987ece1f.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
@@ -2516,7 +2516,7 @@
     </channel>
 	
 	<channel>
-        <cname>Star Cinema2</cname>
+        <cname>Star Cinema 2</cname>
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/strmov_zps987ece1f.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
