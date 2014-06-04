@@ -2818,7 +2818,7 @@
 	</streaminginfo>
 	
 	<streaminginfo>
-		<cname>Star Cinema 1</cname>
+		<cname>Star 1</cname>
 		<item>
 			<title>@zombixbmc magictv STAR 1 AFLAM</title>
 			<link>http://cdn-streamer1.magictvbox.com/live/10147.stream/chunklist.m3u8</link>
@@ -2834,7 +2834,7 @@
 	</streaminginfo>
 	
     <streaminginfo>
-		<cname>Star Cinema 2</cname>
+		<cname>Star 2</cname>
 		<item>
 			<title>@zombixbmc magictv  STAR 2 AFLAM</title>
 			<link>http://cdn-delay1.magictvbox.com/4.m3u8</link>
@@ -2851,7 +2851,7 @@
 	
 	
     <streaminginfo>
-		<cname>Star Cinema 1</cname>
+		<cname>Star Cinema</cname>
 		<item>
 			<title>@zombixbmc iptvosn STAR CINEMA 1</title>
 			<link>http://88.150.198.74/$setting_iptvosnUser$/$setting_iptvosnPwd$/81.ch</link>
@@ -2860,7 +2860,7 @@
 
 
     <streaminginfo>
-		<cname>Star Cinema 2</cname>
+		<cname>Star Cinema</cname>
 		<item>
 			<title>@zombixbmc iptvosn STAR CINEMA 2</title>
 			<link>http://88.150.198.74/$setting_iptvosnUser$/$setting_iptvosnPwd$/80.ch</link>
