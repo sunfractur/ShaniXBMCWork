@@ -2506,6 +2506,26 @@
         </assignedcategory>
     </channel>
 
+
+
+    <channel>
+        <cname>Star Cinema</cname>
+        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/strmov_zps987ece1f.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>drama</category>
+        </assignedcategory>
+    </channel>
+
+    <channel>
+        <cname>Star 1</cname>
+        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/strmov_zps987ece1f.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>drama</category>
+        </assignedcategory>
+    </channel>
+
     <channel>
         <cname>Star Cinema 1</cname>
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/strmov_zps987ece1f.png</imageurl>
@@ -2515,7 +2535,16 @@
         </assignedcategory>
     </channel>
 	
-	<channel>
+    <channel>
+        <cname>Star 2</cname>
+        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/strmov_zps987ece1f.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>drama</category>
+        </assignedcategory>
+    </channel>
+
+    <channel>
         <cname>Star Cinema 2</cname>
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/strmov_zps987ece1f.png</imageurl>
         <enabled>True</enabled>
@@ -2523,6 +2552,8 @@
             <category>drama</category>
         </assignedcategory>
     </channel>
+
+
 	
 	<channel>
         <cname>LCD AFLAM</cname>
