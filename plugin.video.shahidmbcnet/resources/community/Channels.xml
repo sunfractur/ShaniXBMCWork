@@ -2518,7 +2518,7 @@
     </channel>
 
     <channel>
-        <cname>Star 1</cname>
+        <cname>Star 1 Cinema +7</cname>
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/strmov_zps987ece1f.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
@@ -2527,7 +2527,7 @@
     </channel>
 
     <channel>
-        <cname>Star Cinema 1</cname>
+        <cname>Star 1 Cinema</cname>
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/strmov_zps987ece1f.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
@@ -2536,7 +2536,7 @@
     </channel>
 	
     <channel>
-        <cname>Star 2</cname>
+        <cname>Star 2 Cinema +7</cname>
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/strmov_zps987ece1f.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
@@ -2545,7 +2545,7 @@
     </channel>
 
     <channel>
-        <cname>Star Cinema 2</cname>
+        <cname>Star 2 Cinema</cname>
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/strmov_zps987ece1f.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
