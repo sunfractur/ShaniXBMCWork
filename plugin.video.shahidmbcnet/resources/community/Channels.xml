@@ -1834,6 +1834,14 @@
             <category>sports</category>
         </assignedcategory>
     </channel>
+  <channel>
+        <cname>Dubai Sport 3</cname>
+        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/dubibundes_zpsbdbd88cf.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>sports</category>
+        </assignedcategory>
+    </channel>
 
     <channel>
         <cname>Dubai</cname>
