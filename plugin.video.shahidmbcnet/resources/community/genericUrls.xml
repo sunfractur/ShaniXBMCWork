@@ -1,5 +1,42 @@
 <streamingInfos>
 <streaminginfo>
+	<cname>Medi 1 Sat</cname>
+	<item>
+	<title>iptvosn</title>
+	<link>http://88.150.198.74/$setting_iptvosnUser$/$setting_iptvosnPwd$/349.ch</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+	<cname>Mazeka zoom</cname>
+	<item>
+	<title>iptvosn</title>
+	<link>http://88.150.198.74/$setting_iptvosnUser$/$setting_iptvosnPwd$/132.ch</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+	<cname>Al oula Maroc</cname>
+	<item>
+	<title>iptvosn Magreb from Belgium</title>
+	<link>http://88.150.198.74/$setting_iptvosnUser$/$setting_iptvosnPwd$/149.ch</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+	<cname>Al Maghribia</cname>
+	<item>
+	<title>iptvosn</title>
+	<link>http://88.150.198.74/$setting_iptvosnUser$/$setting_iptvosnPwd$/122.ch</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Al Magharibia</cname>
+	<item>
+	<title>iptvosn </title>
+	<link>http://88.150.198.74/$setting_iptvosnUser$/$setting_iptvosnPwd$/142.ch</link>
+	</item>
+</streaminginfo>
      	<cname>Noor Dubai</cname>
 	<item>
 	<title>Original source</title>
