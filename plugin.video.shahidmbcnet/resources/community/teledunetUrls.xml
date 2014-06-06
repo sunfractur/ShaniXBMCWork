@@ -1,11 +1,14 @@
 <streamingInfos>
 
+<streaminginfo>
+<cname>Blue Nile</cname>
+<url>blue_nile</url>
+</streaminginfo>
 
-
-        <streaminginfo>
-		<cname>ETV Ethiopia</cname>
-		<url>etv_ethiopia</url>
-	</streaminginfo>
+<streaminginfo>
+<cname>ETV Ethiopia</cname>
+<url>etv_ethiopia</url>
+</streaminginfo>
 	
 <streaminginfo>
 <cname>OSN Movies Premiere HD</cname>
