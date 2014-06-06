@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.f4mTester" version="1.0.17" name="f4mTester" provider-name="Shani">
+<addon id="plugin.video.f4mTester" version="1.0.18" name="f4mTester" provider-name="Shani">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.video.F4mProxy" version="1.0.16"/>
+        <import addon="script.video.F4mProxy" version="1.0.18"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>

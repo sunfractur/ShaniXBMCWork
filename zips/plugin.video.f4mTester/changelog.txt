@@ -22,3 +22,5 @@
 - added nested manifest example
 [B]Version 1.0.17[/B]
 - removed import of t0mm0 common, wasn't even being used
+[B]Version 1.0.18[/B]
+- Support for proxy param

@@ -348,13 +348,14 @@ class F4MDownloader():
         # FLV File body
         stream.write(b'\x00\x00\x00\x00')
         # FLVTAG
-        stream.write(b'\x12') # Script data
-        stream.write(pack('!L',len(metadata))[1:]) # Size of the metadata with 3 bytes
-        stream.write(b'\x00\x00\x00\x00\x00\x00\x00')
-        stream.write(metadata)
+        if metadata:
+            stream.write(b'\x12') # Script data
+            stream.write(pack('!L',len(metadata))[1:]) # Size of the metadata with 3 bytes
+            stream.write(b'\x00\x00\x00\x00\x00\x00\x00')
+            stream.write(metadata)
         # All this magic numbers have been extracted from the output file
         # produced by AdobeHDS.php (https://github.com/K-S-V/Scripts)
-        stream.write(b'\x00\x00\x01\x73')
+            stream.write(b'\x00\x00\x01\x73')
 
     def init(self, out_stream, url, proxy=None,use_proxy_for_chunks=True,g_stopEvent=None, maxbitrate=0):
         try:
@@ -364,6 +365,8 @@ class F4MDownloader():
             self.clientHeader=None
             self.status='init'
             self.proxy = proxy
+            if self.proxy and len(self.proxy)==0:
+                self.proxy=None
             self.use_proxy_for_chunks=use_proxy_for_chunks
             self.out_stream=out_stream
             self.g_stopEvent=g_stopEvent
@@ -584,7 +587,7 @@ class F4MDownloader():
             queryString=self.queryString
             print 'segmentToStart',segmentToStart
             if self.live or segmentToStart==0 or segmentToStart==None:
-                print 'writing metadata',len(self.metadata)
+                print 'writing metadata'#,len(self.metadata)
                 self._write_flv_header(dest_stream, self.metadata)
                 dest_stream.flush()
             #elif segmentToStart>0 and not self.live:
