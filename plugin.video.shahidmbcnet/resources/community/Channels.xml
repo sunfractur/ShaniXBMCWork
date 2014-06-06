@@ -1,5 +1,13 @@
 <channels>
 <channel>
+        <cname>Maghreb</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/mm/maghreb_tv_be.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+         <category>magreb</category>
+        </assignedcategory>
+</channel>
+<channel>
         <cname>Blue Nile</cname>
         <imageurl>http://www.lyngsat-logo.com/logo/tv/bb/blue_nile.png</imageurl>
         <enabled>True</enabled>
