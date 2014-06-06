@@ -1,5 +1,26 @@
 <streamingInfos>
 <streaminginfo>
+     	<cname>Noor Dubai</cname>
+	<item>
+	<title>Original source</title>
+	<link>http://cdnedvrnoordubaitv.endavomedia.com/smil:dmilivenoordubaitvhls.smil/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+     	<cname>Sama Dubai</cname>
+	<item>
+	<title>Original source</title>
+	<link>http://cdnedvrsamadubai.endavomedia.com/smil:dmilivesamadubaihls.smil/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+     	<cname>Dubai</cname>
+	<item>
+	<title>Original source</title>
+	<link>http://cdnedvrdubaitv.endavomedia.com/smil:dmilivedubaitvhls.smil/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
      	<cname>Alinsen</cname>
 	<item>
 	<title>Ustream</title>
