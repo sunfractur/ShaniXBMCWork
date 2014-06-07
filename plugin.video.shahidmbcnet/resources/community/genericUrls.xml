@@ -1,6 +1,6 @@
 <streamingInfos>
 <streaminginfo>
-		<cname>MBC 1</cname>
+<cname>MBC 1</cname>
 <item>
 <title>Filmon High</title>
 <link>rtmp://$doregex[url]/live/?id=$doregex[key]/367.high.stream playpath=367.high.stream swfUrl=http://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf pageUrl=http://www.filmon.com/ live=true timeout=15 swfVfy=1</link>
@@ -106,7 +106,7 @@
 </streaminginfo>
 <streaminginfo>
 <cname>Alarabiya</cname>
-<item><title>Filmon---> You need to install F.T.V addon</title>
+<item><title>only for bBackup Filmon---> You need to install F.T.V addon</title>
 <link>plugin://plugin.video.F.T.V/?url=http%3A%2F%2Fwww.filmon.com%2Fchannel%2Fal-arabiya&amp;mode=125&amp;name=Al+Arabiya&amp;iconimage=http%3A%2F%2Fstatic.filmon.com%2Fcouch%2Fchannels%2F366%2Fextra_big_logo.png&amp;start=al-arabiya&amp;ch_fanart=366</link>
 </item>
 </streaminginfo>
@@ -114,7 +114,7 @@
 <streaminginfo>
 <cname>MBC 2</cname>
 <item>
-<title>Filmon---> You need to install F.T.V addon</title>
+<title>only for bBackup Filmon---> You need to install F.T.V addon</title>
 <link>plugin://plugin.video.F.T.V/?url=http%3A%2F%2Fwww.filmon.com%2Fchannel%2Fmbc2&amp;mode=125&amp;name=MBC2&amp;iconimage=http%3A%2F%2Fstatic.filmon.com%2Fcouch%2Fchannels%2F368%2Fextra_big_logo.png&amp;start=mbc2&amp;ch_fanart=368</link>
 </item>
 </streaminginfo>
@@ -123,7 +123,7 @@
 
 <streaminginfo>
 <cname>MBC 1</cname>
-<item><title>Filmon---> You need to install F.T.V addon</title><link>plugin://plugin.video.F.T.V/?url=http%3A%2F%2Fwww.filmon.com%2Fchannel%2Fmbc&amp;mode=125&amp;name=MBC&amp;iconimage=http%3A%2F%2Fstatic.filmon.com%2Fcouch%2Fchannels%2F367%2Fextra_big_logo.png&amp;start=mbc&amp;ch_fanart=367</link>
+<item><title>only for bBackup Filmon---> You need to install F.T.V addon</title><link>plugin://plugin.video.F.T.V/?url=http%3A%2F%2Fwww.filmon.com%2Fchannel%2Fmbc&amp;mode=125&amp;name=MBC&amp;iconimage=http%3A%2F%2Fstatic.filmon.com%2Fcouch%2Fchannels%2F367%2Fextra_big_logo.png&amp;start=mbc&amp;ch_fanart=367</link>
 </item>  
 </streaminginfo>
 <streaminginfo>
@@ -1543,7 +1543,7 @@
 <streaminginfo>
         <cname>MBC 2</cname>
 	<item>
-	<title>Marocforum Source</title>
+	<title>Marocforum Source Low quality</title>
 	<link>http://www.vlc.eu.pn@live-f01.vustream.net/live/livestream2/marocforum.m3u8</link>
 	</item>
 </streaminginfo>
