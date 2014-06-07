@@ -1,5 +1,37 @@
 <channels>
 <channel>
+        <cname>OSN Music Now</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/oo/osn_music_now.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>music</category>
+        </assignedcategory>
+ </channel>
+ <channel>
+        <cname>OSN Fann</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/oo/osn_fann.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>music</category>
+        </assignedcategory>
+ </channel>
+ <channel>
+        <cname>OSN Sries</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/oo/osn_arabic_series.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>drama</category>
+        </assignedcategory>
+ </channel>
+ <channel>
+        <cname>OSN Cinema 1</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/oo/osn_cinema1_arabic.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+		 <category>drama</category>
+        </assignedcategory>
+ </channel>
+<channel>
         <cname>Saudia Sport</cname>
         <imageurl>http://bo7.net/wp-content/uploads/2014/01/alriyadiah-sports-tv-channel-logo1.jpg</imageurl>
         <enabled>True</enabled>
