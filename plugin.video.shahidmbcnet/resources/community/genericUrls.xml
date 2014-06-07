@@ -1,5 +1,75 @@
 <streamingInfos>
 
+<streaminginfo>
+     	<cname>Al Fayhaa</cname>
+	<item>
+<title>Filmon High</title>
+<link>rtmp://$doregex[url] app=live/$doregex[key] playpath=1790.high.stream swfUrl=http://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf pageUrl=http://www.filmon.com live=true timeout=15</link>
+   <regex>
+     <name>url</name>
+     <expres>rtmp:....([^\\]*)</expres>
+     <page>http://www.filmon.com/tv/channel/export?channel_id=1790</page>
+   </regex>
+   <regex>
+     <name>key</name>
+     <expres>rtmp[^?]*(\?id=[^"]*)</expres>
+     <page>http://www.filmon.com/tv/channel/export?channel_id=1790</page>
+   </regex>
+</item>
+</streaminginfo>
+<streaminginfo>
+     	<cname>Al Fayhaa</cname>
+	<item>
+<title>Filmon Low</title>
+<link>rtmp://$doregex[url] app=live/$doregex[key] playpath=1790.low.stream swfUrl=http://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf pageUrl=http://www.filmon.com live=true timeout=15</link>
+   <regex>
+     <name>url</name>
+     <expres>rtmp:....([^\\]*)</expres>
+     <page>http://www.filmon.com/tv/channel/export?channel_id=1790</page>
+   </regex>
+   <regex>
+     <name>key</name>
+     <expres>rtmp[^?]*(\?id=[^"]*)</expres>
+     <page>http://www.filmon.com/tv/channel/export?channel_id=1790</page>
+   </regex>
+</item>
+</streaminginfo>
+<streaminginfo>
+     	<cname>Suroyo</cname>
+	<item>
+<title>Filmon High</title>
+<link>rtmp://$doregex[url] app=live/$doregex[key] playpath=1796.high.stream swfUrl=http://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf pageUrl=http://www.filmon.com live=true timeout=15</link>
+   <regex>
+     <name>url</name>
+     <expres>rtmp:....([^\\]*)</expres>
+     <page>http://www.filmon.com/tv/channel/export?channel_id=1796</page>
+   </regex>
+   <regex>
+     <name>key</name>
+     <expres>rtmp[^?]*(\?id=[^"]*)</expres>
+     <page>http://www.filmon.com/tv/channel/export?channel_id=1796</page>
+   </regex>
+</item>
+</streaminginfo>
+<streaminginfo>
+     	<cname>Suroyo</cname>
+	<item>
+<title>Filmon Low</title>
+<link>rtmp://$doregex[url] app=live/$doregex[key] playpath=1796.low.stream swfUrl=http://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf pageUrl=http://www.filmon.com live=true timeout=15</link>
+   <regex>
+     <name>url</name>
+     <expres>rtmp:....([^\\]*)</expres>
+     <page>http://www.filmon.com/tv/channel/export?channel_id=1796</page>
+   </regex>
+   <regex>
+     <name>key</name>
+     <expres>rtmp[^?]*(\?id=[^"]*)</expres>
+     <page>http://www.filmon.com/tv/channel/export?channel_id=1796</page>
+   </regex>
+</item>
+</streaminginfo>
+
+
 <streaminginfo><cname>Aljazeera Doc</cname>
 <item>
 <title>Filmon Low</title>
