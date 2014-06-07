@@ -1,5 +1,13 @@
 <channels>
 <channel>
+        <cname>Saudia Sport</cname>
+        <imageurl>http://chuckssatellite.com/images/packageslogos/saud1.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>sports</category>
+        </assignedcategory>
+ </channel>
+<channel>
         <cname>Maghreb</cname>
         <imageurl>http://www.lyngsat-logo.com/hires/mm/maghreb_tv_be.png</imageurl>
         <enabled>True</enabled>
