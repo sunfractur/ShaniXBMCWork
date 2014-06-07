@@ -1,5 +1,22 @@
 <streamingInfos>
 <streaminginfo>
+<cname>Saudia Sport</cname>
+<item>
+<title>Filmon </title>
+<link>rtmp://$doregex[url] app=live/$doregex[key] playpath=1781.low.stream swfUrl=http://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf pageUrl=http://www.filmon.com live=true timeout=15</link>
+   <regex>
+     <name>url</name>
+     <expres>rtmp:....([^\\]*)</expres>
+     <page>http://www.filmon.com/tv/channel/export?channel_id=1781</page>
+   </regex>
+   <regex>
+     <name>key</name>
+     <expres>rtmp[^?]*(\?id=[^"]*)</expres>
+     <page>http://www.filmon.com/tv/channel/export?channel_id=1781</page>
+   </regex>
+</item>
+</streaminginfo>
+<streaminginfo>
 	<cname>Medi 1 Sat</cname>
 	<item>
 	<title>iptvosn</title>
