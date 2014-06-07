@@ -1,5 +1,14 @@
 <channels>
 <channel>
+        <cname>Al Safwa</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/oo/osn_al_safwa.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+       <category>ent</category>
+	<category>doc</category>
+        </assignedcategory>
+ </channel>
+<channel>
         <cname>OSN Music Now</cname>
         <imageurl>http://www.lyngsat-logo.com/hires/oo/osn_music_now.png</imageurl>
         <enabled>True</enabled>
@@ -28,7 +37,7 @@
         <imageurl>http://www.lyngsat-logo.com/hires/oo/osn_cinema1_arabic.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-		 <category>drama</category>
+	 <category>drama</category>
         </assignedcategory>
  </channel>
 <channel>
