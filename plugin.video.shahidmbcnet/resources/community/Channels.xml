@@ -3075,18 +3075,6 @@
             <category>magreb</category>
         </assignedcategory>
     </channel>
-
-	<channel>
-        <cname>Maghreb 1</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/oula_zpsd979b818.png</imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-            <category>magreb</category>
-        </assignedcategory>
-    </channel>
-
-	
-    
     <channel>
         <cname>Al Maghribia</cname>
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/m5_zps9ab04d28.png</imageurl>
