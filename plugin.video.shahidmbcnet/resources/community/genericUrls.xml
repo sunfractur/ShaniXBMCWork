@@ -423,7 +423,7 @@
 
 
 <streaminginfo>
-     	<cname>Abu Dhabi Sports 1</cname>
+     	<cname>Dubai Sport 1</cname>
 	<item>
 <title>Filmon High</title>
 <link>rtmp://$doregex[url] app=live/$doregex[key] playpath=79.high.stream swfUrl=http://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf pageUrl=http://www.filmon.com live=true timeout=15</link>
@@ -440,7 +440,7 @@
 </item>
 </streaminginfo>
 <streaminginfo>
-     	<cname>Abu Dhabi Sports 1</cname>
+     	<cname>Dubai Sport 1</cname>
 	<item>
 <title>Filmon Low</title>
 <link>rtmp://$doregex[url] app=live/$doregex[key] playpath=79.low.stream swfUrl=http://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf pageUrl=http://www.filmon.com live=true timeout=15</link>
