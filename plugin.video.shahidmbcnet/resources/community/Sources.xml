@@ -17,7 +17,7 @@
 <urlfile>livetvUrls.xml</urlfile>
 <imageurl>http://www.livetv.tn/images/logoc.png</imageurl>
 <processor>livetvPlayer.py</processor>
-<rtmpstring>rtmp://www.livetv.tn/live app=live playpath=%s?c=%s swfUrl=http://www.livetv.tn/flowplayer-3.2.7.swf pageUrl=http://www.livetv.tn/ swfVfy=true  timeout=15 flashver=WIN\2013,0,0,214</rtmpstring>
+<rtmpstring>rtmp://www.livetv.tn/live app=live tcUrl=rtmp://www.livetv.tn:1935/live  playpath=%s?c=%s swfUrl=http://www.livetv.tn/flowplayer-3.2.7.swf pageUrl=http://www.livetv.tn/ swfVfy=true  timeout=15 flashver=WIN\2013,0,0,214</rtmpstring>
 </source>
 <source>
 <id>generic</id>
