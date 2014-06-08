@@ -1,5 +1,13 @@
 <channels>
 <channel>
+        <cname>Al Azhar</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/aa/al_azhar_tv_eg.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>islam</category>
+        </assignedcategory>
+</channel>
+<channel>
         <cname>Beladi</cname>
         <imageurl>http://www.frosat.net/images/logotv/original/Al-Beladi-TV.jpg</imageurl>
         <enabled>True</enabled>
