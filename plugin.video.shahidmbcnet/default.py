@@ -361,6 +361,14 @@ def removeLoginFile(livePlayer,TeleDunet):
 	except: pass
 	try:
 		if TeleDunet:
+			if communityStreamPath not in sys.path:
+				sys.path.append(communityStreamPath)
+			#print processor
+		
+		
+			#from importlib import import_module
+			processorObject=import_module('teledunetPlayer')
+			processorObject.clearFileCache()
 			something_done=True
 			COOKIEFILE = communityStreamPath+'/teletdunetPlayerLoginCookie.lwp'
 			os.remove(COOKIEFILE)

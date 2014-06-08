@@ -13,6 +13,12 @@ import time
 import sys
 import CustomPlayer
 
+try:    
+	import StorageServer
+except:
+	print 'using dummy storage'
+	import storageserverdummy as StorageServer
+
 __addon__       = xbmcaddon.Addon()
 __addonname__   = __addon__.getAddonInfo('name')
 __icon__        = __addon__.getAddonInfo('icon')
@@ -25,7 +31,11 @@ communityStreamPath = os.path.join(addonPath,'resources')
 communityStreamPath =os.path.join(communityStreamPath,'community')
 
 COOKIEFILE = communityStreamPath+'/teletdunetPlayerLoginCookie.lwp'
-		
+cache_table         = __addonname__ 
+cache2Hr              = StorageServer.StorageServer(cache_table,2)
+cache2Hr.table_name = cache_table		
+teledunet_htmlfile='TeledunetchannelList.html'
+profile_path =  xbmc.translatePath(selfAddon.getAddonInfo('profile'))
 def PlayStream(sourceEtree, urlSoup, name, url):
 	try:
 		channelId = urlSoup.url.text
@@ -34,17 +44,7 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 		pDialog.update(10, 'fetching channel page')
 		loginName=selfAddon.getSetting( "teledunetTvLogin" )
 
-		if not loginName=="":
-			if shouldforceLogin():
-				if performLogin():
-					print 'done login'
-				else:
-					print 'login failed??'
-			else:
-				print 'Login not forced.. perhaps reusing the session'
-		else:
-			print 'login name not defined'
-		print 'ooops'
+		
 		
 
 		if 1==1:
@@ -56,11 +56,42 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 			#response = urllib2.urlopen(req)
 			#link=response.read()
 			#response.close()
-			link=getUrl(newURL, getCookieJar(),referer='http://www.teledunet.com/')
-			match =re.findall('aut=\'\?id0=(.*?)\'', link)
-			print match
-			timesegment=str(long(float(match[0])))
+
 			try:
+
+				cache2Hr.table_name = cache_table	
+				file_exists=cache2Hr.get('MainChannelPage')
+				print 'file_exists',file_exists
+				link=None
+				if file_exists and file_exists=='yes':
+					print 'it says use local file'
+					link=getStoredFile(teledunet_htmlfile)
+				
+				if link==None:
+					print 'Oopps, not using local file'
+					if not loginName=="":
+						if shouldforceLogin():
+							if performLogin():
+								print 'done login'
+							else:
+								print 'login failed??'
+						else:
+							print 'Login not forced.. perhaps reusing the session'
+					else:
+						print 'login name not defined'
+
+					
+					link=getUrl(newURL,getCookieJar() ,None,'http://www.teledunet.com/')
+					if storeInFile(link,teledunet_htmlfile):
+						cache2Hr.table_name = cache_table	
+						cache2Hr.set('MainChannelPage','yes')
+						print 'Stored in local file',cache2Hr.get('MainChannelPage')
+					
+
+				match =re.findall('aut=\'\?id0=(.*?)\'', link)
+				print match
+				timesegment=str(long(float(match[0])))
+				
 				rtmp =re.findall(('rtmp://(.*?)/%s\''%channelId), link)[0]
 				rtmp='rtmp://%s/%s'%(rtmp,channelId)
 				#if '5.135.134.110' in rtmp and 'bein' in channelId:
@@ -213,6 +244,31 @@ def shoudforceLoginOLD():
         traceback.print_exc(file=sys.stdout)
     return True
 
+def clearFileCache():
+	cache2Hr.table_name = cache_table	
+	cache2Hr.set('MainChannelPage','')
+	
+def storeInFile(text_to_store,FileName):
+	try:
+		File_name=os.path.join(profile_path,FileName )
+		localFile = open(File_name, "wb")
+		localFile.write(text_to_store)
+		localFile.close()
+		return True
+	except:
+		traceback.print_exc(file=sys.stdout)
+	return False
+
+def getStoredFile(FileName):
+	ret_value=None
+	File_name=os.path.join(profile_path,FileName )
+	try:
+		data = open(File_name, "r").read()
+		ret_value=data
+	except:
+		traceback.print_exc(file=sys.stdout)
+	return ret_value
+	
 def getCookieJar():
 	cookieJar=None
 
@@ -236,7 +292,7 @@ def getUrl(url, cookieJar=None,post=None,referer=None):
 	req.add_header('User-Agent','Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36')
 	if referer:
 		req.add_header('Referer',referer)
-	response = opener.open(req,post)
+	response = opener.open(req,post,timeout=30)
 	link=response.read()
 	response.close()
 	return link;
