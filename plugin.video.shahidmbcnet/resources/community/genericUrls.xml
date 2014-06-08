@@ -1,4 +1,18 @@
 <streamingInfos>
+
+<streaminginfo>
+<cname>Al Amaken</cname>
+<item><title> Al Amaken Ustream Bad Quality</title>
+<link>http://iphone-streaming.ustream.tv/ustreamVideo/9996377/streams/live/playlist.m3u8</link>
+</item>
+</streaminginfo> 
+<streaminginfo>
+<cname>Al Amaken</cname>
+<item><title>Al Amaken Drama Ustream Bad Quality</title>
+<link>http://iphone-streaming.ustream.tv/ustreamVideo/8089600/streams/live/playlist.m3u8</link>
+</item>
+</streaminginfo> 
+
 <streaminginfo>
 	<cname>Palestine</cname>
 	<item><title>Original Source High</title><link>rtmp://vstream2.hadara.ps:1935/pbc/pbc_1 timeout=20</link><thumbnail></thumbnail></item>
@@ -165,7 +179,7 @@
 <streaminginfo><cname>Djibouti</cname><item><title>Low Quality Glarab</title><link>http://38.99.146.43:7777/RTD.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link></item></streaminginfo>
 <streaminginfo><cname>Al Eqtisadiyah</cname><item><title>Low Quality Glarab</title><link>http://38.99.146.43:7777/AlEqtisadiyah.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link></item></streaminginfo> 
 <streaminginfo><cname>Al Thakafiyah</cname><item><title>Low Quality Glarab</title><link>http://38.99.146.43:7777/AlThakafiyah.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link></item></streaminginfo> 
-<streaminginfo><cname>Al Amaken Drama</cname><item><title>Low Quality Glarab</title><link>http://38.99.146.43:7777/AlAmakenDrama.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link></item></streaminginfo> 
+<streaminginfo><cname>Al Amaken</cname><item><title>Low Quality Glarab</title><link>http://38.99.146.43:7777/AlAmakenDrama.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link></item></streaminginfo> 
 <streaminginfo><cname>Al Adala</cname><item><title>Low Quality Glarab</title><link>http://38.99.146.43:7777/AlAdala.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link></item></streaminginfo> 
 <streaminginfo><cname>Al Kout</cname><item><title>Low Quality Glarab</title><link>http://38.99.146.43:7777/AlKout.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link></item></streaminginfo> 
 <streaminginfo><cname>Ajman</cname><item><title>Low Quality Glarab</title><link>http://38.99.146.43:7777/Ajman.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link></item></streaminginfo> 
