@@ -3999,7 +3999,7 @@
 	
 	<channel>
         <cname>IPTVOSN FRANCE</cname>
-        <imageurl>https://lh5.googleusercontent.com/-vnWFOrg9Dm0/U5RXb3fwgSI/AAAAAAAAAI0/ICP91bJ3mS8/s320-no/ipspo.png</imageurl>
+        <imageurl>https://lh5.googleusercontent.com/-LjzstRRPRiE/U5RXayVGyTI/AAAAAAAAAIk/1bxFG10407Y/s320-no/ipfr.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>iptv</category>
@@ -4008,7 +4008,7 @@
 	
 	<channel>
         <cname>IPTVOSN MAGREB</cname>
-        <imageurl>https://lh5.googleusercontent.com/-vnWFOrg9Dm0/U5RXb3fwgSI/AAAAAAAAAI0/ICP91bJ3mS8/s320-no/ipspo.png</imageurl>
+        <imageurl>https://lh6.googleusercontent.com/-pOUDWSGwtAI/U5RXbdNbxRI/AAAAAAAAAIo/4L9zQT-zmkM/s320-no/ipmag.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>iptv</category>
@@ -4034,7 +4034,7 @@
 	
 	<channel>
         <cname>IPTVOSN EGYPT</cname>
-        <imageurl>https://lh5.googleusercontent.com/-vnWFOrg9Dm0/U5RXb3fwgSI/AAAAAAAAAI0/ICP91bJ3mS8/s320-no/ipspo.png</imageurl>
+        <imageurl>https://lh6.googleusercontent.com/-SO7kLLdmeyM/U5RXZ5WVlNI/AAAAAAAAAIM/_NKCoiy8L7U/s320-no/egypt.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>iptv</category>
@@ -4052,7 +4052,7 @@
 	
 	<channel>
         <cname>IPTVOSN GULF</cname>
-        <imageurl>https://lh5.googleusercontent.com/-vnWFOrg9Dm0/U5RXb3fwgSI/AAAAAAAAAI0/ICP91bJ3mS8/s320-no/ipspo.png</imageurl>
+        <imageurl>https://lh5.googleusercontent.com/-a4ADtPqTRw8/U5RXZ2PQbwI/AAAAAAAAAIU/xiDoqxO2CuU/s320-no/gulf.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>iptv</category>
@@ -4079,7 +4079,7 @@
 	
 	<channel>
         <cname>IPTVOSN COOK</cname>
-        <imageurl>https://lh5.googleusercontent.com/-vnWFOrg9Dm0/U5RXb3fwgSI/AAAAAAAAAI0/ICP91bJ3mS8/s320-no/ipspo.png</imageurl>
+        <imageurl>https://lh6.googleusercontent.com/-OLxQnJbABqE/U5RXZ--nf8I/AAAAAAAAAIc/2sAnNHubrVk/s320-no/cook.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>iptv</category>
@@ -4088,7 +4088,7 @@
 	
 	<channel>
         <cname>IPTVOSN DRAMA</cname>
-        <imageurl>https://lh5.googleusercontent.com/-vnWFOrg9Dm0/U5RXb3fwgSI/AAAAAAAAAI0/ICP91bJ3mS8/s320-no/ipspo.png</imageurl>
+        <imageurl>https://lh5.googleusercontent.com/-YWJ6Xe0k78E/U5RXa5MoABI/AAAAAAAAAJE/7kOrfNhqgGI/s320-no/ipdra.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>iptv</category>
