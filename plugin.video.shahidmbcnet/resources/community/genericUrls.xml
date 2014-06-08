@@ -1,5 +1,9 @@
 <streamingInfos>
 <streaminginfo>
+	<cname>Palestine</cname>
+	<item><title>Original Source High</title><link>rtmp://vstream2.hadara.ps:1935/pbc/pbc_1 timeout=20</link><thumbnail></thumbnail></item>
+</streaminginfo>
+<streaminginfo>
 	<cname>Coptic_Christian</cname>
 	<item><title>magictvbox</title><link>http://cdn-streamer2.magictvbox.com/32.m3u8</link></item>
 </streaminginfo>
