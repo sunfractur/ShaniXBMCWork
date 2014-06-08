@@ -1,4 +1,94 @@
 <channels>
+
+<channel>
+        <cname>AlHayat_Christian</cname>
+        <imageurl>http://www.magictvbox.com/wp-content/uploads/2013/05/Alhayat-Christian.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>christ</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Elkeraza_Christian</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/ee/elkeraza_tv_us.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>christ</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Logos_Christian</cname>
+        <imageurl>http://www.magictvbox.com/wp-content/uploads/2013/05/Logos-tv.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>christ</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>CYC_Christian</cname>
+        <imageurl>http://www.magictvbox.com/wp-content/uploads/2013/05/cyc-tv.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>christ</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Alhorreya_Christian</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/aa/al_horreya_tv_us.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>christ</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Alkarama_Christian</cname>
+        <imageurl>http://www.magictvbox.com/wp-content/uploads/2013/05/AlKarma-TV.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>christ</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>The Way_Christian</cname>
+        <imageurl>http://www.magictvbox.com/wp-content/uploads/2013/05/The-Way-TV.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>christ</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Csat_Christian</cname>
+        <imageurl>http://www.magictvbox.com/wp-content/uploads/2013/05/csat.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>christ</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Kingdom_Christian</cname>
+        <imageurl>http://s3.amazonaws.com/ligonier-static-media/uploads/blog-images/kingdom_sat.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>christ</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Smile-of-a-Child_Christian</cname>
+        <imageurl>http://www.magictvbox.com/wp-content/uploads/2013/03/smile-of-a-child.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>christ</category>
+        </assignedcategory>
+</channel>
+
+<channel>
+        <cname>Coptic_Christian</cname>
+        <imageurl>http://www.magictvbox.com/wp-content/uploads/2013/05/Coptic-TV-CTV.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>christ</category>
+        </assignedcategory>
+</channel>
 <channel>
         <cname>Al Azhar</cname>
         <imageurl>http://www.lyngsat-logo.com/hires/aa/al_azhar_tv_eg.png</imageurl>
