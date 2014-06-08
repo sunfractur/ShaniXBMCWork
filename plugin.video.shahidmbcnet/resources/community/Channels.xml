@@ -383,12 +383,13 @@
 </channel>
 <channel>
         <cname>Al Eqtisadiyah</cname>
-        <imageurl>http://www.lyngsat-logo.com/hires/aa/al_eqtisadiyah.png</imageurl>
+        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/eqtsa_zps121a0d27.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
         <category>gulf</category>
         </assignedcategory>
 </channel>
+
 <channel>
         <cname>Al Thakafiyah</cname>
         <imageurl>http://www.lyngsat-logo.com/logo/tv/aa/al_thakafiyah_tv.png</imageurl>
@@ -1568,14 +1569,6 @@
         </assignedcategory>
     </channel>
 	
-	<channel>
-        <cname>Alburhan</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/mjd1_zps6cc89fac.png</imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-            <category>islam</category>
-        </assignedcategory>
-    </channel>
 	
 	<channel>
         <cname>Wesal Kurdi</cname>
@@ -1586,14 +1579,6 @@
         </assignedcategory>
     </channel>
 	
-	<channel>
-        <cname>Wesal Indo</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/wsl_zpsd5639b30.png</imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-            <category>islam</category>
-        </assignedcategory>
-    </channel>
 	
 	<channel>
         <cname>Wesal Haq</cname>
@@ -1941,14 +1926,7 @@
         </assignedcategory>
     </channel>
 
-    <channel>
-        <cname>AL EQTESADIA TVC</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/eqtsa_zps121a0d27.png</imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-            <category>news</category>
-        </assignedcategory>
-    </channel>
+    
 
     <channel>
         <cname>ANN</cname>
