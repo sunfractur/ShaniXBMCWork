@@ -3987,6 +3987,123 @@
             <category>egypt</category>
         </assignedcategory>
     </channel>
+	
+	<channel>
+        <cname>IPTVOSN SPORT</cname>
+        <imageurl>https://lh5.googleusercontent.com/-vnWFOrg9Dm0/U5RXb3fwgSI/AAAAAAAAAI0/ICP91bJ3mS8/s320-no/ipspo.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>iptv</category>
+        </assignedcategory>
+    </channel>
+	
+	<channel>
+        <cname>IPTVOSN FRANCE</cname>
+        <imageurl>https://lh5.googleusercontent.com/-vnWFOrg9Dm0/U5RXb3fwgSI/AAAAAAAAAI0/ICP91bJ3mS8/s320-no/ipspo.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>iptv</category>
+        </assignedcategory>
+    </channel>
+	
+	<channel>
+        <cname>IPTVOSN MAGREB</cname>
+        <imageurl>https://lh5.googleusercontent.com/-vnWFOrg9Dm0/U5RXb3fwgSI/AAAAAAAAAI0/ICP91bJ3mS8/s320-no/ipspo.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>iptv</category>
+        </assignedcategory>
+    </channel>
+	<channel>
+        <cname>IPTVOSN IRAQ</cname>
+        <imageurl>https://lh5.googleusercontent.com/-vnWFOrg9Dm0/U5RXb3fwgSI/AAAAAAAAAI0/ICP91bJ3mS8/s320-no/ipspo.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>iptv</category>
+        </assignedcategory>
+    </channel>
+	
+	<channel>
+        <cname>IPTVOSN NEWS</cname>
+        <imageurl>https://lh5.googleusercontent.com/-vnWFOrg9Dm0/U5RXb3fwgSI/AAAAAAAAAI0/ICP91bJ3mS8/s320-no/ipspo.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>iptv</category>
+        </assignedcategory>
+    </channel>
+	
+	<channel>
+        <cname>IPTVOSN EGYPT</cname>
+        <imageurl>https://lh5.googleusercontent.com/-vnWFOrg9Dm0/U5RXb3fwgSI/AAAAAAAAAI0/ICP91bJ3mS8/s320-no/ipspo.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>iptv</category>
+        </assignedcategory>
+    </channel>
+	
+	<channel>
+        <cname>IPTVOSN ISLAM</cname>
+        <imageurl>https://lh5.googleusercontent.com/-vnWFOrg9Dm0/U5RXb3fwgSI/AAAAAAAAAI0/ICP91bJ3mS8/s320-no/ipspo.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>iptv</category>
+        </assignedcategory>
+    </channel>
+	
+	<channel>
+        <cname>IPTVOSN GULF</cname>
+        <imageurl>https://lh5.googleusercontent.com/-vnWFOrg9Dm0/U5RXb3fwgSI/AAAAAAAAAI0/ICP91bJ3mS8/s320-no/ipspo.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>iptv</category>
+        </assignedcategory>
+    </channel>
+	
+	<channel>
+        <cname>IPTVOSN SHAM</cname>
+        <imageurl>https://lh5.googleusercontent.com/-vnWFOrg9Dm0/U5RXb3fwgSI/AAAAAAAAAI0/ICP91bJ3mS8/s320-no/ipspo.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>iptv</category>
+        </assignedcategory>
+    </channel>
+	
+	<channel>
+        <cname>IPTVOSN KIDS</cname>
+        <imageurl>https://lh5.googleusercontent.com/-vnWFOrg9Dm0/U5RXb3fwgSI/AAAAAAAAAI0/ICP91bJ3mS8/s320-no/ipspo.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>iptv</category>
+        </assignedcategory>
+    </channel>
+	
+	<channel>
+        <cname>IPTVOSN COOK</cname>
+        <imageurl>https://lh5.googleusercontent.com/-vnWFOrg9Dm0/U5RXb3fwgSI/AAAAAAAAAI0/ICP91bJ3mS8/s320-no/ipspo.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>iptv</category>
+        </assignedcategory>
+    </channel>
+	
+	<channel>
+        <cname>IPTVOSN DRAMA</cname>
+        <imageurl>https://lh5.googleusercontent.com/-vnWFOrg9Dm0/U5RXb3fwgSI/AAAAAAAAAI0/ICP91bJ3mS8/s320-no/ipspo.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>iptv</category>
+        </assignedcategory>
+    </channel>
+
+	<channel>
+        <cname>IPTVOSN MUSIC</cname>
+        <imageurl>https://lh5.googleusercontent.com/-vnWFOrg9Dm0/U5RXb3fwgSI/AAAAAAAAAI0/ICP91bJ3mS8/s320-no/ipspo.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>iptv</category>
+        </assignedcategory>
+    </channel>
+
 
 	
 
