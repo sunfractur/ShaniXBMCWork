@@ -1,5 +1,253 @@
 <channels>
 <channel>
+        <cname>Beladi</cname>
+        <imageurl>http://www.frosat.net/images/logotv/original/Al-Beladi-TV.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>Iraq</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Goan</cname>
+        <imageurl>http://www.lyngsat-logo.com/tv/g_1.html</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>africa</category>
+		 <category>sports</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Libya Sport 1</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/ll/lrt_ly_sport1.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>sports</category>
+		<category>magreb</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>ANB</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/aa/anb.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>news</category>
+		<category>gulf</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Neelain Sport</cname>
+        <imageurl>http://2.bp.blogspot.com/-DvLgpqHifSY/UST64DM0tJI/AAAAAAAAACs/2qMaJ1Z5QOw/s1600/10.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>sports</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Baghdad</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/bb/baghdad_tv.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>Iraq</category>
+        </assignedcategory>
+</channel>
+
+<channel>
+        <cname>Aldiyar</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/aa/al_diyar.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>Iraq</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Al Forat</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/aa/al_furat.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>Iraq</category>
+        </assignedcategory>
+</channel>
+  <channel>
+        <cname>Zweina Bladna</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/zz/zweina_baladna.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>gulf</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Palestine AlYawm</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/pp/palestine_al_yawm.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>gulf</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Palestine Live</cname>
+        <imageurl></imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>gulf</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Al Sabah</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/aa/al_sabah_tv.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>islam</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Al Ordonia</cname>
+        <imageurl>http://www.arabicnadwah.com/tv/tv-logo-new.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>gulf</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Al Haqeeqa</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/aa/al_haqeeqah_al_dawliyah.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>gulf</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Aden</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/tt/tv_aden.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>gulf</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Sheba</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/ss/sheba_tv.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>gulf</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Al Shaab</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/ee/el_shaab_eg.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>egypt</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Al Eman</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/aa/al_iman_tv.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>islam</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Al Kout</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/aa/al_kout_channel.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>gulf</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Ajman</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/aa/ajman_tv.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>gulf</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>DM</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/dd/decision_maker_tv.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>drama</category>
+		<category>gulf</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Oyoun Jeddah</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/oo/oyoun_jeddah_tv.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>gulf</category>
+        </assignedcategory>
+</channel>
+
+<channel>
+        <cname>Tayba</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/tt/tayba_tv.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>africa</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Om Durman</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/oo/omdurman_tv.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>africa</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Libya AlWataniya</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/ll/libya_al_watanya.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>magreb</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Djibouti</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/rr/rtd_dj.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>africa</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Al Eqtisadiyah</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/aa/al_eqtisadiyah.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>gulf</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Al Thakafiyah</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/aa/al_thakafiyah_tv.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>gulf</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Al Amaken Drama</cname>
+        <imageurl>http://4.bp.blogspot.com/-MCkTRM3jUdQ/USz1ouHk9gI/AAAAAAAACss/SIj1OEMxWqs/s1600/%D8%AB.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>drama</category>
+		<category>gulf</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Al Adala</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/aa/al_adalah.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>gulf</category>
+        </assignedcategory>
+</channel>
+
+<channel>
         <cname>Suroyo</cname>
         <imageurl>http://www.lyngsat-logo.com/hires/ss/suroyo_tv.png</imageurl>
         <enabled>True</enabled>
