@@ -1,5 +1,75 @@
 <channels>
 
+
+
+<channel>
+        <cname>Koky Kids</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/kk/koky_kids_eg.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>kids</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Alfaraeena</cname>
+        <imageurl>http://2.bp.blogspot.com/-bEmZcz1SVHk/UTTe0zzi_WI/AAAAAAAACWg/i0nnaY_HlmM/s1600/logo_tv_aa_al_faraeen_tv.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>egypt</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Coran Time</cname>
+        <imageurl></imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>islam</category>
+        </assignedcategory>
+</channel>
+
+<channel>
+        <cname>Sat7</cname>
+        <imageurl>http://www.magictvbox.com/wp-content/uploads/2013/05/Sat-7-arabic.gif</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>christ</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Sat7 Kids</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/ss/sat7_kids.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>christ</category>
+        </assignedcategory>
+</channel>
+
+<channel>
+        <cname>Azhari</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/aa/azhari_tv.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>islam</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Toktok</cname>
+        <imageurl>http://www.magictvbox.com/wp-content/uploads/2013/05/toktok-cinema.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>kids</category>
+        </assignedcategory>
+</channel>
+
+<channel>
+        <cname>Taxi El Sahra</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/tt/taxi_el_sahra.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>egypt</category>
+        </assignedcategory>
+</channel>
+
 <channel>
         <cname>AlHayat_Christian</cname>
         <imageurl>http://www.magictvbox.com/wp-content/uploads/2013/05/Alhayat-Christian.jpg</imageurl>
