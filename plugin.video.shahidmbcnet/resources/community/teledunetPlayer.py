@@ -31,7 +31,7 @@ communityStreamPath = os.path.join(addonPath,'resources')
 communityStreamPath =os.path.join(communityStreamPath,'community')
 
 COOKIEFILE = communityStreamPath+'/teletdunetPlayerLoginCookie.lwp'
-cache_table         = __addonname__ 
+cache_table         = __addonname__
 cache2Hr              = StorageServer.StorageServer(cache_table,2)
 cache2Hr.table_name = cache_table		
 teledunet_htmlfile='TeledunetchannelList.html'
@@ -245,8 +245,8 @@ def shoudforceLoginOLD():
     return True
 
 def clearFileCache():
-	cache2Hr.table_name = cache_table	
-	cache2Hr.set('MainChannelPage','')
+	cache2Hr.table_name = cache_table
+	cache2Hr.delete('%')
 	
 def storeInFile(text_to_store,FileName):
 	try:
