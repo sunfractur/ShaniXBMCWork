@@ -10,6 +10,11 @@
 		<imageurl>http://technostacks.com/wp-content/themes/technostacks/img/entertaiment.png</imageurl>
 	</category>
 	<category>
+		<id>magreb</id>
+		<catname>Maghreb</catname>
+		<imageurl>http://icons.iconarchive.com/icons/hopstarter/flag/256/Tunisia-icon.png</imageurl>
+	</category>
+	<category>
 		<id>news</id>
 		<catname>News</catname>
 		<imageurl>http://icons.iconarchive.com/icons/pelfusion/folded-flat/96/News-icon.png</imageurl>
@@ -64,11 +69,7 @@
 		<catname>Egypt</catname>
 		<imageurl>http://icons.iconarchive.com/icons/hopstarter/flag/256/Egypt-icon.png</imageurl>
 	</category>
-	<category>
-		<id>magreb</id>
-		<catname>Maghreb</catname>
-		<imageurl>http://icons.iconarchive.com/icons/hopstarter/flag/256/Tunisia-icon.png</imageurl>
-	</category>
+	
 	<category>
 		<id>drama</id>
 		<catname>Drama</catname>
@@ -95,5 +96,9 @@
 		<catname>Iptvosn</catname>
 		<imageurl>https://lh5.googleusercontent.com/-4t843oukLrk/U5RXcPqVuJI/AAAAAAAAAI4/kxGmcLsNRsI/s320-no/iptv.png</imageurl>
 	</category>
-	
+		<category>
+		<id>christ</id>
+		<catname>Arabic Christian</catname>
+		<imageurl>http://icons.iconarchive.com/icons/designbolts/religious-symbol/256/Christian-cross-icon.png</imageurl>
+	</category>
 </categories>
