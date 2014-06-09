@@ -1,7 +1,36 @@
 <channels>
 <channel>
+        <cname>Nilat</cname>
+        <imageurl>http://www.jascomediacity.net/images/New/partners/NaylatTV.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+         <category>gulf</category>
+        </assignedcategory>
+</channel>
+
+
+<channel>
+        <cname>Ale3lania</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/aa/ale3lania_tv.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+         <category>gulf</category>
+        </assignedcategory>
+</channel>
+
+<channel>
+        <cname>Awdeh</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/aa/awdeh_tv_ps.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+         <category>gulf</category>
+        </assignedcategory>
+</channel>
+
+
+<channel>
         <cname>Kaifa</cname>
-        <imageurl>http://ims.gtvhome.com/images/kaifa_a9a64266-06c2-4bc5-83f2-46daa74faaa6.jpg</imageurl>
+        <imageurl>http://www.jascomediacity.net/images/New/partners/logo%20kifa.jpg</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
          <category>islam</category>
