@@ -1795,7 +1795,8 @@
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/hurria_zpsc825a1a1.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-            <category>news</category>
+        <category>Iraq</category>
+         <category>news</category>
         </assignedcategory>
     </channel>
 
