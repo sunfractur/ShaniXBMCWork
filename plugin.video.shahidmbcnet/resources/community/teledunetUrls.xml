@@ -1,6 +1,11 @@
 <streamingInfos>
 
 <streaminginfo>
+	<cname>ZDF</cname>
+	<url>zdf</url>
+</streaminginfo>
+
+<streaminginfo>
 <cname>Blue Nile</cname>
 <url>blue_nile</url>
 </streaminginfo>
