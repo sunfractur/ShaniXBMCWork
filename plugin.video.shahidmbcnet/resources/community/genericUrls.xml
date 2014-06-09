@@ -81,6 +81,9 @@
 	<cname>Alan</cname>
 	<item><title>Ngmatv</title><link>http://85.91.143.21:1935/11589/11589.stream/playlist.m3u8</link></item>  
 </streaminginfo>
+<streaminginfo><cname>Al Baghdadia</cname><item><title>Al baghdadia2 Ngmatv</title><link>http://85.91.143.22:1935/33516/33516.stream/playlist.m3u8</link></item></streaminginfo>  
+<streaminginfo><cname>Dubai Racing</cname><item><title>Ngmatv</title><link>http://85.91.143.21:1935/47689/47689.stream/playlist.m3u8</link></item></streaminginfo> 
+
 <streaminginfo><cname>Al oula Maroc</cname><item><title>NegmaTV</title><link>http://85.91.143.20:1935/56752/56752.stream/playlist.m3u8</link></item></streaminginfo>
 <streaminginfo><cname>Tamazigh Maroc</cname><item><title>Ngmatv</title><link>http://85.91.143.20:1935/45823/45823.stream/playlist.m3u8</link></item></streaminginfo> 
 <streaminginfo><cname>MBC Masr</cname><item><title>Ngmatv</title><link>http://85.91.143.20:1935/88863/88863.stream/playlist.m3u8</link></item></streaminginfo>  
