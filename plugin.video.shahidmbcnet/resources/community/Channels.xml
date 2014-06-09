@@ -1,5 +1,21 @@
 <channels>
 <channel>
+        <cname>Kaifa</cname>
+        <imageurl>http://ims.gtvhome.com/images/kaifa_a9a64266-06c2-4bc5-83f2-46daa74faaa6.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+         <category>islam</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Roaa</cname>
+        <imageurl>http://live-tv.im/wp-content/uploads/2014/04/Roaa-TV.gif</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+         <category>islam</category>
+        </assignedcategory>
+</channel>
+<channel>
         <cname>ZDF</cname>
         <imageurl>http://www.lyngsat-logo.com/hires/zz/zdf_de.png</imageurl>
         <enabled>True</enabled>
