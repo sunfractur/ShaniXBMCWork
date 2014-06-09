@@ -1,5 +1,14 @@
 <channels>
 <channel>
+        <cname>ZDF</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/zz/zdf_de.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+         <category>oth</category>
+		 <category>sports</category>
+        </assignedcategory>
+</channel>
+<channel>
         <cname>HD1</cname>
         <imageurl>http://www.lyngsat-logo.com/hires/hh/hd1_fr.png</imageurl>
         <enabled>True</enabled>
