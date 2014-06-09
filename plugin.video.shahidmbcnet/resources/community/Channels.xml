@@ -3704,16 +3704,6 @@
     </channel>
 
     <channel>
-        <cname>Dubai TV</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/dbi_zps3c8e4dd1.png</imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-            <category>gulf</category>
-        </assignedcategory>
-    </channel>
-
-    
-    <channel>
         <cname>Al-Nahar Drama</cname>
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/nhrdrm_zpsa4484404.png</imageurl>
         <enabled>True</enabled>
