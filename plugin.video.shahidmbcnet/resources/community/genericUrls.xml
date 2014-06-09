@@ -1,4 +1,6 @@
 <streamingInfos>
+<streaminginfo><cname>Al Forat</cname><item><title>Original Source</title><link>rtmp://alforatlive.nanocdn.com:1935/live playpath=alforat256 swfUrl=http://www1.alforattv.net/modules/live/js/jwplayer/player.swf pageUrl=http://www1.alforattv.net live=1 swfVfy=1 timeout=10</link></item></streaminginfo> 
+
 <streaminginfo><cname>Nilat</cname><item><title>188</title><link>http://188.247.93.26:1935/live/nilat.stream_360p/hassuni.m3u8</link></item></streaminginfo>
 <streaminginfo><cname>Ale3lania</cname><item><title>188</title><link>http://188.247.93.26:1935/live/ale3lania.stream_360p/hassuni.m3u8</link></item></streaminginfo>
 <streaminginfo><cname>Awdeh</cname><item><title>188</title><link>http://188.247.93.26:1935/live/Awdeh.stream_360p/hassuni.m3u8</link></item></streaminginfo>
