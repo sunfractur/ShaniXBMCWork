@@ -1,5 +1,37 @@
 <channels>
 <channel>
+        <cname>HD1</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/hh/hd1_fr.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+         <category>french</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Equipe 21</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/ll/l_equipe_21_fr.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+         <category>french</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Numero 23</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/nn/numero_23_fr.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+         <category>french</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>RMC</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/radio/rr/rmc.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+         <category>french</category>
+        </assignedcategory>
+</channel>
+<channel>
         <cname>AAAMusic</cname>
         <imageurl>http://www.lyngsat-logo.com/hires/aa/aaa_music.png</imageurl>
         <enabled>True</enabled>
