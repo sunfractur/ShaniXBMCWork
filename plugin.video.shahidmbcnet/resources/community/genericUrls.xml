@@ -1,9 +1,15 @@
 <streamingInfos>
+
+<streaminginfo>
+<cname>Aliraqiya</cname>
+<item><title>Original Source</title><link>http://212.7.205.5:1935/Iraqia/live/playlist.m3u8</link></item>
+</streaminginfo>
+
 <streaminginfo>
     <cname>Al-Hurria</cname>
 <item><title>Original Source</title><link>http://streamer1.hamuraabi.com:1935/hurria/live/playlist.m3u8</link></item>
 </streaminginfo>
-<streaminginfo>
+
 <streaminginfo>
     <cname>Al Etejah</cname>
 	<item>
@@ -11,6 +17,7 @@
 	<link>plugin://plugin.video.f4mTester/?url=http://38.96.175.119:1935/aletejahtv/aletejahtv1/manifest.f4m?DVR</link>
 	</item>
 </streaminginfo>
+
 <streaminginfo><cname>Al Forat</cname><item><title>Original Source</title><link>rtmp://alforatlive.nanocdn.com:1935/live playpath=alforat256 swfUrl=http://www1.alforattv.net/modules/live/js/jwplayer/player.swf pageUrl=http://www1.alforattv.net live=1 swfVfy=1 timeout=10</link></item></streaminginfo> 
 <streaminginfo><cname>Nilat</cname><item><title>188</title><link>http://188.247.93.26:1935/live/nilat.stream_360p/hassuni.m3u8</link></item></streaminginfo>
 <streaminginfo><cname>Ale3lania</cname><item><title>188</title><link>http://188.247.93.26:1935/live/ale3lania.stream_360p/hassuni.m3u8</link></item></streaminginfo>
