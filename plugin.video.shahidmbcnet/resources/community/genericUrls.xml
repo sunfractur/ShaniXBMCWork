@@ -1,4 +1,11 @@
 <streamingInfos>
+<streaminginfo>
+   <cname>Toktok</cname>
+   <item>
+   <title>iptvosn</title>
+    <link>http://88.150.198.74/$setting_iptvosnUser$/$setting_iptvosnPwd$/160.ch</link>
+   </item>
+</streaminginfo>
 <streaminginfo><cname>BBC Arabic</cname><item><title>magictvbox</title><link>http://cdn.magictvbox.com/live/10136.stream/playlist.m3u8</link></item></streaminginfo>
 <streaminginfo><cname>Sama Dubai</cname><item><title>magictvbox</title><link>http://cdn.magictvbox.com/live/10112.stream/playlist.m3u8</link></item></streaminginfo>
 <streaminginfo><cname>Nessma</cname><item><title>magictvbox</title><link>http://cdn.magictvbox.com/live/10135.stream/playlist.m3u8</link></item></streaminginfo>
