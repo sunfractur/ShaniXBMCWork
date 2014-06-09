@@ -1,7 +1,4 @@
 <channels>
-
-
-
 <channel>
         <cname>Koky Kids</cname>
         <imageurl>http://www.lyngsat-logo.com/hires/kk/koky_kids_eg.png</imageurl>
@@ -4034,16 +4031,6 @@
             <category>Iraq</category>
         </assignedcategory>
     </channel>
-
-    <channel>
-        <cname>IRAQIA</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/irq_zps5fe463d4.png</imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-            <category>Iraq</category>
-        </assignedcategory>
-    </channel>
-
     <channel>
         <cname>KTV PLUS</cname>
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/ktvplu_zps08381349.png</imageurl>
