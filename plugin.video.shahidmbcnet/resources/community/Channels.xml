@@ -1,5 +1,29 @@
 <channels>
 <channel>
+        <cname>AAAMusic</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/aa/aaa_music.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>music</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Taha</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/tt/taha_tv.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>kids</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>HodHod</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/hh/hod_hod_tv.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>kids</category>
+        </assignedcategory>
+</channel>
+<channel>
         <cname>Koky Kids</cname>
         <imageurl>http://www.lyngsat-logo.com/hires/kk/koky_kids_eg.png</imageurl>
         <enabled>True</enabled>
