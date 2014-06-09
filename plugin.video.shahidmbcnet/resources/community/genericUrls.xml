@@ -111,8 +111,8 @@
 <streaminginfo><cname>MTV</cname><item><title>Ngmatv</title><link>http://85.91.143.20:1935/54682/54682.stream/playlist.m3u8</link></item></streaminginfo>  
 <streaminginfo><cname>Tele Liban</cname><item><title>Ngmatv</title><link>http://85.91.143.20:1935/96578/96578.stream/playlist.m3u8</link></item></streaminginfo>  
 <streaminginfo><cname>Aljadeed</cname><item><title>Ngmatv</title><link>http://85.91.143.20:1935/89245/89245.stream/playlist.m3u8</link></item></streaminginfo>  
-<streaminginfo><cname>Abu Dhabi Sports 1</cname><item><title>Abu Dhabi Sports 2 Ngmatv</title><link>http://85.91.143.21:1935/15675/15675.stream/playlist.m3u8</link></item></streaminginfo>  
-<streaminginfo><cname>Abu Dhabi Sports 1</cname><item><title>Abu Dhabi Sports 1 Ngmatv</title><link>http://85.91.143.21:1935/35428/35428.stream/playlist.m3u8</link></item></streaminginfo>  
+<streaminginfo><cname>Abu Dhabi Sports 1</cname><item><title>Abu Dhabi Sports 1 Ngmatv SRV1</title><link>http://85.91.143.21:1935/15675/15675.stream/playlist.m3u8</link></item></streaminginfo>  
+<streaminginfo><cname>Abu Dhabi Sports 1</cname><item><title>Abu Dhabi Sports 2 Ngmatv SRV2</title><link>http://85.91.143.21:1935/35428/35428.stream/playlist.m3u8</link></item></streaminginfo>  
 
 <streaminginfo><cname>Aljazeera</cname><item><title>Ngmatv</title><link>http://85.91.143.23:1935/18859/18859.stream/playlist.m3u8</link></item></streaminginfo> 
  <streaminginfo><cname>Aljazeera Doc</cname><item><title>Ngmatv</title><link>http://85.91.143.23:1935/33578/33578.stream/playlist.m3u8</link></item></streaminginfo>  
@@ -128,8 +128,8 @@
 <streaminginfo><cname>Mazzika</cname><item><title>Ngmatv</title><link>http://85.91.143.23:1935/93348/93348.stream/playlist.m3u8</link></item></streaminginfo> 
 <streaminginfo><cname>Music+</cname><item><title>Music+</title><link>http://85.91.143.21:1935/35961/35961.stream/playlist.m3u8</link></item></streaminginfo>
 <streaminginfo><cname>Mazeka zoom</cname><item><title>Ngmatv</title><link>http://85.91.143.23:1935/96533/96533.stream/playlist.m3u8</link></item></streaminginfo>  
-<streaminginfo><cname>Abu Dhabi Sports 1</cname><item><title>Abu Dhabi Sports 2 Ngmatv</title><link>http://85.91.143.21:1935/15675/15675.stream/playlist.m3u8</link></item></streaminginfo>  
-<streaminginfo><cname>Abu Dhabi Sports 1</cname><item><title>Abu Dhabi Sports 1 Ngmatv</title><link>http://85.91.143.21:1935/35428/35428.stream/playlist.m3u8</link></item></streaminginfo>  
+<streaminginfo><cname>Abu Dhabi Sports 1</cname><item><title>Abu Dhabi Sports 1 Ngmatv SRV2</title><link>http://85.91.143.21:1935/15675/15675.stream/playlist.m3u8</link></item></streaminginfo>  
+<streaminginfo><cname>Abu Dhabi Sports 1</cname><item><title>Abu Dhabi Sports 2 Ngmatv SRV2</title><link>http://85.91.143.21:1935/35428/35428.stream/playlist.m3u8</link></item></streaminginfo>  
 <streaminginfo><cname>Oman</cname><item><title>Ngmatv</title><link>http://85.91.143.23:1935/45658/45658.stream/playlist.m3u8</link></item></streaminginfo>  
 <streaminginfo><cname>Iqraa</cname><item><title>NgmaTV</title><link>http://85.91.143.23:1935/64489/64489.stream/playlist.m3u8</link></item></streaminginfo>
 
