@@ -1,5 +1,14 @@
 <channels>
 <channel>
+        <cname>Al Etejah</cname>
+        <imageurl>http://referenceur-tv.com/wp-content/uploads/2013/05/al-etejah-tv-online-live-channel-streaming-150x150.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+         <category>news</category>
+		 <category>Iraq</category>
+        </assignedcategory>
+</channel>
+<channel>
         <cname>Nilat</cname>
         <imageurl>http://www.jascomediacity.net/images/New/partners/NaylatTV.jpg</imageurl>
         <enabled>True</enabled>
@@ -7,8 +16,6 @@
          <category>gulf</category>
         </assignedcategory>
 </channel>
-
-
 <channel>
         <cname>Ale3lania</cname>
         <imageurl>http://www.lyngsat-logo.com/logo/tv/aa/ale3lania_tv.png</imageurl>
