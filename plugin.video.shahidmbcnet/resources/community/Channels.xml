@@ -1,6 +1,31 @@
 <channels>
 
 <channel>
+        <cname>BBC One</cname>
+        <imageurl>https://static.filmon.com/couch/channels/14/big_logo.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+		 <category>euro</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>BBC Two</cname>
+        <imageurl>https://static.filmon.com/couch/channels/25/big_logo.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+		 <category>euro</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>ITV 1</cname>
+        <imageurl>https://static.filmon.com/couch/channels/11/big_logo.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+		 <category>euro</category>
+        </assignedcategory>
+</channel>
+
+<channel>
         <cname>Salam</cname>
         <imageurl>http://www.lyngsat-logo.com/logo/tv/aa/al_salam_tv.png</imageurl>
         <enabled>True</enabled>
@@ -64,10 +89,10 @@
 </channel>
 <channel>
         <cname>ZDF</cname>
-        <imageurl>http://www.lyngsat-logo.com/hires/zz/zdf_de.png</imageurl>
+        <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfp1/t1.0-1/1549440_581355895273377_1670882419_a.jpg</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-         <category>oth</category>
+		 <category>euro</category>
 		 <category>sports</category>
         </assignedcategory>
 </channel>

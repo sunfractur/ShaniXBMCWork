@@ -92,6 +92,12 @@
 	</category>
 	
 	<category>
+		<id>euro</id>
+		<catname>Euro</catname>
+		<imageurl>https://lh3.googleusercontent.com/4GTC3Z49mG8ViEh-iG6PqrlsQGyNVFLoaUk1M_p15A=s259-p-no</imageurl>
+	</category>
+	
+	<category>
 		<id>iptv</id>
 		<catname>Iptvosn</catname>
 		<imageurl>https://lh5.googleusercontent.com/-4t843oukLrk/U5RXcPqVuJI/AAAAAAAAAI4/kxGmcLsNRsI/s320-no/iptv.png</imageurl>
