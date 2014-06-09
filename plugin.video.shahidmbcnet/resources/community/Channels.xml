@@ -1,4 +1,15 @@
 <channels>
+
+<channel>
+        <cname>Salam</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/aa/al_salam_tv.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+         <category>drama</category>
+		 <category>Iraq</category>
+        </assignedcategory>
+</channel>
+
 <channel>
         <cname>Al Etejah</cname>
         <imageurl>http://referenceur-tv.com/wp-content/uploads/2013/05/al-etejah-tv-online-live-channel-streaming-150x150.png</imageurl>
