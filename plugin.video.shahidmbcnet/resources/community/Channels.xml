@@ -842,15 +842,8 @@
         <assignedcategory>
             <category>egypt</category>
         </assignedcategory>
-    </channel>
-	 <channel>
-        <cname>MBC Drama+ plus</cname>
-        <imageurl>http://www.web-medias.net/uploads/thumbs/b094a4888-1.jpg</imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-            <category>drama</category>
-        </assignedcategory>
-    </channel>
+</channel>
+
 <channel>
         <cname>Alghad Alarabi</cname>
         <imageurl>https://img.new.livestream.com/accounts/00000000002b49ca/781d65f7-1e78-4876-ad74-ce2611ad35e5_170x170.jpg</imageurl>
