@@ -1,4 +1,25 @@
 <streamingInfos>
+<streaminginfo>
+		<cname>Libya</cname>
+		<item>
+		<title>livestation_828</title>
+		<link>http://wpc.c1a9.edgecastcdn.net/hls-live/20C1A9/linear/ls_satlink/libyatv_828.m3u8</link>
+		</item>
+</streaminginfo>
+<streaminginfo>
+		<cname>Libya</cname>
+		<item>
+		<title>livestation_528</title>
+		<link>http://wpc.c1a9.edgecastcdn.net/hls-live/20C1A9/linear/ls_satlink/libyatv_528.m3u8</link>
+		</item>
+</streaminginfo>
+<streaminginfo>
+		<cname>Libya</cname>
+		<item>
+		<title>livestation_264</title>
+		<link>http://wpc.c1a9.edgecastcdn.net/hls-live/20C1A9/linear/ls_satlink/libyatv_264.m3u8</link>
+		</item>
+</streaminginfo>
 
 <streaminginfo>
 <cname>Salam</cname>
