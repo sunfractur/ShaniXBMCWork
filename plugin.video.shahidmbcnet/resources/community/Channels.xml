@@ -1,5 +1,13 @@
 <channels>
 <channel>
+        <cname>ERI.TV</cname>
+        <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn2/t1.0-1/c34.34.431.431/s160x160/600295_473677106044152_1407362833_n.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+		 <category>africa</category>
+        </assignedcategory>
+</channel>
+<channel>
         <cname>GTV Ghana</cname>
         <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn2/t1.0-1/c34.22.276.276/p320x320/223194_284547261651613_137335363_n.png</imageurl>
         <enabled>True</enabled>
