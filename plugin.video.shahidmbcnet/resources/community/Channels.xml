@@ -8,6 +8,30 @@
         </assignedcategory>
 </channel>
 <channel>
+        <cname>Euronews fr</cname>
+        <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/t1.0-1/10310626_658865060829548_1544787395216783457_a.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+		 <category>french</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>rts un</cname>
+        <imageurl>https://scontent-b-fra.xx.fbcdn.net/hphotos-xfa1/t1.0-9/418554_373992075952114_2084547306_n.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+		 <category>french</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>rts deux</cname>
+        <imageurl>https://scontent-b-fra.xx.fbcdn.net/hphotos-xfa1/t1.0-9/418554_373992075952114_2084547306_n.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+		 <category>french</category>
+        </assignedcategory>
+</channel>
+<channel>
         <cname>BBC One</cname>
         <imageurl>https://static.filmon.com/couch/channels/14/big_logo.png</imageurl>
         <enabled>True</enabled>
