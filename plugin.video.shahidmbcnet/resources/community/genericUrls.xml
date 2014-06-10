@@ -35,6 +35,33 @@
 <streaminginfo><cname>Kaifa</cname><item><title>188</title><link>http://188.247.93.26:1935/live/kifa.stream_360p/hassuni.m3u8</link></item></streaminginfo>
 
 <streaminginfo>
+<cname>The Way_Christian</cname>
+<item><title>Original source</title><link>http://videos.atvsat.com:1935/atvsatlive/atvsatlive1/playlist.m3u8</link></item>
+</streaminginfo>
+
+<streaminginfo>
+<cname>Al Baghdadia</cname>
+<item><title>Original source</title><link>http://albag1.groovygecko.edge01.streammatrix.tv/livealbag1/smil:albag1.smil/playlist.m3u8</link></item>
+</streaminginfo>
+
+<streaminginfo>
+<cname>AlHayat_Christian</cname>
+<item><title>Arabic Original source</title><link>http://media.islamexplained.com:1935/live/ngrp:ahme.stream_all/playlist.m3u8</link></item>
+</streaminginfo>
+<streaminginfo>
+<cname>AlHayat_Christian</cname>
+<item><title>English Original source</title><link>http://media.islamexplained.com:1935/live/ngrp:ahusa.stream_all/playlist.m3u8</link></item>
+</streaminginfo>
+<streaminginfo>
+<cname>Sat7</cname>
+<item><title>Original source</title><link>rtmp://unirtmp.tulix.tv:1935/sat7arabic/sat7arabic1 timeout=20</link></item>
+</streaminginfo>
+<streaminginfo>
+<cname>Sat7 Kids</cname>
+<item><title>Original source</title><link>rtmp://unirtmp.tulix.tv:1935/sat7kids/sat7kids1 timeout=20</link></item>
+</streaminginfo>
+
+<streaminginfo>
    <cname>Toktok</cname>
    <item>
    <title>iptvosn</title>
