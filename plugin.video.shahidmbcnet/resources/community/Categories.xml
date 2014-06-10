@@ -9,16 +9,17 @@
 		<catname>Entertainment</catname>
 		<imageurl>http://technostacks.com/wp-content/themes/technostacks/img/entertaiment.png</imageurl>
 	</category>
+		<category>
+		<id>news</id>
+		<catname>News</catname>
+		<imageurl>http://icons.iconarchive.com/icons/pelfusion/folded-flat/96/News-icon.png</imageurl>
+	</category>
 	<category>
 		<id>magreb</id>
 		<catname>Maghreb</catname>
 		<imageurl>http://icons.iconarchive.com/icons/hopstarter/flag/256/Tunisia-icon.png</imageurl>
 	</category>
-	<category>
-		<id>news</id>
-		<catname>News</catname>
-		<imageurl>http://icons.iconarchive.com/icons/pelfusion/folded-flat/96/News-icon.png</imageurl>
-	</category>
+
 	<category>
 		<id>music</id>
 		<catname>Music</catname>
