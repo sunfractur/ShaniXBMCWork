@@ -1,11 +1,18 @@
 <channels>
-
+<channel>
+        <cname>GTV Ghana</cname>
+        <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn2/t1.0-1/c34.22.276.276/p320x320/223194_284547261651613_137335363_n.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+		 <category>cup</category>
+        </assignedcategory>
+</channel>
 <channel>
         <cname>BBC One</cname>
         <imageurl>https://static.filmon.com/couch/channels/14/big_logo.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-		 <category>euro</category>
+		 <category>cup</category>
         </assignedcategory>
 </channel>
 <channel>
@@ -13,7 +20,7 @@
         <imageurl>https://static.filmon.com/couch/channels/25/big_logo.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-		 <category>euro</category>
+		 <category>cup</category>
         </assignedcategory>
 </channel>
 <channel>
@@ -21,7 +28,7 @@
         <imageurl>https://static.filmon.com/couch/channels/11/big_logo.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-		 <category>euro</category>
+		 <category>cup</category>
         </assignedcategory>
 </channel>
 
@@ -92,7 +99,7 @@
         <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfp1/t1.0-1/1549440_581355895273377_1670882419_a.jpg</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-		 <category>euro</category>
+		 <category>cup</category>
 		 <category>sports</category>
         </assignedcategory>
 </channel>
@@ -822,7 +829,7 @@
     </channel>
 <channel>
         <cname>Alghad Alarabi</cname>
-        <imageurl>http://s25.postimg.org/fucnexgcf/1267558_250930868388531_174917928_o.jpg</imageurl>
+        <imageurl>https://img.new.livestream.com/accounts/00000000002b49ca/781d65f7-1e78-4876-ad74-ce2611ad35e5_170x170.jpg</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
          <category>sham</category>
@@ -994,7 +1001,7 @@
         <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc3/t1.0-1/c1.0.320.320/p320x320/1503820_10152083754583762_1175632840_n.jpg</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-			<category>euro</category>
+			<category>cup</category>
             <category>sports</category>
         </assignedcategory>
     </channel>
@@ -1004,7 +1011,7 @@
         <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc3/t1.0-1/c1.0.320.320/p320x320/1503820_10152083754583762_1175632840_n.jpg</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-			<category>euro</category>
+			<category>cup</category>
             <category>sports</category>
         </assignedcategory>
     </channel>
@@ -1015,7 +1022,7 @@
         <enabled>True</enabled>
         <assignedcategory>
             <category>sports</category>
-			<category>euro</category>
+			<category>cup</category>
         </assignedcategory>
     </channel>
 	
@@ -1025,7 +1032,7 @@
         <enabled>True</enabled>
         <assignedcategory>
             <category>sports</category>
-			<category>euro</category>
+			<category>cup</category>
         </assignedcategory>
     </channel>
     
@@ -3267,6 +3274,7 @@
         <enabled>True</enabled>
         <assignedcategory>
             <category>sports</category>
+			<category>cup</category>
         </assignedcategory>
     </channel>
 
