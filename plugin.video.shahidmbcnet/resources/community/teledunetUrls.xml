@@ -1,5 +1,20 @@
 <streamingInfos>
-
+<streaminginfo>
+	<cname>Melody Aflem</cname>
+	<url>melody_aflam</url>
+</streaminginfo>
+<streaminginfo>
+	<cname>Melody Hits</cname>
+	<url>melody_hits</url>
+</streaminginfo>
+<streaminginfo>
+	<cname>Bein2 HD</cname>
+	<url>bein_sport_2_hd</url>
+</streaminginfo>
+<streaminginfo>
+	<cname>Bein6 HD</cname>
+	<url>bein_sport_6_hd</url>
+</streaminginfo>
 <streaminginfo>
 	<cname>ZDF</cname>
 	<url>zdf</url>
