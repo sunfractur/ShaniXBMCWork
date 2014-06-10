@@ -1031,24 +1031,6 @@
 <streaminginfo><cname>OSN Music Now</cname><item><title>iptvosn</title><link>http://88.150.198.74/$setting_iptvosnUser$/$setting_iptvosnPwd$/64.ch</link></item></streaminginfo>
 <streaminginfo><cname>Al Safwa</cname><item><title>iptvosn </title><link>http://88.150.198.74/$setting_iptvosnUser$/$setting_iptvosnPwd$/63.ch</link></item></streaminginfo>
 
-
-<streaminginfo>
-<cname>Saudia Sport</cname>
-<item>
-<title>Filmon </title>
-<link>rtmp://$doregex[url] app=live/$doregex[key] playpath=1781.low.stream swfUrl=http://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf pageUrl=http://www.filmon.com live=true timeout=15</link>
-   <regex>
-     <name>url</name>
-     <expres>rtmp:....([^\\]*)</expres>
-     <page>http://www.filmon.com/tv/channel/export?channel_id=1781</page>
-   </regex>
-   <regex>
-     <name>key</name>
-     <expres>rtmp[^?]*(\?id=[^"]*)</expres>
-     <page>http://www.filmon.com/tv/channel/export?channel_id=1781</page>
-   </regex>
-</item>
-</streaminginfo>
 <streaminginfo>
 	<cname>Medi 1 Sat</cname>
 	<item>
