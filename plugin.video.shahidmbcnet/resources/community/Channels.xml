@@ -857,6 +857,7 @@
         <enabled>True</enabled>
         <assignedcategory>
          <category>sham</category>
+         <category>news</category>
         </assignedcategory>
 </channel>
 <channel>
