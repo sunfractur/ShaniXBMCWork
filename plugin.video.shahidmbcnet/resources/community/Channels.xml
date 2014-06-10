@@ -1757,34 +1757,6 @@
         </assignedcategory>
     </channel>
 	
-	
-	<channel>
-        <cname>Wesal Kurdi</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/wsl_zpsd5639b30.png</imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-            <category>islam</category>
-        </assignedcategory>
-    </channel>
-	
-	
-	<channel>
-        <cname>Wesal Haq</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/wsl_zpsd5639b30.png</imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-            <category>islam</category>
-        </assignedcategory>
-    </channel>
-	
-	<channel>
-        <cname>Wesal English</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/wsl_zpsd5639b30.png</imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-            <category>islam</category>
-        </assignedcategory>
-    </channel>
 
     <channel>
         <cname>Almajd Science</cname>
