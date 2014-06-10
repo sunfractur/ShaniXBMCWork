@@ -1,5 +1,12 @@
 <streamingInfos>
 <streaminginfo>
+	<cname>ERI.TV</cname>
+	<item>
+	<title>Original source</title>
+	<link>rtmp://173.192.70.133:1935/live playpath=myStream swfUrl=http://player.longtailvideo.com/player5.9.swf pageUrl=http://eri.tv/ timeout=10</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
 		<cname>Libya</cname>
 		<item>
 		<title>livestation_828</title>
