@@ -326,6 +326,7 @@
 	<link>http://live.aldafrah.tv:1935/live/aldafrah3/playlist.m3u8</link>
 	</item>
 </streaminginfo>
+<streaminginfo><cname>Cairo Cinema</cname><item><title>Glarab</title><link>http://38.99.146.43:7777/CairoCinema.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link></item></streaminginfo>
 <streaminginfo><cname>AAAMusic</cname><item><title>Low Quality Glarab</title><link>http://38.99.146.43:7777/AAAMusic.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link></item></streaminginfo>
 <streaminginfo><cname>Taha</cname><item><title>Low Quality Glarab</title><link>http://38.99.146.43:7777/Taha.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link></item></streaminginfo>
 <streaminginfo><cname>Al oula Maroc</cname><item><title>Low Quality Glarab</title><link>http://38.99.146.43:7777/AlAoulaEurope.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link></item></streaminginfo>
@@ -360,7 +361,7 @@
 <streaminginfo><cname>Oscar Drama</cname><item><title>Low Quality Glarab</title><link>http://38.99.146.43:7777/OscarDrama.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link></item></streaminginfo>
 <streaminginfo><cname>Alhayat Cinema</cname><item><title>Low Quality Glarab</title><link>http://38.99.146.43:7777/AlHayatCinema.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link></item></streaminginfo>
 <streaminginfo><cname>Cairo Drama</cname><item><title>Low Quality Glarab</title><link>http://38.99.146.43:7777/CairoDrama.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link></item></streaminginfo>
-<streaminginfo><cname>Nile Comedy</cname><item><title>Low Quality Glarab</title><link>http://38.99.146.43:7777/.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link></item></streaminginfo>
+<streaminginfo><cname>Nile Comedy</cname><item><title>Low Quality Glarab</title><link>http://38.99.146.43:7777/NileComedy.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link></item></streaminginfo>
 <streaminginfo><cname>Nile Drama</cname><item><title>Low Quality Glarab</title><link>http://38.99.146.43:7777/NileDrama.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link></item></streaminginfo>
 <streaminginfo><cname>Nile Cinema</cname><item><title>Low Quality Glarab</title><link>http://38.99.146.43:7777/NileCinema.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link></item></streaminginfo>
 <streaminginfo><cname>Hanibal</cname><item><title>Low Quality Glarab</title><link>http://38.99.146.43:7777/Hannibal.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link></item></streaminginfo>
