@@ -1,5 +1,13 @@
 <channels>
 <channel>
+        <cname>Algarbia</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/aa/algharbiya_tv.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>Iraq</category>
+        </assignedcategory>
+</channel>
+<channel>
         <cname>Mens up</cname>
         <imageurl>http://tele.premiere.fr/var/premiere/storage/images/tele/news-tele/men-s-up-tv-karine-lima-margot-laffite-et-nicolas-deuil-sur-la-nouvelle-chaine-dediee-aux-hommes/35629519-1-fre-FR/Men-s-UP-TV-Karine-Lima-Margot-Laffite-et-Nicolas-Deuil-sur-la-nouvelle-chaine-dediee-aux-hommes_image_article_paysage_new.jpg</imageurl>
         <enabled>True</enabled>
