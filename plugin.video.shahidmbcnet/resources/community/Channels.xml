@@ -3651,25 +3651,23 @@
         <assignedcategory>
             <category>magreb</category>
         </assignedcategory>
-    </channel>
-
-	<channel>
+</channel>
+ <channel>
         <cname>Algerie 24</cname>
         <imageurl>http://www.teledunet.com/player/icones/dzair_24.jpg</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>magreb</category>
         </assignedcategory>
-    </channel>
-	
-	<channel>
+    </channel> 
+<channel>
         <cname>Dzair 24</cname>
-        <imageurl>http://www.teledunet.com/player/icones/dzair_24.jpg</imageurl>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/dd/dzair_24_dz.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>magreb</category>
         </assignedcategory>
-    </channel>
+   </channel>
 
  
     <channel>
