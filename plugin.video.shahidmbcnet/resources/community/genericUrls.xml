@@ -1,4 +1,9 @@
 <streamingInfos>
+
+<streaminginfo>
+	<cname>Algarbia</cname>
+	<item><title>46.165</title><link>http://46.165.208.230:1935/samarra/mystream/gmswf.m3u8</link></item>
+</streaminginfo>
 <streaminginfo>
 	<cname>ERI.TV</cname>
 	<item>
