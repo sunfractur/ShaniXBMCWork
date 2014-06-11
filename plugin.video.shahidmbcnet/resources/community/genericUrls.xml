@@ -1052,12 +1052,12 @@
 </item>
 </streaminginfo>
 
-<streaminginfo><cname>OSN Cinema 1</cname><item><title>iptvosn</title><link>http://88.150.181.10/$setting_iptvosnUser$/$setting_iptvosnPwd$/58.ch</link></item></streaminginfo>
+<streaminginfo><cname>Orbit Cinema 1</cname><item><title>iptvosn</title><link>http://88.150.181.10/$setting_iptvosnUser$/$setting_iptvosnPwd$/58.ch</link></item></streaminginfo>
 <streaminginfo><cname>AlYawm</cname><item><title>iptvosn Orbit  Alyawm</title><link>http://88.150.181.10/$setting_iptvosnUser$/$setting_iptvosnPwd$/60.ch</link></item></streaminginfo>
-<streaminginfo><cname>OSN Sries</cname><item><title>iptvosn</title><link>http://88.150.181.10/$setting_iptvosnUser$/$setting_iptvosnPwd$/62.ch</link></item></streaminginfo>
-<streaminginfo><cname>OSN Fann</cname><item><title>Fann</title><link>http://88.150.181.10/$setting_iptvosnUser$/$setting_iptvosnPwd$/61.ch</link></item></streaminginfo>
-<streaminginfo><cname>OSN Music Now</cname><item><title>iptvosn</title><link>http://88.150.181.10/$setting_iptvosnUser$/$setting_iptvosnPwd$/64.ch</link></item></streaminginfo>
-<streaminginfo><cname>Al Safwa</cname><item><title>iptvosn </title><link>http://88.150.181.10/$setting_iptvosnUser$/$setting_iptvosnPwd$/63.ch</link></item></streaminginfo>
+<streaminginfo><cname>Orbit Mmousalsalat</cname><item><title>iptvosn</title><link>http://88.150.181.10/$setting_iptvosnUser$/$setting_iptvosnPwd$/62.ch</link></item></streaminginfo>
+<streaminginfo><cname>Orbit Fann</cname><item><title>Fann</title><link>http://88.150.181.10/$setting_iptvosnUser$/$setting_iptvosnPwd$/61.ch</link></item></streaminginfo>
+<streaminginfo><cname>Orbit MusicNow</cname><item><title>iptvosn</title><link>http://88.150.181.10/$setting_iptvosnUser$/$setting_iptvosnPwd$/64.ch</link></item></streaminginfo>
+<streaminginfo><cname>Orbit Alsafwa</cname><item><title>iptvosn </title><link>http://88.150.181.10/$setting_iptvosnUser$/$setting_iptvosnPwd$/63.ch</link></item></streaminginfo>
 
 <streaminginfo>
 	<cname>Medi 1 Sat</cname>
