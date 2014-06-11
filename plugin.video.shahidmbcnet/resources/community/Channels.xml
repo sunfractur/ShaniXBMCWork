@@ -537,6 +537,7 @@
         <enabled>True</enabled>
         <assignedcategory>
         <category>gulf</category>
+        <category>sham</category>
         </assignedcategory>
 </channel>
 
@@ -1515,7 +1516,8 @@
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/plstin_zpsc73a2ef5.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-            <category>sham</category>
+        <category>sham</category>
+        <category>gulf</category>
         </assignedcategory>
     </channel>
 
