@@ -724,8 +724,11 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
 
                         url = url.replace("$doregex[" + k + "]", val)
                     else:
-                        reg = re.compile(m['expre']).search(link)
-                        val=reg.group(1).strip()
+                        if not link=='':
+                            reg = re.compile(m['expre']).search(link)
+                            val=reg.group(1).strip()
+                        else:
+                            val=m['expre']
                         if rawPost:
                             print 'rawpost'
                             val=urllib.quote_plus(val)

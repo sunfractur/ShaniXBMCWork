@@ -34,3 +34,37 @@ which means it worked.
 
 This will allow you to write python functions, like current date time in certain format, or do the calcualtion which otherwise is too difficult via web calls.
 
+
+Another example, say if you want to call python functions, if those are simple functions then you can even call them directly, you dont have to write 
+another regex or function for example
+
+say i want to decode the base64 text, get the text via another regex (i am lazy so i hard coded it, you would want to get via dynamic regex)
+but you can now write regex which contain static text, not Useful at all but useful when you have to use same big text many places.
+Note that b64decode is not using page_data as parameter because it doesn't need to.
+
+
+<item>
+<title>function test2</title>
+<link>http://$doregex[get-decode]</link>
+
+<regex>
+<name>get-decode</name>
+<expres>$pyFunction:base64.b64decode("$doregex[get-enctext]")</expres>
+<page></page>
+</regex>
+
+<regex>
+<name>get-enctext</name>
+<expres>cnRtcDovLzk1LjE0MS40My41MzoxNzM1L3JlZGlyZWN0Lz90b2tlbj1wbGF5QDE0MDI0NTUwNjIwNzQ1OQ==</expres>
+<page></page>
+</regex>
+
+
+</item>
+
+
+
+
+
+
+
