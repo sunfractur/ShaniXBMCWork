@@ -3,8 +3,8 @@ Now, you can execute python functions within regex, the format is $pyFunction.Fi
 first parameter must be page_data, even if you dont need any page data
 
 
-for example, if i want to add 2+4, i have created that function and stored in myFunctions.py file. this file should be copied in profile directory 
-for example  \XBMC\userdata\addon_data\plugin.video.live.streams
+for example, if i want to add 2+4, i have created that function and stored in myFunctions.py file. this file should be copied in following directory which means with updates you wont lose your function file, please keep the backup of your files, just in case.
+ \XBMC\userdata\addon_data\plugin.video.live.streams
 
 def addme(page_data,a,b):
     return a+b
