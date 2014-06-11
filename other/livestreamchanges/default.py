@@ -9,6 +9,7 @@ import xbmcplugin
 import xbmcgui
 import xbmcaddon
 import xbmcvfs
+
 from BeautifulSoup import BeautifulStoneSoup, BeautifulSoup, BeautifulSOAP
 try:
     import json
@@ -43,6 +44,8 @@ REV = os.path.join(profile, 'list_revision')
 icon = os.path.join(home, 'icon.png')
 FANART = os.path.join(home, 'fanart.jpg')
 source_file = os.path.join(profile, 'source_file')
+functions_dir = profile
+
 downloader = downloader.SimpleDownloader()
 debug = addon.getSetting('debug')
 if os.path.exists(favorites)==True:
@@ -626,7 +629,7 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
                         #print 'cookieJar new',cookieJar
                         
  
-                if  '$doregex' in m['page']:
+                if  m['page'] and '$doregex' in m['page']:
                     m['page']=getRegexParsed(regexs, m['page'],cookieJar,recursiveCall=True,cachedPages=cachedPages)
 
                 if  'post' in m and '$doregex' in m['post']:
@@ -638,69 +641,71 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
                     print 'rawpost is now',m['rawpost']
                 
 
-
-                if m['page'] in cachedPages and not 'ignorecache' in m and forCookieJarOnly==False :
+                link=''
+                if m['page'] and m['page'] in cachedPages and not 'ignorecache' in m and forCookieJarOnly==False :
                     link = cachedPages[m['page']]
                 else:
-                    #print 'Ingoring Cache',m['page']
-                    req = urllib2.Request(m['page'])
-                    print 'req',m['page']
-                    req.add_header('User-Agent', 'Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1')
-                    if 'refer' in m:
-                        req.add_header('Referer', m['refer'])
-                    if 'agent' in m:
-                        req.add_header('User-agent', m['agent'])
-                    if 'setcookie' in m:
-                        print 'adding cookie',m['setcookie']
-                        req.add_header('Cookie', m['setcookie'])
+                    if m['page'] and  not m['page']=='':
+                        #print 'Ingoring Cache',m['page']
+                        req = urllib2.Request(m['page'])
+                        print 'req',m['page']
+                        req.add_header('User-Agent', 'Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1')
+                        if 'refer' in m:
+                            req.add_header('Referer', m['refer'])
+                        if 'agent' in m:
+                            req.add_header('User-agent', m['agent'])
+                        if 'setcookie' in m:
+                            print 'adding cookie',m['setcookie']
+                            req.add_header('Cookie', m['setcookie'])
 
-                    if not cookieJar==None:
-                        #print 'cookieJarVal',cookieJar
-                        cookie_handler = urllib2.HTTPCookieProcessor(cookieJar)
-                        opener = urllib2.build_opener(cookie_handler, urllib2.HTTPBasicAuthHandler(), urllib2.HTTPHandler())
-                        opener = urllib2.install_opener(opener)
-                    #print 'after cookie jar'
-                    post=None
+                        if not cookieJar==None:
+                            #print 'cookieJarVal',cookieJar
+                            cookie_handler = urllib2.HTTPCookieProcessor(cookieJar)
+                            opener = urllib2.build_opener(cookie_handler, urllib2.HTTPBasicAuthHandler(), urllib2.HTTPHandler())
+                            opener = urllib2.install_opener(opener)
+                        #print 'after cookie jar'
+                        post=None
 
-                    if 'post' in m:
-                        postData=m['post']
-                        if '$LiveStreamRecaptcha' in postData:
-                            (captcha_challenge,catpcha_word)=processRecaptcha(m['page'])
-                            if captcha_challenge:
-                                postData+='recaptcha_challenge_field:'+captcha_challenge+',recaptcha_response_field:'+catpcha_word
-                        splitpost=postData.split(',');
-                        post={}
-                        for p in splitpost:
-                            n=p.split(':')[0];
-                            v=p.split(':')[1];
-                            post[n]=v
-                        post = urllib.urlencode(post)
+                        if 'post' in m:
+                            postData=m['post']
+                            if '$LiveStreamRecaptcha' in postData:
+                                (captcha_challenge,catpcha_word)=processRecaptcha(m['page'])
+                                if captcha_challenge:
+                                    postData+='recaptcha_challenge_field:'+captcha_challenge+',recaptcha_response_field:'+catpcha_word
+                            splitpost=postData.split(',');
+                            post={}
+                            for p in splitpost:
+                                n=p.split(':')[0];
+                                v=p.split(':')[1];
+                                post[n]=v
+                            post = urllib.urlencode(post)
 
-                    if 'rawpost' in m:
-                        post=m['rawpost']
-                        if '$LiveStreamRecaptcha' in post:
-                            (captcha_challenge,catpcha_word)=processRecaptcha(m['page'])
-                            if captcha_challenge:
-                               post+='&recaptcha_challenge_field='+captcha_challenge+'&recaptcha_response_field='+catpcha_word
+                        if 'rawpost' in m:
+                            post=m['rawpost']
+                            if '$LiveStreamRecaptcha' in post:
+                                (captcha_challenge,catpcha_word)=processRecaptcha(m['page'])
+                                if captcha_challenge:
+                                   post+='&recaptcha_challenge_field='+captcha_challenge+'&recaptcha_response_field='+catpcha_word
 
 
+                            
+
+                        if post:
+                            response = urllib2.urlopen(req,post)
+                        else:
+                            response = urllib2.urlopen(req)
+
+                        link = response.read()
+                        link=javascriptUnEscape(link)
+
+                        response.close()
+                        cachedPages[m['page']] = link
+                        #print link
+                        print 'store link for',m['page'],forCookieJarOnly
                         
-
-                    if post:
-                        response = urllib2.urlopen(req,post)
-                    else:
-                        response = urllib2.urlopen(req)
-
-                    link = response.read()
-                    link=javascriptUnEscape(link)
-
-                    response.close()
-                    cachedPages[m['page']] = link
-                    #print link
-                    print 'store link for',m['page'],forCookieJarOnly
+                        if forCookieJarOnly:
+                            return cookieJar# do nothing
                     
-                    if forCookieJarOnly:
-                        return cookieJar# do nothing
                     if  '$doregex' in m['expre']:
                         m['expre']=getRegexParsed(regexs, m['expre'],cookieJar,recursiveCall=True,cachedPages=cachedPages)
                     
@@ -709,7 +714,16 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
                 print 'aa'
                 if not m['expre']=='':
                     print 'doing it ',m['expre']
-                    if not '$LiveStreamCaptcha' in m['expre']:
+                    if '$LiveStreamCaptcha' in m['expre']:
+                        val=askCaptcha(m,link,cookieJar)
+                        print 'url and val',url,val
+                        url = url.replace("$doregex[" + k + "]", val)
+                    elif m['expre'].startswith('$pyFunction:'):
+                        val=doEval(m['expre'].split('$pyFunction:')[1],link)
+                        print 'url and val',url,val
+
+                        url = url.replace("$doregex[" + k + "]", val)
+                    else:
                         reg = re.compile(m['expre']).search(link)
                         val=reg.group(1).strip()
                         if rawPost:
@@ -719,11 +733,6 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
                             #val=urllib.unquote_plus(val)
                             import HTMLParser
                             val=HTMLParser.HTMLParser().unescape(val)
-
-                        url = url.replace("$doregex[" + k + "]", val)
-                    else:
-                        val=askCaptcha(m,link,cookieJar)
-                        print 'url and val',url,val
                         url = url.replace("$doregex[" + k + "]", val)
                         #return val
                 else:
@@ -739,6 +748,19 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
         #xbmc.Player().play(item=url)
         xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, item)
 
+def doEval(fun_call,page_data):
+    ret_val=''
+    if functions_dir not in sys.path:
+        sys.path.append(functions_dir)
+    
+    print fun_call
+    py_file='import '+fun_call.split('.')[0]
+    #print py_file
+    exec( py_file)
+    exec ('ret_val='+fun_call)
+    #exec('ret_val=1+1')
+    return str(ret_val)
+    
 def processRecaptcha(url):
 	html_text=getUrl(url)
 	recapChallenge=""
