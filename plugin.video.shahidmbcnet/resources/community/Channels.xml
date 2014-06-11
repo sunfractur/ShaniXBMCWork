@@ -100,7 +100,7 @@
 </channel>
 <channel>
         <cname>Grande Lille TV</cname>
-        <imageurl>http://www.zoomsurlille.fr/images/stories/articles/logo_grandlilletv.jpg</imageurl>
+        <imageurl>http://www.grandlille.tv/images/stories/header_logo_grandlilletv.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
          <category>french</category>
@@ -490,7 +490,7 @@
 </channel>
 <channel>
         <cname>Goan</cname>
-        <imageurl>http://www.lyngsat-logo.com/tv/g_1.html</imageurl>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/gg/goan_tv.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
         <category>africa</category>
