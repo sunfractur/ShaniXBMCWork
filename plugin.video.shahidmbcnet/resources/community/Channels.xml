@@ -1,5 +1,30 @@
 <channels>
 <channel>
+        <cname>AlBabeleyia</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/aa/al_babeleyia.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>Iraq</category>
+        </assignedcategory>
+</channel>
+
+<channel>
+        <cname>Massaya</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/mm/massaya_tv.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>egypt</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Nojoom1</cname>
+        <imageurl>http://i1.ytimg.com/i/tZt1WukG8vXeg6TQwMJkiQ/mq1.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>gulf</category>
+        </assignedcategory>
+</channel>
+<channel>
         <cname>Algarbia</cname>
         <imageurl>http://www.lyngsat-logo.com/logo/tv/aa/algharbiya_tv.png</imageurl>
         <enabled>True</enabled>
@@ -514,14 +539,7 @@
         <category>gulf</category>
         </assignedcategory>
 </channel>
-<channel>
-        <cname>Palestine Live</cname>
-        <imageurl></imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-        <category>gulf</category>
-        </assignedcategory>
-</channel>
+
 <channel>
         <cname>Al Sabah</cname>
         <imageurl>http://www.lyngsat-logo.com/hires/aa/al_sabah_tv.png</imageurl>
