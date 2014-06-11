@@ -326,6 +326,10 @@
 	<link>http://live.aldafrah.tv:1935/live/aldafrah3/playlist.m3u8</link>
 	</item>
 </streaminginfo>
+<streaminginfo><cname>AlBabeleyia</cname><item><title>Low Quality Glarab</title><link>http://38.99.146.43:7777/AlBabeleyia.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link></item></streaminginfo>
+<streaminginfo><cname>Massaya</cname><item><title>Low Quality Glarab</title><link>http://38.99.146.43:7777/Massaya.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link></item></streaminginfo>
+<streaminginfo><cname>Nojoom1</cname><item><title>Low Quality Glarab</title><link>http://38.99.146.43:7777/Nojoom1.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link></item></streaminginfo>
+
 <streaminginfo><cname>Cairo Cinema</cname><item><title>Glarab</title><link>http://38.99.146.43:7777/CairoCinema.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link></item></streaminginfo>
 <streaminginfo><cname>AAAMusic</cname><item><title>Low Quality Glarab</title><link>http://38.99.146.43:7777/AAAMusic.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link></item></streaminginfo>
 <streaminginfo><cname>Taha</cname><item><title>Low Quality Glarab</title><link>http://38.99.146.43:7777/Taha.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link></item></streaminginfo>
@@ -462,7 +466,7 @@
 <streaminginfo><cname>Alqsa</cname><item><title>Low Quality Glarab</title><link>http://38.99.146.43:7777/AqsaSatch.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link></item></streaminginfo> 
 
 <streaminginfo><cname>Palestine AlYawm</cname><item><title>Low Quality Glarab</title><link>http://38.99.146.43:7777/PalestineAlYawm.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link></item></streaminginfo> 
-<streaminginfo><cname>Palestine Live</cname><item><title>Low Quality Glarab</title><link>http://38.99.146.43:7777/PalestineLive.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link></item></streaminginfo> 
+<streaminginfo><cname>Palestine</cname><item><title>Palestine Live Low Quality Glarab</title><link>http://38.99.146.43:7777/PalestineLive.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link></item></streaminginfo> 
 <streaminginfo><cname>Baghdad</cname><item><title>Low Quality Glarab</title><link>http://38.99.146.43:7777/Baghdad.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link></item></streaminginfo> 
 <streaminginfo><cname>Al Rafidain</cname><item><title>Low Quality Glarab</title><link>http://38.99.146.43:7777/AlRafidain.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link></item></streaminginfo> 
 <streaminginfo><cname>Al Fayhaa</cname><item><title>Low Quality Glarab</title><link>http://38.99.146.43:7777/AlFayhaa.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link></item></streaminginfo> 
