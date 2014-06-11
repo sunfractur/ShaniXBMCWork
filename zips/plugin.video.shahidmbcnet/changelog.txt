@@ -1,4 +1,7 @@
 [B]Version 3.1.1[/B]
+Added GLArab,magicbox and iptvosn as sources, add to fav is back and you can clear default source,if setup, plus you can set retry settings for teledunet
+
+[B]Version 3.1.1[/B]
 Teledunet caching support - small bug
 
 [B]Version 3.1.0[/B]

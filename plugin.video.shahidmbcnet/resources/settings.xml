@@ -11,12 +11,16 @@
 <category label="32015">
  <setting label="32020" type="bool"   id="playFirstChannel" default="false"/>
    <setting label="32021" type="lsep"/>
-		<setting label="32022" type="labelenum" id="order1" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local" default="Teledunet.com"/>
-		<setting label="32023" type="labelenum" id="order2" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local" default="livetv.tn"/>
-		<setting label="32024" type="labelenum" id="order3" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local" default="Shani"/>
-		<setting label="32025" type="labelenum" id="order4" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local" default="PC"/>
-		<setting label="32026" type="labelenum" id="order5" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local" default="Zombi"/>
-		<setting label="32030" type="labelenum" id="order6" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local" default="Local"/>
+		<setting label="32022" type="labelenum" id="order1" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox" default="Teledunet.com"/>
+		<setting label="32023" type="labelenum" id="order2" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox" default="livetv.tn"/>
+		<setting label="32024" type="labelenum" id="order3" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox" default="Shani"/>
+		<setting label="32025" type="labelenum" id="order4" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox" default="PC"/>
+		<setting label="32026" type="labelenum" id="order5" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox" default="Zombi"/>
+		<setting label="32030" type="labelenum" id="order6" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox" default="Local"/>
+        <setting label="32052" type="labelenum" id="order7" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox" default="iptvOsn"/>
+        <setting label="32054" type="labelenum" id="order8" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox" default="GLArab"/>
+        <setting label="32056" type="labelenum" id="order9" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox" default="magictvBox"/>   
+        
      
 	   </category>
 	 <category label="32017">
@@ -50,10 +54,16 @@
         <setting label="32035" type="bool"   id="isPCSourceDisabled" default="false"/>
         <setting label="32036" type="bool"   id="isZombiSourceDisabled" default="false"/>
         <setting label="32037" type="bool"   id="isLocalSourceDisabled" default="false"/>        
-		
+		<setting label="32051" type="bool"   id="isiptvOsnSourceDisabled" default="false"/>        
+		<setting label="32053" type="bool"   id="isGLArabSourceDisabled" default="false"/>  
+	<setting label="32055" type="bool"   id="ismagictvBoxSourceDisabled" default="false"/>  
+
+        
 
 	  </category>
 		<category label="32049">
 			<setting label="32050" type="number" id="usethisviewmode" values="" default=""/>
+            <setting label="32057" type="number" id="teledunetRetryCount" values="" default="15"/>
+     <!--  <setting label="32058" type="bool" id="addToFavMode" default="false"/>-->
 		 </category>
 </settings>

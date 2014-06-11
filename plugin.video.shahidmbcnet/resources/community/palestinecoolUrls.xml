@@ -117,26 +117,22 @@
 		<cname>Al mayaden</cname>
 
 <item> 
-<title>Al Mayadeen Medium Quality</title>
+<title>Al Mayadeen Source 2</title>
 <link>rtmp://hd2.lsops.net/live/ playpath=almayade_ar_485 swfUrl=http://static.ls-cdn.com/player/5.10/livestation-player.swf?1377945036 live=1 timeout=15 pageUrl=http://www.livestation.com/en/almayadeen/popout</link> 
 </item>
 </streaminginfo>
+
+
 <streaminginfo>
-<cname>Al mayaden</cname>
-<item>
-<title>Al Mayadeen Low Quality</title>
-<link>rtmp://hd2.lsops.net/live playpath=almayade_ar_183 swfUrl="http://static.ls-cdn.com/player/5.10/livestation-player.swf" swfVfy=true live=true</link>
+		<cname>Al mayaden</cname>
+<item> 
+<title>Al Mayadeen Source 3</title>
+<link>rtmp://livestreaming3.itworkscdn.net/mayadeenlive playpath=mayadsat swfUrl=http://www.almayadeen.net/content/jwplayer/jwplayer.flash.swf live=1 timeout=15 pageUrl=http://www.almayadeen.net/live</link>
 </item>
 </streaminginfo>
 
 
-<streaminginfo>
-<cname>Al mayaden</cname>
-<item>
-<title>Al Mayadeen Mobile Quality</title>
-<link>http://hd2.lsops.net/live/almayade_ar_hls.smil/playlist.m3u8</link>
-</item>
-</streaminginfo>
+
 
 <streaminginfo>
 		<cname>Al Alam</cname>
@@ -267,7 +263,7 @@
 <streaminginfo>
 		<cname>Infinity</cname>
 <item>
-<title>Filmon Source 1</title>
+<title>Filmon Source Low</title>
 <link>rtmp://$doregex[url] app=live/$doregex[key] playpath=1766.low.stream swfUrl=http://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf pageUrl=http://www.filmon.com live=true timeout=15</link>
    <regex>
      <name>url</name>
@@ -286,7 +282,7 @@
 <streaminginfo>
 		<cname>Infinity</cname>
 <item>
-<title>Filmon Source 2</title>
+<title>Filmon Source High</title>
 <link>rtmp://$doregex[url] app=live/$doregex[key] playpath=1766.high.stream swfUrl=http://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf pageUrl=http://www.filmon.com live=true timeout=15</link>
    <regex>
      <name>url</name>
@@ -305,7 +301,7 @@
 <streaminginfo>
 		<cname>Rotana Aflam</cname>
 <item>
-<title>Filmon Source 1</title>
+<title>Filmon Source Low</title>
 <link>rtmp://$doregex[url] app=live/$doregex[key] playpath=2618.low.stream swfUrl=http://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf pageUrl=http://www.filmon.com live=true timeout=15</link>
    <regex>
      <name>url</name>
@@ -324,7 +320,7 @@
 <streaminginfo>
 		<cname>Rotana Aflam</cname>
 <item>
-<title>Filmon Source 2</title>
+<title>Filmon Source High</title>
 <link>rtmp://$doregex[url] app=live/$doregex[key] playpath=2618.high.stream swfUrl=http://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf pageUrl=http://www.filmon.com live=true timeout=15</link>
    <regex>
      <name>url</name>
@@ -343,7 +339,7 @@
 <streaminginfo>
 		<cname>Rotana cinema</cname>
 <item>
-<title>Filmon Source 1</title>
+<title>Filmon Source Low</title>
 <link>rtmp://$doregex[url] app=live/$doregex[key] playpath=2615.low.stream swfUrl=http://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf pageUrl=http://www.filmon.com live=true timeout=15</link>
    <regex>
      <name>url</name>
@@ -362,7 +358,7 @@
 <streaminginfo>
 		<cname>Rotana cinema</cname>
 <item>
-<title>Filmon Source 2</title>
+<title>Filmon Source High</title>
 <link>rtmp://$doregex[url] app=live/$doregex[key] playpath=2615.high.stream swfUrl=http://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf pageUrl=http://www.filmon.com live=true timeout=15</link>
    <regex>
      <name>url</name>
@@ -382,7 +378,7 @@
 		<cname>Rotana Classic</cname>
 
 <item>
-<title>Filmon Source 1</title>
+<title>Filmon Source Low</title>
 <link>rtmp://$doregex[url] app=live/$doregex[key] playpath=2609.low.stream swfUrl=http://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf pageUrl=http://www.filmon.com live=true timeout=15</link>
    <regex>
      <name>url</name>
@@ -401,7 +397,7 @@
 <streaminginfo>
 		<cname>Rotana Classic</cname>
 <item>
-<title>Filmon Source 2</title>
+<title>Filmon Source High</title>
 <link>rtmp://$doregex[url] app=live/$doregex[key] playpath=2609.high.stream swfUrl=http://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf pageUrl=http://www.filmon.com live=true timeout=15</link>
    <regex>
      <name>url</name>
@@ -460,7 +456,7 @@
 <streaminginfo>
 		<cname>Rotana Clip</cname>
 <item>
-<title>Filmon Source 1</title>
+<title>Filmon Source Low</title>
 <link>rtmp://$doregex[url] app=live/$doregex[key] playpath=2603.low.stream swfUrl=http://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf pageUrl=http://www.filmon.com live=true timeout=15</link>
    <regex>
      <name>url</name>
@@ -480,7 +476,7 @@
 <streaminginfo>
 		<cname>Rotana Clip</cname>
 <item>
-<title>Filmon Source 2</title>
+<title>Filmon Source High</title>
 <link>rtmp://$doregex[url] app=live/$doregex[key] playpath=2603.high.stream swfUrl=http://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf pageUrl=http://www.filmon.com live=true timeout=15</link>
    <regex>
      <name>url</name>
@@ -499,7 +495,7 @@
 <streaminginfo>
 		<cname>Rotana Music</cname>
 <item>
-<title>Filmon Source 1</title>
+<title>Filmon Source Low</title>
 <link>rtmp://$doregex[url] app=live/$doregex[key] playpath=2600.low.stream swfUrl=http://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf pageUrl=http://www.filmon.com live=true timeout=15</link>
    <regex>
      <name>url</name>
@@ -518,7 +514,7 @@
 <streaminginfo>
 		<cname>Rotana Music</cname>
 <item>
-<title>Filmon Source 2</title>
+<title>Filmon Source High</title>
 <link>rtmp://$doregex[url] app=live/$doregex[key] playpath=2600.high.stream swfUrl=http://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf pageUrl=http://www.filmon.com live=true timeout=15</link>
    <regex>
      <name>url</name>
@@ -537,7 +533,7 @@
 <streaminginfo>
 		<cname>Rotana Khaligi</cname>
 <item>
-<title>Filmon Source 1</title>
+<title>Filmon Source Low</title>
 <link>rtmp://$doregex[url] app=live/$doregex[key] playpath=2606.low.stream swfUrl=http://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf pageUrl=http://www.filmon.com live=true timeout=15</link>
    <regex>
      <name>url</name>
@@ -556,7 +552,7 @@
 <streaminginfo>
 		<cname>Rotana Khaligi</cname>
 <item>
-<title>Filmon Source 2</title>
+<title>Filmon Source High</title>
 <link>rtmp://$doregex[url] app=live/$doregex[key] playpath=2606.high.stream swfUrl=http://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf pageUrl=http://www.filmon.com live=true timeout=15</link>
    <regex>
      <name>url</name>
@@ -595,7 +591,7 @@
 
 
 <streaminginfo>
-		<cname>Abu Dhabi Sports 1</cname>
+		<cname>Dubai Sport 1</cname>
 <item>
 <title>Filmon Source</title>
 <link>rtmp://$doregex[url] app=live/$doregex[key] playpath=79.high.stream swfUrl=http://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf pageUrl=http://www.filmon.com live=true timeout=15</link>

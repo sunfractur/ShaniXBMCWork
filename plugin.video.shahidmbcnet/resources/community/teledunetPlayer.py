@@ -118,6 +118,9 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 		pDialog.close()
 		totalTried=0
 		howMaytimes=15
+		try:
+			howMaytimes=int(selfAddon.getSetting( "teledunetRetryCount" ))
+		except:pass
 
 		
 		pDialog = xbmcgui.DialogProgress()

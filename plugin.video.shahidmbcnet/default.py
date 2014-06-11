@@ -164,8 +164,13 @@ def addDir(name,url,mode,iconimage	,showContext=False,isItFolder=True,pageNumber
 			cmd3 = "XBMC.RunPlugin(%s&HideChannel=no)" % (u)
 			context_menu.append(('Unhide this Channel',cmd3))
 
+            
 	if len(context_menu)>0:
-		liz.addContextMenuItems(context_menu,replaceItems=True)
+		liz.addContextMenuItems(context_menu,replaceItems=False)
+	#	if selfAddon.getSetting( "addToFavMode" )=="true":
+	#		liz.addContextMenuItems(context_menu,replaceItems=False)
+	#	else:
+	#		liz.addContextMenuItems(context_menu,replaceItems=True)
 			
 	ok=xbmcplugin.addDirectoryItem(handle=int(sys.argv[1]),url=u,listitem=liz,isFolder=isItFolder)
 	return ok
@@ -801,7 +806,8 @@ def getSourceAndStreamInfo(channelId, returnOnFirst,pDialog):
 		#print 'default_source',default_source
 		orderlist={}
 		default_source_exists=False
-		for n in range(6):
+		total_sources=9
+		for n in range(total_sources):
 			val=selfAddon.getSetting( "order"+str(n+1) )
 			if val and not val=="":
 				#print 'val',val,default_source
@@ -887,7 +893,7 @@ def getSourceAndStreamInfo(channelId, returnOnFirst,pDialog):
 	#print ret
 	return ret,default_source_exists and not default_source==''
 
-def selectSource(sources):
+def selectSource(sources,fromSelectSource=False):
     if 1==1 or len(sources) > 1:
         #print 'total sources',len(sources)
         dialog = xbmcgui.Dialog()
@@ -904,9 +910,15 @@ def selectSource(sources):
                     titles.append(s.findtext('sname'))
             else:
                 titles.append(s.findtext('sname'))
+        if fromSelectSource:
+            titles.append(Colored('Clear Default Source setting','one',True))
+
         index = dialog.select('Choose your stream', titles)
         if index > -1:
-            return sources[index]
+            if index>len(sources)-1:
+                return 'remove'#remove it
+            else:
+                return sources[index]
         else:
             return False
 
@@ -922,9 +934,11 @@ def selectDefaultSourcesForChannel(channelId ):
 			line1="No sources found"
 			xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
 			return None
-		selectedprovider=selectSource(providers)
+		selectedprovider=selectSource(providers,True)
 		if not selectedprovider:
 			return None
+		if selectedprovider=='remove':
+			return ''
 		source,sInfo,order=selectedprovider #pick first one
 		return source.findtext('sname')
 	except:
@@ -1597,7 +1611,8 @@ try:
 	if not selectDefaultSource==None:
 		default_source=selectDefaultSourcesForChannel(url)
 		print 'v',default_source
-		if default_source:
+		if not default_source==None:
+			print 'saving settings',default_source    
 			setChannelSettings(url,'defaultsource',default_source)
 			line1 = 'setting saved'
 			time = 2000  #in miliseconds
