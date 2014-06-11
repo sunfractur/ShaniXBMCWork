@@ -1,5 +1,71 @@
 <channels>
 <channel>
+        <cname>Mens up</cname>
+        <imageurl>http://tele.premiere.fr/var/premiere/storage/images/tele/news-tele/men-s-up-tv-karine-lima-margot-laffite-et-nicolas-deuil-sur-la-nouvelle-chaine-dediee-aux-hommes/35629519-1-fre-FR/Men-s-UP-TV-Karine-Lima-Margot-Laffite-et-Nicolas-Deuil-sur-la-nouvelle-chaine-dediee-aux-hommes_image_article_paysage_new.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+		 <category>french</category>
+        </assignedcategory>
+</channel>
+
+<channel>
+        <cname>Air</cname>
+        <imageurl>http://www.jumping.lu/wp-content/uploads/2013/05/logo_airtv.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>french</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Weo</cname>
+        <imageurl>http://upload.wikimedia.org/wikipedia/fr/8/83/Logo_Weo.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>french</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Mirabelle TV</cname>
+        <imageurl>http://pourmetz.com/wp-content/uploads/2013/04/logo-mirabelle-tv.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>french</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Yvelines Premi</cname>
+        <imageurl>http://blogs.paris.fr/parismedia/files/2013/01/Yvelines-1ere.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>french</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Grande Lille TV</cname>
+        <imageurl>http://www.zoomsurlille.fr/images/stories/articles/logo_grandlilletv.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+         <category>french</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Alsace20</cname>
+        <imageurl>http://upload.wikimedia.org/wikipedia/fr/archive/6/67/20130126130920!Alsace_20_logo_2013.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>french</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Elmaghreb tv</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/mm/maghreb_tv_be.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>magreb</category>
+        </assignedcategory>
+</channel>
+
+<channel>
         <cname>ERI.TV</cname>
         <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn2/t1.0-1/c34.34.431.431/s160x160/600295_473677106044152_1407362833_n.jpg</imageurl>
         <enabled>True</enabled>
@@ -622,7 +688,7 @@
         </assignedcategory>
 </channel>
 <channel>
-        <cname>Al Safwa</cname>
+        <cname>Orbit Alsafwa</cname>
         <imageurl>http://www.lyngsat-logo.com/hires/oo/osn_al_safwa.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
@@ -631,7 +697,7 @@
         </assignedcategory>
  </channel>
 <channel>
-        <cname>OSN Music Now</cname>
+        <cname>Orbit MusicNow</cname>
         <imageurl>http://www.lyngsat-logo.com/hires/oo/osn_music_now.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
@@ -639,7 +705,7 @@
         </assignedcategory>
  </channel>
  <channel>
-        <cname>OSN Fann</cname>
+        <cname>Orbit Fann</cname>
         <imageurl>http://www.lyngsat-logo.com/hires/oo/osn_fann.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
@@ -647,7 +713,7 @@
         </assignedcategory>
  </channel>
  <channel>
-        <cname>OSN Sries</cname>
+        <cname>Orbit Mmousalsalat</cname>
         <imageurl>http://www.lyngsat-logo.com/hires/oo/osn_arabic_series.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
@@ -655,7 +721,7 @@
         </assignedcategory>
  </channel>
  <channel>
-        <cname>OSN Cinema 1</cname>
+        <cname>Orbit Cinema 1</cname>
         <imageurl>http://www.lyngsat-logo.com/hires/oo/osn_cinema1_arabic.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
@@ -4105,15 +4171,6 @@
         </assignedcategory>
     </channel>
 	
-	<channel>
-        <cname>TIME CORAN</cname>
-        <imageurl>http://t3.gstatic.com/images?q=tbn:ANd9GcTr2LS2nL0OWx1qq_U93mCewpcztHqmrYx47EURBlRr1NF-Rjj4</imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-            <category>islam</category>
-        </assignedcategory>
-    </channel>
-
     <channel>
         <cname>Wesal Tv</cname>
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/wsl_zpsd5639b30.png</imageurl>
