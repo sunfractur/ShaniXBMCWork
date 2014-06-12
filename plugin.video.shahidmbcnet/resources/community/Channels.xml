@@ -1,6 +1,15 @@
 <channels>
 
 <channel>
+        <cname>astro super sport</cname>
+        <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfa1/t1.0-1/c2.0.320.320/p320x320/1005152_10151679847199627_678141063_n.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+		 <category>cup</category>
+        </assignedcategory>
+</channel>
+
+<channel>
 	<cname>MBC Drama Plus</cname>
 	<imageurl>http://www.web-medias.net/uploads/thumbs/b094a4888-1.jpg</imageurl>
 	<enabled>True</enabled>
