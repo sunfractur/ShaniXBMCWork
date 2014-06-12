@@ -100,13 +100,7 @@
 <item><title>Original source</title><link>rtmp://unirtmp.tulix.tv:1935/sat7kids/sat7kids1 timeout=20</link></item>
 </streaminginfo>
 
-<streaminginfo>
-   <cname>Toktok</cname>
-   <item>
-   <title>iptvosn</title>
-    <link>http://88.150.181.10/$setting_iptvosnUser$/$setting_iptvosnPwd$/160.ch</link>
-   </item>
-</streaminginfo>
+
 
 <streaminginfo>
 	<cname>Nile comedy</cname>
@@ -841,51 +835,6 @@
 </item>
 </streaminginfo>
 
-<streaminginfo><cname>Orbit Cinema 1</cname><item><title>iptvosn</title><link>http://88.150.181.10/$setting_iptvosnUser$/$setting_iptvosnPwd$/58.ch</link></item></streaminginfo>
-<streaminginfo><cname>AlYawm</cname><item><title>iptvosn Orbit  Alyawm</title><link>http://88.150.181.10/$setting_iptvosnUser$/$setting_iptvosnPwd$/60.ch</link></item></streaminginfo>
-<streaminginfo><cname>Orbit Mmousalsalat</cname><item><title>iptvosn</title><link>http://88.150.181.10/$setting_iptvosnUser$/$setting_iptvosnPwd$/62.ch</link></item></streaminginfo>
-<streaminginfo><cname>Orbit Fann</cname><item><title>Fann</title><link>http://88.150.181.10/$setting_iptvosnUser$/$setting_iptvosnPwd$/61.ch</link></item></streaminginfo>
-<streaminginfo><cname>Orbit MusicNow</cname><item><title>iptvosn</title><link>http://88.150.181.10/$setting_iptvosnUser$/$setting_iptvosnPwd$/64.ch</link></item></streaminginfo>
-<streaminginfo><cname>Orbit Alsafwa</cname><item><title>iptvosn </title><link>http://88.150.181.10/$setting_iptvosnUser$/$setting_iptvosnPwd$/63.ch</link></item></streaminginfo>
-
-<streaminginfo>
-	<cname>Medi 1 Sat</cname>
-	<item>
-	<title>iptvosn</title>
-	<link>http://88.150.181.10/$setting_iptvosnUser$/$setting_iptvosnPwd$/349.ch</link>
-	</item>
-</streaminginfo>
-
-<streaminginfo>
-	<cname>Mazeka zoom</cname>
-	<item>
-	<title>iptvosn</title>
-	<link>http://88.150.181.10/$setting_iptvosnUser$/$setting_iptvosnPwd$/132.ch</link>
-	</item>
-</streaminginfo>
-
-<streaminginfo>
-	<cname>Maghreb</cname>
-	<item>
-	<title>iptvosn</title>
-	<link>http://88.150.181.10/$setting_iptvosnUser$/$setting_iptvosnPwd$/149.ch</link>
-	</item>
-</streaminginfo>
-
-<streaminginfo>
-	<cname>Al Maghribia</cname>
-	<item>
-	<title>iptvosn</title>
-	<link>http://88.150.181.10/$setting_iptvosnUser$/$setting_iptvosnPwd$/122.ch</link>
-	</item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Al Magharibia</cname>
-	<item>
-	<title>iptvosn </title>
-	<link>http://88.150.181.10/$setting_iptvosnUser$/$setting_iptvosnPwd$/142.ch</link>
-	</item>
-</streaminginfo>
 <streaminginfo>
      	<cname>Noor Dubai</cname>
 	<item>
