@@ -1,4 +1,7 @@
-[B]Version 3.1.1[/B]
+[B]Version 3.2.1[/B]
+if a channel like Rotana Music, has two PC sources, then select anyone as default will play that one only.
+
+[B]Version 3.2.0[/B]
 Added GLArab,magicbox and iptvosn as sources, add to fav is back and you can clear default source,if setup, plus you can set retry settings for teledunet
 
 [B]Version 3.1.1[/B]

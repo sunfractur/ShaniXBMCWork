@@ -801,8 +801,13 @@ def getSourceAndStreamInfo(channelId, returnOnFirst,pDialog):
 		sourcesXml=getEtreeFromFile('Sources.xml');
 		default_source=''
 		config=getChannelSettings( channelId)
+		match_title=''
 		if config and 'defaultsource' in config:
-			default_source=config['defaultsource']
+			default_source=config['defaultsource'].split(':')[0]
+			try:
+				match_title= ''.join(config['defaultsource'].split(':')[1:])
+				print 'match_title',match_title
+			except: pass
 		#print 'default_source',default_source
 		orderlist={}
 		default_source_exists=False
@@ -862,8 +867,8 @@ def getSourceAndStreamInfo(channelId, returnOnFirst,pDialog):
 					sInfo=[]
 					for inf in sInfos:
 						if inf.findtext('cname').lower()==channelId.lower():
-							#print default_source,sid
-							if not default_source=='' and default_source==sname:
+							print default_source,sid,match_title,inf.findtext('title'),inf
+							if not default_source=='' and default_source==sname and (match_title =='' or match_title==inf.find('item').findtext('title')):                       
 								default_source_exists=True
 							sInfo.append(inf)
 					name_find=sname
@@ -876,7 +881,8 @@ def getSourceAndStreamInfo(channelId, returnOnFirst,pDialog):
 						#print 'sInfo...................',len(sInfo)
 						
 						for single in sInfo:
-
+							if (match_title =='' or match_title==single.find('item').findtext('title')):
+								order-=1
 							ret.append([source,single,order])
 						#if returnOnFirst:
 						#	break;
@@ -939,8 +945,13 @@ def selectDefaultSourcesForChannel(channelId ):
 			return None
 		if selectedprovider=='remove':
 			return ''
+		fav_source=''   
 		source,sInfo,order=selectedprovider #pick first one
-		return source.findtext('sname')
+		if source.findtext('id')=="generic":
+			fav_source=source.findtext('sname')+':'+sInfo.find('item').findtext('title')
+		else:
+			fav_source=source.findtext('sname')
+		return fav_source
 	except:
 		traceback.print_exc(file=sys.stdout)
 		return None
