@@ -1626,6 +1626,7 @@
         <enabled>True</enabled>
         <assignedcategory>
             <category>egypt</category>
+            <category>drama</category>
         </assignedcategory>
     </channel>
 
@@ -1636,6 +1637,7 @@
         <enabled>True</enabled>
         <assignedcategory>
             <category>egypt</category>
+            <category>drama</category>
         </assignedcategory>
     </channel>
 
@@ -1646,6 +1648,7 @@
         <enabled>True</enabled>
         <assignedcategory>
             <category>egypt</category>
+            <category>drama</category>
         </assignedcategory>
     </channel>
 
@@ -4391,6 +4394,7 @@
         <imageurl>http://unitedtv.net/images/chanel_images/1352838349.jpg</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
+            <category>egypt</category>
             <category>drama</category>
         </assignedcategory>
     </channel>
