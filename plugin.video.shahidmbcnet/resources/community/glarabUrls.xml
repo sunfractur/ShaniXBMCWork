@@ -1040,5 +1040,137 @@
             <link>http://38.99.146.43:7777/NeelainSport.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link>
         </item>
     </streaminginfo> 
-
+    <streaminginfo>
+        <cname>Rotana Classic</cname>
+        <item>
+            <title>Low Quality Glarab</title>
+            <link>http://38.99.146.43:7777/RotanaZaman.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link>
+        </item>
+    </streaminginfo>
+    <streaminginfo>
+        <cname>Moga Comedy</cname>
+        <item>
+            <title>Low Quality Glarab</title>
+            <link>http://38.99.146.43:7777/MogaComedy.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link>
+        </item>
+    </streaminginfo>
+    <streaminginfo>
+        <cname>Panorama film</cname>
+        <item>
+            <title>Low Quality Glarab</title>
+            <link>http://38.99.146.43:7777/PanoramaFilm.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link>
+        </item>
+    </streaminginfo>
+    <streaminginfo>
+        <cname>I Film</cname>
+        <item>
+            <title>Low Quality Glarab</title>
+            <link>http://38.99.146.43:7777/iFilm.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link>
+        </item>
+    </streaminginfo>
+    <streaminginfo>
+        <cname>MBC 1</cname>
+        <item>
+            <title>Low Quality Glarab</title>
+            <link>http://38.99.146.43:7777/MBC1.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link>
+        </item>
+    </streaminginfo>
+    <streaminginfo>
+        <cname>MBC 2</cname>
+        <item>
+            <title>Low Quality Glarab</title>
+            <link>http://38.99.146.43:7777/MBC2.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link>
+        </item>
+    </streaminginfo>
+    <streaminginfo>
+        <cname>MBC 3</cname>
+        <item>
+            <title>Low Quality Glarab</title>
+            <link>http://38.99.146.43:7777/MBC3.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link>
+        </item>
+    </streaminginfo>
+    <streaminginfo>
+        <cname>MBC 4</cname>
+        <item>
+            <title>Low Quality Glarab</title>
+            <link>http://38.99.146.43:7777/MBC4.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link>
+        </item>
+    </streaminginfo>
+    <streaminginfo>
+        <cname>MBC Action</cname>
+        <item>
+            <title>Low Quality Glarab</title>
+            <link>http://38.99.146.43:7777/MBCAction.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link>
+        </item>
+    </streaminginfo>
+    <streaminginfo>
+        <cname>MBC Max</cname>
+        <item>
+            <title>Low Quality Glarab</title>
+            <link>http://38.99.146.43:7777/MBCMax.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link>
+        </item>
+    </streaminginfo>
+    <streaminginfo>
+        <cname>MBC Drama</cname>
+        <item>
+            <title>Low Quality Glarab</title>
+            <link>http://38.99.146.43:7777/MBCDrama.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link>
+        </item>
+    </streaminginfo>
+    <streaminginfo>
+        <cname>CBC</cname>
+        <item>
+            <title>Low Quality Glarab</title>
+            <link>http://38.99.146.43:7777/CBC.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link>
+        </item>
+    </streaminginfo>
+    <streaminginfo>
+        <cname>CBC 2</cname>
+        <item>
+            <title>Low Quality Glarab</title>
+            <link>http://38.99.146.43:7777/CBC2.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link>
+        </item>
+    </streaminginfo>
+    <streaminginfo>
+        <cname>CBC Drama</cname>
+        <item>
+            <title>Low Quality Glarab</title>
+            <link>http://38.99.146.43:7777/CBCDrama.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link>
+        </item>
+    </streaminginfo>
+    <streaminginfo>
+        <cname>Al-Nahar Drama</cname>
+        <item>
+            <title>Low Quality Glarab</title>
+            <link>http://38.99.146.43:7777/AlNaharDrama.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link>
+        </item>
+    </streaminginfo>
+    <streaminginfo>
+        <cname>Dream 1</cname>
+        <item>
+            <title>Low Quality Glarab</title>
+            <link>http://38.99.146.43:7777/Dream1.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link>
+        </item>
+    </streaminginfo>
+    <streaminginfo>
+        <cname>Dream 2</cname>
+        <item>
+            <title>Low Quality Glarab</title>
+            <link>http://38.99.146.43:7777/Dream2.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link>
+        </item>
+    </streaminginfo>
+    <streaminginfo>
+        <cname>Panorama Drama</cname>
+        <item>
+            <title>Low Quality Glarab</title>
+            <link>http://38.99.146.43:7777/PanoramaDrama.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link>
+        </item>
+    </streaminginfo>
+    <streaminginfo>
+        <cname>Panorama Drama 2</cname>
+        <item>
+            <title>Low Quality Glarab</title>
+            <link>http://38.99.146.43:7777/PanoramaDrama2.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link>
+        </item>
+    </streaminginfo>
 </streaminginfos>
