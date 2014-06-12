@@ -645,7 +645,7 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
                 if m['page'] and m['page'] in cachedPages and not 'ignorecache' in m and forCookieJarOnly==False :
                     link = cachedPages[m['page']]
                 else:
-                    if m['page'] and  not m['page']=='':
+                    if m['page'] and  not m['page']=='' and  m['page'].startswith('http'):
                         #print 'Ingoring Cache',m['page']
                         req = urllib2.Request(m['page'])
                         print 'req',m['page']
@@ -705,7 +705,8 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
                         
                         if forCookieJarOnly:
                             return cookieJar# do nothing
-                    
+                    elif m['page'] and  not m['page'].startswith('http'):
+                        link=m['page']
                     if  '$doregex' in m['expre']:
                         m['expre']=getRegexParsed(regexs, m['expre'],cookieJar,recursiveCall=True,cachedPages=cachedPages)
                     

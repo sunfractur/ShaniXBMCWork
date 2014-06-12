@@ -40,6 +40,7 @@ another regex or function for example
 
 say i want to decode the base64 text, get the text via another regex (i am lazy so i hard coded it, you would want to get via dynamic regex)
 but you can now write regex which contain static text, not Useful at all but useful when you have to use same big text many places.
+
 Note that b64decode is not using page_data as parameter because it doesn't need to.
 
 
@@ -63,6 +64,17 @@ Note that b64decode is not using page_data as parameter because it doesn't need 
 </item>
 
 
+
+
+Also support in PAGE output of regex but not neccessary a page urls, for example,
+here get-decrypted-rtmp returns a string not html page url
+
+
+<regex>
+<name>get-app</name>
+<expres>1735\/(.*)</expres>
+<page>$doregex[get-decrypted-rtmp]</page>
+</regex>
 
 
 

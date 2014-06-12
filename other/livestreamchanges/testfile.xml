@@ -44,3 +44,43 @@
 </item> 
 
 </item>
+
+
+
+
+<item>
+<title>skytuxtv **http://skytuxtv.com/chaine3/**</title>
+<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=foudeee_7x1vmh9 token=@@stop-stole@@ flashver=WIN%2011,9,900,117 swfUrl=http://www.thebestplayeronline.com/jwplayer5/addplayer/jwplayer.flash.swf pageUrl=$doregex[get-iframe]</link>
+
+<regex>
+<name>get-rtmp</name>
+<expres>(.*)\/\?</expres>
+<page>$doregex[get-decrypted-rtmp]</page>
+</regex>
+
+<regex>
+<name>get-app</name>
+<expres>1735\/(.*)</expres>
+<page>$doregex[get-decrypted-rtmp]</page>
+</regex>
+
+<regex>
+<name>get-decrypted-rtmp</name>
+<expres>$pyFunction:base64.b64decode("$doregex[get-encrypted-url]")</expres>
+<page></page>
+</regex>
+
+
+<regex>
+<name>get-encrypted-url</name>
+<expres>ssx4" value="(.*)"</expres>
+<page>$doregex[get-iframe]</page>
+</regex>
+
+<regex>
+<name>get-iframe</name>
+<expres>src="(.*?)\"</expres>
+<page>http://www.serverhd.eu/channel.php?file=723&amp;width=640&amp;height=360&amp;autostart=true</page>
+<referer>http://skytuxtv.com/tv/3.php</referer>
+</regex>
+</item>
