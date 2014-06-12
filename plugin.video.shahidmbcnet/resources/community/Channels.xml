@@ -1630,7 +1630,7 @@
 
 
     <channel>
-        <cname>Panorama Drama2</cname>
+        <cname>Panorama Drama 2</cname>
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/pnrm2_zps1e309d08.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
@@ -2548,6 +2548,16 @@
 
     <channel>
         <cname>Dream 1</cname>
+        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/drem_zpscf542e8d.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>ent</category>
+            <category>egypt</category>
+        </assignedcategory>
+    </channel>
+
+    <channel>
+        <cname>Dream 2</cname>
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/drem_zpscf542e8d.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
@@ -3873,16 +3883,6 @@
             <category>sports</category>
         </assignedcategory>
     </channel>
-
-    <channel>
-        <cname>Al-Nahar Drama</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/nhrdrm_zpsa4484404.png</imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-            <category>egypt</category>
-        </assignedcategory>
-    </channel>
-
 	
     <channel>
         <cname>Melody Aflem</cname>
@@ -4081,15 +4081,6 @@
     <channel>
         <cname>I-TELE</cname>
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/itele_zps464a31c3.png</imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-            <category>french</category>
-        </assignedcategory>
-    </channel>
-
-    <channel>
-        <cname>Canal plus</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/c_zps4393c83f.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>french</category>
