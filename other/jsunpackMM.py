@@ -30,7 +30,7 @@ def unpack(sJavascript):
     k = aSplit[2].split(".")[0].replace("'", '').split('|')
     e = ''
     d = ''
-    p=p.replace('\\', '')
+    #p=p.replace('\\', '')
     sUnpacked = str(__unpack(p, a, c, k, e, d))
     return sUnpacked#.replace('\\', '')
 
