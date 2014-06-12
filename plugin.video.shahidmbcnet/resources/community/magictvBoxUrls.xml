@@ -27,6 +27,20 @@
             <link>http://cdn.magictvbox.com/live/10129.stream/playlist.m3u8</link>
         </item>
     </streaminginfo>
+	<streaminginfo>
+		<cname>Panorama Drama</cname>
+		<item>
+			<title>magictvbox</title>			
+			<link>http://cdn-streamer1.magictvbox.com/live/10163.stream/playlist.m3u8</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Panorama film</cname>
+		<item>
+			<title> magictv</title>
+			<link>http://cdn-streamer1.magictvbox.com/live/10176.stream/playlist.m3u8</link>
+		</item>
+	</streaminginfo>
     <streaminginfo>
         <cname>Al Baghdadia Drama</cname>
         <item>
@@ -90,6 +104,13 @@
             <link>http://cdn-streamer1.magictvbox.com/live/10182.stream/playlist.m3u8</link>
         </item>
     </streaminginfo>
+	<streaminginfo>
+		<cname>Time Comedy</cname>
+		<item>
+			<title>magictvbox</title>
+			<link>http://cdn-streamer1.magictvbox.com/live/10145.stream/playlist.m3u8</link>
+		</item>
+	</streaminginfo>
     <streaminginfo>
         <cname>Koky Kids</cname>
         <item>
@@ -139,6 +160,27 @@
             <link>http://cdn.magictvbox.com/live/10117.stream/playlist.m3u8</link>
         </item>
     </streaminginfo>
+	<streaminginfo>
+		<cname>Sada Al Balad</cname>
+		<item>
+			<title>magictvbox</title>			
+			<link>http://cdn-streamer1.magictvbox.com/live/10172.stream/playlist.m3u8</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Sada Al Balad Drama</cname>
+		<item>
+			<title>magictvbox</title>			
+			<link>http://cdn-streamer1.magictvbox.com/live/10169.stream/playlist.m3u8</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>SHAABIYAT</cname>
+		<item>
+			<title>magictvbox</title>			
+			<link>http://cdn-streamer1.magictvbox.com/live/10175.stream/playlist.m3u8</link>
+		</item>
+	</streaminginfo>
     <streaminginfo>
         <cname>SM SM KIDS</cname>
         <item>
@@ -188,6 +230,43 @@
             <link>http://glo.li/1nhzld0#37.48.66.245:80/magictv3</link>
         </item>
     </streaminginfo>
+	<streaminginfo>
+		<cname>Star 2 Cinema</cname>
+		<item>
+			<title>magictvbox</title>			
+			<link>http://cdn-delay1.magictvbox.com/4.m3u8</link>
+		</item>
+	</streaminginfo>
+	
+    <streaminginfo>
+		<cname>Star 2 Cinema +7</cname>
+		<item>
+			<title>magictvbox</title>			
+			<link>http://cdn-streamer1.magictvbox.com/live/10146.stream/playlist.m3u8</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Star 1 Cinema</cname>
+		<item>
+			<title> magictv</title>
+			<link>http://cdn-streamer1.magictvbox.com/live/10147.stream/chunklist.m3u8</link>
+		</item>
+	</streaminginfo>
+	
+    <streaminginfo>
+		<cname>Star Cinema</cname>
+		<item>
+			<title>magictvbox</title>			
+			<link>http://cdn-delay1.magictvbox.com/2.m3u8</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Syria</cname>
+		<item>
+			<title>magictvbox</title>			
+			<link>http://cdn-streamer2.magictvbox.com/37.m3u8</link>
+		</item>
+	</streaminginfo>
     <streaminginfo>
         <cname>Syria Drama</cname>
         <item>
@@ -287,5 +366,223 @@
             <link>http://cdn-streamer1.magictvbox.com/live/10144.stream/playlist.m3u8</link>
         </item>
     </streaminginfo>
+	<streaminginfo>
+		<cname>Time cinema</cname>
+		<item>
+			<title>magictvbox</title>			
+			<link>http://cdn-streamer1.magictvbox.com/live/10174.stream/playlist.m3u8</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Time Comedy</cname>
+		<item>
+			<title> magictv srv2</title>
+			<link>http://cdn-delay1.magictvbox.com/15.m3u8</link>
+		</item>
+	</streaminginfo>
+	
+	<streaminginfo>
+		<cname>On TV</cname>
+		<item>
+			<title> magictv</title>
+			<link>http://cdn-delay1.magictvbox.com/10.m3u8</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Nile Sport</cname>
+		<item>
+			<title>magictvbox</title>			
+			<link>http://cdn-streamer1.magictvbox.com/live/10179.stream/playlist.m3u8</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Libya</cname>
+		<item>
+			<title>magictvbox</title>			
+			<link>http://cdn-streamer1.magictvbox.com/live/10187.stream/playlist.m3u8</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Kuwait</cname>
+		<item>
+			<title>magictv </title>
+			<link>http://cdn-streamer2.magictvbox.com/60.m3u8</link>
+		</item>
+	</streaminginfo>
+	
+	<streaminginfo>
+		<cname>LCD AFLAM</cname>
+		<item>
+			<title>magictvbox</title>			
+			<link>http://cdn-streamer1.magictvbox.com/live/10186.stream/chunklist.m3u8</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>KTV ARABE</cname>
+		<item>
+			<title>magictv </title>
+			<link>http://cdn-streamer2.magictvbox.com/62.m3u8f</link>
+		</item>
+	</streaminginfo>
+
+	
+	
+	
+	<streaminginfo>
+		<cname>KTV SPORT</cname>
+		<item>
+			<title> magictv</title>
+			<link>http://cdn-streamer2.magictvbox.com/62.m3u8</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Jordan</cname>
+		<item>
+			<title>magictvbox</title>			
+			<link>http://cdn-streamer2.magictvbox.com/38.m3u8</link>
+		</item>
+	</streaminginfo>
+	
+
+	
+	<streaminginfo>
+		<cname>KTV 2</cname>
+		<item>
+			<title>magictv </title>
+			<link>http://cdn-streamer2.magictvbox.com/61.m3u8</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Aliraqiya</cname>
+		<item>
+			<title>magictv </title>
+			<link>http://cdn-streamer2.magictvbox.com/39.m3u8 </link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>E 1 KIDS</cname>
+		<item>
+			<title>magictvbox</title>			
+			<link>http://cdn-streamer2.magictvbox.com/59.m3u8</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>CBC</cname>
+		<item>
+			<title> magictv SRV 3</title>
+			<link>http://cdn-streamer1.magictvbox.com/live/10148.stream/playlist.m3u8</link>
+		</item>
+	</streaminginfo>
+	
+	
+	<streaminginfo>
+		<cname>CBC Drama</cname>
+		<item>
+			<title>magictvbox</title>			
+			<link>http://cdn-streamer1.magictvbox.com/live/10149.stream/chunklist.m3u8</link>
+		</item>
+	</streaminginfo><streaminginfo>
+		<cname>CBC</cname>
+		<item>
+			<title>magictvbox</title>			
+			<link>http://cdn-delay1.magictvbox.com/13.m3u8</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>CBC</cname>
+		<item>
+			<title> magictv  SRV 2</title>
+			<link>http://cdn-delay1.magictvbox.com/6.m3u8</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Cairo Cinema</cname>
+		<item>
+			<title> magictv</title>
+			<link>http://cdn-delay1.magictvbox.com/1.m3u8</link>
+		</item>
+	</streaminginfo>
+	
+	
+	
+	<streaminginfo>
+		<cname>Cairo Drama</cname>
+		<item>
+			<title>magictvbox</title>			
+			<link>http://cdn-delay1.magictvbox.com/3.m3u8</link>
+		</item>
+	</streaminginfo>	
+	<streaminginfo>
+		<cname>AlQahera W Elnas</cname>
+		<item>
+			<title> magictv  </title>
+			<link>http://cdn-streamer1.magictvbox.com/live/10170.stream/playlist.m3u8</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Al-Nahar Drama</cname>
+		<item>
+			<title>magictvbox</title>			
+			<link>http://cdn-streamer1.magictvbox.com/live/10151.stream/playlist.m3u8</link>
+		</item>
+	</streaminginfo>
+	
+	<streaminginfo>
+		<cname>Al-Nahar Drama</cname>
+		<item>
+			<title> magictv  </title>
+			<link>http://cdn-delay1.magictvbox.com/11.m3u8</link>
+		</item>
+	</streaminginfo>
+		
+	<streaminginfo>
+		<cname>Al Nahar</cname>
+		<item>
+			<title> magictv SRV 2</title>
+			<link>http://cdn-streamer1.magictvbox.com/live/10150.stream/chunklist.m3u8</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Al Nahar</cname>
+		<item>
+			<title> magictv SRV 3</title>
+			<link>http://cdn-delay1.magictvbox.com/5.m3u8</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Al Nahar</cname>
+		<item>
+			<title> magictv</title>
+			<link>http://cdn-streamer1.magictvbox.com/live/10150.stream/chunklist.m3u8</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Al Maghribia</cname>
+		<item>
+			<title>magictv</title>
+			<link>http://cdn-streamer2.magictvbox.com/30.m3u8</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>AL AHLY</cname>
+		<item>
+			<title>magictv</title>
+			<link>http://cdn-streamer1.magictvbox.com/live/10165.stream/playlist.m3u8</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Abu Dhabi</cname>
+		<item>
+			<title>magictv</title>
+			<link>http://cdn-streamer2.magictvbox.com/40.m3u8</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>2M</cname>
+		<item>
+			<title>magictv</title>
+			<link>http://cdn-streamer2.magictvbox.com/96.m3u8</link>
+		</item>
+	</streaminginfo>
 
 </streaminginfos>
