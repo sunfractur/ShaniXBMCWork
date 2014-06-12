@@ -26,6 +26,11 @@
 		<imageurl>http://icons.iconarchive.com/icons/itzikgur/my-seven/96/Music-Piano-Chello-icon.png</imageurl>
 	</category>
 	<category>
+		<id>cup</id>
+		<catname>WorldCup</catname>
+		<imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc3/t1.0-1/c22.22.276.276/p320x320/733820_695732883775895_938655374_n.png</imageurl>
+	</category>
+	<category>
 		<id>sports</id>
 		<catname>Sports</catname>
 		<imageurl>http://icons.iconarchive.com/icons/yingfengling-fl/i-love-sports/256/soccer-icon.png</imageurl>
@@ -93,19 +98,9 @@
 	</category>
 	
 	<category>
-		<id>cup</id>
-		<catname>WorldCup</catname>
-		<imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc3/t1.0-1/c22.22.276.276/p320x320/733820_695732883775895_938655374_n.png</imageurl>
-	</category>
-	
-	<category>
-		<id>iptv</id>
-		<catname>Iptvosn</catname>
-		<imageurl>https://lh5.googleusercontent.com/-4t843oukLrk/U5RXcPqVuJI/AAAAAAAAAI4/kxGmcLsNRsI/s320-no/iptv.png</imageurl>
-	</category>
-		<category>
 		<id>christ</id>
 		<catname>Arabic Christian</catname>
 		<imageurl>http://icons.iconarchive.com/icons/designbolts/religious-symbol/256/Christian-cross-icon.png</imageurl>
 	</category>
+	
 </categories>
