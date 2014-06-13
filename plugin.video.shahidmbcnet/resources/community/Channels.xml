@@ -1,5 +1,13 @@
 <channels>
 <channel>
+        <cname>Scope</cname>
+        <imageurl>http://ims.gtvhome.com/images/scope_e3492552-36e8-40ec-b4b8-5763e89a2f4a.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>Iraq</category>
+        </assignedcategory>
+</channel>
+<channel>
         <cname>HRT</cname>
         <imageurl>http://www.lyngsat-logo.com/logo/tv/hh/hrt1.png</imageurl>
         <enabled>True</enabled>
