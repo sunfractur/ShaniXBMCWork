@@ -1,5 +1,13 @@
 <channels>
 <channel>
+        <cname>MTV Arabia</cname>
+        <imageurl>http://id-cube.com/wp-content/uploads/2013/12/american-mtv-and-arabia-the-level-censorship-62096.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+         <category>music</category>
+        </assignedcategory>
+</channel>
+<channel>
         <cname>Ishtar</cname>
         <imageurl>http://www.lyngsat-logo.com/hires/ii/ishtar_tv.png</imageurl>
         <enabled>True</enabled>
