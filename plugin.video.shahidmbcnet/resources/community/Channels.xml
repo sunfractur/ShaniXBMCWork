@@ -1,5 +1,76 @@
 <channels>
-
+<channel>
+        <cname>Ishtar</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/ii/ishtar_tv.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+         <category>oth</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>7Stars</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/num/7_stars_tv.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+         <category>gulf</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Nourmina</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/nn/nourmina.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+         <category>gulf</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Mara7</cname>
+        <imageurl>http://de.kingofsat.net/jpg/mara7.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+         <category>gulf</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Mahbooba</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/mm/mahbooba_tv.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+         <category>gulf</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Almas</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/aa/almas_tv_us.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+         <category>gulf</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Mea</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/mm/mea_tv_us.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+         <category>gulf</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Tahrir</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/aa/al_tahrir_tv.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+         <category>egypt</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Aghapy</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/aa/aghapy_tv.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+         <category>christ</category>
+        </assignedcategory>
+</channel>
 <channel>
         <cname>astro super sport</cname>
         <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfa1/t1.0-1/c2.0.320.320/p320x320/1005152_10151679847199627_678141063_n.jpg</imageurl>
