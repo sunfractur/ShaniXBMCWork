@@ -5,7 +5,30 @@
 
 
 
+<streaminginfo>
+	<cname>Taxi El Sahra</cname>
+	<item><title>achams</title><link>rtmp://108.178.40.250/live?~achams.com:1935@192.185.11.131/10102.stream pageUrl=http://achams.com/stream/taxi-shara.swf timeout=20</link></item>
+</streaminginfo>
 
+<streaminginfo>
+	<cname>MBC 2</cname>
+	<item><title>achams low</title><link>rtmp://212.179.77.42/live/livestream2?key=achams-com.flv pageUrl=http://achams.com/tv/mbc2.php timeout=20</link></item>
+</streaminginfo>
+
+<streaminginfo>
+	<cname>MBC 2</cname>
+	<item><title>achams Med</title><link>rtmp://212.179.77.42/live/livestream2?key=achams-com.flv_avc pageUrl=http://achams.com/tv/mbc2.php timeout=20</link></item>
+</streaminginfo>
+
+<streaminginfo>
+	<cname>MBC 2</cname>
+	<item><title>achams High</title><link>rtmp://212.179.77.42/live/livestream2?key=achams-com.flv_avc.mp4 pageUrl=http://achams.com/tv/mbc2.php timeout=20</link></item>
+</streaminginfo>
+
+<streaminginfo>
+	<cname>Cairo Cinema</cname>
+	<item><title>achams</title><link>rtmp://108.178.40.250/live?~achams.com:1935@192.185.11.131/10126.stream pageUrl=http://achams.com/stream/cairocinema.php timeout=20</link></item>
+</streaminginfo>
 <streaminginfo>
 	<cname>Algarbia</cname>
 	<item><title>46.165</title><link>http://46.165.208.230:1935/samarra/mystream/gmswf.m3u8</link></item>
