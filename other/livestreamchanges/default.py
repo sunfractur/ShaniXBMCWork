@@ -707,8 +707,8 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
                             return cookieJar# do nothing
                     elif m['page'] and  not m['page'].startswith('http'):
                         link=m['page']
-                    if  '$doregex' in m['expre']:
-                        m['expre']=getRegexParsed(regexs, m['expre'],cookieJar,recursiveCall=True,cachedPages=cachedPages)
+                if  '$doregex' in m['expre']:
+                    m['expre']=getRegexParsed(regexs, m['expre'],cookieJar,recursiveCall=True,cachedPages=cachedPages)
                     
                 print 'exp k and url'
                 print m['expre'],k,url
