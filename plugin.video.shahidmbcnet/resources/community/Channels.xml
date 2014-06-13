@@ -1626,6 +1626,7 @@
         <enabled>True</enabled>
         <assignedcategory>
             <category>egypt</category>
+            <category>drama</category>
         </assignedcategory>
     </channel>
 
@@ -1636,6 +1637,7 @@
         <enabled>True</enabled>
         <assignedcategory>
             <category>egypt</category>
+            <category>drama</category>
         </assignedcategory>
     </channel>
 
@@ -1646,6 +1648,7 @@
         <enabled>True</enabled>
         <assignedcategory>
             <category>egypt</category>
+            <category>drama</category>
         </assignedcategory>
     </channel>
 
@@ -4369,6 +4372,32 @@
             <category>egypt</category>
         </assignedcategory>
     </channel>
-	
-	
+
+    <channel>
+        <cname>Al Anwar</cname>
+        <imageurl>http://unitedtv.net/images/chanel_images/1352881986.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>islam</category>
+        </assignedcategory>
+    </channel>
+    <channel>
+        <cname>Al Hadath</cname>
+        <imageurl>http://unitedtv.net/images/chanel_images/1357347803.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>music</category>
+        </assignedcategory>
+    </channel>
+    <channel>
+        <cname>Panorama Action</cname>
+        <imageurl>http://unitedtv.net/images/chanel_images/1352838349.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>egypt</category>
+            <category>drama</category>
+        </assignedcategory>
+    </channel>
+
+
 </channels>

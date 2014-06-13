@@ -2081,5 +2081,12 @@
 			<link>rtmp://37.130.230.45/livepkgr/ playpath=livestream swfUrl=http://p.jwpcdn.com/6/8/jwplayer.flash.swf live=true timeout=15 pageUrl=http://almagharibia.tv/livestream</link>
 		</item>
 	</streaminginfo>
+	<streaminginfo>
+  		<cname>Al Hadath</cname>
+		<item>
+			<title>you need to install Justin addons</title>
+			<link>plugin://plugin.video.jtv.archives/?mode=get_channel&amp;name=alhadathtv&amp;play=1</link>
+		</item>
+	</streaminginfo>
 
 </streamingInfos>
