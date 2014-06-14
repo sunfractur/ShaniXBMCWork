@@ -34,3 +34,5 @@
 - change on the website reflected in the addon
 [B]Version 2.3.0[/B]
 - Gotham dependencies
+[B]Version 2.3.1[/B]
+- added ARY Digital and news in eb section

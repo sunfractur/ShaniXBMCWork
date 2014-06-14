@@ -267,16 +267,21 @@ def AddChannelsFromEbound():
 	#print match
 	expressExists=False
 	expressCName='express'
+	arynewsAdded=False
 
 	#h = HTMLParser.HTMLParser()
 	for cname in match:
 		addDir(Colored(cname[0].capitalize(),'EB') ,cname[0] ,9,cname[1], False, True,isItFolder=False)		#name,url,mode,icon
 		if cname[0]==expressCName:
 			expressExists=True
+		if cname[0]=='arynews':
+			arynewsAdded=True
 			
 	if not expressExists:
 		addDir(Colored('Express Tv','EB') ,'express' ,9,'', False, True,isItFolder=False)		#name,url,mode,icon
-
+	if not arynewsAdded:
+		addDir(Colored('Ary News','EB') ,'arynews' ,9,'', False, True,isItFolder=False)		#name,url,mode,icon
+		addDir(Colored('Ary Digital','EB') ,'aryentertainment' ,9,'', False, True,isItFolder=False)		#name,url,mode,icon
 			
 	return		
 
@@ -377,6 +382,8 @@ def PlayShowLink ( url ):
 
 
 def PlayLiveLink ( url ): 
+
+
 	progress = xbmcgui.DialogProgress()
 	progress.create('Progress', 'Fetching Streaming Info')
 	progress.update( 10, "", "Finding links..", "" )

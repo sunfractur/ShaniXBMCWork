@@ -38,3 +38,5 @@
 - Gotham dependencies
 [B]Version 2.3.1[/B]
 - little tweak for pyaray..ary
+[B]Version 2.3.2[/B]
+- added ARY Digital and news in eb section
