@@ -1,9 +1,19 @@
 <streamingInfos>
 
-
-
-
-
+<streaminginfo>
+<cname>Alghad Alarabi</cname>
+<item>
+<title>Livestream Low Quality</title>
+<link>$doregex[url]</link>
+<thumbnail></thumbnail>
+<regex>
+<name>url</name>
+<expres>rtsp_url":"([^"]*)</expres>
+<page>http://new.livestream.com/alghadtv/events/2330953</page>
+<referer></referer>
+</regex>
+</item>
+</streaminginfo>
 
 <streaminginfo>
 	<cname>Taxi El Sahra</cname>
