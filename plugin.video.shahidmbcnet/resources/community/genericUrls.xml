@@ -1013,15 +1013,6 @@
 </streaminginfo>
 
 <streaminginfo>
-     <cname>MBC 3</cname>
-	<item>
-	<title>WebMedias</title>
-	<link>rtmp://iptv.web-medias.net/live playpath=mbc_3 swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/iptv/%3Fch%3Dmbc_3 live=true timeout=15</link>
-	</item>
-</streaminginfo>
-
-
-<streaminginfo>
      <cname>Al Haneen Music</cname>
 	<item>
 	<title>You need Justin addon. need time to start</title>
