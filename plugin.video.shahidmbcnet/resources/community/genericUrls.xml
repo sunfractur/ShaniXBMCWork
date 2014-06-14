@@ -103,6 +103,7 @@
 <streaminginfo><cname>Roaa</cname><item><title>188</title><link>http://188.247.93.26:1935/live/Roaa.stream_360p/hassuni.m3u8</link></item></streaminginfo>
 <streaminginfo><cname>Aljazeera Children</cname><item><title>qna.org</title><link>rtmp://AgendaStreamer3.qna.org.qa/jsc/?hghpl]=a2V5bGl2ZTE5Ny0xNjItMTE1LTIyMzIwMTQtMDItMjUtMTUtMzktMjI=/jsc timeout=20</link></item></streaminginfo>
 <streaminginfo><cname>Aljazeera Children</cname><item><title>m3u8 137</title><link>http://137.135.68.232:1935/jsc/jsc/gmswf.m3u8?keylive217-230-225-22014-06-14-09-02-23&amp;v=hghpl] timeout=20</link></item></streaminginfo>
+<streaminginfo><cname>Aljazeera Children</cname><item><title>Bcoveliveios</title><link>http://bcoveliveios-i.akamaihd.net/hls/live/206572/2014288370001/playlist.m3u8</link></item></streaminginfo>
 
 <streaminginfo><cname>ANB</cname><item><title>188</title><link>http://188.247.93.26:1935/live/anb.stream_360p/hassuni.m3u8</link></item></streaminginfo>
 <streaminginfo><cname>Aldiyar</cname><item><title>188</title><link>http://188.247.93.26:1935/live/aldyar.stream_360p/hassuni.m3u8</link></item></streaminginfo>
