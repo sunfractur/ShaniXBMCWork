@@ -1,5 +1,15 @@
 <channels>
 <channel>
+        <cname>Aljazeera Balkans</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/aa/al_jazeera_balkans.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>news</category>
+		<category>oth</category>
+        </assignedcategory>
+</channel>
+
+<channel>
         <cname>Alqithara</cname>
         <imageurl>http://www.lyngsat-logo.com/logo/tv/aa/al_qithara.png</imageurl>
         <enabled>True</enabled>
