@@ -1,5 +1,22 @@
 <channels>
 <channel>
+        <cname>Alqithara</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/aa/al_qithara.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>Iraq</category>
+		<category>music</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>TRT6</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/tt/trt6.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>oth</category>
+        </assignedcategory>
+</channel>
+<channel>
         <cname>Palestine Live</cname>
         <imageurl>http://ims.gtvhome.com/images/palestinelive_db7af692-d795-475f-9798-82f2bb233016.png</imageurl>
         <enabled>True</enabled>
