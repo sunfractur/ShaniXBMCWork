@@ -1,6 +1,23 @@
 <streamingInfos>
 
 <streaminginfo>
+	<cname>AlYawm</cname>
+	<item>
+	<title>Ustream</title>
+	<link>http://iphone-streaming.ustream.tv/ustreamVideo/17695248/streams/live/playlist.m3u8</link>
+	</item>
+</streaminginfo> 
+
+<streaminginfo>
+     <cname>AlYawm</cname>
+	<item>
+	<title>You need to install Justin addon</title>
+	<link>plugin://plugin.video.jtv.archives/?mode=get_channel&amp;name=captain_america_one&amp;play=1</link>
+	</item>
+</streaminginfo>
+
+
+<streaminginfo>
         <cname>Panorama film</cname>
 	<item>
 	<title>free-eg</title>
@@ -139,7 +156,7 @@
 <streaminginfo>
     <cname>Al Etejah</cname>
 	<item>
-	<title>Original source: you need to install Justin addons</title>
+	<title>Original source: You need to install f4m_tester addon from Shani Repo</title>
 	<link>plugin://plugin.video.f4mTester/?url=http://38.96.175.119:1935/aletejahtv/aletejahtv1/manifest.f4m?DVR</link>
 	</item>
 </streaminginfo>
@@ -1307,7 +1324,7 @@
 <streaminginfo>
     <cname>Albadawiya</cname>
 	<item>
-	<title>Original source: you need to install Justin addons</title>
+	<title>Original source: You need to install f4m_tester addon from Shani Repo</title>
 	<link>plugin://plugin.video.f4mTester/?url=http://streamer11.elementssys.com:8080/albadawiyah-800-hdsx/archive/1400931061/now/manifest.f4m</link>
 	</item>
 </streaminginfo>
