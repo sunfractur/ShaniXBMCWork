@@ -942,13 +942,7 @@
 </item>
 </streaminginfo>
 
-<streaminginfo>
-     <cname>Hanibal</cname>
-	<item>
-	<title>WebMedias</title>
-	<link>rtmp://iptv.web-medias.net/live playpath=hanibal swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/iptv/%3Fch%3Dhanibal live=true timeout=15</link>
-	</item>
-</streaminginfo>
+
 
 <streaminginfo>
      <cname>Egypt 1</cname>
@@ -979,45 +973,44 @@
 	</item>
 </streaminginfo>
 
-<streaminginfo>
-     <cname>Zee Aflam</cname>
-	<item>
-	<title>WebMedias</title>
-	<link>rtmp://iptv.web-medias.net/live playpath=zee_aflam swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/iptv/%3Fch%3Dzee_aflam live=true timeout=15</link>
-	</item>
-</streaminginfo>
-<streaminginfo>
-     <cname>MBC 4</cname>
-	<item>
-	<title>WebMedias</title>
-	<link>rtmp://iptv.web-medias.net/live playpath=mbc_4 swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/iptv/%3Fch%3Dmbc_4 live=true timeout=15</link>
-	</item>
-</streaminginfo>
-
-<streaminginfo>
+ <streaminginfo>
      <cname>Abu Dhabi Drama</cname>
 	<item>
 	<title>WebMedias</title>
-	<link>rtmp://iptv.web-medias.net/live playpath=abu_dhabi_drama swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/iptv/%3Fch%3Dabu_dhabi_drama live=true timeout=15</link>
+	<link>rtmp://iptv2.web-medias.net:8080/live/abu_dhabi_drama?e=1402731755&amp;st=vxBzxQA2D4xFSpocrvQl_A swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/iptv/%3Fch%3Dabu_dhabi_drama live=true timeout=15</link>
 	</item>
 </streaminginfo>
 
 <streaminginfo>
-     <cname>MBC Bollywood</cname>
+     <cname>Alhayat Cinema</cname>
 	<item>
 	<title>WebMedias</title>
-	<link>rtmp://iptv.web-medias.net/live playpath=mbc_bollywood swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/iptv/%3Fch%3Dmbc_bollywood live=true timeout=15</link>
+	<link>rtmp://iptv2.web-medias.net:8080/live/alhayat_cinema?e=1402731449&amp;st=thMGWcwT6zuDR95qXqk85A swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/iptv/%3Fch%3Dalhayat_cinema live=true timeout=15</link>
 	</item>
 </streaminginfo>
 
 <streaminginfo>
-     <cname>MBC 4</cname>
+     <cname>MBC Drama</cname>
 	<item>
 	<title>WebMedias</title>
-	<link>rtmp://iptv.web-medias.net/live playpath=mbc_4 swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/iptv/%3Fch%3Dmbc_4 live=true timeout=15</link>
+	<link>rtmp://iptv2.web-medias.net:8080/live/mbc_drama?e=1402696357&amp;st=gQ4KvnRQqH_CoD7Th4fQaA swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/iptv/%3Fch%3Dmbc_drama live=true timeout=15</link>
+	</item>
+</streaminginfo> 
+<streaminginfo>
+     <cname>MBC 3</cname>
+	<item>
+	<title>WebMedias</title>
+	<link>rtmp://iptv2.web-medias.net:8080/live/mbc_3?e=1402695165&amp;st=-gM3EHkJitomWuM-NdARCg swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/iptv/%3Fch%3Dmbc_3 live=true timeout=15</link>
 	</item>
 </streaminginfo>
 
+<streaminginfo>
+     <cname>Samira Tv</cname>
+	<item> 
+	<title>WebMedias</title>
+	<link>rtmp://193.164.132.105:1944/live/samira_tv?e=1402694773&amp;st=I_MJYmEH9NiOE5xfiwprCw swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/iptv/%3Fch%3Dsamira_tv live=true timeout=15</link>
+	</item>
+</streaminginfo>
 
 <streaminginfo>
      <cname>MBC 3</cname>
@@ -1026,50 +1019,8 @@
 	<link>rtmp://iptv.web-medias.net/live playpath=mbc_3 swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/iptv/%3Fch%3Dmbc_3 live=true timeout=15</link>
 	</item>
 </streaminginfo>
-<streaminginfo>
-     <cname>Samira Tv</cname>
-	<item>
-	<title>WebMedias</title>
-	<link>rtmp://iptv.web-medias.net/live playpath=samira_tv swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/iptv/%3Fch%3Dsamira_tv live=true timeout=15</link>
-	</item>
-</streaminginfo>
-<streaminginfo>
-     <cname>Alhayat-Series</cname>
-	<item>
-	<title>WebMedias</title>
-	<link>rtmp://iptv.web-medias.net/live playpath=alhayat_series swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/iptv/%3Fch%3Dalhayat_series live=true timeout=15</link>
-	</item>
-</streaminginfo>
 
 
-<streaminginfo>
-     <cname>Alhayat Cinema</cname>
-	<item>
-	<title>WebMedias</title>
-	<link>rtmp://iptv.web-medias.net/live playpath=alhayat_cinema swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/iptv/%3Fch%3Dalhayat_cinema live=true timeout=15</link>
-	</item>
-</streaminginfo>
-<streaminginfo>
-     <cname>Alhayat 1</cname>
-	<item>
-	<title>WebMedias</title>
-	<link>rtmp://iptv.web-medias.net/live playpath=alhayat_1 swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/iptv/%3Fch%3Dalhayat_1 live=true timeout=15</link>
-	</item>
-</streaminginfo>
-<streaminginfo>
-     <cname>MBC Drama+ plus</cname>
-	<item>
-	<title>WebMedias</title>
-	<link>rtmp://iptv.web-medias.net/live playpath=mbc_plus swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/iptv/%3Fch%3Dmbc_plus live=true timeout=15</link>
-	</item>
-</streaminginfo>
-<streaminginfo>
-     <cname>MBC Max</cname>
-	<item>
-	<title>WebMedias</title>
-	<link>rtmp://iptv.web-medias.net/live playpath=mbc_max swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/iptv/%3Fch%3Dmbc_max live=true timeout=15</link>
-	</item>
-</streaminginfo>
 <streaminginfo>
      <cname>Al Haneen Music</cname>
 	<item>
