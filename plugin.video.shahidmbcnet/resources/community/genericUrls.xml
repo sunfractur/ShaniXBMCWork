@@ -1,5 +1,11 @@
 <streamingInfos>
 
+
+<streaminginfo>
+	<cname>Tahrir</cname>
+	<item><title>free-eg</title><link>rtmp://vidstr1.memcs.com/live/TAHRIR swfUrl=http://ezfilms.do.am/jw-premium/jwplayer.flash.swf pageUrl=http://free-eg.com/ timeout=20</link></item>
+</streaminginfo>
+
 <streaminginfo>
 <cname>Alghad Alarabi</cname>
 <item>
