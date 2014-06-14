@@ -1,6 +1,19 @@
 <streamingInfos>
 
 <streaminginfo>
+    <cname>Aljazeera Balkans</cname>
+	<item><title>Low</title><link>rtmp://aljazeeraflashlivefs.fplive.net/aljazeeraflashlive-live/ playpath=aljazeera_balkans_low swfUrl=http://www.elahmad.com/tv/swf/aljazeera_balkans.swf live=1 PageUrl=http://www.elahmad.com/tv/aljazeera_balkans.php</link><thumbnail></thumbnail></item>
+</streaminginfo>
+<streaminginfo>
+    <cname>Aljazeera Balkans</cname>
+	<item><title>Med</title><link>rtmp://aljazeeraflashlivefs.fplive.net/aljazeeraflashlive-live/ playpath=aljazeera_balkans_med swfUrl=http://www.elahmad.com/tv/swf/aljazeera_balkans.swf live=1 PageUrl=http://www.elahmad.com/tv/aljazeera_balkans.php</link><thumbnail></thumbnail></item>
+</streaminginfo>
+
+<streaminginfo>
+    <cname>Aljazeera Balkans</cname>
+	<item><title>Migh</title><link>rtmp://aljazeeraflashlivefs.fplive.net/aljazeeraflashlive-live/ playpath=aljazeera_balkans_high swfUrl=http://www.elahmad.com/tv/swf/aljazeera_balkans.swf live=1 PageUrl=http://www.elahmad.com/tv/aljazeera_balkans.php</link><thumbnail></thumbnail></item>
+</streaminginfo>
+<streaminginfo>
 <cname>Alqithara</cname>
 <item><title>Ustream</title>
 <link>http://iphone-streaming.ustream.tv/ustreamVideo/4365778/streams/live/playlist.m3u8</link>
