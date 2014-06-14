@@ -3016,8 +3016,7 @@
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/mtv_zpsadd2693c.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-            <category>music</category>
-			<category>sham</category>
+	<category>sham</category>
         </assignedcategory>
     </channel>
 
