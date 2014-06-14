@@ -108,7 +108,7 @@ def ShowSettings(Fromurl):
 	selfAddon.openSettings()
 
 def AddSeries(Fromurl):
-#	print Fromurl
+	print Fromurl
 	req = urllib2.Request(Fromurl)
 	req.add_header('User-Agent','Mozilla/5.0(iPad; U; CPU iPhone OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B314 Safari/531.21.10')
 	response = urllib2.urlopen(req)
@@ -126,11 +126,13 @@ def AddSeries(Fromurl):
 	regstring='<a title="(.*?)" href="(.*?)".*?img.*?src="(.*?)" wid'
 	optiontype=1
 	if 'ary-digital'  in Fromurl or  'aplus-ent'  in Fromurl: 
-		regstring='<a href="(.*?)"targe.*?<img.*?alt="(.*?)" src="(.*?)"'
+		regstring='\s*<a href="(.*?)"targe.*?<img.*?alt="(.*?)" src="(.*?)"'
 		optiontype=2
-	match =re.findall(regstring, link, re.M|re.DOTALL)
+		match =re.findall(regstring, link, re.M)
+	else:
+		match =re.findall(regstring, link, re.M|re.DOTALL)
 	#match=re.compile('<a href="(.*?)"targe.*?<img.*?alt="(.*?)" src="(.*?)"').findall(link)
-	#print Fromurl
+	print match
 
 
 	for cname in match:
@@ -185,7 +187,8 @@ def TopRatedDramas(Fromurl):
 	return
 
 def AddEnteries(Fromurl):
-#	print Fromurl
+	print 'getting enteries',Fromurl
+
 	req = urllib2.Request(Fromurl)
 	req.add_header('User-Agent','Mozilla/5.0(iPad; U; CPU iPhone OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B314 Safari/531.21.10')
 	response = urllib2.urlopen(req)
