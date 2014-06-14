@@ -988,6 +988,22 @@
 	<link>rtmp://iptv2.web-medias.net:8080/live/alhayat_cinema?e=1402731449&amp;st=thMGWcwT6zuDR95qXqk85A swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/iptv/%3Fch%3Dalhayat_cinema live=true timeout=15</link>
 	</item>
 </streaminginfo>
+<streaminginfo>
+     <cname>MBC Max</cname>
+	<item>
+	<title>WebMedias</title>
+	<link>rtmp://iptv2.web-medias.net:8080/live/mbc_max?e=1402734077&amp;st=_GQ3l74ecGFKj4rBrq6AbQ swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/iptv/%3Fch%3Dmbc_max live=true timeout=15</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+     <cname>Alhayat 1</cname>
+	<item>
+	<title>WebMedias</title>
+	<link>rtmp://iptv3.web-medias.net:8080/live/alhayat_1?e=1402734205&amp;st=y6iPrC8b7wT0hREukiooPw swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/iptv/%3Fch%3Dalhayat_1 live=true timeout=15</link>
+	</item>
+</streaminginfo>
+
 
 <streaminginfo>
      <cname>MBC Drama</cname>
