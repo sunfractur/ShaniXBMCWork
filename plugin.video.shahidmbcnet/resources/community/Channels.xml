@@ -1,10 +1,18 @@
 <channels>
 <channel>
+        <cname>Edhak</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/rr/royal_edhak_sa.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>gulf</category>
+        </assignedcategory>
+</channel>
+<channel>
         <cname>Secret</cname>
         <imageurl>http://www.lyngsat-logo.com/hires/rr/royal_secrets_sa.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-        <category>sham</category>
+        <category>gulf</category>
         </assignedcategory>
 </channel>
 
@@ -13,7 +21,7 @@
         <imageurl>http://www.lyngsat-logo.com/hires/aa/azal_tv_ye.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-        <category>sham</category>
+        <category>gulf</category>
         </assignedcategory>
 </channel>
 <channel>
