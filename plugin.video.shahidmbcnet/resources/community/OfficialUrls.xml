@@ -2,8 +2,14 @@
 <streamingInfos>
 
 
-
- <streaminginfo>
+<streaminginfo>
+	<cname>Al Maaref</cname>
+	<item>
+	<title>original source</title>
+	<link>http://almaareftv.com:1935/live/1/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
         <cname>Aali</cname>
 	<item>
 	<title>Original Source</title>
