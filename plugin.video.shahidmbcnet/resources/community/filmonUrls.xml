@@ -7,4 +7,21 @@
 	<cname>BBC Two</cname>
 	<url>25</url>
 </streaminginfo>
+	<streaminginfo>
+		<cname>ITV 1</cname>
+		<url>11</url>
+</streaminginfo>
+
+
+
+	<streaminginfo>
+		<cname>ZDF</cname>
+		<url>2759</url>
+</streaminginfo>
+
+	<streaminginfo>
+		<cname>arte</cname>
+		<url>1729</url>
+</streaminginfo>
+
 </streamingInfos>
