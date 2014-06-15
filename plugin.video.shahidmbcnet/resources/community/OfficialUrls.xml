@@ -1,5 +1,12 @@
 <streamingInfos>
 <streaminginfo>
+    <cname>Secret</cname>
+	<item>
+	<title>Original source:f4m You need to install f4m_tester addon from Shani Repo</title>
+	<link>plugin://plugin.video.f4mTester/?url=http://streamer11.elementssys.com:8080/secretsx/archive/1402845244/now/manifest.f4m</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
     <cname>Edhak</cname>
 	<item>
 	<title>Original source:f4m You need to install f4m_tester addon from Shani Repo</title>
