@@ -70,7 +70,7 @@
 		<catname>AlSham</catname>
 		<imageurl>http://icons.iconarchive.com/icons/hopstarter/flag/256/Lebanon-icon.png</imageurl>
 	</category>
-		<category>
+	<category>
 		<id>egypt</id>
 		<catname>Egypt</catname>
 		<imageurl>http://icons.iconarchive.com/icons/hopstarter/flag/256/Egypt-icon.png</imageurl>
@@ -81,7 +81,12 @@
 		<catname>Drama</catname>
 		<imageurl>http://icons.iconarchive.com/icons/arkangl300/zero-folders/256/videos-icon.png</imageurl>
 	</category>
-		<category>
+	<category>
+		<id>english</id>
+		<catname>English Channels</catname>
+		<imageurl>http://www.english-trainer.eu/Bildmaterial/Kugel_Logo.jpg</imageurl>
+	</category>
+	<category>
 		<id>french</id>
 		<catname>French</catname>
 		<imageurl>http://icons.iconarchive.com/icons/hopstarter/flag/256/France-icon.png</imageurl>
