@@ -1,11 +1,20 @@
 <channels>
 <channel>
+        <cname>EuroSport German</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/ee/eurosport.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>sports</category>
+		<category>oth</category>
+        </assignedcategory>
+</channel>
+<channel>
         <cname>Aljazeera Balkans</cname>
         <imageurl>http://www.lyngsat-logo.com/hires/aa/al_jazeera_balkans.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
         <category>news</category>
-		<category>oth</category>
+	<category>oth</category>
         </assignedcategory>
 </channel>
 
