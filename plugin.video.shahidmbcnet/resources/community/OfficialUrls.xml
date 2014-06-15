@@ -3,7 +3,13 @@
 
 
 
-  
+ <streaminginfo>
+        <cname>Aali</cname>
+	<item>
+	<title>Original Source</title>
+	<link>http://aasaali-live.smooth.adaptive.level3.net/livefeed/aali/channel01.isml/Manifest(format=m3u8-aapl).m3u8</link>
+	</item>
+</streaminginfo>  
 <streaminginfo>
         <cname>sunnah TV</cname>
 	<item>
