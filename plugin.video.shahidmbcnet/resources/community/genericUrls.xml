@@ -1,5 +1,19 @@
 <streamingInfos>
+<streaminginfo>
+	<cname>Albadawiya</cname>
+	<item>
+	<title>94.127</title>
+	<link>http://94.127.209.149:8080/albadawiyah-400-hlsx/playlist.m3u8</link>
+	</item>
+</streaminginfo>
 
+<streaminginfo>
+	<cname>I Film</cname>
+	<item>
+	<title>hls.streaming</title>
+	<link>http://ptv-hls.streaming.overon.es/channel01/livehigh.m3u8</link>
+	</item>
+</streaminginfo>
 <streaminginfo>
 	<cname>BBC</cname>
 	<item>
