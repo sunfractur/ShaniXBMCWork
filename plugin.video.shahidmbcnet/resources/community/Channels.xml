@@ -1,6 +1,29 @@
 <channels>
+<channel>
+        <cname>Secret</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/rr/royal_secrets_sa.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>sham</category>
+        </assignedcategory>
+</channel>
 
-
+<channel>
+        <cname>Azaal</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/aa/azal_tv_ye.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>sham</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Ashorooq</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/aa/ashorooq_tv.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>africa</category>
+        </assignedcategory>
+</channel>
 <channel>
         <cname>Africa</cname>
         <imageurl>http://www.lyngsat-logo.com/hires/aa/africa_tv_3_sd.png</imageurl>
