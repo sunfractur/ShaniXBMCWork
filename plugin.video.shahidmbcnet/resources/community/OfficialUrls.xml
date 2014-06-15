@@ -1,4 +1,34 @@
 <streamingInfos>
+
+<streaminginfo>
+    <cname>Alaqsa</cname>
+	<item>
+	<title>Med</title>
+	<link>rtmp://5.9.151.112:1935/live/livestream timeout=20</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+    <cname>Palestine AlYawm</cname>
+	<item>
+	<title>Original source:f4m You need to install f4m_tester addon from Shani Repo</title>
+	<link>plugin://plugin.video.f4mTester/?url=http://live.paltoday.tv:1935/paltv/live/manifest.f4m</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+   	<cname>Palestine AlYawm</cname>
+	<item>
+	<title>Med</title>
+	<link>http://live.paltoday.tv:1935/paltv/live/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+   	<cname>OTV Lebanon</cname>
+	<item>
+	<title>Med</title>
+	<link>http://livestreaming.itworkscdn.net:1935/otvmobile/otvlive_240p/playlist.m3u8</link>
+	</item>
+</streaminginfo>
 <streaminginfo>
    	<cname>Alqudis</cname>
 	<item>
