@@ -1,4 +1,43 @@
 <streamingInfos>
+
+<streaminginfo>
+    <cname>Al Eman</cname>
+	<item>
+	<title>Low</title>
+	<link>http://liven.alimantv.com/liveimn.isml/manifest(format=m3u8-aapl).m3u8</link>
+	</item>
+</streaminginfo>
+
+
+<streaminginfo>
+    <cname>Shada</cname>
+	<item>
+	<title>Low</title>
+	<link>http://38.96.148.147:1935/live/livestream/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+    <cname>Roya</cname>
+	<item>
+	<title>Med</title>
+	<link>http://stream.joinvisions.net:1935/royalive/roya_1/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+    <cname>Roya</cname>
+	<item>
+	<title>Low</title>
+	<link>http://stream.joinvisions.net:1935/royalive/roya_2/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+    <cname>7Stars</cname>
+	<item>
+	<title>Original source</title>
+	<link>rtmp://194.165.136.150/live playpath=myStream swfUrl=http://7stars.tv/Modules/Mdameer.JWPlayer/Contents/player.swf live=1 pageUrl=http://7stars.tv/ timeout=20</link>
+	</item>
+</streaminginfo>
 <streaminginfo>
     <cname>Secret</cname>
 	<item>
