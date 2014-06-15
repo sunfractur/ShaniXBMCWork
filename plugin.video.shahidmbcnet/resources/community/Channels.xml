@@ -1,5 +1,14 @@
 <channels>
 <channel>
+	<cname>Alkitab</cname>
+	<imageurl>http://www.lyngsat-logo.com/logo/tv/aa/al_kitab_channel_ps.png</imageurl>
+	<enabled>True</enabled>
+	<assignedcategory>
+	<category>gulf</category>
+	<category>sham</category>
+	</assignedcategory>
+</channel>
+<channel>
 	<cname>Alaqsa</cname>
 	<imageurl>http://www.lyngsat-logo.com/hires/aa/al_aqsa.png</imageurl>
 	<enabled>True</enabled>
