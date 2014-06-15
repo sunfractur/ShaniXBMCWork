@@ -806,12 +806,12 @@ def getSourceAndStreamInfo(channelId, returnOnFirst,pDialog):
 			default_source=config['defaultsource'].split(':')[0]
 			try:
 				match_title= ''.join(config['defaultsource'].split(':')[1:])
-				print 'match_title',match_title
+				print 'match_title in settings',match_title,default_source
 			except: pass
 		#print 'default_source',default_source
 		orderlist={}
 		default_source_exists=False
-		total_sources=11
+		total_sources=12
 		for n in range(total_sources):
 			val=selfAddon.getSetting( "order"+str(n+1) )
 			if val and not val=="":
@@ -819,7 +819,7 @@ def getSourceAndStreamInfo(channelId, returnOnFirst,pDialog):
 				orderlist[val]=n*100
 				if not default_source=='' and default_source ==val:
 					orderlist[val]=-100
-		#print orderlist
+
 
 
 					
@@ -867,21 +867,40 @@ def getSourceAndStreamInfo(channelId, returnOnFirst,pDialog):
 					sInfo=[]
 					for inf in sInfos:
 						if inf.findtext('cname').lower()==channelId.lower():
-							print default_source,sid,match_title,inf.findtext('title'),inf
-							if not default_source=='' and default_source==sname and (match_title =='' or match_title==inf.find('item').findtext('title')):                       
+							source_title=''
+							if match_title<>'':
+								try:
+									if source.findtext('sname')=='generic':
+										source_title=inf.find('item').findtext('title')
+									else:
+										source_title=inf.findtext('title')
+								except: pass
+                                    
+							#print default_source,sid,match_title,inf.findtext('title'),inf
+							if not default_source=='' and default_source==sname and (match_title =='' or match_title==source_title):                       
 								default_source_exists=True
 							sInfo.append(inf)
 					name_find=sname
 					if name_find in orderlist:
 						order= orderlist[name_find]
 					else:
-						order=1000
+						print 'not found',name_find,orderlist
+						order=20000
 					order+=num
 					if not sInfo==None and len(sInfo)>0:
-						#print 'sInfo...................',len(sInfo)
+						print 'sInfo...................',len(sInfo)
 						
 						for single in sInfo:
-							if (match_title =='' or match_title==single.find('item').findtext('title')):
+							source_title=''
+							if match_title<>'':
+								try:
+									if source.findtext('sname')=='generic':
+										source_title=single.find('item').findtext('title')
+									else:
+										source_title=single.findtext('title')
+								except: pass
+							if (match_title =='' or match_title==source_title):
+								print 'title match for order', match_title,source_title
 								order-=1
 							ret.append([source,single,order])
 						#if returnOnFirst:
@@ -896,7 +915,7 @@ def getSourceAndStreamInfo(channelId, returnOnFirst,pDialog):
 
 	#print ret
 	ret= sorted(ret,key=lambda x:x[2])
-	#print ret
+	print ret
 	return ret,default_source_exists and not default_source==''
 
 def selectSource(sources,fromSelectSource=False):
@@ -915,7 +934,10 @@ def selectSource(sources,fromSelectSource=False):
                 except:
                     titles.append(s.findtext('sname'))
             else:
-                titles.append(s.findtext('sname'))
+                try:
+                    titles.append(s.findtext('sname')+': '+i.findtext('title'))
+                except: titles.append(s.findtext('sname'))
+
         if fromSelectSource:
             titles.append(Colored('Clear Default Source setting','one',True))
 
@@ -947,10 +969,14 @@ def selectDefaultSourcesForChannel(channelId ):
 			return ''
 		fav_source=''   
 		source,sInfo,order=selectedprovider #pick first one
-		if source.findtext('id')=="generic":
-			fav_source=source.findtext('sname')+':'+sInfo.find('item').findtext('title')
-		else:
-			fav_source=source.findtext('sname')
+		fav_source=source.findtext('sname')
+		try:
+			if source.findtext('id')=="generic":
+				fav_source=source.findtext('sname')+':'+sInfo.find('item').findtext('title')
+			else:
+				fav_source=source.findtext('sname')+':'+sInfo.findtext('title')
+		except:pass
+
 		return fav_source
 	except:
 		traceback.print_exc(file=sys.stdout)

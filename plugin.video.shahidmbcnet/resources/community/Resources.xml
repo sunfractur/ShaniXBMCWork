@@ -21,5 +21,5 @@
     <file fname="emadUrls.xml"      url="https://raw.githubusercontent.com/emadmahdi/IPTV/master/ArabicDB/shaniXBMCplugin/emadUrls.xml"/>
 	<file fname="filmonUrls.xml"/> 
 	<file fname="filmonPlayer.py"/> 
-	
+	<file fname="OfficialUrls.xml"/> 
 </resources>

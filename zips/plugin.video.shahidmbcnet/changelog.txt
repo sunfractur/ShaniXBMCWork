@@ -1,3 +1,6 @@
+[B]Version 3.2.4[/B]
+Added Official source and support for multiple channels for non generic sources
+
 [B]Version 3.2.3[/B]
 Added FilmOn source
 
