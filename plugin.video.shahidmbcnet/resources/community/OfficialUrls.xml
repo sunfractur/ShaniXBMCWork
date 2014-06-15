@@ -1,6 +1,13 @@
 <streamingInfos>
 
 <streaminginfo>
+    <cname>Alkitab</cname>
+	<item>
+	<title>Low</title>
+	<link>rtmp://egservers.com/alkitab.live playpath=mp4:mystream.mp4 swfUrl=http://www.alkitab.ps/live/player.swf pageUrl=http://www.alkitab.ps/live/ live=1 timeout=20</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
     <cname>Alaqsa</cname>
 	<item>
 	<title>Med</title>
