@@ -1,5 +1,13 @@
 <channels>
 <channel>
+        <cname>Shada</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/ss/shada_tv.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>gulf</category>
+        </assignedcategory>
+</channel>
+<channel>
         <cname>Edhak</cname>
         <imageurl>http://www.lyngsat-logo.com/hires/rr/royal_edhak_sa.png</imageurl>
         <enabled>True</enabled>
