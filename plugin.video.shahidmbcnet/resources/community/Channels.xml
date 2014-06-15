@@ -1,5 +1,13 @@
 <channels>
 <channel>
+        <cname>Al Maaref</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/aa/al_maaref.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>islam</category>
+        </assignedcategory>
+</channel>
+<channel>
         <cname>Aali</cname>
         <imageurl>http://www.lyngsat-logo.com/hires/aa/alli_tv_sa.png</imageurl>
         <enabled>True</enabled>
