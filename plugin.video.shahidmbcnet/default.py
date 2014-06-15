@@ -352,7 +352,7 @@ def RefreshResources(auto=False):
 		fileno+=1
 	pDialog.close()
 	dialog = xbmcgui.Dialog()
-	ok = dialog.ok('XBMC', 'Download finished. Close close Addon and come back')
+	ok = dialog.ok('XBMC', 'Download finished. Please close the Addon and come back')
 
 def removeLoginFile(livePlayer,TeleDunet):
 	something_done=False
