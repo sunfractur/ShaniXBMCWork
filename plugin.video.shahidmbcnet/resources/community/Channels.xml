@@ -326,7 +326,8 @@
         <imageurl>https://static.filmon.com/couch/channels/14/big_logo.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-		 <category>cup</category>
+         <category>english</category>
+	<category>cup</category>
         </assignedcategory>
 </channel>
 <channel>
