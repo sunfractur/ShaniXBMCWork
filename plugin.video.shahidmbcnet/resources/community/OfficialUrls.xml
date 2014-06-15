@@ -1,5 +1,19 @@
 <streamingInfos>
+<streaminginfo>
+   	<cname>Alqudis</cname>
+	<item>
+	<title>Low</title>
+	<link>rtmp://196.205.23.142:1935/livepkgr/livestream?adbe-live-event=liveevent swfUrl=http://www.qudstv.com/player.swf pageUrl=http://www.qudstv.com/LiveFeed.aspx live=1 timeout=20</link>
+	</item>
+</streaminginfo>
 
+<streaminginfo>
+   	<cname>NBN</cname>
+	<item>
+	<title>Low</title>
+	<link>rtmp://lived.nbn.com.lb/nbn playpath=mpegts.stream swfUrl=http://www.nbn.com.lb/live/flowplayer/flowplayer-3.2.16.swf pageUrl=http://www.nbn.com.lb/live/ live=1 timeout=15</link>
+	</item>
+</streaminginfo>
 <streaminginfo>
     <cname>Al Eman</cname>
 	<item>
