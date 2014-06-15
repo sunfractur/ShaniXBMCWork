@@ -4,7 +4,7 @@
     <cname>Alaqsa</cname>
 	<item>
 	<title>Med</title>
-	<link>rtmp://5.9.151.112:1935/live/livestream timeout=20</link>
+	<link>rtmp://5.9.151.112:1935/live/livestream swfUrl=http://5.9.151.112/swfs/SampleMediaPlayback.swf pageUrl=http://5.9.151.112/player.html live=1 timeout=20</link>
 	</item>
 </streaminginfo>
 <streaminginfo>
