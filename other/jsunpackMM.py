@@ -20,21 +20,34 @@
 import re
 
 
-def unpack(sJavascript,iteration=1, totaliterations=3  ):
-
+def unpack(sJavascript,iteration=1, totaliterations=2  ):
     print 'iteration',iteration
-    aSplit = sJavascript.split("rn p}('")
-    
-    p1,a1,c1,k1=('','0','0','')
- 
-    ss="p1,a1,c1,k1=('"+aSplit[1].split(".spli")[0]+')' 
-    exec(ss)
+    if sJavascript.startswith('var _0xcb8a='):
+        aSplit=sJavascript.split('var _0xcb8a=')
+        ss="myarray="+aSplit[1].split("eval(")[0]
+        exec(ss)
+        a1=62
+        c1=int(aSplit[1].split(",62,")[1].split(',')[0])
+        p1=myarray[0]
+        k1=myarray[3]
+        with open('temp file'+str(iteration)+'.js', "wb") as filewriter:
+            filewriter.write(str(k1))
+        #aa=1/0
+    else:
+
+        aSplit = sJavascript.split("rn p}('")
+        
+        p1,a1,c1,k1=('','0','0','')
+     
+        ss="p1,a1,c1,k1=('"+aSplit[1].split(".spli")[0]+')' 
+        exec(ss)
     k1=k1.split('|')
     aSplit = aSplit[1].split("))'")
 #    print ' p array is ',len(aSplit)
 #   print len(aSplit )
 
-    p=str(aSplit[0]+'))')#.replace("\\","")#.replace('\\\\','\\')
+    #p=str(aSplit[0]+'))')#.replace("\\","")#.replace('\\\\','\\')
+
     #print aSplit[1]
     #aSplit = aSplit[1].split(",")
     #print aSplit[0] 
@@ -44,7 +57,7 @@ def unpack(sJavascript,iteration=1, totaliterations=3  ):
     #a=int(a)
     #c=int(c)
     
-    p=p.replace('\\', '')
+    #p=p.replace('\\', '')
 #    print 'p val is ',p[0:100],'............',p[-100:],len(p)
 #    print 'p1 val is ',p1[0:100],'............',p1[-100:],len(p1)
     
