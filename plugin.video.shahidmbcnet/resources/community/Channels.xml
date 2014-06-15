@@ -1,5 +1,13 @@
 <channels>
 <channel>
+        <cname>Asia Sat</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/aa/asia_sat_tv_lb.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>Iraq</category>
+        </assignedcategory>
+</channel>
+<channel>
         <cname>Al Maaref</cname>
         <imageurl>http://www.lyngsat-logo.com/logo/tv/aa/al_maaref.png</imageurl>
         <enabled>True</enabled>
