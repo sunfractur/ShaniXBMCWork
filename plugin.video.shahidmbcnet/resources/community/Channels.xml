@@ -3313,7 +3313,8 @@
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/rtnkh_zps849b0122.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-            <category>gulf</category>
+        <category>gulf</category>
+        <category>music</category>
         </assignedcategory>
     </channel>
 
