@@ -11,16 +11,17 @@
 <category label="32015">
  <setting label="32020" type="bool"   id="playFirstChannel" default="false"/>
    <setting label="32021" type="lsep"/>
-		<setting label="32022" type="labelenum" id="order1" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox|Emad" default="Teledunet.com"/>
-		<setting label="32023" type="labelenum" id="order2" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox|Emad" default="livetv.tn"/>
-		<setting label="32024" type="labelenum" id="order3" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox|Emad" default="Shani"/>
-		<setting label="32025" type="labelenum" id="order4" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox|Emad" default="PC"/>
-		<setting label="32026" type="labelenum" id="order5" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox|Emad" default="Zombi"/>
-		<setting label="32030" type="labelenum" id="order6" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox|Emad" default="Local"/>
-        <setting label="32052" type="labelenum" id="order7" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox|Emad" default="iptvOsn"/>
-        <setting label="32054" type="labelenum" id="order8" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox|Emad" default="GLArab"/>
-        <setting label="32056" type="labelenum" id="order9" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox|Emad" default="magictvBox"/>   
-        <setting label="32059" type="labelenum" id="order10" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox|Emad" default="Emad"/>   
+		<setting label="32022" type="labelenum" id="order1" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox|Emad|FilmOn" default="Teledunet.com"/>
+		<setting label="32023" type="labelenum" id="order2" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox|Emad|FilmOn" default="livetv.tn"/>
+		<setting label="32024" type="labelenum" id="order3" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox|Emad|FilmOn" default="Shani"/>
+		<setting label="32025" type="labelenum" id="order4" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox|Emad|FilmOn" default="PC"/>
+		<setting label="32026" type="labelenum" id="order5" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox|Emad|FilmOn" default="Zombi"/>
+		<setting label="32030" type="labelenum" id="order6" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox|Emad|FilmOn" default="Local"/>
+        <setting label="32052" type="labelenum" id="order7" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox|Emad|FilmOn" default="iptvOsn"/>
+        <setting label="32054" type="labelenum" id="order8" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox|Emad|FilmOn" default="GLArab"/>
+        <setting label="32056" type="labelenum" id="order9" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox|Emad|FilmOn" default="magictvBox"/>   
+        <setting label="32059" type="labelenum" id="order10" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox|Emad|FilmOn" default="Emad"/>   
+        <setting label="32061" type="labelenum" id="order11" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox|Emad|FilmOn" default="FilmOn"/>   
         
      
 	   </category>
@@ -59,14 +60,16 @@
 		<setting label="32053" type="bool"   id="isGLArabSourceDisabled" default="false"/>  
 	<setting label="32055" type="bool"   id="ismagictvBoxSourceDisabled" default="false"/>  
     <setting label="32060" type="bool"   id="isEmadSourceDisabled" default="false"/>  
-    
+      <setting label="32062" type="bool"   id="isFilmonSourceDisabled" default="false"/>  
 
         
 
 	  </category>
 		<category label="32049">
 			<setting label="32050" type="number" id="usethisviewmode" values="" default=""/>
-            <setting label="32057" type="number" id="teledunetRetryCount" values="" default="15"/>
+            <setting label="32057" type="number" id="teledunetRetryCount" values="" default="5"/>
+	   <setting label="32063"  type="bool" id="filmonDontPlayplayHigh" default="False"/>
+					
      <!--  <setting label="32058" type="bool" id="addToFavMode" default="false"/>-->
 		 </category>
 </settings>

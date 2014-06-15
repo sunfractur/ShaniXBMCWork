@@ -94,6 +94,16 @@
 <imageurl>http://mylogo.com</imageurl>
 <processor>genericPlayer.py</processor>
 </source>
+<source>
+<id>Filmon</id>
+<sname>Filmon</sname>
+<baseurl>http://www.filmon.com/</baseurl>
+<enabled>True</enabled>
+<urlfile>filmonUrls.xml</urlfile>
+<rtmpstring>%s playpath=%s swfUrl=http://www.filmon.com/tv/modules/FilmOnTV/files/flashapp/filmon/FilmonPlayer.swf pageUrl=http://www.filmon.com live=true timeout=15</rtmpstring>
+<imageurl>http://www.filmon.com/icon.png</imageurl>
+<processor>filmonPlayer.py</processor>
+</source>
 
 </streamingsources>
 
