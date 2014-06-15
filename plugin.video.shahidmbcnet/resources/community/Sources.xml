@@ -1,7 +1,9 @@
 <streamingsources>
 <source>
 <id>td</id>
+<shortname>TD</shortname>
 <sname>Teledunet.com</sname>
+<colour>red</colour>
 <baseurl>http://www.teledunet.com/</baseurl>
 <enabled>True</enabled>
 <urlfile>teledunetUrls.xml</urlfile>
@@ -11,7 +13,9 @@
 </source>
 <source>
 <id>livetv</id>
+<shortname>LTV</shortname>
 <sname>livetv.tn</sname>
+<colour>yellow</colour>
 <baseurl>http://www.livetv.tn/</baseurl>
 <enabled>True</enabled>
 <urlfile>livetvUrls.xml</urlfile>
@@ -21,7 +25,9 @@
 </source>
 <source>
 <id>generic</id>
+<shortname>OSN</shortname>
 <sname>iptvOsn</sname>
+<colour>blue</colour>
 <baseurl>http://website.com</baseurl>
 <enabled>True</enabled>
 <urlfile>iptvosnUrls.xml</urlfile>
@@ -31,7 +37,9 @@
 
 <source>
 <id>generic</id>
+<shortname>SH</shortname>
 <sname>Shani</sname>
+<colour>green</colour>
 <baseurl>http://website.com</baseurl>
 <enabled>True</enabled>
 <urlfile>genericUrls.xml</urlfile>
@@ -40,7 +48,9 @@
 </source>
 <source>
 <id>generic</id>
+<shortname>PC</shortname>
 <sname>PC</sname>
+<colour>FFDEB887</colour>
 <baseurl>http://website.com</baseurl>
 <enabled>True</enabled>
 <urlfile>palestinecoolUrls.xml</urlfile>
@@ -49,6 +59,8 @@
 </source>
 <source>
 <id>generic</id>
+<shortname>ZOM</shortname>
+<colour>FF7FFFD4</colour>
 <sname>Zombi</sname>
 <baseurl>http://website.com</baseurl>
 <enabled>True</enabled>
@@ -58,7 +70,9 @@
 </source>
 <source>
 <id>generic</id>
+<shortname>LOC</shortname>
 <sname>Local</sname>
+<colour>FFFFF8DC</colour>
 <baseurl>http://website.com</baseurl>
 <enabled>True</enabled>
 <urlfile></urlfile>
@@ -67,7 +81,9 @@
 </source>
 <source>
 <id>generic</id>
+<shortname>GLA</shortname>
 <sname>GLArab</sname>
+<colour>FF7FFF00</colour>
 <baseurl>http://website.com</baseurl>
 <enabled>True</enabled>
 <urlfile>glarabUrls.xml</urlfile>
@@ -77,7 +93,9 @@
 
 <source>
 <id>generic</id>
+<shortname>MTB</shortname>
 <sname>magictvBox</sname>
+<colour>Brown</colour>
 <baseurl>http://website.com</baseurl>
 <enabled>True</enabled>
 <urlfile>magictvBoxUrls.xml</urlfile>
@@ -87,7 +105,9 @@
 
 <source>
 <id>generic</id>
+<shortname>EM</shortname>
 <sname>Emad</sname>
+<colour>FFD2691E</colour>
 <baseurl>http://website.com</baseurl>
 <enabled>True</enabled>
 <urlfile>emadUrls.xml</urlfile>
@@ -96,7 +116,9 @@
 </source>
 <source>
 <id>FilmOn</id>
+<shortname>FO</shortname>
 <sname>FilmOn</sname>
+<colour>FF008B8B</colour>
 <baseurl>http://www.filmon.com/</baseurl>
 <enabled>True</enabled>
 <urlfile>filmonUrls.xml</urlfile>
@@ -106,7 +128,9 @@
 </source>
 <source>
 <id>generic</id>
+<shortname>Of</shortname>
 <sname>Official</sname>
+<colour>FF8B008B</colour>
 <baseurl>http://website.com</baseurl>
 <enabled>True</enabled>
 <urlfile>OfficialUrls.xml</urlfile>

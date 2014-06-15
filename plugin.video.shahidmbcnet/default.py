@@ -352,7 +352,7 @@ def RefreshResources(auto=False):
 		fileno+=1
 	pDialog.close()
 	dialog = xbmcgui.Dialog()
-	ok = dialog.ok('XBMC', 'Download finished. Please close the Addon and come back')
+	ok = dialog.ok('XBMC', 'Download finished. Close Addon and come back')
 
 def removeLoginFile(livePlayer,TeleDunet):
 	something_done=False
@@ -1213,6 +1213,13 @@ def getCommunityChannels(catType):
 	#print searchCall
 	MyChannelList=None
 	hidechanneloption=True
+	sourcesXml=getEtreeFromFile('Sources.xml');
+	sources_list={}
+	for sources in sourcesXml.findall('source'): 
+		sname=sources.findtext('sname')
+		ssname=sources.findtext('shortname')
+		scolour=sources.findtext('colour')
+		sources_list[sname]=[ssname,scolour]
 	if catType=="My Channels":
 		try:
 			fileName=os.path.join(profile_path, 'MyChannels.xml')
@@ -1256,7 +1263,19 @@ def getCommunityChannels(catType):
 			hidechanneloption=not config['hidden']=="yes"
 		#chUrl = channel.id.text
 		imageUrl =channel.findtext('imageurl')
- 		retVal.append([chName,chName,imageUrl,hidechanneloption])
+		chUrl=chName
+		if config and 'defaultsource' in config:
+			default_source=config['defaultsource'].split(':')[0]
+			#chName+='['+default_source+']'
+			if default_source in sources_list:
+				short_name='['+sources_list[default_source][0]+']'
+				colour=sources_list[default_source][1]
+				short_name=Colored(text = short_name, colorid = colour, isBold = False)
+				print short_name
+
+				chName+=' '+short_name
+				
+ 		retVal.append([chUrl,chName,imageUrl,hidechanneloption])
 	return retVal
 	
 
