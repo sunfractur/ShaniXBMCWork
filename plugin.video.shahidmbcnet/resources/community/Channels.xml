@@ -1,4 +1,15 @@
 <channels>
+
+
+<channel>
+        <cname>Africa</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/aa/africa_tv_3_sd.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>africa</category>
+        </assignedcategory>
+</channel>
+
 <channel>
         <cname>Asia Sat</cname>
         <imageurl>http://www.lyngsat-logo.com/hires/aa/asia_sat_tv_lb.png</imageurl>
