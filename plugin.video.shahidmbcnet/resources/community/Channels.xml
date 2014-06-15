@@ -1,5 +1,16 @@
 <channels>
 <channel>
+        <cname>BBC</cname>
+        <imageurl>http://downloads.bbc.co.uk/guidelines/editorialguidelines/images/BBC_WSG_Logo_RGB_HR.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>english</category>
+        <category>sports</category>
+        <category>news</category>
+        </assignedcategory>
+</channel>
+
+<channel>
         <cname>EuroSport German</cname>
         <imageurl>http://www.lyngsat-logo.com/hires/ee/eurosport.png</imageurl>
         <enabled>True</enabled>
