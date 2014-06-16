@@ -4742,6 +4742,14 @@
             <category>egypt</category>
         </assignedcategory>
     </channel>
+    <channel>
+        <cname>Masria ESC</cname>
+        <imageurl>http://unitedtv.net/images/chanel_images/1357388945.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>egypt</category>
+        </assignedcategory>
+    </channel>
 
 
 
