@@ -4712,7 +4712,7 @@
     </channel>
     <channel>
         <cname>Al Alamia</cname>
-        <imageurl></imageurl>
+        <imageurl>https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xfa1/t1.0-9/425185_318989894817452_2087068956_n.jpg</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>egypt</category>
@@ -4728,7 +4728,7 @@
     </channel>
     <channel>
         <cname>Imam Hussein 2</cname>
-        <imageurl></imageurl>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/ii/imam_hussein_tv2.jpg</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>islam</category>
@@ -4736,7 +4736,7 @@
     </channel>
     <channel>
         <cname>CNA</cname>
-        <imageurl></imageurl>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/cc/chaine_nord_africaine.jpg</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>egypt</category>
