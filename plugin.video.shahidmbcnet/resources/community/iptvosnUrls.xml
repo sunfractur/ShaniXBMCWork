@@ -630,14 +630,14 @@
         </item>
     </streaminginfo>
     <streaminginfo>
-        <cname>Star 1 Cinema</cname>
+        <cname>Star 1 Cinema +7</cname>
         <item>
             <title>iptvosn</title>
             <link>http://88.150.181.10/$setting_iptvosnUser$/$setting_iptvosnPwd$/90.ch</link>
         </item>
     </streaminginfo>
     <streaminginfo>
-        <cname>Star 2 Cinema</cname>
+        <cname>Star 2 Cinema +7</cname>
         <item>
             <title>iptvosn</title>
             <link>http://88.150.181.10/$setting_iptvosnUser$/$setting_iptvosnPwd$/91.ch</link>
