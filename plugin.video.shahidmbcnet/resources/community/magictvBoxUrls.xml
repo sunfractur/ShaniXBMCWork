@@ -273,7 +273,7 @@
         </item>
     </streaminginfo>
 	<streaminginfo>
-		<cname>Star 2 Cinema</cname>
+		<cname>Star 2 Cinema +7</cname>
 		<item>
 			<title>magictvbox</title>			
 			<link>http://cdn-delay1.magictvbox.com/4.m3u8</link>
@@ -281,7 +281,7 @@
 	</streaminginfo>
 	
     <streaminginfo>
-		<cname>Star 2 Cinema +7</cname>
+		<cname>Star 2 Cinema</cname>
 		<item>
 			<title>magictvbox</title>			
 			<link>http://cdn-streamer1.magictvbox.com/live/10146.stream/playlist.m3u8</link>
