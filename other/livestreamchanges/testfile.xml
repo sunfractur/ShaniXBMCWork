@@ -120,4 +120,48 @@
 </item>
 
 
+<item>
+<title>AFRIKA</title>
+<link>rtmp://wms.streamafrik.com:1935/rtmp_streamaflive/31/ app=rtmp_streamaflive/31/ playpath=mainstream flashver=WIN\2013,0,0,214 swfUrl=http://www.streamafrik.com/public/flash/player/wms/viewerModules/player/PlayerModule.swf?version=2.11.11 pageUrl=http://www.streamafrik.com/show/gtv-sports-plus conn=O:1 conn=NS:id:$doregex[get-id] conn=O:0  live=1</link>
 
+<regex>
+<name>get-id</name>
+<expres>(.*?):60</expres>
+<page>http://streamafrik.com:8080/socket.io/1/?c=31&amp;n=AFRIKALWEBSESSID&amp;i=$doregex[get-i]&amp;t=$doregex[get-epoc]</page>
+<referer>http://www.streamafrik.com/show/gtv-sports-plus</referer>
+<cookieJar>$doregex[LoginAndCookie]</cookieJar>
+</regex>
+
+<regex>
+<name>get-i</name>
+<expres>keyId: '(.*?)'</expres>
+<page>http://www.streamafrik.com/show/gtv-sports-plus</page>
+<referer>http://www.streamafrik.com/live/show/only-live</referer>
+<cookieJar>$doregex[LoginAndCookie]</cookieJar>
+</regex>
+
+<regex>
+<name>LoginAndCookie</name>
+<expres></expres>
+<page>http://www.streamafrik.com/ajax/?jsoncallback=jQuery19007329336458351463_$doregex[get-epoc]&amp;m=login&amp;user_username=USERNAME&amp;user_password=PWD&amp;stay_logged_in=false&amp;signin=Login&amp;_=$doregex[get-epoc]</page>
+<referer>http://www.streamafrik.com/</referer>
+<x-req>XMLHttpRequest</x-req>
+<cookieJar>$doregex[init_nonnection]</cookieJar>
+</regex>
+
+<regex>
+<name>get-epoc</name>
+<expres>$epoctime$</expres>
+<page></page>
+</regex>
+
+
+<regex>
+<name>init_nonnection</name>
+<expres></expres>
+<page>http://www.streamafrik.com/</page>
+<referer>http://www.streamafrik.com/</referer>
+<cookieJar></cookieJar>
+</regex>
+
+</item>
