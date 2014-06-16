@@ -211,7 +211,7 @@ def getcode():
 			if link=="":
 				link=getUrl(codepage,cookieJar)
 			link=javascriptUnEscape(link)
-		code =re.findall('\?c=(.*?)[\'\"]', link)
+		code =re.findall('\"ch.*(\?.*?)\"', link)
 		if (not code==None) and len(code)>0:
 			#print 'print link is ',link
 			code=code[0]

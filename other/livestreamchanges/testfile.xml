@@ -2,7 +2,7 @@
 
 <item>
 <title>ch54- Captcha - 2M</title>
-<link>rtmp://tdsiptv.ddns.me/live playpath=ch54?code=$doregex[getcode] swfUrl=http://www.livetv.tn/flowplayer-3.2.7.swf pageUrl=http://www.livetv.tn/ swfVfy=true flashVer=WIN13,0,0,214 timeout=15 live=true</link>
+<link>rtmp://tdsiptv.ddns.me/live playpath=ch54?code=$doregex[getcode] swfUrl=http://www.livetv.tn/flowplayer-3.2.7.swf pageUrl=http://www.livetv.tn/ swfVfy=true flashVer=WIN\2013,0,0,214 timeout=15 live=true</link>
 <regex>
 <name>getcode</name>
 <expres>\?code=(.*?)\"</expres>
