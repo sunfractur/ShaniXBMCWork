@@ -4710,6 +4710,39 @@
             <category>drama</category>
         </assignedcategory>
     </channel>
+    <channel>
+        <cname>Al Alamia</cname>
+        <imageurl></imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>egypt</category>
+        </assignedcategory>
+    </channel>
+    <channel>
+        <cname>Al Hurra</cname>
+        <imageurl>http://unitedtv.net/images/chanel_images/1352881434.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>egypt</category>
+        </assignedcategory>
+    </channel>
+    <channel>
+        <cname>Imam Hussein 2</cname>
+        <imageurl></imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>islam</category>
+        </assignedcategory>
+    </channel>
+    <channel>
+        <cname>CNA</cname>
+        <imageurl></imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>egypt</category>
+        </assignedcategory>
+    </channel>
+
 
 
 </channels>
