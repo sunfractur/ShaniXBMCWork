@@ -529,6 +529,10 @@ def getItems(items,fanart):
                         except:
                             addon_log("Regex: -- No Referer --")
                         try:
+                            regexs[i('name')[0].string]['x-req'] = i('x-req')[0].string
+                        except:
+                            addon_log("Regex: -- No x-req --")
+                        try:
                             regexs[i('name')[0].string]['agent'] = i('agent')[0].string
                         except:
                             addon_log("Regex: -- No User Agent --")
@@ -654,6 +658,8 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
                             req.add_header('Referer', m['refer'])
                         if 'agent' in m:
                             req.add_header('User-agent', m['agent'])
+                        if 'x-req' in m:
+                            req.add_header('X-Requested-With', m['x-req'])
                         if 'setcookie' in m:
                             print 'adding cookie',m['setcookie']
                             req.add_header('Cookie', m['setcookie'])
@@ -758,9 +764,12 @@ def doEval(fun_call,page_data):
         sys.path.append(functions_dir)
     
     print fun_call
-    py_file='import '+fun_call.split('.')[0]
-    #print py_file
-    exec( py_file)
+    try:
+        py_file='import '+fun_call.split('.')[0]
+        #print py_file
+        exec( py_file)
+    except: pass
+    
     exec ('ret_val='+fun_call)
     #exec('ret_val=1+1')
     return str(ret_val)
