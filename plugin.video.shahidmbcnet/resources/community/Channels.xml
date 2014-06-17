@@ -3786,16 +3786,6 @@
         </assignedcategory>
     </channel>
 
-    
-    <channel>
-        <cname>nbn lebanon</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/nbntv_zpsce64602a.png</imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-            <category>sham</category>
-        </assignedcategory>
-    </channel>
-
     <channel>
         <cname>Wanasah</cname>
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/WNASA_zps8a6e066b.png</imageurl>
