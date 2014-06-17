@@ -1,4 +1,20 @@
 <channels>
+	<channel>
+		<cname>ALNADATV</cname>
+		<imageurl>https://yt3.ggpht.com/-JLVPgEbFuy8/AAAAAAAAAAI/AAAAAAAAAAA/GX4VXPamOms/s100-c-k-no/photo.jpg</imageurl>
+		<enabled>True</enabled>
+		<assignedcategory>
+			<category>islam</category>
+		</assignedcategory>
+	</channel>
+	<channel>
+		<cname>amgad</cname>
+		<imageurl>https://yt3.ggpht.com/-eOBvcO4QLNM/AAAAAAAAAAI/AAAAAAAAAAA/tAIJqLPEVpQ/s100-c-k-no/photo.jpg</imageurl>
+		<enabled>True</enabled>
+		<assignedcategory>
+			<category>islam</category>
+		</assignedcategory>
+	</channel>
 <channel>
 	<cname>Alkitab</cname>
 	<imageurl>http://www.lyngsat-logo.com/logo/tv/aa/al_kitab_channel_ps.png</imageurl>
