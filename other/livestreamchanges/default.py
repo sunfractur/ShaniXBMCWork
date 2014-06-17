@@ -529,6 +529,19 @@ def getItems(items,fanart):
                         except:
                             addon_log("Regex: -- No Referer --")
                         try:
+                            regexs[i('name')[0].string]['connection'] = i('connection')[0].string
+                        except:
+                            addon_log("Regex: -- No connection --")
+                        try:
+                            regexs[i('name')[0].string]['origin'] = i('origin')[0].string
+                        except:
+                            addon_log("Regex: -- No origin --")
+                        try:
+                            regexs[i('name')[0].string]['includeheaders'] = i('includeheaders')[0].string
+                        except:
+                            addon_log("Regex: -- No includeheaders --")                            
+                            
+                        try:
                             regexs[i('name')[0].string]['x-req'] = i('x-req')[0].string
                         except:
                             addon_log("Regex: -- No x-req --")
@@ -603,7 +616,7 @@ def getItems(items,fanart):
                 addon_log('There was a problem adding item - '+name.encode('utf-8', 'ignore'))
 
 
-def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCall=False,cachedPages={}, rawPost=False):#0,1,2 = URL, regexOnly, CookieJarOnly
+def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCall=False,cachedPages={}, rawPost=False, cookie_jar_file=None):#0,1,2 = URL, regexOnly, CookieJarOnly
         if not recursiveCall:
             regexs = eval(urllib.unquote(regexs))
         #cachedPages = {}
@@ -617,6 +630,8 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
                 m = regexs[k]
                 print m
                 cookieJarParam=False
+
+
                 if  'cookiejar' in m: # so either create or reuse existing jar
                     #print 'cookiejar exists',m['cookiejar']
                     cookieJarParam=m['cookiejar']
@@ -625,12 +640,25 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
                         cookieJarParam=True
                     else:
                         cookieJarParam=True
+                #print 'm[cookiejar]',m['cookiejar'],cookieJar
                 if cookieJarParam:
                     if cookieJar==None:
                         print 'create cookie jar'
-                        import cookielib
-                        cookieJar = cookielib.LWPCookieJar()
+                        cookie_jar_file=None
+                        if 'open[' in m['cookiejar']:
+                            cookie_jar_file=m['cookiejar'].split('open[')[1].split(']')[0]
+                            
+                        cookieJar=getCookieJar(cookie_jar_file)
+                        if cookie_jar_file:
+                            saveCookieJar(cookieJar,cookie_jar_file)
+                        #import cookielib
+                        #cookieJar = cookielib.LWPCookieJar()
                         #print 'cookieJar new',cookieJar
+                    elif 'save[' in m['cookiejar']:
+                        cookie_jar_file=m['cookiejar'].split('save[')[1].split(']')[0]
+                        complete_path=os.path.join(profile,cookie_jar_file)
+                        print 'complete_path',complete_path
+                        saveCookieJar(cookieJar,cookie_jar_file)
                         
  
                 if  m['page'] and '$doregex' in m['page']:
@@ -663,12 +691,22 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
                         if 'setcookie' in m:
                             print 'adding cookie',m['setcookie']
                             req.add_header('Cookie', m['setcookie'])
+                        if 'origin' in m:
+                            req.add_header('Origin', m['origin'])
+
 
                         if not cookieJar==None:
                             #print 'cookieJarVal',cookieJar
                             cookie_handler = urllib2.HTTPCookieProcessor(cookieJar)
                             opener = urllib2.build_opener(cookie_handler, urllib2.HTTPBasicAuthHandler(), urllib2.HTTPHandler())
                             opener = urllib2.install_opener(opener)
+                        if 'connection' in m:
+                            print '..........................connection//////.',m['connection']
+                            from keepalive import HTTPHandler
+                            keepalive_handler = HTTPHandler()
+                            opener = urllib2.build_opener(keepalive_handler)
+                            urllib2.install_opener(opener)
+                            
                         #print 'after cookie jar'
                         post=None
 
@@ -703,6 +741,8 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
 
                         link = response.read()
                         link=javascriptUnEscape(link)
+                        if 'includeheaders' in m:
+                            link+=str(response.headers.get('Set-Cookie'))
 
                         response.close()
                         cachedPages[m['page']] = link
@@ -726,7 +766,7 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
                         print 'url and val',url,val
                         url = url.replace("$doregex[" + k + "]", val)
                     elif m['expre'].startswith('$pyFunction:'):
-                        val=doEval(m['expre'].split('$pyFunction:')[1],link)
+                        val=doEval(m['expre'].split('$pyFunction:')[1],link,cookieJar )
                         print 'url and val',url,val
 
                         url = url.replace("$doregex[" + k + "]", val)
@@ -749,6 +789,10 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
                     url = url.replace("$doregex[" + k + "]",'')
         if '$epoctime$' in url:
             url=url.replace('$epoctime$',getEpocTime())
+        if '$GUID$' in url:
+            import uuid
+            url=url.replace('$GUID$',str(uuid.uuid1()).upper())
+            
         if recursiveCall: return url
         print 'final url',url
         item = xbmcgui.ListItem(path=url)
@@ -757,8 +801,30 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
         #xbmc.playlist(xbmc.playlist_video).add(url)
         #xbmc.Player().play(item=url)
         xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, item)
+        
+def saveCookieJar(cookieJar,COOKIEFILE):
+	try:
+		complete_path=os.path.join(profile,COOKIEFILE)
+		cookieJar.save(complete_path,ignore_discard=True)
+	except: pass
 
-def doEval(fun_call,page_data):
+def getCookieJar(COOKIEFILE):
+	import cookielib
+	cookieJar=None
+	if COOKIEFILE:
+		try:
+			complete_path=os.path.join(profile,COOKIEFILE)
+			cookieJar = cookielib.LWPCookieJar()
+			cookieJar.load(complete_path,ignore_discard=True)
+		except: 
+			cookieJar=None
+	
+	if not cookieJar:
+		cookieJar = cookielib.LWPCookieJar()
+	
+	return cookieJar
+    
+def doEval(fun_call,page_data,Cookie_Jar):
     ret_val=''
     if functions_dir not in sys.path:
         sys.path.append(functions_dir)
