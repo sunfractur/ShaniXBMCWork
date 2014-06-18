@@ -1,4 +1,18 @@
 <streamingInfos>
+<streaminginfo>
+		<cname>Masira</cname>
+		<item>
+		<title>rtmp</title>
+		<link>rtmp://livestreaming4.itworkscdn.com/masira playpath=livetv1 swfUrl=http://www.almaserahtv.com/player.swf pageUrl=http://www.almasirah.tv/ live=1 timeout=20</link>
+		</item>
+</streaminginfo>
+<streaminginfo>
+		<cname>Masira</cname>
+		<item>
+		<title>m3u8</title>
+		<link>http://livestreaming4.itworkscdn.com/masira/livetv1/playlist.m3u8</link>
+		</item>
+</streaminginfo>
 
 	<streaminginfo>
 		<cname>TNN</cname>
@@ -26,7 +40,7 @@
 	<streaminginfo>
 		<cname>Alghad Alarabi</cname>
 		<item>
-			<title>high</title>
+			<title>High</title>
 			<link>$doregex[get-m3u8]&amp;hdnea=st=$doregex[get-hdnea]</link>
 			<regex>
 			<name>get-m3u8</name>
