@@ -1,5 +1,63 @@
 <streamingInfos>
 <streaminginfo>
+	<cname>KTV ARABE</cname>
+	<item>
+	<title>media.gov.kw</title>
+	<link>rtmp://91.140.238.7/rtmplive/rtpencoder/ch5.sdp timeout=20</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>KTV ETRAA</cname>
+	<item>
+	<title>media.gov.kw</title>
+	<link>rtmp://91.140.238.7/rtmplive/rtpencoder/ch4.sdp timeout=20</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+	<cname>KTV 2</cname>
+	<item>
+	<title>media.gov.kw</title>
+	<link>rtmp://91.140.238.7/rtmplive/rtpencoder/ch2.sdp timeout=20</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Kuwait</cname>
+	<item>
+	<title>media.gov.kw</title>
+	<link>rtmp://91.140.238.7/rtmplive/rtpencoder/ch1.sdp timeout=20</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+	<cname>KTV SPORT</cname>
+	<item>
+	<title>media.gov.kw</title>
+	<link>rtmp://91.140.238.7/rtmplive/rtpencoder/ch3.sdp timeout=20</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>KTV PLUS</cname>
+	<item>
+	<title>media.gov.kw</title>
+	<link>rtmp://91.140.238.7/rtmplive/rtpencoder/ch6.sdp timeout=20</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>KTV Sport Extra</cname>
+	<item>
+	<title>media.gov.kw</title>
+	<link>rtmp://91.140.238.7/rtmplive/rtpencoder/sportextra.sdp timeout=20</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>KTV Sport Plus</cname>
+	<item>
+	<title>media.gov.kw</title>
+	<link>rtmp://91.140.238.7/rtmplive/rtpencoder/sportplus.sdp timeout=20</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
 	<cname>Libya Awalan</cname>
 	<item>
 	<title>Med</title>
