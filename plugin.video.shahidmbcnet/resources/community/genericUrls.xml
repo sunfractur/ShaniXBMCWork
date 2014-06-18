@@ -928,13 +928,7 @@
 	<link>http://ukk.live.net.sa:1935/live/africatv/playlist.m3u8</link>
 	</item>
 </streaminginfo>
-<streaminginfo>
-        <cname>SkyNewsArabia</cname>
-	<item>
-	<title>Sky Source</title>
-	<link>http://skynewsl.skynews.cshls.lldns.net/skynews/skynewsl/skynewsl/skynewsl_800.m3u8</link>
-	</item>
-</streaminginfo>
+
 
 <streaminginfo>
         <cname>MBC 2</cname>
