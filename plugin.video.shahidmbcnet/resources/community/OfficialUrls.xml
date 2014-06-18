@@ -1,5 +1,12 @@
 <streamingInfos>
 <streaminginfo>
+	<cname>alrayan</cname>
+	<item>
+	<title>Med</title>
+    <link>http://alrayyan_hls-lh.akamaihd.net/i/alrayyan_ar@2145/master.m3u8</link>
+    </item>
+</streaminginfo>
+<streaminginfo>
 	<cname>Al Kout</cname>
 	<item><title>SD</title>
 	<link>rtmp://66.23.237.233:1935/alkout/alkout swfUrl=http://fpdownload.adobe.com/strobe/FlashMediaPlayback_101.swf pageUrl=http://www.alkouttv.net/live.aspx live=1 timeout=20</link>
