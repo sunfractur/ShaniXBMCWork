@@ -2823,7 +2823,8 @@
         <imageurl>http://www.media.gov.kw/tvradio/Portal/images/new/kwtv_sport_new.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-            <category>sports</category>
+        <category>sports</category>
+        <category>gulf</category>
         </assignedcategory>
     </channel>
 	
