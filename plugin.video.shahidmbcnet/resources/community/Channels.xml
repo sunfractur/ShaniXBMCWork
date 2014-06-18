@@ -1,5 +1,13 @@
 <channels>
 <channel>
+	<cname>Libya Awalan</cname>
+	<imageurl>http://www.lyngsat-logo.com/hires/ll/libya_awalan.png</imageurl>
+	<enabled>True</enabled>
+	<assignedcategory>
+	<category>magreb</category>
+	</assignedcategory>
+</channel>
+<channel>
 	<cname>VIN</cname>
 	<imageurl>http://www.lyngsat-logo.com/hires/vv/vin_tv.png</imageurl>
 	<enabled>True</enabled>
