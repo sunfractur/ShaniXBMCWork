@@ -1088,9 +1088,15 @@
 
 <streaminginfo>
 	<cname>SkyNewsArabia</cname>
-	<item><title>720p</title><link>rtmp://llnwvps231.fc.llnwd.net/llnwvps231/ playpath=eND-IS0mT2csspFA-2vGVs_NjZq-ZuZTMIgeu3aYyqcFI_640_360_3 swfUrl=http://s.delvenetworks.com/deployments/flash-player/flash-player-5.12.1.swf?ldr=ldr live=1 pageUrl=http://www.skynewsarabia.com/web/home?view=live</link><thumbnail></thumbnail></item><item><title>Test1</title><link></link>
+	<item><title>720p</title><link>rtmp://llnwvps231.fc.llnwd.net/llnwvps231/ playpath=eND-IS0mT2csspFA-2vGVs_NjZq-ZuZTMIgeu3aYyqcFI_640_360_3 swfUrl=http://assets.delvenetworks.com/player/loader.swf live=1 pageUrl=http://www.skynewsarabia.com/web/home?view=live</link><thumbnail></thumbnail></item><item><title>Test1</title><link></link>
 	</item>
 </streaminginfo>
 
-
+<streaminginfo>
+        <cname>SkyNewsArabia</cname>
+	<item>
+	<title>720p</title>
+	<link>http://skynewsl.skynews.cshls.lldns.net/skynews/skynewsl/skynewsl/skynewsl_800.m3u8</link>
+	</item>
+</streaminginfo>
 </streamingInfos>
