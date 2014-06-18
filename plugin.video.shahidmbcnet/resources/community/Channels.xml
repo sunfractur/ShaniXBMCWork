@@ -1,5 +1,14 @@
 <channels>
 <channel>
+	<cname>VIN</cname>
+	<imageurl>http://www.lyngsat-logo.com/hires/vv/vin_tv.png</imageurl>
+	<enabled>True</enabled>
+	<assignedcategory>
+	<category>Iraq</category>
+	<category>music</category>
+	</assignedcategory>
+</channel>
+<channel>
 	<cname>Masira</cname>
 	<imageurl>http://s3.postimg.org/u842usskz/almasira.png</imageurl>
 	<enabled>True</enabled>
