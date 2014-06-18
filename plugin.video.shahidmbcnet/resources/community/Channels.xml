@@ -1,4 +1,12 @@
 <channels>
+<channel>
+	<cname>Masira</cname>
+	<imageurl>http://s3.postimg.org/u842usskz/almasira.png</imageurl>
+	<enabled>True</enabled>
+	<assignedcategory>
+	<category>gulf</category>
+	</assignedcategory>
+</channel>
 	<channel>
 		<cname>ALNADATV</cname>
 		<imageurl>https://yt3.ggpht.com/-JLVPgEbFuy8/AAAAAAAAAAI/AAAAAAAAAAA/GX4VXPamOms/s100-c-k-no/photo.jpg</imageurl>
