@@ -1,5 +1,12 @@
 <streamingInfos>
 <streaminginfo>
+	<cname>Libya Awalan</cname>
+	<item>
+	<title>Med</title>
+	<link>rtmp://41.128.145.24:1935/LibyaAwalan/LibyaAwalanStream swfUrl=http://p.jwpcdn.com/6/4/jwplayer.flash.swf pageUrl=http://libya-awalan.tv/%D8%A7%D9%84%D8%A8%D8%AB-%D8%A7%D9%84%D8%AD%D9%8A/ live=1 timeout=20</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
 	<cname>VIN</cname>
 	<item>
 	<title>vintv.net</title>
