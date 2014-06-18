@@ -2799,10 +2799,28 @@
         </assignedcategory>
     </channel>
 
+<channel>
+	<cname>KTV Sport Plus </cname>
+	<imageurl>http://www.media.gov.kw/tvradio/Portal/images/new/kwtv_sportplus.png</imageurl>
+	<enabled>True</enabled>
+	<assignedcategory>
+	<category>gulf</category>
+	<category>sports</category>
+	</assignedcategory>
+</channel>
+<channel>
+	<cname>KTV Sport Extra</cname>
+	<imageurl>http://www.media.gov.kw/tvradio/Portal/images/new/kwtv_sportextra.png</imageurl>
+	<enabled>True</enabled>
+	<assignedcategory>
+	<category>gulf</category>
+	<category>sports</category>
+	</assignedcategory>
+</channel>
 
     <channel>
         <cname>KTV SPORT</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/ktvsport_zps6400d496.png</imageurl>
+        <imageurl>http://www.media.gov.kw/tvradio/Portal/images/new/kwtv_sport_new.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>sports</category>
@@ -4651,7 +4669,7 @@
     </channel>
     <channel>
         <cname>KTV PLUS</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/ktvplu_zps08381349.png</imageurl>
+        <imageurl>http://www.media.gov.kw/tvradio/Portal/images/new/kwtv_plus_new.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>gulf</category>
@@ -4660,7 +4678,7 @@
 
     <channel>
         <cname>KTV ETRAA</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/ktv3_zps679cc41a.png</imageurl>
+        <imageurl>http://www.media.gov.kw/tvradio/Portal/images/new/kwtv_ethraa_new.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>gulf</category>
@@ -4669,7 +4687,7 @@
 
     <channel>
         <cname>KTV ARABE</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/ktv-ar_zpsabcc1026.png</imageurl>
+        <imageurl>http://www.media.gov.kw/tvradio/Portal/images/new/kwtv_arabe_new.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>gulf</category>
@@ -4679,7 +4697,7 @@
 
     <channel>
         <cname>KTV 2</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/ktv22_zpsda7ea6f9.png</imageurl>
+        <imageurl>http://www.media.gov.kw/tvradio/Portal/images/new/kwtv_2_new.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>gulf</category>
