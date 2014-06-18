@@ -406,8 +406,8 @@
 	<streaminginfo>
 		<cname>SkyNewsArabia</cname>
 		<item>
-			<title>livestation</title>
-			<link>rtmp://hd7.lsops.net/live/ playpath=skynewsi_ar_372 swfUrl=http://static.ls-cdn.com/player/5.10/livestation-player.swf?1375015323 pageUrl=http://www.livestation.com/ar/channels/sky-news-arabia live=1 timeout=20</link>
+		<title>livestation SD</title>
+		<link>rtmp://hd7.lsops.net/live/ playpath=skynewsi_ar_372 swfUrl=http://static.ls-cdn.com/player/5.10/livestation-player.swf?1375015323 pageUrl=http://www.livestation.com/ar/channels/sky-news-arabia live=1 timeout=20</link>
 		</item>
 	</streaminginfo>
 	<streaminginfo>
@@ -1086,6 +1086,11 @@
 
 <streaminginfo><cname>Al Forat</cname><item><title>Original Source</title><link>rtmp://alforatlive.nanocdn.com:1935/live playpath=alforat256 swfUrl=http://www1.alforattv.net/modules/live/js/jwplayer/player.swf pageUrl=http://www1.alforattv.net live=1 swfVfy=1 timeout=10</link></item></streaminginfo> 
 
+<streaminginfo>
+	<cname>SkyNewsArabia</cname>
+	<item><title>720p</title><link>rtmp://llnwvps231.fc.llnwd.net/llnwvps231/ playpath=eND-IS0mT2csspFA-2vGVs_NjZq-ZuZTMIgeu3aYyqcFI_640_360_3 swfUrl=http://s.delvenetworks.com/deployments/flash-player/flash-player-5.12.1.swf?ldr=ldr live=1 pageUrl=http://www.skynewsarabia.com/web/home?view=live</link><thumbnail></thumbnail></item><item><title>Test1</title><link></link>
+	</item>
+</streaminginfo>
 
 
 </streamingInfos>
