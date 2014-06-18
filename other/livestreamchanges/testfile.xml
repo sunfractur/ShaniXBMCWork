@@ -304,3 +304,21 @@
 
 </item>
 
+<item>
+<title>geonews desifree</title>
+<link>$doregex[get-url]&amp;from=http://www.desifree.tv/geonews/ token=^edH($#w)5 flashver=WIN\2013,0,0,214 playpath=geolive_160p pageUrl=http://www.desifree.tv/geonews/ swfVfy=1 swfUrl=http://live.seenreport.com:82/media/js/player/player-3.2.18.swf live=1 timeout=20</link>
+
+<regex>
+<name>get-url</name>
+<expres>(rtmp.*?)\"</expres>
+<page>http://live.seenreport.com:82/live/live/auth/web/?cb=jQuery17207147574345581234_$doregex[get-epoc]&amp;appid=3058182062&amp;w=700&amp;h=357&amp;from=http://www.desifree.tv/geonews/&amp;_=$doregex[get-epoc]</page>
+<referer>http://www.desifree.tv/geonews/</referer>
+</regex>
+
+<regex>
+<name>get-epoc</name>
+<expres>$epoctime$</expres>
+<page></page>
+</regex>
+</item>
+
