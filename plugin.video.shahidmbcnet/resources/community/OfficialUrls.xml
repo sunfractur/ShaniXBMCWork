@@ -1,5 +1,11 @@
 <streamingInfos>
 <streaminginfo>
+	<cname>Al Kout</cname>
+	<item><title>SD</title>
+	<link>rtmp://66.23.237.233:1935/alkout/alkout swfUrl=http://fpdownload.adobe.com/strobe/FlashMediaPlayback_101.swf pageUrl=http://www.alkouttv.net/live.aspx live=1 timeout=20</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
 	<cname>KTV ARABE</cname>
 	<item>
 	<title>media.gov.kw</title>
