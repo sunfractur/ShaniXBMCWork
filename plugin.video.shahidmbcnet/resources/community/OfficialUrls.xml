@@ -1,17 +1,24 @@
 <streamingInfos>
 <streaminginfo>
-		<cname>Masira</cname>
-		<item>
-		<title>rtmp</title>
-		<link>rtmp://livestreaming4.itworkscdn.com/masira playpath=livetv1 swfUrl=http://www.almaserahtv.com/player.swf pageUrl=http://www.almasirah.tv/ live=1 timeout=20</link>
-		</item>
+	<cname>VIN</cname>
+	<item>
+	<title>vintv.net</title>
+	<link>http://95.170.203.137:8088/smooth.isml/manifest(format=m3u8-aapl).m3u8</link>
+	</item>
 </streaminginfo>
 <streaminginfo>
-		<cname>Masira</cname>
-		<item>
-		<title>m3u8</title>
-		<link>http://livestreaming4.itworkscdn.com/masira/livetv1/playlist.m3u8</link>
-		</item>
+	<cname>Masira</cname>
+	<item>
+	<title>rtmp</title>
+	<link>rtmp://livestreaming4.itworkscdn.com/masira playpath=livetv1 swfUrl=http://www.almaserahtv.com/player.swf pageUrl=http://www.almasirah.tv/ live=1 timeout=20</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Masira</cname>
+	<item>
+	<title>m3u8</title>
+	<link>http://livestreaming4.itworkscdn.com/masira/livetv1/playlist.m3u8</link>
+	</item>
 </streaminginfo>
 
 	<streaminginfo>
