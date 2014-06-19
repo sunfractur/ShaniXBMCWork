@@ -31,9 +31,9 @@ communityStreamPath = os.path.join(addonPath,'resources')
 communityStreamPath =os.path.join(communityStreamPath,'community')
 
 COOKIEFILE = communityStreamPath+'/teletdunetPlayerLoginCookie.lwp'
-cache_table         = __addonname__
+cache_table         = 'ShahidArabic'
 cache2Hr              = StorageServer.StorageServer(cache_table,2)
-cache2Hr.table_name = cache_table		
+
 teledunet_htmlfile='TeledunetchannelList.html'
 profile_path =  xbmc.translatePath(selfAddon.getAddonInfo('profile'))
 def PlayStream(sourceEtree, urlSoup, name, url):
@@ -59,7 +59,6 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 
 			try:
 
-				cache2Hr.table_name = cache_table	
 				file_exists=cache2Hr.get('MainChannelPage')
 				print 'file_exists',file_exists
 				link=None
@@ -83,7 +82,6 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 					
 					link=getUrl(newURL,getCookieJar() ,None,'http://www.teledunet.com/')
 					if storeInFile(link,teledunet_htmlfile):
-						cache2Hr.table_name = cache_table	
 						cache2Hr.set('MainChannelPage','yes')
 						print 'Stored in local file',cache2Hr.get('MainChannelPage')
 					
@@ -97,6 +95,7 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 				#if '5.135.134.110' in rtmp and 'bein' in channelId:
 				#	rtmp=rtmp.replace('5.135.134.110','www.teledunet.com')
 			except:
+				clearFileCache()            
 				traceback.print_exc(file=sys.stdout)
 				print 'trying backup'
 				try:
@@ -248,7 +247,6 @@ def shoudforceLoginOLD():
     return True
 
 def clearFileCache():
-	cache2Hr.table_name = cache_table
 	cache2Hr.delete('%')
 	
 def storeInFile(text_to_store,FileName):
