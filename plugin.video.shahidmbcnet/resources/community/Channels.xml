@@ -1,5 +1,14 @@
 <channels>
 <channel>
+	<cname>For Music</cname>
+	<imageurl>http://www.gingerdj.com/wp-content/uploads/2012/10/FOR-MUSIC-540x342.png</imageurl>
+	<enabled>True</enabled>
+	<assignedcategory>
+	<category>english</category>
+	<category>music</category>
+	</assignedcategory>
+</channel>
+<channel>
 	<cname>Animal Planet</cname>
 	<imageurl>http://www.lyngsat-logo.com/hires/aa/animal_planet_us.png</imageurl>
 	<enabled>True</enabled>
