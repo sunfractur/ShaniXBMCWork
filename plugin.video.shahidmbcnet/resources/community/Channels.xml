@@ -4797,7 +4797,64 @@
             <category>egypt</category>
         </assignedcategory>
     </channel>
-
+    <channel>
+        <cname>On TV +7</cname>
+        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/ontv_zps1b881c86.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>news</category>
+            <category>egypt</category>
+        </assignedcategory>
+    </channel>
+    <channel>
+        <cname>Nile Cinema +7</cname>
+        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/nlcin_zpsd0c57a0e.png</imageurl>
+        <assignedcategory>
+            <category>drama</category>
+            <category>egypt</category>
+        </assignedcategory>
+    </channel>
+    <channel>
+        <cname>Time Comedy +7</cname>
+        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/cmdi_zpsbd253edc.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>drama</category>
+        </assignedcategory>
+    </channel>
+    <channel>
+        <cname>CBC +7</cname>
+        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/cbc_zps770dbcaf.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>ent</category>
+            <category>egypt</category>
+        </assignedcategory>
+    </channel>
+    <channel>
+        <cname>Cairo Cinema +7</cname>
+        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/ciro_zpsfc027c99.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>drama</category>
+        </assignedcategory>
+    </channel>
+    <channel>
+        <cname>Al-Nahar Drama +7</cname>
+        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/nhrdrm_zpsa4484404.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>drama</category>
+        </assignedcategory>
+    </channel>
+    <channel>
+        <cname>Al Nahar +7</cname>
+        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/nhreg_zps67cbfc95.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>egypt</category>
+        </assignedcategory>
+    </channel>
 
 
 </channels>
