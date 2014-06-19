@@ -80,3 +80,16 @@ here get-decrypted-rtmp returns a string not html page url
 
 
 
+External link to another file via URL
+use externallink and point it to the url where the file is hosted, this supported both in Items and as well as Channels format.
+For item, leave the link tag  with something dummy and enter the new tag with correct data, while in channels format there is no link.
+
+
+
+
+
+
+
+
+
+

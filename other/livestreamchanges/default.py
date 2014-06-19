@@ -283,6 +283,7 @@ def getSoup(url):
 
 def getData(url,fanart):
         soup = getSoup(url)
+        print 'url-getData',url
         if len(soup('channels')) > 0:
             channels = soup('channel')
             for channel in channels:
@@ -290,10 +291,11 @@ def getData(url,fanart):
 
                 linkedUrl=''
                 try:
-                    linkedUrl =  channel('link')[0].string
+                    linkedUrl =  channel('externallink')[0].string
                     
 
                 except: pass
+                print 'linkedUrl',linkedUrl
 
                 name = channel('name')[0].string
                 thumbnail = channel('thumbnail')[0].string
@@ -465,11 +467,18 @@ def getItems(items,fanart):
             except:
                 addon_log('Error <link> element, Passing:'+name.encode('utf-8', 'ignore'))
                 continue
-            isXMLSource=False
+                
+            XMLSource=False
 
             try:
-                isXMLSource = not item('isxmlsource')[0].string==None
+                XMLSource = item('externallink')[0].string
             except: pass
+            
+            if XMLSource:
+                link=XMLSource
+                XMLSource=True
+            else:
+                XMLSource=False
             
             try:
                 thumbnail = item('thumbnail')[0].string
