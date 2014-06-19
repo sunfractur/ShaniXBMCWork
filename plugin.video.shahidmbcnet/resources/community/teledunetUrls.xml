@@ -313,15 +313,15 @@
 	</streaminginfo>
 	<streaminginfo>
 		<cname>Alhayat 1</cname>
-		<url>alhayat_1</url>
+		<url>alhayat</url>
 	</streaminginfo>
 	<streaminginfo>
 		<cname>Alhayat Cinema</cname>
-		<url>alhayat_cinema</url>
+		<url>al_hayat_cinema</url>
 	</streaminginfo>
 	<streaminginfo>
 		<cname>Alhayat-Series</cname>
-		<url>alhayat_series</url>
+		<url>al_hayat_series</url>
 	</streaminginfo>
 	<streaminginfo>
 		<cname>Aliraqiya</cname>
@@ -357,7 +357,7 @@
 	</streaminginfo>
 	<streaminginfo>
 		<cname>Arabica Music</cname>
-		<url>arabica_music</url>
+		<url>arabica_tv</url>
 	</streaminginfo>
 	<streaminginfo>
 		<cname>Arrabia</cname>
