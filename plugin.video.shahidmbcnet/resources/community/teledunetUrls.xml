@@ -533,6 +533,10 @@
 		<cname>Funoon</cname>
 		<url>funoon</url>
 	</streaminginfo>
+		<streaminginfo>
+		<cname>Future TV</cname>
+		<url>future</url>
+	</streaminginfo>
 	<streaminginfo>
 		<cname>Fx Arabia</cname>
 		<url>fx_arabia</url>
