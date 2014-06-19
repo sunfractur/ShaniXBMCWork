@@ -1,5 +1,22 @@
 <channels>
 <channel>
+	<cname>Noon Kids</cname>
+	<imageurl>http://www.lyngsat-logo.com/hires/nn/noon_kids_tv_jo.png</imageurl>
+	<enabled>True</enabled>
+	<assignedcategory>
+	<category>kids</category>
+	</assignedcategory>
+</channel>
+<channel>
+	<cname>Hawas</cname>
+	<imageurl>http://www.lyngsat-logo.com/logo/tv/hh/hawas_tv.png</imageurl>
+	<enabled>True</enabled>
+	<assignedcategory>
+	<category>gulf</category>
+	<category>drama</category>
+	</assignedcategory>
+</channel>
+<channel>
 	<cname>Aden Live</cname>
 	<imageurl>http://www.lyngsat-logo.com/logo/tv/aa/aden_live.jpg</imageurl>
 	<enabled>True</enabled>
