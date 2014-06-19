@@ -1,5 +1,13 @@
 <channels>
 <channel>
+	<cname>Aden Live</cname>
+	<imageurl>http://www.lyngsat-logo.com/logo/tv/aa/aden_live.jpg</imageurl>
+	<enabled>True</enabled>
+	<assignedcategory>
+	<category>gulf</category>
+	</assignedcategory>
+</channel>
+<channel>
 	<cname>CNBC Arabic</cname>
 	<imageurl>http://www.lyngsat-logo.com/hires/cc/cnbc_arabiya.png</imageurl>
 	<enabled>True</enabled>
