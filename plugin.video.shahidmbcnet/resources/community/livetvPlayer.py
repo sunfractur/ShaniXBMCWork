@@ -42,6 +42,13 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 		retryPlay=True
 		liveTvPremiumCode=selfAddon.getSetting( "liveTvPremiumCode" )
 		liveTvNonPremiumCode=selfAddon.getSetting( "liveTvNonPremiumCode" )
+		if liveTvPremiumCode=="" and liveTvNonPremiumCode=="":
+				pDialog.close()
+				Msg="Please login using Livetv login option on main menu."
+				dialog = xbmcgui.Dialog()
+				ok = dialog.ok('Livetv Login', Msg)
+				return False
+
 		lastWorkingCode=selfAddon.getSetting( "lastLivetvWorkingCode" )
 		while retryPlay:
 			retryPlay=False
@@ -49,7 +56,7 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 			disableFreeForNow=True# Tick tock tick tock.. you were lucking that you didn't play the game. but no more games anymore :(
 			#dont worry, its still disable
 			if liveTvPremiumCode=="":
-				if lastWorkingCode=="" and liveTvNonPremiumCode=="":
+				if lastWorkingCode=="" and liveTvNonPremiumCode=="":#this shouldn't happen now
 					#timeD = 2000  #in miliseconds
 					#line1="Login disabled, use Non Premium code"
 					#xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, timeD, __icon__))
@@ -119,7 +126,7 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 			else:
 				#selfAddon.setSetting( id="lastLivetvWorkingCode" ,value="")
 				lastWorkingCode=""
-				retryPlay=usingLastWorkingCode
+				#retryPlay=usingLastWorkingCode#this is not required
 		return False
 	except:
 		traceback.print_exc(file=sys.stdout)    
@@ -211,7 +218,7 @@ def getcode():
 			if link=="":
 				link=getUrl(codepage,cookieJar)
 			link=javascriptUnEscape(link)
-		code =re.findall('\"ch.*(\?.*?)\"', link)
+		code =re.findall('\?c.?.?.?.?=(.*?)[\'\"]', link)
 		if (not code==None) and len(code)>0:
 			#print 'print link is ',link
 			code=code[0]
@@ -274,7 +281,23 @@ def getCookieJar():
 	
 	return cookieJar
 
+
 	
+def getLoginCode():
+	login_code=None
+	try:
+		login_required=shouldforceLogin()
+		if login_required:
+			login_required=not performLogin()
+		if login_required:
+			return False
+		login_code= getcode()
+		print 'login_code',login_code
+	except:
+		print 'login failed'
+		traceback.print_exc(file=sys.stdout)
+	return login_code
+		
 def performLogin():
 	cookieJar=getCookieJar()
 	
