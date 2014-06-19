@@ -322,3 +322,20 @@
 </regex>
 </item>
 
+<item>
+<title>geonews humariweb</title>
+<link>$doregex[get-url]&amp;from=http://hamariweb.com/pakistan-tv-channels/geo_entertainment_live.aspx token=^edH($#w)5 flashver=WIN\2013,0,0,214 playpath=live_360p pageUrl=http://hamariweb.com/pakistan-tv-channels/geo_entertainment_live.aspx swfVfy=1 swfUrl=http://live.seenreport.com:82/media/js/player/player-3.2.18.swf live=1 timeout=20</link>
+
+<regex>
+<name>get-url</name>
+<expres>(rtmp.*?)\"</expres>
+<page>http://live.seenreport.com:82/ent/live/auth/web/?cb=jQuery17207147574345581234_$doregex[get-epoc]&amp;appid=3712582629&amp;w=700&amp;h=357&amp;from=http://hamariweb.com/pakistan-tv-channels/geo_entertainment_live.aspx&amp;_=$doregex[get-epoc]</page>
+<referer>http://hamariweb.com/pakistan-tv-channels/geo_entertainment_live.aspx</referer>
+</regex>
+
+<regex>
+<name>get-epoc</name>
+<expres>$epoctime$</expres>
+<page></page>
+</regex>
+</item>
