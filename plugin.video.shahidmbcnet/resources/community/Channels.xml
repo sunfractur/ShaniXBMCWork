@@ -2502,7 +2502,8 @@
         <imageurl>http://www.lyngsat-logo.com/hires/aa/alhayat_series.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-            <category>drama</category>
+        <category>drama</category>
+        <category>egypt</category>
         </assignedcategory>
     </channel>
 
