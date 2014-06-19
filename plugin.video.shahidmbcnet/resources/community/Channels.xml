@@ -2016,6 +2016,7 @@
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/hyt2_zps5a349a8c.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
+            <category>drama</category>
             <category>egypt</category>
         </assignedcategory>
     </channel>
@@ -2478,26 +2479,27 @@
 	
     <channel>
         <cname>Alhayat 1</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/hyt_zpscc2ad729.png</imageurl>
+        <imageurl>http://www.lyngsat-logo.com/hires/aa/alhayat.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-            <category>ent</category>
+            <category>drama</category>
             <category>egypt</category>
         </assignedcategory>
     </channel>
 
     <channel>
         <cname>Alhayat Cinema</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/cinehyt_zps912cf9c2.png</imageurl>
+        <imageurl>http://www.lyngsat-logo.com/hires/aa/alhayat_cinema.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>drama</category>
+            <category>egypt</category>
         </assignedcategory>
     </channel>
 
     <channel>
         <cname>Alhayat-Series</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/ser_zps47ce7635.png</imageurl>
+        <imageurl>http://www.lyngsat-logo.com/hires/aa/alhayat_series.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>drama</category>
