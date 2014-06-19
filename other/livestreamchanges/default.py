@@ -292,10 +292,8 @@ def getData(url,fanart):
                 linkedUrl=''
                 try:
                     linkedUrl =  channel('externallink')[0].string
-                    
-
                 except: pass
-                print 'linkedUrl',linkedUrl
+                #print 'linkedUrl',linkedUrl
 
                 name = channel('name')[0].string
                 thumbnail = channel('thumbnail')[0].string
@@ -429,7 +427,7 @@ def getSubChannelItems(name,url,fanart):
 def getItems(items,fanart):
         total = len(items)
         addon_log('Total Items: %s' %total)
-		
+
         for item in items:
             #print item
             try:
@@ -439,7 +437,7 @@ def getItems(items,fanart):
             except:
                 addon_log('Name Error')
                 name = ''
-			
+
 
             try:
                 if item('epg'):
@@ -468,17 +466,17 @@ def getItems(items,fanart):
                 addon_log('Error <link> element, Passing:'+name.encode('utf-8', 'ignore'))
                 continue
                 
-            XMLSource=False
+            isXMLSource=False
 
             try:
-                XMLSource = item('externallink')[0].string
+                isXMLSource = item('externallink')[0].string
             except: pass
             
-            if XMLSource:
-                link=XMLSource
-                XMLSource=True
+            if isXMLSource:
+                link=[isXMLSource]
+                isXMLSource=True
             else:
-                XMLSource=False
+                isXMLSource=False
             
             try:
                 thumbnail = item('thumbnail')[0].string
