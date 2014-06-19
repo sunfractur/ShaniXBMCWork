@@ -1,5 +1,12 @@
 <streamingInfos>
 <streaminginfo>
+	<cname>Aden live</cname>
+	<item>
+	<title>SD</title>
+	<link>rtmp://50.22.217.194/live/livestream swfUrl=http://fpdownload.adobe.com/strobe/FlashMediaPlayback.swf pageUrl=http://adenlivetv.tv/live.html live=1 timeout=20</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
 	<cname>AlBabeleyia</cname>
 	<item>
 	<title>SD</title>
