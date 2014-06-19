@@ -6,7 +6,7 @@
 
 <streaminginfo>
         <cname>Mazzika</cname>
-		<item><title>magictvbox</title><link>http://cdn.magictvbox.com/live/10142.stream/playlist.m3u8</link></item>
+	<item><title>magictvbox</title><link>http://cdn.magictvbox.com/live/10142.stream/playlist.m3u8</link></item>
 </streaminginfo>
 
 <streaminginfo>
@@ -168,7 +168,7 @@
         </item>
     </streaminginfo>
     <streaminginfo>
-        <cname>On TV</cname>
+        <cname>On TV +7</cname>
         <item>
             <title>magictvbox</title>
             <link>http://cdn-delay1.magictvbox.com/OnTV-SD.m3u8</link>
@@ -317,7 +317,7 @@
         </item>
     </streaminginfo>
     <streaminginfo>
-        <cname>Nile Cinema</cname>
+        <cname>Nile Cinema +7</cname>
         <item>
             <title>magictvbox</title>
             <link>http://cdn-delay1.magictvbox.com/14.m3u8</link>
@@ -416,7 +416,7 @@
 		</item>
 	</streaminginfo>
 	<streaminginfo>
-		<cname>Time Comedy</cname>
+		<cname>Time Comedy +7</cname>
 		<item>
 			<title> magictv srv2</title>
 			<link>http://cdn-delay1.magictvbox.com/15.m3u8</link>
@@ -424,7 +424,7 @@
 	</streaminginfo>
 	
 	<streaminginfo>
-		<cname>On TV</cname>
+		<cname>On TV +7</cname>
 		<item>
 			<title> magictv</title>
 			<link>http://cdn-delay1.magictvbox.com/10.m3u8</link>
@@ -524,31 +524,28 @@
 			<link>http://cdn-streamer1.magictvbox.com/live/10149.stream/chunklist.m3u8</link>
 		</item>
 	</streaminginfo><streaminginfo>
-		<cname>CBC</cname>
+		<cname>CBC +7</cname>
 		<item>
 			<title>magictvbox</title>			
 			<link>http://cdn-delay1.magictvbox.com/13.m3u8</link>
 		</item>
 	</streaminginfo>
 	<streaminginfo>
-		<cname>CBC</cname>
+		<cname>CBC +7</cname>
 		<item>
 			<title> magictv  SRV 2</title>
 			<link>http://cdn-delay1.magictvbox.com/6.m3u8</link>
 		</item>
 	</streaminginfo>
 	<streaminginfo>
-		<cname>Cairo Cinema</cname>
+		<cname>Cairo Cinema +7</cname>
 		<item>
 			<title> magictv</title>
 			<link>http://cdn-delay1.magictvbox.com/1.m3u8</link>
 		</item>
 	</streaminginfo>
-	
-	
-	
 	<streaminginfo>
-		<cname>Cairo Drama</cname>
+		<cname>Cairo Drama +7</cname>
 		<item>
 			<title>magictvbox</title>			
 			<link>http://cdn-delay1.magictvbox.com/3.m3u8</link>
@@ -570,7 +567,7 @@
 	</streaminginfo>
 	
 	<streaminginfo>
-		<cname>Al-Nahar Drama</cname>
+		<cname>Al-Nahar Drama +7</cname>
 		<item>
 			<title> magictv  </title>
 			<link>http://cdn-delay1.magictvbox.com/11.m3u8</link>
@@ -585,7 +582,7 @@
 		</item>
 	</streaminginfo>
 	<streaminginfo>
-		<cname>Al Nahar</cname>
+		<cname>Al Nahar +7</cname>
 		<item>
 			<title> magictv SRV 3</title>
 			<link>http://cdn-delay1.magictvbox.com/5.m3u8</link>
