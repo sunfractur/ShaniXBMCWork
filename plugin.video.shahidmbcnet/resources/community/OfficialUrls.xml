@@ -1,5 +1,12 @@
 <streamingInfos>
 <streaminginfo>
+	<cname>Halab Today</cname>
+	<item>
+	<title>SD</title>
+	<link>rtmp://tulip.wowzacontrol.com:1935/8010/8010 swfUrl=http://www.tootvs.com/streaming/FLVplayer_Custom.swf pageUrl=http://halabtoday.org/ live=1 timeout=20</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
 	<cname>ETV Ethiopia</cname>
 	<item>
 	<title>ETV</title>
