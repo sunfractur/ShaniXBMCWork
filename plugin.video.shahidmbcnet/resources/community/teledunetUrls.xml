@@ -1,5 +1,76 @@
 <streamingInfos>
 <streaminginfo>
+	<cname>Iraqiya Sport</cname>
+	<url>aliraqiya_sport</url>
+</streaminginfo>
+
+<streaminginfo>
+	<cname>Saudia Sport</cname>
+	<url>saudisport</url>
+</streaminginfo>
+
+
+<streaminginfo>
+	<cname>Al Hiwar</cname>
+	<url>alhewar</url>
+</streaminginfo>
+
+<streaminginfo>
+	<cname>Al Anwar</cname>
+	<url>alanwar</url>
+</streaminginfo>
+<streaminginfo>
+	<cname>Alhayat 1</cname>
+	<title>SRV1</title>
+	<url>Alhayat_1</url>
+</streaminginfo>
+<streaminginfo>
+	<cname>Al Baghdadia Drama</cname>
+	<url>al_bagdadia_2_ch_2</url>
+</streaminginfo>
+<streaminginfo>
+	<cname>AlQahera W Elnas 2</cname>
+	<url>al_kahera_wal_nas_2</url>
+</streaminginfo>
+<streaminginfo>
+	<cname>AlQahera W Elnas</cname>
+	<url>al_kahera_wal_nas</url>
+</streaminginfo>
+
+<streaminginfo>
+	<cname>Egypt 1</cname>
+	<url>al_oula</url>
+</streaminginfo>
+<streaminginfo>
+	<cname>Al Nahar</cname>
+	<url>al_nahar</url>
+</streaminginfo>
+<streaminginfo>
+	<cname>Bein Sport News</cname>
+	<url>bein_news</url>
+</streaminginfo>
+<streaminginfo>
+	<cname>Euro News Arabic</cname>
+	<url>euro_news</url>
+</streaminginfo>
+<streaminginfo>
+	<cname>Sada AlBalad Drama</cname>
+	<url>sada_elbalad_drama</url>
+</streaminginfo>
+<streaminginfo>
+	<cname>Orient News</cname>
+	<url>orient_news</url>
+</streaminginfo>
+<streaminginfo>
+	<cname>Orient News</cname>
+	<url>orient_news</url>
+</streaminginfo>
+<streaminginfo>
+	<cname>Telvza TV</cname>
+	<url>telvza_tv</url>
+</streaminginfo>
+
+<streaminginfo>
 	<cname>alkass</cname>
 	<url>Alkass</url>
 </streaminginfo>
@@ -313,6 +384,7 @@
 	</streaminginfo>
 	<streaminginfo>
 		<cname>Alhayat 1</cname>
+		<title>SRV2</title>
 		<url>alhayat</url>
 	</streaminginfo>
 	<streaminginfo>
