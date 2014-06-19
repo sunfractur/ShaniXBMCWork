@@ -1,5 +1,22 @@
 <streamingInfos>
-
+<streaminginfo>
+<cname>Zee Aflam</cname>
+<item>
+<title>Mips Low</title>
+<link>rtmp://$doregex[rtmp]/live playpath=xcvcwvvwwwcccvvv?id=$doregex[getid] swfUrl=http://www.mips.tv/content/scripts/eplayer.swf pageUrl=http://mips.tv conn=S:OK live=1 swfVfy=1 timeout=20</link>
+<regex>
+<name>rtmp</name>
+<expres>.*redirect=([\.\d]+)</expres>
+<page>http://mips.tv:1935/loadbalancer</page>
+</regex>
+<regex>
+<name>getid</name>
+<expres>FlashVars.*'id=(.*?)&amp;</expres>
+<page>http://www.mips.tv/embedplayer/xcvcwvvwwwcccvvv/1/500/400</page>
+<referer>http://mips.tv/xcvcwvvwwwcccvvv</referer>
+</regex>
+</item>
+</streaminginfo>
 <streaminginfo>
 <cname>Alriadia Sport</cname>
 <item>
