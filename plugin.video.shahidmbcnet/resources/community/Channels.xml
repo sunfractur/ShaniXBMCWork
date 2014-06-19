@@ -4855,6 +4855,14 @@
             <category>egypt</category>
         </assignedcategory>
     </channel>
+    <channel>
+        <cname>CBC Drama +7</cname>
+        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/cbcdrm_zps71aabc17.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>drama</category>
+        </assignedcategory>
+    </channel>
 
 
 </channels>
