@@ -212,11 +212,24 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
             
             if '$epoctime$' in url:
                 url=url.replace('$epoctime$',getEpocTime())
+            if '$GUID$' in url:
+                import uuid
+                url=url.replace('$GUID$',str(uuid.uuid1()).upper())
+            if '$get_cookies$' in url:
+                url=url.replace('$get_cookies$',getCookiesString(cookieJar))   
             
             if recursiveCall: return url
     print 'final url',url
     return url
-
+def getCookiesString(cookieJar):
+    try:
+        cookieString=""
+        for index, cookie in enumerate(cookieJar):
+            cookieString+=cookie.name + "=" + cookie.value +";"
+    except: pass
+    print 'cookieString',cookieString
+    return cookieString
+    
 def getEpocTime():
     import time
     return str(int(time.time()*1000))
