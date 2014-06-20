@@ -1853,14 +1853,7 @@
     </channel>
 
     
- <channel>
-        <cname>Bein2 HD</cname>
-        <imageurl>http://2.bp.blogspot.com/-90vek3OtDyE/UsOgqFDWjqI/AAAAAAAAHzQ/Z_gUKJpB6dQ/s1600/f_beIN+Sports+HD2+%5Bbein2%5D.png</imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-            <category>sports</category>
-        </assignedcategory>
-    </channel>
+
 	
 	<channel>
         <cname>Iraqiya Sport</cname>
@@ -1871,85 +1864,7 @@
         </assignedcategory>
     </channel>
 
-    
-    
-    
-    
-    <channel>
-        <cname>Bein6 HD</cname>
-        <imageurl>http://2.bp.blogspot.com/-5AJOkONYilE/UsOgrVjRFlI/AAAAAAAAHzk/ViPo3lh5k3k/s1600/f_beIN+Sports+HD6+%5Bbein2%5D.png</imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-            <category>sports</category>
-        </assignedcategory>
-    </channel>
-
-    
-    <channel>
-        <cname>Bein7 HD</cname>
-        <imageurl>http://4.bp.blogspot.com/-w-LDy619pOc/UsOgrlENOWI/AAAAAAAAHzg/3QONDdwaNeM/s1600/f_beIN+Sports+HD7+%5Bbein2%5D.png</imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-            <category>sports</category>
-        </assignedcategory>
-    </channel>
-
-    
-    <channel>
-        <cname>Bein8 HD</cname>
-        <imageurl>http://4.bp.blogspot.com/-1-nbRaP-Mv8/UsOgsfflKwI/AAAAAAAAH0I/6IkkjNKXLpU/s1600/f_beIN+Sports+HD8+%5Bbein2%5D.png</imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-            <category>sports</category>
-        </assignedcategory>
-    </channel>
-
-    
-    <channel>
-        <cname>Bein9 HD</cname>
-        <imageurl>http://2.bp.blogspot.com/-2-XDROOByCs/UsOgsr564eI/AAAAAAAAHz8/00jdQ4GuBFw/s1600/f_beIN+Sports+HD9+%5Bbein2%5D.png</imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-            <category>sports</category>
-        </assignedcategory>
-    </channel>
-
-    
-    
-    
-    <channel>
-        <cname>Bein10 HD</cname>
-        <imageurl>http://2.bp.blogspot.com/-35hZV_FUyMQ/UsOgmzr4kcI/AAAAAAAAHyI/gPZOVlqKLD4/s1600/f_beIN+Sports+HD10+%5Bbein2%5D.png</imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-            <category>sports</category>
-        </assignedcategory>
-    </channel>
-
-    
-    <channel>
-        <cname>Bein11 HD</cname>
-        <imageurl>http://4.bp.blogspot.com/-MOlk4q9kDgM/UsOgnjT_UNI/AAAAAAAAHyc/a6dHiGS6N0E/s1600/f_beIN+Sports+HD11+%5Bbein2%5D.png</imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-            <category>sports</category>
-        </assignedcategory>
-    </channel>
-
-    
-    
-     <channel>
-        <cname>Bein12 HD</cname>
-        <imageurl>http://2.bp.blogspot.com/-iIokMk6UOZM/UsOgn1IeezI/AAAAAAAAHyY/eR7WumIwlF8/s1600/f_beIN+Sports+HD12+%5Bbein2%5D.png</imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-            <category>sports</category>
-        </assignedcategory>
-    </channel>
-
-    
-    
-    <channel>
+  <channel>
         <cname>TMC</cname>
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/tmc_zps97f4794e.png</imageurl>
         <enabled>True</enabled>
