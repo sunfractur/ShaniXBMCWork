@@ -474,7 +474,7 @@
 	<streaminginfo>
 		<cname>Dubai</cname>
 		<item>
-			<title>rtmp</title>
+			<title>Low</title>
 			<link>rtmp://wms03.endavomedia.com:1935/dmilivedubaitv/dmilivedubaitv_1 timeout=20</link>
 		</item>
 	</streaminginfo>
@@ -848,7 +848,7 @@
 <streaminginfo>
      	<cname>Dubai</cname>
 	<item>
-	<title>Original source</title>
+	<title>High</title>
 	<link>http://cdnedvrdubaitv.endavomedia.com/smil:dmilivedubaitvhls.smil/playlist.m3u8</link>
 	</item>
 </streaminginfo>
@@ -1133,7 +1133,7 @@
         <cname>Dubai Racing</cname>
 	<item>
 	<title>Low</title>
-	<link>rtsp://wms04.endavomedia.com:1935/dmilivedubairacing2/dmilivedubairacing2_1</link>
+	<link>rtsp://wms04.endavomedia.com:1935/dmilivedubairacing2/dmilivedubairacing2_1 timeout=20</link>
 	</item>
 </streaminginfo>
 
