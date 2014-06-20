@@ -339,3 +339,25 @@
 <page></page>
 </regex>
 </item>
+
+
+
+<item>
+<title>UnPackTest</title>
+<link>$doregex[get-m3u8]</link>
+<regex>
+
+<name>get-m3u8</name>
+<expres>(http.*?.m3u8)"</expres>
+<page>$doregex[get-unpacked]</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>get-unpacked</name>
+<expres>$pyFunction:get_unpacked('http://shoof.alkass.net/shoof/live/live_2.php','.script.*(eval.*)\\s' )</expres>
+<page></page>
+</regex>
+</item>
+
+
