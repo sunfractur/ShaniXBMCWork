@@ -1,5 +1,22 @@
 <streamingInfos>
+<streaminginfo>
+	<cname>Rudaw</cname>
+<item><title>High rtmp</title><link>rtmp://livestreaming.itworkscdn.net/rudawlive/rudawtv swfUrl=http://rudaw.net/flowplayer/flowplayer.commercial-3.2.16.swf pageUrl=http://rudaw.net/sorani/onair/tv/live</link>
+</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Rudaw</cname>
+<item><title>Med</title><link>http://livestreaming.itworkscdn.net/rudawlive/rudawtv_240p/playlist.m3u8</link>
+</item>
+</streaminginfo>
 
+<streaminginfo>
+	<cname>Rudaw</cname>
+	<item>
+	<title>High</title>
+	<link>http://livestreaming.itworkscdn.net/rudawlive/rudawtv_360p/playlist.m3u8</link>
+	</item>
+</streaminginfo>
 <streaminginfo>
 <cname>alkass</cname>
 <item>
