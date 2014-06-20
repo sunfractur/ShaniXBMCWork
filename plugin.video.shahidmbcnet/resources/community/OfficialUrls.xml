@@ -1,5 +1,15 @@
 <streamingInfos>
 <streaminginfo>
+	<cname>Alan</cname><item><title>Low</title><link>http://livestreaming.itworkscdn.net/alaanlive/alaantv_160p/playlist.m3u8</link></item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Alan</cname><item><title>Med</title><link>http://livestreaming.itworkscdn.net/alaanlive/alaantv_240p/playlist.m3u8</link></item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Alan</cname><item><title>High</title><link>http://livestreaming.itworkscdn.net/alaanlive/alaantv_360p/playlist.m3u8</link></item>
+</streaminginfo>
+
+<streaminginfo>
 	<cname>Dua</cname><item><title>Lower</title><link>http://live5.haditv.com:1935/liveTrans/mp4:channel5_110k/playlist.m3u8</link></item>
 </streaminginfo>
 <streaminginfo>
