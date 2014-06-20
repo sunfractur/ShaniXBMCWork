@@ -4363,6 +4363,7 @@
         <enabled>True</enabled>
         <assignedcategory>
             <category>sports</category>
+			<category>cup</category>
         </assignedcategory>
     </channel>
 
