@@ -1132,11 +1132,18 @@
 <streaminginfo>
         <cname>Dubai Racing</cname>
 	<item>
-	<title>Original Source</title>
-	<link>http://cdnehlsdubairacing2.endavomedia.com/smil:dmilivedubairacing2.smil/gmswf.m3u8</link>
+	<title>Low</title>
+	<link>rtsp://wms04.endavomedia.com:1935/dmilivedubairacing2/dmilivedubairacing2_1</link>
 	</item>
 </streaminginfo>
 
+<streaminginfo>
+        <cname>Dubai Racing</cname>
+	<item>
+	<title>High</title>
+	<link>http://cdnehlsdubairacing2.endavomedia.com/smil:dmilivedubairacing2.smil/playlist.m3u8</link>
+	</item>
+</streaminginfo>
 
 <streaminginfo>
         <cname>Dubai One</cname>
