@@ -1,5 +1,18 @@
 <streamingInfos>
 <streaminginfo>
+	<cname>Dua</cname><item><title>Lower</title><link>http://live5.haditv.com:1935/liveTrans/mp4:channel5_110k/playlist.m3u8</link></item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Dua</cname><item><title>Low</title><link>http://live5.haditv.com:1935/liveTrans/mp4:channel5_190k/playlist.m3u8</link></item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Dua</cname><item><title>Med</title><link>http://live5.haditv.com:1935/liveTrans/mp4:channel5_450k/playlist.m3u8</link></item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Dua</cname><item><title>High 720p</title><link>http://live5.haditv.com:1935/liveTrans/mp4:channel5_800k/playlist.m3u8</link></item>
+</streaminginfo>
+
+<streaminginfo>
 	<cname>Rudaw</cname>
 <item><title>High rtmp</title><link>rtmp://livestreaming.itworkscdn.net/rudawlive/rudawtv swfUrl=http://rudaw.net/flowplayer/flowplayer.commercial-3.2.16.swf pageUrl=http://rudaw.net/sorani/onair/tv/live</link>
 </item>
