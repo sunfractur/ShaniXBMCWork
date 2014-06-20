@@ -1,5 +1,13 @@
 <channels>
 <channel>
+	<cname>Dua</cname>
+	<imageurl>http://www.lyngsat-logo.com/hires/dd/dua_channel.png</imageurl>
+	<enabled>True</enabled>
+	<assignedcategory>
+	<category>islam</category>
+	</assignedcategory>
+</channel>
+<channel>
 	<cname>Rudaw</cname>
 	<imageurl>http://rudaw.net/ContentFiles/51591Image1.jpg</imageurl>
 	<enabled>True</enabled>
