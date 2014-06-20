@@ -1355,10 +1355,11 @@
 	</channel>
 	<channel>
 			<cname>Al Dafra</cname>
-			<imageurl>http://www.lyngsat-logo.com/logo/tv/aa/al_dafrah.png</imageurl>
+			<imageurl>http://s23.postimg.org/59iijkd5n/icon_340.png</imageurl>
 			<enabled>True</enabled>
 			<assignedcategory>
 			 <category>sham</category>
+			 <category>gulf</category>
 			</assignedcategory>
 	</channel>
 	<channel>
