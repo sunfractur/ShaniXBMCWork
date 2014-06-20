@@ -160,11 +160,13 @@
 	<url>melody_hits</url>
 </streaminginfo>
 <streaminginfo>
-	<cname>Bein2 HD</cname>
+	<cname>Bein Sport 2</cname>
+	<title>HD</title>
 	<url>bein_sport_2_hd</url>
 </streaminginfo>
 <streaminginfo>
-	<cname>Bein6 HD</cname>
+	<cname>Bein Sport 6</cname>
+	<title>HD</title>
 	<url>bein_sport_6_hd</url>
 </streaminginfo>
 <streaminginfo>
