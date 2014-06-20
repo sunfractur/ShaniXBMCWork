@@ -812,10 +812,21 @@
 	<cname>Palestine</cname>
 	<item><title>Original Source High</title><link>rtmp://vstream2.hadara.ps:1935/pbc/pbc_1 timeout=20</link><thumbnail></thumbnail></item>
 </streaminginfo>
-
 <streaminginfo>
 	<cname>Al Dafra</cname>
-	<item><title>Original source</title>
+	<item><title>low</title>
+	<link>http://live.aldafrah.tv:1935/live/aldafrah1/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Al Dafra</cname>
+	<item><title>Med</title>
+	<link>http://live.aldafrah.tv:1935/live/aldafrah2/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Al Dafra</cname>
+	<item><title>High</title>
 	<link>http://live.aldafrah.tv:1935/live/aldafrah3/playlist.m3u8</link>
 	</item>
 </streaminginfo>
