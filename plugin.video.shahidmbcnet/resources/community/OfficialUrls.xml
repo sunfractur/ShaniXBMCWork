@@ -243,11 +243,17 @@
 <streaminginfo>
 	<cname>ETV Ethiopia</cname>
 	<item>
-	<title>ETV</title>
+	<title>ETV SVR1</title>
 	<link>rtmp://media8.vixtream.net:80/etvlive playpath=etv.stream swfUrl=http://www.allcomtv.com/vxplayer/player57.swf pageUrl=http://www.allcomtv.com/etv live=1 timeout=20</link>
 	</item>
 </streaminginfo>
-
+<streaminginfo>
+	<cname>ETV Ethiopia</cname>
+	<item>
+	<title>ETV SRV2</title>
+	<link>rtmp://213.55.98.102/live/livestream swfUrl=http://www.etvlive.gov.et/StrobeMediaPlayback.swf pageUrl=http://www.etvlive.gov.et/etv.html live=1 timeout=20</link>
+	</item>
+</streaminginfo>
 <streaminginfo>
 	<cname>alrayan</cname>
 	<item>
