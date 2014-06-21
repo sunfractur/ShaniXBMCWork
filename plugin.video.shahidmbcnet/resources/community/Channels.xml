@@ -1,5 +1,21 @@
 <channels>
 <channel>
+	<cname>Canal Plus</cname>
+	<imageurl>http://www.lyngsat-logo.com/hires/cc/canalplus_fr_clair_web.png</imageurl>
+	<enabled>True</enabled>
+	<assignedcategory>
+	<category>french</category>
+	</assignedcategory>
+</channel>
+<channel>
+	<cname>Chérie 25</cname>
+	<imageurl>http://www.lyngsat-logo.com/hires/cc/cherie_25_fr.png</imageurl>
+	<enabled>True</enabled>
+	<assignedcategory>
+	<category>french</category>
+	</assignedcategory>
+</channel>
+<channel>
 	<cname>Dua</cname>
 	<imageurl>http://www.lyngsat-logo.com/hires/dd/dua_channel.png</imageurl>
 	<enabled>True</enabled>
