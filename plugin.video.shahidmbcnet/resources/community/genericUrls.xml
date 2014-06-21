@@ -748,14 +748,14 @@
 <streaminginfo>
     <cname>Aljazeera Mubasher</cname>
 	<item>
-	<title>SD</title>
+	<title>High</title>
 	<link>http://hd1.lsops.net/live/smil:aljamuba_ar_hls.smil/playlist.m3u8</link>
 	</item>
 </streaminginfo>
 <streaminginfo>
     <cname>Aljazeera Mubasher Masr</cname>
 	<item>
-	<title>SD</title>
+	<title>High</title>
 	<link>http://hd1.lsops.net/live/smil:aljamisr_ar_hls.smil/playlist.m3u8</link>
 	</item>
 </streaminginfo>
