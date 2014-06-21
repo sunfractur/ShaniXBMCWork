@@ -5,7 +5,7 @@
 <item>
 <title>Livestream Low</title>
 <link>$doregex[url]</link>
-<thumbnail></thumbnail>
+
 <regex>
 <name>url</name>
 <expres>rtsp_url":"([^"]*)</expres>
@@ -920,16 +920,16 @@
 
 <streaminginfo>
     <cname>Aljazeera Balkans</cname>
-	<item><title>Low</title><link>rtmp://aljazeeraflashlivefs.fplive.net/aljazeeraflashlive-live/ playpath=aljazeera_balkans_low swfUrl=http://www.elahmad.com/tv/swf/aljazeera_balkans.swf live=1 PageUrl=http://www.elahmad.com/tv/aljazeera_balkans.php</link><thumbnail></thumbnail></item>
+	<item><title>Low</title><link>rtmp://aljazeeraflashlivefs.fplive.net/aljazeeraflashlive-live/ playpath=aljazeera_balkans_low swfUrl=http://www.elahmad.com/tv/swf/aljazeera_balkans.swf live=1 PageUrl=http://www.elahmad.com/tv/aljazeera_balkans.php</link></item>
 </streaminginfo>
 <streaminginfo>
     <cname>Aljazeera Balkans</cname>
-	<item><title>Original Source Med</title><link>rtmp://aljazeeraflashlivefs.fplive.net/aljazeeraflashlive-live/ playpath=aljazeera_balkans_med swfUrl=http://www.elahmad.com/tv/swf/aljazeera_balkans.swf live=1 PageUrl=http://www.elahmad.com/tv/aljazeera_balkans.php</link><thumbnail></thumbnail></item>
+	<item><title>Original Source Med</title><link>rtmp://aljazeeraflashlivefs.fplive.net/aljazeeraflashlive-live/ playpath=aljazeera_balkans_med swfUrl=http://www.elahmad.com/tv/swf/aljazeera_balkans.swf live=1 PageUrl=http://www.elahmad.com/tv/aljazeera_balkans.php</link></item>
 </streaminginfo>
 
 <streaminginfo>
     <cname>Aljazeera Balkans</cname>
-	<item><title> Original Source High</title><link>rtmp://aljazeeraflashlivefs.fplive.net/aljazeeraflashlive-live/ playpath=aljazeera_balkans_high swfUrl=http://www.elahmad.com/tv/swf/aljazeera_balkans.swf live=1 PageUrl=http://www.elahmad.com/tv/aljazeera_balkans.php</link><thumbnail></thumbnail></item>
+	<item><title> Original Source High</title><link>rtmp://aljazeeraflashlivefs.fplive.net/aljazeeraflashlive-live/ playpath=aljazeera_balkans_high swfUrl=http://www.elahmad.com/tv/swf/aljazeera_balkans.swf live=1 PageUrl=http://www.elahmad.com/tv/aljazeera_balkans.php</link></item>
 </streaminginfo>
 <streaminginfo>
 	<cname>ERI.TV</cname>
@@ -986,7 +986,7 @@
 </streaminginfo>
 <streaminginfo>
 	<cname>Palestine</cname>
-	<item><title>Original Source High</title><link>rtmp://vstream2.hadara.ps:1935/pbc/pbc_1 timeout=20</link><thumbnail></thumbnail></item>
+	<item><title>Original Source High</title><link>rtmp://vstream2.hadara.ps:1935/pbc/pbc_1 timeout=20</link></item>
 </streaminginfo>
 <streaminginfo>
 	<cname>Al Dafra</cname>
@@ -1425,7 +1425,7 @@
 
 <streaminginfo>
 	<cname>SkyNewsArabia</cname>
-	<item><title>720p</title><link>rtmp://llnwvps231.fc.llnwd.net/llnwvps231/ playpath=eND-IS0mT2csspFA-2vGVs_NjZq-ZuZTMIgeu3aYyqcFI_640_360_3 swfUrl=http://assets.delvenetworks.com/player/loader.swf live=1 pageUrl=http://www.skynewsarabia.com/web/home?view=live</link><thumbnail></thumbnail></item><item><title>Test1</title><link></link>
+	<item><title>720p</title><link>rtmp://llnwvps231.fc.llnwd.net/llnwvps231/ playpath=eND-IS0mT2csspFA-2vGVs_NjZq-ZuZTMIgeu3aYyqcFI_640_360_3 swfUrl=http://assets.delvenetworks.com/player/loader.swf live=1 pageUrl=http://www.skynewsarabia.com/web/home?view=live</link>
 	</item>
 </streaminginfo>
 
