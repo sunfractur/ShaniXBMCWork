@@ -1100,13 +1100,7 @@
             <link>http://38.99.146.43:7777/LibyaSportChannel1.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link>
         </item>
     </streaminginfo> 
-    <streaminginfo>
-        <cname>ANB</cname>
-        <item>
-            <title>not working at this time Low Quality Glarab</title>
-            <link>http://38.99.146.43:7777/ANB.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link>
-        </item>
-    </streaminginfo> 
+ 
     <streaminginfo>
         <cname>Neelain Sport</cname>
         <item>
