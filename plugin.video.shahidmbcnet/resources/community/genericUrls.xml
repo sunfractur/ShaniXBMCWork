@@ -1,4 +1,83 @@
 <streamingInfos>
+
+<streaminginfo>
+    <cname>DW Arabic</cname>
+<item>
+<title>Low</title>
+<link>$doregex[get-rtmp] playpath=$doregex[get-playpath] pageUrl=http://live-tv.im/dw-tv-arabia-live live=1 swfVfy=1 timeout=10</link>
+<regex>
+<name>get-rtmp</name>
+<expres>meta base="(.*?)"</expres>
+<page>http://www.metafilegenerator.de/DWelle/tv-arabia/flv/tv.smil</page>
+</regex>
+
+<regex>
+<name>get-playpath</name>
+<expres>"low"\s*src="(.*?)"</expres>
+<page>http://www.metafilegenerator.de/DWelle/tv-arabia/flv/tv.smil</page>
+</regex>
+</item>
+</streaminginfo>
+
+<streaminginfo>
+    <cname>DW Arabic</cname>
+<item>
+<title>Medium</title>
+<link>$doregex[get-rtmp] playpath=$doregex[get-playpath] pageUrl=http://live-tv.im/dw-tv-arabia-live live=1 swfVfy=1 timeout=10</link>
+<regex>
+<name>get-rtmp</name>
+<expres>meta base="(.*?)"</expres>
+<page>http://www.metafilegenerator.de/DWelle/tv-arabia/flv/tv.smil</page>
+</regex>
+
+<regex>
+<name>get-playpath</name>
+<expres>"medium"\s*src="(.*?)"</expres>
+<page>http://www.metafilegenerator.de/DWelle/tv-arabia/flv/tv.smil</page>
+</regex>
+</item>
+</streaminginfo>
+
+
+
+<streaminginfo>
+    <cname>DW Arabic</cname>
+<item>
+<title>High</title>
+<link>$doregex[get-rtmp] playpath=$doregex[get-playpath] pageUrl=http://live-tv.im/dw-tv-arabia-live live=1 swfVfy=1 timeout=10</link>
+<regex>
+<name>get-rtmp</name>
+<expres>meta base="(.*?)"</expres>
+<page>http://www.metafilegenerator.de/DWelle/tv-arabia/flv/tv.smil</page>
+</regex>
+
+<regex>
+<name>get-playpath</name>
+<expres>"high"\s*src="(.*?)"</expres>
+<page>http://www.metafilegenerator.de/DWelle/tv-arabia/flv/tv.smil</page>
+</regex>
+</item>
+</streaminginfo>
+
+<streaminginfo>
+    <cname>DW Arabic</cname>
+<item>
+<title>Highest</title>
+<link>$doregex[get-rtmp] playpath=$doregex[get-playpath] pageUrl=http://live-tv.im/dw-tv-arabia-live live=1 swfVfy=1 timeout=10</link>
+<regex>
+<name>get-rtmp</name>
+<expres>meta base="(.*?)"</expres>
+<page>http://www.metafilegenerator.de/DWelle/tv-arabia/flv/tv.smil</page>
+</regex>
+
+<regex>
+<name>get-playpath</name>
+<expres>"highest"\s*src="(.*?)"</expres>
+<page>http://www.metafilegenerator.de/DWelle/tv-arabia/flv/tv.smil</page>
+</regex>
+</item>
+</streaminginfo>
+
 <streaminginfo>
 	<cname>SkyNewsArabia</cname>
 	<item><title>Low</title><link>rtmp://hd7.lsops.net/live/ playpath=skynewsi_ar_372 swfUrl=http://static.ls-cdn.com/player/5.10/livestation-player.swf?1375719128 pageUrl==http://www.livestation.com/en/sky-news-arabia swfVfy=true live=true timeout=20</link>
