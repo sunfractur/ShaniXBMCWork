@@ -4137,12 +4137,23 @@
    </channel>
 
  
-    <channel>
-        <cname>alnabaa</cname>
-        <imageurl>https://scontent-a-ams.xx.fbcdn.net/hphotos-prn1/t1.0-9/1013507_275899339229364_107213502_n.jpg</imageurl>
+  <channel>
+        <cname>Nabaa</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/nn/nabaa_tv_sa.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>news</category>
+            <category>gulf</category>
+        </assignedcategory>
+    </channel>
+    
+    <channel>
+        <cname>alnabaa</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/aa/al_nabaa_news_channel_ly.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>news</category>
+            <category>magreb</category>
         </assignedcategory>
     </channel>
 	
