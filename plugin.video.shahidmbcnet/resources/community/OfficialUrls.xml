@@ -1,4 +1,21 @@
 <streamingInfos>
+
+<streaminginfo>
+<cname>Alghad Alarabi</cname>
+<item>
+<title>Livestream Low</title>
+<link>$doregex[url]</link>
+<thumbnail></thumbnail>
+<regex>
+<name>url</name>
+<expres>rtsp_url":"([^"]*)</expres>
+<page>http://new.livestream.com/alghadtv/events/2330953</page>
+<referer></referer>
+</regex>
+<thumbnail>https://lh3.googleusercontent.com/-bVsPeCtR7OU/Uk9R1d4m89I/AAAAAAAAADs/i5CXbdITnRQ/s630-fcrop64=1,1fff2734df96d875/1267558_250930868388531_174917928_o.jpg</thumbnail>
+</item>
+</streaminginfo>
+
 <streaminginfo>
 	<cname>CNBC Arabic</cname>
 <item>
