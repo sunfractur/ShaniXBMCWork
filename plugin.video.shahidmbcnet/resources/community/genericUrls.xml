@@ -812,20 +812,7 @@
 
 
 
-<streaminginfo>
-        <cname>Aljazeera</cname>
-	<item>
-	<title>High Quality</title>
-	<link>rtmp://hd3.lsops.net/live playpath=aljazeer_ar_838 swfUrl="http://static.ls-cdn.com/player/5.10/livestation-player.swf" swfVfy=true live=true</link>
-	</item>
-</streaminginfo>
-<streaminginfo>
-        <cname>Aljazeera</cname>
-	<item>
-	<title>Medium Quality</title>
-	<link>rtmp://hd3.lsops.net/live playpath=aljazeer_ar_372 swfUrl="http://static.ls-cdn.com/player/5.10/livestation-player.swf" swfVfy=true live=true</link>
-	</item>
-</streaminginfo>
+
 <streaminginfo>
         <cname>Aljazeera</cname>
 	<item>
@@ -841,19 +828,22 @@
 	</item>
 </streaminginfo>
 <streaminginfo>
-        <cname>AlJazeera En</cname>
+	<cname>Aljazeera</cname>
 	<item>
-	<title>Medium Quality</title>
+	<title>Med Quality</title>
 	<link>http://wpc.c1a9.edgecastcdn.net/hls-live/20C1A9/livestation/ls_lmle/aljazeer_ar_528.m3u8</link>
 	</item>
 </streaminginfo>
+
 <streaminginfo>
-        <cname>AlJazeera En</cname>
+	<cname>Aljazeera</cname>
 	<item>
 	<title>High Quality</title>
 	<link>http://wpc.c1a9.edgecastcdn.net/hls-live/20C1A9/livestation/ls_lmle/aljazeer_ar_828.m3u8</link>
 	</item>
 </streaminginfo>
+
+
 <streaminginfo>
         <cname>AlJazeera En</cname>
 	<item>
@@ -867,6 +857,21 @@
 	<title>Low Quality</title>
 	<link>rtmp://hd2.lsops.net/live playpath=aljazeer_en_145 swfUrl="http://static.ls-cdn.com/player/5.10/livestation-player.swf" swfVfy=true live=true</link>
 	</item>
+</streaminginfo>
+<streaminginfo>
+<cname>AlJazeera En</cname>
+<item>
+<title>Medium Quality</title>
+<link>rtmp://hd2.lsops.net/live playpath=aljazeer_en_372 swfUrl="http://static.ls-cdn.com/player/5.10/livestation-player.swf" swfVfy=true live=true</link>
+</item>
+</streaminginfo>
+
+<streaminginfo>
+<cname>AlJazeera En</cname>
+<item>
+<title>High Quality</title>
+<link>rtmp://hd2.lsops.net/live playpath=aljazeer_en_838 swfUrl="http://static.ls-cdn.com/player/5.10/livestation-player.swf" swfVfy=true live=true</link>
+</item>
 </streaminginfo>
 <streaminginfo>
         <cname>AlJazeera US</cname>
