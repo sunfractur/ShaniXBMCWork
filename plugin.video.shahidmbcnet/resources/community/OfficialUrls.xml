@@ -1,5 +1,10 @@
 <streamingInfos>
-
+<streaminginfo>
+	<cname>Nabaa</cname>
+	<item><title>Med</title>
+	<link>rtmp://31.14.40.238:1935/live/Nabaa swfUrl=http://www.serverroom.us/jwplayer5/player.swf pageUrl=http://nabaa.tv/%D9%85%D8%A8%D8%A7%D8%B4%D8%B1/ live=1 timeout=20</link>
+	</item>
+</streaminginfo>
 <streaminginfo>
 <cname>Alghad Alarabi</cname>
 <item>
