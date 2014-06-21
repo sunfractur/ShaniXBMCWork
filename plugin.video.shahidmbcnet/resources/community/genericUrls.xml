@@ -367,9 +367,6 @@
 
 <streaminginfo><cname>Aljazeera</cname><item><title>Ngmatv</title><link>http://85.91.143.23:1935/18859/18859.stream/playlist.m3u8</link></item></streaminginfo> 
  <streaminginfo><cname>Aljazeera Doc</cname><item><title>Ngmatv</title><link>http://85.91.143.23:1935/33578/33578.stream/playlist.m3u8</link></item></streaminginfo>  
-<streaminginfo><cname>Aljazeera Mubasher Masr</cname><item><title>Ngmatv</title><link>http://85.91.143.23:1935/35565/35565.stream/playlist.m3u8</link></item></streaminginfo>
-<streaminginfo><cname>Aljazeera Mubasher</cname><item><title>Ngmatv link1</title><link>http://85.91.143.23:1935/22458/22458.stream/playlist.m3u8</link></item></streaminginfo> 
-<streaminginfo><cname>Aljazeera Mubasher</cname><item><title>Ngmatv link2</title><link>http://85.91.143.23:1935/22458/22458.stream/playlist.m3u8</link></item></streaminginfo> 
 <streaminginfo><cname>KSA 1</cname><item><title>Ngmatv</title><link>http://85.91.143.23:1935/35874/35874.stream/playlist.m3u8</link></item></streaminginfo> 
 <streaminginfo><cname>Baraem</cname><item><title>Ngmatv</title><link>http://85.91.143.23:1935/45888/45888.stream/playlist.m3u8</link></item></streaminginfo>  
 <streaminginfo><cname>Aljazeera Children</cname><item><title>Ngmatv</title><link>http://85.91.143.23:1935/45975/45975.stream/playlist.m3u8</link></item></streaminginfo>  
@@ -748,8 +745,20 @@
 	<link>rtmp://aljazeeraflashlivefs.fplive.net/aljazeeraflashlive-live/-live playpath=aljazeera_doc_med swfUrl=http://www.arabztv.net/player.swf live=1 pageUrl=http://www.arabztv.com/ live=true swfVfy=true</link>
 	</item>
 </streaminginfo>
-
-
+<streaminginfo>
+    <cname>Aljazeera Mubasher</cname>
+	<item>
+	<title>SD</title>
+	<link>http://hd1.lsops.net/live/smil:aljamuba_ar_hls.smil/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+    <cname>Aljazeera Mubasher Masr</cname>
+	<item>
+	<title>SD</title>
+	<link>http://hd1.lsops.net/live/smil:aljamisr_ar_hls.smil/playlist.m3u8</link>
+	</item>
+</streaminginfo>
 <streaminginfo>
         <cname>Aljazeera Mubasher Masr</cname>
 	<item>
