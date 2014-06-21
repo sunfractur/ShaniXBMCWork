@@ -713,13 +713,7 @@
 		<link>rtmp://hd7.lsops.net/live/ playpath=skynewsi_ar_372 swfUrl=http://static.ls-cdn.com/player/5.10/livestation-player.swf?1375015323 pageUrl=http://www.livestation.com/ar/channels/sky-news-arabia live=1 timeout=20</link>
 		</item>
 	</streaminginfo>
-	<streaminginfo>
-		<cname>Libya</cname>
-		<item>
-			<title>livestation</title>
-			<link>rtmp://hd2.lsops.net/live playpath=libyatv_ar_372 swfUrl=http://static.ls-cdn.com/player/5.10/livestation-player.swf?1402264029 pageUrl=http://www.livestation.com/en/libyatv live=1  timeout=20</link>
-		</item>
-	</streaminginfo>
+
 	<streaminginfo>
 		<cname>DW Arabic</cname>
 		<item>
