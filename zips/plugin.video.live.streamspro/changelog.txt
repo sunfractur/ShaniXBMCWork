@@ -1,3 +1,6 @@
+Version 1.2.1
+Corrected the copy paste problem lol
+
 Version 1.2.0
 Cloned from divingmules and added all my changes
 
