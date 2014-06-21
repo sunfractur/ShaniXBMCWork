@@ -4924,6 +4924,13 @@
             <category>drama</category>
         </assignedcategory>
     </channel>
-
+    <channel>
+        <cname>LCI</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/ll/lci.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>french</category>
+        </assignedcategory>
+    </channel>
 
 </channels>
