@@ -1411,5 +1411,11 @@
 			<link>plugin://plugin.video.jtv.archives/?mode=get_channel&amp;name=alhadathtv&amp;play=1</link>
 		</item>
 	</streaminginfo>
-
+	<streaminginfo>
+  		<cname>LCI</cname>
+		<item>
+			<title>edgefcs</title>
+			<link>rtmp://cp84002.live.edgefcs.net/live playpath=eTF1-LCI-Flash-Int@15274 swfUrl=http://www.wat.tv/images/v40/PlayerWat.swf?revision=4.0.46 swfVfy=true live=true timeout=15</link>
+		</item>
+	</streaminginfo>
 </streamingInfos>
