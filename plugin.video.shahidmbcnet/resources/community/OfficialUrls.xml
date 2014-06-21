@@ -199,31 +199,32 @@
 <streaminginfo>
 	<cname>ETV Ethiopia</cname>
 	<item>
-	<title>ETV</title>
-	<link>rtmp://media6.vixtream.net:80/etvlive?hp=afd8837ccf2dd playpath=etv.stream swfUrl=http://www.allcomtv.com/vxplayer/player57.swf pageUrl=http://www.allcomtv.com/etv live=1 timeout=20</link>
-	</item>
-</streaminginfo>
-<streaminginfo>
-	<cname>ETV Ethiopia</cname>
-	<item>
 	<title>oromiyaa</title>
-	<link>rtmp://media6.vixtream.net:80/etvlive?hp=afd8837ccf2dd playpath=oromiyaa.stream swfUrl=http://www.allcomtv.com/vxplayer/player57.swf pageUrl=http://www.allcomtv.com/etv live=1 timeout=20</link>
+	<link>rtmp://media8.vixtream.net:80/etvlive playpath=oromiyaa.stream swfUrl=http://www.allcomtv.com/vxplayer/player57.swf pageUrl=http://www.allcomtv.com/tv-oromiyaa live=1 timeout=20</link>
 	</item>
 </streaminginfo>
 <streaminginfo>
 	<cname>ETV Ethiopia</cname>
 	<item>
 	<title>ESTV</title>
-	<link>rtmp://media6.vixtream.net:80/etvlive?hp=afd8837ccf2dd playpath=estv.stream swfUrl=http://www.allcomtv.com/vxplayer/player57.swf pageUrl=http://www.allcomtv.com/etv live=1 timeout=20</link>
+	<link>rtmp://media8.vixtream.net:80/etvlive playpath=estv.stream swfUrl=http://www.allcomtv.com/vxplayer/player57.swf pageUrl=http://www.allcomtv.com/estv live=1 timeout=20</link>
 	</item>
 </streaminginfo>
 <streaminginfo>
 	<cname>ETV Ethiopia</cname>
 	<item>
 	<title>ETV3</title>
-	<link>rtmp://media6.vixtream.net:80/etvlive?hp=afd8837ccf2dd playpath=etv3.stream swfUrl=http://www.allcomtv.com/vxplayer/player57.swf pageUrl=http://www.allcomtv.com/etv live=1 timeout=20</link>
+	<link>rtmp://media8.vixtream.net:80/etvlive playpath=etv3.stream swfUrl=http://www.allcomtv.com/vxplayer/player57.swf pageUrl=http://www.allcomtv.com/etv3 live=1 timeout=20</link>
 	</item>
 </streaminginfo>
+<streaminginfo>
+	<cname>ETV Ethiopia</cname>
+	<item>
+	<title>ETV</title>
+	<link>rtmp://media8.vixtream.net:80/etvlive playpath=etv.stream swfUrl=http://www.allcomtv.com/vxplayer/player57.swf pageUrl=http://www.allcomtv.com/etv live=1 timeout=20</link>
+	</item>
+</streaminginfo>
+
 <streaminginfo>
 	<cname>alrayan</cname>
 	<item>
