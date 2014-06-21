@@ -118,7 +118,30 @@
 <item><title>High rtmp</title><link>rtmp://livestreaming.itworkscdn.net/rudawlive/rudawtv swfUrl=http://rudaw.net/flowplayer/flowplayer.commercial-3.2.16.swf pageUrl=http://rudaw.net/sorani/onair/tv/live</link>
 </item>
 </streaminginfo>
+<streaminginfo>
+<cname>alkass</cname>
+<item>
+<title>Plus SD</title>
+<link>$doregex[get-rtmp] playpath=$doregex[get-playpath] flashver=WIN\2013,0,0,214 pageUrl=http://shoof.alkass.net/shoof/live/live_5.php swfUrl=http://shoof.alkass.net/shoof/jwplayer/player.swf live=1 swfVfy=1 timeout=10</link>
+<regex>
+<name>get-rtmp</name>
+<expres>streamer':'(.*?)'</expres>
+<page>$doregex[get-unpacked]</page>
+</regex>
 
+<regex>
+<name>get-playpath</name>
+<expres>file':'(.*?)'</expres>
+<page>$doregex[get-unpacked]</page>
+</regex>
+
+<regex>
+<name>get-unpacked</name>
+<expres>$pyFunction:get_unpacked('http://shoof.alkass.net/shoof/live/live_5.php','(eval.*)' )</expres>
+<page></page>
+</regex>
+</item>
+</streaminginfo>
 <streaminginfo>
 <cname>alkass</cname>
 <item>
