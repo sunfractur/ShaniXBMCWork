@@ -1,5 +1,11 @@
 <streamingInfos>
 <streaminginfo>
+	<cname>SkyNewsArabia</cname>
+	<item><title>Low</title><link>rtmp://hd7.lsops.net/live/ playpath=skynewsi_ar_372 swfUrl=http://static.ls-cdn.com/player/5.10/livestation-player.swf?1375719128 pageUrl==http://www.livestation.com/en/sky-news-arabia swfVfy=true live=true timeout=20</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
 <cname>Zee Aflam</cname>
 <item>
 <title>Mips Low</title>
