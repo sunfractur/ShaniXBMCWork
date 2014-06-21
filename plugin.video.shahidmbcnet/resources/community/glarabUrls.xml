@@ -391,13 +391,6 @@
         </item>
     </streaminginfo>
     <streaminginfo>
-        <cname>Nile Family</cname>
-        <item>
-            <title>Low Quality Glarab</title>
-            <link>http://38.99.146.43:7777/NileFamily.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link>
-        </item>
-    </streaminginfo>
-    <streaminginfo>
         <cname>Rotana Masriya</cname>
         <item>
             <title>Low Quality Glarab</title>
@@ -1276,6 +1269,13 @@
             <link>http://38.99.146.43:7777/RotanaClip.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link>
         </item>
     </streaminginfo>
+    <streaminginfo>
+        <cname>OTV Lebanon</cname>
+        <item>
+            <title>Low Quality Glarab</title>
+            <link>http://38.99.146.43:7777/OTV.m3u8?session=bdc4847b38fe5ede816551e38b136d11b11d92e4505e5a6a7adfe8e9a6301e82a299017ce29bf1aa&amp;hlsid=HLS_2487419</link>
+        </item>
+    </streaminginfo> 
 
 
 </streaminginfos>
