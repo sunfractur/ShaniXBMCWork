@@ -257,6 +257,7 @@ def doEval(fun_call,page_data=None,Cookie_Jar=None):
     
     exec ('ret_val='+fun_call)
     #exec('ret_val=1+1')
+    print 'ret_val',ret_val
     return str(ret_val)
     
 def replaceSettingsVariables(str):
@@ -466,3 +467,16 @@ def getUrl(url, cookieJar=None,post=None, timeout=20, headers=None):
     link=response.read()
     response.close()
     return link;
+
+#copies from lamda's implementation
+def get_ustream(url):
+    try:
+        for i in range(1, 51):
+            result = getUrl(url)
+            if "EXT-X-STREAM-INF" in result: return url
+            if not "EXTM3U" in result: return
+        return
+    except:
+        return
+        
+ 
