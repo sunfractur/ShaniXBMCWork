@@ -892,7 +892,7 @@ def getSourceAndStreamInfo(channelId, returnOnFirst,pDialog):
 							source_title=''
 							if match_title<>'':
 								try:
-									if source.findtext('sname')=='generic':
+									if source.findtext('id')=='generic':
 										source_title=inf.find('item').findtext('title')
 									else:
 										source_title=inf.findtext('title')
@@ -916,7 +916,7 @@ def getSourceAndStreamInfo(channelId, returnOnFirst,pDialog):
 							source_title=''
 							if match_title<>'':
 								try:
-									if source.findtext('sname')=='generic':
+									if source.findtext('id')=='generic':
 										source_title=single.find('item').findtext('title')
 									else:
 										source_title=single.findtext('title')
