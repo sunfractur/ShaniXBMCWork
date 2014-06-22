@@ -1071,5 +1071,9 @@
         <cname>Canal plus</cname>
         <chnumber>ch279</chnumber>
     </streaminginfo>
-	
+</streaminginfo>
+ +    <streaminginfo>
+ +        <cname>Al Arabia Hadath</cname>
+ +        <chnumber>ch805</chnumber>
+      </streaminginfo> 	
 </streaminginfos>
