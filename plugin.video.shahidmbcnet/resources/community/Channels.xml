@@ -1,4 +1,13 @@
 <channels>
+<channel>
+	<cname>Oman Sport</cname>
+	<imageurl>http://www.lyngsat-logo.com/logo/tv/oo/oman_tv_sport.png</imageurl>
+	<enabled>True</enabled>
+	<assignedcategory>
+	<category>sports</category>
+	<category>gulf</category>
+	</assignedcategory>
+</channel>
 
 <channel>
 	<cname>Cherie 25</cname>
