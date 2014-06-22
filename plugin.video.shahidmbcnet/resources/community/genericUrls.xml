@@ -1,5 +1,12 @@
 <streamingInfos>
 <streaminginfo>
+        <cname>Sheraa</cname>
+	<item>
+	<title>Ustream</title>
+	<link>http://iphone-streaming.ustream.tv/ustreamVideo/12569585/streams/live/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
 	<cname>Radio Mars</cname>
 	<item><title>Livecast</title>
 	<link>rtmp://rtmp.infomaniak.ch/livecast/videomars timeout=20</link>
