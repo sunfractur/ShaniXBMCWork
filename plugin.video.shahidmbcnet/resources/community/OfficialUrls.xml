@@ -1,5 +1,28 @@
 <streamingInfos>
 <streaminginfo>
+	<cname>i24News</cname>
+	<item>
+        <title>English</title>
+        <link>http://bcoveliveios-i.akamaihd.net/hls/live/215102/master_english/398/master.m3u8</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+	<cname>i24News</cname>
+	<item>
+        <title>French</title>
+        <link>http://bcoveliveios-i.akamaihd.net/hls/live/215102/master_french/412/master.m3u8</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+	<cname>i24News</cname>
+	<item>
+        <title>Arabic</title>
+        <link>http://bcoveliveios-i.akamaihd.net/hls/live/215102/master_arabic/391/master.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
 	<cname>Alquds Educ</cname>
 	<item>
         <title>Low</title>
