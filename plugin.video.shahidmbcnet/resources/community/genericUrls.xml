@@ -1,5 +1,10 @@
 <streamingInfos>
-
+<streaminginfo>
+	<cname>Radio Mars</cname>
+	<item><title>Livecast</title>
+	<link>rtmp://rtmp.infomaniak.ch/livecast/videomars timeout=20</link>
+	</item>
+</streaminginfo>
 <streaminginfo>
 	<cname>Nabaa</cname>
 	<item><title>Med Livestation</title>
