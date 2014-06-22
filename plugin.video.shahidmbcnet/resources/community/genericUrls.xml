@@ -1,11 +1,126 @@
 <streamingInfos>
+
 <streaminginfo>
-        <cname>Sheraa</cname>
-	<item>
-	<title>Ustream</title>
-	<link>http://iphone-streaming.ustream.tv/ustreamVideo/12569585/streams/live/playlist.m3u8</link>
-	</item>
+<cname>Al Resoul TV</cname>
+<item>
+<title>Ustream</title>
+<link>$doregex[get-link]</link>
+<regex>
+<name>get-link</name>
+<expres>$pyFunction:get_ustream('http://iphone-streaming.ustream.tv/ustreamVideo/12677236/streams/live/playlist.m3u8')</expres>
+<page></page>
+</regex>
+</item>
 </streaminginfo>
+
+<streaminginfo>
+<cname>Alinsen</cname>
+<item>
+<title>Ustream</title>
+<link>$doregex[get-link]</link>
+<regex>
+<name>get-link</name>
+<expres>$pyFunction:get_ustream('http://iphone-streaming.ustream.tv/ustreamVideo/17183652/streams/live/playlist.m3u8')</expres>
+<page></page>
+</regex>
+</item>
+</streaminginfo>
+
+<streaminginfo>
+<cname>Al Amaken</cname>
+<item>
+<title>Ustream Bad Quality</title>
+<link>$doregex[get-link]</link>
+<regex>
+<name>get-link</name>
+<expres>$pyFunction:get_ustream('http://iphone-streaming.ustream.tv/ustreamVideo/8089600/streams/live/playlist.m3u8')</expres>
+<page></page>
+</regex>
+</item>
+</streaminginfo>
+
+<streaminginfo>
+<cname>Al Amaken</cname>
+<item>
+<title>Ustream Bad Quality</title>
+<link>$doregex[get-link]</link>
+<regex>
+<name>get-link</name>
+<expres>$pyFunction:get_ustream('http://iphone-streaming.ustream.tv/ustreamVideo/9996377/streams/live/playlist.m3u8')</expres>
+<page></page>
+</regex>
+</item>
+</streaminginfo>
+
+
+<streaminginfo>
+<cname>Alqithara</cname>
+<item>
+<title>Ustream</title>
+<link>$doregex[get-link]</link>
+<regex>
+<name>get-link</name>
+<expres>$pyFunction:get_ustream('http://iphone-streaming.ustream.tv/ustreamVideo/4365778/streams/live/playlist.m3u8')</expres>
+<page></page>
+</regex>
+</item>
+</streaminginfo>
+
+
+<streaminginfo>
+<cname>AlYawm</cname>
+<item>
+<title>Ustream</title>
+<link>$doregex[get-link]</link>
+<regex>
+<name>get-link</name>
+<expres>$pyFunction:get_ustream('http://iphone-streaming.ustream.tv/ustreamVideo/17695248/streams/live/playlist.m3u8')</expres>
+<page></page>
+</regex>
+</item>
+</streaminginfo>
+
+
+<streaminginfo>
+<cname>Animal Planet</cname>
+<item>
+<title>Ustream</title>
+<link>$doregex[get-link]</link>
+<regex>
+<name>get-link</name>
+<expres>$pyFunction:get_ustream('http://iphone-streaming.ustream.tv/ustreamVideo/12762028/streams/live/playlist.m3u8')</expres>
+<page></page>
+</regex>
+</item>
+</streaminginfo>
+
+<streaminginfo>
+<cname>Sheraa</cname>
+<item>
+<title>Ustream</title>
+<link>$doregex[get-link]</link>
+<regex>
+<name>get-link</name>
+<expres>$pyFunction:get_ustream('http://iphone-streaming.ustream.tv/ustreamVideo/12569585/streams/live/playlist.m3u8')</expres>
+<page></page>
+</regex>
+</item>
+</streaminginfo>
+
+<streaminginfo>
+<cname>Alrabi3a Egypt</cname>
+<item>
+<title>Ustream</title>
+<link>$doregex[get-link]</link>
+<regex>
+<name>get-link</name>
+<expres>$pyFunction:get_ustream('http://iphone-streaming.ustream.tv/ustreamVideo/16697328/streams/live/playlist.m3u8')</expres>
+<page></page>
+</regex>
+</item>
+</streaminginfo>
+
+
 <streaminginfo>
 	<cname>Radio Mars</cname>
 	<item><title>Livecast</title>
@@ -220,13 +335,7 @@
 	<link>rtmp://wowza1.top-ix.org/quartaretetv1/formusicweb timeout=20</link>
 	</item>
 </streaminginfo>
-<streaminginfo>
-	<cname>Animal Planet</cname>
-	<item>
-	<title>Ustream High</title>
-	<link>http://iphone-streaming.ustream.tv/ustreamVideo/12762028/streams/live/playlist.m3u8</link>
-	</item>
-</streaminginfo>
+
 <streaminginfo>
 	<cname>Azaal</cname>
 	<item>
@@ -266,13 +375,7 @@
 	<link>http://tvcatchup-live.hls.adaptive.level3.net/tvcatchup-201/smil:bbcone_desk_wifi.smil/chunklist_b600000.m3u8</link>
 	</item>
 </streaminginfo>
-<streaminginfo>
-	<cname>AlYawm</cname>
-	<item>
-	<title>Ustream</title>
-	<link>http://iphone-streaming.ustream.tv/ustreamVideo/17695248/streams/live/playlist.m3u8</link>
-	</item>
-</streaminginfo> 
+
 
 <streaminginfo>
      <cname>AlYawm</cname>
@@ -301,12 +404,6 @@
 
 
 
-<streaminginfo>
-<cname>Alqithara</cname>
-<item><title>Ustream</title>
-<link>http://iphone-streaming.ustream.tv/ustreamVideo/4365778/streams/live/playlist.m3u8</link>
-</item>
-</streaminginfo> 
 
 
 <streaminginfo>
@@ -505,32 +602,6 @@
 
 
 
-
-<streaminginfo>
-<cname>Al Amaken</cname>
-<item><title> Al Amaken Ustream Bad Quality</title>
-<link>http://iphone-streaming.ustream.tv/ustreamVideo/9996377/streams/live/playlist.m3u8</link>
-</item>
-</streaminginfo> 
-<streaminginfo>
-<cname>Al Amaken</cname>
-<item><title>Al Amaken Drama Ustream Bad Quality</title>
-<link>http://iphone-streaming.ustream.tv/ustreamVideo/8089600/streams/live/playlist.m3u8</link>
-</item>
-</streaminginfo> 
-
-
-
-
-
-
-<streaminginfo>
-     	<cname>Alinsen</cname>
-	<item>
-	<title>Ustream</title>
-	<link>http://iphone-streaming.ustream.tv/ustreamVideo/17183652/streams/live/playlist.m3u8</link>
-	</item>
-</streaminginfo>
 <streaminginfo>
      	<cname>Alriadia Sport</cname>
 	<item>
@@ -774,13 +845,7 @@
 	</item>
 </streaminginfo>
 
-<streaminginfo>
-     <cname>Al Resoul TV</cname>
-	<item>
-	<title>ustream</title>
-	<link>http://iphone-streaming.ustream.tv/ustreamVideo/12677236/streams/live/playlist.m3u8</link>
-	</item>
-</streaminginfo>
+
 
 <streaminginfo>
      <cname>FM TV</cname>
@@ -1096,13 +1161,6 @@
 	</item>
 </streaminginfo>
 
-<streaminginfo>
-        <cname>Alrabi3a Egypt</cname>
-	<item>
-	<title>Ustream Source</title>
-	<link>http://iphone-streaming.ustream.tv/ustreamVideo/16697328/streams/live/playlist.m3u8</link>
-	</item>
-</streaminginfo>
 
 
 
