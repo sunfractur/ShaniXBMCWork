@@ -628,6 +628,18 @@ def getItems(items,fanart):
                 addon_log('There was a problem adding item - '+name.encode('utf-8', 'ignore'))
 
 
+#copies from lamda's implementation
+def get_ustream(url):
+    try:
+        for i in range(1, 51):
+            result = getUrl(url)
+            if "EXT-X-STREAM-INF" in result: return url
+            if not "EXTM3U" in result: return
+        return
+    except:
+        return
+        
+ 
 def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCall=False,cachedPages={}, rawPost=False, cookie_jar_file=None):#0,1,2 = URL, regexOnly, CookieJarOnly
         if not recursiveCall:
             regexs = eval(urllib.unquote(regexs))
