@@ -1,5 +1,14 @@
 <channels>
 <channel>
+        <cname>i24News</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/ii/i_24_news_il.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>news</category>
+        </assignedcategory>
+</channel>
+
+<channel>
         <cname>Sheraa</cname>
         <imageurl>http://s12.postimg.org/st1qq3mw9/sherra.jpg</imageurl>
         <enabled>True</enabled>
