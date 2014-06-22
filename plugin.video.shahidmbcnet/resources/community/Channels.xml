@@ -1,5 +1,13 @@
 <channels>
 <channel>
+        <cname>Radio Mars</cname>
+        <imageurl>http://1.bp.blogspot.com/_Kk1oZ2L1DQI/S8myt5k2q9I/AAAAAAAAALM/71rXujlmTuA/s1600/logo+radio+mars.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>magreb</category>
+        </assignedcategory>
+</channel>
+<channel>
 	<cname>Oman Sport</cname>
 	<imageurl>http://www.lyngsat-logo.com/logo/tv/oo/oman_tv_sport.png</imageurl>
 	<enabled>True</enabled>
