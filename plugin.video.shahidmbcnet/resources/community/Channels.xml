@@ -1,5 +1,13 @@
 <channels>
 <channel>
+        <cname>Alquds Educ</cname>
+        <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpf1/t1.0-1/p160x160/10468647_699893530056375_810853363037637731_n.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>sham</category>
+        </assignedcategory>
+</channel>
+<channel>
         <cname>Radio Mars</cname>
         <imageurl>http://1.bp.blogspot.com/_Kk1oZ2L1DQI/S8myt5k2q9I/AAAAAAAAALM/71rXujlmTuA/s1600/logo+radio+mars.jpg</imageurl>
         <enabled>True</enabled>
