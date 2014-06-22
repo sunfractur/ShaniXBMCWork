@@ -102,7 +102,12 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 			pDialog.update(80, 'Login Completed, now playing')
 			print 'rtmpstring',liveLink
 			if liveTvPremiumCode=="":
-				liveLink=liveLink%(playpath,code)
+				page_url=None
+				try:
+					page_url=urlSoup.link.text
+				except:
+					page_url=makeUrl(urlSoup.cname.text)
+				liveLink=liveLink%(playpath,code,page_url)
 				#liveLink="rtmp://tdsiptv.ddns.me/live/%s?code=%s"%(playpath,code)
 			else:
 				liveLink="rtmp://tdsiptv.ddns.me/live/%s?code=%s"%(playpath,liveTvPremiumCode)
@@ -427,7 +432,8 @@ def shoudforceLogin2():
     except:
         traceback.print_exc(file=sys.stdout)
     return True
-
+def makeUrl(cname):
+	return 'http://www.livetv.tn/%s-en-direct-live.html'%cname.replace(' ','-')
 def shouldforceLogin(cookieJar=None, currentPage=None):
     try:
         url=codepage
