@@ -1,5 +1,13 @@
 <channels>
 <channel>
+        <cname>Sheraa</cname>
+        <imageurl>http://s12.postimg.org/st1qq3mw9/sherra.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>sham</category>
+        </assignedcategory>
+</channel>
+<channel>
         <cname>Alquds Educ</cname>
         <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpf1/t1.0-1/p160x160/10468647_699893530056375_810853363037637731_n.jpg</imageurl>
         <enabled>True</enabled>
