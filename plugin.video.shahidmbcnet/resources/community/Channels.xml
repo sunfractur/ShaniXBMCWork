@@ -4932,5 +4932,12 @@
             <category>french</category>
         </assignedcategory>
     </channel>
-
+    <channel>
+	<cname>Al Arabia Hadath</cname>
+	<imageurl>http://www.lyngsat-logo.com/hires/aa/al_arabiya_al_hadath.png</imageurl>
+	<enabled>True</enabled>
+	<assignedcategory>
+		<category>oth</category>
+	</assignedcategory>
+    </channel>
 </channels>
