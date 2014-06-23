@@ -36,3 +36,5 @@
 - Gotham dependencies
 [B]Version 2.3.1[/B]
 - added ARY Digital and news in eb section
+[B]Version 2.3.1[/B]
+- Removed Common
