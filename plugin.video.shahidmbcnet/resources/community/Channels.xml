@@ -1,5 +1,14 @@
 <channels>
 <channel>
+        <cname>Libya One</cname>
+        <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xaf1/t1.0-1/c25.25.315.315/s160x160/205367_403626716340925_5096025_n.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>magreb</category>
+        </assignedcategory>
+</channel>
+
+<channel>
         <cname>Qatar Today</cname>
         <imageurl>http://www.lyngsat-logo.com/hires/qq/qatar_today_tv_qa.png</imageurl>
         <enabled>True</enabled>
