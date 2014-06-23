@@ -4365,7 +4365,8 @@
         <enabled>True</enabled>
         <assignedcategory>
             <category>sports</category>
-			<category>cup</category>
+	    <category>cup</category>
+	    <category>french</category>
         </assignedcategory>
     </channel>
 
@@ -4375,6 +4376,8 @@
         <enabled>True</enabled>
         <assignedcategory>
             <category>sports</category>
+            <category>cup</category>
+	    <category>french</category>
         </assignedcategory>
     </channel>
 	
@@ -4431,16 +4434,6 @@
         <enabled>True</enabled>
         <assignedcategory>
             <category>drama</category>
-        </assignedcategory>
-    </channel>
-
-    <channel>
-        <cname>Bein 2 FR</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/bein2fr_zpsc75b4a27.png</imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-            <category>sports</category>
-            <category>french</category>
         </assignedcategory>
     </channel>
 
