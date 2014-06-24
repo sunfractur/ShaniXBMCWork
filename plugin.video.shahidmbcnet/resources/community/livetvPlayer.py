@@ -35,6 +35,7 @@ profile_path =  xbmc.translatePath(selfAddon.getAddonInfo('profile'))
 def PlayStream(sourceEtree, urlSoup, name, url):
 	try:
 		playpath=urlSoup.chnumber.text
+		page_name=urlSoup.link.text
 		pDialog = xbmcgui.DialogProgress()
 		pDialog.create('XBMC', 'Communicating with Livetv')
 		pDialog.update(40, 'Attempting to Login')
@@ -76,19 +77,26 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 
 					else:
 						print 'not performing login, reusing cache'
-					code=getcode();
-					if code==None:
+					code=getcode(page_name);
+					if code==None or len(code)==0:
 							timeD = 2000  #in miliseconds
 							line1="Unable to get the code-livetv down? or something changed"
 							xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, timeD, __icon__))
 							return False
 				else:
-					print 'using last working code',lastWorkingCode
-					if not lastWorkingCode=="":
-						code=lastWorkingCode
-						usingLastWorkingCode=True
-					else:
-						code=liveTvNonPremiumCode
+					code=getcode(page_name);
+					if code==None or len(code)==0:
+							timeD = 2000  #in miliseconds
+							line1="Premium page?"
+							xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, timeD, __icon__))
+							#return False
+							code=lastWorkingCode
+					#print 'using last working code',lastWorkingCode
+					#if not lastWorkingCode=="":
+					#	code=lastWorkingCode
+					#	usingLastWorkingCode=True
+					#else:
+					#	code=liveTvNonPremiumCode
 					
 			else:
 				print 'using premium code',lastWorkingCode
@@ -140,9 +148,11 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 ccodepages=['http://www.livetv.tn/']#,'http://www.livetv.tn/2M-Maroc-en-direct-live.html','http://www.livetv.tn/ARTE-en-direct-live.html',]
 codepage=random.choice(ccodepages)
 
-def getcode():
+def getcode(page_name=None):
 	try:
 		#url = urlSoup.url.text
+		if page_name:
+			codepage=page_name
 		print 'codepage',codepage
 		cookieJar=getCookieJar()
 		link=getUrl(codepage,cookieJar)
