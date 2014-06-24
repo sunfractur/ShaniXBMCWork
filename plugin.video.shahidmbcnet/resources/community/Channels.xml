@@ -1,5 +1,14 @@
 <channels>
 <channel>
+        <cname>Libya Alhurra</cname>
+        <imageurl>http://panorama-pvs.com/files/image/Clients/Libya%20Al-Hurrah.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>magreb</category>
+        </assignedcategory>
+</channel>
+
+<channel>
         <cname>Fezzan</cname>
         <imageurl>http://www.lyngsat-logo.com/hires/ff/fezzan_tv_ly.png</imageurl>
         <enabled>True</enabled>
