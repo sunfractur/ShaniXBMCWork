@@ -1025,8 +1025,23 @@
 <streaminginfo>
         <cname>sunnah TV</cname>
 	<item>
-	<title>Original Source</title>
+	<title>Low</title>
 	<link>http://46.245.160.224/medine/medine/gmswf.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+        <cname>sunnah TV</cname>
+	<item>
+	<title>Med</title>
+	<link>http://46.245.160.224/medine/medine/chunklist_w1303351978.m3u8</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+        <cname>sunnah TV</cname>
+	<item>
+	<title>High</title>
+	<link>http://46.245.160.224/medine/medine/chunklist_w1367115191.m3u8</link>
 	</item>
 </streaminginfo>
 
@@ -1419,8 +1434,8 @@
 <streaminginfo>
         <cname>sunnah TV</cname>
 	<item>
-	<title>Original Source</title>
-	<link>rtmp://myafricanmega.tulix.tv:1935/map-alsunnah/map-alsunnah.stream</link>
+	<title>Low</title>
+	<link>rtmp://myafricanmega.tulix.tv:1935/map-alsunnah/map-alsunnah.stream timeout=20</link>
 	</item>
 </streaminginfo>
 
