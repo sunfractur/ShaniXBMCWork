@@ -1563,4 +1563,22 @@
 	<link>http://skynewsl.skynews.cshls.lldns.net/skynews/skynewsl/skynewsl/skynewsl_800.m3u8</link>
 	</item>
 </streaminginfo>
+<streaminginfo>
+        <cname>Quran TV ksa</cname>
+	<item>
+	<title>Med</title>
+	<link>http://46.245.160.224/mekke/mekke/chunklist_w248840820.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+        <cname>Afaq</cname>
+	<item>
+	<title>Low</title>
+	<link>rtmp://208.43.70.75/live/afaqtv/livestream timeout=20</link>
+	</item>
+</streaminginfo>
+
+
+
+
 </streamingInfos>
