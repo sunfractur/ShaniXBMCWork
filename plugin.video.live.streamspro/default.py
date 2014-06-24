@@ -828,6 +828,64 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
         #xbmc.Player().play(item=url)
         xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, item)
 
+def get_unwise( str_eval):
+    page_value=""
+    try:        
+        ss="w,i,s,e=("+str_eval+')' 
+        exec (ss)
+        page_value=unwise_func(w,i,s,e)
+    except: traceback.print_exc(file=sys.stdout)
+    #print 'unpacked',page_value
+    return page_value
+    
+def unwise_func( w, i, s, e):
+    lIll = 0;
+    ll1I = 0;
+    Il1l = 0;
+    ll1l = [];
+    l1lI = [];
+    while True:
+        if (lIll < 5):
+            l1lI.append(w[lIll])
+        elif (lIll < len(w)):
+            ll1l.append(w[lIll]);
+        lIll+=1;
+        if (ll1I < 5):
+            l1lI.append(i[ll1I])
+        elif (ll1I < len(i)):
+            ll1l.append(i[ll1I])
+        ll1I+=1;
+        if (Il1l < 5):
+            l1lI.append(s[Il1l])
+        elif (Il1l < len(s)):
+            ll1l.append(s[Il1l]);
+        Il1l+=1;
+        if (len(w) + len(i) + len(s) + len(e) == len(ll1l) + len(l1lI) + len(e)):
+            break;
+        
+    lI1l = ''.join(ll1l)#.join('');
+    I1lI = ''.join(l1lI)#.join('');
+    ll1I = 0;
+    l1ll = [];
+    for lIll in range(0,len(ll1l),2):
+        #print 'array i',lIll,len(ll1l)
+        ll11 = -1;
+        if ( ord(I1lI[ll1I]) % 2):
+            ll11 = 1;
+        #print 'val is ', lI1l[lIll: lIll+2]
+        l1ll.append(chr(    int(lI1l[lIll: lIll+2], 36) - ll11));
+        ll1I+=1;
+        if (ll1I >= len(l1lI)):
+            ll1I = 0;
+    ret=''.join(l1ll)
+    if 'eval(function(w,i,s,e)' in ret:
+        print 'STILL GOing'
+        ret=re.compile('eval\(function\(w,i,s,e\).*}\((.*?)\)').findall(ret)[0] 
+        return get_unwise(ret)
+    else:
+        print 'FINISHED'
+        return ret
+    
 def get_unpacked( page_value, regex_for_text, iterations=1, total_iteration=1):
     try:        
         if page_value.startswith("http"):
