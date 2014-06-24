@@ -1,5 +1,38 @@
 <streamingInfos>
 <streaminginfo>
+	<cname>LBC</cname>
+	<item>
+        <title>Low</title>
+        <link>http://37.48.80.48/lbclive/smil:lbclive.smil/chunklist_w38025370_b240000.m3u8</link>
+	</item>
+</streaminginfo>
+
+
+<streaminginfo>
+	<cname>LBC</cname>
+	<item>
+        <title>Med</title>
+        <link>http://37.48.80.48/lbclive/smil:lbclive.smil/chunklist_w38025370_b360000.m3u8</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+	<cname>LBC</cname>
+	<item>
+        <title>High</title>
+        <link>http://37.48.80.48/lbclive/smil:lbclive.smil/chunklist_w38025370_b525000.m3u8</link>
+	</item>
+</streaminginfo>
+
+
+<streaminginfo>
+	<cname>LBC</cname>
+	<item>
+        <title>High</title>
+        <link>http://livestreaming.itworkscdn.net/lbclive/smil:lbclive.smil/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
 	<cname>i24News</cname>
 	<item>
         <title>English</title>
