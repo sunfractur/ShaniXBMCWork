@@ -1,5 +1,21 @@
 <channels>
 <channel>
+        <cname>Fezzan</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/ff/fezzan_tv_ly.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>magreb</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Misrata</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/mm/misrata_tv.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>magreb</category>
+        </assignedcategory>
+</channel>
+<channel>
         <cname>Libya One</cname>
         <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xaf1/t1.0-1/c25.25.315.315/s160x160/205367_403626716340925_5096025_n.jpg</imageurl>
         <enabled>True</enabled>
