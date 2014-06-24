@@ -1,4 +1,21 @@
 <streamingInfos>
+
+<streaminginfo>
+	<cname>Fezzan</cname>
+	<item>
+        <title>Ustream</title>
+        <link>http://iphone-streaming.ustream.tv/ustreamVideo/14305527/streams/live/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+	<cname>Misrata</cname>
+	<item>
+	<title>You need to inslall veetle addon</title>
+	<link>plugin://plugin.video.veetle/?channel=5330887b36239</link>
+	</item>
+</streaminginfo>
+
 <streaminginfo>
 	<cname>Libya One</cname>
 	<item>
