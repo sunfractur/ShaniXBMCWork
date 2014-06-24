@@ -1,5 +1,13 @@
 <channels>
 <channel>
+        <cname>Afaq</cname>
+        <imageurl>http://www.lyngsat.com/tvchannels/iq/Afaq-TV.html</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>Iraq</category>
+        </assignedcategory>
+</channel>
+<channel>
         <cname>Libya Alhurra</cname>
         <imageurl>http://panorama-pvs.com/files/image/Clients/Libya%20Al-Hurrah.jpg</imageurl>
         <enabled>True</enabled>
