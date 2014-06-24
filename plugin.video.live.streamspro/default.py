@@ -828,6 +828,48 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
         #xbmc.Player().play(item=url)
         xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, item)
 
+def get_dag_url(page_data):
+    print 'get_dag_url',page_data
+    if '127.0.0.1' in page_data:
+        return revist_dag(page_data)
+    elif re_me(page_data, 'wmsAuthSign%3D([^%&]+)') != '':
+        final_url = re_me(page_data, '&ver_t=([^&]+)&') + '?wmsAuthSign=' + re_me(page_data, 'wmsAuthSign%3D([^%&]+)') + '==/mp4:' + re_me(page_data, '\\?y=([^&]+)&')
+    else:
+        final_url = re_me(page_data, 'href="([^"]+)"[^"]+$')
+        if len(final_url)==0:
+            final_url=page_data
+    final_url = final_url.replace(' ', '%20')
+    return final_url
+
+def re_me(data, re_patten):
+    match = ''
+    m = re.search(re_patten, data)
+    if m != None:
+        match = m.group(1)
+    else:
+        match = ''
+    return match
+
+def revist_dag(page_data):
+    final_url = ''
+    if '127.0.0.1' in page_data:
+        final_url = re_me(page_data, '&ver_t=([^&]+)&') + ' live=true timeout=15 playpath=' + re_me(page_data, '\\?y=([a-zA-Z0-9-_\\.@]+)')
+        
+    if re_me(page_data, 'token=([^&]+)&') != '':
+        final_url = final_url + '?token=' + re_me(page_data, 'token=([^&]+)&')
+    elif re_me(page_data, 'wmsAuthSign%3D([^%&]+)') != '':
+        final_url = re_me(page_data, '&ver_t=([^&]+)&') + '?wmsAuthSign=' + re_me(page_data, 'wmsAuthSign%3D([^%&]+)') + '==/mp4:' + re_me(page_data, '\\?y=([^&]+)&')
+    else:
+        final_url = re_me(page_data, 'HREF="([^"]+)"')
+
+    if 'dag1.asx' in final_url:
+        return get_dag_url(final_url)
+
+    if 'devinlivefs.fplive.net' not in final_url:
+        final_url = final_url.replace('devinlive', 'flive')
+    return final_url
+
+
 def get_unwise( str_eval):
     page_value=""
     try:        
