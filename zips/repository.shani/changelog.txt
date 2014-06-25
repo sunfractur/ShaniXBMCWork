@@ -13,3 +13,5 @@
 
 [B]Version 2.3[/B]
 - Server Move
+[B]Version 2.4[/B]
+- Just a icon change, thanks to jonuthedevil@hub

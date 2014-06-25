@@ -194,7 +194,7 @@
   </extension>
 </addon>
 
-<addon id="repository.shani" name="Shanis Addon Repository" version="2.3" provider-name="Shani">
+<addon id="repository.shani" name="Shanis Addon Repository" version="2.4" provider-name="Shani">
 	<extension point="xbmc.addon.repository" name="Shanis Addon Repository">
 		<info compressed="false">http://bitbucket.org/shani-08/shanixbmcwork/raw/master/addons.xml</info>
 		<checksum>http://bitbucket.org/shani-08/shanixbmcwork/raw/master/addons.xml.md5</checksum>
