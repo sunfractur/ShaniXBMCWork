@@ -759,5 +759,53 @@
         <chnumber>ch103</chnumber>
         <link>http://www.livetv.tn/TNN-Tunisia-en-direct-live.html</link>
     </streaminginfo>
-
+<streaminginfo>
+        <cname>TMC</cname>
+        <chnumber>ch298</chnumber>
+<link>http://www.livetv.tn/TMC-en-direct-live.html</link></streaminginfo>
+<streaminginfo>
+        <cname>NT1</cname>
+        <chnumber>ch300</chnumber>
+    <link>http://www.livetv.tn/NT1-en-direct-live.html</link>
+	</streaminginfo>
+    <streaminginfo>
+        <cname>NRJ 12</cname>
+        <chnumber>ch297</chnumber>
+    <link>http://www.livetv.tn/NRJ-12-en-direct-live.html</link>
+	</streaminginfo>
+    <streaminginfo>
+        <cname>LCP</cname>
+        <chnumber>ch306</chnumber>
+    <link>http://www.livetv.tn/LCP-en-direct-live.html</link>
+	</streaminginfo>
+    <streaminginfo>
+        <cname>FRANCE 5</cname>
+        <chnumber>ch304</chnumber>
+    <link>http://www.livetv.tn/FR5-en-direct-live.html</link>
+	</streaminginfo>
+    <streaminginfo>
+        <cname>FRANCE 3</cname>
+        <chnumber>ch302</chnumber>
+    <link>http://www.livetv.tn/FR3-en-direct-live.html</link>
+	</streaminginfo>
+    <streaminginfo>
+        <cname>FRANCE 2</cname>
+        <chnumber>ch303</chnumber>
+    <link>http://www.livetv.tn/FR2-en-direct-live.html</link>
+	</streaminginfo>
+    <streaminginfo>
+        <cname>FRANCE 0</cname>
+        <chnumber>ch305</chnumber>
+    <link>http://www.livetv.tn/FR-O-en-direct-live.html</link>
+	</streaminginfo>
+    <streaminginfo>
+        <cname>BFMTV</cname>
+        <chnumber>ch299</chnumber>
+    <link>http://www.livetv.tn/BFM-TV-en-direct-live.html</link>
+	</streaminginfo>
+    <streaminginfo>
+        <cname>arte</cname>
+        <chnumber>ch301</chnumber>
+    <link>http://www.livetv.tn/ARTE-en-direct-live.html</link>
+	</streaminginfo>
 </streaminginfos>
