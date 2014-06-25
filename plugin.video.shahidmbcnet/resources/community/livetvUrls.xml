@@ -808,4 +808,91 @@
         <chnumber>ch301</chnumber>
     <link>http://www.livetv.tn/ARTE-en-direct-live.html</link>
 	</streaminginfo>
+	
+	  <streaminginfo>
+        <cname>France 24</cname>
+        <chnumber>ch106</chnumber>
+    <link>http://www.livetv.tn/France-24-Arabic-en-direct-live.html</link>
+	</streaminginfo>
+    <streaminginfo>
+        <cname>Fox</cname>
+        <chnumber>ch107</chnumber>
+    <link>http://www.livetv.tn/Fox-en-direct-live.html</link>
+	</streaminginfo>
+    <streaminginfo>
+        <cname>Coran</cname>
+        <chnumber>ch108</chnumber>
+    <link>http://www.livetv.tn/Coran-TV-en-direct-live.html</link>
+	</streaminginfo>
+    <streaminginfo>
+        <cname>Cima</cname>
+        <chnumber>ch109</chnumber>
+    <link>http://www.livetv.tn/Cima-en-direct-live.html</link>
+	</streaminginfo>
+	
+    <streaminginfo>
+        <cname>Dubai One</cname>
+        <chnumber>ch111</chnumber>
+    <link>http://www.livetv.tn/Dubai-One-en-direct-live.html</link>
+    	
+    </streaminginfo>
+    <streaminginfo>
+        <cname>Al Baghdadia</cname>
+        <chnumber>ch112</chnumber>
+    <link>http://www.livetv.tn/Baghdadiya-en-direct-live.html</link>
+    	
+    </streaminginfo>
+    <streaminginfo>
+        <cname>BBC Arabic</cname>
+        <chnumber>ch113</chnumber>
+    <link>http://www.livetv.tn/BBC-Arabic-en-direct-live.html</link>
+    	
+    </streaminginfo>
+    <streaminginfo>
+        <cname>Algerie 24</cname>
+        <chnumber>ch116</chnumber>
+    <link>http://www.livetv.tn/Algerie-24-en-direct-live.html</link>
+    	
+    </streaminginfo>
+    <streaminginfo>
+        <cname>Echorouk Tv</cname>
+        <chnumber>ch118</chnumber>
+    <link>http://www.livetv.tn/Echourouk-TV-en-direct-live.html</link>
+    	
+    </streaminginfo>
+    <streaminginfo>
+        <cname>Funoon</cname>
+        <chnumber>ch119</chnumber>
+    <link>http://www.livetv.tn/Founoun-en-direct-live.html</link>
+    	
+    </streaminginfo>
+    <streaminginfo>
+        <cname>Fx Arabia</cname>
+        <chnumber>ch120</chnumber>
+    <link>http://www.livetv.tn/Fx-Arabia-en-direct-live.html</link>
+</streaminginfo>
+    <streaminginfo>
+        <cname>Ghinwa</cname>
+        <chnumber>ch121</chnumber>
+    <link>http://www.livetv.tn/Ghinwa-en-direct-live.html</link>
+</streaminginfo>
+    <streaminginfo>
+        <cname>Kuwait</cname>
+        <chnumber>ch124</chnumber>
+    <link>http://www.livetv.tn/Kuwait-en-direct-live.html</link>
+</streaminginfo>
+    <streaminginfo>
+        <cname>LBC Europe</cname>
+        <chnumber>ch125</chnumber>
+    <link>http://www.livetv.tn/LBC-Europe-en-direct-live.html</link>
+</streaminginfo>
+    <streaminginfo>
+        <cname>Al oula Maroc</cname>
+        <title>SRV2</title>
+        <chnumber>ch126</chnumber>
+<link>http://www.livetv.tn/Al-Oula-Maroc-en-direct-live.html</link>
+</streaminginfo>
+	
+	
+	
 </streaminginfos>
