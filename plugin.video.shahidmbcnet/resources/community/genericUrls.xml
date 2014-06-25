@@ -6,6 +6,43 @@
 	<link>plugin://plugin.video.jtv.archives/?mode=get_channel&amp;name=almasartv&amp;play=1</link>
 	</item>
 </streaminginfo>
+
+
+
+<streaminginfo>
+<cname>Bein Sport 13</cname>
+<item>
+<title>hdfoots</title>
+<link>rtmpe://strm.ukcast.tv/redirect playpath=$doregex[get-playpath] pageUrl=http://www.ukcast.tv/hd.php?u=b131&amp;vw=640&amp;vh=460 flashver=WIN\2013,0,0,214 live=1 swfVfy=1 timeout=20</link>
+
+<regex>
+<name>get-playpath</name>
+<expres>"file".*?"(.*?)"</expres>
+<page>http://www.ukcast.tv/hd.php?u=b131&amp;vw=640&amp;vh=460</page>
+<referer>http://hdfoots.com/live/beinsports-13-live-stream.php</referer>
+</regex>
+</item>
+</streaminginfo>
+
+<streaminginfo>
+<cname>Bein Sport 15</cname>
+<item>
+<title>hdfoots</title>
+<link>rtmpe://strm.ukcast.tv/redirect playpath=$doregex[get-playpath] pageUrl=http://www.ukcast.tv/hd.php?u=BEIN15HD&amp;vw=640&amp;vh=460 flashver=WIN\2013,0,0,214 live=1 swfVfy=1 timeout=20</link>
+
+<regex>
+<name>get-playpath</name>
+<expres>"file".*?"(.*?)"</expres>
+<page>http://www.ukcast.tv/hd.php?u=BEIN15HD&amp;vw=640&amp;vh=460</page>
+<referer>http://hdfoots.com/live/beinsports-15-live-stream.php</referer>
+</regex>
+</item>
+</streaminginfo>
+
+
+
+
+
 <streaminginfo>
 	<cname>Bein Sport 1</cname>
 <item>
