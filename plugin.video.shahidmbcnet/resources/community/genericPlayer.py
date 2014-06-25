@@ -239,7 +239,7 @@ def javascriptUnEscape(str):
 	print 'js',js
 	if (not js==None) and len(js)>0:
 		for j in js:
-			print urllib.unquote(j)
+			#print urllib.unquote(j)
 			str=str.replace(j ,urllib.unquote(j))
 	return str
     
@@ -403,7 +403,7 @@ def unwise_func( w, i, s, e):
         return ret
 
     
-def get_unpacked( page_value, regex_for_text, iterations=1, total_iteration=1):
+def get_unpacked( page_value, regex_for_text='', iterations=1, total_iteration=1):
     try:        
         if page_value.startswith("http"):
             page_value= getUrl(page_value)
@@ -479,16 +479,20 @@ def unpack(sJavascript,iteration=1, totaliterations=2  ):
 #        print 'final res for this iteration is',iteration
         return unpack(sUnpacked1,iteration+1)#.replace('\\', ''),iteration)#.replace('\\', '');#unpack(sUnpacked.replace('\\', ''))
 
-def __unpack(p, a, c, k, e, d, iteration):
+def __unpack(p, a, c, k, e, d, iteration,v=1):
 
     #with open('before file'+str(iteration)+'.js', "wb") as filewriter:
     #    filewriter.write(str(p))
-    while (c > 1):
+    while (c >= 1):
         c = c -1
         if (k[c]):
             aa=str(__itoaNew(c, a))
             #re.sub('\\b' + aa +'\\b', k[c], p) THIS IS Bloody slow!
-            p=findAndReplaceWord(p,aa,k[c])
+            if v==1:
+                p=re.sub('\\b' + aa +'\\b', k[c], p)# THIS IS Bloody slow!
+            else:
+                p=findAndReplaceWord(p,aa,k[c])
+            #p=findAndReplaceWord(p,aa,k[c])
 
             
     #with open('after file'+str(iteration)+'.js', "wb") as filewriter:
@@ -575,8 +579,53 @@ def get_ustream(url):
             result = getUrl(url)
             if "EXT-X-STREAM-INF" in result: return url
             if not "EXTM3U" in result: return
+            xbmc.sleep(2000)
         return
     except:
         return
         
- 
+ def get_saw_rtmp(page_value, referer=None):
+    if referer:
+        referer=[('Referer',referer)]
+    if page_value.startswith("http"):
+        page_value= getUrl(page_value,headers=referer)
+    str_pattern="(eval\(function\(p,a,c,k,e,d.*)"
+
+    reg_res=re.compile(str_pattern).findall(page_value)
+    r=""
+    for v in reg_res:
+        r1=get_unpacked(v)
+        r2=re_me(r1,'\'(.*?)\'')
+        if 'unescape' in r1:
+            r1=urllib.unquote(r2)
+        r+=r1+'\n'
+    print 'final value is ',r
+    
+    page_url=re_me(r1,'src="(.*?)"')
+    
+    page_value= getUrl(page_url,headers=referer)
+    print page_value
+
+    rtmp=re_me(page_value,'streamer\'.*?\'(.*?)\'\)')
+    playpath=re_me(page_value,'file\',\s\'(.*?)\'')
+
+    
+    return rtmp+' playpath='+playpath +' pageUrl='+page_url
+    
+def get_leton_rtmp(page_value, referer=None):
+    if referer:
+        referer=[('Referer',referer)]
+    if page_value.startswith("http"):
+        page_value= getUrl(page_value,headers=referer)
+    str_pattern="var a = (.*?);\s*var b = (.*?);\s*var c = (.*?);\s*var d = (.*?);\s*var f = (.*?);\s*var v_part = '(.*?)';"
+    reg_res=re.compile(str_pattern).findall(page_value)[0] 
+
+    a,b,c,d,f,v=(reg_res)
+    f=int(f)
+    a=int(a)/f
+    b=int(b)/f
+    c=int(c)/f
+    d=int(d)/f
+
+    ret= 'rtmp://' + str(a) + '.' + str(b) + '.' + str(c) + '.' + str(d) + v;
+    return ret
