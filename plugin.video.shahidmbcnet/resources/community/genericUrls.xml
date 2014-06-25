@@ -309,11 +309,29 @@
 
 
 <streaminginfo>
-	<cname>Fezzan</cname>
-	<item>
-        <title>Ustream</title>
-        <link>http://iphone-streaming.ustream.tv/ustreamVideo/14305527/streams/live/playlist.m3u8</link>
-	</item>
+<cname>Fezzan</cname>
+<item>
+<title>Ustream</title>
+<link>$doregex[get-link]</link>
+<regex>
+<name>get-link</name>
+<expres>$pyFunction:get_ustream('http://iphone-streaming.ustream.tv/ustreamVideo/14305527/streams/live/playlist.m3u8')</expres>
+<page></page>
+</regex>
+</item>
+</streaminginfo>
+
+<streaminginfo>
+<cname>Dream 2</cname>
+<item>
+<title>Ustream</title>
+<link>$doregex[get-link]</link>
+<regex>
+<name>get-link</name>
+<expres>$pyFunction:get_ustream('http://iphone-streaming.ustream.tv/ustreamVideo/18117128/streams/live/playlist.m3u8')</expres>
+<page></page>
+</regex>
+</item>
 </streaminginfo>
 
 <streaminginfo>
