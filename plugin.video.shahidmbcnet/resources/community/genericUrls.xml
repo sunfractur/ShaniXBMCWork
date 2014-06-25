@@ -1,5 +1,11 @@
 <streamingInfos>
-
+<streaminginfo>
+     <cname>Al Masar</cname>
+	<item>
+	<title>Almasar 2:You need Justin addon. need time to start</title>
+	<link>plugin://plugin.video.jtv.archives/?mode=get_channel&amp;name=almasartv&amp;play=1</link>
+	</item>
+</streaminginfo>
 <streaminginfo>
 	<cname>Bein Sport 1</cname>
 <item>
