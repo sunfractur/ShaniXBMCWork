@@ -302,6 +302,106 @@ def send_web_socket(Cookie_Jar,url_to_call):
     except: traceback.print_exc(file=sys.stdout)
     return ''
 
+def get_dag_url(page_data):
+    print 'get_dag_url',page_data
+    if '127.0.0.1' in page_data:
+        return revist_dag(page_data)
+    elif re_me(page_data, 'wmsAuthSign%3D([^%&]+)') != '':
+        final_url = re_me(page_data, '&ver_t=([^&]+)&') + '?wmsAuthSign=' + re_me(page_data, 'wmsAuthSign%3D([^%&]+)') + '==/mp4:' + re_me(page_data, '\\?y=([^&]+)&')
+    else:
+        final_url = re_me(page_data, 'href="([^"]+)"[^"]+$')
+        if len(final_url)==0:
+            final_url=page_data
+    final_url = final_url.replace(' ', '%20')
+    return final_url
+
+def re_me(data, re_patten):
+    match = ''
+    m = re.search(re_patten, data)
+    if m != None:
+        match = m.group(1)
+    else:
+        match = ''
+    return match
+
+def revist_dag(page_data):
+    final_url = ''
+    if '127.0.0.1' in page_data:
+        final_url = re_me(page_data, '&ver_t=([^&]+)&') + ' live=true timeout=15 playpath=' + re_me(page_data, '\\?y=([a-zA-Z0-9-_\\.@]+)')
+        
+    if re_me(page_data, 'token=([^&]+)&') != '':
+        final_url = final_url + '?token=' + re_me(page_data, 'token=([^&]+)&')
+    elif re_me(page_data, 'wmsAuthSign%3D([^%&]+)') != '':
+        final_url = re_me(page_data, '&ver_t=([^&]+)&') + '?wmsAuthSign=' + re_me(page_data, 'wmsAuthSign%3D([^%&]+)') + '==/mp4:' + re_me(page_data, '\\?y=([^&]+)&')
+    else:
+        final_url = re_me(page_data, 'HREF="([^"]+)"')
+
+    if 'dag1.asx' in final_url:
+        return get_dag_url(final_url)
+
+    if 'devinlivefs.fplive.net' not in final_url:
+        final_url = final_url.replace('devinlive', 'flive')
+    return final_url
+
+
+def get_unwise( str_eval):
+    page_value=""
+    try:        
+        ss="w,i,s,e=("+str_eval+')' 
+        exec (ss)
+        page_value=unwise_func(w,i,s,e)
+    except: traceback.print_exc(file=sys.stdout)
+    #print 'unpacked',page_value
+    return page_value
+    
+def unwise_func( w, i, s, e):
+    lIll = 0;
+    ll1I = 0;
+    Il1l = 0;
+    ll1l = [];
+    l1lI = [];
+    while True:
+        if (lIll < 5):
+            l1lI.append(w[lIll])
+        elif (lIll < len(w)):
+            ll1l.append(w[lIll]);
+        lIll+=1;
+        if (ll1I < 5):
+            l1lI.append(i[ll1I])
+        elif (ll1I < len(i)):
+            ll1l.append(i[ll1I])
+        ll1I+=1;
+        if (Il1l < 5):
+            l1lI.append(s[Il1l])
+        elif (Il1l < len(s)):
+            ll1l.append(s[Il1l]);
+        Il1l+=1;
+        if (len(w) + len(i) + len(s) + len(e) == len(ll1l) + len(l1lI) + len(e)):
+            break;
+        
+    lI1l = ''.join(ll1l)#.join('');
+    I1lI = ''.join(l1lI)#.join('');
+    ll1I = 0;
+    l1ll = [];
+    for lIll in range(0,len(ll1l),2):
+        #print 'array i',lIll,len(ll1l)
+        ll11 = -1;
+        if ( ord(I1lI[ll1I]) % 2):
+            ll11 = 1;
+        #print 'val is ', lI1l[lIll: lIll+2]
+        l1ll.append(chr(    int(lI1l[lIll: lIll+2], 36) - ll11));
+        ll1I+=1;
+        if (ll1I >= len(l1lI)):
+            ll1I = 0;
+    ret=''.join(l1ll)
+    if 'eval(function(w,i,s,e)' in ret:
+        print 'STILL GOing'
+        ret=re.compile('eval\(function\(w,i,s,e\).*}\((.*?)\)').findall(ret)[0] 
+        return get_unwise(ret)
+    else:
+        print 'FINISHED'
+        return ret
+
     
 def get_unpacked( page_value, regex_for_text, iterations=1, total_iteration=1):
     try:        
