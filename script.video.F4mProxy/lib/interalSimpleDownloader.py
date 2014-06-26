@@ -149,7 +149,7 @@ class interalSimpleDownloader():
                             return
                         buf = response.read(400 * 1024)
                         fileout.write(buf)
-                        print 'writing something..............'
+                        #print 'writing something..............'
                         fileout.flush()                        
                     response.close()
                     fileout.close()
