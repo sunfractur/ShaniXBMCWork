@@ -24,3 +24,5 @@
 - wrong xml quick fix from http://streamer11.elementssys.com:8080/albadawiyah-800-hdsx/archive/1400941159/now/manifest.f4m
 [B]Version 1.0.18[/B]
 - support for no meta data manifest like http://olystreameast.nbcolympics.com/vod/157717c8-9c74-4fd1-ab1a-7daca5246324/geo1-lucas-oil-pro-motocross0531120959-ua.ism/manifest(format=f4m-f4f).f4m
+[B]Version 2.0.0[/B]
+- support for simpledownloader. This is just any file which needs downloading so that xbmc can play, which is failing because of range xbmc is trying

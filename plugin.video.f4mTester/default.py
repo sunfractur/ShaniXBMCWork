@@ -41,10 +41,17 @@ if paramstring:
         import json
         proxy_use_chunks=json.loads(proxy_use_chunks_temp)
     except:pass
-	
+    
+    simpleDownloader=False
+    try:
+        simpleDownloader_temp = params['simpledownloader'][0]
+        import json
+        simpleDownloader=json.loads(simpleDownloader_temp)
+    except:pass
 	
 	
     mode='play'
+
     try:    
         mode =  params['mode'][0]
     except: pass
@@ -60,7 +67,7 @@ def playF4mLink(url,name,proxy=None,use_proxy_for_chunks=False):
     #progress = xbmcgui.DialogProgress()
     #progress.create('Starting local proxy')
     xbmcplugin.endOfDirectory(int(sys.argv[1]), cacheToDisc=False)
-    player.playF4mLink(url, name, proxy, use_proxy_for_chunks,maxbitrate)
+    player.playF4mLink(url, name, proxy, use_proxy_for_chunks,maxbitrate,simpleDownloader)
     
     return   
     
@@ -142,6 +149,8 @@ if mode ==None:
     ['http://88.157.194.246/live/ramdisk/zsic/HDS/zviseu.f4m','Sic http://viseu.es.tl/','',0,'',False], 
     ['http://www.rte.ie/manifests/rte1.f4m','Rte.ie multi nested manifests','',0,'',False], 
 	['http://olystreameast.nbcolympics.com/vod/157717c8-9c74-4fd1-ab1a-7daca5246324/geo1-lucas-oil-pro-motocross0531120959-ua.ism/manifest(format=f4m-f4f).f4m','NBc olypics','',900,'108.163.254.214:7808',False], 
+	['http://olystreameast.nbcolympics.com/vod/31883e54-e85b-4551-a24a-46accc4a9d49/nbc-sports-live-extra0601123118-ua.ism/manifest(format=f4m-f4f,filtername=vodcut).f4m','NBc extra olypics','',900,'108.163.254.214:7808',False], 
+
     ['http://77.245.150.95/hds-live/livepkgr/_definst_/liveevent/livestream.f4m','something else','',0,'',False]]
      
 

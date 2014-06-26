@@ -24,3 +24,5 @@
 - removed import of t0mm0 common, wasn't even being used
 [B]Version 1.0.18[/B]
 - Support for proxy param
+[B]Version 2.0.0[/B]
+- Support for passing simple downloader flag
