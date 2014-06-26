@@ -14,7 +14,7 @@ import traceback
 import urlparse
 import posixpath
 import re
-
+import socket
 
 addon_id = 'script.video.F4mProxy'
 selfAddon = xbmcaddon.Addon(id=addon_id)
@@ -147,7 +147,7 @@ class interalSimpleDownloader():
                     while (buf != None and len(buf) > 0):
                         if self.g_stopEvent and self.g_stopEvent.isSet():
                             return
-                        buf = response.read(400 * 1024)
+                        buf = response.read(200 * 1024)
                         fileout.write(buf)
                         #print 'writing something..............'
                         fileout.flush()                        

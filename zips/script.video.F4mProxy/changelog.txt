@@ -26,3 +26,5 @@
 - support for no meta data manifest like http://olystreameast.nbcolympics.com/vod/157717c8-9c74-4fd1-ab1a-7daca5246324/geo1-lucas-oil-pro-motocross0531120959-ua.ism/manifest(format=f4m-f4f).f4m
 [B]Version 2.0.0[/B]
 - support for simpledownloader. This is just any file which needs downloading so that xbmc can play, which is failing because of range xbmc is trying
+[B]Version 2.0.1[/B]
+small bug
