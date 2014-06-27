@@ -1,5 +1,13 @@
 <channels>
 <channel>
+        <cname>Quran Radio</cname>
+        <imageurl>https://lh5.ggpht.com/4BKwazfLGLgXK5GUEzgW07Zf2tjswDFKuUt19BBW-ZU_Pc3isyeMo7relFlKlg_-Wd8=w300</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>islam</category>
+        </assignedcategory>
+</channel>
+<channel>
         <cname>Afaq</cname>
         <imageurl>http://www.lyngsat-logo.com/logo/tv/aa/afaq_tv.jpg</imageurl>
         <enabled>True</enabled>
