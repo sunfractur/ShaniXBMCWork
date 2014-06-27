@@ -1542,14 +1542,30 @@
 	<link>rtmp://livestreaming.itworkscdn.net/lbclive playpath=lbc_1 swfUrl=http://www.lbcgroup.tv/livemedia4/jwplayer.flash.swf pageUrl=http://www.lbcgroup.tv/watch-lbci-live</link>
 	</item>
 </streaminginfo>
+
 <streaminginfo>
         <cname>MTV</cname>
 	<item>
-	<title>itworkscdn Source</title>
-	<link>rtmp://livestreaming1.itworkscdn.net/mtvlive playpath=murrtelevision_360p swfUrl=http://mtv.com.lb/Player/400/jwplayer.flash.swf pageUrl=http://mtv.com.lb/Player/600/400</link>
+	<title>itworkscdn Low</title>
+	<link>rtmp://livestreaming1.itworkscdn.net/mtvlive playpath=murrtelevision_160p swfUrl=http://mtv.com.lb/Player/400/jwplayer.flash.swf pageUrl=http://mtv.com.lb/Player/600/400</link>
 	</item>
 </streaminginfo>
 
+<streaminginfo>
+        <cname>MTV</cname>
+	<item>
+	<title>itworkscdn Med</title>
+	<link>rtmp://livestreaming1.itworkscdn.net/mtvlive playpath=murrtelevision_240p swfUrl=http://mtv.com.lb/Player/400/jwplayer.flash.swf pageUrl=http://mtv.com.lb/Player/600/400</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+        <cname>MTV</cname>
+	<item>
+	<title>itworkscdn High</title>
+	<link>rtmp://livestreaming1.itworkscdn.net/mtvlive playpath=murrtelevision_360p swfUrl=http://mtv.com.lb/Player/400/jwplayer.flash.swf pageUrl=http://mtv.com.lb/Player/600/400</link>
+	</item>
+</streaminginfo>
 
 <streaminginfo>
         <cname>Al Manar</cname>
