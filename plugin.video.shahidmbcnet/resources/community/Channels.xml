@@ -1,5 +1,13 @@
 <channels>
 
+<channel>
+        <cname>Jawhara FM</cname>
+        <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xap1/t1.0-1/10363394_720880601291819_930716460469479697_a.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+		<category>rdio</category>
+        </assignedcategory>
+</channel>
 
 <channel>
         <cname>Quran Radio</cname>
@@ -7,6 +15,7 @@
         <enabled>True</enabled>
         <assignedcategory>
         <category>islam</category>
+		<category>rdio</category>
         </assignedcategory>
 </channel>
 <channel>
@@ -379,6 +388,7 @@
         <enabled>True</enabled>
         <assignedcategory>
 		<category>french</category>
+		<category>rdio</category>
         </assignedcategory>
 	</channel>
 	<channel>
@@ -411,6 +421,7 @@
         <enabled>True</enabled>
         <assignedcategory>
 		<category>french</category>
+		<category>rdio</category>
         </assignedcategory>
 	</channel>
 	<channel>
