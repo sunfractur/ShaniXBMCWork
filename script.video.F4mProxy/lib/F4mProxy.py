@@ -257,6 +257,8 @@ class MyHandler(BaseHTTPRequestHandler):
             simpledownloader =  params['simpledownloader'][0]#
             if simpledownloader.lower=='true':
                 simpledownloader=True
+            else:
+                simpledownloader=False
         except: pass
         
         return (received_url,proxy,use_proxy_for_chunks,maxbitrate,simpledownloader)   

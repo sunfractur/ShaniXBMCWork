@@ -28,3 +28,5 @@
 - support for simpledownloader. This is just any file which needs downloading so that xbmc can play, which is failing because of range xbmc is trying
 [B]Version 2.0.1[/B]
 small bug
+[B]Version 2.0.2[/B]
+another small bug
