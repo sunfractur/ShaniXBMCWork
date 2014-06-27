@@ -1498,8 +1498,11 @@ def addLink(url,name,iconimage,fanart,description,genre,date,showcontext,playlis
         liz.setInfo(type="Video", infoLabels={ "Title": name, "Plot": description, "Genre": genre, "dateadded": date })
         liz.setProperty("Fanart_Image", fanart)
         if (not play_list) and not any(x in url for x in g_ignoreSetResolved):#  (not url.startswith('plugin://plugin.video.f4mTester')):
-            if  regexs and '$pyFunction:playmedia(' not in urllib.unquote_plus(regexs):
-                #print 'setting isplayable',url, urllib.unquote_plus(regexs)
+            if regexs:
+                if '$pyFunction:playmedia(' not in urllib.unquote_plus(regexs):
+                    #print 'setting isplayable',url, urllib.unquote_plus(regexs)
+                    liz.setProperty('IsPlayable', 'true')
+            else:
                 liz.setProperty('IsPlayable', 'true')
         else:
             addon_log( 'NOT setting isplayable'+url)

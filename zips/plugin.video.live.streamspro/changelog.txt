@@ -1,4 +1,7 @@
 Version 1.2.5
+Bug fix
+
+Version 1.2.5
 Support for playmedia
 
 Version 1.2.4
