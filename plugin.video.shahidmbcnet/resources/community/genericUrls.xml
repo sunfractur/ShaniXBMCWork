@@ -1,4 +1,12 @@
 <streamingInfos>
+
+<streaminginfo>
+     <cname>Quran Radio</cname>
+	<item>
+	<title>Main Radio</title>
+	<link>mms://50.22.223.13/radio</link>
+	</item>
+</streaminginfo>
 <streaminginfo>
      <cname>Al Masar</cname>
 	<item>
