@@ -1,5 +1,32 @@
 <streamingInfos>
+<streaminginfo>
+     <cname>Quran Radio</cname>
+	<item>
+	<title>Beautiful recitations</title>
+	<link>mms://50.22.223.13/salma</link>
+	</item>
+</streaminginfo>
 
+<streaminginfo>
+     <cname>Quran Radio</cname>
+	<item>
+	<title>Maher Al Meaqli</title>
+	<link>Radiomms://50.22.223.13/maher</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+     <cname>Quran Radio</cname>
+	<item>
+	<title>Ahmad Al-Ajmy Radio</title>
+	<link>mms://50.22.223.13/ajm</link>
+	</item>
+</streaminginfo><streaminginfo>
+     <cname>Quran Radio</cname>
+	<item>
+	<title>Abdulrahman Alsudaes Radio</title>
+	<link>mms://50.22.223.13/sds</link>
+	</item>
+</streaminginfo>
 <streaminginfo>
      <cname>Quran Radio</cname>
 	<item>
