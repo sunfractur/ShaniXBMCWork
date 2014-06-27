@@ -1,4 +1,13 @@
 <channels>
+
+<channel>
+        <cname>Live Crescent Observation</cname>
+        <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xap1/t1.0-1/c0.0.320.320/p320x320/1235294_1421199204766127_160291838_n.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>islam</category>
+        </assignedcategory>
+</channel>
 <channel>
         <cname>Quran Radio</cname>
         <imageurl>https://lh5.ggpht.com/4BKwazfLGLgXK5GUEzgW07Zf2tjswDFKuUt19BBW-ZU_Pc3isyeMo7relFlKlg_-Wd8=w300</imageurl>
