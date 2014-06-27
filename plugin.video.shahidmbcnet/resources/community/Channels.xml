@@ -1,4 +1,15 @@
 <channels>
+
+<channel>
+        <cname>ArenaSport</cname>
+        <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfa1/t1.0-1/c58.0.320.320/p320x320/428213_333631516678390_1436753289_n.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>cup</category>
+        </assignedcategory>
+</channel>
+
+
 <channel>
         <cname>Safa</cname>
         <imageurl>http://www.lyngsat-logo.com/logo/tv/ss/safa_tv_sa.png</imageurl>
