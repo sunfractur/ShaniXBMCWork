@@ -91,7 +91,7 @@ def getSources():
             addDir('Community Files','community_files',16,icon,FANART,'','','','')
         if os.path.exists(source_file)==True:
             sources = json.loads(open(source_file,"r").read())
-            print 'sources',sources
+            #print 'sources',sources
             if len(sources) > 1:
                 for i in sources:
                     ## for pre 1.0.8 sources
@@ -139,7 +139,7 @@ def addSource(url=None):
         addon_log('Adding New Source: '+source_url.encode('utf-8'))
 
         media_info = None
-        print 'source_url',source_url
+        #print 'source_url',source_url
         data = getSoup(source_url)
         #print 'source_url',source_url
         if data.find('channels_info'):
@@ -286,9 +286,9 @@ def getSoup(url):
 
 
 def getData(url,fanart):
-        print 'url-getData',url
+        #print 'url-getData',url
         soup = getSoup(url)
-        print 'xxxxxxxxxxsoup',soup
+        #print 'xxxxxxxxxxsoup',soup
         if len(soup('channels')) > 0:
             channels = soup('channel')
             for channel in channels:
@@ -350,7 +350,7 @@ def getData(url,fanart):
                     if linkedUrl=='':
                         addDir(name.encode('utf-8', 'ignore'),url.encode('utf-8'),2,thumbnail,fanArt,desc,genre,date,credits,True)
                     else:
-                        print linkedUrl
+                        #print linkedUrl
                         addDir(name.encode('utf-8'),linkedUrl.encode('utf-8'),1,thumbnail,fanArt,desc,genre,date,None,'source')
                 except:
                     addon_log('There was a problem adding directory from getData(): '+name.encode('utf-8', 'ignore'))
@@ -645,15 +645,19 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
         if not recursiveCall:
             regexs = eval(urllib.unquote(regexs))
         #cachedPages = {}
-        print 'url',url
+        #print 'url',url
         doRegexs = re.compile('\$doregex\[([^\]]*)\]').findall(url)
-        print 'doRegexs',doRegexs,regexs
+        #print 'doRegexs',doRegexs,regexs
+        setresolved=True
+              
+ 
+
 
         for k in doRegexs:
             if k in regexs:
-                print 'processing ' ,k
+                #print 'processing ' ,k
                 m = regexs[k]
-                print m
+                #print m
                 cookieJarParam=False
 
 
@@ -668,7 +672,7 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
                 #print 'm[cookiejar]',m['cookiejar'],cookieJar
                 if cookieJarParam:
                     if cookieJar==None:
-                        print 'create cookie jar'
+                        #print 'create cookie jar'
                         cookie_jar_file=None
                         if 'open[' in m['cookiejar']:
                             cookie_jar_file=m['cookiejar'].split('open[')[1].split(']')[0]
@@ -778,12 +782,15 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
                             return cookieJar# do nothing
                     elif m['page'] and  not m['page'].startswith('http'):
                         link=m['page']
+                if '$pyFunction:playmedia(' in m['expre']:
+                    setresolved=False
                 if  '$doregex' in m['expre']:
                     m['expre']=getRegexParsed(regexs, m['expre'],cookieJar,recursiveCall=True,cachedPages=cachedPages)
                     
                 print 'exp k and url'
                 print m['expre'],k,url
                 print 'aa'
+                
                 if not m['expre']=='':
                     print 'doing it ',m['expre']
                     if '$LiveStreamCaptcha' in m['expre']:
@@ -791,7 +798,9 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
                         print 'url and val',url,val
                         url = url.replace("$doregex[" + k + "]", val)
                     elif m['expre'].startswith('$pyFunction:'):
+
                         val=doEval(m['expre'].split('$pyFunction:')[1],link,cookieJar )
+
                         print 'url and val',url,val
 
                         url = url.replace("$doregex[" + k + "]", val)
@@ -823,12 +832,38 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
         if recursiveCall: return url
         print 'final url',url
         item = xbmcgui.ListItem(path=url)
+        
+        if setresolved:
+            print 'now doing set resolved',item
+            xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, item)
+        else:
+            xbmc.Player( xbmc.PLAYER_CORE_MPLAYER ).play(url)
+            
+        #item.addStreamInfo('video', { 'Codec': 'h264', 'Width' : 1280 })
         #setResolvedUrl
         #xbmc.playlist(xbmc.playlist_video).clear()
         #xbmc.playlist(xbmc.playlist_video).add(url)
-        #xbmc.Player().play(item=url)
-        xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, item)
- 
+        #listitem = xbmcgui.ListItem('Ironman')
+        #listitem.setInfo('video', {'Title': 'Ironman', 'Genre': 'Science Fiction'})
+        #xbmc.Player( xbmc.PLAYER_CORE_MPLAYER ).play(url, listitem)
+
+        #xbmc.Player(xbmc.PLAYER_CORE_DVDPLAYER).play(item=url)
+        
+
+def playmedia(media_url):
+    try:
+        import  CustomPlayer
+        player = CustomPlayer.MyXBMCPlayer()
+        listitem = xbmcgui.ListItem( label = str(name), iconImage = "DefaultVideo.png", thumbnailImage = xbmc.getInfoImage( "ListItem.Thumb" ), path=media_url )
+        player.play( media_url,listitem)
+        xbmc.sleep(1000)
+        while player.is_active:
+            xbmc.sleep(200)
+    except:
+        traceback.print_exc()
+    return ''
+    
+        
 def get_saw_rtmp(page_value, referer=None):
     if referer:
         referer=[('Referer',referer)]
@@ -844,12 +879,12 @@ def get_saw_rtmp(page_value, referer=None):
         if 'unescape' in r1:
             r1=urllib.unquote(r2)
         r+=r1+'\n'
-    print 'final value is ',r
+    #print 'final value is ',r
     
     page_url=re_me(r1,'src="(.*?)"')
     
     page_value= getUrl(page_url,headers=referer)
-    print page_value
+    #print page_value
 
     rtmp=re_me(page_value,'streamer\'.*?\'(.*?)\'\)')
     playpath=re_me(page_value,'file\',\s\'(.*?)\'')
@@ -1130,7 +1165,7 @@ def getCookiesString(cookieJar):
         for index, cookie in enumerate(cookieJar):
             cookieString+=cookie.name + "=" + cookie.value +";"
     except: pass
-    print 'cookieString',cookieString
+    #print 'cookieString',cookieString
     return cookieString
 
 
@@ -1463,10 +1498,11 @@ def addLink(url,name,iconimage,fanart,description,genre,date,showcontext,playlis
         liz.setInfo(type="Video", infoLabels={ "Title": name, "Plot": description, "Genre": genre, "dateadded": date })
         liz.setProperty("Fanart_Image", fanart)
         if (not play_list) and not any(x in url for x in g_ignoreSetResolved):#  (not url.startswith('plugin://plugin.video.f4mTester')):
-            print 'setting isplayable',url
-            liz.setProperty('IsPlayable', 'true')
+            if  regexs and '$pyFunction:playmedia(' not in urllib.unquote_plus(regexs):
+                #print 'setting isplayable',url, urllib.unquote_plus(regexs)
+                liz.setProperty('IsPlayable', 'true')
         else:
-            print 'NOT setting isplayable'
+            addon_log( 'NOT setting isplayable'+url)
         if showcontext:
             contextMenu = []
             if showcontext == 'fav':
