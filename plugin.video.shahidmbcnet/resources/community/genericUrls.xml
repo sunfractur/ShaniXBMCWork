@@ -2,7 +2,27 @@
 
 
 
-
+<streaminginfo>
+     <cname>Safa</cname>
+	<item>
+	<title>Low</title>
+	<link>http://50.7.131.42:1935/safa/smil:safa-smil.smil/chunklist_w1889871104_b632768.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+     <cname>Safa</cname>
+	<item>
+	<title>Med</title>
+	<link>http://50.7.131.42:1935/safa/smil:safa-smil.smil/chunklist_w1889871104_b632768.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+     <cname>Safa</cname>
+	<item>
+	<title>High</title>
+	<link>http://50.7.131.42:1935/safa/smil:safa-smil.smil/chunklist_w1889871104_b1875968.m3u8</link>
+	</item>
+</streaminginfo>
 <streaminginfo>
      <cname>Quran Radio</cname>
 	<item>
