@@ -86,7 +86,7 @@ class MyHandler(BaseHTTPRequestHandler):
 
 
             (url,proxy,use_proxy_for_chunks,maxbitrate,simpledownloader)=self.decode_url(request_path)
-            print 'simpledownloader',simpledownloader
+            print 'simpledownloaderxxxxxxxxxxxxxxx',simpledownloader
             if not simpledownloader:
 
                 print 'Url received at proxy',url,proxy,use_proxy_for_chunks,maxbitrate
@@ -255,7 +255,8 @@ class MyHandler(BaseHTTPRequestHandler):
         simpledownloader=False
         try:
             simpledownloader =  params['simpledownloader'][0]#
-            if simpledownloader.lower=='true':
+            if simpledownloader.lower()=='true':
+                print 'params[simpledownloader][0]',params['simpledownloader'][0]
                 simpledownloader=True
             else:
                 simpledownloader=False

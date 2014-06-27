@@ -30,3 +30,5 @@
 small bug
 [B]Version 2.0.2[/B]
 another small bug
+[B]Version 2.0.3[/B]
+finall small bug solved :)
