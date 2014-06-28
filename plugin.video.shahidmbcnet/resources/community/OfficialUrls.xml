@@ -1324,14 +1324,6 @@
 	</item>
 </streaminginfo>
 <streaminginfo>
-    <cname>CBC Sofra</cname>
-	<item>
-	<title>Original Source</title>
-	<link>rtmp://41.196.200.11:9900/live//ssoofra.stream timeout=20</link>
-	</item>
-</streaminginfo>
-
-<streaminginfo>
         <cname>New Media</cname>
 	<item>
 	<title>Original Source</title>
