@@ -2,6 +2,14 @@
 <streaminginfo>
      <cname>Maroc</cname>
 	<item>
+	<title>France Maghreb</title>
+	<link>http://46.105.45.216:8000</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+     <cname>Maroc</cname>
+	<item>
 	<title>Marrakech</title>
 	<link>http://91.121.4.107:8000/radio_plus_marrakech.mp3</link>
 	</item>
