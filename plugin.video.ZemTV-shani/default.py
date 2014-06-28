@@ -139,12 +139,103 @@ def AddEnteries(type):
 	elif type=='Next Page':
 		AddShows(url)
 	else:
-		addDir(Colored('ZemTv Channels','ZM',True) ,'ZEMTV' ,10,'', False, True,isItFolder=False)		#name,url,mode,icon
-		AddChannels();#AddChannels()
+		#addDir(Colored('ZemTv Channels','ZM',True) ,'ZEMTV' ,10,'', False, True,isItFolder=False)		#name,url,mode,icon
+		#AddChannels();#AddChannels()
 		addDir(Colored('EboundServices Channels','EB',True) ,'ZEMTV' ,10,'', False, True,isItFolder=False)		#name,url,mode,icon
 		AddChannelsFromEbound();#AddChannels()
-
+		addDir(Colored('Other sources','ZM',True) ,'ZEMTV' ,10,'', False, True,isItFolder=False)
+		AddChannelsFromOthers()
 	return
+
+def AddChannelsFromOthers():
+    main_ch='(<section_name>Pakistani<\/section_name>.*?<\/section>)'
+    patt='<channel_number>.*?<channel_name>(.*?)<\/channel_name>.*?<channel_url>(.*?)<\/channel_url>.*?<\/channel_url>'
+    url="http://ferrarilb.jemtv.com/index.php/2_2/gxml/channel_list/1"
+    req = urllib2.Request(url)
+    req.add_header('User-Agent', 'Mozilla/5.0(iPad; U; CPU iPhone OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B314 Safari/531.21.10')
+    response = urllib2.urlopen(req)
+    link=response.read()
+    response.close()
+
+    match =re.findall(main_ch,link)[0]
+    match =re.findall(patt,match)
+    match=sorted(match,key=itemgetter(0)   )
+
+    for cname,curl in match:
+        addDir(Colored(cname.capitalize(),'ZM') ,curl ,11,'', False, True,isItFolder=False)		#name,url,mode,icon
+    return
+    
+def re_me(data, re_patten):
+    match = ''
+    m = re.search(re_patten, data)
+    if m != None:
+        match = m.group(1)
+    else:
+        match = ''
+    return match
+
+def revist_dag(page_data):
+    final_url = ''
+    if '127.0.0.1' in page_data:
+        final_url = re_me(page_data, '&ver_t=([^&]+)&') + ' live=true timeout=15 playpath=' + re_me(page_data, '\\?y=([a-zA-Z0-9-_\\.@]+)')
+        
+    if re_me(page_data, 'token=([^&]+)&') != '':
+        final_url = final_url + '?token=' + re_me(page_data, 'token=([^&]+)&')
+    elif re_me(page_data, 'wmsAuthSign%3D([^%&]+)') != '':
+        final_url = re_me(page_data, '&ver_t=([^&]+)&') + '?wmsAuthSign=' + re_me(page_data, 'wmsAuthSign%3D([^%&]+)') + '==/mp4:' + re_me(page_data, '\\?y=([^&]+)&')
+    else:
+        final_url = re_me(page_data, 'HREF="([^"]+)"')
+
+    if 'dag1.asx' in final_url:
+        return get_dag_url(final_url)
+
+    if 'devinlivefs.fplive.net' not in final_url:
+        final_url = final_url.replace('devinlive', 'flive')
+    if 'permlivefs.fplive.net' not in final_url:
+        final_url = final_url.replace('permlive', 'flive')
+    return final_url
+
+def get_dag_url(page_data):
+    print 'get_dag_url',page_data
+    if '127.0.0.1' in page_data:
+        return revist_dag(page_data)
+    elif re_me(page_data, 'wmsAuthSign%3D([^%&]+)') != '':
+        final_url = re_me(page_data, '&ver_t=([^&]+)&') + '?wmsAuthSign=' + re_me(page_data, 'wmsAuthSign%3D([^%&]+)') + '==/mp4:' + re_me(page_data, '\\?y=([^&]+)&')
+    else:
+        final_url = re_me(page_data, 'href="([^"]+)"[^"]+$')
+        if len(final_url)==0:
+            final_url=page_data
+    final_url = final_url.replace(' ', '%20')
+    return final_url
+    
+def PlayOtherUrl ( url ):
+    progress = xbmcgui.DialogProgress()
+    progress.create('Progress', 'Fetching Streaming Info')
+    progress.update( 10, "", "Finding links..", "" )
+    req = urllib2.Request(url)
+    #req.add_header('User-Agent', 'Verismo-BlackUI_(2.4.7.5.8.0.34)')   
+    #req.add_header('User-Agent', 'Mozilla/5.0(iPad; U; CPU iPhone OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B314 Safari/531.21.10')
+    response = urllib2.urlopen(req)
+    link=response.read()
+    curlpatth='<link>(.*?)<\/link>'
+    progress.update( 50, "", "Preparing url..", "" )
+    
+    dag_url =re.findall(curlpatth,link)[0]
+    print 'dag_url',dag_url
+    if 'dag1.asx' in dag_url:    
+        req = urllib2.Request(dag_url)
+        req.add_header('User-Agent', 'Verismo-BlackUI_(2.4.7.5.8.0.34)')   
+        response = urllib2.urlopen(req)
+        link=response.read()
+        dat_pattern='href="([^"]+)"[^"]+$'
+        dag_url =re.findall(dat_pattern,link)[0]
+    print 'dag_url2',dag_url
+    final_url=get_dag_url(dag_url)
+    progress.update( 100, "", "Almost done..", "" )
+    print final_url
+    listitem = xbmcgui.ListItem( label = str(name), iconImage = "DefaultVideo.png", thumbnailImage = xbmc.getInfoImage( "ListItem.Thumb" ) )
+    print "playing stream name: " + str(name) 
+    xbmc.Player( xbmc.PLAYER_CORE_AUTO ).play( final_url, listitem)    
 
 def AddChannelsFromEbound():
 	liveURL='http://eboundservices.com/istream_demo.php'
@@ -168,6 +259,7 @@ def AddChannelsFromEbound():
 	expressExists=False
 	expressCName='express'
 	arynewsAdded=False
+	match=sorted(match,key=itemgetter(1)   )
 
 	#h = HTMLParser.HTMLParser()
 	for cname in match:
@@ -556,6 +648,9 @@ try:
 	elif mode==4 or mode==9:
 		print "Play url is "+url
 		PlayLiveLink(url)
+	elif mode==11:
+		print "Play url is "+url
+		PlayOtherUrl(url)
 
 	elif mode==6 :
 		print "Play url is "+url
