@@ -1,11 +1,12 @@
 <channels>
-<streaminginfo>
-     <cname>Algerie</cname>
-	<item>
-	<title>Radio Dzair</title>
-	<link>http://radio-dzair.net:8000</link>
-	</item>
-</streaminginfo>
+<channel>
+        <cname>Algerie</cname>
+        <imageurl>http://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/256/Algeria-Flag-icon.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>rdio</category>
+        </assignedcategory>
+</channel>
 <channel>
         <cname>Maroc</cname>
         <imageurl>http://icons.iconarchive.com/icons/hopstarter/flag-borderless/256/Morocco-icon.png</imageurl>
