@@ -1,7 +1,13 @@
 <streamingInfos>
 
 
-
+<streaminginfo>
+     <cname>Maroc</cname>
+	<item>
+	<title>Medi1</title>
+	<link>http://streaming07.mit.ovea.com/medi1</link>
+	</item>
+</streaminginfo>
 <streaminginfo>
      <cname>Safa</cname>
 	<item>
