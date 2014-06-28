@@ -1,6 +1,12 @@
 <streamingInfos>
 
-
+<streaminginfo>
+     <cname>Maroc</cname>
+	<item>
+	<title>Chada FM</title>
+	<link>http://broadcast.infomaniak.net/chadafm-high.mp3</link>
+	</item>
+</streaminginfo>
 <streaminginfo>
      <cname>Maroc</cname>
 	<item>
