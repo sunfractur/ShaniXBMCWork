@@ -494,9 +494,9 @@
 </streaminginfo>
 
 <streaminginfo>
-<cname>Al Amaken</cname>
+<cname>Al Amaken Drama</cname>
 <item>
-<title>Ustream Bad Quality</title>
+<title>Ustream Bad Quality Link2</title>
 <link>$doregex[get-link]</link>
 <regex>
 <name>get-link</name>
@@ -507,9 +507,9 @@
 </streaminginfo>
 
 <streaminginfo>
-<cname>Al Amaken</cname>
+<cname>Al Amaken Drama</cname>
 <item>
-<title>Ustream Bad Quality</title>
+<title>Ustream Bad Quality Link1</title>
 <link>$doregex[get-link]</link>
 <regex>
 <name>get-link</name>
