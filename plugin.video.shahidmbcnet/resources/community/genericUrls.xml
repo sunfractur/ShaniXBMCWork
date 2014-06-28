@@ -1,4 +1,12 @@
 <streamingInfos>
+
+<streaminginfo>
+		<cname>CBC Sofra</cname>
+		<item>
+		<title>youtube</title>
+		<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=jgjneBqkrKU</link>
+		</item>
+</streaminginfo>
 <streaminginfo>
      <cname>Maroc</cname>
 	<item>
