@@ -2,6 +2,28 @@
 <streaminginfo>
      <cname>Maroc</cname>
 	<item>
+	<title>Medina FM</title>
+	<link>http://medinafm.ice.infomaniak.ch/medinafm-64.mp3</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+     <cname>Maroc</cname>
+	<item>
+	<title>Casablanca</title>
+	<link>http://streaming.radionomy.com/RadioWebma-Casablanca</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+     <cname>Maroc</cname>
+	<item>
+	<title>Rabat</title>
+	<link>http://mp3lg4.tdf-cdn.com/9080/jet_144136.mp3</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+     <cname>Maroc</cname>
+	<item>
 	<title>Aswat</title>
 	<link>http://broadcaster.infomaniak.ch/aswat-high.mp3</link>
 	</item>
