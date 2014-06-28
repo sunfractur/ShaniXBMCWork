@@ -1,5 +1,12 @@
 <streamingInfos>
 <streaminginfo>
+     <cname>Algerie</cname>
+	<item>
+	<title>Radio Dzair</title>
+	<link>http://radio-dzair.net:8000</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
      <cname>Maroc</cname>
 	<item>
 	<title>Medina FM</title>
