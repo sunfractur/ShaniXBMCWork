@@ -5098,5 +5098,54 @@
 			<category>christ</category>
 		</assignedcategory>
 	</channel>
+    <channel>
+        <cname>Al Iraqiya 2</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/aa/al_iraqya.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>Iraq</category>
+        </assignedcategory>
+    </channel>
+    <channel>
+        <cname>Al Iraqiya Documentary</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/aa/al_iraqya_documentary.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>Iraq</category>
+        </assignedcategory>
+    </channel>
+    <channel>
+        <cname>Al Naeem</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/aa/al_naeem_tv_iq.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>Iraq</category>
+        </assignedcategory>
+    </channel>
+    <channel>
+        <cname>Al Ahad</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/aa/al_ahad_tv_iq.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>Iraq</category>
+        </assignedcategory>
+    </channel>
+    <channel>
+        <cname>Al Forqan</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/aa/al_forqan.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>Iraq</category>
+        </assignedcategory>
+    </channel>
+    <channel>
+        <cname>Al Kawthar</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/aa/al_iraqya.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>islam</category>
+        </assignedcategory>
+    </channel>
+
 
 </channels>
