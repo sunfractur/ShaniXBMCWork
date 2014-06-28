@@ -4763,7 +4763,16 @@
     </channel>
 
     <channel>
-        <cname>I Film</cname>
+        <cname>iFilm Arabic</cname>
+        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/iflm_zps09b09a67.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>drama</category>
+        </assignedcategory>
+    </channel>
+
+    <channel>
+        <cname>iFilm English</cname>
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/iflm_zps09b09a67.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
