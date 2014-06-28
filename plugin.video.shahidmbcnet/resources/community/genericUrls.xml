@@ -1,4 +1,42 @@
 <streamingInfos>
+<streaminginfo>
+     <cname>Maroc</cname>
+	<item>
+	<title>Radio 2M</title>
+	<link>http://mp3lg4.tdf-cdn.com/9033/jet_121413.mp3</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+     <cname>Maroc</cname>
+	<item>
+	<title>Yabiladi</title>
+	<link>http://media.yabiladi.com:8000</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+     <cname>Maroc</cname>
+	<item>
+	<title>Yabiladi Chaabi</title>
+	<link>http://media.yabiladi.com:8100</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+     <cname>Maroc</cname>
+	<item>
+	<title>Yabiladi Tamazight</title>
+	<link>http://media.yabiladi.com:9000</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+     <cname>Maroc</cname>
+	<item>
+	<title>Yabiladi Urban</title>
+	<link>http://media.yabiladi.com:9100</link>
+	</item>
+</streaminginfo>
 
 <streaminginfo>
      <cname>Maroc</cname>
