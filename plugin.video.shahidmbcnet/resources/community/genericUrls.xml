@@ -1,5 +1,11 @@
 <streamingInfos>
-
+<streaminginfo>
+     <cname>Maroc</cname>
+	<item>
+	<title>Marrakech</title>
+	<link>http://91.121.4.107:8000/radio_plus_marrakech.mp3</link>
+	</item>
+</streaminginfo>
 <streaminginfo>
      <cname>Maroc</cname>
 	<item>
