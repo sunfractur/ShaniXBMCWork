@@ -1130,5 +1130,22 @@
         <chnumber>ch138</chnumber>
     <link>http://www.livetv.tn/Sama-Dubai-en-direct-live.html</link></streaminginfo>
     
+    <streaminginfo>
+        <cname>Al Sharqiya</cname>
+        <chnumber>ch87</chnumber>
+    <link>http://www.livetv.tn/Al-Shar9ia-en-direct-live.html</link></streaminginfo>
+  	
+    <streaminginfo>
+        <cname>Egypt 2</cname>
+        <chnumber>ch89</chnumber>
+    <link>http://www.livetv.tn/Al-Masria-en-direct-live.html</link></streaminginfo>
+	<streaminginfo>
+        <cname>Blue Nile TV</cname>
+        <chnumber>ch410</chnumber>
+<link>http://www.livetv.tn/Blue-Nile-TV-en-direct-live.html</link></streaminginfo>
+<streaminginfo>
+        <cname>Tamazigh Maroc</cname>
+        <chnumber>ch327</chnumber>
+<link>http://www.livetv.tn/Algeria-Tamazigh-en-direct-live.html</link></streaminginfo>
 	
 </streaminginfos>
