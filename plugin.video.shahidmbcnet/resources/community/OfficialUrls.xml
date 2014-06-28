@@ -1174,10 +1174,33 @@
 <streaminginfo>
      	<cname>Noor Dubai</cname>
 	<item>
-	<title>Original source</title>
-	<link>http://cdnedvrnoordubaitv.endavomedia.com/smil:dmilivenoordubaitvhls.smil/playlist.m3u8</link>
+	<title>Low 160</title>
+	<link>rtmp://wms04.endavomedia.com:1935/dmilivenoordubaitv/dmilivenoordubaitv_1 timeout=20</link>
 	</item>
 </streaminginfo>
+
+<streaminginfo>
+     	<cname>Noor Dubai</cname>
+	<item>
+	<title>Low</title>
+	<link>rtmp://wms04.endavomedia.com:1935/dmilivenoordubaitv/dmilivenoordubaitv_2 timeout=20</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+     	<cname>Noor Dubai</cname>
+	<item>
+	<title>Med</title>
+	<link>rtmp://wms04.endavomedia.com:1935/dmilivenoordubaitv/dmilivenoordubaitv_3 timeout=20</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+     	<cname>Noor Dubai</cname>
+	<item>
+	<title>High</title>
+	<link>rtmp://wms04.endavomedia.com:1935/dmilivenoordubaitv/dmilivenoordubaitv_4 timeout=20</link>
+	</item>
+</streaminginfo>
+
 <streaminginfo>
      	<cname>Sama Dubai</cname>
 	<item>
