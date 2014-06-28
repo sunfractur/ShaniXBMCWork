@@ -979,10 +979,7 @@
 	<cname>Nile News</cname>
 	<item><title>Ngmatv</title><link>http://85.91.143.21:1935/98677/98677.stream/playlist.m3u8</link></item> 
 </streaminginfo>
-<streaminginfo>
-	<cname>Bein Sport News</cname>
-	<item><title>Ngmatv</title><link>http://85.91.143.23:1935/23688/23688.stream/playlist.m3u8</link></item>
-</streaminginfo>
+
 <streaminginfo>
 	<cname>Coptic_Christian</cname>
 	<item><title>Alhayat2 Ngmatv</title><link>http://85.91.143.22:1935/35431/35431.stream/playlist.m3u8</link></item> 
@@ -1064,7 +1061,6 @@
 <link>http://85.91.143.22:1935/90457/90457.stream/playlist.m3u8?wowzasessionid=785117918</link>
 </item></streaminginfo>
 
-<streaminginfo><cname>Bein Sport News</cname><item><title>Negmtv link2</title><link>http://85.91.143.23:1935/23688/23688.stream/playlist.m3u8?wowzasessionid=47475956</link></item></streaminginfo>
 <streaminginfo><cname>Alrai</cname><item><title>NegmaTV</title><link>http://85.91.143.22:1935/58130/58130.stream/playlist.m3u8</link></item></streaminginfo>
 
 
