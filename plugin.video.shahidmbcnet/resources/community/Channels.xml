@@ -1,5 +1,12 @@
 <channels>
-
+<channel>
+        <cname>Maroc</cname>
+        <imageurl>http://icons.iconarchive.com/icons/hopstarter/flag-borderless/256/Morocco-icon.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>rdio</category>
+        </assignedcategory>
+</channel>
 <channel>
         <cname>ArenaSport</cname>
         <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfa1/t1.0-1/c58.0.320.320/p320x320/428213_333631516678390_1436753289_n.jpg</imageurl>
