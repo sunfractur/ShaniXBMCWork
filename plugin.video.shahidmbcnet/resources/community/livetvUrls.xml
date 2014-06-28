@@ -1048,7 +1048,87 @@
         <chnumber>ch805</chnumber>
     <link>http://www.livetv.tn/Al-Arabia-Hadath-en-direct-live.html</link></streaminginfo> 
     
+    <streaminginfo>
+        <cname>ART Hekayat</cname>
+        <chnumber>ch407</chnumber>
+    <link>http://www.livetv.tn/ART-Hikayat-1-en-direct-live.html</link></streaminginfo>
+	<streaminginfo>
+        <cname>ART Hekayat 2</cname>
+        <chnumber>ch408</chnumber>
+    <link>http://www.livetv.tn/ART-Hikayat-2-en-direct-live.html</link></streaminginfo>
+	<streaminginfo>
+        <cname>ART Cinema</cname>
+        <chnumber>409</chnumber>
+    <link>http://www.livetv.tn/ART-Cinema-en-direct-live.html</link></streaminginfo>
+    <streaminginfo>
+        <cname>Coran</cname>
+        <chnumber>ch323</chnumber>
+<link>http://www.livetv.tn/Coran-TV-en-direct-live.html</link></streaminginfo>
+
+<streaminginfo>
+        <cname>Mecca TV</cname>
+        <chnumber>ch322</chnumber>
+<link>http://www.livetv.tn/Mecca-TV-en-direct-live.html</link></streaminginfo>
+
+<streaminginfo>
+        <cname>Alinsen</cname>
+        <chnumber>ch4</chnumber>
+<link>http://www.livetv.tn/Al-Insen-en-direct-live.html</link></streaminginfo>
+
+<streaminginfo>
+        <cname>B4U Aflam</cname>
+        <chnumber>ch331</chnumber>
+<link>http://www.livetv.tn/B4U-Aflem-en-direct-live.html</link></streaminginfo>
+
+<streaminginfo>
+        <cname>Aljazeera</cname>
+        <chnumber></chnumber>
+<link>http://www.livetv.tn/JSC-News-Arabic-en-direct-live.html</link></streaminginfo>
+<streaminginfo>
+        <cname>Panorama Drama</cname>
+        <chnumber>ch117</chnumber>
+    <link>http://www.livetv.tn/Panorama-Drama-en-direct-live.html</link></streaminginfo>
+    <streaminginfo>
+        <cname>Palestine</cname>
+        <url>ch100</url>
+    <link>http://www.livetv.tn/Palestine-en-direct-live.html</link>
+</streaminginfo>
+    <streaminginfo>
+        <cname>BeIn Sport 1</cname>
+        <chnumber>ch12</chnumber>
+    <link>http://www.livetv.tn/BeIn-1-en-direct-live.html</link></streaminginfo>
+    <streaminginfo>
+        <cname>BeIn Sport 2</cname>
+        <chnumber>ch13</chnumber>
+    <link>http://www.livetv.tn/BeIn-2-en-direct-live.html</link></streaminginfo>
+	
+   <streaminginfo>
+        <cname>M6</cname>
+        <chnumber>ch104</chnumber>
+    <link>http://www.livetv.tn/M6-en-direct-live.html</link>
+	</streaminginfo>
+ 
+    <streaminginfo>
+        <cname>Masrawi Aflam</cname>
+        <chnumber>ch127</chnumber>
+    <link>http://www.livetv.tn/Masrawi-Aflem-en-direct-live.html</link></streaminginfo>
+    <streaminginfo>
+        <cname>Mazeka zoom</cname>
+        <chnumber>ch129</chnumber>
+    <link>http://www.livetv.tn/Mazika-Zoom-en-direct-live.html</link></streaminginfo>
+    <streaminginfo>
+        <cname>Melody Aflem</cname>
+        <chnumber>ch130</chnumber>
+    <link>http://www.livetv.tn/Melody-Aflem-en-direct-live.html</link></streaminginfo>
     
+    <streaminginfo>
+        <cname>Roya</cname>
+        <chnumber>ch137</chnumber>
+    <link>http://www.livetv.tn/Roya-en-direct-live.html</link></streaminginfo>
+    <streaminginfo>
+        <cname>Sama Dubai</cname>
+        <chnumber>ch138</chnumber>
+    <link>http://www.livetv.tn/Sama-Dubai-en-direct-live.html</link></streaminginfo>
     
 	
 </streaminginfos>
