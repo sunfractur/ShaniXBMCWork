@@ -2,6 +2,22 @@
 <streaminginfo>
      <cname>Maroc</cname>
 	<item>
+	<title>Aswat</title>
+	<link>http://broadcaster.infomaniak.ch/aswat-high.mp3</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+     <cname>Maroc</cname>
+	<item>
+	<title>Tamazight</title>
+	<link>http://37.58.75.162:8222/</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+     <cname>Maroc</cname>
+	<item>
 	<title>Radio 2M</title>
 	<link>http://mp3lg4.tdf-cdn.com/9033/jet_121413.mp3</link>
 	</item>
