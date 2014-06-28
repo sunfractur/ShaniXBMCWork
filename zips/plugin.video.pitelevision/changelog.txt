@@ -26,3 +26,6 @@
 - proxysetup
 [B]Version 1.5.1[/B]
 - FILE BUG
+
+[B]Version 1.5.2[/B]
+- FILE BUG

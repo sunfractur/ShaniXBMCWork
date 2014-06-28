@@ -14,6 +14,8 @@ import os
 import sys
 import traceback
 import threading
+import cookielib
+
 
 REMOTE_DBG=False;
 #stopPlaying=threading.Event()
@@ -54,7 +56,8 @@ __addonname__   = selfAddon.getAddonInfo('name')
 __icon__        = selfAddon.getAddonInfo('icon')
 DIR_USERDATA   = xbmc.translatePath(selfAddon.getAddonInfo('profile'))#selfAddon["profile"])
 
-  
+
+COOKIEFILE = DIR_USERDATA+'/PiTVLoginCookie.lwp'  
  
 mainurl='http://www.pitelevision.com'
 
@@ -213,22 +216,102 @@ def getShowUrl(url):
 	
 		
     return
+    
+def getCookieJar():
+	cookieJar=None
+	
 
+
+	try:
+		cookieJar = cookielib.LWPCookieJar()
+		cookieJar.load(COOKIEFILE,ignore_discard=True)
+	except: 
+		cookieJar=None
+	
+	if not cookieJar:
+		cookieJar = cookielib.LWPCookieJar()
+	
+	return cookieJar
+    
+def shouldforceLogin(cookieJar=None, currentPage=None):
+    try:
+        url=mainurl+'/index.php?lang=en'
+        if not cookieJar:
+            cookieJar=getCookieJar()
+        if currentPage==None:
+            html_txt=getUrl(url,cookieJar=cookieJar)
+        else:
+            html_txt=currentPage
+            print 'html_txt',currentPage
+            
+        if '<p id="form-login-username">' in html_txt:
+            return True
+        else:
+            return False
+    except:
+        traceback.print_exc(file=sys.stdout)
+    return True
+def getUrl(url, cookieJar=None,post=None, timeout=30, headers=None):
+
+
+	cookie_handler = urllib2.HTTPCookieProcessor(cookieJar)
+	opener = urllib2.build_opener(cookie_handler, urllib2.HTTPBasicAuthHandler(), urllib2.HTTPHandler())
+	#opener = urllib2.install_opener(opener)
+	req = urllib2.Request(url)
+	req.add_header('User-Agent','Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36')
+	if headers:
+		for h,hv in headers:
+			req.add_header(h,hv)
+
+	response = opener.open(req,post,timeout=timeout)
+	link=response.read()
+	response.close()
+	return link;
+    
+def performLogin():
+    cookieJar=cookielib.LWPCookieJar()
+    userName=selfAddon.getSetting( "piTvLogin" )
+    password=selfAddon.getSetting( "piTvPwd")
+    link=getUrl('http://www.pitelevision.com/index.php?lang=en',cookieJar=cookieJar)
+    patt='value="(.*?)".*\s*<input type="hidden" name="(.*)" value="1".*<\/fieldset>'
+    ret_val,enc=re.findall(patt, link)[0]
+
+    post={'username':userName,'password':password,'Submit':'Log in','option':'com_users','task':'user.login','return':ret_val,enc:'1'}
+    print 'post',post
+    post = urllib.urlencode(post)
+
+    link=getUrl('http://www.pitelevision.com/index.php?option=com_users&lang=en',post=post, cookieJar=cookieJar)
+    
+    cookieJar.save (COOKIEFILE,ignore_discard=True)
+    #return shouldforceLogin(cookieJar, link)==False
+    return True
 def getLiveUrl(url):
-    line1="Fetching Live URL";
-    timeWait=2000
-    xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, timeWait, __icon__))
+    pDialog = xbmcgui.DialogProgress()
+    pDialog.create('XBMC', 'Communicating with piTV')
+    pDialog.update(20, 'checking Login status')
+    print 'checking logiin'
+    if shouldforceLogin():
+        print 'performing login'
+        pDialog.update(40, 'Performing login')
+        if not performLogin():
+            print 'login failed'
+            pDialog.update(60, 'Login failed')
+          
+    pDialog.update(70, 'Fetching Live URL')          
+
 
     #print 'fetching url',url
-    link=getURL(url).result;
+    link=getUrl(url,cookieJar=getCookieJar())
+    pDialog.update(90, 'Fetching Live URL')   
     match= re.findall('flashvars="src=(.*?)&', link)
-    #print 'match',match
+    print 'match',match
     url=""
     if len(match)>0:
 
          url=match[0]#+'.f4m'#url=match[0]+'.m3u8'
          #url='rtsp://202.125.131.170:554/pitelevision/starsports41'
     #print 'url',url
+    pDialog.close()
     return {'url':url}
     
     
@@ -243,7 +326,7 @@ def PlayLiveLink ( url,name ):
 
     urlDic=getLiveUrl(url)
     #urlDic='rtsp://202.125.131.170:554/pitelevision/starsports41'	
-    if not urlDic==None:
+    if not urlDic==None and len(urlDic["url"])>0:
         line1="Url found, Preparing to play";
         timeWait=2000
         xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, timeWait, __icon__))
