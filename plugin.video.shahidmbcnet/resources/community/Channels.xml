@@ -1,4 +1,11 @@
 <channels>
+<streaminginfo>
+     <cname>Algerie</cname>
+	<item>
+	<title>Radio Dzair</title>
+	<link>http://radio-dzair.net:8000</link>
+	</item>
+</streaminginfo>
 <channel>
         <cname>Maroc</cname>
         <imageurl>http://icons.iconarchive.com/icons/hopstarter/flag-borderless/256/Morocco-icon.png</imageurl>
