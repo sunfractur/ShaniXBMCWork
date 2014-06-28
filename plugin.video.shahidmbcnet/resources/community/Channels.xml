@@ -117,6 +117,7 @@
         <enabled>True</enabled>
         <assignedcategory>
         <category>magreb</category>
+		<category>rdio</category>
         </assignedcategory>
 </channel>
 <channel>
