@@ -931,6 +931,7 @@
 			<enabled>True</enabled>
 			<assignedcategory>
 			 <category>french</category>
+			 <category>rdio</category>
 			</assignedcategory>
 	</channel>
 	<channel>
