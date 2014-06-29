@@ -13,6 +13,8 @@ import sys
 import time
 import CustomPlayer
 import random
+ccodepages=['http://www.livetv.tn/']#,'http://www.livetv.tn/2M-Maroc-en-direct-live.html','http://www.livetv.tn/ARTE-en-direct-live.html',]
+codepage=random.choice(ccodepages)
 
 try:
 	import livetvcaptcha
@@ -145,10 +147,10 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 		traceback.print_exc(file=sys.stdout)    
 	return False    
 
-ccodepages=['http://www.livetv.tn/']#,'http://www.livetv.tn/2M-Maroc-en-direct-live.html','http://www.livetv.tn/ARTE-en-direct-live.html',]
-codepage=random.choice(ccodepages)
+
 
 def getcode(page_name=None):
+	global codepage
 	try:
 		#url = urlSoup.url.text
 		if page_name:
@@ -444,6 +446,7 @@ def shoudforceLogin2():
     return True
 def makeUrl(cname):
 	return 'http://www.livetv.tn/%s-en-direct-live.html'%cname.replace(' ','-')
+    
 def shouldforceLogin(cookieJar=None, currentPage=None):
     try:
         url=codepage
