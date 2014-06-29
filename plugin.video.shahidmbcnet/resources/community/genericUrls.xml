@@ -4,7 +4,10 @@
 	<item>
 	<title>edge1.stream-server</title>
 	<link>rtmp://edge1.stream-server.org/livestv/ playpath=zdf.stream swfUrl=http://stream.live-stream.tv/player.php live=1 pageUrl=http://www.live-stream.tv/online/fernsehen/zdf.html timeout=20</link>
+        </item>
+	
 </streaminginfo>
+
 <streaminginfo>
 	<cname>Tunisia national 1</cname>
 	<item>
