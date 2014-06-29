@@ -789,11 +789,31 @@
 	<streaminginfo>
 		<cname>Dubai</cname>
 		<item>
-			<title>Low</title>
-			<link>rtmp://wms03.endavomedia.com:1935/dmilivedubaitv/dmilivedubaitv_1 timeout=20</link>
+		<title>Low_160</title>
+		<link>rtmp://wms03.endavomedia.com:1935/dmilivedubaitv/dmilivedubaitv_1 timeout=20</link>
 		</item>
 	</streaminginfo>
-		
+<streaminginfo>
+		<cname>Dubai</cname>
+		<item>
+			<title>Low 320</title>
+			<link>rtmp://wms03.endavomedia.com:1935/dmilivedubaitv/dmilivedubaitv_2 timeout=20</link>
+		</item>
+</streaminginfo>
+<streaminginfo>
+		<cname>Med</cname>
+		<item>
+			<title>Med_640</title>
+			<link>rtmp://wms03.endavomedia.com:1935/dmilivedubaitv/dmilivedubaitv_3 timeout=20</link>
+		</item>
+</streaminginfo>
+<streaminginfo>
+		<cname>Dubai</cname>
+		<item>
+			<title>High_720</title>
+			<link>rtmp://wms03.endavomedia.com:1935/dmilivedubaitv/dmilivedubaitv_4 timeout=20</link>
+		</item>
+</streaminginfo>		
     <streaminginfo>
 		<cname>Alarabiya Ahdas</cname>
 		<item>
