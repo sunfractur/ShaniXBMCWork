@@ -162,8 +162,7 @@ class MyHandler(BaseHTTPRequestHandler):
                     
             else:
                 downloader=interalSimpleDownloader();
-                print downloader.thisme()
-                if not downloader.myunit(self.wfile,url,proxy,g_stopEvent):
+                if not downloader.init(self.wfile,url,proxy,g_stopEvent,maxbitrate):
                     print 'cannot init'
                     return
                     

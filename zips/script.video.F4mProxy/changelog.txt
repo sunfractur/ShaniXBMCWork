@@ -32,3 +32,6 @@ small bug
 another small bug
 [B]Version 2.0.3[/B]
 finall small bug solved :)
+
+[B]Version 2.1.0[/B]
+simple_dowloader now support bitrate which is currently only used for bein hd links
