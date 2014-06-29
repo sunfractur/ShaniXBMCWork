@@ -1225,11 +1225,38 @@
 	<link>rtmp://wms04.endavomedia.com:1935/dmilivenoordubaitv/dmilivenoordubaitv_4 timeout=20</link>
 	</item>
 </streaminginfo>
-
+<streaminginfo>
+     <cname>Sama Dubai</cname>
+	<item>
+	<title>Low</title>
+	<link>http://cdnedvrsamadubai.endavomedia.com/smil:dmilivesamadubaihls.smil/chunklist_b270960.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+     <cname>Sama Dubai</cname>
+	<item>
+	<title>Low</title>
+	<link>http://cdnedvrsamadubai.endavomedia.com/smil:dmilivesamadubaihls.smil/chunklist_b925056.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+     <cname>Sama Dubai</cname>
+	<item>
+	<title>Med</title>
+	<link>http://cdnedvrsamadubai.endavomedia.com/smil:dmilivesamadubaihls.smil/chunklist_b1396736.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+     <cname>Sama Dubai</cname>
+	<item>
+	<title>High</title>
+	<link>http://cdnedvrsamadubai.endavomedia.com/smil:dmilivesamadubaihls.smil/chunklist_b463056.m3u8</link>
+	</item>
+</streaminginfo>
 <streaminginfo>
      	<cname>Sama Dubai</cname>
 	<item>
-	<title>Original source</title>
+	<title>High_master</title>
 	<link>http://cdnedvrsamadubai.endavomedia.com/smil:dmilivesamadubaihls.smil/playlist.m3u8</link>
 	</item>
 </streaminginfo>
