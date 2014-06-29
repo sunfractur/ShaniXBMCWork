@@ -1,5 +1,10 @@
 <streamingInfos>
-
+<streaminginfo>
+     <cname>beladi</cname>
+	 <item><title>Med</title>
+	 <link>rtmp://edge3.video.vaughnsoft.net:443/live?tDM41au4l3EQoMkJcnWJkro85HfmznjW/live_beladitv timeout=20</link>
+	 </item>
+</streaminginfo>  
 <streaminginfo>
      <cname>Libya Alhurra</cname>
 	<item>
