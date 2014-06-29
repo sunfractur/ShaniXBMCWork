@@ -1,5 +1,13 @@
 <streamingInfos>
 <streaminginfo>
+	<cname>Al Tunisia</cname>
+	<item>
+	<title>tunisie14.tn</title>
+	<link>rtmpe://178.33.122.201:1935/teledunet?idu=ahmedbh/al_tunisia swfUrl=http://static2.sawlive.tv/player.swf pageUrl=http://tunisie14.tn/media/television-tunisienne/ettounsiya-tv live=1 timeout=20</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
 	<cname>ZDF</cname>
 	<item>
 	<title>edge1.stream-server</title>
