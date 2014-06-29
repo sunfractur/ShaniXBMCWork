@@ -1,5 +1,13 @@
 <channels>
 <channel>
+        <cname>First TV</cname>
+        <imageurl>http://streaminghd.tn/images/chaines_logos/FTV.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>magreb</category>
+        </assignedcategory>
+</channel>
+<channel>
         <cname>Algerie</cname>
         <imageurl>http://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/256/Algeria-Flag-icon.png</imageurl>
         <enabled>True</enabled>
