@@ -1523,11 +1523,17 @@
 	<link>rtsp://wms04.endavomedia.com:1935/dmilivedubairacing2/dmilivedubairacing2_1 timeout=20</link>
 	</item>
 </streaminginfo>
-
+<streaminginfo>
+    <cname>Dubai Racing</cname>
+	<item>
+	<title>High</title>
+	<link>rtsp://wms04.endavomedia.com:1935/dmilivedubairacing2/dmilivedubairacing2_3 timeout=20</link>
+	</item>
+</streaminginfo>
 <streaminginfo>
         <cname>Dubai Racing</cname>
 	<item>
-	<title>High</title>
+	<title>High_m3u8</title>
 	<link>http://cdnehlsdubairacing2.endavomedia.com/smil:dmilivedubairacing2.smil/playlist.m3u8</link>
 	</item>
 </streaminginfo>
