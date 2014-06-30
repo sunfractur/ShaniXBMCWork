@@ -1,6 +1,24 @@
 <streamingInfos>
 <streaminginfo>
-     <cname>beladi</cname>
+     <cname>LLBN</cname>
+	 <item><title>Low</title>
+	 <link>http://telvuehls_t01587-i.akamaihd.net/hls/live/215639-b/T01587-arabic/master_1.m3u8</link>
+	 </item>
+</streaminginfo> 
+<streaminginfo>
+     <cname>LLBN</cname>
+	 <item><title>Med</title>
+	 <link>http://telvuehls_t01587-i.akamaihd.net/hls/live/215639-b/T01587-arabic/master_2.m3u8</link>
+	 </item>
+</streaminginfo> 
+<streaminginfo>
+     <cname>LLBN</cname>
+	 <item><title>Med</title>
+	 <link>http://telvuehls_t01587-i.akamaihd.net/hls/live/215639-b/T01587-arabic/master_3.m3u8</link>
+	 </item>
+</streaminginfo>
+<streaminginfo>
+     <cname>Beladi</cname>
 	 <item><title>Med</title>
 	 <link>rtmp://edge3.video.vaughnsoft.net:443/live?tDM41au4l3EQoMkJcnWJkro85HfmznjW/live_beladitv timeout=20</link>
 	 </item>
