@@ -1,5 +1,12 @@
 <streamingInfos>
 <streaminginfo>
+	<cname>RMC</cname>
+	<item>
+	<title>youtube</title>
+		<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=msqdbWgfltc</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
 	<cname>Al Tunisia</cname>
 	<item>
 	<title>tunisie14.tn</title>
