@@ -1,5 +1,12 @@
 <streamingInfos>
 <streaminginfo>
+	<cname>Mehwar</cname>
+	<item>
+	<title>onlinehorizons</title>
+	<link>rtmp://livestreaming4.onlinehorizons.net/MehwarTV playpath=livestream swfUrl=http://onlinehorizons.net/livestreaming/MehwarTV/player.swf pageUrl=http://onlinehorizons.net/livestreaming/MehwarTV/ live=1 timeout=20</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
 	<cname>RMC</cname>
 	<item>
 	<title>youtube</title>
