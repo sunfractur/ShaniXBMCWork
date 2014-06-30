@@ -1177,6 +1177,14 @@
 </streaminginfo>
 <streaminginfo>
      <cname>AlHayat_Christian</cname>
+	 <item>
+	<title>Alhayat2</title>
+	<link>rtmp://media.islamexplained.com:1935/live/_definst_ playpath=mp4:ahusa.stream_240p swfUrl=http://islamexplained.com/portals/0/public/player.swf live=true </link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+     <cname>AlHayat_Christian</cname>
 	 <item><title>AlHayat1_Ar Low</title>
 	 <link>http://media.islamexplained.com:1935/live/ngrp:ahme.stream_all/chunklist_w162207040_b165536.m3u8</link>
 	 </item>
