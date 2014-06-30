@@ -1176,8 +1176,34 @@
 <item><title>Original source</title><link>http://albag1.groovygecko.edge01.streammatrix.tv/livealbag1/smil:albag1.smil/playlist.m3u8</link></item>
 </streaminginfo>
 <streaminginfo>
-<cname>AlHayat_Christian</cname>
-<item><title>Arabic Original source</title><link>http://media.islamexplained.com:1935/live/ngrp:ahme.stream_all/playlist.m3u8</link></item>
+     <cname>AlHayat_Christian</cname>
+	 <item><title>AlHayat1_Ar Low</title>
+	 <link>http://media.islamexplained.com:1935/live/ngrp:ahme.stream_all/chunklist_w162207040_b165536.m3u8</link>
+	 </item>
+</streaminginfo> 
+<streaminginfo>
+     <cname>AlHayat_Christian</cname>
+	 <item><title>AlHayat1_Ar Med</title>
+	 <link>http://media.islamexplained.com:1935/live/ngrp:ahme.stream_all/chunklist_w162207040_b165536.m3u8</link>
+	 </item>
+</streaminginfo> 
+<streaminginfo>
+     <cname>AlHayat_Christian</cname>
+	 <item><title>AlHayat1_Ar Med</title>
+	 <link>http://media.islamexplained.com:1935/live/ngrp:ahme.stream_all/chunklist_w162207040_b415536.m3u8</link>
+	 </item>
+</streaminginfo> 
+<streaminginfo>
+     <cname>AlHayat_Christian</cname>
+	 <item><title>AlHayat1-Ar High</title>
+	 <link>http://media.islamexplained.com:1935/live/ngrp:ahme.stream_all/chunklist_w162207040_b565536.m3u8</link>
+	 </item>
+</streaminginfo> 
+<streaminginfo>
+     <cname>AlHayat_Christian</cname>
+	 <item><title>AlHayat1_Ar High_Master</title>
+	 <link>http://media.islamexplained.com:1935/live/ngrp:ahme.stream_all/playlist.m3u8</link>
+	 </item>
 </streaminginfo>
 <streaminginfo>
 <cname>AlHayat_Christian</cname>
