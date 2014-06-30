@@ -1127,6 +1127,18 @@
         <title>SRV2</title>
         <chnumber>ch830</chnumber>
     <link>http://www.livetv.tn/Bein-2-Full-HD-en-direct-live.html</link></streaminginfo>
+    
+<streaminginfo>
+        <cname>BeIn Sport 3</cname>
+        <chnumber>ch14</chnumber>
+    <link>http://www.livetv.tn/Bein-3-en-direct-live.html</link>
+</streaminginfo>
+
+<streaminginfo>
+        <cname>BeIn Sport 4</cname>
+        <chnumber>ch15</chnumber>
+    <link>http://www.livetv.tn/Bein-4-en-direct-live.html</link>
+</streaminginfo>
 	
    <streaminginfo>
         <cname>M6</cname>
