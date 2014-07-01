@@ -148,8 +148,23 @@
 <streaminginfo>
 	<cname>Mehwar</cname>
 	<item>
-	<title>onlinehorizons</title>
+	<title>Mehwar TV1</title>
 	<link>rtmp://livestreaming4.onlinehorizons.net/MehwarTV playpath=livestream swfUrl=http://onlinehorizons.net/livestreaming/MehwarTV/player.swf pageUrl=http://onlinehorizons.net/livestreaming/MehwarTV/ live=1 timeout=20</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Mehwar</cname>
+	<item>
+	<title>Mehwar Drama</title>
+	<link>rtmp://livestreaming4.onlinehorizons.net/MehwarTVDrama playpath=livestream swfUrl=http://onlinehorizons.net/livestreaming/MehwarTVDrama/player.swf pageUrl=http://onlinehorizons.net/livestreaming/MehwarTVDrama/ live=1 timeout=20</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+	<cname>Mehwar</cname>
+	<item>
+	<title>Mehwar TV2</title>
+	<link>rtmp://livestreaming4.onlinehorizons.net/MehwarTV2 playpath=livestream swfUrl=http://onlinehorizons.net/livestreaming/MehwarTV2/player.swf pageUrl=http://onlinehorizons.net/livestreaming/MehwarTV2/ live=1 timeout=20</link>
 	</item>
 </streaminginfo>
 <streaminginfo>
