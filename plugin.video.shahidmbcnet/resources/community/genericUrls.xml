@@ -97,7 +97,7 @@
 </streaminginfo>
 
 <streaminginfo>
-<cname>France 24</cname>
+<cname>France 24 FR</cname>
 <item>
         <title>Low FR playtv</title>
         <link>http://188.165.101.226:80/mobile/_definst_/france-24_300/playlist.m3u8?sessionid=$doregex[key]&amp;mode=10</link>
