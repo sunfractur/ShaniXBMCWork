@@ -6,7 +6,13 @@
 	<link>rtmpt://canalatlas.streamakaci.com/canalatlas/canalatlas.stream swfUrl=http://lb.streamakaci.com/streamakaci/library/AkamaiMultiPlayer.swf pageUrl=http://www.canalatlas.com/Atlasmedia/ live=1 timeout=20</link>
 	</item>
 </streaminginfo>
-
+<streaminginfo>
+	<cname>Canal Atlas</cname>
+	<item>
+	<title>High</title>
+	<link>http://canalatlas.streamakaci.com/canalatlas/canalatlas.stream/playlist.m3u8</link>
+	</item>
+</streaminginfo>
 <streaminginfo>
      <cname>LLBN</cname>
 	 <item><title>Low</title>
