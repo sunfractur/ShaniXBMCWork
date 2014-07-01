@@ -1,9 +1,22 @@
 <streamingInfos>
 
 <streaminginfo>
+<cname>Canal Atlas</cname>
+<item>
+        <title>Low Playtv</title>
+        <link>http://188.165.101.226:80/mobile/_definst_/canal-atlas_300/playlist.m3u8?sessionid=$doregex[key]&amp;mode=10</link>
+        <regex>
+        <name>key</name>
+        <expres>sessionid=([^'"]*)</expres>
+        <page>http://m.playtv.fr/api/channels/canal-atlas/?preset=with_programme%2Cwith_streams</page>
+        <referer></referer>
+        </regex>
+</item>
+</streaminginfo>
+<streaminginfo>
 <cname>i24News</cname>
 <item>
-        <title>Fr_Playtv</title>
+        <title>Low FR Playtv</title>
         <link>http://188.165.101.226:80/mobile/_definst_/i24-news_300/playlist.m3u8?sessionid=$doregex[key]&amp;mode=10</link>
         <regex>
         <name>key</name>
@@ -17,7 +30,7 @@
 <streaminginfo>
 <cname>2M</cname>
 <item>
-<title>playtv</title>
+<title>Low playtv</title>
 <link>http://188.165.101.226:80/mobile/_definst_/2m-maroc_300/playlist.m3u8?sessionid=$doregex[key]&amp;mode=10</link>
 <regex>
 <name>key</name>
@@ -30,7 +43,7 @@
 <streaminginfo>
 <cname>AlGeria</cname>
 <item>
-        <title>playtv</title>
+        <title>Low playtv</title>
         <link>http://188.165.101.226:80/mobile/_definst_/canal-algerie_300/playlist.m3u8?sessionid=$doregex[key]&amp;mode=10</link>
         <regex>
         <name>key</name>
@@ -44,7 +57,7 @@
 <streaminginfo>
 <cname>Euro News Arabic</cname>
 <item>
-        <title>playtv</title>
+        <title>Low playtv</title>
         <link>http://188.165.101.226:80/mobile/_definst_/euronews-ara_300/playlist.m3u8?sessionid=$doregex[key]&amp;mode=10</link>
         <regex>
         <name>key</name>
@@ -58,7 +71,7 @@
 <streaminginfo>
 <cname>Weo</cname>
 <item>
-        <title>playtv</title>
+        <title>Low playtv</title>
         <link>http://188.165.101.226:80/mobile/_definst_/weo_300/playlist.m3u8?sessionid=$doregex[key]&amp;mode=10</link>
         <regex>
         <name>key</name>
@@ -72,7 +85,7 @@
 <streaminginfo>
 <cname>France 24</cname>
 <item>
-        <title>Arab Playtv</title>
+        <title>Low Arab Playtv</title>
         <link>http://188.165.101.226:80/mobile/_definst_/france-24-ara_300/playlist.m3u8?sessionid=$doregex[key]&amp;mode=10</link>
         <regex>
         <name>key</name>
@@ -86,7 +99,7 @@
 <streaminginfo>
 <cname>France 24</cname>
 <item>
-        <title>FR playtv</title>
+        <title>Low FR playtv</title>
         <link>http://188.165.101.226:80/mobile/_definst_/france-24_300/playlist.m3u8?sessionid=$doregex[key]&amp;mode=10</link>
         <regex>
         <name>key</name>
@@ -101,7 +114,7 @@
 <streaminginfo>
 <cname>Coran</cname>
 <item>
-        <title>Playtv</title>
+        <title>Low Playtv</title>
         <link>http://188.165.101.226:80/mobile/_definst_/tv-coran_300/playlist.m3u8?sessionid=$doregex[key]&amp;mode=10</link>
         <regex>
         <name>key</name>
@@ -114,7 +127,7 @@
 <streaminginfo>
 <cname>Tamazigh Algeria</cname>
 <item>
-        <title>Playtv</title>
+        <title>Low Playtv</title>
         <link>http://188.165.101.226:80/mobile/_definst_/tv-tamazight_300/playlist.m3u8?sessionid=$doregex[key]&amp;mode=10</link>
         <regex>
         <name>key</name>
