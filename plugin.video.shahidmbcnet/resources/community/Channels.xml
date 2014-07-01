@@ -1,5 +1,13 @@
 <channels>
 <channel>
+        <cname>Ajyal Network</cname>
+        <imageurl>https://scontent-b-lhr.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/1526684_826498567362125_2009328117_n.jpg?oh=f0e24d670ac17d37e9e5bd0af64f40b5&amp;oe=541AE3D6</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>cup</category>
+        </assignedcategory>
+</channel>
+<channel>
         <cname>Alfath</cname>
         <imageurl>http://www.alfath.tv/channel/images/zt_darki/images/alfath-logo.png</imageurl>
         <enabled>True</enabled>
