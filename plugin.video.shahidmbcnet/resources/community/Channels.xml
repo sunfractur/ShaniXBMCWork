@@ -1,5 +1,13 @@
 <channels>
 <channel>
+        <cname>Alfath</cname>
+        <imageurl>http://www.alfath.tv/channel/images/zt_darki/images/alfath-logo.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>islam</category>
+        </assignedcategory>
+</channel>
+<channel>
         <cname>First TV</cname>
         <imageurl>https://pbs.twimg.com/profile_images/481827316822056960/QBvIUeHl_400x400.png</imageurl>
         <enabled>True</enabled>
