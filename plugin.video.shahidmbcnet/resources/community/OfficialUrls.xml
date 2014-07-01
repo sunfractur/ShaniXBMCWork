@@ -1,5 +1,28 @@
 <streamingInfos>
 <streaminginfo>
+	<cname>Al oula Maroc</cname>
+	<item>
+	<title>Low Corcas</title>
+	<link>http://chkg.tdf-cdn.com/5958/01.m3u8</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+	<cname>Al oula Maroc</cname>
+	<item>
+	<title>High SVR2 Corcas</title>
+	<link>http://chkg.tdf-cdn.com/5958/index.m3u8</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+	<cname>Al oula Maroc</cname>
+	<item>
+	<title>High SVR1 Corcas</title>
+	<link>http://chkg.tdf-cdn.com/5958/02.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
 	<cname>Canal Atlas</cname>
 	<item>
 	<title>Low</title>
