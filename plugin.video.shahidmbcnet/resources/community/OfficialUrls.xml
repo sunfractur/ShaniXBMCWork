@@ -1,5 +1,13 @@
 <streamingInfos>
 <streaminginfo>
+	<cname>Canal Atlas</cname>
+	<item>
+	<title>Low</title>
+	<link>rtmpt://canalatlas.streamakaci.com/canalatlas/canalatlas.stream swfUrl=http://lb.streamakaci.com/streamakaci/library/AkamaiMultiPlayer.swf pageUrl=http://www.canalatlas.com/Atlasmedia/ live=1 timeout=20</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
      <cname>LLBN</cname>
 	 <item><title>Low</title>
 	 <link>http://telvuehls_t01587-i.akamaihd.net/hls/live/215639-b/T01587-arabic/master_1.m3u8</link>
