@@ -1259,39 +1259,58 @@
 </item>
 </streaminginfo>
 
-<streaminginfo><cname>Al Sharqiya News</cname><item>
-<title>NegmTV</title>
-<link>rtmp://ns8.indexforce.com/alsharqiyalive/mystream</link>
-</item></streaminginfo>
-
-
-<streaminginfo><cname>Spacetoon</cname><item>
- <title>Negmtv</title>
- <link>http://85.91.143.21:1935/35985/35985.stream/playlist.m3u8?wowzasessionid=1704098686</link>
-</item></streaminginfo>
-
-<streaminginfo><cname>Spacetoon</cname><item><title>NegmaTV</title><link>http://85.91.143.21:1935/35985/35985.stream/playlist.m3u8?wowzasessionid=1534425809</link>
-</item></streaminginfo>
-
-<streaminginfo><cname>TV 5 MONDE</cname><item>
-<title>Negmtv</title>
-<link>http://85.91.143.22:1935/90457/90457.stream/playlist.m3u8?wowzasessionid=22343442</link>
-</item></streaminginfo>
-
-<streaminginfo><cname>TV 5 MONDE</cname><item>
-<title>Negmtv link2</title>
-<link>http://85.91.143.22:1935/90457/90457.stream/playlist.m3u8?wowzasessionid=785117918</link>
-</item></streaminginfo>
-
-<streaminginfo><cname>Alrai</cname><item><title>NegmaTV</title><link>http://85.91.143.22:1935/58130/58130.stream/playlist.m3u8</link></item></streaminginfo>
-
-
+<streaminginfo>
+	<cname>Al Sharqiya News</cname>
+	<item>
+		<title>NegmTV</title>
+		<link>rtmp://ns8.indexforce.com/alsharqiyalive/mystream</link>
+	</item>
+</streaminginfo>
 
 <streaminginfo>
-     	<cname>Alriadia Sport</cname>
+	<cname>Spacetoon</cname>
 	<item>
-	<title>Janjua</title>
-	<link>rtmp://206.190.153.70/live playpath=arryadia?id=12387 conn=S:OK swfUrl=http://www.janjua.tv/resources/scripts/eplayer.swf pageUrl=http://www.janjua.tv/embedplayer/arryadia/1/500/400live=true timeout=15</link>
+		<title>Negmtv</title>
+		<link>http://85.91.143.21:1935/35985/35985.stream/playlist.m3u8?wowzasessionid=1704098686</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+	<cname>Spacetoon</cname>
+	<item>
+		<title>NegmaTV</title>
+		<link>http://85.91.143.21:1935/35985/35985.stream/playlist.m3u8?wowzasessionid=1534425809</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+	<cname>TV 5 MONDE</cname>
+	<item>
+		<title>Negmtv</title>
+		<link>http://85.91.143.22:1935/90457/90457.stream/playlist.m3u8?wowzasessionid=22343442</link>
+</item></streaminginfo>
+
+<streaminginfo>
+	<cname>TV 5 MONDE</cname>
+	<item>
+		<title>Negmtv link2</title>
+		<link>http://85.91.143.22:1935/90457/90457.stream/playlist.m3u8?wowzasessionid=785117918</link>
+</item>
+</streaminginfo>
+
+<streaminginfo>
+	<cname>Alrai</cname>
+	<item>
+		<title>NegmaTV</title>
+		<link>http://85.91.143.22:1935/58130/58130.stream/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+    <cname>Alriadia Sport</cname>
+	<item>
+		<title>Janjua</title>
+		<link>rtmp://206.190.153.70/live playpath=arryadia?id=12387 conn=S:OK swfUrl=http://www.janjua.tv/resources/scripts/eplayer.swf pageUrl=http://www.janjua.tv/embedplayer/arryadia/1/500/400live=true timeout=15</link>
 	</item>
 </streaminginfo>
 
@@ -1302,6 +1321,7 @@
 	<link>rtmp://208.43.175.45/zenex playPath=ettouns002?id=68 conn=S:OK swfUrl=http://www.zenex.tv/data/scripts/eplayer.swf pageUrl=http://www.zenex.tv/embedplayer/ettouns002/1/500/400 live=1 timeout=10</link>
 	</item>
 </streaminginfo>
+
 <streaminginfo>
      	<cname>Tunisia national 2</cname>
 	<item>
@@ -1309,6 +1329,7 @@
 	<link>rtmp://208.43.175.45/zenex playPath=wat2001?id=68 conn=S:OK swfUrl=http://www.zenex.tv/data/scripts/eplayer.swf pageUrl=http://www.zenex.tv/embedplayer/wat2001/1/500/400 live=1 timeout=10</link>
 	</item>
 </streaminginfo>
+
 <streaminginfo>
      	<cname>Al Mutawasit</cname>
 	<item>
@@ -1324,9 +1345,6 @@
 	<link>rtmp://208.43.175.45/zenex playPath=hann002?id=68 conn=S:OK swfUrl=http://www.zenex.tv/data/scripts/eplayer.swf pageUrl=http://www.zenex.tv/embedplayer/hann002/1/500/400 live=1 timeout=10</link>
 	</item>
 </streaminginfo>
-
-
-
 
 <streaminginfo>
      <cname>Chelsea TV</cname>
@@ -1351,6 +1369,7 @@
 	<link>rtmp://iptv2.web-medias.net:8080/live/alhayat_cinema?e=1402731449&amp;st=thMGWcwT6zuDR95qXqk85A swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/iptv/%3Fch%3Dalhayat_cinema live=true timeout=15</link>
 	</item>
 </streaminginfo>
+
 <streaminginfo>
      <cname>MBC Max</cname>
 	<item>
@@ -1367,14 +1386,14 @@
 	</item>
 </streaminginfo>
 
-
 <streaminginfo>
      <cname>MBC Drama</cname>
 	<item>
 	<title>WebMedias</title>
 	<link>rtmp://iptv2.web-medias.net:8080/live/mbc_drama?e=1402696357&amp;st=gQ4KvnRQqH_CoD7Th4fQaA swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/iptv/%3Fch%3Dmbc_drama live=true timeout=15</link>
 	</item>
-</streaminginfo> 
+</streaminginfo>
+ 
 <streaminginfo>
      <cname>MBC 3</cname>
 	<item>
@@ -1398,6 +1417,7 @@
 	<link>plugin://plugin.video.jtv.archives/?mode=get_channel&amp;name=musichaneentv&amp;play=1</link>
 	</item>
 </streaminginfo>
+
 <streaminginfo>
      <cname>Zaitouna</cname>
 	<item>
@@ -1405,9 +1425,6 @@
 	<link>plugin://plugin.video.jtv.archives/?mode=get_channel&amp;name=zaytounatv&amp;play=1</link>
 	</item>
 </streaminginfo>
-
-
-
 
 <streaminginfo>
      <cname>Qatar</cname>
@@ -1477,8 +1494,8 @@
 </regex>
 <thumbnail>http://www.lyngsat-logo.com/hires/aa/abu_dhabi_tv.png</thumbnail>
 </item>
-
 </streaminginfo>
+
 <streaminginfo>
      <cname>Aghanina</cname>
 	<item>
@@ -1486,6 +1503,7 @@
 	<link>plugin://plugin.video.jtv.archives/?mode=get_channel&amp;name=aghanina2014&amp;play=true</link>
 	</item>
 </streaminginfo>
+
 <streaminginfo>
      <cname>Al Sumaria</cname>
 	<item>
@@ -1493,6 +1511,7 @@
 	<link>http://livestreaming2.itworkscdn.net/sumarialive/smil:sumariamob.smil/playlist.m3u8</link>
 	</item>
 </streaminginfo>
+
 <streaminginfo>
      <cname>Remas</cname>
 	<item>
@@ -1500,6 +1519,7 @@
 	<link>http://livestreaming.itworkscdn.net/alremaslive/remastv/playlist.m3u8</link>
 	</item>
 </streaminginfo>
+
 <streaminginfo>
      <cname>AlGeria</cname>
 	<item>
@@ -1507,6 +1527,7 @@
 	<link>http://www.elahmad.com/tv/m3u8/fr__a.m3u8?id=algerie</link>
 	</item>
 </streaminginfo>
+
 <streaminginfo>
      <cname>Coran</cname>
 	<item>
@@ -1514,6 +1535,7 @@
 	<link>http://www.elahmad.com/tv/m3u8/fr__a.m3u8?id=coran</link>
 	</item>
 </streaminginfo>
+
 <streaminginfo>
      <cname>Tamazigh Algeria</cname>
 	<item>
@@ -1529,8 +1551,6 @@
 	<link>http://www.elahmad.com/tv/m3u8/fr__a.m3u8?id=maroc2</link>
 	</item>
 </streaminginfo>
-
-
 
 <streaminginfo>
      <cname>FM TV</cname>
@@ -1578,6 +1598,7 @@
 	<link>rtmp://aljazeeraflashlivefs.fplive.net/aljazeeraflashlive-live/-live playpath=aljazeera_doc_med swfUrl=http://www.arabztv.net/player.swf live=1 pageUrl=http://www.arabztv.com/ live=true swfVfy=true</link>
 	</item>
 </streaminginfo>
+
 <streaminginfo>
     <cname>Aljazeera Mubasher</cname>
 	<item>
@@ -1585,6 +1606,7 @@
 	<link>http://hd1.lsops.net/live/smil:aljamuba_ar_hls.smil/playlist.m3u8</link>
 	</item>
 </streaminginfo>
+
 <streaminginfo>
     <cname>Aljazeera Mubasher Masr</cname>
 	<item>
@@ -1592,6 +1614,7 @@
 	<link>http://hd1.lsops.net/live/smil:aljamisr_ar_hls.smil/playlist.m3u8</link>
 	</item>
 </streaminginfo>
+
 <streaminginfo>
         <cname>Aljazeera Mubasher Masr</cname>
 	<item>
@@ -1599,6 +1622,7 @@
 	<link>rtmp://aljazeeraflashlivefs.fplive.net/aljazeeraflashlive-live playpath=aljazeera_misr_high swfUrl=http://www.arabztv.net/player.swf live=1 pageUrl=http://www.arabztv.com/ live=true swfVfy=true</link>
 	</item>
 </streaminginfo>
+
 <streaminginfo>
     <cname>CCTV Arabic</cname>
 	<item>
@@ -1606,6 +1630,7 @@
 	<link>http://wpc.c1a9.edgecastcdn.net/hls-live/20C1A9/livestation/ls_lmle/cctv_264.m3u8</link>
 	</item>
 </streaminginfo>
+
 <streaminginfo>
     <cname>CCTV Arabic</cname>
 	<item>
@@ -1613,6 +1638,7 @@
 	<link>http://wpc.c1a9.edgecastcdn.net/hls-live/20C1A9/livestation/ls_lmle/cctv_528.m3u8</link>
 	</item>
 </streaminginfo>
+
 <streaminginfo>
     <cname>CCTV Arabic</cname>
 	<item>
@@ -1620,6 +1646,7 @@
 	<link>http://wpc.c1a9.edgecastcdn.net/hls-live/20C1A9/livestation/ls_lmle/cctv_828.m3u8</link>
 	</item>
 </streaminginfo>
+
 <streaminginfo>
     <cname>Al Alam</cname>
 	<item>
@@ -1635,6 +1662,7 @@
 	<link>rtmp://hd6.lsops.net/live playpath=alalam_ar_162 swfUrl="http://static.ls-cdn.com/player/5.10/livestation-player.swf" swfVfy=true live=true</link>
 	</item>
 </streaminginfo>
+
 <streaminginfo>
     <cname>alnabaa</cname>
 	<item>
@@ -1642,6 +1670,7 @@
 	<link>rtmp://alnabaa.lsops.net/live/ playpath=alnabaa_ar_364 swfUrl="http://static.ls-cdn.com/player/5.10/livestation-player.swf" swfVfy=true live=true</link>
 	</item>
 </streaminginfo>
+
 <streaminginfo>
     <cname>alnabaa</cname>
 	<item>
@@ -1649,6 +1678,7 @@
 	<link>rtmp://alnabaa.lsops.net/live/ playpath=alnabaa_ar_162 swfUrl="http://static.ls-cdn.com/player/5.10/livestation-player.swf" swfVfy=true live=true</link>
 	</item>
 </streaminginfo>
+
 <streaminginfo>
     <cname>alnabaa</cname>
 	<item>
@@ -1656,6 +1686,7 @@
 	<link>http://alnabaa.lsops.net/live/alnabaa_ar_hls.smil/playlist.m3u8</link>
 	</item>
 </streaminginfo>
+
 <streaminginfo>
         <cname>Euro News Arabic</cname>
 	<item>
@@ -1663,6 +1694,7 @@
 	<link>rtmp://fr-par-3.stream-relay.hexaglobe.net:1935/rtpeuronewslive/ar_video750_rtp.sdp swfUrl=http://arabic.euronews.com/media/player_live_1_13.swf pageUrl=http://www.elahmad.com/tv/euronews.php swfVfy=true live=true timeout=60</link>
 	</item>
 </streaminginfo>
+
 <streaminginfo>
     <cname>Euro News Arabic</cname>
 	<item>
@@ -1670,10 +1702,6 @@
 	<link>rtmp://fr-par-10-stream-relay.hexaglobe.net/rtpeuronewslive/ar_video750_rtp.sdp swfUrl=http://www.euronews.com/media/player_live_1_14.swf swfVfy=true live=true</link>
 	</item>
 </streaminginfo>
-
-
-
-
 
 <streaminginfo>
         <cname>Aljazeera</cname>
@@ -1705,7 +1733,6 @@
 	</item>
 </streaminginfo>
 
-
 <streaminginfo>
         <cname>AlJazeera En</cname>
 	<item>
@@ -1736,8 +1763,6 @@
 </item>
 </streaminginfo>
 
-
-
  <streaminginfo>
         <cname>Aljazeera US</cname>
 	<item>
@@ -1760,8 +1785,6 @@
 	</item>
 </streaminginfo>
 
-
-
 <streaminginfo>
         <cname>BBC Arabic</cname>
 	<item>
@@ -1769,6 +1792,7 @@
 	<link>plugin://plugin.video.f4mTester/?url=http://bbcwshdlive01-lh.akamaihd.net/z/atv_1@61433/manifest.f4m?hdcore=2.11.3</link>
 	</item>
 </streaminginfo>
+
 <streaminginfo>
 	<cname>BBC Arabic</cname>
 	<item>
@@ -1806,14 +1830,6 @@
 	<link>http://vipwowza.yacast.net/f24_hlslive_fr/smil:iphone.fr24fr.smil/playlist.m3u8</link>
 	</item>
 </streaminginfo>
-
-
-
-
-
-
-
-
 
 <streaminginfo>
         <cname>LBC</cname>
@@ -1854,6 +1870,7 @@
 	<link>rtmp://38.96.148.200/live/livestream playpath=livestream conn=S:OK swfUrl=http://wwitv.com/player/player15.swf live=1 pageUrl=http://wwitv.com/tv_channels/7668.htm</link>
 	</item>
 </streaminginfo>
+
 <streaminginfo>
         <cname>Mekamleen</cname>
 	<item>
@@ -1862,17 +1879,6 @@
 	</item>
 </streaminginfo>
 
-
-
-
-
-
-
-
-
-
-
-
 <streaminginfo>
         <cname>Dubai One</cname>
 	<item>
@@ -1880,7 +1886,6 @@
 	<link>plugin://plugin.video.f4mTester/?url=http://cdnedvrdubaione.endavomedia.com/smil:dmilivedubaione.smil/manifest.f4m</link>
 	</item>
 </streaminginfo>
-
 
 <streaminginfo>
         <cname>Moga Comedy</cname>
@@ -1946,20 +1951,6 @@
 	</item>
 </streaminginfo>
 
-
-<streaminginfo>
-        <cname>Fatafeat</cname>
-	<item>
-	<title>Negmtv Source</title>
-	<link>rtmp://live-f01.vustream.net:1935/live/livestream2</link>
-	</item>
-</streaminginfo>
-
-
-
-
-
-
 <streaminginfo>
         <cname>Bahrain</cname>
 	<item>
@@ -1976,23 +1967,6 @@
 	</item>
 </streaminginfo>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <streaminginfo>
    	<cname>Baraem</cname>
 	<item>
@@ -2000,8 +1974,6 @@
 	<link>http://78.100.40.198:1935/brm/brm/gmswf.m3u8?keylive87-163-224-792014-05-18-16-28-09&amp;v=hghpl]</link>
 	</item>
 </streaminginfo>
-
-
 
 <streaminginfo>
    	<cname>Melody Drama</cname>
