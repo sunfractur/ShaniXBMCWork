@@ -2105,12 +2105,11 @@
 	</streaminginfo>
 
 <streaminginfo>        
-		<cname>Echorouk Tv</cname>
+	<cname>Echorouk Tv</cname>
         <item>
-    <title>Echorouk Tv</title>
-<link>rtmp://live.echoroukonline.com/live/EchoroukTV</link>
-<thumbnail></thumbnail>
-</item>
+    	<title>Low</title>
+	<link>http://live.echoroukonline.com/live/EchoroukTV/playlist.m3u8</link>
+	</item>
 </streaminginfo>
 
 <streaminginfo>        
