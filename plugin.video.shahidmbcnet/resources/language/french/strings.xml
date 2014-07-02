@@ -2,15 +2,15 @@
   
     <!-- Meta Data -->
     <string id="32010">Proxy and CDN Setup</string>
-    <string id="32011">Enable Custom Proxy?</string>
+    <string id="32011">Activer proxy personnalisé?</string>
     <string id="32012">Custom Proxy Server Address</string>
-    <string id="32013">CDN Server Selection</string>
-    <string id="32014">CDN Server to Use</string>
+    <string id="32013">Sélection du serveur CDN</string>
+    <string id="32014">Serveur CDN à utiliser</string>
 	<string id="32015">Configuration</string>
-	<string id="32016">Site to use?</string>
-		<string id="32017">Login details</string>
-		<string id="32018">User Name</string>
-		<string id="32019">Password</string>
+	<string id="32016">Site à utiliser?</string>
+		<string id="32017">Infos d'identification</string>
+		<string id="32018">Pseudo Livetv</string>
+		<string id="32019">Mot de passe Livetv</string>
 	<string id="32020">Jouer le premier flux disponible?</string>
 	<string id="32021">Ordre des sources</string>
 	<string id="32022">1ère préférence</string>
@@ -25,9 +25,9 @@
     <string id="32061">11ème préférence</string>
 
 		
-	<string id="32027">Local Resources</string>
-	<string id="32028">Your Youtube file</string>
-	<string id="32029">Your Streaming xml file</string>
+	<string id="32027">Ressources locales</string>
+	<string id="32028">Votre fichier Youtube</string>
+	<string id="32029">Votre fichier de streaming xml</string>
 	<string id="32030">6ème préférence</string>
     <string id="32031">Désactiver des sources</string>
     
