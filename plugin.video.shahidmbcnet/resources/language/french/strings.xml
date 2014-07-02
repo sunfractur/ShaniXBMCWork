@@ -3,7 +3,7 @@
     <!-- Meta Data -->
     <string id="32010">Proxy and CDN Setup</string>
     <string id="32011">Activer proxy personnalisé?</string>
-    <string id="32012">Custom Proxy Server Address</string>
+    <string id="32012">Adresse du serveur proxy personnalisé</string>
     <string id="32013">Sélection du serveur CDN</string>
     <string id="32014">Serveur CDN à utiliser</string>
 	<string id="32015">Configuration</string>
@@ -54,7 +54,7 @@
 	<string id="32043">Pseudo iptvosn</string>
 	<string id="32044">Mot de passe iptvosn</string>
 	<string id="32046">Code "Premium" (xml)</string>	
-	<string id="32047">Clear Login Session Data</string>	
+	<string id="32047">Vider le cache</string>	
 	<string id="32048">Code d'identification web(si Livetv Login marche pas)</string>	
 	<string id="32049">Divers paramètres</string>	
 	<string id="32050">Override default view mode</string>	
