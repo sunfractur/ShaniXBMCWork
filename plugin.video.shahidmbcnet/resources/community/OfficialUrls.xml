@@ -908,8 +908,8 @@
 	<streaminginfo>
 		<cname>EnnaharTV algerie</cname>
 		<item>
-			<title>ennahartv.net</title>
-			<link>rtmp://87.98.155.194/live playpath=EnnaharTV swfUrl=http://www.ennahartv.net/live/player.swf live=1 pageUrl=http://www.ennahartv.net/ar/live/ timeout=20</link>
+			<title>Low</title>
+			<link>http://live.ennahartv.net/live/EnnaharTV/playlist.m3u8</link>
 		</item>
 	</streaminginfo>
 	
