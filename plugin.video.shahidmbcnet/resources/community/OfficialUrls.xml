@@ -1532,10 +1532,18 @@
 <streaminginfo>
     <cname>Al sahraa</cname>
 	<item>
-	<title>Original Source</title>
-	<link>rtmp://79.134.137.65:1935/live/Sahraa.stream swfVfy=true live=true</link>
+	<title>Sahara 2 Low</title>
+	<link>rtmp://79.134.137.65:1935/liveS2/Sahraa2.stream swfVfy=true live=true timeout=20</link>
 	</item>
 </streaminginfo>
+<streaminginfo>
+    <cname>Al sahraa</cname>
+	<item>
+	<title>sahara 1 Low</title>
+	<link>rtmp://79.134.137.65:1935/live/Sahraa.stream swfVfy=true live=true timeout=20</link>
+	</item>
+</streaminginfo>
+
 <streaminginfo>
         <cname>New Media</cname>
 	<item>
