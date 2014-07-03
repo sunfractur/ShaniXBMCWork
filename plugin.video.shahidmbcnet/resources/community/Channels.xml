@@ -4002,7 +4002,7 @@
 
     <channel>
         <cname>Syria Drama</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/rdr_zps80fad210.png</imageurl>
+        <imageurl>http://live.rtv.gov.sy/images/drama.jpg</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>drama</category>
@@ -4011,7 +4011,7 @@
 
     <channel>
         <cname>Syria</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/syria_zps1d5a90a4.png</imageurl>
+        <imageurl>http://live.rtv.gov.sy/images/sat.jpg</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>sham</category>
