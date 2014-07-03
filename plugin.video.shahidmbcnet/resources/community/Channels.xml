@@ -1,5 +1,12 @@
 <channels>
-
+<channel>
+        <cname>Syria Aloula</cname>
+        <imageurl>http://live.rtv.gov.sy/images/Aloula.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+		<category>sham</category>
+        </assignedcategory>
+</channel>
 <channel>
         <cname>Assalamu Alayk</cname>
         <imageurl>http://yemenportal.net/images/2013/02/28/179444842094597_k.fbcdn.netsafe_image.phpdAQAKZJk7Y7w55wm1urlhttps3A2F2Ffbcdn-profile-a.akamaihd.net2Fhprofile-ak-ash42F373018_518026048231162_923776733_n.jpg</imageurl>
