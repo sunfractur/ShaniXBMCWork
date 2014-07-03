@@ -1853,8 +1853,22 @@
 <streaminginfo>
    	<cname>Syria Sedu</cname>
 	<item>
-	<title>Original Source</title>
-	<link>http://live.rtv.gov.sy/live/SEdu/SEdu_LQ.m3u8</link>
+	<title>Low1</title>
+	<link>http://82.137.248.20/SEdu/SEduLive1/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+   	<cname>Syria Sedu</cname>
+	<item>
+	<title>Low2</title>
+	<link>http://82.137.248.20/SEdu/SEduLive2/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+   	<cname>Syria Sedu</cname>
+	<item>
+	<title>Low3</title>
+	<link>http://82.137.248.20/SEdu/SEduLive3/playlist.m3u8</link>
 	</item>
 </streaminginfo>
 
