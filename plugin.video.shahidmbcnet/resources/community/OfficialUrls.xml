@@ -1937,21 +1937,21 @@
 <streaminginfo>
    	<cname>Syria Sedu</cname>
 	<item>
-	<title>Low1</title>
+	<title>Low</title>
 	<link>http://82.137.248.20/SEdu/SEduLive1/playlist.m3u8</link>
 	</item>
 </streaminginfo>
 <streaminginfo>
    	<cname>Syria Sedu</cname>
 	<item>
-	<title>Low2</title>
+	<title>Med</title>
 	<link>http://82.137.248.20/SEdu/SEduLive2/playlist.m3u8</link>
 	</item>
 </streaminginfo>
 <streaminginfo>
    	<cname>Syria Sedu</cname>
 	<item>
-	<title>Low3</title>
+	<title>High</title>
 	<link>http://82.137.248.20/SEdu/SEduLive3/playlist.m3u8</link>
 	</item>
 </streaminginfo>
@@ -1965,11 +1965,17 @@
 <streaminginfo>
    	<cname>Al Ikhbaria</cname>
 	<item>
-	<title>Low_2</title>
+	<title>Med</title>
 	<link>http://82.137.248.16:1935/Snews/SnewsLive2/playlist.m3u8</link>
 	</item>
 </streaminginfo>
-
+<streaminginfo>
+   	<cname>Al Ikhbaria</cname>
+	<item>
+	<title>High</title>
+	<link>http://82.137.248.16:1935/Snews/SnewsLive3/playlist.m3u8</link>
+	</item>
+</streaminginfo>
 <streaminginfo>
    	<cname>Baraem</cname>
 	<item>
