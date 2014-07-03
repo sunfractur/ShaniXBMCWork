@@ -1,5 +1,22 @@
 <channels>
 <channel>
+        <cname>Sharjah Kabla</cname>
+        <imageurl>http://www.smc.ae/assets/images/logo-sharqiya.png </imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>gulf</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Sharjah Sport</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/ss/sharjah_sports_tv.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>sports</category>
+		<category>gulf</category>
+        </assignedcategory>
+</channel>
+<channel>
         <cname>Ajyal Network</cname>
         <imageurl>https://scontent-b-lhr.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/1526684_826498567362125_2009328117_n.jpg?oh=f0e24d670ac17d37e9e5bd0af64f40b5&amp;oe=541AE3D6</imageurl>
         <enabled>True</enabled>
