@@ -1,3 +1,7 @@
+Version 1.2.7
+Support for playtv.fr: Pass channelid to the function get_url
+<expres>$pyFunction:playtvfr.get_url('$doregex[getplayerid]')</expres>
+
 Version 1.2.5
 Bug fix
 
