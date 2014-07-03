@@ -1821,11 +1821,94 @@
 	<link>rtmp://si.trtcdn.com/tv/trtarapca?hghpl]=a2V5bGl2ZTY4LTUzLTcxLTQyMDE0LTAyLTI0LTIxLTMyLTI3/trtarapca_3</link>
 	</item>
 </streaminginfo>
+
+<streaminginfo>
+   	<cname>Syria</cname>
+	<item>
+	<title>Oula Low</title>
+	<link>http://82.137.248.21:1935/Aloula/AloulaLive1/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+   	<cname>Syria</cname>
+	<item>
+	<title>Oula Med</title>
+	<link>http://82.137.248.21:1935/Aloula/AloulaLive2/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+   	<cname>Syria</cname>
+	<item>
+	<title>Oula High</title>
+	<link>http://82.137.248.21:1935/Aloula/AloulaLive3/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+   	<cname>Syria Drama</cname>
+	<item>
+	<title>Low</title>
+	<link>http://82.137.248.21:1935/Drama/DramaLive1/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+   	<cname>Syria Drama</cname>
+	<item>
+	<title>Med</title>
+	<link>http://82.137.248.21:1935/Drama/DramaLive2/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+   	<cname>Syria Drama</cname>
+	<item>
+	<title>High</title>
+	<link>http://82.137.248.21:1935/Drama/DramaLive3/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+   	<cname>Syria</cname>
+	<item>
+	<title>Low</title>
+	<link>http://82.137.248.16:1935/Sat/SatLive1/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+   	<cname>Syria</cname>
+	<item>
+	<title>Med</title>
+	<link>http://82.137.248.16:1935/Sat/SatLive2/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+   	<cname>Syria</cname>
+	<item>
+	<title>High</title>
+	<link>http://82.137.248.16:1935/Sat/SatLive3/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+
 <streaminginfo>
    	<cname>Syria Nour</cname>
 	<item>
-	<title>Original Source</title>
-	<link>http://live.rtv.gov.sy/live/Nour/Nour_LQ.m3u8</link>
+	<title>Low</title>
+	<link>http://82.137.248.21:1935/Nour/NourLive1/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+   	<cname>Syria Nour</cname>
+	<item>
+	<title>Med</title>
+	<link>http://82.137.248.21:1935/Nour/NourLive2/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+   	<cname>Syria Nour</cname>
+	<item>
+	<title>High</title>
+	<link>http://82.137.248.21:1935/Nour/NourLive3/playlist.m3u8</link>
 	</item>
 </streaminginfo>
 
@@ -1839,17 +1922,18 @@
 <streaminginfo>
    	<cname>Syria Talaqie</cname>
 	<item>
-	<title>Low</title>
+	<title>Med</title>
 	<link>http://82.137.248.16/Talaqie/TalaqieLive2/playlist.m3u8</link>
 	</item>
 </streaminginfo>
 <streaminginfo>
-   	<cname>Syria</cname>
+   	<cname>Syria Talaqie</cname>
 	<item>
-	<title>Original Source</title>
-	<link>http://82.137.248.16:1935/Sat/livestream1/playlist.m3u8</link>
+	<title>High</title>
+	<link>http://82.137.248.16/Talaqie/TalaqieLive3/playlist.m3u8</link>
 	</item>
 </streaminginfo>
+
 <streaminginfo>
    	<cname>Syria Sedu</cname>
 	<item>
@@ -1871,16 +1955,6 @@
 	<link>http://82.137.248.20/SEdu/SEduLive3/playlist.m3u8</link>
 	</item>
 </streaminginfo>
-
-<streaminginfo>
-   	<cname>Syria Drama</cname>
-	<item>
-	<title>Original Source</title>
-	<link>http://live.rtv.gov.sy/live/Drama/Drama_MQ.m3u8</link>
-	</item>
-</streaminginfo>
-
-
 <streaminginfo>
    	<cname>Al Ikhbaria</cname>
 	<item>
