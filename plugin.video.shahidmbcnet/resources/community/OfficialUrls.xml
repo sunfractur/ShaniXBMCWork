@@ -1832,8 +1832,8 @@
 <streaminginfo>
    	<cname>Syria Talaqie</cname>
 	<item>
-	<title>Original Source</title>
-	<link>http://live.rtv.gov.sy/live/Talaqie/Talaqie_LQ.m3u8</link>
+	<title>Low</title>
+	<link>http://82.137.248.16:1935/Talaqie/TalaqieLive1/playlist.m3u8</link>
 	</item>
 </streaminginfo>
 
