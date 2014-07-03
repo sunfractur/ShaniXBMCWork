@@ -1362,7 +1362,7 @@
      	<cname>Al Mutawasit</cname>
 	<item>
 	<title>zenex</title>
-	<link>rtmp://208.43.175.45/zenex playPath=mutawa001?id=68 conn=S:OK swfUrl=http://www.zenex.tv/data/scripts/eplayer.swf pageUrl=http://www.zenex.tv/embedplayer/mutawa001/1/500/400 live=1 timeout=10</link>
+	<link>rtmp://208.43.175.45/zenex playPath=mutawa003?id=68 conn=S:OK swfUrl=http://www.zenex.tv/data/scripts/eplayer.swf pageUrl=http://www.zenex.tv/embedplayer/mutawa003/1/500/400 live=1 timeout=10</link>
 	</item>
 </streaminginfo>
 
