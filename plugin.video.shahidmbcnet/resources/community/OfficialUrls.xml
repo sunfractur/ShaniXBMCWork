@@ -1,5 +1,12 @@
 <streamingInfos>
 <streaminginfo>
+    <cname>Assalamu Alayk</cname>
+	<item>
+	<title>Low</title>
+	<link>http://5.9.96.232:1935/live/salam/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
     <cname>Al Adala</cname>
 	<item>
 	<title>Low</title>
