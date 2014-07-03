@@ -1823,23 +1823,23 @@
 </streaminginfo>
 
 <streaminginfo>
-   	<cname>Syria</cname>
+   	<cname>Syria Aloula</cname>
 	<item>
-	<title>Oula Low</title>
+	<title>Low</title>
 	<link>http://82.137.248.21:1935/Aloula/AloulaLive1/playlist.m3u8</link>
 	</item>
 </streaminginfo>
 <streaminginfo>
-   	<cname>Syria</cname>
+   	<cname>Syria Aloula</cname>
 	<item>
-	<title>Oula Med</title>
+	<title>Med</title>
 	<link>http://82.137.248.21:1935/Aloula/AloulaLive2/playlist.m3u8</link>
 	</item>
 </streaminginfo>
 <streaminginfo>
-   	<cname>Syria</cname>
+   	<cname>Syria Aloula</cname>
 	<item>
-	<title>Oula High</title>
+	<title>High</title>
 	<link>http://82.137.248.21:1935/Aloula/AloulaLive3/playlist.m3u8</link>
 	</item>
 </streaminginfo>
