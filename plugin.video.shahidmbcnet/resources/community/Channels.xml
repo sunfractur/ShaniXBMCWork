@@ -1,5 +1,14 @@
 <channels>
 <channel>
+        <cname>Heya</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/aa/arab_woman.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>cook</category>
+        </assignedcategory>
+</channel>
+
+<channel>
         <cname>Syria Aloula</cname>
         <imageurl>http://live.rtv.gov.sy/images/Aloula.jpg</imageurl>
         <enabled>True</enabled>
