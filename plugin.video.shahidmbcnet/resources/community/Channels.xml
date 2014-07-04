@@ -1,5 +1,13 @@
 <channels>
 <channel>
+		<cname>Alfady</cname>
+		<imageurl>http://www.lyngsat-logo.com/logo/tv/aa/alfady_channel.png</imageurl>
+		<enabled>True</enabled>
+		<assignedcategory>
+		<category>christ</category>
+		</assignedcategory>
+</channel>
+<channel>
         <cname>Heya</cname>
         <imageurl>http://www.lyngsat-logo.com/hires/aa/arab_woman.png</imageurl>
         <enabled>True</enabled>
