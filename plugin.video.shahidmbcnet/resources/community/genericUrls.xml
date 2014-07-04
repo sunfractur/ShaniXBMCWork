@@ -13,6 +13,38 @@
         </regex>
 </item>
 </streaminginfo>
+<streaminginfo>
+    <cname>Canal Atlas</cname>
+<item><title>High Playtv</title>
+<link>$doregex[geturl]</link>
+     <regex>
+        <name>geturl</name>
+        <expres>$pyFunction:playtvfr.get_url('$doregex[getplayerid]')</expres>
+        <page></page>
+    </regex>    
+    <regex>
+        <name>getplayerid</name>
+        <expres>data-alias="canal-atlas" data-playerid="(.*?)"</expres>
+        <page>http://playtv.fr/television/</page>
+    </regex>    
+</item>
+</streaminginfo>
+<streaminginfo>
+    <cname>Russia Alyaum</cname>
+<item><title>High Playtv</title>
+<link>$doregex[geturl]</link>
+     <regex>
+        <name>geturl</name>
+        <expres>$pyFunction:playtvfr.get_url('$doregex[getplayerid]')</expres>
+        <page></page>
+    </regex>    
+    <regex>
+        <name>getplayerid</name>
+        <expres>data-alias="russia-al-yaum" data-playerid="(.*?)"</expres>
+        <page>http://playtv.fr/television/</page>
+    </regex>    
+</item>
+</streaminginfo>
 
 <streaminginfo>
 <cname>i24News</cname>
@@ -27,7 +59,22 @@
         </regex>
 </item>
 </streaminginfo>
-
+<streaminginfo>
+    <cname>i24News</cname>
+<item><title>High Fr Playtv</title>
+<link>$doregex[geturl]</link>
+     <regex>
+        <name>geturl</name>
+        <expres>$pyFunction:playtvfr.get_url('$doregex[getplayerid]')</expres>
+        <page></page>
+    </regex>    
+    <regex>
+        <name>getplayerid</name>
+        <expres>data-alias="i24-news" data-playerid="(.*?)"</expres>
+        <page>http://playtv.fr/television/</page>
+    </regex>    
+</item>
+</streaminginfo>
 <streaminginfo>
 <cname>2M</cname>
 <item>
@@ -59,7 +106,7 @@
 </streaminginfo>
 <streaminginfo>
 <cname>AlGeria</cname>
-<item>
+	<item>
         <title>Low playtv</title>
         <link>http://188.165.101.226:80/mobile/_definst_/canal-algerie_300/playlist.m3u8?sessionid=$doregex[key]&amp;mode=10</link>
         <regex>
@@ -68,10 +115,24 @@
         <page>http://m.playtv.fr/api/channels/canal-algerie/?preset=with_programme%2Cwith_streams</page>
         <referer></referer>
         </regex>
-<thumbnail>http://www.lyngsat-logo.com/hires/ee/entv_1_canal_algerie.png</thumbnail>
+	</item>
+</streaminginfo>
+<streaminginfo>
+    <cname>AlGeria</cname>
+<item><title>High Playtv</title>
+<link>$doregex[geturl]</link>
+     <regex>
+        <name>geturl</name>
+        <expres>$pyFunction:playtvfr.get_url('$doregex[getplayerid]')</expres>
+        <page></page>
+    </regex>    
+    <regex>
+        <name>getplayerid</name>
+        <expres>data-alias="canal-algerie" data-playerid="(.*?)"</expres>
+        <page>http://playtv.fr/television/</page>
+    </regex>    
 </item>
 </streaminginfo>
-
 <streaminginfo>
 <cname>Euro News Arabic</cname>
 <item>
@@ -86,7 +147,22 @@
 <thumbnail>http://static.playtv.fr/img/tv_channels/520_medium.png</thumbnail>
 </item>
 </streaminginfo>
-
+<streaminginfo>
+    <cname>Euro News Arabic</cname>
+<item><title>High Playtv</title>
+<link>$doregex[geturl]</link>
+     <regex>
+        <name>geturl</name>
+        <expres>$pyFunction:playtvfr.get_url('$doregex[getplayerid]')</expres>
+        <page></page>
+    </regex>    
+    <regex>
+        <name>getplayerid</name>
+        <expres>data-alias="euronews-ar" data-playerid="(.*?)"</expres>
+        <page>http://playtv.fr/television/</page>
+    </regex>    
+</item>
+</streaminginfo>
 <streaminginfo>
 <cname>Weo</cname>
 <item>
@@ -101,6 +177,22 @@
 <thumbnail>http://static.playtv.fr/img/tv_channels/520_medium.png</thumbnail>
 </item>
 </streaminginfo>
+<streaminginfo>
+    <cname>Weo</cname>
+<item><title>High Playtv</title>
+<link>$doregex[geturl]</link>
+     <regex>
+        <name>geturl</name>
+        <expres>$pyFunction:playtvfr.get_url('$doregex[getplayerid]')</expres>
+        <page></page>
+    </regex>    
+    <regex>
+        <name>getplayerid</name>
+        <expres>data-alias="weo" data-playerid="(.*?)"</expres>
+        <page>http://playtv.fr/television/</page>
+    </regex>    
+</item>
+</streaminginfo>
 
 <streaminginfo>
 <cname>France 24</cname>
@@ -113,6 +205,22 @@
         <page>http://m.playtv.fr/api/channels/france-24-arabe/?preset=with_programme%2Cwith_streams</page>
         <referer></referer>
         </regex>
+</item>
+</streaminginfo>
+<streaminginfo>
+    <cname>France 24</cname>
+<item><title>High AR Playtv</title>
+<link>$doregex[geturl]</link>
+     <regex>
+        <name>geturl</name>
+        <expres>$pyFunction:playtvfr.get_url('$doregex[getplayerid]')</expres>
+        <page></page>
+    </regex>    
+    <regex>
+        <name>getplayerid</name>
+        <expres>data-alias="france-24-arabe" data-playerid="(.*?)"</expres>
+        <page>http://playtv.fr/television/</page>
+    </regex>    
 </item>
 </streaminginfo>
 
@@ -144,6 +252,22 @@
         </regex>
 </item>
 </streaminginfo>
+<streaminginfo>
+    <cname>Coran</cname>
+<item><title>High Playtv</title>
+<link>$doregex[geturl]</link>
+     <regex>
+        <name>geturl</name>
+        <expres>$pyFunction:playtvfr.get_url('$doregex[getplayerid]')</expres>
+        <page></page>
+    </regex>    
+    <regex>
+        <name>getplayerid</name>
+        <expres>data-alias="coran-tv-5" data-playerid="(.*?)"</expres>
+        <page>http://playtv.fr/television/</page>
+    </regex>    
+</item>
+</streaminginfo>
 
 <streaminginfo>
 <cname>Tamazigh Algeria</cname>
@@ -156,6 +280,22 @@
         <page>http://m.playtv.fr/api/channels/tamazight-tv-4/?preset=with_programme%2Cwith_streams</page>
         <referer></referer>
         </regex>
+</item>
+</streaminginfo>
+<streaminginfo>
+    <cname>Tamazigh Algeria</cname>
+<item><title>High Playtv</title>
+<link>$doregex[geturl]</link>
+     <regex>
+        <name>geturl</name>
+        <expres>$pyFunction:playtvfr.get_url('$doregex[getplayerid]')</expres>
+        <page></page>
+    </regex>    
+    <regex>
+        <name>getplayerid</name>
+        <expres>data-alias="tamazight-tv-4" data-playerid="(.*?)"</expres>
+        <page>http://playtv.fr/television/</page>
+    </regex>    
 </item>
 </streaminginfo>
 
