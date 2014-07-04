@@ -1,5 +1,11 @@
 <streamingInfos>
-
+<streaminginfo>
+    <cname>Heya</cname>
+	<item>
+	<title>Low</title>
+	<link>rtmp://mmds.dinamicachannel.it:1935/dinamicachannel/HeyaTv swfUrl=http://player.longtailvideo.com/player4.6.swf pageUrl=http://www.arabwomantv.com/ live=1 timeout=20</link>
+	</item>
+</streaminginfo>
 <streaminginfo>
     <cname>ALTAGHEER TV</cname>
 	<item>
