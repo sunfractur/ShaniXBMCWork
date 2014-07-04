@@ -41,7 +41,22 @@
 </regex>
 </item>
 </streaminginfo>
-
+<streaminginfo>
+    <cname>2M</cname>
+<item><title>High playtv</title>
+<link>$doregex[geturl]</link>
+     <regex>
+        <name>geturl</name>
+        <expres>$pyFunction:playtvfr.get_url('$doregex[getplayerid]')</expres>
+        <page></page>
+    </regex>    
+    <regex>
+        <name>getplayerid</name>
+        <expres>data-alias="2m-maroc" data-playerid="(.*?)"</expres>
+        <page>http://playtv.fr/television/</page>
+    </regex>    
+</item>
+</streaminginfo>
 <streaminginfo>
 <cname>AlGeria</cname>
 <item>
