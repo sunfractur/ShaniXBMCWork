@@ -1498,6 +1498,23 @@
 </streaminginfo>
 
 <streaminginfo>
+    <cname>Al oula Maroc</cname>
+	<item>
+		<title>Janjua</title>
+		<link>rtmp://206.190.153.70/live playpath=alaoula?id=12371 conn=S:OK swfUrl=http://www.janjua.tv/resources/scripts/eplayer.swf pageUrl=http://www.janjua.tv/embedplayer/alaoula/1/500/400live=true timeout=15</link>
+	</item>
+</streaminginfo>
+
+
+<streaminginfo>
+    <cname>Medi 1 Sat</cname>
+	<item>
+		<title>Janjua</title>
+		<link>rtmp://206.190.153.70/live playpath=medi1tvfraja?id=14203 conn=S:OK swfUrl=http://www.janjua.tv/resources/scripts/eplayer.swf pageUrl=http://www.janjua.tv/embedplayer/medi1tvfraja/1/500/400live=true timeout=15</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
      	<cname>Al Tunisia</cname>
 	<item>
 	<title>zenex</title>
