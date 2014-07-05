@@ -1045,10 +1045,33 @@
 	<link>rtmp://rtmp.infomaniak.ch/livecast/videomars timeout=20</link>
 	</item>
 </streaminginfo>
-
+<streaminginfo>
+	<cname>Nabaa</cname>
+	<item><title>Low Audio only Livestation</title>
+	<link>http://nabaa.lsops.net/live/nabaa_ar_hls.smil/chunklist_w1920039264_b32000.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Nabaa</cname>
+	<item><title>Low Livestation</title>
+	<link>http://nabaa.lsops.net/live/nabaa_ar_hls.smil/chunklist_w1920039264_b162000.m3u8</link>
+	</item>
+</streaminginfo>
 <streaminginfo>
 	<cname>Nabaa</cname>
 	<item><title>Med Livestation</title>
+	<link>http://nabaa.lsops.net/live/nabaa_ar_hls.smil/chunklist_w1920039264_b364000.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Nabaa</cname>
+	<item><title>High Livestation</title>
+	<link>http://nabaa.lsops.net/live/nabaa_ar_hls.smil/chunklist_w1920039264_b584000.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Nabaa</cname>
+	<item><title>High_mas Livestation</title>
 	<link>http://nabaa.lsops.net/live/nabaa_ar_hls.smil/playlist.m3u8</link>
 	</item>
 </streaminginfo>
