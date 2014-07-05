@@ -1,5 +1,13 @@
 <channels>
 <channel>
+	<cname>Yarmouk</cname>
+	<imageurl>https://pbs.twimg.com/profile_images/1619235375/329111200_400x400.jpg</imageurl>
+	<enabled>True</enabled>
+	<assignedcategory>
+	<category>gulf</category>
+	</assignedcategory>
+</channel>
+<channel>
 	<cname>Ahmadiyya</cname>
 	<imageurl>http://www.reviewofreligions.org/wp-content/uploads/2014/06/MTA3-Logo-3D-300x240.png</imageurl>
 	<enabled>True</enabled>
