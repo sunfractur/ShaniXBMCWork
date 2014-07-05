@@ -1,5 +1,14 @@
 <channels>
 <channel>
+		<cname>Alhadat</cname>
+		<imageurl>http://www.alhadath-tv.com/wp-content/uploads/2013/03/logo3.png</imageurl>
+		<enabled>True</enabled>
+		<assignedcategory>
+		<category>sham</category>
+		<category>news</category>
+		</assignedcategory>
+</channel>
+<channel>
 		<cname>Bidaya</cname>
 		<imageurl>http://www.watchfomny.net/Video/Arabic/03/Bedaya/logo.gif</imageurl>
 		<enabled>True</enabled>
