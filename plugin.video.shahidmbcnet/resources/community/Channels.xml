@@ -65,6 +65,7 @@
         <enabled>True</enabled>
         <assignedcategory>
         <category>cook</category>
+        <category>sham</category>
         </assignedcategory>
 </channel>
 
