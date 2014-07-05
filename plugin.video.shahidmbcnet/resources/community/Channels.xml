@@ -1,5 +1,13 @@
 <channels>
 <channel>
+	<cname>B4U Plus</cname>
+	<imageurl>http://www.lyngsat-logo.com/hires/bb/b4u_plus_ae.png</imageurl>
+	<enabled>True</enabled>
+	<assignedcategory>
+	<category>music</category>
+	</assignedcategory>
+</channel>
+<channel>
 	<cname>Yarmouk</cname>
 	<imageurl>https://pbs.twimg.com/profile_images/1619235375/329111200_400x400.jpg</imageurl>
 	<enabled>True</enabled>
