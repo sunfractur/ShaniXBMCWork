@@ -1,4 +1,142 @@
 <streamingInfos>
+
+
+
+<streaminginfo>
+     <cname>Chelsea TV</cname>
+	<item>
+	<title>WebMedias</title>
+	<link>rtmp://cp96798.live.edgefcs.net/live playpath=ChelTV_Ch01_1000k@26291 swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/chelsea-tv-en-direct-live-sport-video_957eba4b8.html live=true timeout=15</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+     <cname>Zee Alwan</cname>
+	<item>
+	<title>WebMedias</title>
+	<link>rtmp://iptv5.web-medias.net:8080/live/zee_alwan?e=1404573764&amp;st=tXRnYFXlzo9SW-nT-uPGfQ swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/zee-alwan-en-direct-live-%d9%82%d9%86%d8%a7%d8%a9-%d8%b2%d9%8a-%d8%a7%d9%84%d9%88%d8%a7%d9%86-%d9%85%d8%a8%d8%a7%d8%b4%d8%b1-video_7112d8c27.html live=true timeout=15</link>
+    </item>
+</streaminginfo>
+
+<streaminginfo>
+     <cname>Al Tunisia</cname>
+	<item>
+	<title>WebMedias</title>
+	<link>rtmp://iptv3.web-medias.net:8080/live/al_tunisia?e=1404575794&amp;st=ZRP1CNpEFQoL5GY-5WXOfg swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/ettounsiya-tv-en-direct-live-%D9%82%D9%86%D8%A7%D8%A9-%D8%A7%D9%84%D8%AA%D9%88%D9%86%D8%B3%D9%8A%D8%A9-%D9%85%D8%A8%D8%A7%D8%B4%D8%B1-video_0cda673c9.html live=true timeout=15</link>
+    </item>
+</streaminginfo>
+<streaminginfo>
+     <cname>MBC Drama</cname>
+	<item>
+	<title>WebMedias</title>
+	<link>rtmp://iptv2.web-medias.net:8080/live/mbc_drama?e=1402696357&amp;st=gQ4KvnRQqH_CoD7Th4fQaA swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/mbc-drama-plus-en-direct-live-%D9%82%D9%86%D8%A7%D8%A9-%D8%A5%D9%85%D8%A8%D9%8A%D8%B3%D9%8A-%D8%AF%D8%B1%D8%A7%D9%85%D8%A7-%D8%A8%D9%84%D8%B3-%D9%85%D8%A8%D8%A7%D8%B4%D8%B1-video_b094a4888.html live=true timeout=15</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+     <cname>Zee Alwan</cname>
+	<item>
+	<title>WebMedias</title>
+	<link>rtmp://iptv5.web-medias.net:8080/live/zee_alwan?e=1404573764&amp;st=tXRnYFXlzo9SW-nT-uPGfQ swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/zee-alwan-en-direct-live-%d9%82%d9%86%d8%a7%d8%a9-%d8%b2%d9%8a-%d8%a7%d9%84%d9%88%d8%a7%d9%86-%d9%85%d8%a8%d8%a7%d8%b4%d8%b1-video_7112d8c27.html live=true timeout=15</link>
+    </item>
+</streaminginfo>
+
+ <streaminginfo>
+     <cname>Abu Dhabi Drama</cname>
+	<item>
+	<title>WebMedias</title>
+	<link>rtmp://iptv2.web-medias.net:8080/live/abu_dhabi_drama?e=1402731755&amp;st=vxBzxQA2D4xFSpocrvQl_A swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/iptv/%3Fch%3Dabu_dhabi_drama live=true timeout=15</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+     <cname>Alhayat Cinema</cname>
+	<item>
+	<title>WebMedias</title>
+	<link>rtmp://iptv2.web-medias.net:8080/live/alhayat_cinema?e=1402731449&amp;st=thMGWcwT6zuDR95qXqk85A swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/iptv/%3Fch%3Dalhayat_cinema live=true timeout=15</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+     <cname>MBC Max</cname>
+	<item>
+	<title>WebMedias</title>
+	<link>rtmp://iptv2.web-medias.net:8080/live/mbc_max?e=1402734077&amp;st=_GQ3l74ecGFKj4rBrq6AbQ swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/iptv/%3Fch%3Dmbc_max live=true timeout=15</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+     <cname>Alhayat 1</cname>
+	<item>
+	<title>WebMedias</title>
+	<link>rtmp://iptv3.web-medias.net:8080/live/alhayat_1?e=1402734205&amp;st=y6iPrC8b7wT0hREukiooPw swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/iptv/%3Fch%3Dalhayat_1 live=true timeout=15</link>
+	</item>
+</streaminginfo>
+
+
+ 
+<streaminginfo>
+     <cname>MBC 3</cname>
+	<item>
+	<title>WebMedias</title>
+	<link>rtmp://iptv2.web-medias.net:8080/live/mbc_3?e=1402695165&amp;st=-gM3EHkJitomWuM-NdARCg swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/iptv/%3Fch%3Dmbc_3 live=true timeout=15</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+     <cname>Samira Tv</cname>
+	<item> 
+	<title>WebMedias</title>
+	<link>rtmp://193.164.132.105:1944/live/samira_tv?e=1402694773&amp;st=I_MJYmEH9NiOE5xfiwprCw swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/iptv/%3Fch%3Dsamira_tv live=true timeout=15</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+     <cname>Panorama Drama</cname>
+	<item> 
+	<title>WebMedias</title>
+	<link>rtmp://iptv2.web-medias.net:8080/live/panorama_drama?e=1404576518&amp;st=BXikhFDrbSKMBapCtqzjjg swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/panorama-drama-en-direct-live-streaming-%D9%82%D9%86%D8%A7%D8%A9-%D8%A8%D8%A7%D9%86%D9%88%D8%B1%D8%A7%D9%85%D8%A7-%D8%AF%D8%B1%D8%A7%D9%85%D8%A7-%D9%85%D8%A8%D8%A7%D8%B4%D8%B1-video_aed54b6a8.html live=true timeout=15</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+     <cname>Cairo Drama</cname>
+	<item> 
+	<title>WebMedias</title>
+	<link>rtmp://iptv5.web-medias.net:8080/live/cairo_drama?e=1404576553&amp;st=1Dgy18k2IwTuuKLW4kv3wQ swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/cairo-drama-en-direct-live-streaming-%D9%82%D9%86%D8%A7%D8%A9-%D9%83%D8%A7%D9%8A%D8%B1%D9%88-%D8%AF%D8%B1%D8%A7%D9%85%D8%A7-%D9%85%D8%A8%D8%A7%D8%B4%D8%B1-video_ce540b284.html live=true timeout=15</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+     <cname>Cairo Drama</cname>
+	<item> 
+	<title>WebMedias</title>
+	<link>rtmp://iptv5.web-medias.net:8080/live/cairo_drama?e=1404576553&amp;st=1Dgy18k2IwTuuKLW4kv3wQ swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/cairo-drama-en-direct-live-streaming-%D9%82%D9%86%D8%A7%D8%A9-%D9%83%D8%A7%D9%8A%D8%B1%D9%88-%D8%AF%D8%B1%D8%A7%D9%85%D8%A7-%D9%85%D8%A8%D8%A7%D8%B4%D8%B1-video_ce540b284.html live=true timeout=15</link>
+	</item>
+</streaminginfo>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <streaminginfo>
      <cname>Yarmouk</cname>
 	<item>
@@ -1624,69 +1762,11 @@
 	</item>
 </streaminginfo>
 
-<streaminginfo>
-     <cname>Chelsea TV</cname>
-	<item>
-	<title>WebMedias</title>
-	<link>rtmp://cp96798.live.edgefcs.net/live playpath=ChelTV_Ch01_1000k@26291 swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/chelsea-tv-en-direct-live-sport-video_957eba4b8.html live=true timeout=15</link>
-	</item>
-</streaminginfo>
 
- <streaminginfo>
-     <cname>Abu Dhabi Drama</cname>
-	<item>
-	<title>WebMedias</title>
-	<link>rtmp://iptv2.web-medias.net:8080/live/abu_dhabi_drama?e=1402731755&amp;st=vxBzxQA2D4xFSpocrvQl_A swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/iptv/%3Fch%3Dabu_dhabi_drama live=true timeout=15</link>
-	</item>
-</streaminginfo>
 
-<streaminginfo>
-     <cname>Alhayat Cinema</cname>
-	<item>
-	<title>WebMedias</title>
-	<link>rtmp://iptv2.web-medias.net:8080/live/alhayat_cinema?e=1402731449&amp;st=thMGWcwT6zuDR95qXqk85A swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/iptv/%3Fch%3Dalhayat_cinema live=true timeout=15</link>
-	</item>
-</streaminginfo>
 
-<streaminginfo>
-     <cname>MBC Max</cname>
-	<item>
-	<title>WebMedias</title>
-	<link>rtmp://iptv2.web-medias.net:8080/live/mbc_max?e=1402734077&amp;st=_GQ3l74ecGFKj4rBrq6AbQ swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/iptv/%3Fch%3Dmbc_max live=true timeout=15</link>
-	</item>
-</streaminginfo>
 
-<streaminginfo>
-     <cname>Alhayat 1</cname>
-	<item>
-	<title>WebMedias</title>
-	<link>rtmp://iptv3.web-medias.net:8080/live/alhayat_1?e=1402734205&amp;st=y6iPrC8b7wT0hREukiooPw swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/iptv/%3Fch%3Dalhayat_1 live=true timeout=15</link>
-	</item>
-</streaminginfo>
 
-<streaminginfo>
-     <cname>MBC Drama</cname>
-	<item>
-	<title>WebMedias</title>
-	<link>rtmp://iptv2.web-medias.net:8080/live/mbc_drama?e=1402696357&amp;st=gQ4KvnRQqH_CoD7Th4fQaA swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/iptv/%3Fch%3Dmbc_drama live=true timeout=15</link>
-	</item>
-</streaminginfo>
- 
-<streaminginfo>
-     <cname>MBC 3</cname>
-	<item>
-	<title>WebMedias</title>
-	<link>rtmp://iptv2.web-medias.net:8080/live/mbc_3?e=1402695165&amp;st=-gM3EHkJitomWuM-NdARCg swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/iptv/%3Fch%3Dmbc_3 live=true timeout=15</link>
-	</item>
-</streaminginfo>
-
-<streaminginfo>
-     <cname>Samira Tv</cname>
-	<item> 
-	<title>WebMedias</title>
-	<link>rtmp://193.164.132.105:1944/live/samira_tv?e=1402694773&amp;st=I_MJYmEH9NiOE5xfiwprCw swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/iptv/%3Fch%3Dsamira_tv live=true timeout=15</link>
-	</item>
-</streaminginfo>
 
 <streaminginfo>
      <cname>Al Haneen Music</cname>
