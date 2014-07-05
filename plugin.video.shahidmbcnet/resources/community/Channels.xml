@@ -1,5 +1,32 @@
 <channels>
 <channel>
+		<cname>Bidaya</cname>
+		<imageurl>http://www.watchfomny.net/Video/Arabic/03/Bedaya/logo.gif</imageurl>
+		<enabled>True</enabled>
+		<assignedcategory>
+		<category>islam</category>
+		<category>gulf</category>
+		</assignedcategory>
+</channel>
+
+<channel>
+		<cname>Ahl Alquran</cname>
+		<imageurl>http://s9.postimg.org/vklue9tgf/ahl_alquran.png</imageurl>
+		<enabled>True</enabled>
+		<assignedcategory>
+		<category>islam</category>
+		</assignedcategory>
+</channel>
+
+<channel>
+		<cname>Aleman</cname>
+		<imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfa1/t1.0-1/c23.22.274.274/s160x160/418240_334064806628173_1878850227_n.jpg</imageurl>
+		<enabled>True</enabled>
+		<assignedcategory>
+		<category>islam</category>
+		</assignedcategory>
+</channel>
+<channel>
 		<cname>Alfady</cname>
 		<imageurl>http://www.lyngsat-logo.com/logo/tv/aa/alfady_channel.png</imageurl>
 		<enabled>True</enabled>
