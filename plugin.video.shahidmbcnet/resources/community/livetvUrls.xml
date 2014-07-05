@@ -1,8 +1,13 @@
 <streaminginfos>
 <streaminginfo>
+        <cname>CNN</cname>
+        <chnumber>ch815</chnumber>
+	<link>http://www.livetv.tn/CNN-en-direct-live.html</link>
+</streaminginfo>
+<streaminginfo>
         <cname>B4U Plus</cname>
         <chnumber>ch814</chnumber>
-<link>http://www.livetv.tn/B4U-Plus-en-direct-live.html</link>
+	<link>http://www.livetv.tn/B4U-Plus-en-direct-live.html</link>
 </streaminginfo>
 <streaminginfo>
         <cname>First TV</cname>
