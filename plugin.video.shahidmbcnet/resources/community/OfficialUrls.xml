@@ -1,5 +1,24 @@
 <streamingInfos>
 <streaminginfo>
+     <cname>Aleman</cname>
+<item>
+<title>Low</title>
+<link>$doregex[url]$doregex[video] timeout=20</link>
+<regex>
+<name>url</name>
+<expres>base="(.*?)"</expres>
+<page>http://rrr.sz.xlcdn.com/?account=ygcrtv&amp;file=aleman_tvhmd&amp;ref=http://www.alemantv.net/LiveBrodcastPage.aspx&amp;type=live&amp;service=wowza&amp;protocol=rtmp&amp;port=80&amp;output=smil</page>
+</regex>
+<regex>
+<name>video</name>
+<expres>src="(.*)"</expres>
+<page>http://rrr.sz.xlcdn.com/?account=ygcrtv&amp;file=aleman_tvhmd&amp;ref=http://www.alemantv.net/LiveBrodcastPage.aspx&amp;type=live&amp;service=wowza&amp;protocol=rtmp&amp;port=80&amp;output=smil</page>
+</regex>
+</item>
+</streaminginfo>
+
+
+<streaminginfo>
 	<cname>Ahmadiyya</cname>
 	<item>
 	<title>Low</title>
