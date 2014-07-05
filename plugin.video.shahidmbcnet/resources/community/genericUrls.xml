@@ -1,4 +1,11 @@
 <streamingInfos>
+<streaminginfo>
+     <cname>Yarmouk</cname>
+	<item>
+	<title>You need to install Justin addon</title>
+	<link>plugin://plugin.video.jtv.archives/?mode=get_channel&amp;name=yarmouktv&amp;play=1</link>
+	</item>
+</streaminginfo>
 
 <streaminginfo>
      <cname>Alhadat</cname>
