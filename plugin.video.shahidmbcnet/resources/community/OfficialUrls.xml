@@ -1,4 +1,14 @@
 <streamingInfos>
+
+<streaminginfo>
+    <cname>Ahl Alquran</cname>
+	<item>
+	<title>Low</title>
+	<link>rtmp://ahl-alquran.tv/live/instanc/mycam swfUrl=http://www.ahl-alquran.tv/live/mediaplayer.swf pageUrl=http://www.ahl-alquran.tv/page.php?id=160 live=1 timeout=20</link>
+	</item>
+</streaminginfo>
+
+
 <streaminginfo>
     <cname>Alfady</cname>
 	<item>
