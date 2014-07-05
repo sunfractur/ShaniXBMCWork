@@ -5,6 +5,23 @@
 	<link>http://www.livetv.tn/CNN-en-direct-live.html</link>
 </streaminginfo>
 <streaminginfo>
+        <cname>Qatar</cname>
+        <chnumber>ch401</chnumber>
+	<link>http://www.livetv.tn/Qatar-TV-en-direct-live.html</link>
+</streaminginfo>
+
+<streaminginfo>
+        <cname>Imagines Movies</cname>
+        <chnumber>ch400</chnumber>
+	<link>http://www.livetv.tn/Imagines-Movies-en-direct-live.html</link>
+</streaminginfo>
+<streaminginfo>
+        <cname>Al Lubnania</cname>
+        <chnumber>ch321</chnumber>
+		<link>http://www.livetv.tn/Al-Lubnania-en-direct-live.html</link>
+</streaminginfo>
+
+<streaminginfo>
         <cname>B4U Plus</cname>
         <chnumber>ch814</chnumber>
 	<link>http://www.livetv.tn/B4U-Plus-en-direct-live.html</link>
