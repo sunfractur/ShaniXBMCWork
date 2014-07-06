@@ -1055,13 +1055,69 @@
 			<link>rtmp://46.43.64.166:1935/flv/flv timeout=20</link>
 		</item>
 	</streaminginfo>
-	<streaminginfo>
-		<cname>alwatan</cname>
-		<item>
-			<title>m3u8</title>
-			<link>http://alwatan_hls-lh.akamaihd.net/i/alwatan_ar@91111/master.m3u8</link>
-		</item>
-	</streaminginfo>
+<streaminginfo>
+	<cname>alwatan</cname>
+	<item>
+	<title>Low</title>
+	<link>http://wpc.c56b.edgecastcdn.net/hls-live/20C56B/default/ThompsanECWTV/tsecwatantvlow.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>alwatan</cname>
+	<item>
+	<title>Med</title>
+	<link>http://wpc.c56b.edgecastcdn.net/hls-live/20C56B/default/ThompsanECWTV/tsecwatantvmed.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>alwatan</cname>
+	<item>
+	<title>High</title>
+	<link>http://wpc.c56b.edgecastcdn.net/hls-live/20C56B/default/ThompsanECWTV/tsecwatantvhigh.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Alwatan Plus</cname>
+	<item>
+	<title>Low</title>
+	<link>http://wpc.C56B.edgecastcdn.net/hls-live/20C56B/default/ThompsanECWTV/tsecwatantvpluslow.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Alwatan Plus</cname>
+	<item>
+	<title>Med</title>
+	<link>http://wpc.C56B.edgecastcdn.net/hls-live/20C56B/default/ThompsanECWTV/tsecwatantvplusmed.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Alwatan Plus</cname>
+	<item>
+	<title>High</title>
+	<link>http://wpc.C56B.edgecastcdn.net/hls-live/20C56B/default/ThompsanECWTV/tsecwatantvplushigh.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Alwatan Ghanawi</cname>
+	<item>
+	<title>Low</title>
+	<link>http://wpc.C56B.edgecastcdn.net/hls-live/20C56B/default/ThompsanECWTV/tsecwatanghanawilow.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Alwatan Ghanawi</cname>
+	<item>
+	<title>Med</title>
+	<link>http://wpc.C56B.edgecastcdn.net/hls-live/20C56B/default/ThompsanECWTV/tsecwatanghanawimed.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Alwatan Ghanawi</cname>
+	<item>
+	<title>High</title>
+	<link>http://wpc.C56B.edgecastcdn.net/hls-live/20C56B/default/ThompsanECWTV/tsecwatanghanawihigh.m3u8</link>
+	</item>
+</streaminginfo>
 	<streaminginfo>
 		<cname>BFMTV</cname>
 		<item>
@@ -1930,21 +1986,9 @@
 		<link>http://50.7.180.18:1935/nahar1/smil:alnahar2-smil.smil/playlist.m3u8</link>
 		</item>
 </streaminginfo>
-<streaminginfo>
-        <cname>Alwatan Plus</cname>
-	<item>
-	<title>Med</title>
-	<link>http://alwatan_hls-lh.akamaihd.net/i/alwaplus_ar@91169/master.m3u8</link>
-	</item>
-</streaminginfo>
 
-<streaminginfo>
-        <cname>Alwatan Ghanawi</cname>
-	<item>
-	<title>Med</title>
-	<link>http://alwatan_hls-lh.akamaihd.net/i/ghanawi_ar@51110/master.m3u8</link>
-	</item>
-</streaminginfo>
+
+
 
 <streaminginfo>
         <cname>Oman</cname>
