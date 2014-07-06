@@ -1299,28 +1299,28 @@
 	</item>
 </streaminginfo>
 <streaminginfo>
-    <cname>Secret</cname>
+    <cname>Royal Secret</cname>
 	<item>
 	<title>High:f4m You need to install f4m_tester addon from Shani Repo</title>
 	<link>plugin://plugin.video.f4mTester/?url=http://streamer11.elementssys.com:8080/secretsx/archive/1402845244/now/manifest.f4m</link>
 	</item>
 </streaminginfo>
 <streaminginfo>
-	<cname>Secret</cname>
+	<cname>Royal Secret</cname>
 	<item>
 	<title>High</title>
 	<link>http://94.127.209.149:8080/secretsx/playlist.m3u8</link>
 	</item>
 </streaminginfo>
 <streaminginfo>
-    <cname>Edhak</cname>
+    <cname>Royal Edhak</cname>
 	<item>
 	<title>High: f4m You need to install f4m_tester addon from Shani Repo</title>
 	<link>plugin://plugin.video.f4mTester/?url=http://streamer11.elementssys.com:8080/edhakx/archive/1402844819/now/manifest.f4m</link>
 	</item>
 </streaminginfo>
 <streaminginfo>
-	<cname>Edhak</cname>
+	<cname>Royal Edhak</cname>
 	<item>
 	<title>High</title>
 	<link>http://94.127.209.149:8080/edhakx/playlist.m3u8</link>
@@ -1711,7 +1711,7 @@
 
 
 <streaminginfo>
-    <cname>Albadawiya</cname>
+    <cname>Royal Albadawiya</cname>
 	<item>
 	<title>Low: You need to install f4m_tester addon from Shani Repo</title>
 	<link>plugin://plugin.video.f4mTester/?url=http://94.127.209.149:8080/albadawiyah-400-hlsx/manifest.f4m</link>
@@ -1719,7 +1719,7 @@
 </streaminginfo>
 
 <streaminginfo>
-    <cname>Albadawiya</cname>
+    <cname>Royal Albadawiya</cname>
 	<item>
 	<title>High: You need to install f4m_tester addon from Shani Repo</title>
 	<link>plugin://plugin.video.f4mTester/?url=http://streamer11.elementssys.com:8080/albadawiyah-800-hdsx/archive/1400931061/now/manifest.f4m</link>
@@ -1727,7 +1727,7 @@
 </streaminginfo>
 
 <streaminginfo>
-	<cname>Albadawiya</cname>
+	<cname>Royal Albadawiya</cname>
 	<item>
 	<title>Med</title>
 	<link>http://94.127.209.149:8080/albadawiyah-400-hlsx/playlist.m3u8</link>
@@ -1735,7 +1735,7 @@
 </streaminginfo>
 
 <streaminginfo>
-	<cname>Albadawiya</cname>
+	<cname>Royal Albadawiya</cname>
 	<item>
 	<title>High</title>
 	<link>http://94.127.209.149:8080/albadawiyah-800-hdsx/playlist.m3u8</link>
