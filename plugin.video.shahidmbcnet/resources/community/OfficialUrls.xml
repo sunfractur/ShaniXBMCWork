@@ -1,5 +1,34 @@
 <streamingInfos>
 <streaminginfo>
+	<cname>Al Rasheed</cname>
+	<item>
+	<title>Low</title>
+	<link>http://http.mmp.streamuk.com/live/smil:0_fk07czmb.smil/chunklist_b307200.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Al Rasheed</cname>
+	<item>
+	<title>Med</title>
+	<link>http://http.mmp.streamuk.com/live/smil:0_fk07czmb.smil/chunklist_b614400.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Al Rasheed</cname>
+	<item>
+	<title>High</title>
+	<link>http://http.mmp.streamuk.com/live/smil:0_fk07czmb.smil/chunklist_b1228800.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Al Rasheed</cname>
+	<item>
+	<title>High</title>
+	<link>http://http.mmp.streamuk.com/live/smil:0_fk07czmb.smil/playlist.m3u8?nva=20140706164332&amp;token=0717f08dd7e175f0f4379</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
      <cname>Oman Sport</cname>
 	<item>
 	<title>Low</title>
