@@ -1,5 +1,14 @@
 <channels>
 <channel>
+	<cname>Syria Alghad</cname>
+	<imageurl>http://arabicfomny.com/fomnyarabictv/syria_alghadtv_live.jpg</imageurl>
+	<enabled>True</enabled>
+	<assignedcategory>
+	<category>sham</category>
+	<category>gulf</category>
+	</assignedcategory>
+</channel>
+<channel>
 	<cname>B4U Plus</cname>
 	<imageurl>http://www.lyngsat-logo.com/hires/bb/b4u_plus_ae.png</imageurl>
 	<enabled>True</enabled>
