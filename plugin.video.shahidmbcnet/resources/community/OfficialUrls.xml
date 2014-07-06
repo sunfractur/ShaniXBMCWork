@@ -1,5 +1,35 @@
 <streamingInfos>
 <streaminginfo>
+     <cname>Al Sumaria</cname>
+	<item>
+	<title>Low</title>
+	<link>rtmp://livestreaming2.itworkscdn.net/sumarialive playpath=live_160p swfUrl=http://www.alsumaria.tv/LiveMedia4/jwplayer.flash.swf live=true timeout=15 pageUrl=http://www.alsumaria.tv/watch-Alsumaria-Live</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+     <cname>Al Sumaria</cname>
+	<item>
+	<title>Med</title>
+	<link>rtmp://livestreaming2.itworkscdn.net/sumarialive playpath=live_240p swfUrl=http://www.alsumaria.tv/LiveMedia4/jwplayer.flash.swf live=true timeout=15 pageUrl=http://www.alsumaria.tv/watch-Alsumaria-Live</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+     <cname>Al Sumaria</cname>
+	<item>
+	<title>High</title>
+	<link>rtmp://livestreaming2.itworkscdn.net/sumarialive playpath=live_360p swfUrl=http://www.alsumaria.tv/LiveMedia4/jwplayer.flash.swf live=true timeout=15 pageUrl=http://www.alsumaria.tv/watch-Alsumaria-Live</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+     <cname>Al Sumaria</cname>
+	<item>
+	<title>High</title>
+	<link>http://livestreaming2.itworkscdn.net/sumarialive/smil:sumariamob.smil/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
 	<cname>Al Rasheed</cname>
 	<item>
 	<title>Low</title>
