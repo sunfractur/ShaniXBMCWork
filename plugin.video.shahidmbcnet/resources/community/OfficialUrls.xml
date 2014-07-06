@@ -1710,8 +1710,15 @@
 <streaminginfo>
     <cname>Albadawiya</cname>
 	<item>
-	<title>Original source: You need to install f4m_tester addon from Shani Repo</title>
+	<title>Med: You need to install f4m_tester addon from Shani Repo</title>
 	<link>plugin://plugin.video.f4mTester/?url=http://streamer11.elementssys.com:8080/albadawiyah-800-hdsx/archive/1400931061/now/manifest.f4m</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+    <cname>Albadawiya</cname>
+	<item>
+	<title>Med: You need to install f4m_tester addon from Shani Repo</title>
+	<link>plugin://plugin.video.f4mTester/?url=http://94.127.209.149:8080/albadawiyah-800-hdsx/manifest.f4m</link>
 	</item>
 </streaminginfo>
 <streaminginfo>
