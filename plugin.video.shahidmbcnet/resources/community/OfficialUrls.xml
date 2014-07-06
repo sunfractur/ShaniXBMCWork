@@ -1705,22 +1705,43 @@
 	<item>
 	<title>SD</title>
 	<link>http://livestream5.alarabiya.tv/i/live_1@141854/index_1_av-p.m3u8?sd=10&amp;rebase=on</link>
-</item>
+	</item>
 </streaminginfo>
+
+
 <streaminginfo>
     <cname>Albadawiya</cname>
 	<item>
-	<title>Med: You need to install f4m_tester addon from Shani Repo</title>
+	<title>Low: You need to install f4m_tester addon from Shani Repo</title>
+	<link>plugin://plugin.video.f4mTester/?url=http://94.127.209.149:8080/albadawiyah-400-hlsx/manifest.f4m</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+    <cname>Albadawiya</cname>
+	<item>
+	<title>High: You need to install f4m_tester addon from Shani Repo</title>
 	<link>plugin://plugin.video.f4mTester/?url=http://streamer11.elementssys.com:8080/albadawiyah-800-hdsx/archive/1400931061/now/manifest.f4m</link>
 	</item>
 </streaminginfo>
+
 <streaminginfo>
-    <cname>Albadawiya</cname>
+	<cname>Albadawiya</cname>
 	<item>
-	<title>Med: You need to install f4m_tester addon from Shani Repo</title>
-	<link>plugin://plugin.video.f4mTester/?url=http://94.127.209.149:8080/albadawiyah-800-hdsx/manifest.f4m</link>
+	<title>Med</title>
+	<link>http://94.127.209.149:8080/albadawiyah-400-hlsx/playlist.m3u8</link>
 	</item>
 </streaminginfo>
+
+<streaminginfo>
+	<cname>Albadawiya</cname>
+	<item>
+	<title>High</title>
+	<link>http://94.127.209.149:8080/albadawiyah-800-hdsx/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+
+
 <streaminginfo>
         <cname>Russia Alyaum</cname>
 	<item>
