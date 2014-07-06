@@ -1,5 +1,19 @@
 <streamingInfos>
 <streaminginfo>
+     <cname>Oman Sport</cname>
+	<item>
+	<title>Low</title>
+	<link>http://38.96.148.30:1935/live/omantv2/chunklist.m3u8?wowzasessionid=65335900</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+     <cname>Oman Sport</cname>
+	<item>
+	<title>Med</title>
+	<link>http://38.96.148.30:1935/live/omantv2/chunklist.m3u8?wowzasessionid=453125211</link>
+    </item>
+</streaminginfo>
+<streaminginfo>
      <cname>Aleman</cname>
 <item>
 <title>Low</title>
