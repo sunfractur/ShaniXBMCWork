@@ -1400,8 +1400,15 @@
 
 <streaminginfo>
     <cname>Al-Hurria</cname>
-<item><title>Original Source</title><link>http://streamer1.hamuraabi.com:1935/hurria/live/playlist.m3u8</link></item>
+<item><title>Low</title><link>http://streamer1.hamuraabi.com:1935/hurria/live/playlist.m3u8</link></item>
 </streaminginfo>
+<streaminginfo>
+    <cname>Al-Hurria</cname>
+	<item><title>Med</title>
+	<link>http://streamer1.hamuraabi.com:1935/hurria/live/chunklist_w1445668128.m3u8</link>
+	</item>
+</streaminginfo>
+
 <streaminginfo>
     <cname>Al Etejah</cname>
 	<item>
