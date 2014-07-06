@@ -1301,31 +1301,32 @@
 <streaminginfo>
     <cname>Secret</cname>
 	<item>
-	<title>Original source:f4m You need to install f4m_tester addon from Shani Repo</title>
+	<title>High:f4m You need to install f4m_tester addon from Shani Repo</title>
 	<link>plugin://plugin.video.f4mTester/?url=http://streamer11.elementssys.com:8080/secretsx/archive/1402845244/now/manifest.f4m</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Secret</cname>
+	<item>
+	<title>High</title>
+	<link>http://94.127.209.149:8080/secretsx/playlist.m3u8</link>
 	</item>
 </streaminginfo>
 <streaminginfo>
     <cname>Edhak</cname>
 	<item>
-	<title>Original source:f4m You need to install f4m_tester addon from Shani Repo</title>
+	<title>High: f4m You need to install f4m_tester addon from Shani Repo</title>
 	<link>plugin://plugin.video.f4mTester/?url=http://streamer11.elementssys.com:8080/edhakx/archive/1402844819/now/manifest.f4m</link>
 	</item>
 </streaminginfo>
 <streaminginfo>
 	<cname>Edhak</cname>
 	<item>
-	<title>original Source</title>
-	<link>http://94.127.209.149:8080/secretsx/playlist.m3u8</link>
+	<title>High</title>
+	<link>http://94.127.209.149:8080/edhakx/playlist.m3u8</link>
 	</item>
 </streaminginfo>
-<streaminginfo>
-	<cname>Secret</cname>
-	<item>
-	<title>original Source</title>
-	<link>http://94.127.209.149:8080/secretsx/playlist.m3u8</link>
-	</item>
-</streaminginfo>
+
 <streaminginfo>
 	<cname>Africa</cname>
 	<item>
