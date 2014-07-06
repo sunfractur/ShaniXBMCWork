@@ -490,7 +490,7 @@
         </assignedcategory>
 </channel>
 <channel>
-        <cname>Edhak</cname>
+        <cname>Royal Edhak</cname>
         <imageurl>http://www.lyngsat-logo.com/hires/rr/royal_edhak_sa.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
@@ -498,7 +498,7 @@
         </assignedcategory>
 </channel>
 <channel>
-        <cname>Secret</cname>
+        <cname>Royal Secret</cname>
         <imageurl>http://www.lyngsat-logo.com/hires/rr/royal_secrets_sa.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
@@ -817,7 +817,7 @@
 		</assignedcategory>
 	</channel>
 	<channel>
-			<cname>AlBabeleyia</cname>
+			<cname>Royal AlBabeleyia</cname>
 			<imageurl>http://www.lyngsat-logo.com/logo/tv/aa/al_babeleyia.png</imageurl>
 			<enabled>True</enabled>
 			<assignedcategory>
