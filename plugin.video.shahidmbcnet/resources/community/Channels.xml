@@ -491,7 +491,7 @@
 </channel>
 <channel>
         <cname>Royal Edhak</cname>
-        <imageurl>http://www.lyngsat-logo.com/hires/rr/royal_edhak_sa.png</imageurl>
+        <imageurl>http://royaledhaktv.com/wp-content/themes/edhaktv/images/royal-live-mob-poster.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
         <category>gulf</category>
@@ -499,7 +499,7 @@
 </channel>
 <channel>
         <cname>Royal Secret</cname>
-        <imageurl>http://www.lyngsat-logo.com/hires/rr/royal_secrets_sa.png</imageurl>
+        <imageurl>http://royalsecretstv.com/wp-content/themes/secretstv/images/royal-live-mob-poster.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
         <category>gulf</category>
@@ -1822,7 +1822,7 @@
 	</channel>
 	<channel>
 			<cname>Royal Albadawiya</cname>
-			<imageurl>http://www.lyngsat-logo.com/hires/rr/royal_al_badawiyah_sa.png</imageurl>
+			<imageurl>http://royalalbadawiyahtv.com/wp-content/themes/badawiyahtv/images/royal-live-mob-poster.png</imageurl>
 			<enabled>True</enabled>
 			<assignedcategory>
 			<category>sham</category>
