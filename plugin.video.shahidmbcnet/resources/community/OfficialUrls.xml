@@ -1799,7 +1799,21 @@
 <streaminginfo>
         <cname>Orient News</cname>
 	<item>
-	<title>Original Source</title>
+	<title>Low</title>
+	<link>rtmp://67.228.105.241/live/ playpath=live1 swfUrl=http://orient-tv.net/live/jwplayer/player.swf pageUrl=http://orient-tv.net/live/ live=true</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+        <cname>Orient News</cname>
+	<item>
+	<title>Med</title>
+	<link>rtmp://67.228.105.241/live/ playpath=live2 swfUrl=http://orient-tv.net/live/jwplayer/player.swf pageUrl=http://orient-tv.net/live/ live=true</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+        <cname>Orient News</cname>
+	<item>
+	<title>High</title>
 	<link>rtmp://67.228.105.241/live/ playpath=live3 swfUrl=http://orient-tv.net/live/jwplayer/player.swf pageUrl=http://orient-tv.net/live/ live=true</link>
 	</item>
 </streaminginfo>
