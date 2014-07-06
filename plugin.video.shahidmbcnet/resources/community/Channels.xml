@@ -1979,6 +1979,7 @@
         <enabled>True</enabled>
         <assignedcategory>
             <category>sham</category>
+            <category>gulf</category>
         </assignedcategory>
 	</channel>
 
@@ -3926,6 +3927,7 @@
         <enabled>True</enabled>
         <assignedcategory>
             <category>sham</category>
+            <category>gulf</category>
         </assignedcategory>
     </channel>
 
