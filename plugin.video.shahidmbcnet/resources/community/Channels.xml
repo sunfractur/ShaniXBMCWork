@@ -1,5 +1,30 @@
 <channels>
 <channel>
+        <cname>NT1</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/nn/nt1.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>french</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>HCTV</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/hh/horn_cable_tv_so.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>africa</category>
+        </assignedcategory>
+</channel>
+	
+<channel>
+        <cname>Universal Somali</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/uu/universal_somali_tv.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>africa</category>
+        </assignedcategory>
+</channel>
+<channel>
 	<cname>Syria Alghad</cname>
 	<imageurl>http://arabicfomny.com/fomnyarabictv/syria_alghadtv_live.jpg</imageurl>
 	<enabled>True</enabled>
