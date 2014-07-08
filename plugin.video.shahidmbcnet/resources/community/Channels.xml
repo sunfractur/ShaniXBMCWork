@@ -483,10 +483,11 @@
 </channel>
 <channel>
         <cname>Shada</cname>
-        <imageurl>http://www.lyngsat-logo.com/logo/tv/ss/shada_tv.png</imageurl>
+        <imageurl>http://free-eg.com/channels-logos/Shada_Logo.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
         <category>gulf</category>
+        <category>sham</category>
         </assignedcategory>
 </channel>
 <channel>
