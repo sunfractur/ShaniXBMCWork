@@ -1,5 +1,22 @@
 <streamingInfos>
 <streaminginfo>
+	<cname>HCTV</cname>
+	<url>hctv</url>
+</streaminginfo>
+<streaminginfo>
+	<cname>NT1</cname>
+	<url>nt1</url>
+</streaminginfo>
+<streaminginfo>
+	<cname>Universal Somali</cname>
+	<url>universal_somali_tv</url>
+</streaminginfo>
+<streaminginfo>
+	<cname>W9</cname>
+	<url>w9</url>
+</streaminginfo>
+
+<streaminginfo>
 	<cname>Tamazigh Algeria</cname>
 	<url>tamazight</url>
 </streaminginfo>
