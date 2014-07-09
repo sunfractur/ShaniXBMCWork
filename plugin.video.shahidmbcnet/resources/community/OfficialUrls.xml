@@ -1,5 +1,32 @@
 <streamingInfos>
-
+<streaminginfo>
+    <cname>Al Kawthar</cname>
+	<item>
+	<title>Low: You need to install f4m_tester addon from Shani Repo</title>
+	<link>plugin://plugin.video.f4mTester/?url=http%3A%2F%2Flive.pgmedia.ir%3A1935%2Flive-35895787%2Falkosar-320.sdp%2Fmanifest.f4m%3FDVR</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+    <cname>Al Kawthar</cname>
+	<item>
+	<title>Low</title>
+	<link>http://live.pgmedia.ir:1935/live-35895787/alkosar-320.sdp/playlist.m3u8?DVR</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+    <cname>Al Kawthar</cname>
+	<item>
+	<title>Med</title>
+	<link>http://live.pgmedia.ir:1935/live-35895787/alkosar-512.sdp/playlist.m3u8?DVR</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+    <cname>Al Kawthar</cname>
+	<item>
+	<title>High</title>
+	<link>http://live.pgmedia.ir:1935/live-35895787/alkosar-1024.sdp/playlist.m3u8?DVR</link>
+	</item>
+</streaminginfo>
 <streaminginfo>
 	<cname>Funoon</cname>
 	<item>
