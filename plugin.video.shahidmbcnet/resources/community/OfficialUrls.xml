@@ -1335,6 +1335,13 @@
 	</item>
 </streaminginfo>
 <streaminginfo>
+   	<cname>Palestine AlYawm</cname>
+	<item>
+	<title>High</title>
+	<link>http://live.sonara.net:1935/live/live1/gmswf.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
    	<cname>OTV Lebanon</cname>
 	<item>
 	<title>Med</title>
