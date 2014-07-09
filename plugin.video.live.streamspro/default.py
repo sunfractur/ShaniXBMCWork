@@ -782,7 +782,7 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
                             return cookieJar# do nothing
                     elif m['page'] and  not m['page'].startswith('http'):
                         link=m['page']
-                if '$pyFunction:playmedia(' in m['expre']:
+                if '$pyFunction:playmedia(' in m['expre'] or  any(x in url for x in g_ignoreSetResolved):
                     setresolved=False
                 if  '$doregex' in m['expre']:
                     m['expre']=getRegexParsed(regexs, m['expre'],cookieJar,recursiveCall=True,cachedPages=cachedPages)
