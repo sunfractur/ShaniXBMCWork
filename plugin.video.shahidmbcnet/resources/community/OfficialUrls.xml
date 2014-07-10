@@ -2048,38 +2048,119 @@
 	</item>
 </streaminginfo>
 
-
+<streaminginfo>
+        <cname>Al Nahar Sport</cname>
+		<item>
+		<title>Low</title>
+		<link>http://50.7.180.18:1935/nahar1/smil:naharsports-smil.smil/chunklist_w1719283736_b332768.m3u8</link>
+		</item>
+</streaminginfo>
 <streaminginfo>
         <cname>Al Nahar Sport</cname>
 		<item>
 		<title>Med</title>
+		<link>http://50.7.180.18:1935/nahar1/smil:naharsports-smil.smil/chunklist_w1719283736_b632768.m3u8</link>
+		</item>
+</streaminginfo>
+<streaminginfo>
+        <cname>Al Nahar Sport</cname>
+		<item>
+		<title>High</title>
+		<link>http://50.7.180.18:1935/nahar1/smil:naharsports-smil.smil/chunklist_w1719283736_b1875968.m3u8</link>
+		</item>
+</streaminginfo>
+<streaminginfo>
+        <cname>Al Nahar Sport</cname>
+		<item>
+		<title>High_Master</title>
 		<link>http://50.7.180.18:1935/nahar1/smil:naharsports-smil.smil/playlist.m3u8</link>
 		</item>
 </streaminginfo>
 <streaminginfo>
         <cname>Al Nahar</cname>
 		<item>
-		<title>Original Source</title>
+		<title>Low</title>
+		<link>http://50.7.180.18:1935/nahar1/smil:nahar1-smil.smil/chunklist_w384432067_b365536.m3u8</link>
+		</item>
+</streaminginfo>
+<streaminginfo>
+        <cname>Al Nahar</cname>
+		<item>
+		<title>Med</title>
+		<link>http://50.7.180.18:1935/nahar1/smil:nahar1-smil.smil/chunklist_w384432067_b665536.m3u8</link>
+		</item>
+</streaminginfo>
+<streaminginfo>
+        <cname>Al Nahar</cname>
+		<item>
+		<title>High</title>
+		<link>http://50.7.180.18:1935/nahar1/smil:nahar1-smil.smil/chunklist_w384432067_b1908736.m3u8</link>
+		</item>
+</streaminginfo>
+
+<streaminginfo>
+        <cname>Al Nahar</cname>
+		<item>
+		<title>High_master</title>
 		<link>http://50.7.180.18:1935/nahar1/smil:nahar1-smil.smil/playlist.m3u8</link>
 		</item>
 </streaminginfo>
 <streaminginfo>
         <cname>Al-Nahar Drama</cname>
 		<item>
+		<title>Low</title>
+		<link>http://50.7.180.18:1935/nahar1/smil:alnahardrama-smil.smil/chunklist_w2089181793_b332768.m3u8</link>
+		</item>
+</streaminginfo>
+<streaminginfo>
+        <cname>Al-Nahar Drama</cname>
+		<item>
 		<title>Med</title>
+		<link>http://50.7.180.18:1935/nahar1/smil:alnahardrama-smil.smil/chunklist_w2089181793_b632768.m3u8</link>
+		</item>
+</streaminginfo>
+<streaminginfo>
+        <cname>Al-Nahar Drama</cname>
+		<item>
+		<title>High</title>
+		<link>http://50.7.180.18:1935/nahar1/smil:alnahardrama-smil.smil/chunklist_w2089181793_b1875968.m3u8</link>
+		</item>
+</streaminginfo>
+<streaminginfo>
+        <cname>Al-Nahar Drama</cname>
+		<item>
+		<title>High_master</title>
 		<link>http://50.7.180.18:1935/nahar1/smil:alnahardrama-smil.smil/playlist.m3u8</link>
 		</item>
 </streaminginfo>
 <streaminginfo>
         <cname>Al Nahar 2</cname>
 		<item>
+		<title>Low</title>
+		<link>http://50.7.180.18:1935/nahar1/smil:alnahar2-smil.smil/chunklist_w807401159_b332768.m3u8</link>
+		</item>
+</streaminginfo>
+<streaminginfo>
+        <cname>Al Nahar 2</cname>
+		<item>
 		<title>Med</title>
+		<link>http://50.7.180.18:1935/nahar1/smil:alnahar2-smil.smil/chunklist_w807401159_b632768.m3u8</link>
+		</item>
+</streaminginfo>
+<streaminginfo>
+        <cname>Al Nahar 2</cname>
+		<item>
+		<title>High</title>
+		<link>http://50.7.180.18:1935/nahar1/smil:alnahar2-smil.smil/chunklist_w807401159_b1875968.m3u8</link>
+		</item>
+</streaminginfo>
+<streaminginfo>
+        <cname>Al Nahar 2</cname>
+		<item>
+		<title>High_master</title>
 		<link>http://50.7.180.18:1935/nahar1/smil:alnahar2-smil.smil/playlist.m3u8</link>
 		</item>
 </streaminginfo>
-
-
-
 
 <streaminginfo>
         <cname>Oman</cname>
