@@ -1,5 +1,13 @@
 <streamingInfos>
 <streaminginfo>
+    <cname>Tchad</cname>
+	<item>
+	<title>Med</title>
+	<link>rtmpt://tchad.streamakaci.com/tchad/tchad.stream timeout=20</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
     <cname>Al Kawthar</cname>
 	<item>
 	<title>Low: You need to install f4m_tester addon from Shani Repo</title>
