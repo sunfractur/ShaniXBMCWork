@@ -325,6 +325,25 @@
 <streaminginfo>
 <cname>2M</cname>
 <item>
+<title>Mips Low</title>
+<link>rtmp://$doregex[rtmp]/live playpath=dvbgdxvbxcbxcvb?id=201718 swfUrl=http://www.mips.tv/content/scripts/eplayer.swf pageUrl=http://mips.tv conn=S:OK live=1 swfVfy=1 timeout=20</link>
+<regex>
+<name>rtmp</name>
+<expres>.*redirect=([\.\d]+)</expres>
+<page>http://mips.tv:1935/loadbalancer</page>
+</regex>
+</item>
+</streaminginfo>
+<streaminginfo>
+     <cname>2M</cname>
+	<item>
+	<title>Elahmad source</title>
+	<link>http://www.elahmad.com/tv/m3u8/fr___a.m3u8?id=maroc2</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+<cname>2M</cname>
+<item>
 <title>Low playtv</title>
 <link>http://188.165.101.226:80/mobile/_definst_/2m-maroc_300/playlist.m3u8?sessionid=$doregex[key]&amp;mode=10</link>
 <regex>
@@ -1423,18 +1442,8 @@
 </regex>
 </item>
 </streaminginfo>
-<streaminginfo>
-<cname>2M</cname>
-<item>
-<title>Mips Low</title>
-<link>rtmp://$doregex[rtmp]/live playpath=dvbgdxvbxcbxcvb?id=201718 swfUrl=http://www.mips.tv/content/scripts/eplayer.swf pageUrl=http://mips.tv conn=S:OK live=1 swfVfy=1 timeout=20</link>
-<regex>
-<name>rtmp</name>
-<expres>.*redirect=([\.\d]+)</expres>
-<page>http://mips.tv:1935/loadbalancer</page>
-</regex>
-</item>
-</streaminginfo>
+
+
 
 <streaminginfo>
 <cname>MBC 3</cname>
@@ -1952,13 +1961,7 @@
 	</item>
 </streaminginfo>
 
-<streaminginfo>
-     <cname>2M</cname>
-	<item>
-	<title>Elahmad source</title>
-	<link>http://www.elahmad.com/tv/m3u8/fr___a.m3u8?id=maroc2</link>
-	</item>
-</streaminginfo>
+
 
 <streaminginfo>
      <cname>FM TV</cname>
