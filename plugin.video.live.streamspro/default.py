@@ -868,22 +868,26 @@ def get_saw_rtmp(page_value, referer=None):
     if referer:
         referer=[('Referer',referer)]
     if page_value.startswith("http"):
+        page_url=page_value
         page_value= getUrl(page_value,headers=referer)
+
     str_pattern="(eval\(function\(p,a,c,k,e,d.*)"
 
     reg_res=re.compile(str_pattern).findall(page_value)
     r=""
-    for v in reg_res:
-        r1=get_unpacked(v)
-        r2=re_me(r1,'\'(.*?)\'')
-        if 'unescape' in r1:
-            r1=urllib.unquote(r2)
-        r+=r1+'\n'
-    #print 'final value is ',r
-    
-    page_url=re_me(r1,'src="(.*?)"')
-    
-    page_value= getUrl(page_url,headers=referer)
+    if reg_res and len(reg_res)>0:
+        for v in reg_res:
+            r1=get_unpacked(v)
+            r2=re_me(r1,'\'(.*?)\'')
+            if 'unescape' in r1:
+                r1=urllib.unquote(r2)
+            r+=r1+'\n'
+        print 'final value is ',r
+        
+        page_url=re_me(r,'src="(.*?)"')
+        
+        page_value= getUrl(page_url,headers=referer)
+
     #print page_value
 
     rtmp=re_me(page_value,'streamer\'.*?\'(.*?)\'\)')
