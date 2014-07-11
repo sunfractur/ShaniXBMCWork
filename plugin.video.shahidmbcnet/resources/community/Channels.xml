@@ -1960,7 +1960,6 @@
 			<imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc3/t1.0-1/c1.0.320.320/p320x320/1503820_10152083754583762_1175632840_n.jpg</imageurl>
 			<enabled>True</enabled>
 			<assignedcategory>
-				<category>cup</category>
 				<category>sports</category>
 			</assignedcategory>
 		</channel>
@@ -1970,7 +1969,6 @@
 			<imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc3/t1.0-1/c1.0.320.320/p320x320/1503820_10152083754583762_1175632840_n.jpg</imageurl>
 			<enabled>True</enabled>
 			<assignedcategory>
-				<category>cup</category>
 				<category>sports</category>
 			</assignedcategory>
 		</channel>
@@ -1981,7 +1979,6 @@
         <enabled>True</enabled>
         <assignedcategory>
             <category>sports</category>
-			<category>cup</category>
         </assignedcategory>
     </channel>
 	
@@ -1991,7 +1988,6 @@
         <enabled>True</enabled>
         <assignedcategory>
             <category>sports</category>
-			<category>cup</category>
         </assignedcategory>
     </channel>
     
