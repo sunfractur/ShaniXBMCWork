@@ -1,5 +1,11 @@
 <streamingInfos>
 <streaminginfo>
+    <cname>Rouge</cname>
+	<item><title>Med</title>
+	<link>http://rtmp.infomaniak.ch/livecast/rougetv/playlist.m3u8</link>
+   </item>
+</streaminginfo>
+<streaminginfo>
      <cname>Al Majd</cname>
 	<item>
 	<title>Med</title>
