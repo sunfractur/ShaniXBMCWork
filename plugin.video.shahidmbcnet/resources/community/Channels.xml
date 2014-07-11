@@ -733,14 +733,6 @@
 			</assignedcategory>
 	</channel>
 	<channel>
-			<cname>HRT</cname>
-			<imageurl>http://www.lyngsat-logo.com/logo/tv/hh/hrt1.png</imageurl>
-			<enabled>True</enabled>
-			<assignedcategory>
-			<category>cup</category>
-			</assignedcategory>
-	</channel>
-	<channel>
 			<cname>MTV Arabia</cname>
 			<imageurl>http://id-cube.com/wp-content/uploads/2013/12/american-mtv-and-arabia-the-level-censorship-62096.jpg</imageurl>
 			<enabled>True</enabled>
@@ -972,7 +964,7 @@
 	</channel>
 	<channel>
 			<cname>rts un</cname>
-			<imageurl>https://scontent-b-fra.xx.fbcdn.net/hphotos-xfa1/t1.0-9/418554_373992075952114_2084547306_n.jpg</imageurl>
+			<imageurl>http://www.rts.ch/2012/02/29/00/35/3817034.image?mw=1920&amp;mh1080</imageurl>
 			<enabled>True</enabled>
 			<assignedcategory>
 			 <category>french</category>
@@ -981,7 +973,7 @@
 	</channel>
 	<channel>
 			<cname>rts deux</cname>
-			<imageurl>https://scontent-b-fra.xx.fbcdn.net/hphotos-xfa1/t1.0-9/418554_373992075952114_2084547306_n.jpg</imageurl>
+			<imageurl>http://www.rts.ch/2012/03/07/08/28/3817029.image?w=640&amp;h=360</imageurl>
 			<enabled>True</enabled>
 			<assignedcategory>
 			 <category>french</category>
