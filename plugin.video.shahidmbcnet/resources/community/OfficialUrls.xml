@@ -1,5 +1,33 @@
 <streamingInfos>
 <streaminginfo>
+	<cname>BBC Arabic</cname>
+	<item>
+	<title>Low</title>
+	<link>http://bbcwshdlive01-lh.akamaihd.net/i/atv_1@61433/index_192_av-b.m3u8?sd=10&amp;rebase=on</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>BBC Arabic</cname>
+	<item>
+	<title>Med</title>
+	<link>http://bbcwshdlive01-lh.akamaihd.net/i/atv_1@61433/index_400_av-p.m3u8?sd=10&amp;rebase=on</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>BBC Arabic</cname>
+	<item>
+	<title>High</title>
+	<link>http://bbcwshdlive01-lh.akamaihd.net/i/atv_1@61433/index_800_av-p.m3u8?sd=10&amp;rebase=on</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>BBC Arabic</cname>
+	<item>
+	<title>High_mast</title>
+	<link>http://bbcwshdlive01-lh.akamaihd.net/i/atv_1@61433/master.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
     <cname>Tchad</cname>
 	<item>
 	<title>Med</title>
