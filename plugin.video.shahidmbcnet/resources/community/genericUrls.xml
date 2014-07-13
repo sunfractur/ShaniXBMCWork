@@ -1984,14 +1984,14 @@
 	<link>http://mobilestreaming.itworkscdn.com/hawacom/hawacomlive/playlist.m3u8</link>
 	</item>
 </streaminginfo>
+
 <streaminginfo>
         <cname>Aljazeera Doc</cname>
 	<item>
-	<title>High Quality</title>
-	<link>rtmp://aljazeeraflashlivefs.fplive.net/aljazeeraflashlive-live/ playpath=aljazeera_doc_high swfUrl=http://www.watcharab.com/tv/swf/aljazeera_documentary.swf pageUrl=http://www.elahmad.com/tv/aljazeera_documentary.php swfVfy=true live=true timeout=60</link>
+	<title>Low Quality</title>
+	<link>rtmp://aljazeeraflashlivefs.fplive.net/aljazeeraflashlive-live/aljazeera_doc_low  swfUrl=http://www.watcharab.com/tv/swf/aljazeera_documentary.swf pageUrl=http://www.elahmad.com/tv/aljazeera_documentary.php swfVfy=true live=true timeout=60</link>
 	</item>
 </streaminginfo>
-
 <streaminginfo>
         <cname>Aljazeera Doc</cname>
 	<item>
@@ -1999,7 +1999,13 @@
 	<link>rtmp://aljazeeraflashlivefs.fplive.net/aljazeeraflashlive-live/-live playpath=aljazeera_doc_med swfUrl=http://www.arabztv.net/player.swf live=1 pageUrl=http://www.arabztv.com/ live=true swfVfy=true</link>
 	</item>
 </streaminginfo>
-
+<streaminginfo>
+        <cname>Aljazeera Doc</cname>
+	<item>
+	<title>High Quality</title>
+	<link>rtmp://aljazeeraflashlivefs.fplive.net/aljazeeraflashlive-live/ playpath=aljazeera_doc_high swfUrl=http://www.watcharab.com/tv/swf/aljazeera_documentary.swf pageUrl=http://www.elahmad.com/tv/aljazeera_documentary.php swfVfy=true live=true timeout=60</link>
+	</item>
+</streaminginfo>
 <streaminginfo>
     <cname>Aljazeera Mubasher</cname>
 	<item>
