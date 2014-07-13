@@ -1603,7 +1603,20 @@
 	<link>http://46.245.160.224/medine/medine/chunklist_w1367115191.m3u8</link>
 	</item>
 </streaminginfo>
-
+<streaminginfo>
+        <cname>Aljazeera</cname>
+		<item>
+		<title>Low</title>
+		<link>http://aljazeera-ara-apple-live.adaptive.level3.net/apple/aljazeera/arabic/160.m3u8</link>
+		</item>
+</streaminginfo>
+<streaminginfo>
+        <cname>Aljazeera</cname>
+		<item>
+		<title>High</title>
+		<link>http://aljazeera-ara-apple-live.adaptive.level3.net/apple/aljazeera/arabic/800.m3u8</link>
+		</item>
+</streaminginfo>
 <streaminginfo>
     <cname>Aljazeera Balkans</cname>
 	<item><title>Low</title><link>rtmp://aljazeeraflashlivefs.fplive.net/aljazeeraflashlive-live/ playpath=aljazeera_balkans_low swfUrl=http://www.elahmad.com/tv/swf/aljazeera_balkans.swf live=1 PageUrl=http://www.elahmad.com/tv/aljazeera_balkans.php</link></item>
