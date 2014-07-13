@@ -2142,6 +2142,27 @@
 	</item>
 </streaminginfo>
 
+<streaminginfo>
+        <cname>Aljazeera</cname>
+		<item>
+		<title>Low</title>
+		<link>rtmp://aljazeeraflashlivefs.fplive.net/aljazeeraflashlive-live/aljazeera_ara_low timeout=20</link>
+		</item>
+</streaminginfo>
+<streaminginfo>
+        <cname>Aljazeera</cname>
+		<item>
+		<title>Med</title>
+		<link>rtmp://aljazeeraflashlivefs.fplive.net/aljazeeraflashlive-live/aljazeera_ara_med timeout=20</link>
+		</item>
+</streaminginfo>
+<streaminginfo>
+        <cname>Aljazeera</cname>
+		<item>
+		<title>High</title>
+		<link>rtmp://aljazeeraflashlivefs.fplive.net/aljazeeraflashlive-live/aljazeera_ara_high timeout=20</link>
+		</item>
+</streaminginfo>
 
 <streaminginfo>
         <cname>AlJazeera En</cname>
