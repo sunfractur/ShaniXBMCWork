@@ -1,4 +1,43 @@
 <streamingInfos>
+
+<streaminginfo>
+        <cname>Aljazeera Doc</cname>
+		<item>
+		<title>Low</title>
+		<link>http://aljazeera-doc-apple-live.adaptive.level3.net/apple/aljazeera/hq-doc/600kStream.m3u8</link>
+		</item>
+</streaminginfo>
+<streaminginfo>
+        <cname>Aljazeera Doc</cname>
+		<item>
+		<title>Med</title>
+		<link>http://aljazeera-doc-apple-live.adaptive.level3.net/apple/aljazeera/hq-doc/800kStream.m3u8</link>
+		</item>
+</streaminginfo>
+<streaminginfo>
+        <cname>Aljazeera Doc</cname>
+		<item>
+		<title>High</title>
+		<link>http://aljazeera-doc-apple-live.adaptive.level3.net/apple/aljazeera/hq-doc/1200kStream.m3u8</link>
+		</item>
+</streaminginfo>
+<streaminginfo>
+        <cname>Aljazeera Doc</cname>
+		<item>
+		<title>Highst</title>
+		<link>http://aljazeera-doc-apple-live.adaptive.level3.net/apple/aljazeera/hq-doc/1600kStream.m3u8</link>
+		</item>
+</streaminginfo>
+
+<streaminginfo>
+        <cname>Aljazeera Doc</cname>
+		<item>
+		<title>High_Master</title>
+		<link>http://aljazeera-doc-apple-live.adaptive.level3.net/apple/aljazeera/hq-doc/stb.m3u8</link>
+		</item>
+</streaminginfo>
+
+
 <streaminginfo>
 	<cname>BBC Arabic</cname>
 	<item>
