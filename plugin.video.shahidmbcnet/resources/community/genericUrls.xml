@@ -1989,7 +1989,7 @@
         <cname>Aljazeera Doc</cname>
 	<item>
 	<title>Low Quality</title>
-	<link>rtmp://aljazeeraflashlivefs.fplive.net/aljazeeraflashlive-live/aljazeera_doc_low  swfUrl=http://www.watcharab.com/tv/swf/aljazeera_documentary.swf pageUrl=http://www.elahmad.com/tv/aljazeera_documentary.php swfVfy=true live=true timeout=60</link>
+	<link>rtmp://aljazeeraflashlivefs.fplive.net/aljazeeraflashlive-live/aljazeera_doc_low swfUrl=http://www.watcharab.com/tv/swf/aljazeera_documentary.swf pageUrl=http://www.elahmad.com/tv/aljazeera_documentary.php swfVfy=true live=true timeout=60</link>
 	</item>
 </streaminginfo>
 <streaminginfo>
