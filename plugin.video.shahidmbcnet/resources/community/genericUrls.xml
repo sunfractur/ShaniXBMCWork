@@ -2025,6 +2025,20 @@
 <streaminginfo>
         <cname>Aljazeera Mubasher Masr</cname>
 	<item>
+	<title>Low Quality</title>
+	<link>rtmp://aljazeeraflashlivefs.fplive.net/aljazeeraflashlive-live playpath=aljazeera_misr_low swfUrl=http://www.arabztv.net/player.swf live=1 pageUrl=http://www.arabztv.com/ live=true swfVfy=true</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+        <cname>Aljazeera Mubasher Masr</cname>
+	<item>
+	<title>Med Quality</title>
+	<link>rtmp://aljazeeraflashlivefs.fplive.net/aljazeeraflashlive-live playpath=aljazeera_misr_mes swfUrl=http://www.arabztv.net/player.swf live=1 pageUrl=http://www.arabztv.com/ live=true swfVfy=true</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+        <cname>Aljazeera Mubasher Masr</cname>
+	<item>
 	<title>High Quality</title>
 	<link>rtmp://aljazeeraflashlivefs.fplive.net/aljazeeraflashlive-live playpath=aljazeera_misr_high swfUrl=http://www.arabztv.net/player.swf live=1 pageUrl=http://www.arabztv.com/ live=true swfVfy=true</link>
 	</item>
