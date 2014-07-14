@@ -1,4 +1,13 @@
 <streamingInfos>
+
+<streaminginfo>
+    <cname>Jordan</cname>
+	<item><title>Low</title>
+	<link>rtmp://64.251.14.168/jorlive/jrtv timeout=20</link>
+   </item>
+</streaminginfo>
+
+
 <streaminginfo>
     <cname>Rouge</cname>
 	<item><title>Med</title>
