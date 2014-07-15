@@ -129,10 +129,11 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 		
 		pDialog = xbmcgui.DialogProgress()
 		pDialog.create('XBMC', 'Playing channel')
+		howMaytimes=1
 		while totalTried<howMaytimes:
 
 			totalTried+=1
-			pDialog.update((totalTried*100)/howMaytimes, 'Try #' + str(totalTried) +' of ' + str(howMaytimes))
+			pDialog.update((totalTried*100)/howMaytimes, 'Teledunet: Try #' + str(totalTried) +' of ' + str(howMaytimes))
 			listitem = xbmcgui.ListItem( label = str(name), iconImage = "DefaultVideo.png", thumbnailImage = xbmc.getInfoImage( "ListItem.Thumb" ), path=liveLink )
 			player = CustomPlayer.MyXBMCPlayer()
 			#xbmc.Player().play( liveLink,listitem)
