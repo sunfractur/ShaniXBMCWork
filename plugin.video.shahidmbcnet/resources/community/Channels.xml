@@ -175,7 +175,6 @@
         <imageurl>https://scontent-b-lhr.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/1526684_826498567362125_2009328117_n.jpg?oh=f0e24d670ac17d37e9e5bd0af64f40b5&amp;oe=541AE3D6</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-        <category>cup</category>
 		<category>rdio</category>
 		<category>sham</category>
         </assignedcategory>
@@ -966,7 +965,6 @@
 			<imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn2/t1.0-1/c34.22.276.276/p320x320/223194_284547261651613_137335363_n.png</imageurl>
 			<enabled>True</enabled>
 			<assignedcategory>
-			 <category>cup</category>
 			 <category>africa</category>
 			</assignedcategory>
 	</channel>
@@ -984,7 +982,6 @@
 			<enabled>True</enabled>
 			<assignedcategory>
 			 <category>french</category>
-			 <category>cup</category>
 			</assignedcategory>
 	</channel>
 	<channel>
@@ -993,7 +990,6 @@
 			<enabled>True</enabled>
 			<assignedcategory>
 			 <category>french</category>
-			 <category>cup</category>
 			</assignedcategory>
 	</channel>
 	<channel>
@@ -1002,7 +998,6 @@
 			<enabled>True</enabled>
 			<assignedcategory>
 			 <category>english</category>
-		<category>cup</category>
 			</assignedcategory>
 	</channel>
 	<channel>
@@ -1010,7 +1005,7 @@
 			<imageurl>https://static.filmon.com/couch/channels/25/big_logo.png</imageurl>
 			<enabled>True</enabled>
 			<assignedcategory>
-			 <category>cup</category>
+			 <category>english</category>
 			</assignedcategory>
 	</channel>
 	<channel>
@@ -1018,7 +1013,7 @@
 			<imageurl>https://static.filmon.com/couch/channels/11/big_logo.png</imageurl>
 			<enabled>True</enabled>
 			<assignedcategory>
-			 <category>cup</category>
+			 <category>english</category>
 			</assignedcategory>
 	</channel>
 
@@ -1089,7 +1084,7 @@
 			<imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfp1/t1.0-1/1549440_581355895273377_1670882419_a.jpg</imageurl>
 			<enabled>True</enabled>
 			<assignedcategory>
-			 <category>cup</category>
+			 <category>oth</category>
 			 <category>sports</category>
 			</assignedcategory>
 	</channel>
@@ -3047,7 +3042,6 @@
         <enabled>True</enabled>
         <assignedcategory>
             <category>sports</category>
-			<category>cup</category>
         </assignedcategory>
     </channel>
 
@@ -3057,7 +3051,6 @@
         <enabled>True</enabled>
         <assignedcategory>
             <category>sports</category>
-			<category>cup</category>
         </assignedcategory>
     </channel>
 
@@ -3139,7 +3132,7 @@
         <enabled>True</enabled>
         <assignedcategory>
             <category>sports</category>
-			<category>cup</category>
+			<category>english</category>
         </assignedcategory>
     </channel>
 
@@ -3149,7 +3142,7 @@
         <enabled>True</enabled>
         <assignedcategory>
             <category>sports</category>
-			<category>cup</category>
+			<category>english</category>
         </assignedcategory>
     </channel>
 
@@ -3159,7 +3152,6 @@
         <enabled>True</enabled>
         <assignedcategory>
             <category>sports</category>
-			<category>cup</category>
 			<category>french</category>
         </assignedcategory>
     </channel>
@@ -3170,7 +3162,6 @@
         <enabled>True</enabled>
         <assignedcategory>
             <category>sports</category>
-			<category>cup</category>
 			<category>french</category>
         </assignedcategory>
     </channel>
@@ -3181,7 +3172,6 @@
         <enabled>True</enabled>
         <assignedcategory>
             <category>sports</category>
-			<category>cup</category>
         </assignedcategory>
     </channel>
 
@@ -4160,7 +4150,6 @@
         <enabled>True</enabled>
         <assignedcategory>
             <category>french</category>
-			<category>cup</category>
         </assignedcategory>
     </channel>
 
@@ -4189,7 +4178,6 @@
         <enabled>True</enabled>
         <assignedcategory>
             <category>sports</category>
-			<category>cup</category>
         </assignedcategory>
     </channel>
 
@@ -4661,7 +4649,6 @@
         <enabled>True</enabled>
         <assignedcategory>
             <category>sports</category>
-	    <category>cup</category>
 	    <category>french</category>
         </assignedcategory>
     </channel>
@@ -4672,7 +4659,6 @@
         <enabled>True</enabled>
         <assignedcategory>
             <category>sports</category>
-            <category>cup</category>
 	    <category>french</category>
         </assignedcategory>
     </channel>
