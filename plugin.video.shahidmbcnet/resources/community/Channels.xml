@@ -1,5 +1,13 @@
 <channels>
 <channel>
+     <cname>Saudi Quran</cname>
+     <imageurl>http://www.lyngsat-logo.com/hires/aa/al_quran_al_kareem_tv.png</imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+     <category>islam</category>
+     </assignedcategory>
+</channel>
+<channel>
      <cname>Rouge</cname>
      <imageurl>http://www.lyngsat-logo.com/hires/rr/rouge_tv.png</imageurl>
      <enabled>True</enabled>
