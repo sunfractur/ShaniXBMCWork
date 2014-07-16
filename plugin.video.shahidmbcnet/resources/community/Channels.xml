@@ -3295,6 +3295,16 @@
             <category>french</category>
         </assignedcategory>
     </channel>
+	
+	<channel>
+        <cname>CN FR</cname>
+        <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/t1.0-1/969199_10151428604053372_1794292834_n.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>kids</category>
+			<category>french</category>
+        </assignedcategory>
+    </channel>
 
     <channel>
         <cname>Cartoon Network</cname>
