@@ -1,6 +1,49 @@
 <streamingInfos>
 
 <streaminginfo>
+        <cname>Aljazeera En</cname>
+		<item>
+		<title>Mobile</title>
+		<link>http://vizrthlsaje-i.akamaihd.net/hls/live/206524/AJEnglish/2873287_iOS/64.m3u8</link>
+		</item>
+</streaminginfo>
+<streaminginfo>
+        <cname>Aljazeera En</cname>
+		<item>
+		<title>Low</title>
+		<link>http://vizrthlsaje-i.akamaihd.net/hls/live/206524/AJEnglish/2873287_iOS/100.m3u8</link>
+		</item>
+</streaminginfo>
+<streaminginfo>
+        <cname>Aljazeera En</cname>
+		<item>
+		<title>Med_300</title>
+		<link>http://vizrthlsaje-i.akamaihd.net/hls/live/206524/AJEnglish/2873287_iOS/300.m3u8</link>
+		</item>
+</streaminginfo>
+<streaminginfo>
+        <cname>Aljazeera En</cname>
+		<item>
+		<title>Med_400</title>
+		<link>http://vizrthlsaje-i.akamaihd.net/hls/live/206524/AJEnglish/2873287_iOS/400.m3u8</link>
+		</item>
+</streaminginfo>
+<streaminginfo>
+        <cname>Aljazeera En</cname>
+		<item>
+		<title>High_500</title>
+		<link>http://vizrthlsaje-i.akamaihd.net/hls/live/206524/AJEnglish/2873287_iOS/500.m3u8</link>
+		</item>
+</streaminginfo>
+<streaminginfo>
+        <cname>Aljazeera En</cname>
+		<item>
+		<title>High</title>
+		<link>http://vizrthlsaje-i.akamaihd.net/hls/live/206524/AJEnglish/2873287_iOS/700.m3u8</link>
+		</item>
+</streaminginfo>
+
+<streaminginfo>
         <cname>Aljazeera Doc</cname>
 		<item>
 		<title>Low</title>
