@@ -1,5 +1,11 @@
 <streamingInfos>
-
+<streaminginfo>
+        <cname>elbiladtv</cname>
+		<item>
+		<title>elbilad.net</title>
+		<link>rtmp://strfla13.streamakaci.com:80/elbilad?ovpfv=2.1.6 playpath=elbilad.stream swfUrl=http://lb.streamakaci.com/streamakaci/library/AkamaiMultiPlayer.swf live=1 pageUrl=http://www.elbilad.net/static/tv</link>
+		</item>
+</streaminginfo>
 <streaminginfo>
         <cname>Aljazeera En</cname>
 		<item>

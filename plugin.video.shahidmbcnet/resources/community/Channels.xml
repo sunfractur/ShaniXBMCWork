@@ -4266,6 +4266,15 @@
             <category>news</category>
         </assignedcategory>
     </channel>
+	<channel>
+        <cname>elbiladtv</cname>
+        <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfp1/v/t1.0-1/1972516_425052304297001_1971848391_n.jpg?oh=6b368ab98dcec4ab0b21d1dbb31967eb&amp;oe=5440EB2E&amp;__gda__=1414602934_b23db6fd485e0d0771ce3edbdd01876f</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>magreb</category>
+            <category>news</category>
+        </assignedcategory>
+    </channel>
 
 	<channel>
         <cname>Maghreb24 Entertainment</cname>
