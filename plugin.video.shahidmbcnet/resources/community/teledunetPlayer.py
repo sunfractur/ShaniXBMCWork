@@ -32,7 +32,7 @@ communityStreamPath =os.path.join(communityStreamPath,'community')
 
 COOKIEFILE = communityStreamPath+'/teletdunetPlayerLoginCookie.lwp'
 cache_table         = 'ShahidArabic'
-cache2Hr              = StorageServer.StorageServer(cache_table,2)
+cache2Hr              = StorageServer.StorageServer(cache_table,1)
 
 teledunet_htmlfile='TeledunetchannelList.html'
 profile_path =  xbmc.translatePath(selfAddon.getAddonInfo('profile'))
@@ -322,6 +322,7 @@ def shouldforceLogin(cookieJar=None):
 
 def getChannelHTML():
     try:
+        cookie_jar=None
         print 'Getting HTML from Teledunet'
         loginName=selfAddon.getSetting( "teledunetTvLogin" )
         if not loginName=="":
@@ -332,10 +333,13 @@ def getChannelHTML():
                     print 'login failed??'
             else:
                 print 'Login not forced.. perhaps reusing the session'
+            cookie_jar=getCookieJar()
         else:
+            cookie_jar=getCookieJar()
+            getUrl('http://www.teledunet.com/', cookie_jar)
             print 'login name not defined'
         newURL='http://www.teledunet.com/mobile/?con'
-        link=getUrl(newURL,getCookieJar() ,None,'http://www.teledunet.com/')
+        link=getUrl(newURL,cookie_jar ,None,'http://www.teledunet.com/')
         return {'link':link}
     except:
         traceback.print_exc(file=sys.stdout)
