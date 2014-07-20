@@ -94,6 +94,8 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 				match =re.findall('aut=\'\?id0=(.*?)\'', link)
 				print match
 				timesegment=str(long(float(match[0])))
+				if timesegment=="0":
+					print 1/0; #produce error
 				
 				rtmp =re.findall(('rtmp://(.*?)/%s\''%channelId), link)[0]
 				rtmp='rtmp://%s/%s'%(rtmp,channelId)
