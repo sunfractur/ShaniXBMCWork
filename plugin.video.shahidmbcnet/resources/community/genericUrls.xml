@@ -1,9 +1,59 @@
 <streamingInfos>
 
+<streaminginfo>
+		<cname>MBC 3</cname>
+		<item>
+		<title>arabic-toons</title>
+		<link>rtmp://www.arabic-toons.com/animetv playpath=mbc3?code=abcdefgh swfUrl=http://www.arabic-toons.com/flowplayer-3.2.7.swf live=1 pageUrl=http://www.arabic-toons.com/</link>
+		</item>
+</streaminginfo>
 
+<streaminginfo>
+	<cname>Spacetoon</cname>
+	<item>	<title>arabic-toons</title>
+	<link>rtmp://www.arabic-toons.com/animetv playpath=spacetoon?code=abcdefgh swfUrl=http://www.arabic-toons.com/flowplayer-3.2.7.swf live=1 pageUrl=http://www.arabic-toons.com/</link>
+	</item>
+</streaminginfo>
 
-	
-	
+<streaminginfo>
+	<cname>Ajyal</cname>
+	<item>
+	<title>arabic-toons</title>
+	<link>rtmp://www.arabic-toons.com/animetv playpath=ajial?code=abcdefgh swfUrl=http://www.arabic-toons.com/flowplayer-3.2.7.swf live=1 pageUrl=http://www.arabic-toons.com/</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+	<cname>Baraem</cname>
+	<item>
+	<title>arabic-toons</title>
+	<link>rtmp://www.arabic-toons.com/animetv playpath=baraem?code=abcdefgh swfUrl=http://www.arabic-toons.com/flowplayer-3.2.7.swf live=1 pageUrl=http://www.arabic-toons.com/</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Cartoon Network</cname>
+	<item>	<title>arabic-toons</title>
+	<link>rtmp://www.arabic-toons.com/animetv playpath=cartoonnetwork?code=abcdefgh swfUrl=http://www.arabic-toons.com/flowplayer-3.2.7.swf live=1 pageUrl=http://www.arabic-toons.com/</link>
+	</item></streaminginfo>
+<streaminginfo>
+	<cname>Gulli</cname>
+	<item>	<title>arabic-toons</title>
+	<link>rtmp://www.arabic-toons.com/animetv playpath=gulli?code=abcdefgh swfUrl=http://www.arabic-toons.com/flowplayer-3.2.7.swf live=1 pageUrl=http://www.arabic-toons.com/</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Libya Kids</cname>
+	<item>	<title>arabic-toons</title>
+	<link>rtmp://www.arabic-toons.com/animetv playpath=libyakid?code=abcdefgh swfUrl=http://www.arabic-toons.com/flowplayer-3.2.7.swf live=1 pageUrl=http://www.arabic-toons.com/</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Toyor Al Janah</cname>
+	<item>
+	<title>arabic-toons</title>
+	<link>rtmp://www.arabic-toons.com/animetv playpath=toyor?code=abcdefgh swfUrl=http://www.arabic-toons.com/flowplayer-3.2.7.swf live=1 pageUrl=http://www.arabic-toons.com/</link>
+	</item>
+</streaminginfo>	
 <streaminginfo>
 	<cname>BBC Arabic</cname>
 	<item>
