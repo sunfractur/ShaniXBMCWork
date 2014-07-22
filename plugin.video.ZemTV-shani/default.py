@@ -274,6 +274,8 @@ def AddChannelsFromEbound():
 	if not arynewsAdded:
 		addDir(Colored('Ary News','EB') ,'arynews' ,9,'', False, True,isItFolder=False)		#name,url,mode,icon
 		addDir(Colored('Ary Digital','EB') ,'aryentertainment' ,9,'', False, True,isItFolder=False)		#name,url,mode,icon
+	addDir(Colored('Baby Tv','EB') ,'babytv' ,9,'', False, True,isItFolder=False)		#name,url,mode,icon
+
 	return		
 
 def Colored(text = '', colorid = '', isBold = False):
