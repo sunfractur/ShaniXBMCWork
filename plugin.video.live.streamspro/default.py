@@ -849,6 +849,11 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
 
         #xbmc.Player(xbmc.PLAYER_CORE_DVDPLAYER).play(item=url)
         
+def decrypt_vaughnlive(encrypted):
+    retVal=""
+    for val in encrypted.split(':'):
+        retVal+=chr(int(val.replace("0m0",""))/84/5)
+    return retVal
 
 def playmedia(media_url):
     try:
