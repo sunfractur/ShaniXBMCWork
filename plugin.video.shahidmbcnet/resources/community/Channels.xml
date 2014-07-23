@@ -1,5 +1,40 @@
 <channels>
 <channel>
+	<cname>Baynouna</cname>
+	<imageurl>http://www.lyngsat-logo.com/logo/tv/bb/baynounah_tv_ae.png</imageurl>
+	<enabled>True</enabled>
+	<assignedcategory>
+	<category>gulf</category>
+	</assignedcategory>
+</channel>
+
+<channel>
+	<cname>NB5</cname>
+	<imageurl></imageurl>
+	<enabled>True</enabled>
+	<assignedcategory>
+	<category>gulf</category>
+	</assignedcategory>
+</channel>
+<channel>
+	<cname>Dzair News</cname>
+	<imageurl>http://www.lyngsat-logo.com/hires/dd/dzair_news_dz.png</imageurl>
+	<enabled>True</enabled>
+	<assignedcategory>
+	<category>magreb</category>
+	<category>news</category>
+	</assignedcategory>
+</channel>
+<channel>
+	<cname>Mody Kids</cname>
+	<imageurl>http://www.lyngsat-logo.com/hires/mm/mody_kids_channel.png</imageurl>
+	<enabled>True</enabled>
+	<assignedcategory>
+	<category>kids</category>
+	</assignedcategory>
+</channel>
+
+<channel>
      <cname>Saudi Quran</cname>
      <imageurl>http://www.lyngsat-logo.com/hires/aa/al_quran_al_kareem_tv.png</imageurl>
      <enabled>True</enabled>
