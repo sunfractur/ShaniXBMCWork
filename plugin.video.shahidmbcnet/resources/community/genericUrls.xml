@@ -1,6 +1,17 @@
 <streamingInfos>
 
-
+<streaminginfo>
+     <cname>Syria</cname>
+	 <item>
+<title>Gini</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>file: "([^"]*)</expres>
+<page>http://www.giniko.com/watch.php?id=145</page>
+</regex>
+</item>
+</streaminginfo>
 <streaminginfo>
      <cname>Qatar</cname>
 	 <item>
