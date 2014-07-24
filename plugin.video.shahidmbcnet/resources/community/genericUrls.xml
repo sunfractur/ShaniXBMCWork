@@ -1,5 +1,73 @@
 <streamingInfos>
 
+
+<streaminginfo>
+     <cname>Qatar</cname>
+	 <item>
+<title>Gini</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>file: "([^"]*)</expres>
+<page>http://www.giniko.com/watch.php?id=11</page>
+</regex>
+</item>
+</streaminginfo>
+
+
+<streaminginfo>
+     <cname>KSA 1</cname>
+	 <item>
+<title>Gini</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>file: "([^"]*)</expres>
+<page>http://www.giniko.com/watch.php?id=3</page>
+</regex>
+</item>
+</streaminginfo>
+
+<streaminginfo>
+     <cname>Sharjah</cname>
+	 <item>
+<title>Gini</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>file: "([^"]*)</expres>
+<page>http://www.giniko.com/watch.php?id=183</page>
+</regex>
+</item>
+</streaminginfo>
+
+<streaminginfo>
+     <cname>Nile Tv</cname>
+	 <item>
+<title>Gini</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>file: "([^"]*)</expres>
+<page>http://www.giniko.com/watch.php?id=201</page>
+</regex>
+</item>
+</streaminginfo>
+
+<streaminginfo>
+     <cname>Al Etejah</cname>
+	 <item>
+<title>Gini</title>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres>file: "([^"]*)</expres>
+<page>http://www.giniko.com/watch.php?id=12</page>
+</regex>
+</item>
+</streaminginfo>
+
+
 <streaminginfo>
 		<cname>MBC 3</cname>
 		<item>
