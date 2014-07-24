@@ -26,3 +26,5 @@
 - Support for proxy param
 [B]Version 2.0.0[/B]
 - Support for passing simple downloader flag
+[B]Version 2.0.1[/B]
+- Support for auth param

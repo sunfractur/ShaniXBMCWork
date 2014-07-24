@@ -37,3 +37,5 @@ finall small bug solved :)
 simple_dowloader now support bitrate which is currently only used for bein hd links
 [B]Version 2.1.1[/B]
 small change so that its visible inside the repo
+[B]Version 2.1.2[/B]
+support for Auth Param

@@ -22,7 +22,7 @@ print paramstring
 name=''
 proxy_string=None
 proxy_use_chunks=True
-
+auth_string=None
 if paramstring:
     paramstring="".join(paramstring[1:])
     params=urlparse.parse_qs(paramstring)
@@ -34,8 +34,11 @@ if paramstring:
     try:
         proxy_string = params['proxy'][0]
     except:pass
-	
-	
+    try:
+        auth_string = params['auth'][0]
+    except:pass
+    print 'auth_string',auth_string
+
     try:
         proxy_use_chunks_temp = params['proxy_for_chunks'][0]
         import json
@@ -61,13 +64,13 @@ if paramstring:
     except: pass
     play=True
 
-def playF4mLink(url,name,proxy=None,use_proxy_for_chunks=False):
+def playF4mLink(url,name,proxy=None,use_proxy_for_chunks=False,auth_string=None):
     from F4mProxy import f4mProxyHelper
     player=f4mProxyHelper()
     #progress = xbmcgui.DialogProgress()
     #progress.create('Starting local proxy')
     xbmcplugin.endOfDirectory(int(sys.argv[1]), cacheToDisc=False)
-    player.playF4mLink(url, name, proxy, use_proxy_for_chunks,maxbitrate,simpleDownloader)
+    player.playF4mLink(url, name, proxy, use_proxy_for_chunks,maxbitrate,simpleDownloader,auth_string)
     
     return   
     
@@ -190,7 +193,7 @@ if mode ==None:
 elif mode == "play":
     print 'PLAying ',mode,url
     if not name in ['Custom','TESTING not F4M'] :
-        playF4mLink(url,name, proxy_string, proxy_use_chunks)
+        playF4mLink(url,name, proxy_string, proxy_use_chunks,auth_string)
     else:
         listitem = xbmcgui.ListItem( label = str(name), iconImage = "DefaultVideo.png", thumbnailImage = xbmc.getInfoImage( "ListItem.Thumb" ), path=url )
         xbmc.Player().play( url,listitem)

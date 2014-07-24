@@ -13,8 +13,12 @@ import traceback
 import urlparse
 import posixpath
 import re
-
-
+import hmac
+import hashlib
+import binascii 
+import zlib
+from hashlib import sha256
+import cookielib
 #import youtube_dl
 #from youtube_dl.utils import *
 addon_id = 'script.video.F4mProxy'
@@ -23,6 +27,13 @@ __addonname__   = selfAddon.getAddonInfo('name')
 __icon__        = selfAddon.getAddonInfo('icon')
 downloadPath   = xbmc.translatePath(selfAddon.getAddonInfo('profile'))#selfAddon["profile"])
 F4Mversion=''
+value_unsafe = '%+&;#'
+VALUE_SAFE = ''.join(chr(c) for c in range(33, 127)
+    if chr(c) not in value_unsafe)
+def urlencode_param(value):
+    """Minimal URL encoding for query parameter"""
+    return urllib.quote_plus(value, safe=VALUE_SAFE)
+        
 class FlvReader(io.BytesIO):
     """
     Reader for Flv files
@@ -293,6 +304,7 @@ class F4MDownloader():
     """
     outputfile =''
     clientHeader=None
+    cookieJar=cookielib.LWPCookieJar()
 
     def __init__(self):
         self.init_done=False
@@ -300,7 +312,11 @@ class F4MDownloader():
     def getUrl(self,url, ischunkDownloading=False):
         try:
             post=None
+            print 'url',url
+            
             openner = urllib2.build_opener(urllib2.HTTPHandler, urllib2.HTTPSHandler)
+            #cookie_handler = urllib2.HTTPCookieProcessor(self.cookieJar)
+            #openner = urllib2.build_opener(cookie_handler, urllib2.HTTPBasicAuthHandler(), urllib2.HTTPHandler())
 
             if post:
                 req = urllib2.Request(url, post)
@@ -315,7 +331,7 @@ class F4MDownloader():
                         ua_header=True
 
             if not ua_header:
-                req.add_header('User-Agent','Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36')
+                req.add_header('User-Agent','Mozilla/5.0 (Windows NT 6.1; WOW64; rv:30.0) Gecko/20100101 Firefox/30.0')
             #response = urllib2.urlopen(req)
             if self.proxy and (  (not ischunkDownloading) or self.use_proxy_for_chunks ):
                 req.set_proxy(self.proxy, 'http')
@@ -357,7 +373,7 @@ class F4MDownloader():
         # produced by AdobeHDS.php (https://github.com/K-S-V/Scripts)
             stream.write(b'\x00\x00\x01\x73')
 
-    def init(self, out_stream, url, proxy=None,use_proxy_for_chunks=True,g_stopEvent=None, maxbitrate=0):
+    def init(self, out_stream, url, proxy=None,use_proxy_for_chunks=True,g_stopEvent=None, maxbitrate=0, auth=''):
         try:
             self.init_done=False
             self.total_frags=0
@@ -365,6 +381,10 @@ class F4MDownloader():
             self.clientHeader=None
             self.status='init'
             self.proxy = proxy
+            self.auth=auth
+            #self.auth="pvtoken=exp%3D9999999999%7Eacl%3D%252f%252a%7Edata%3DZXhwPTE0MDYzMDMxMTV+YWNsPSUyZip+ZGF0YT1wdmMsc35obWFjPWQxODA5MWVkYTQ4NDI3NjFjODhjOWQwY2QxNTk3YTI0MWQwOWYwNWI1N2ZmMDE0ZjcxN2QyMTVjZTJkNmJjMDQ%3D%2196e4sdLWrezE46RaCBzzP43/LEM5en2KujAosbeDimQ%3D%7Ehmac%3DACF8A1E4467676C9BCE2721CA5EFF840BD6ED1780046954039373A3B0D942ADC&hdntl=exp=1406303115~acl=%2f*~data=hdntl~hmac=4ab96fa533fd7c40204e487bfc7befaf31dd1f49c27eb1f610673fed9ff97a5f&als=0,2,0,0,0,NaN,0,0,0,37,f,52293145.57,52293155.9,t,s,GARWLHLMHNGA,2.11.3,37&hdcore=2.11.3" 
+            if self.auth ==None:
+                self.auth=''
             if self.proxy and len(self.proxy)==0:
                 self.proxy=None
             self.use_proxy_for_chunks=use_proxy_for_chunks
@@ -410,6 +430,13 @@ class F4MDownloader():
             version_fine="xmlns=\".*?\/([0-9].*?)\""
             F4Mversion =re.findall(version_fine, manifest)[0]
             #print F4Mversion,_add_ns('media')
+            auth_patt='<pv-2.0>(.*?)<'
+
+            auth_obj =re.findall(auth_patt, manifest)
+            self.auth20=''
+            if auth_obj and len(auth_obj)>0:
+                self.auth20=auth_obj[0] #not doing anything for time being
+            print 'auth',self.auth,self.auth20
             #quick for one example where the xml was wrong.
             if '\"bootstrapInfoId' in manifest:
                 manifest=manifest.replace('\"bootstrapInfoId','\" bootstrapInfoId')
@@ -545,8 +572,10 @@ class F4MDownloader():
             bootstrapURL=''
             bootstrapData=None
             queryString=None
+
             if bootstrapURL1=='':
                 bootstrapData=base64.b64decode(doc.findall(_add_ns('bootstrapInfo'))[0].text)
+                #
             else:
                 from urlparse import urlparse
                 queryString = urlparse(url).query
@@ -557,13 +586,21 @@ class F4MDownloader():
                     bootstrapURL = join(man_url,bootstrap.attrib['url'])# take out querystring for later
                     queryString = urlparse(bootstrapURL).query
                     print 'queryString override',queryString
-                    if len(queryString)==0: queryString=None
-                     
+                    if len(queryString)==0: 
+                        queryString=None
+                        if len(self.auth)>0:
+                            bootstrapURL+='?'+self.auth
+                            queryString=self.auth#self._pv_params('',self.auth20)#not in use
                 else:
                     bootstrapURL = join(man_url,bootstrap.attrib['url'])+'?'+queryString
-                print 'bootstrapURL',bootstrapURL
+                    if len(self.auth)>0:
+                        authval=self.auth#self._pv_params('',self.auth20)#not in use
+                        bootstrapURL = join(man_url,bootstrap.attrib['url'])+'?'+authval
+                        queryString=authval
+
+            print 'bootstrapURL',bootstrapURL
             self.bootstrapURL=bootstrapURL
-            self.queryString = queryString
+            self.queryString=queryString
             self.bootstrap, self.boot_info, self.fragments_list,self.total_frags=self.readBootStrapInfo(bootstrapURL,bootstrapData)
             self.init_done=True
             return True
@@ -709,7 +746,7 @@ class F4MDownloader():
 
         try:
             retries=0
-            while retries<=10:
+            while retries<=5:
 
                 if self.g_stopEvent and self.g_stopEvent.isSet():
                         return
@@ -742,4 +779,73 @@ class F4MDownloader():
             traceback.print_exc()
     
 
+        
+
+    
+    def _pv_params(self, pvswf, pv):
+        """Returns any parameters needed for Akamai HD player verification.
+
+        Algorithm originally documented by KSV, source:
+        http://stream-recorder.com/forum/showpost.php?p=43761&postcount=13
+        """
+        pv="ZXhwPTE0MDYyODMxOTF+YWNsPSUyZip+ZGF0YT1wdmMsc35obWFjPTgwNTA0N2E1Yjk5ZmFjMjMzMDY0N2MxMzkyNGM0MDNiYzY1YjZmYzgyYTZhMjYyZDIxNDdkZTExZjI1MzQ5ZDI=;hdntl=exp=1406283191~acl=%2f*~data=hdntl~hmac=b65dc0c5ae60570f105984f0cc5ec6ce3a51422a7a1442e09f55513718ba80bf"
+        (data, hdntl) = pv.split(";")
+        SWF_VERIFICATION_KEY = b"Genuine Adobe Flash Player 001"
+        #SWF_VERIFICATION_KEY=binascii.unhexlify("9b673b13fa4682ed14c3cfa5af5310274b514c4133e9b3a81e6e3aba009l2564") 
+                               
+        SWF_VERIFICATION_KEY = binascii.unhexlify(b"BD938D5EE6D9F42016F9C56577B6FDCF415FE4B184932B785AB32BCADC9BB592")
+        swf = self.getUrl('http://www.wat.tv/images/v70/PlayerLite.swf',True)
+        #AKAMAIHD_PV_KEY = unhexlify(b"BD938D5EE6D9F42016F9C56577B6FDCF415FE4B184932B785AB32BCADC9BB592")
+        AKAMAIHD_PV_KEY = "9b673b13fa4682ed14c3cfa5af5310274b514c4133e9b3a81e6e3aba009l2564"
+
+        hash = hashlib.sha256()
+        hash.update(self.swfdecompress(swf))
+        hash = base64.b64encode(hash.digest()).decode("ascii")
+        print 'hash',hash
+        hash="96e4sdLWrezE46RaCBzzP43/LEM5en2KujAosbeDimQ="
+        print 'hash',hash
+        #data="ZXhwPTE0MDYyMDQ3NjB+YWNsPSUyZip+ZGF0YT1wdmMsc35obWFjPWEzMjBlZDI5YjI1MDkwN2ExODcyMTJlOWJjNGFlNGUzZjA3MTM3ODk1ZDk4NmI2ZDVkMzczNzNhYzNiNDgxOWU="
+        msg = "exp=9999999999~acl=%2f%2a~data={0}!{1}".format(data, hash)
+        auth = hmac.new(AKAMAIHD_PV_KEY, msg.encode("ascii"), sha256)
+        pvtoken = "{0}~hmac={1}".format(msg, auth.hexdigest())
+
+        # The "hdntl" parameter can be accepted as a cookie or passed in the
+        # query string, but the "pvtoken" parameter can only be in the query
+        # string
+        print 'pvtoken',pvtoken
+
+
+        #return "pvtoken={}&{}".format(
+        #urlencode_param(pvtoken), urlencode_param(hdntl))
+        
+        params=urllib.urlencode({'pvtoken':pvtoken})+'&'+hdntl+'&hdcore=2.11.3'
+        #params='pvtoken=exp%3D9999999999%7Eacl%3D%252f%252a%7Edata%3DZXhwPTE0MDYwNDMzOTN+YWNsPSUyZip+ZGF0YT1wdmMsc35obWFjPWQxMTk0ZDc4NDExMDYwNjZlNDI5OWU2NTc3ODA0Mzk0ODU5NGZiMDQ5Njk2OGNiYzJiOGU2OTI2MjIzMjczZTA%3D%2196e4sdLWrezE46RaCBzzP43/LEM5en2KujAosbeDimQ%3D%7Ehmac%3D1BE9DEB8262AB4886A0CB9E8376D04652F015751B88DD3D2201DE463D9E47733&hdntl=exp=1406043393~acl=%2f*~data=hdntl~hmac=28d5e28f47b7b3821fafae0250ba37091f2fc66d1a9d39b76b925c423458c537'+'&hdcore=2.11.3'
+
+        #php AdobeHDS.php --manifest "http://nt1livhdsweb-lh.akamaihd.net/z/live_1@90590/manifest.f4m?hdnea=st=1405958620~exp=1405960420~acl=/*~hmac=5ca0d2521a99c897fb9ffaf6ed9c2e40e5d0300cdcdd9dfb7302d9e32a84f98d&hdcore=2.11.3&g=VQYTYCFRUDRA"
+        #params="pvtoken=exp%3D9999999999%7Eacl%3D%252f%252a%7Edata%3DZXhwPTE0MDYwNDUwNDZ+YWNsPSUyZip+ZGF0YT1wdmMsc35obWFjPWYwYWQ5ZGQyNDJlYjdiYjQ2YmZhMzk3MjY3MzE0ZWZiOWVlYTY5MDMzYWE2ODM5ZDM1ZWVjMWM1ZDUzZTk3ZjA%3D%2196e4sdLWrezE46RaCBzzP43/LEM5en2KujAosbeDimQ%3D%7Ehmac%3D9FCCB6BC90C17E8057EE52CD53DDF0C6D07B20638D68B8FFCE98ED74153AA960&hdntl=exp=1406045046~acl=%2f*~data=hdntl~hmac=11e323633ad708a11e57a91e8c685011292f42936f5f7f3b1cb0fb8d2266586a&als=0,2,0,0,0,NaN,0,0,0,52,f,52035079.57,52035089.9,t,s,VQYTYCFRUDRA,2.11.3,52&hdcore=2.11.3"
+        #--useragent "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:30.0) Gecko/20100101 Firefox/30.0"
+        #+'&als=0,2,0,0,0,NaN,0,0,0,47,f,52018363.57,52018373.9,t,s,HPFXDUMCMNPG,2.11.3,47&hdcore=2.11.3'
+        params=params.replace('%2B','+')
+        params=params.replace('%2F','/')
+
+        
+        #params='pvtoken=' +pvtoken+'&'+hdntl
+        #params = [("pvtoken", pvtoken)]
+        #params.extend(parse_qsl(hdntl, keep_blank_values=True))
+        #params='pvtoken=exp%3D9999999999%7Eacl%3D%252f%252a%7Edata%3DZXhwPTE0MDYwMzc2Njl+YWNsPSUyZip+ZGF0YT1wdmMsc35obWFjPWZjYzY5OTVkYjE5ODIxYTJlNDM4YTdhMWNmZjMyN2RhNTViOWNhMWM4NjZhZjYxM2ZkNDI4MTMwNjU4MjFjMjM%3D%2196e4sdLWrezE46RaCBzzP43/LEM5en2KujAosbeDimQ%3D%7Ehmac%3DFA3BCC1CF6466CAFFCC6EF5CB2855ED065F36687CBFCD11570B7D702F71F10A6&hdntl=exp=1406037669~acl=%2f*~data=hdntl~hmac=4ab5ad38849b952ae93721af7451936b4c5906258d575eda11e52a05f78c7d75&als=0,2,0,0,0,NaN,0,0,0,96,f,52027699.57,52027709.89,t,s,RUIDLGQGDHVH,2.11.3,90&hdcore=2.11.3'
+        #print '_pv_params params',params
+        print params
+        print "pvtoken=exp%3D9999999999%7Eacl%3D%252f%252a%7Edata%3DZXhwPTE0MDYyODMxOTF+YWNsPSUyZip+ZGF0YT1wdmMsc35obWFjPTgwNTA0N2E1Yjk5ZmFjMjMzMDY0N2MxMzkyNGM0MDNiYzY1YjZmYzgyYTZhMjYyZDIxNDdkZTExZjI1MzQ5ZDI%3D%2196e4sdLWrezE46RaCBzzP43/LEM5en2KujAosbeDimQ%3D%7Ehmac%3D47A2B2AA9570ECFB37966C884174D608D86A7DE2466DE7EB48A6F118A155BD80&hdntl=exp=1406283191~acl=%2f*~data=hdntl~hmac=b65dc0c5ae60570f105984f0cc5ec6ce3a51422a7a1442e09f55513718ba80bf"
+
+        return "pvtoken=exp%3D9999999999%7Eacl%3D%252f%252a%7Edata%3DZXhwPTE0MDYzMDMxMTV+YWNsPSUyZip+ZGF0YT1wdmMsc35obWFjPWQxODA5MWVkYTQ4NDI3NjFjODhjOWQwY2QxNTk3YTI0MWQwOWYwNWI1N2ZmMDE0ZjcxN2QyMTVjZTJkNmJjMDQ%3D%2196e4sdLWrezE46RaCBzzP43/LEM5en2KujAosbeDimQ%3D%7Ehmac%3DACF8A1E4467676C9BCE2721CA5EFF840BD6ED1780046954039373A3B0D942ADC&hdntl=exp=1406303115~acl=%2f*~data=hdntl~hmac=4ab96fa533fd7c40204e487bfc7befaf31dd1f49c27eb1f610673fed9ff97a5f&als=0,2,0,0,0,NaN,0,0,0,37,f,52293145.57,52293155.9,t,s,GARWLHLMHNGA,2.11.3,37&hdcore=2.11.3" 
+ 
+        return params
+        
+    def swfdecompress(self,data):
+        if data[:3] == b"CWS":
+            data = b"F" + data[1:8] + zlib.decompress(data[8:])
+
+        return data
+
+        
         
