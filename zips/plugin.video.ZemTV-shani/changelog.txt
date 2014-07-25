@@ -42,3 +42,5 @@
 - Added "Other" source
 [B]Version 2.4.1[/B]
 - Added Babytv
+[B]Version 2.4.2[/B]
+- Added StarGold
