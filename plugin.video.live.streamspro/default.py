@@ -558,6 +558,11 @@ def getItems(items,fanart):
                         except:
                             addon_log("Regex: -- No x-req --")
                         try:
+                            regexs[i('name')[0].string]['x-forward'] = i('x-forward')[0].string
+                        except:
+                            addon_log("Regex: -- No x-forward --")
+
+                        try:
                             regexs[i('name')[0].string]['agent'] = i('agent')[0].string
                         except:
                             addon_log("Regex: -- No User Agent --")
@@ -717,6 +722,8 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
                             req.add_header('User-agent', m['agent'])
                         if 'x-req' in m:
                             req.add_header('X-Requested-With', m['x-req'])
+                        if 'x-forward' in m:
+                            req.add_header('X-Forwarded-For', m['x-forward'])
                         if 'setcookie' in m:
                             print 'adding cookie',m['setcookie']
                             req.add_header('Cookie', m['setcookie'])
