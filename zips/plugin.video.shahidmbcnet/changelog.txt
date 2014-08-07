@@ -1,3 +1,6 @@
+[B]Version 3.3.2[/B]
+Few episodes missing in shahid, fixed in episodes
+
 [B]Version 3.3.1[/B]
 Support for Play next feature, so that when on source fails, it will move to next one.
 

@@ -373,8 +373,10 @@ def removeLoginFile(livePlayer,TeleDunet,showMsg=True):
 		
 		
 			#from importlib import import_module
+			print 'clear cahche'
 			processorObject=import_module('teledunetPlayer')
 			processorObject.clearFileCache()
+			print 'clear cahchesssssssssssssssssssssssssssssssddd'
 			something_done=True
 			COOKIEFILE = communityStreamPath+'/teletdunetPlayerLoginCookie.lwp'
 			os.remove(COOKIEFILE)
@@ -505,7 +507,7 @@ def AddEnteries(Fromurl,pageNumber=0):
 		addDir(finalName ,getMainUrl()+cname[0] ,5,cname[2],showContext=True,isItFolder=False)
 		
 		
-	if totalEnteries==24:
+	if totalEnteries>=24:
 		match =re.findall('<li class="arrowrgt"><a.*?this, \'(.*?(relatedEpisodeListingDynamic).*?)\'', link, re.UNICODE)
 		if len(match)>0 or mode==7  :
 			if not pageNumber=="":
