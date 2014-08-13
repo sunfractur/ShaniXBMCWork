@@ -928,6 +928,10 @@ def get_leton_rtmp(page_value, referer=None):
     
 def get_dag_url(page_data):
     print 'get_dag_url',page_data
+    if page_data.startswith('http://dag.total-stream.net'):
+        headers=[('User-Agent','Verismo-BlackUI_(2.4.7.5.8.0.34)')]
+        page_data=getUrl(page_data,headers=headers);
+
     if '127.0.0.1' in page_data:
         return revist_dag(page_data)
     elif re_me(page_data, 'wmsAuthSign%3D([^%&]+)') != '':
