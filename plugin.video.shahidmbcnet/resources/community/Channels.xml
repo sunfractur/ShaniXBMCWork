@@ -7,14 +7,22 @@
 	<category>gulf</category>
 	</assignedcategory>
 </channel>
-<channel>
-	<cname>MBC PRO SPORTS</cname>
-	<imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/p200x200/10511368_1452831941667764_3938715179830731756_n.jpg?oh=fe5bfbc0a5f08848f61bc73c534fb768&amp;oe=547C7173&amp;__gda__=1416909425_ad7da80a352b07f25ada540f204dd117</imageurl>
-	<enabled>True</enabled>
-	<assignedcategory>
-	<category>sports</category>
-	</assignedcategory>
-</channel>
+	<channel>
+		<cname>MBC PRO SPORTS</cname>
+		<imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/p200x200/10511368_1452831941667764_3938715179830731756_n.jpg?oh=fe5bfbc0a5f08848f61bc73c534fb768&amp;oe=547C7173&amp;__gda__=1416909425_ad7da80a352b07f25ada540f204dd117</imageurl>
+		<enabled>True</enabled>
+		<assignedcategory>
+		<category>sports</category>
+		</assignedcategory>
+	</channel>
+	<channel>
+		<cname>Live Event</cname>
+		<imageurl>http://www.samuitimes.com/wp-content/uploads/2013/07/live.jpg</imageurl>
+		<enabled>True</enabled>
+		<assignedcategory>
+		<category>sports</category>
+		</assignedcategory>
+	</channel>
 
 <channel>
 	<cname>NB5</cname>
