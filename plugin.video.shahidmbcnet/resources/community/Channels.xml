@@ -16,7 +16,7 @@
 		</assignedcategory>
 	</channel>
 	<channel>
-		<cname>Live Event</cname>
+		<cname>.Live Event</cname>
 		<imageurl>http://www.samuitimes.com/wp-content/uploads/2013/07/live.jpg</imageurl>
 		<enabled>True</enabled>
 		<assignedcategory>
