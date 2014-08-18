@@ -1,5 +1,85 @@
 <channels>
 <channel>
+     <cname>Bis</cname>
+     <imageurl>http://upload.wikimedia.org/wikipedia/fr/7/7d/Bis_T%C3%A9l%C3%A9visions_logo.png</imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+	 <category>french</category>
+     </assignedcategory>
+</channel>
+<channel>
+     <cname>UNIVERS</cname>
+     <imageurl>http://kompozitor.fr/dotclear/public/Images/Photos/Univers/Terre.jpg</imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+     <category>doc</category>
+	 <category>french</category>
+     </assignedcategory>
+</channel>
+<channel>
+     <cname>NATIONAL GEO FR</cname>
+     <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc3/t1.0-1/p320x320/1044696_665694903448030_1017020399_n.jpg</imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+     <category>doc</category>
+	 <category>french</category>
+     </assignedcategory>
+</channel>
+<channel>
+     <cname>Finance</cname>
+     <imageurl>http://cdn.marketplaceimages.windowsphone.com/v8/images/59e331ba-f024-4e6d-abcf-c1eed734d512?imageType=ws_icon_large</imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+     <category>doc</category>
+	 <category>french</category>
+     </assignedcategory>
+</channel>
+<channel>
+     <cname>Histoire</cname>
+     <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfa1/v/t1.0-1/166258_149817018404256_1058329_n.jpg?oh=b38b50b4c83838764f62997147d586d2&amp;oe=545D555A&amp;__gda__=1417555138_979784dbbd2285f26e83bbface42850a</imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+     <category>doc</category>
+	 <category>french</category>
+     </assignedcategory>
+</channel>
+<channel>
+     <cname>Science</cname>
+     <imageurl>http://www.babelio.com/users/liste_Decouvrir-la-science-a-travers-les-livres_2701.jpeg</imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+     <category>doc</category>
+	 <category>french</category>
+     </assignedcategory>
+</channel>
+<channel>
+     <cname>MAN VS WILD</cname>
+     <imageurl>http://lol.net/s/date-sortie-man-vs-wild-saison-1-dvd.jpg</imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+     <category>doc</category>
+	 <category>french</category>
+     </assignedcategory>
+</channel>
+<channel>
+     <cname>Nature</cname>
+     <imageurl>http://thumbs.dreamstime.com/x/logo-de-nature-7533173.jpg</imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+     <category>doc</category>
+	 <category>french</category>
+     </assignedcategory>
+</channel>
+<channel>
+     <cname>TVReplay</cname>
+     <imageurl>http://www.stream4free.eu/images/avatars/xxxproducer7x-profile_image-3uqwRbKctKQ6IxM-70x70.gif</imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+     <category>doc</category>
+	 <category>french</category>
+     </assignedcategory>
+</channel>
+<channel>
 	<cname>Baynouna</cname>
 	<imageurl>http://www.lyngsat-logo.com/logo/tv/bb/baynounah_tv_ae.png</imageurl>
 	<enabled>True</enabled>
@@ -8,8 +88,32 @@
 	</assignedcategory>
 </channel>
 	<channel>
-		<cname>MBC PRO SPORTS</cname>
-		<imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/p200x200/10511368_1452831941667764_3938715179830731756_n.jpg?oh=fe5bfbc0a5f08848f61bc73c534fb768&amp;oe=547C7173&amp;__gda__=1416909425_ad7da80a352b07f25ada540f204dd117</imageurl>
+		<cname>MBC PRO SP1</cname>
+		<imageurl>http://2.bp.blogspot.com/-xjL-llxwi2Y/U-GB2_5QqWI/AAAAAAAAC4g/iv1HWDBUOAE/s1600/MBC+Pro+SP1+EF.png</imageurl>
+		<enabled>True</enabled>
+		<assignedcategory>
+		<category>sports</category>
+		</assignedcategory>
+	</channel>
+	<channel>
+		<cname>MBC PRO SP2</cname>
+		<imageurl>http://4.bp.blogspot.com/-_2AeR_zTeQQ/U-GBhLkIgOI/AAAAAAAAC4Y/s0t01dwIgmY/s70-p/MBC+Pro+SP2+EF.png</imageurl>
+		<enabled>True</enabled>
+		<assignedcategory>
+		<category>sports</category>
+		</assignedcategory>
+	</channel>
+	<channel>
+		<cname>MBC PRO SP3</cname>
+		<imageurl>http://1.bp.blogspot.com/-q5DyrQNSHFE/U-GBDaRryGI/AAAAAAAAC4Q/WkS5OOyttWA/s70-p/MBC+Pro+SP3+EF.png</imageurl>
+		<enabled>True</enabled>
+		<assignedcategory>
+		<category>sports</category>
+		</assignedcategory>
+	</channel>
+	<channel>
+		<cname>MBC PRO SP4</cname>
+		<imageurl>http://4.bp.blogspot.com/-nZ2uSwoatPs/U-F8gmGBFFI/AAAAAAAAC3I/iR7f7X5_KWo/s70-p/MBC+Pro+SP4+EF.png</imageurl>
 		<enabled>True</enabled>
 		<assignedcategory>
 		<category>sports</category>
