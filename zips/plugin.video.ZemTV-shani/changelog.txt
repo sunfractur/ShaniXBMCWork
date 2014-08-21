@@ -44,3 +44,5 @@
 - Added Babytv
 [B]Version 2.4.2[/B]
 - Added StarGold
+[B]Version 2.4.3[/B]
+- fixed dunya news hd in other

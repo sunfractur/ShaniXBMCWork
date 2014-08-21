@@ -222,6 +222,10 @@ def PlayOtherUrl ( url ):
     
     dag_url =re.findall(curlpatth,link)[0]
     print 'dag_url',dag_url
+    print 'dag_url',dag_url,name
+    if 'Dunya news' in name and 'dag1.asx' not in dag_url:
+        print 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+        dag_url='http://dag-chi.totalstream.net/dag1.asx?id=ad1!dunya'
     if 'dag1.asx' in dag_url:    
         req = urllib2.Request(dag_url)
         req.add_header('User-Agent', 'Verismo-BlackUI_(2.4.7.5.8.0.34)')   
