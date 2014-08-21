@@ -159,9 +159,12 @@ def AddChannelsFromOthers():
 
     match =re.findall(main_ch,link)[0]
     match =re.findall(patt,match)
+    if not any('News One' == x[0] for x in match):
+        match.append(('News One','http://dag.total-stream.net/dag1.asx?id=ad1!newsone'))
     match=sorted(match,key=itemgetter(0)   )
 
     for cname,curl in match:
+
         addDir(Colored(cname.capitalize(),'ZM') ,curl ,11,'', False, True,isItFolder=False)		#name,url,mode,icon
     return
     
@@ -212,21 +215,25 @@ def PlayOtherUrl ( url ):
     progress = xbmcgui.DialogProgress()
     progress.create('Progress', 'Fetching Streaming Info')
     progress.update( 10, "", "Finding links..", "" )
-    req = urllib2.Request(url)
-    #req.add_header('User-Agent', 'Verismo-BlackUI_(2.4.7.5.8.0.34)')   
-    #req.add_header('User-Agent', 'Mozilla/5.0(iPad; U; CPU iPhone OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B314 Safari/531.21.10')
-    response = urllib2.urlopen(req)
-    link=response.read()
-    curlpatth='<link>(.*?)<\/link>'
-    progress.update( 50, "", "Preparing url..", "" )
-    
-    dag_url =re.findall(curlpatth,link)[0]
-    print 'dag_url',dag_url
+    if 'dag1.asx' not in url:
+        req = urllib2.Request(url)
+        #req.add_header('User-Agent', 'Verismo-BlackUI_(2.4.7.5.8.0.34)')   
+        #req.add_header('User-Agent', 'Mozilla/5.0(iPad; U; CPU iPhone OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B314 Safari/531.21.10')
+        response = urllib2.urlopen(req)
+        link=response.read()
+        curlpatth='<link>(.*?)<\/link>'
+        progress.update( 50, "", "Preparing url..", "" )
+        dag_url =re.findall(curlpatth,link)[0]
+    else:
+        dag_url=url
     print 'dag_url',dag_url,name
     if 'Dunya news' in name and 'dag1.asx' not in dag_url:
         print 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
         dag_url='http://dag-chi.totalstream.net/dag1.asx?id=ad1!dunya'
+
     if 'dag1.asx' in dag_url:    
+        
+
         req = urllib2.Request(dag_url)
         req.add_header('User-Agent', 'Verismo-BlackUI_(2.4.7.5.8.0.34)')   
         response = urllib2.urlopen(req)

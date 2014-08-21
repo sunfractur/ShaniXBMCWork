@@ -46,3 +46,6 @@
 - Added StarGold
 [B]Version 2.4.3[/B]
 - fixed dunya news hd in other
+
+[B]Version 2.4.4[/B]
+- fixed newsone
