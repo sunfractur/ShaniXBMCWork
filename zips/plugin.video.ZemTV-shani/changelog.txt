@@ -49,3 +49,6 @@
 
 [B]Version 2.4.4[/B]
 - fixed newsone
+
+[B]Version 2.4.5[/B]
+- added manual ary and expressnews

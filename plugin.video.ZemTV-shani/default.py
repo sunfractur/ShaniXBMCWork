@@ -161,6 +161,9 @@ def AddChannelsFromOthers():
     match =re.findall(patt,match)
     if not any('News One' == x[0] for x in match):
         match.append(('News One','http://dag.total-stream.net/dag1.asx?id=ad1!newsone'))
+    match.append(('Ary news (manual)','http://dag.total-stream.net/dag1.asx?id=ad1!arynews'))
+    match.append(('Express news (manual)','http://dag.total-stream.net/dag1.asx?id=ad1!expressnews'))
+
     match=sorted(match,key=itemgetter(0)   )
 
     for cname,curl in match:
