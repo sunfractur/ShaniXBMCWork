@@ -1,3 +1,6 @@
+Version 1.3.3
+bug fixed for externallink
+
 Version 1.3.2
 Added get_packed_iphonetv_url
 

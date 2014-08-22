@@ -478,7 +478,7 @@ def getItems(items,fanart):
             except: pass
             
             if isXMLSource:
-                link=[isXMLSource]
+                url=[isXMLSource]
                 isXMLSource=True
             else:
                 isXMLSource=False
