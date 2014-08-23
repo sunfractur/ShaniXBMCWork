@@ -149,7 +149,7 @@ def AddEnteries(type):
 
 def AddChannelsFromOthers():
     main_ch='(<section_name>Pakistani<\/section_name>.*?<\/section>)'
-    patt='<channel_number>.*?<channel_name>(.*?)<\/channel_name>.*?<channel_url>(.*?)<\/channel_url>.*?<\/channel_url>'
+    patt='<channel><channel_number>.*?<channel_name>(.+?[^<])</channel_name><channel_type>(.+?)</channel_type>.*?[^<"]<channel_url>(.*?)</channel_url></channel>'
     url="http://ferrarilb.jemtv.com/index.php/2_2/gxml/channel_list/1"
     req = urllib2.Request(url)
     req.add_header('User-Agent', 'Mozilla/5.0(iPad; U; CPU iPhone OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B314 Safari/531.21.10')
@@ -160,15 +160,15 @@ def AddChannelsFromOthers():
     match =re.findall(main_ch,link)[0]
     match =re.findall(patt,match)
     if not any('News One' == x[0] for x in match):
-        match.append(('News One','http://dag.total-stream.net/dag1.asx?id=ad1!newsone'))
-    match.append(('Ary news (manual)','http://dag.total-stream.net/dag1.asx?id=ad1!arynews'))
-    match.append(('Express news (manual)','http://dag.total-stream.net/dag1.asx?id=ad1!expressnews'))
+        match.append(('News One','manual','http://dag.total-stream.net/dag1.asx?id=ad1!newsone'))
+    match.append(('Ary news (manual)','manual','http://dag.total-stream.net/dag1.asx?id=ad1!arynews'))
+    match.append(('Express news (manual)','manual','http://dag.total-stream.net/dag1.asx?id=ad1!expressnews'))
 
     match=sorted(match,key=itemgetter(0)   )
 
-    for cname,curl in match:
-
-        addDir(Colored(cname.capitalize(),'ZM') ,curl ,11,'', False, True,isItFolder=False)		#name,url,mode,icon
+    for cname, ctype,curl in match:
+        if ctype<>'liveWMV':
+            addDir(Colored(cname.capitalize(),'ZM') ,curl ,11,'', False, True,isItFolder=False)		#name,url,mode,icon
     return
     
 def re_me(data, re_patten):

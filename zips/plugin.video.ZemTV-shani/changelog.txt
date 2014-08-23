@@ -52,3 +52,6 @@
 
 [B]Version 2.4.5[/B]
 - added manual ary and expressnews
+
+[B]Version 2.4.6[/B]
+- removed non working wmv channels
