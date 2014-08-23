@@ -1,5 +1,9 @@
 <streamingInfos>
 <streaminginfo>
+	<cname>Canal+ Sport</cname>
+	<url>canal_plus_sport</url>
+</streaminginfo>
+<streaminginfo>
 	<cname>Eurosport France</cname>
 	<url>eurosport_fr</url>
 </streaminginfo>
