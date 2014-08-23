@@ -3451,6 +3451,16 @@
             <category>french</category>
         </assignedcategory>
     </channel>
+    
+    <channel>
+        <cname>Canal+ Sport</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/cc/canalplus_fr_sport.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>french</category>
+            <category>sports</category>
+        </assignedcategory>
+    </channel>
 	
 	<channel>
         <cname>CN FR</cname>
