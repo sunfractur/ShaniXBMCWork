@@ -15,3 +15,6 @@
 - Server Move
 [B]Version 2.4[/B]
 - Just a icon change, thanks to jonuthedevil@hub
+
+[B]Version 2.5[/B]
+- Back to github
