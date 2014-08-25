@@ -3039,4 +3039,12 @@
 		</item>
 	</streaminginfo>
 	
+	<streaminginfo>
+		<cname>Future TV</cname>
+		<item>
+			<title>iptvp</title>
+			<link>http://iptvp.net/stream/Future_HD.m3u8</link> 
+		</item>
+	</streaminginfo>
+	
 </streamingInfos>
