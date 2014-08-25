@@ -1,5 +1,9 @@
 <streamingInfos>
 <streaminginfo>
+	<cname>Canal Cinema</cname>
+	<url>canal_plus_cinema</url>
+</streaminginfo>
+<streaminginfo>
 	<cname>Canal+ Sport</cname>
 	<url>canal_plus_sport</url>
 </streaminginfo>
