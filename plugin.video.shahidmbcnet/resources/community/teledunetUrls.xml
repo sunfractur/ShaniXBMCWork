@@ -525,10 +525,6 @@
 		<url>bein_sport_1</url>
 	</streaminginfo>
 	<streaminginfo>
-		<cname>Bein Sport 10</cname>
-		<url>bein_sport_10</url>
-	</streaminginfo>
-	<streaminginfo>
 		<cname>Bein Sport 2</cname>
 		<url>bein_sport_2</url>
 	</streaminginfo>
@@ -559,6 +555,30 @@
 	<streaminginfo>
 		<cname>Bein Sport 9</cname>
 		<url>bein_sport_9</url>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 10</cname>
+		<url>bein_sport_10</url>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 11</cname>
+		<url>bein_sport_11</url>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 12</cname>
+		<url>bein_sport_12</url>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 13</cname>
+		<url>bein_sport_13</url>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 14</cname>
+		<url>bein_sport_14</url>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Bein Sport 15</cname>
+		<url>bein_sport_15</url>
 	</streaminginfo>
 
 	<streaminginfo>
