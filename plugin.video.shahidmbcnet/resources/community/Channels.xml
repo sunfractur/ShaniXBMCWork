@@ -860,6 +860,17 @@
 			<category>french</category>
 			</assignedcategory>
 	</channel>
+	
+	<channel>
+			<cname>Eurosport 2 France</cname>
+			<imageurl>http://www.lyngsat-logo.com/hires/ee/eurosport2.png</imageurl>
+			<enabled>True</enabled>
+			<assignedcategory>
+			<category>sports</category>
+			<category>french</category>
+			</assignedcategory>
+	</channel>
+	
 	<channel>
 			<cname>Aljazeera Balkans</cname>
 			<imageurl>http://www.lyngsat-logo.com/hires/aa/al_jazeera_balkans.png</imageurl>
