@@ -13,6 +13,12 @@
 </streaminginfo>
 
 <streaminginfo>
+        <cname>Eurosport 2 France</cname>
+        <chnumber>ch905</chnumber>
+	<link>http://www.livetv.tn/EuroSport-HD-2-en-direct-live.html</link>
+</streaminginfo>
+
+<streaminginfo>
         <cname>Baynouna</cname>
         <chnumber>ch859</chnumber>
 	<link>http://www.livetv.tn/Baynouna-en-direct-live.html</link>
