@@ -1,14 +1,23 @@
 <streaminginfos>
+
+<streaminginfo>
+        <cname>Canal+ Sport</cname>
+        <chnumber>ch916</chnumber>
+	<link>http://www.livetv.tn/Canal-Plus-Sport-en-direct-live.html</link>
+</streaminginfo>
+
 <streaminginfo>
         <cname>Eurosport France</cname>
         <chnumber>ch915</chnumber>
 	<link>http://www.livetv.tn/EuroSport-HD-1-en-direct-live.html</link>
 </streaminginfo>
+
 <streaminginfo>
         <cname>Baynouna</cname>
         <chnumber>ch859</chnumber>
 	<link>http://www.livetv.tn/Baynouna-en-direct-live.html</link>
 </streaminginfo>
+
 <streaminginfo>
         <cname>NB5</cname>
         <chnumber>ch846</chnumber>
