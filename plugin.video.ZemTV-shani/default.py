@@ -164,8 +164,8 @@ def AddChannelsFromOthers():
     match.append(('Ary news (manual)','manual','http://dag.total-stream.net/dag1.asx?id=ad1!arynews'))
     match.append(('Express news (manual)','manual','http://dag.total-stream.net/dag1.asx?id=ad1!expressnews'))
 
-    match=sorted(match,key=itemgetter(0)   )
-
+#    match=sorted(match,key=itemgetter(0)   )
+    match=sorted(match,key=lambda s: s[0].lower()   )
     for cname, ctype,curl in match:
         if ctype<>'liveWMV':
             addDir(Colored(cname.capitalize(),'ZM') ,curl ,11,'', False, True,isItFolder=False)		#name,url,mode,icon
@@ -267,29 +267,53 @@ def AddChannelsFromEbound():
 #	match =re.findall('<div class=\"post-title\"><a href=\"(.*?)\".*<b>(.*)<\/b><\/a>', link, re.IGNORECASE)
 #	match =re.findall('<img src="(.*?)" alt=".*".+<\/a>\n*.+<div class="post-title"><a href="(.*?)".*<b>(.*)<\/b>', link, re.UNICODE)
 
-	match =re.findall('<a href=".*?stream=(.*?)".*?src="(.*?)"', link,re.M)
+	match =re.findall('<a href=".*?stream=(.*?)".*?src="(.*?)" (.)', link,re.M)
 
 	print match
 	expressExists=False
 	expressCName='express'
 	arynewsAdded=False
-	match=sorted(match,key=itemgetter(1)   )
+	
+	if not any('Express Tv' == x[0] for x in match):
+		match.append(('Express Tv','express','manual'))
+	if not any('Ary News' == x[0] for x in match):
+		match.append(('Ary News','arynews','manual'))
+	if not any('Ary Digital' == x[0] for x in match):
+		match.append(('Ary Digital','aryentertainment','manual'))
+
+	match.append(('Baby Tv','babytv','manual'))
+	match.append(('Star Gold','stargold','manual'))
+	match.append(('Ten Sports','tensports','manual'))
+	match.append(('Discovery','discovery','manual'))
+	match.append(('National Geographic','nationalgeographic','manual'))
+	match.append(('mecca','mecca','manual'))
+	match.append(('madina','madina','manual'))
+	match.append(('Qtv','qtv','manual'))
+	match.append(('Peace Tv','peacetv','manual'))
+	match=sorted(match,key=lambda s: s[0].lower()   )
 
 	#h = HTMLParser.HTMLParser()
 	for cname in match:
-		addDir(Colored(cname[0].capitalize(),'EB') ,cname[0] ,9,cname[1], False, True,isItFolder=False)		#name,url,mode,icon
-		if cname[0]==expressCName:
-			expressExists=True
-		if cname[0]=='arynews':
-			arynewsAdded=True
-            
-	if not expressExists:
-		addDir(Colored('Express Tv','EB') ,'express' ,9,'', False, True,isItFolder=False)		#name,url,mode,icon
-	if not arynewsAdded:
-		addDir(Colored('Ary News','EB') ,'arynews' ,9,'', False, True,isItFolder=False)		#name,url,mode,icon
-		addDir(Colored('Ary Digital','EB') ,'aryentertainment' ,9,'', False, True,isItFolder=False)		#name,url,mode,icon
-	addDir(Colored('Baby Tv','EB') ,'babytv' ,9,'', False, True,isItFolder=False)		#name,url,mode,icon
-	addDir(Colored('Star Gold','EB') ,'stargold' ,9,'', False, True,isItFolder=False)		#name,url,mode,icon
+		if cname[2]=='manual':
+			addDir(Colored(cname[0].capitalize(),'EB') ,cname[1] ,9,cname[2], False, True,isItFolder=False)		#name,url,mode,icon
+		else:
+			addDir(Colored(cname[0].capitalize(),'EB') ,cname[0] ,9,cname[1], False, True,isItFolder=False)		#name,url,mode,icon
+
+		if 1==2:
+			if cname[0]==expressCName:
+				expressExists=True
+			if cname[0]=='arynews':
+				arynewsAdded=True
+
+	if 1==2:			
+		if not expressExists:
+			addDir(Colored('Express Tv','EB') ,'express' ,9,'', False, True,isItFolder=False)		#name,url,mode,icon
+		if not arynewsAdded:
+			addDir(Colored('Ary News','EB') ,'arynews' ,9,'', False, True,isItFolder=False)		#name,url,mode,icon
+			addDir(Colored('Ary Digital','EB') ,'aryentertainment' ,9,'', False, True,isItFolder=False)		#name,url,mode,icon
+		addDir(Colored('Baby Tv','EB') ,'babytv' ,9,'', False, True,isItFolder=False)		#name,url,mode,icon
+		addDir(Colored('Star Gold','EB') ,'stargold' ,9,'', False, True,isItFolder=False)		#name,url,mode,icon
+		addDir(Colored('Ten Sports','EB') ,'tensports' ,9,'', False, True,isItFolder=False)		#name,url,mode,icon
 	return		
 
 def Colored(text = '', colorid = '', isBold = False):

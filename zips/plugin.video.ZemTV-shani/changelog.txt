@@ -55,3 +55,5 @@
 
 [B]Version 2.4.6[/B]
 - removed non working wmv channels
+[B]Version 2.4.7[/B]
+- Fixed sorting and added some new channels in zem section
