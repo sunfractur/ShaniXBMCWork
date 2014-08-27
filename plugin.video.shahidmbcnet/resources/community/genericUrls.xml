@@ -3002,4 +3002,20 @@
 		</item>
 	</streaminginfo>
 	
+	<streaminginfo>
+		<cname>RMC</cname>
+		<item>
+			<title>rmc_decouverte</title>
+			<link>rtmp://vipwowza.yacast.net/rmc_decouverte_rtmp//live</link> 
+		</item>
+	</streaminginfo>
+
+	<streaminginfo>
+		<cname>TF1</cname>
+		<item>
+			<title>TF1 HD (720p)</title>
+			<link>http://smooth.wat.tv/DVR_ETF1/source/master.m3u8</link> 
+		</item>
+	</streaminginfo>
+	
 </streamingInfos>
