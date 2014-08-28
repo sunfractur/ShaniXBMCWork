@@ -1374,6 +1374,15 @@
 			</assignedcategory>
 	</channel>
 	<channel>
+			<cname>Sport1</cname>
+			<imageurl>https://pbs.twimg.com/profile_images/494611290313068545/9BWjlhGN.png</imageurl>
+			<enabled>True</enabled>
+			<assignedcategory>
+			 <category>oth</category>
+			 <category>sports</category>
+			</assignedcategory>
+	</channel>
+	<channel>
 			<cname>HD1</cname>
 			<imageurl>http://www.lyngsat-logo.com/hires/hh/hd1_fr.png</imageurl>
 			<enabled>True</enabled>
