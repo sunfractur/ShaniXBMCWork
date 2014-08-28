@@ -95,7 +95,7 @@
 </channel>
 <channel>
      <cname>Mangas</cname>
-     <imageurl>https://scontent-b-cdg.xx.fbcdn.net/hphotos-xfa1/v/l/t1.0-9/25083_366693931545_3610969_n.jpg?oh=da02ab3ea8da4992d991164766449c66&oe=5481AEB9</imageurl>
+     <imageurl>https://scontent-b-cdg.xx.fbcdn.net/hphotos-xfa1/v/l/t1.0-9/25083_366693931545_3610969_n.jpg?oh=da02ab3ea8da4992d991164766449c66&amp;oe=5481AEB9</imageurl>
      <enabled>True</enabled>
      <assignedcategory>
 	 <category>french</category>
