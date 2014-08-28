@@ -1,7 +1,109 @@
 <channels>
 <channel>
-     <cname>Bis</cname>
-     <imageurl>http://upload.wikimedia.org/wikipedia/fr/7/7d/Bis_T%C3%A9l%C3%A9visions_logo.png</imageurl>
+     <cname>Sport365</cname>
+     <imageurl>https://pbs.twimg.com/profile_images/469052709392232449/5vsQdclC.jpeg</imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+	 <category>french</category>
+	 <category>sports</category>
+     </assignedcategory>
+</channel>
+<channel>
+     <cname>CinePolar</cname>
+     <imageurl>https://pbs.twimg.com/profile_images/3032201452/fbc97cfe76b474a4581c3704aaf8dc5d.jpeg</imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+	 <category>french</category>
+     </assignedcategory>
+</channel>
+<channel>
+     <cname>CineFx</cname>
+     <imageurl>https://pbs.twimg.com/profile_images/378800000224295680/7fb0c2c24cdec47d270cfec8c689334f.jpeg</imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+	 <category>french</category>
+     </assignedcategory>
+</channel>
+<channel>
+     <cname>Escales</cname>
+     <imageurl>https://pbs.twimg.com/profile_images/2169899742/escales.jpg</imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+     <category>doc</category>
+	 <category>french</category>
+     </assignedcategory>
+</channel>
+<channel>
+     <cname>Action</cname>
+     <imageurl>https://pbs.twimg.com/profile_images/2186702797/action.jpg</imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+	 <category>french</category>
+     </assignedcategory>
+</channel>
+<channel>
+     <cname>Encyclo</cname>
+     <imageurl>https://pbs.twimg.com/profile_images/476363279506210816/jQ4nm5FI.jpeg</imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+     <category>doc</category>
+	 <category>french</category>
+     </assignedcategory>
+</channel>
+<channel>
+     <cname>luckyjack</cname>
+     <imageurl>http://www.luckyjack.tv/images/menu/logo.png</imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+	 <category>french</category>
+     </assignedcategory>
+</channel>
+<channel>
+     <cname>ABMoteurs</cname>
+     <imageurl>https://pbs.twimg.com/profile_images/3032184642/26438ec87257fff4ec84c1fec44d5ecc.jpeg</imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+     <category>sports</category>
+	 <category>french</category>
+     </assignedcategory>
+</channel>
+<channel>
+     <cname>Animaux</cname>
+     <imageurl>https://pbs.twimg.com/profile_images/2169660837/animaux.jpg</imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+     <category>doc</category>
+	 <category>french</category>
+     </assignedcategory>
+</channel>
+<channel>
+     <cname>Chasse_et_peche</cname>
+     <imageurl>https://pbs.twimg.com/profile_images/378800000220355787/06ec2195d13f961d11696d4ef60ef631.jpeg</imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+     <category>doc</category>
+	 <category>french</category>
+     </assignedcategory>
+</channel>
+<channel>
+     <cname>AB1</cname>
+     <imageurl>https://pbs.twimg.com/profile_images/1721327577/AB1_logo_2011.png</imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+	 <category>french</category>
+     </assignedcategory>
+</channel>
+<channel>
+     <cname>Mangas</cname>
+     <imageurl>https://scontent-b-cdg.xx.fbcdn.net/hphotos-xfa1/v/l/t1.0-9/25083_366693931545_3610969_n.jpg?oh=da02ab3ea8da4992d991164766449c66&oe=5481AEB9</imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+	 <category>french</category>
+     </assignedcategory>
+</channel>
+<channel>
+     <cname>RTL 9</cname>
+     <imageurl>https://pbs.twimg.com/profile_images/1745839482/424.jpg</imageurl>
      <enabled>True</enabled>
      <assignedcategory>
 	 <category>french</category>
@@ -121,6 +223,22 @@
 	</channel>
 	<channel>
 		<cname>.Live Event</cname>
+		<imageurl>http://www.samuitimes.com/wp-content/uploads/2013/07/live.jpg</imageurl>
+		<enabled>True</enabled>
+		<assignedcategory>
+		<category>sports</category>
+		</assignedcategory>
+	</channel>
+	<channel>
+		<cname>.Live Ustream</cname>
+		<imageurl>http://www.samuitimes.com/wp-content/uploads/2013/07/live.jpg</imageurl>
+		<enabled>True</enabled>
+		<assignedcategory>
+		<category>sports</category>
+		</assignedcategory>
+	</channel>
+	<channel>
+		<cname>.Live Youtube</cname>
 		<imageurl>http://www.samuitimes.com/wp-content/uploads/2013/07/live.jpg</imageurl>
 		<enabled>True</enabled>
 		<assignedcategory>
