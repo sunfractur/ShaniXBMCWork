@@ -304,6 +304,10 @@ def send_web_socket(Cookie_Jar,url_to_call):
 
 def get_dag_url(page_data):
     print 'get_dag_url',page_data
+    if page_data.startswith('http://dag.total-stream.net'):
+        headers=[('User-Agent','Verismo-BlackUI_(2.4.7.5.8.0.34)')]
+        page_data=getUrl(page_data,headers=headers);
+
     if '127.0.0.1' in page_data:
         return revist_dag(page_data)
     elif re_me(page_data, 'wmsAuthSign%3D([^%&]+)') != '':
@@ -588,22 +592,25 @@ def get_saw_rtmp(page_value, referer=None):
     if referer:
         referer=[('Referer',referer)]
     if page_value.startswith("http"):
+        page_url=page_value
         page_value= getUrl(page_value,headers=referer)
     str_pattern="(eval\(function\(p,a,c,k,e,d.*)"
 
     reg_res=re.compile(str_pattern).findall(page_value)
     r=""
-    for v in reg_res:
-        r1=get_unpacked(v)
-        r2=re_me(r1,'\'(.*?)\'')
-        if 'unescape' in r1:
-            r1=urllib.unquote(r2)
-        r+=r1+'\n'
-    print 'final value is ',r
-    
-    page_url=re_me(r1,'src="(.*?)"')
-    
-    page_value= getUrl(page_url,headers=referer)
+    if reg_res and len(reg_res)>0:
+        for v in reg_res:
+            r1=get_unpacked(v)
+            r2=re_me(r1,'\'(.*?)\'')
+            if 'unescape' in r1:
+                r1=urllib.unquote(r2)
+            r+=r1+'\n'
+        print 'final value is ',r
+        
+        page_url=re_me(r,'src="(.*?)"')
+        
+        page_value= getUrl(page_url,headers=referer)
+        
     print page_value
 
     rtmp=re_me(page_value,'streamer\'.*?\'(.*?)\'\)')
@@ -629,3 +636,17 @@ def get_leton_rtmp(page_value, referer=None):
 
     ret= 'rtmp://' + str(a) + '.' + str(b) + '.' + str(c) + '.' + str(d) + v;
     return ret
+def get_packed_iphonetv_url(page_data):
+    import re,base64,urllib; 
+    s=page_data
+    while '(atob(' in s: 
+        s=re.compile('"(.*?)"').findall(s)[0]; 
+        s=  base64.b64decode(s); 
+        s=urllib.unquote(s); 
+    print s
+    return s
+def decrypt_vaughnlive(encrypted):
+    retVal=""
+    for val in encrypted.split(':'):
+        retVal+=chr(int(val.replace("0m0",""))/84/5)
+    return retVal
