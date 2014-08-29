@@ -142,9 +142,13 @@ def AddEnteries(type):
 		#addDir(Colored('ZemTv Channels','ZM',True) ,'ZEMTV' ,10,'', False, True,isItFolder=False)		#name,url,mode,icon
 		#AddChannels();#AddChannels()
 		addDir(Colored('EboundServices Channels','EB',True) ,'ZEMTV' ,10,'', False, True,isItFolder=False)		#name,url,mode,icon
-		AddChannelsFromEbound();#AddChannels()
+		try:
+			AddChannelsFromEbound();#AddChannels()
+		except: pass
 		addDir(Colored('Other sources','ZM',True) ,'ZEMTV' ,10,'', False, True,isItFolder=False)
-		AddChannelsFromOthers()
+		try:
+			AddChannelsFromOthers()
+		except: pass
 	return
 
 def AddChannelsFromOthers():
