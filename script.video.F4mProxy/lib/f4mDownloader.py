@@ -27,6 +27,8 @@ __addonname__   = selfAddon.getAddonInfo('name')
 __icon__        = selfAddon.getAddonInfo('icon')
 downloadPath   = xbmc.translatePath(selfAddon.getAddonInfo('profile'))#selfAddon["profile"])
 F4Mversion=''
+#from Crypto.Cipher import AES
+
 value_unsafe = '%+&;#'
 VALUE_SAFE = ''.join(chr(c) for c in range(33, 127)
     if chr(c) not in value_unsafe)
@@ -383,7 +385,7 @@ class F4MDownloader():
             self.proxy = proxy
             self.auth=auth
             #self.auth="pvtoken=exp%3D9999999999%7Eacl%3D%252f%252a%7Edata%3DZXhwPTE0MDYzMDMxMTV+YWNsPSUyZip+ZGF0YT1wdmMsc35obWFjPWQxODA5MWVkYTQ4NDI3NjFjODhjOWQwY2QxNTk3YTI0MWQwOWYwNWI1N2ZmMDE0ZjcxN2QyMTVjZTJkNmJjMDQ%3D%2196e4sdLWrezE46RaCBzzP43/LEM5en2KujAosbeDimQ%3D%7Ehmac%3DACF8A1E4467676C9BCE2721CA5EFF840BD6ED1780046954039373A3B0D942ADC&hdntl=exp=1406303115~acl=%2f*~data=hdntl~hmac=4ab96fa533fd7c40204e487bfc7befaf31dd1f49c27eb1f610673fed9ff97a5f&als=0,2,0,0,0,NaN,0,0,0,37,f,52293145.57,52293155.9,t,s,GARWLHLMHNGA,2.11.3,37&hdcore=2.11.3" 
-            if self.auth ==None:
+            if self.auth ==None or self.auth =='None' :
                 self.auth=''
             if self.proxy and len(self.proxy)==0:
                 self.proxy=None
@@ -579,10 +581,11 @@ class F4MDownloader():
             else:
                 from urlparse import urlparse
                 queryString = urlparse(url).query
-                print 'queryString',queryString
+                print 'queryString11',queryString
                 if len(queryString)==0: queryString=None
                 
                 if queryString==None or '?'  in bootstrap.attrib['url']:
+                   
                     bootstrapURL = join(man_url,bootstrap.attrib['url'])# take out querystring for later
                     queryString = urlparse(bootstrapURL).query
                     print 'queryString override',queryString
@@ -592,6 +595,7 @@ class F4MDownloader():
                             bootstrapURL+='?'+self.auth
                             queryString=self.auth#self._pv_params('',self.auth20)#not in use
                 else:
+                    print 'queryString!!',queryString
                     bootstrapURL = join(man_url,bootstrap.attrib['url'])+'?'+queryString
                     if len(self.auth)>0:
                         authval=self.auth#self._pv_params('',self.auth20)#not in use
@@ -599,6 +603,8 @@ class F4MDownloader():
                         queryString=authval
 
             print 'bootstrapURL',bootstrapURL
+            if queryString==None:
+                queryString=''
             self.bootstrapURL=bootstrapURL
             self.queryString=queryString
             self.bootstrap, self.boot_info, self.fragments_list,self.total_frags=self.readBootStrapInfo(bootstrapURL,bootstrapData)
@@ -690,13 +696,18 @@ class F4MDownloader():
                     reader = FlvReader(down_data)
                     while True:
                         _, box_type, box_data = reader.read_box_info()
-                        #print  'box_type',box_type
+                        print  'box_type',box_type,len(box_data)
                         #if box_type == b'afra':
                         #    dest_stream.write(box_data)
                         #    dest_stream.flush()
                         #    break
                             
                         if box_type == b'mdat':
+                            isDrm=True if ord(box_data[0])&1 else False
+                            #print 'isDrm',isDrm,repr(box_data)
+                            if 1==2 and isDrm:
+                                print 'drm',repr(box_data[1:17])
+                                box_data=box_data[17:]
                             dest_stream.write(box_data)
                             dest_stream.flush()
                             break

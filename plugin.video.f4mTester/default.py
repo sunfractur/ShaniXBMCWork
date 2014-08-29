@@ -22,7 +22,7 @@ print paramstring
 name=''
 proxy_string=None
 proxy_use_chunks=True
-auth_string=None
+auth_string=''
 if paramstring:
     paramstring="".join(paramstring[1:])
     params=urlparse.parse_qs(paramstring)

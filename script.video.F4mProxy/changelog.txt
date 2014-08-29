@@ -39,3 +39,5 @@ simple_dowloader now support bitrate which is currently only used for bein hd li
 small change so that its visible inside the repo
 [B]Version 2.1.2[/B]
 support for Auth Param
+[B]Version 2.1.3[/B]
+fix auth param in qs
