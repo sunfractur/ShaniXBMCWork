@@ -705,7 +705,10 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
                 if  'rawpost' in m and '$doregex' in m['rawpost']:
                     m['rawpost']=getRegexParsed(regexs, m['rawpost'],cookieJar,recursiveCall=True,cachedPages=cachedPages,rawPost=True)
                     print 'rawpost is now',m['rawpost']
-                
+  
+                if 'rawpost' in m and '$epoctime$' in m['rawpost']:
+                    m['rawpost']=m['rawpost'].replace('$epoctime$',getEpocTime())
+  
 
                 link=''
                 if m['page'] and m['page'] in cachedPages and not 'ignorecache' in m and forCookieJarOnly==False :
@@ -814,7 +817,10 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
                     else:
                         if not link=='':
                             reg = re.compile(m['expre']).search(link)
-                            val=reg.group(1).strip()
+                            val=''
+                            try:
+                                val=reg.group(1).strip()
+                            except: traceback.print_exc()
                         else:
                             val=m['expre']
                         if rawPost:
@@ -1231,11 +1237,15 @@ def doEval(fun_call,page_data,Cookie_Jar):
     print fun_call
     try:
         py_file='import '+fun_call.split('.')[0]
-        #print py_file
+        print py_file,sys.path
         exec( py_file)
-    except: pass
-    
+        print 'done'
+    except:
+        print 'error in import'
+        traceback.print_exc(file=sys.stdout)
+    print 'ret_val='+fun_call
     exec ('ret_val='+fun_call)
+    print ret_val
     #exec('ret_val=1+1')
     return str(ret_val)
     
@@ -1292,6 +1302,17 @@ def getUrl(url, cookieJar=None,post=None, timeout=20, headers=None):
 	link=response.read()
 	response.close()
 	return link;
+
+def get_decode(str,reg=None):
+	if reg:
+		str=re.findall(reg, str)[0]
+	s1 = urllib.unquote(str[0: len(str)-1]);
+	t = '';
+	for i in range( len(s1)):
+		t += chr(ord(s1[i]) - s1[len(s1)-1]);
+	t=urllib.unquote(t)
+	print t
+	return t
 
 def javascriptUnEscape(str):
 	js=re.findall('unescape\(\'(.*?)\'',str)
