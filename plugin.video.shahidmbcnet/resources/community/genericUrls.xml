@@ -1,5 +1,11 @@
 <streamingInfos>
-
+<streaminginfo>
+		<cname>Cartoon Network</cname>
+		<item>
+		<title>176.58</title>
+		<link>rtmp://176.58.79.15:1936/live/CNARABIA timeout=20</link>
+		</item>
+</streaminginfo>
 <streaminginfo>
      <cname>Canal+ Sport</cname>
 	 <item>
