@@ -1,5 +1,12 @@
 <streamingInfos>
 <streaminginfo>
+		<cname>Maannews</cname>
+		<item>
+		<title>Vstream</title>
+		<link>http://vstream2.hadara.ps:1935/maan/maan_1/gmswf.m3u8</link>
+		</item>
+</streaminginfo>
+<streaminginfo>
 		<cname>Cartoon Network</cname>
 		<item>
 		<title>176.58</title>
