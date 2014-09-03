@@ -1,5 +1,12 @@
 <streamingInfos>
 <streaminginfo>
+		<cname>Medi 1 Sat</cname>
+		<item>
+		<title>Elahmad_M</title>
+		<link>http://162.212.176.107:1935/medi_1_sat/globaltv-medi_1_sat.stream/gmswf.m3u8</link>
+		</item>
+</streaminginfo> 
+<streaminginfo>
 		<cname>Maannews</cname>
 		<item>
 		<title>Vstream</title>
