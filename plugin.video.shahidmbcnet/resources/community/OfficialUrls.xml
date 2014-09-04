@@ -1,5 +1,12 @@
 <streamingInfos>
 <streaminginfo>
+		<cname>Maannews</cname>
+		<item>
+		<title>HD</title>
+		<link>http://217.21.0.14:1935/maan/maan_1/playlist.m3u8</link>
+		</item>
+</streaminginfo>
+<streaminginfo>
         <cname>elbiladtv</cname>
 		<item>
 		<title>elbilad.net</title>
