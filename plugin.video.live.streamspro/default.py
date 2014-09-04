@@ -596,10 +596,10 @@ def getItems(items,fanart):
                         except:
                             addon_log("Regex: -- Not a setcookie")
                                                     
-                        #try:
-                        #    regexs[i('name')[0].string]['ignorecache'] = i('ignorecache')[0].string
-                        #except:
-                        #    addon_log("Regex: -- no ignorecache")
+                        try:
+                            regexs[i('name')[0].string]['ignorecache'] = i('ignorecache')[0].string
+                        except:
+                            addon_log("Regex: -- no ignorecache")
                         #try:
                         #    regexs[i('name')[0].string]['ignorecache'] = i('ignorecache')[0].string
                         #except:
