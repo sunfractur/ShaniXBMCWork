@@ -239,5 +239,145 @@
 		</item>
 	</streaminginfo>
 
+<streaminginfo>
+	<cname>Canal plus</cname>
+    <item>
+	<title>Canal+</title>
+	<link>$doregex[get-rtmp]</link>
+	<regex>
+		<name>get-rtmp</name>
+		<expres> file: "(.*?)"</expres>
+		<page>http://www.telvza-online.com/canal-fr</page>
+		<cookieJar>$doregex[getsession]</cookieJar>
+	</regex>
+	<regex>
+		<name>getsession</name>
+		<expres></expres>
+		<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+		<cookieJar></cookieJar>
+	</regex>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+	<cname>Canal+ Sport</cname>
+    <item>
+	<title>Canal+ Sport</title>
+	<link>$doregex[get-rtmp]</link>
+	<regex>
+		<name>get-rtmp</name>
+		<expres> file: "(.*?)"</expres>
+		<page>http://www.telvza-online.com/canal-sport</page>
+		<cookieJar>$doregex[getsession]</cookieJar>
+	</regex>
+	<regex>
+		<name>getsession</name>
+		<expres></expres>
+		<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+		<cookieJar></cookieJar>
+	</regex>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+	<cname>Canal Cinema</cname>
+    <item>
+	<title>Canal+ Cinema</title>
+	<link>$doregex[get-rtmp]</link>
+	<regex>
+		<name>get-rtmp</name>
+		<expres> file: "(.*?)"</expres>
+		<page>http://www.telvza-online.com/canal-cinema</page>
+		<cookieJar>$doregex[getsession]</cookieJar>
+	</regex>
+	<regex>
+		<name>getsession</name>
+		<expres></expres>
+		<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+		<cookieJar></cookieJar>
+	</regex>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+	<cname>Eurosport France</cname>
+    <item>
+	<title>Eurosport France</title>
+	<link>$doregex[get-rtmp]</link>
+	<regex>
+		<name>get-rtmp</name>
+		<expres> file: "(.*?)"</expres>
+		<page>http://www.telvza-online.com/eurosport-fr</page>
+		<cookieJar>$doregex[getsession]</cookieJar>
+	</regex>
+	<regex>
+		<name>getsession</name>
+		<expres></expres>
+		<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+		<cookieJar></cookieJar>
+	</regex>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+	<cname>Bein 1 FR</cname>
+    <item>
+	<title>Bein Sport 1 HD FR</title>
+	<link>$doregex[get-rtmp]</link>
+	<regex>
+		<name>get-rtmp</name>
+		<expres> file: "(.*?)"</expres>
+		<page>http://www.telvza-online.com/bein-sport-1-hd-fr</page>
+		<cookieJar>$doregex[getsession]</cookieJar>
+	</regex>
+	<regex>
+		<name>getsession</name>
+		<expres></expres>
+		<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+		<cookieJar></cookieJar>
+	</regex>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+	<cname>Bein 2 FR</cname>
+    <item>
+	<title>Bein Sport 2 HD FR</title>
+	<link>$doregex[get-rtmp]</link>
+	<regex>
+		<name>get-rtmp</name>
+		<expres> file: "(.*?)"</expres>
+		<page>http://www.telvza-online.com/bein-sport-2-hd-fr</page>
+		<cookieJar>$doregex[getsession]</cookieJar>
+	</regex>
+	<regex>
+		<name>getsession</name>
+		<expres></expres>
+		<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+		<cookieJar></cookieJar>
+	</regex>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+	<cname>Future TV</cname>
+    <item>
+	<title>Future</title>
+	<link>$doregex[get-rtmp]</link>
+	<regex>
+		<name>get-rtmp</name>
+		<expres> file: "(.*?)"</expres>
+		<page>http://www.telvza-online.com/future</page>
+		<cookieJar>$doregex[getsession]</cookieJar>
+	</regex>
+	<regex>
+		<name>getsession</name>
+		<expres></expres>
+		<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+		<cookieJar></cookieJar>
+	</regex>
+	</item>
+</streaminginfo>
+
 
 </streamingInfos>
