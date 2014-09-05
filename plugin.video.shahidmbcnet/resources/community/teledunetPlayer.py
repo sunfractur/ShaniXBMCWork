@@ -59,7 +59,7 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 
 			try:
 				link=None
-				result = cache2Hr.cacheFunction(getChannelHTML)
+				result = getChannelHTML();#cache2Hr.cacheFunction(getChannelHTML)
 				if result:
 					link=result['link']
 					print 'file_exists',len(link)
