@@ -835,7 +835,7 @@ def getSourceAndStreamInfo(channelId, returnOnFirst,pDialog):
 		#print 'default_source',default_source
 		orderlist={}
 		default_source_exists=False
-		total_sources=12
+		total_sources=13
 		for n in range(total_sources):
 			val=selfAddon.getSetting( "order"+str(n+1) )
 			if val and not val=="":

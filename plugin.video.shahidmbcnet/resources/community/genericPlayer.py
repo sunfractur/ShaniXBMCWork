@@ -117,7 +117,7 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
             except: pass
             if  '$doregex' in page:
                 page=getRegexParsed(regexs, page,cookieJar,recursiveCall=True,cachedPages=cachedPages)
-                
+            print 'page',page
             postInput=None
             if k.post:
                 postInput = k.post.text
@@ -136,6 +136,9 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
             else:
                 if page.startswith('http'):
                     print 'Ingoring Cache',page
+            
+                    if '$epoctime$' in page:
+                        page=page.replace('$epoctime$',getEpocTime())
                     req = urllib2.Request(page)
                     
                     req.add_header('User-Agent', 'Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1')

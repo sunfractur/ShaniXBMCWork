@@ -715,6 +715,8 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
                     link = cachedPages[m['page']]
                 else:
                     if m['page'] and  not m['page']=='' and  m['page'].startswith('http'):
+                        if '$epoctime$' in m['page']:
+                            m['page']=m['page'].replace('$epoctime$',getEpocTime())
                         #print 'Ingoring Cache',m['page']
                         req = urllib2.Request(m['page'])
                         print 'req',m['page']

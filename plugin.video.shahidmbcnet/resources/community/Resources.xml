@@ -22,4 +22,5 @@
 	<file fname="filmonUrls.xml"/> 
 	<file fname="filmonPlayer.py"/> 
 	<file fname="OfficialUrls.xml"/> 
+	<file fname="TelvzaUrls.xml"/> 
 </resources>
