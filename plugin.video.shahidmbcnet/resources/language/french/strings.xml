@@ -23,6 +23,7 @@
      <string id="32056">9ème préférence</string>
     <string id="32059">10ème préférence</string>
     <string id="32061">11ème préférence</string>
+	<string id="32068">13ème préférence</string>
 
 		
 	<string id="32027">Ressources locales</string>
@@ -41,7 +42,8 @@
     <string id="32053">Désactiver GLArab</string>	
     <string id="32055">Désactiver MagictvBox</string>	
     <string id="32060">Désactiver Emad</string>	
-	<string id="32062">Désactiver FilmOn</string>	
+	<string id="32062">Désactiver FilmOn</string>
+	<string id="32069">Désactiver Telvza</string>	
 	<string id="32063">Ne pas jouer "Qualité élevée" avec FilmOn</string>	
 
     
