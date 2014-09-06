@@ -688,25 +688,7 @@
 	</regex>
 	</item>
 </streaminginfo>
-<streaminginfo>
-	<cname></cname>
-	<item>
-	<title>Telvza</title>
-	<link>$doregex[get-rtmp]</link>
-	<regex>
-	<name>get-rtmp</name>
-	<expres> file: "(.*?)"</expres>
-	<page></page>
-	<cookieJar>$doregex[getsession]</cookieJar>
-	</regex>
-	<regex>
-	<name>getsession</name>
-	<expres></expres>
-	<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
-	<cookieJar></cookieJar>
-	</regex>
-	</item>
-</streaminginfo>
+
 <streaminginfo>
 	<cname>Aljadeed</cname>
 	<item>
