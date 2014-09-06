@@ -30,7 +30,7 @@
 
 
 <streaminginfo>
-	<cname>CBC 1</cname>
+	<cname>CBC</cname>
 	<item>
 	<title>unknow</title>
 	<link>rtmp://176.58.79.15:1936/live/CBC timeout=20</link>
@@ -45,7 +45,7 @@
 </streaminginfo>
 
 <streaminginfo>
-	<cname>MBC</cname>
+	<cname>MBC 1</cname>
 	<item>
 	<title>unknow</title>
 	<link>rtmp://176.58.79.15:1936/live/mbc1 timeout=20</link>
