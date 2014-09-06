@@ -575,7 +575,7 @@
 	</item>
 </streaminginfo>
 <streaminginfo>
-	<cname>Algerie</cname>
+	<cname>AlGeria</cname>
 	<item>
 	<title>Telvza</title>
 	<link>$doregex[get-rtmp]</link>
