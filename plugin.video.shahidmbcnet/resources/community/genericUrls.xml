@@ -1,4 +1,70 @@
 <streamingInfos>
+
+<streaminginfo>
+	<cname>Aghani</cname>
+	<item>
+	<title>unknow</title>
+	<link>http://66.135.32.50/aghanitv/aghanitv/chunklist_w775380517.m3u8</link>
+	</item>
+</streaminginfo>
+
+
+<streaminginfo>
+	<cname>CBC</cname>
+	<item>
+	<title>unknow</title>
+	<link>rtmp://176.58.79.15:1936/live/CBC timeout=20</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>CBC Sofra</cname>
+	<item>
+	<title>unknow</title>
+	<link>rtmp://176.58.79.15:1936/live/CBCSofra timeout=20</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+	<cname>MBC</cname>
+	<item>
+	<title>unknow</title>
+	<link>rtmp://176.58.79.15:1936/live/mbc1 timeout=20</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+	<cname>MBC 2</cname>
+	<item>
+	<title>unknow</title>
+	<link>rtmp://176.58.79.15:1936/live/mbc2 timeout=20</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+	<cname>MBC 3</cname>
+	<item>
+	<title>unknow</title>
+	<link>rtmp://176.58.79.15:1936/live/mbc3 timeout=20</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>MBC 4</cname>
+	<item>
+	<title>unknow</title>
+	<link>rtmp://176.58.79.15:1936/live/mbc4 timeout=20</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+        <cname>Hawas</cname>
+	<item>
+	<title>You need to install f4m_tester addon from Shani Repo</title>
+	<link>plugin://plugin.video.f4mTester/?url=http://flash-lh.akamaihd.net/z/hawas_1@192483/manifest.f4m?hdcore=2.11.3&amp;ag=CSNEUQOFUMPG</link>
+	</item>
+</streaminginfo>
+
+
+
 <streaminginfo>
 		<cname>Medi 1 Sat</cname>
 		<item>
