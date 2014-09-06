@@ -2074,5 +2074,3121 @@
 		</item>
 	</streaminginfo>
 
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/bein-news</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/bein-sport-1-hd</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+           
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/bein-sport-1-hd-fr</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+         
+
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/bein-sport-10-hd</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+          
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/bein-sport-11-hd</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/bein-sport-12-hd</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+         
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/bein-sport-13-hd</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+ 
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/bein-sport-14-hd</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+
+             
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/bein-sport-15-hd</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	 
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/bein-sport-2-hd</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/bein-sport-2-hd-fr</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	 
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/bein-sport-3-hd</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/bein-sport-4-hd</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	 
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/bein-sport-5-hd</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/bein-sport-6-hd</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/bein-sport-7-hd</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/bein-sport-8-hd</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/bein-sport-9-hd</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/bt-sport-1-uk</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/bt-sport-2-uk</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/cairo-cinema</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/cairo-drama</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/canal-cinema</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/canal-fr</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/canal-sport</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	 
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/cartoon-network</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/cbc</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/cbc-2</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	  
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/cbc-drama</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	 
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/cbc-extra</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/cbc-sofra</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	 
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/cctv-arabic</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/cima</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/cnbc-arabia</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/coran</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	 
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/coran-tv</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/dalel</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	 
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/direct-8</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/djibouti</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	 
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/dream-1</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/dubai</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/dubai-one</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/dubai-sport-1</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/dubai-sport-2</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	 
+             
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/dubai-sport-3</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/dzair-24</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+             
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/dzair-tv</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/echorouk-tv</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	 
+             
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/el-djazairia</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	 
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/espn-uk</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+             
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/estv</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/ettounsia</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+             
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/etv-ethiopia</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	 
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/euro-news</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+             
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/eurosport-fr</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/fatafeat</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+             
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/fox</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	 
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/fox-movies</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+             
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/france-2</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/france-3</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+             
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/france-5</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/france24-arabic</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/funoon</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/future</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/hawas</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/hctv</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+             
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/iqra</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	 
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/ishtar</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	 
+             
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/jordan</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	 
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/kalsan-tv</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	 
+             
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/kanal-4</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	 
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/karbala</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+             
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/knn-news</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/ksa-1</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+             
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/kurdistan</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	 
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/kuwait</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	 
+             
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/lbc</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	 
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/lbc-europe</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/libya</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	 
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/libya-alahrar</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+             
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/libya-alriadya-1</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/libya-alwatania-1</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	 
+             
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/libya-tv</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	 
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/llbn</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	 
+             
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/m6-hd</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	 
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/maghreb-1</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+             
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/mauritanie</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	 
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/mazeka-zoom</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	 
+             
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/mazzika</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	 
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/mbc-1</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+             
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/mbc-2</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/mbc-3</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/mbc-4</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/mbc-action</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/mbc-bollywood</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+	 
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/mbc-drama</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/mbc-max</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+ 
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/mbc-misr</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/medi-1-sat</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/melody-aflam</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/melody-arabia</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/melody-classics</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/melody-drama</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+ 
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/melody-hits</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/moga-comedy</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/mtv</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/national-geo-ad</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/nbn</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/nessma-tv</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/nile-cinema</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/nile-comedy</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/nile-drama</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/nile-drama-2</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/nile-family</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/nile-life</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+ 
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/nile-news</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/nile-sport</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/nile-tv</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/noonkids</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/noor-alsham</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/noor-dubai</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/noursat</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/nrj-12</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+ 
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/om-durman</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/tv</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/orient-news</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/oromia-tv</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/osn-hala-drama</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/osn-movies-drama</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/osn-movies-hd</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+             
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/osn-movies-hd-action</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/osn-movies-hd-comedy</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+            
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/osn-sports-1-hd</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+ 
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/osn-sports-2-hd</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+        
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/osn-sports-3-hd</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+ 
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/osn-ya-hala-arabella-hd</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+        
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/osn-ya-hala-hd</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/osn-ya-hala-hd-2</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+            
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/osn-movies-hd-premiere</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+ 
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/otv-lebanon</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+  
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/palestine</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+ 
+<streaminginfo>
+		<cname></cname>
+		<item>
+			<title>telvza</title>
+
+				<link>$doregex[get-rtmp]</link>
+<regex>
+<name>get-rtmp</name>
+<expres> file: "(.*?)"</expres>
+<page>http://www.telvza-online.com/panorama-comedy</page>
+<cookieJar>$doregex[getsession]</cookieJar>
+</regex>
+<regex>
+<name>getsession</name>
+<expres></expres>
+<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+<cookieJar></cookieJar>
+</regex>
+		</item>
+	</streaminginfo>
+	
+
 
 </streamingInfos>
