@@ -1,10 +1,24 @@
 <streamingInfos>
 <streaminginfo>
-		<cname>Tunisia national 1</cname>
-		<item>
-		<title> streamago</title>
-		<link>http://ca-edge-5.cdn2.streamago.tv:1935/streamagoedge/1052/224/chunklist_w182068498.m3u8</link>
-		</item>
+	<cname>MBC Max</cname>
+	<item>
+	<title>unknow</title>
+	<link>rtmp://176.58.79.15:1936/live/MBCMAX timeout=20</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Sharjah</cname>
+	<item>
+	<title>itworksch</title>
+	<link>rtmp://livestreaming.itworkscdn.net/smc1live/smc1tv timeout=20</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Tunisia national 1</cname>
+	<item>
+	<title> streamago</title>
+	<link>http://ca-edge-5.cdn2.streamago.tv:1935/streamagoedge/1052/224/chunklist_w182068498.m3u8</link>
+	</item>
 </streaminginfo>
 <streaminginfo>
 	<cname>Aghani</cname>
