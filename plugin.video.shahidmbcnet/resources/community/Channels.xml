@@ -9,6 +9,15 @@
      </assignedcategory>
 </channel>
 <channel>
+     <cname>Cafe Creme</cname>
+     <imageurl>https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRR82W_tyfxY1USt_OVVUTxrSGTGR7fCQe0zwbZTHTvf5-ZqNxN</imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+	 <category>french</category>
+	 <category>sports</category>
+     </assignedcategory>
+</channel>
+<channel>
      <cname>Sport365</cname>
      <imageurl>https://pbs.twimg.com/profile_images/469052709392232449/5vsQdclC.jpeg</imageurl>
      <enabled>True</enabled>
