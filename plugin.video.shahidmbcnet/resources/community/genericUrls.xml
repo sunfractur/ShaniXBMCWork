@@ -21,6 +21,55 @@
 	</item>
 </streaminginfo>
 <streaminginfo>
+<cname>MBC Action</cname>
+<item>
+<title>unknow</title>
+<link>rtmp://176.58.79.15:1936/live//MBCAction timeout=20</link>
+</item>
+</streaminginfo>
+<streaminginfo>
+<cname>MBC Drama</cname>
+<item>
+<title>unknow</title>
+<link>rtmp://176.58.79.15:1936/live//MBCDrama timeout=20</link>
+</item>
+</streaminginfo>
+<streaminginfo>
+<cname>MBC Bollywood</cname>
+<item>
+<title>unknow</title>
+<link>rtmp://176.58.79.15:1936/live/MBCBollywood timeout=20</link>
+</item>
+</streaminginfo>
+<streaminginfo>
+<cname>MBC Masr</cname>
+<item>
+<title>unknow</title>
+<link>rtmp://176.58.79.15:1936/live/MBCMasr timeout=20</link>
+</item>
+</streaminginfo>
+<streaminginfo>
+<cname>MBC 2</cname>
+<item>
+<title>CBC Drama</title>
+<link>rtmp://176.58.79.15:1936/live/CBCDrama timeout=20</link>
+</item>
+</streaminginfo>
+<streaminginfo>
+<cname>Toyor Al Janah</cname>
+<item>
+<title>unknow</title>
+<link>rtmp://176.58.79.15:1936/live/Toyoraljanah timeout=20</link>
+</item>
+</streaminginfo>
+<streaminginfo>
+<cname>Alhayat-Series</cname>
+<item>
+<title>unknow</title>
+<link>rtmp://176.58.79.15:1936/live/AlHayat timeout=20</link>
+</item>
+</streaminginfo>
+<streaminginfo>
 	<cname>MBC Max</cname>
 	<item>
 	<title>unknow</title>
