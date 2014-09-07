@@ -21,6 +21,13 @@
 	</item>
 </streaminginfo>
 <streaminginfo>
+	<cname>Zee Aflam</cname>
+	<item>
+	<title>unknow</title>
+	<link>rtmp://176.58.79.15:1936/live/ZEEAFLAM timeout=20</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
 <cname>MBC Action</cname>
 <item>
 <title>unknow</title>
