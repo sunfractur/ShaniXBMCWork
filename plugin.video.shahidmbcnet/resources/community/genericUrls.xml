@@ -1,5 +1,12 @@
 <streamingInfos>
 <streaminginfo>
+	<cname>Al Nahar 2</cname>
+	<item>
+	<title>unknow</title>
+	<link>rtmp://188.247.93.26/live/alnhar2.stream_360p timeout=20</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
 	<cname>Mecca</cname>
 	<item>
 	<title>unknow</title>
