@@ -1,5 +1,13 @@
 <channels>
 <channel>
+     <cname>Mecca</cname>
+     <imageurl>http://s28.postimg.org/4sitz3lod/Unbenannt.png</imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+	<category>islam</category>
+     </assignedcategory>
+</channel>
+<channel>
      <cname>Maannews</cname>
      <imageurl>http://civiccoalition-jerusalem.org/system/files/images/maan_logo_med_q_0.jpg</imageurl>
      <enabled>True</enabled>
