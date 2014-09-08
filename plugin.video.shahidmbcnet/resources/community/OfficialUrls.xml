@@ -2306,13 +2306,7 @@
 		<link>rtmp://50.7.180.18/nahar_tv/nahar_drama.stream timeout=20</link>
 		</item>
 </streaminginfo>
-<streaminginfo>
-        <cname>Al-Nahar Drama</cname>
-		<item>
-		<title>High_master</title>
-		<link>http://50.7.180.18:1935/nahar1/smil:alnahardrama-smil.smil/playlist.m3u8</link>
-		</item>
-</streaminginfo>
+
 <streaminginfo>
         <cname>Al Nahar 2</cname>
 		<item>
