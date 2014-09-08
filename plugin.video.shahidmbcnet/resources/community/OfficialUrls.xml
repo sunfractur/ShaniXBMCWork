@@ -3,14 +3,14 @@
 	<cname>Alnahar Alyoum</cname>
 	<item>
 	<title>Low</title>
-	<link>rtmp://50.7.180.18/nahar_tvnahar_youmprofile2.stream timeout=20</link>
+	<link>rtmp://50.7.180.18/nahar_tv/nahar_youmprofile2.stream timeout=20</link>
 	</item>
 </streaminginfo>
 <streaminginfo>
 	<cname>Alnahar Alyoum</cname>
 	<item>
 	<title>Med</title>
-	<link>rtmp://50.7.180.18/nahar_tvnahar_youmprofile1.stream timeout=20</link>
+	<link>rtmp://50.7.180.18/nahar_tv/nahar_youmprofile1.stream timeout=20</link>
 	</item>
 </streaminginfo>
 <streaminginfo>
@@ -2267,31 +2267,24 @@
         <cname>Al Nahar</cname>
 		<item>
 		<title>Low</title>
-		<link>http://50.7.180.18:1935/nahar1/smil:nahar1-smil.smil/chunklist_w384432067_b365536.m3u8</link>
+		<link>rtmp://50.7.180.18/nahar_tv/nahar_tvprofile2.stream timeout=20</link>
 		</item>
 </streaminginfo>
 <streaminginfo>
         <cname>Al Nahar</cname>
 		<item>
 		<title>Med</title>
-		<link>http://50.7.180.18:1935/nahar1/smil:nahar1-smil.smil/chunklist_w384432067_b665536.m3u8</link>
+		<link>rtmp://50.7.180.18/nahar_tv/nahar_tvprofile1.stream timeout=20</link>
 		</item>
 </streaminginfo>
 <streaminginfo>
         <cname>Al Nahar</cname>
 		<item>
 		<title>High</title>
-		<link>http://50.7.180.18:1935/nahar1/smil:nahar1-smil.smil/chunklist_w384432067_b1908736.m3u8</link>
+		<link>rtmp://50.7.180.18/nahar_tv/nahar_tv.stream timeout=20</link>
 		</item>
 </streaminginfo>
 
-<streaminginfo>
-        <cname>Al Nahar</cname>
-		<item>
-		<title>High_master</title>
-		<link>http://50.7.180.18:1935/nahar1/smil:nahar1-smil.smil/playlist.m3u8</link>
-		</item>
-</streaminginfo>
 <streaminginfo>
         <cname>Al-Nahar Drama</cname>
 		<item>
