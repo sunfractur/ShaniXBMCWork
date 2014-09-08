@@ -2239,30 +2239,24 @@
         <cname>Al Nahar Sport</cname>
 		<item>
 		<title>Low</title>
-		<link>http://50.7.180.18:1935/nahar1/smil:naharsports-smil.smil/chunklist_w1719283736_b332768.m3u8</link>
+		<link>rtmp://50.7.180.18:1935/nahar_tv/nahar_sportprofile2.stream timeout=20</link>
 		</item>
 </streaminginfo>
 <streaminginfo>
         <cname>Al Nahar Sport</cname>
 		<item>
 		<title>Med</title>
-		<link>http://50.7.180.18:1935/nahar1/smil:naharsports-smil.smil/chunklist_w1719283736_b632768.m3u8</link>
+		<link>rtmp://50.7.180.18:1935/nahar_tv/nahar_sportprofile1.stream timeout=20</link>
 		</item>
 </streaminginfo>
 <streaminginfo>
         <cname>Al Nahar Sport</cname>
 		<item>
 		<title>High</title>
-		<link>http://50.7.180.18:1935/nahar1/smil:naharsports-smil.smil/chunklist_w1719283736_b1875968.m3u8</link>
+		<link>rtmp://50.7.180.18:1935/nahar_tv/nahar_sport.stream timeout=20</link>
 		</item>
 </streaminginfo>
-<streaminginfo>
-        <cname>Al Nahar Sport</cname>
-		<item>
-		<title>High_Master</title>
-		<link>http://50.7.180.18:1935/nahar1/smil:naharsports-smil.smil/playlist.m3u8</link>
-		</item>
-</streaminginfo>
+
 <streaminginfo>
         <cname>Al Nahar</cname>
 		<item>
