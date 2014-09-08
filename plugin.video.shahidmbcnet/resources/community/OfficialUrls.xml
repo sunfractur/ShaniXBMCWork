@@ -2289,21 +2289,21 @@
         <cname>Al-Nahar Drama</cname>
 		<item>
 		<title>Low</title>
-		<link>http://50.7.180.18:1935/nahar1/smil:alnahardrama-smil.smil/chunklist_w2089181793_b332768.m3u8</link>
+		<link>rtmp://50.7.180.18/nahar_tv/nahar_dramaprofile2.stream timeout=20</link>
 		</item>
 </streaminginfo>
 <streaminginfo>
         <cname>Al-Nahar Drama</cname>
 		<item>
 		<title>Med</title>
-		<link>http://50.7.180.18:1935/nahar1/smil:alnahardrama-smil.smil/chunklist_w2089181793_b632768.m3u8</link>
+		<link>rtmp://50.7.180.18/nahar_tv/nahar_dramaprofile1.stream timeout=20</link>
 		</item>
 </streaminginfo>
 <streaminginfo>
         <cname>Al-Nahar Drama</cname>
 		<item>
 		<title>High</title>
-		<link>http://50.7.180.18:1935/nahar1/smil:alnahardrama-smil.smil/chunklist_w2089181793_b1875968.m3u8</link>
+		<link>rtmp://50.7.180.18/nahar_tv/nahar_drama.stream timeout=20</link>
 		</item>
 </streaminginfo>
 <streaminginfo>
