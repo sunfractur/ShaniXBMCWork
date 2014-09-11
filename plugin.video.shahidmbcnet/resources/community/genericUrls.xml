@@ -3144,7 +3144,13 @@
 	<link>http://live.echoroukonline.com/live/EchoroukTV/playlist.m3u8</link>
 	</item>
 </streaminginfo>
-
+<streaminginfo>        
+	<cname>Echorouk Tv</cname>
+    <item>
+    <title>F4m</title>
+	<link>plugin://plugin.video.f4mTester/?url=http://live.echoroukonline.com:1935/live/EchoroukTV/manifest.f4m</link>
+	</item>
+</streaminginfo>
 <streaminginfo>        
 		<cname>Al Baghdadia Drama</cname>
         <item>
