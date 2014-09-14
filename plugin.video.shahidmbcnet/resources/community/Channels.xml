@@ -1,5 +1,14 @@
 <channels>
 <channel>
+    <cname>4Shbab</cname>
+    <imageurl>http://www.lyngsat-logo.com/hires/num/4shbab_tv1_eg.png</imageurl>
+    <enabled>True</enabled>
+    <assignedcategory>
+    <category>islam</category>
+    <category>egypt</category>
+    </assignedcategory>
+</channel>
+<channel>
     <cname>Oscar Drama</cname>
     <imageurl>http://www.lyngsat-logo.com/hires/oo/oscar_drama.png</imageurl>
     <enabled>True</enabled>
