@@ -1,5 +1,33 @@
 <channels>
 <channel>
+    <cname>Algharam Cinema</cname>
+    <imageurl>http://s27.postimg.org/hku9o7m1f/a_LGHARAM_c_INEMA.png</imageurl>
+    <enabled>True</enabled>
+    <assignedcategory>
+    <category>drama</category>
+    <category>egypt</category>
+    </assignedcategory>
+</channel>
+<channel>
+    <cname>AlKahera</cname>
+    <imageurl>http://s12.postimg.org/ghl4g4ksp/alkahera.png</imageurl>
+    <enabled>True</enabled>
+    <assignedcategory>
+    <category>drama</category>
+    <category>egypt</category>
+    </assignedcategory>
+</channel>
+
+<channel>
+        <cname>Abu Dhabi Emirates</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/aa/abu_dhabi_al_emarat.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>ent</category>
+        <category>gulf</category>
+        </assignedcategory>
+</channel>
+<channel>
     <cname>Albait Baitak Cinema</cname>
     <imageurl>http://s7.postimg.org/w3o88ckrv/Albaytbitak.png</imageurl>
     <enabled>True</enabled>
