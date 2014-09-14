@@ -1,5 +1,14 @@
 <channels>
 <channel>
+    <cname>Albait Baitak Cinema</cname>
+    <imageurl>http://s7.postimg.org/w3o88ckrv/Albaytbitak.png</imageurl>
+    <enabled>True</enabled>
+    <assignedcategory>
+    <category>drama</category>
+    <category>egypt</category>
+    </assignedcategory>
+</channel>
+<channel>
      <cname>Mecca</cname>
      <imageurl>http://s28.postimg.org/4sitz3lod/Unbenannt.png</imageurl>
      <enabled>True</enabled>
