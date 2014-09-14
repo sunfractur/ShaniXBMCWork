@@ -708,13 +708,6 @@
     </item>
 </streaminginfo>
 
- <streaminginfo>
-     <cname>Abu Dhabi Drama</cname>
-	<item>
-	<title>WebMedias</title>
-	<link>rtmp://iptv2.web-medias.net:8080/live/abu_dhabi_drama?e=1402731755&amp;st=vxBzxQA2D4xFSpocrvQl_A swfUrl=http://www.web-medias.net/jwplayer.swf pageUrl=http://www.web-medias.net/iptv/%3Fch%3Dabu_dhabi_drama live=true timeout=15</link>
-	</item>
-</streaminginfo>
 
 <streaminginfo>
      <cname>Alhayat Cinema</cname>
@@ -781,46 +774,6 @@
 	</item>
 </streaminginfo>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<streaminginfo>
-     <cname>Yarmouk</cname>
-	<item>
-	<title>You need to install Justin addon</title>
-	<link>plugin://plugin.video.jtv.archives/?mode=get_channel&amp;name=yarmouktv&amp;play=1</link>
-	</item>
-</streaminginfo>
-
-<streaminginfo>
-     <cname>Alhadat</cname>
-	<item>
-	<title>You need to install Justin addon</title>
-	<link>plugin://plugin.video.jtv.archives/?mode=get_channel&amp;name=alhadathtv&amp;play=1</link>
-	</item>
-</streaminginfo>
 <streaminginfo>
 <cname>Heya</cname>
 <item>
@@ -1686,13 +1639,6 @@
 	</item>
 </streaminginfo>
 
-<streaminginfo>
-    <cname>Al Masar 2</cname>
-	<item>
-		<title>Jtv : You need Justin addon. need time to start</title>
-		<link>plugin://plugin.video.jtv.archives/?mode=get_channel&amp;name=almasartv&amp;play=1</link>
-	</item>
-</streaminginfo>
 
 <streaminginfo>
     <cname>Aljadeed</cname>
@@ -2156,13 +2102,6 @@
 	</item>
 </streaminginfo>
 
-<streaminginfo>
-     <cname>AlYawm</cname>
-	<item>
-	<title>You need to install Justin addon</title>
-	<link>plugin://plugin.video.jtv.archives/?mode=get_channel&amp;name=captain_america_one&amp;play=1</link>
-	</item>
-</streaminginfo>
 
 <streaminginfo>
         <cname>Panorama film</cname>
@@ -2424,27 +2363,6 @@
 </streaminginfo>
 
 
-
-
-
-
-
-<streaminginfo>
-     <cname>Al Haneen Music</cname>
-	<item>
-	<title>You need Justin addon. need time to start</title>
-	<link>plugin://plugin.video.jtv.archives/?mode=get_channel&amp;name=musichaneentv&amp;play=1</link>
-	</item>
-</streaminginfo>
-
-<streaminginfo>
-     <cname>Zaitouna</cname>
-	<item>
-	<title>You need Justin addon. need time to start</title>
-	<link>plugin://plugin.video.jtv.archives/?mode=get_channel&amp;name=zaytounatv&amp;play=1</link>
-	</item>
-</streaminginfo>
-
 <streaminginfo>
      <cname>Qatar</cname>
 	 <item>
@@ -2501,27 +2419,9 @@
 </item>
 </streaminginfo>
 
-<streaminginfo>
-     <cname>Abu Dhabi</cname>
-<item>
-<title>AD Aloula Gini</title>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres>file: "([^"]*)</expres>
-<page>http://giniko.com/watch.php?id=80</page>
-</regex>
-<thumbnail>http://www.lyngsat-logo.com/hires/aa/abu_dhabi_tv.png</thumbnail>
-</item>
-</streaminginfo>
 
-<streaminginfo>
-     <cname>Aghanina</cname>
-	<item>
-	<title>You need to install Justin addon: Low quality</title>
-	<link>plugin://plugin.video.jtv.archives/?mode=get_channel&amp;name=aghanina2014&amp;play=true</link>
-	</item>
-</streaminginfo>
+
+
 
 
 <streaminginfo>
@@ -2941,14 +2841,6 @@
 </streaminginfo>
 
 <streaminginfo>
-        <cname>Moga Comedy</cname>
-	<item>
-	<title>you need to install Justin addons</title>
-	<link>plugin://plugin.video.jtv.archives/?mode=get_channel&amp;name=20satttt&amp;play=1</link>
-	</item>
-</streaminginfo>
-
-<streaminginfo>
         <cname>Al Hiwar</cname>
 	<item>
 	<title>185.2 Source</title>
@@ -3184,14 +3076,6 @@
 			<title>Al Magharibia (Direct)</title>
 			<thumbnail>http://almagharibia.tv/neue/web/assets/almagharibia.png</thumbnail>
 			<link>rtmp://37.130.230.45/livepkgr/ playpath=livestream swfUrl=http://p.jwpcdn.com/6/8/jwplayer.flash.swf live=true timeout=15 pageUrl=http://almagharibia.tv/livestream</link>
-		</item>
-	</streaminginfo>
-	
-	<streaminginfo>
-  		<cname>Al Hadath</cname>
-		<item>
-			<title>you need to install Justin addons</title>
-			<link>plugin://plugin.video.jtv.archives/?mode=get_channel&amp;name=alhadathtv&amp;play=1</link>
 		</item>
 	</streaminginfo>
 	
