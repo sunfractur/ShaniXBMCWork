@@ -1,5 +1,14 @@
 <channels>
 <channel>
+    <cname>Cairo Comedy</cname>
+    <imageurl></imageurl>
+    <enabled>True</enabled>
+    <assignedcategory>
+    <category>drama</category>
+    <category>egypt</category>
+    </assignedcategory>
+</channel>
+<channel>
     <cname>4Shbab</cname>
     <imageurl>http://www.lyngsat-logo.com/hires/num/4shbab_tv1_eg.png</imageurl>
     <enabled>True</enabled>
