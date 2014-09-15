@@ -40,7 +40,15 @@
 		<setting label="32042" type="lsep"/>
 			<setting label="32043" type="text" id="setting_iptvosnUser" values="" default=""/>
 			<setting label="32044" type="text" id="setting_iptvosnPwd" values="" default=""/>  
-		<setting type="sep"/>
+			
+		   <setting label="32071" type="lsep"/>
+			<setting label="32072" type="text" id="GLArabUserName" values="" default=""/>
+			<setting label="32073" type="text" id="GLArabUserPwd" values="" default=""/>  
+			<setting label="32074" type="labelenum" id="GLArabServer" values="Low 38.99.146.40:7777|Low 38.99.146.42:7777|Low 38.99.146.43:7777|Low 38.99.146.44:7777|High/Medium 38.99.146.36:7777|High/Medium 38.99.146.37:7777" default="Low 38.99.146.43:7777"/>
+			<setting label="32075" type="labelenum" id="GLArabQuality" values="Low|Med|HD" default="Low"/>  
+			
+			
+			<setting type="sep"/>
 		
 		<setting type="bool" label="32047" id="clearLogonSettings"  default="false"/>
 	  </category>

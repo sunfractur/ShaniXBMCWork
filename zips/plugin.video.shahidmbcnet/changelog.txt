@@ -1,3 +1,6 @@
+[B]Version 3.3.4[/B]
+GLArab improvment, now selection of quality is available in settings 
+
 [B]Version 3.3.3[/B]
 new source telvza support
 

@@ -33,10 +33,9 @@ def PlayStream(sourceEtree, urlSoup, name, url):
         link=''
         sc=''
         try:
-            title=urlSoup.item.title.text
-            
             link=urlSoup.item.link.text
             sc=sourceEtree.findtext('sname')
+            title=urlSoup.item.title.text
         except: pass
         if link=='':
             timeD = 2000  #in miliseconds
@@ -49,7 +48,7 @@ def PlayStream(sourceEtree, urlSoup, name, url):
             liveLink=    getRegexParsed(urlSoup,link)
         else:
             liveLink=    link
-        liveLink=liveLink
+
         if len(liveLink)==0:
             timeD = 2000  #in miliseconds
             line1="couldn't read title and link"
@@ -61,6 +60,9 @@ def PlayStream(sourceEtree, urlSoup, name, url):
         pDialog.update(80, line1)
         liveLink=replaceSettingsVariables(liveLink)
         name+='-'+sc+':'+title
+        if sc=='GLArab':
+            liveLink=replaceGLArabVariables(liveLink)
+            if liveLink=="": return False
         print 'liveLink',liveLink
         pDialog.close()
         listitem = xbmcgui.ListItem( label = str(name), iconImage = "DefaultVideo.png", thumbnailImage = xbmc.getInfoImage( "ListItem.Thumb" ), path=liveLink )
@@ -653,3 +655,48 @@ def decrypt_vaughnlive(encrypted):
     for val in encrypted.split(':'):
         retVal+=chr(int(val.replace("0m0",""))/84/5)
     return retVal
+
+def replaceGLArabVariables(link):
+    try:
+        GLArabUserName=selfAddon.getSetting( "GLArabUserName" )
+        GLArabUserPwd=selfAddon.getSetting( "GLArabUserPwd" )
+        GLArabServer=selfAddon.getSetting( "GLArabServer" )
+        GLArabQuality=selfAddon.getSetting( "GLArabQuality" )
+        tryLogin=True
+        if GLArabUserName=="" or GLArabUserPwd=="":
+            tryLogin=False
+            timeD = 2000  #in miliseconds
+            line1="Login not defined, using default login and low quality"
+            GLArabServer="Low 38.99.146.43:7777"
+            GLArabQuality=""
+            xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, timeD, __icon__))
+
+        if GLArabServer=="": GLArabServer="Low 38.99.146.43:7777"
+        GLArabServer=GLArabServer.split(' ')[1]
+        GLArabQuality="" if GLArabQuality=="Low" or GLArabQuality=="" else '_'+GLArabQuality
+        import cookielib
+        cookieJar = cookielib.LWPCookieJar()
+        #def getUrl(url, cookieJar=None,post=None, timeout=20, headers=None):
+        if tryLogin:
+            mainpage=getUrl('http://www.glarab.com/',cookieJar)
+            evalidation=re.compile(' id="__EVENTVALIDATION" value="(.*?)"').findall(mainpage)[0]
+            vstate=re.compile('id="__VIEWSTATE" value="(.*?)"').findall(mainpage)[0]  
+
+            post={'pageHeader$ScriptManager1':'pageHeader$UpdatePanel1|pageHeader$buttonLogin','__EVENTTARGET':'','__EVENTARGUMENT':'','__VIEWSTATE':vstate,'__EVENTVALIDATION':evalidation,'pageHeader$txtUsername':GLArabUserName,'pageHeader$txtPassword':GLArabUserPwd,'pageHeader$buttonLogin':' '}
+            post = urllib.urlencode(post)
+            getUrl('http://www.glarab.com/homepage.aspx',cookieJar,post)
+        else:
+            getUrl('http://www.glarab.com/',cookieJar)
+        
+        sessionpage=getUrl('http://www.glarab.com/ajax.aspx?stream=live&type=reg&ppoint=KuwaitSpace',cookieJar)
+        print sessionpage
+        sessionpage=sessionpage.split('|')[1]
+        link=link.replace('$GL-IP$',GLArabServer)
+        link=link.replace('$GL-Qlty$',GLArabQuality)
+        link=link.replace('$GL-Sesession$',sessionpage)
+        return link
+    except:
+        traceback.print_exc(file=sys.stdout)
+        return ""
+        
+        

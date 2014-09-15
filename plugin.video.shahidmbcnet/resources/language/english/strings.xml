@@ -65,5 +65,11 @@
     <string id="32064">Twelfth Preference</string>
 	<string id="32065">Disable Offcial source</string>	
 	<string id="32066">Try All sources one by one</string>	
+
+	<string id="32071">GLArab Login</string>	
+	<string id="32072">GLArab User Name</string>	
+	<string id="32073">GLArab Password</string>		
+	<string id="32074">Server Selection</string>		
+	<string id="32075">Quality</string>		
 	
 </strings>
