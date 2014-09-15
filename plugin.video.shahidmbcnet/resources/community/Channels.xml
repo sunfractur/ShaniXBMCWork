@@ -90,7 +90,25 @@
      </assignedcategory>
 </channel>
 <channel>
-     <cname>Cafe Creme</cname>
+     <cname>CafeCreme 1_4</cname>
+     <imageurl>https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRR82W_tyfxY1USt_OVVUTxrSGTGR7fCQe0zwbZTHTvf5-ZqNxN</imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+	 <category>french</category>
+	 <category>sports</category>
+     </assignedcategory>
+</channel>
+<channel>
+     <cname>CafeCreme 5_8</cname>
+     <imageurl>https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRR82W_tyfxY1USt_OVVUTxrSGTGR7fCQe0zwbZTHTvf5-ZqNxN</imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+	 <category>french</category>
+	 <category>sports</category>
+     </assignedcategory>
+</channel>
+<channel>
+     <cname>CafeCreme 9_12</cname>
      <imageurl>https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRR82W_tyfxY1USt_OVVUTxrSGTGR7fCQe0zwbZTHTvf5-ZqNxN</imageurl>
      <enabled>True</enabled>
      <assignedcategory>
