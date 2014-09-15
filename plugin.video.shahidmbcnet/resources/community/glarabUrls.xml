@@ -2434,7 +2434,13 @@
         <link>http://38.99.146.37:7777/Alhayat2_HD/Alhayat2_High.m3u8?user=HTTP_Proxy_ZIXI-37_1343589&amp;session=a8bdea41975ced3f90c039b93263252625e75e1c90ba88b56f96e19944618298&amp;hlsid=HLS_1883052</link>
         </item>
 </streaminginfo>
-
+<streaminginfo>
+    <cname>Alhayat2</cname>
+    <item>
+    <title>Glarab_Med</title>
+    <link>http://38.99.146.36:7777/Alhayat2_HD.m3u8</link>
+    </item>
+</streaminginfo>
 <streaminginfo>
         <cname>Nessma</cname>
         <item>
