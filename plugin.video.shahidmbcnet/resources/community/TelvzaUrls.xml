@@ -4,7 +4,7 @@
         <cname>2M</cname>
        <item>
 	<title>2m</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -23,7 +23,7 @@
 	<cname>Abu Dhabi</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -43,7 +43,7 @@
 	<cname>Abu Dhabi Drama</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -63,7 +63,7 @@
 	<cname>Abu Dhabi Sports 1</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -83,7 +83,7 @@
 	<cname>Aghanina</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -102,7 +102,7 @@
 	<cname>Ajyal</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -121,7 +121,7 @@
 	<cname>Al oula Maroc</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -141,7 +141,7 @@
 	<cname>Al Haneen Music</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -160,7 +160,7 @@
 	<cname>Alhayat 1</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -179,7 +179,7 @@
 	<cname>Alekhbaria Syria</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -198,7 +198,7 @@
 	<cname>Al Janoubiya</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -217,7 +217,7 @@
 	<cname>AlQahera W Elnas</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -236,7 +236,7 @@
 	<cname>AlQahera W Elnas 2</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -255,7 +255,7 @@
 	<cname>Al Maghribia</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -274,7 +274,7 @@
 	<cname>Al Majd</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -293,7 +293,7 @@
 	<cname>Al Manar</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -312,7 +312,7 @@
 	<cname>Al Masriyah</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -331,7 +331,7 @@
 	<cname>Al mayaden</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -350,7 +350,7 @@
 	<cname>Al Moustakilla</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -369,7 +369,7 @@
 	<cname>Al Mutawasit</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -388,7 +388,7 @@
 	<cname>Al Nahar</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -407,7 +407,7 @@
 	<cname>Al-Nahar Drama</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -426,7 +426,7 @@
 	<cname>Egypt 1</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -445,7 +445,7 @@
 	<cname>Al-Resalah</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -464,7 +464,7 @@
 	<cname>Al Sharqiya</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -483,7 +483,7 @@
 	<cname>Al Sumaria</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -502,7 +502,7 @@
 	<cname>Egypt 2</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -521,7 +521,7 @@
 	<cname>Alan</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -540,7 +540,7 @@
 	<cname>Alarabiya</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -559,7 +559,7 @@
 	<cname>Al Dafra</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -578,7 +578,7 @@
 	<cname>AlGeria</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -597,7 +597,7 @@
 	<cname>Algeria 3</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -616,7 +616,7 @@
 	<cname>Alhayat2</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -635,7 +635,7 @@
 	<cname>Al Hiwar</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -654,7 +654,7 @@
 	<cname>Aliraqiya</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -673,7 +673,7 @@
 	<cname>Al Iraqiya Sport</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -693,7 +693,7 @@
 	<cname>Aljadeed</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -712,7 +712,7 @@
 	<cname>Aljazeera</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -731,7 +731,7 @@
 	<cname>Aljazeera Children</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -750,7 +750,7 @@
 	<cname>Aljazeera Doc</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -769,7 +769,7 @@
 	<cname>Alqudis</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -788,7 +788,7 @@
 	<cname>Al Rasheed</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -807,7 +807,7 @@
 	<cname>Alriadia Sport</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -826,7 +826,7 @@
 	<cname>ALTAGHEER TV</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -845,7 +845,7 @@
 	<cname>Arabica Music</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -864,7 +864,7 @@
 	<cname>Arrabia</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -883,7 +883,7 @@
 	<cname>Art Aflam 1</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -902,7 +902,7 @@
 	<cname>Art Aflam 2</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -921,7 +921,7 @@
 	<cname>ART Cinema</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -940,7 +940,7 @@
 	<cname>ART Hekayat</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -959,7 +959,7 @@
 	<cname>ART Hekayat 2</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -978,7 +978,7 @@
 	<cname>ART Hekayat</cname>
 	<item>
 	<title>Mosalsalat</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -997,7 +997,7 @@
 	<cname>Assadissa</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -1016,7 +1016,7 @@
 	<cname>Bahrain</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -1035,7 +1035,7 @@
 	<cname>Baraem</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -1054,7 +1054,7 @@
 	<cname>BBC Arabic</cname>
 	<item>
 	<title>Telvza</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
@@ -1131,7 +1131,7 @@
         <cname>AlYawm</cname>
        <item>
 <title>2m</title>
-<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -1151,7 +1151,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -1171,7 +1171,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -1191,7 +1191,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -1211,7 +1211,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -1231,7 +1231,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -1251,7 +1251,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -1271,7 +1271,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -1291,7 +1291,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -1311,7 +1311,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -1331,7 +1331,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -1351,7 +1351,7 @@
 	<cname>Canal plus</cname>
     <item>
 	<title>Canal+</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 		<name>get-rtmp</name>
 		<expres> file: "(.*?)"</expres>
@@ -1371,7 +1371,7 @@
 	<cname>Canal+ Sport</cname>
     <item>
 	<title>Canal+ Sport</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 		<name>get-rtmp</name>
 		<expres> file: "(.*?)"</expres>
@@ -1391,7 +1391,7 @@
 	<cname>Canal Cinema</cname>
     <item>
 	<title>Canal+ Cinema</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 		<name>get-rtmp</name>
 		<expres> file: "(.*?)"</expres>
@@ -1411,7 +1411,7 @@
 	<cname>Eurosport France</cname>
     <item>
 	<title>Eurosport France</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 		<name>get-rtmp</name>
 		<expres> file: "(.*?)"</expres>
@@ -1431,7 +1431,7 @@
 	<cname>Bein 1 FR</cname>
     <item>
 	<title>Bein Sport 1 HD FR</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 		<name>get-rtmp</name>
 		<expres> file: "(.*?)"</expres>
@@ -1451,7 +1451,7 @@
 	<cname>Bein 2 FR</cname>
     <item>
 	<title>Bein Sport 2 HD FR</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 		<name>get-rtmp</name>
 		<expres> file: "(.*?)"</expres>
@@ -1471,7 +1471,7 @@
 	<cname>Future TV</cname>
     <item>
 	<title>Future</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 		<name>get-rtmp</name>
 		<expres> file: "(.*?)"</expres>
@@ -1492,7 +1492,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -1512,7 +1512,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -1532,7 +1532,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -1552,7 +1552,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -1572,7 +1572,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -1592,7 +1592,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -1612,7 +1612,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -1633,7 +1633,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -1653,7 +1653,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -1673,7 +1673,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -1693,7 +1693,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -1713,7 +1713,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -1733,7 +1733,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -1752,7 +1752,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -1771,7 +1771,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -1790,7 +1790,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -1809,7 +1809,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -1828,7 +1828,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -1847,7 +1847,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -1866,7 +1866,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -1885,7 +1885,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -1904,7 +1904,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -1923,7 +1923,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -1942,7 +1942,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -1961,7 +1961,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -1980,7 +1980,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -1999,7 +1999,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -2018,7 +2018,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -2037,7 +2037,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -2058,7 +2058,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -2079,7 +2079,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -2101,7 +2101,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -2123,7 +2123,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -2146,7 +2146,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -2168,7 +2168,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -2189,7 +2189,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -2211,7 +2211,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -2233,7 +2233,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -2255,7 +2255,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -2277,7 +2277,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -2299,7 +2299,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -2321,7 +2321,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -2343,7 +2343,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -2365,7 +2365,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -2387,7 +2387,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -2409,7 +2409,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -2431,7 +2431,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -2453,7 +2453,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -2475,7 +2475,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -2497,7 +2497,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -2519,7 +2519,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -2541,7 +2541,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -2563,7 +2563,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -2585,7 +2585,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -2607,7 +2607,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -2629,7 +2629,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -2651,7 +2651,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -2673,7 +2673,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -2695,7 +2695,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -2717,7 +2717,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -2739,7 +2739,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -2761,7 +2761,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -2783,7 +2783,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -2805,7 +2805,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -2827,7 +2827,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -2849,7 +2849,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -2871,7 +2871,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -2893,7 +2893,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -2915,7 +2915,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -2937,7 +2937,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -2959,7 +2959,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -2981,7 +2981,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -3003,7 +3003,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -3025,7 +3025,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -3048,7 +3048,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -3070,7 +3070,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -3093,7 +3093,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -3115,7 +3115,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -3138,7 +3138,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -3160,7 +3160,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -3183,7 +3183,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -3205,7 +3205,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -3228,7 +3228,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -3250,7 +3250,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -3273,7 +3273,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -3295,7 +3295,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -3318,7 +3318,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -3340,7 +3340,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -3363,7 +3363,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -3385,7 +3385,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -3408,7 +3408,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -3430,7 +3430,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -3452,7 +3452,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -3474,7 +3474,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -3496,7 +3496,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -3518,7 +3518,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -3541,7 +3541,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -3563,7 +3563,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -3586,7 +3586,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -3608,7 +3608,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -3631,7 +3631,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -3653,7 +3653,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -3676,7 +3676,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -3698,7 +3698,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -3721,7 +3721,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -3743,7 +3743,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -3766,7 +3766,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -3788,7 +3788,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -3810,7 +3810,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -3832,7 +3832,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -3855,7 +3855,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -3877,7 +3877,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -3900,7 +3900,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -3922,7 +3922,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -3945,7 +3945,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -3967,7 +3967,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -3990,7 +3990,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -4012,7 +4012,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -4035,7 +4035,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -4057,7 +4057,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -4080,7 +4080,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -4102,7 +4102,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -4123,7 +4123,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -4144,7 +4144,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -4165,7 +4165,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -4187,7 +4187,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -4208,7 +4208,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -4230,7 +4230,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -4252,7 +4252,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -4273,7 +4273,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -4294,7 +4294,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -4315,7 +4315,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -4337,7 +4337,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -4359,7 +4359,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -4380,7 +4380,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -4401,7 +4401,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -4422,7 +4422,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -4444,7 +4444,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -4466,7 +4466,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -4488,7 +4488,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -4510,7 +4510,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -4532,7 +4532,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -4553,7 +4553,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -4575,7 +4575,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -4597,7 +4597,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -4619,7 +4619,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -4640,7 +4640,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -4662,7 +4662,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -4683,7 +4683,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -4704,7 +4704,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -4725,7 +4725,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -4746,7 +4746,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -4767,7 +4767,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -4788,7 +4788,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -4810,7 +4810,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -4831,7 +4831,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -4853,7 +4853,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -4875,7 +4875,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -4897,7 +4897,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -4918,7 +4918,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -4939,7 +4939,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -4960,7 +4960,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -4982,7 +4982,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -5003,7 +5003,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -5024,7 +5024,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -5046,7 +5046,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -5067,7 +5067,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -5088,7 +5088,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -5110,7 +5110,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -5131,7 +5131,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -5152,7 +5152,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -5173,7 +5173,7 @@
 		<item>
 			<title>telvza</title>
 
-				<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+				<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 <regex>
 <name>get-rtmp</name>
 <expres> file: "(.*?)"</expres>
@@ -5193,7 +5193,7 @@
 	<cname>Iqra</cname>
 	<item>
 	<title>Iqra</title>
-	<link>$doregex[get-rtmp] flashVer=WIN\2012,0,0,70 timeout=20</link>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres> file: "(.*?)"</expres>
