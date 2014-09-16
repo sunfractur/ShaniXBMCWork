@@ -66,4 +66,10 @@
 	<string id="32065">Désactiver Official</string>	
 
 	<string id="32066">Essayer toutes les sources une par une</string>
+	<string id="32071">Identifiants GLArab</string>	
+	<string id="32072">Pseudo GLArab</string>	
+	<string id="32073">Mot de passe GLArab</string>		
+	<string id="32074">Sélection du serveur</string>		
+	<string id="32075">Qualité</string>
+	
 </strings>
