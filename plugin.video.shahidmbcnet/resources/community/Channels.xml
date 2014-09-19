@@ -1,7 +1,7 @@
 <channels>
 <channel>
     <cname>Cairo Comedy</cname>
-    <imageurl></imageurl>
+    <imageurl>http://www.lyngsat-logo.com/hires/cc/cairo_cinema_1_eg.png</imageurl>
     <enabled>True</enabled>
     <assignedcategory>
     <category>drama</category>
@@ -365,7 +365,7 @@
 
 <channel>
 	<cname>NB5</cname>
-	<imageurl></imageurl>
+	<imageurl>http://www.magictvbox.com/wp-content/uploads/2013/05/Alhayat-Christian.jpg</imageurl>
 	<enabled>True</enabled>
 	<assignedcategory>
 	<category>gulf</category>
@@ -2092,7 +2092,7 @@
 
 <channel>
 			<cname>AlMalakot</cname>
-			<imageurl></imageurl>
+			<imageurl>http://www.magictvbox.com/wp-content/uploads/2013/05/Alhayat-Christian.jpg</imageurl>
 			<enabled>True</enabled>
 			<assignedcategory>
 			 <category>christ</category>
@@ -4067,7 +4067,7 @@
     </channel>
 <channel>
         <cname>Nart</cname>
-        <imageurl></imageurl>
+        <imageurl>http://www.magictvbox.com/wp-content/uploads/2013/05/Alhayat-Christian.jpg</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>kids</category>
@@ -4077,7 +4077,7 @@
 
 <channel>
         <cname>Miracle</cname>
-        <imageurl></imageurl>
+        <imageurl>http://www.magictvbox.com/wp-content/uploads/2013/05/Alhayat-Christian.jpg</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>christ</category>
