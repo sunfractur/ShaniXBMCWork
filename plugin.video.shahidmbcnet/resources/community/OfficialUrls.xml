@@ -1,4 +1,12 @@
 <streamingInfos>
+
+<streaminginfo>
+	<cname>Al Iraqiya Sport</cname>
+	<item>
+	<title>Low</title>
+	<link>http://212.7.205.5:1935/sport/live/playlist.m3u8</link>
+	</item>
+</streaminginfo>
 <streaminginfo>
 	<cname>Alnahar Alyoum</cname>
 	<item>
