@@ -2416,15 +2416,29 @@
 <streaminginfo>
         <cname>TRT Arabic</cname>
 	<item>
-	<title>Med1</title>
+	<title>High</title>
 	<link>rtmp://re.trtcdn.com/tv/ playpath=trtarapca_3 swfUrl=http://gusto.trt.net.tr/VideoPlayer/player.swf live=true pageUrl=http://radyodelisi.blogspot.com/2013/02/trt-arapca.htm</link>
 	</item>
 </streaminginfo>
 <streaminginfo>
         <cname>TRT Arabic</cname>
 	<item>
-	<title>Med2</title>
-	<link>rtmp://si.trtcdn.com/tv/trtarapca?hghpl]=a2V5bGl2ZTY4LTUzLTcxLTQyMDE0LTAyLTI0LTIxLTMyLTI3/trtarapca_3</link>
+	<title>Low</title>
+	<link>rtmp://si.trtcdn.com/tv/trtarapca/mp4:trtarapca_1 timeout=20</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+        <cname>TRT Arabic</cname>
+	<item>
+	<title>Med</title>
+	<link>rtmp://si.trtcdn.com/tv/trtarapca/mp4:trtarapca_2 timeout=20</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+        <cname>TRT Arabic</cname>
+	<item>
+	<title>High</title>
+	<link>rtmp://si.trtcdn.com/tv/trtarapca/mp4:trtarapca_3 timeout=20</link>
 	</item>
 </streaminginfo>
 
