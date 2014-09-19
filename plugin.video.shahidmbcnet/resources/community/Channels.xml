@@ -365,7 +365,7 @@
 
 <channel>
 	<cname>NB5</cname>
-	<imageurl>http://www.magictvbox.com/wp-content/uploads/2013/05/Alhayat-Christian.jpg</imageurl>
+	<imageurl></imageurl>
 	<enabled>True</enabled>
 	<assignedcategory>
 	<category>gulf</category>
@@ -2092,7 +2092,7 @@
 
 <channel>
 			<cname>AlMalakot</cname>
-			<imageurl>http://www.magictvbox.com/wp-content/uploads/2013/05/Alhayat-Christian.jpg</imageurl>
+			<imageurl></imageurl>
 			<enabled>True</enabled>
 			<assignedcategory>
 			 <category>christ</category>
@@ -4067,17 +4067,17 @@
     </channel>
 <channel>
         <cname>Nart</cname>
-        <imageurl>http://www.magictvbox.com/wp-content/uploads/2013/05/Alhayat-Christian.jpg</imageurl>
+        <imageurl></imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>kids</category>
         </assignedcategory>
     </channel>
-    <channel>
+
 
 <channel>
         <cname>Miracle</cname>
-        <imageurl>http://www.magictvbox.com/wp-content/uploads/2013/05/Alhayat-Christian.jpg</imageurl>
+        <imageurl></imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>christ</category>
