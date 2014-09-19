@@ -2089,6 +2089,25 @@
 			 <category>egypt</category>
 			</assignedcategory>
 	</channel>
+
+<channel>
+			<cname>AlMalakot</cname>
+			<imageurl></imageurl>
+			<enabled>True</enabled>
+			<assignedcategory>
+			 <category>christ</category>
+			</assignedcategory>
+	</channel>
+
+<channel>
+			<cname>Alnahar</cname>
+			<imageurl>http://www.alnaharlive.net/wp-content/uploads/2013/01/alyoum.png</imageurl>
+			<enabled>True</enabled>
+			<assignedcategory>
+			 <category>egypt</category>
+			</assignedcategory>
+	</channel>
+
 	<channel>
 			<cname>GearOne</cname>
 			<imageurl>http://s25.postimg.org/8jo2syein/gearone.jpg</imageurl>
@@ -4007,6 +4026,16 @@
             <category>french</category>
         </assignedcategory>
     </channel>
+<channel>
+        <cname>MBC Persia</cname>
+        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/mbc_zps04e0a9dc.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>ent</category>
+            <category>gulf</category>
+            <category>drama</category>
+        </assignedcategory>
+    </channel>
 
     <channel>
         <cname>MBC 1</cname>
@@ -4036,7 +4065,24 @@
             <category>kids</category>
         </assignedcategory>
     </channel>
+<channel>
+        <cname>Nart</cname>
+        <imageurl></imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>kids</category>
+        </assignedcategory>
+    </channel>
+    <channel>
 
+<channel>
+        <cname>Miracle</cname>
+        <imageurl></imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>christ</category>
+        </assignedcategory>
+    </channel>
     <channel>
         <cname>MBC 4</cname>
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/bc4_zpse0038854.png</imageurl>
@@ -4475,6 +4521,14 @@
             <category>oth</category>
         </assignedcategory>
     </channel>
+    <channel>
+        <cname>Space Power</cname>
+        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/spcetoon_zps055055f4.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>kids</category>
+        </assignedcategory>
+    </channel>
 
     <channel>
         <cname>Spacetoon</cname>
@@ -4618,6 +4672,14 @@
 
     <channel>
         <cname>Time Comedy</cname>
+        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/cmdi_zpsbd253edc.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>drama</category>
+        </assignedcategory>
+    </channel>
+    <channel>
+        <cname>Time Drama</cname>
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/cmdi_zpsbd253edc.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
@@ -5486,6 +5548,14 @@
 
     <channel>
         <cname>Future TV</cname>
+        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/future_zps15d5f945.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>sham</category>
+        </assignedcategory>
+    </channel>
+<channel>
+        <cname>Future News</cname>
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/future_zps15d5f945.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
