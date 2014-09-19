@@ -5734,7 +5734,7 @@
 	</channel>
     <channel>
         <cname>Al Iraqiya Sport</cname>
-        <imageurl>http://www.lyngsat-logo.com/logo/tv/aa/al_iraqya.png</imageurl>
+        <imageurl>http://imn.iq/data/sportlogo.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>Iraq</category>
