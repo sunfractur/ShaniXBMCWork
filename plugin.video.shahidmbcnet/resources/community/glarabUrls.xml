@@ -1123,7 +1123,7 @@
     </item>
 </streaminginfo> 
 <streaminginfo>
-	    <cname>Time cinema</cname>
+	    <cname>Time Drama</cname>
 	    <item>
 	    <link>http://$GL-IP$/TimeDrama$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
 	    </item>
@@ -1608,6 +1608,90 @@
         <link>http://$GL-IP$/Oman$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
         </item>
 </streaminginfo>
+<streaminginfo>
+    <cname>Cairo Comedy</cname>
+    <item>
+    <link>http://$GL-IP$/CarioComedy$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+    </item>
+</streaminginfo> 
+<streaminginfo>
+    <cname>Alkarama_Christian</cname>
+    <item>
+    <link>http://$GL-IP$/AlKarma$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+    </item>
+</streaminginfo> 
+<streaminginfo>
+    <cname>Alnahar</cname>
+    <item>
+    <link>http://$GL-IP$/AlNahar$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+    </item>
+</streaminginfo> 
+<streaminginfo>
+    <cname>AlMalakot</cname>
+    <item>
+    <link>http://$GL-IP$/AlMalakot$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+    </item>
+</streaminginfo> 
+<streaminginfo>
+    <cname>Future News</cname>
+    <item>
+    <link>http://$GL-IP$/FutureNews$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+    </item>
+</streaminginfo> 
+<streaminginfo>
+    <cname>Fx Arabia</cname>
+    <item>
+    <link>http://$GL-IP$/FX$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+    </item>
+</streaminginfo> 
+<streaminginfo>
+    <cname>Infinity</cname>
+    <item>
+    <link>http://$GL-IP$/Infinity$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+    </item>
+</streaminginfo> 
+<streaminginfo>
+    <cname>LLBN</cname>
+    <item>
+    <link>http://$GL-IP$/LLBN$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+    </item>
+</streaminginfo> 
+<streaminginfo>
+    <cname>MBC Persia</cname>
+    <item>
+    <link>http://$GL-IP$/MBCPersia$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+    </item>
+</streaminginfo> 
+<streaminginfo>
+    <cname>Miracle</cname>
+    <item>
+    <link>http://$GL-IP$/Miracle$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+    </item>
+</streaminginfo> 
+<streaminginfo>
+    <cname>Nart</cname>
+    <item>
+    <link>http://$GL-IP$/Nart$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+    </item>
+</streaminginfo> 
+<streaminginfo>
+    <cname>Noursat</cname>
+    <item>
+    <link>http://$GL-IP$/Noursat$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+    </item>
+</streaminginfo> 
+<streaminginfo>
+    <cname>Sat7 Kid</cname>
+    <item>
+    <link>http://$GL-IP$/Sat7Kid$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+    </item>
+</streaminginfo> 
+<streaminginfo>
+    <cname>Space Power</cname>
+    <item>
+    <link>http://$GL-IP$/SpacePower$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+    </item>
+</streaminginfo> 
 
 
 
