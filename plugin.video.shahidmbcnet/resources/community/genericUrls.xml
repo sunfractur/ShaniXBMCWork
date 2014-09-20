@@ -78,8 +78,15 @@
 <streaminginfo>
 	<cname>MBC Masr</cname>
 	<item>
-	<title>unknow</title>
-	<link>rtmp://176.58.79.15:1936/live/MBCMasr timeout=20</link>
+	<title>MBC Masr</title>
+	<link>http://188.247.93.26:1935/live/mbcmasr.stream_360p/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>MBC Masr</cname>
+	<item>
+	<title>MBC Masr+2</title>
+	<link>http://188.247.93.26:1935/live/mbcmasr2.stream_360p/playlist.m3u8</link>
 	</item>
 </streaminginfo>
 <streaminginfo>
