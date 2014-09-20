@@ -3,13 +3,6 @@
 
 
 
-
-<streaminginfo>
-	<cname>Maannews</cname>
-	<item>
-	<link>http://$GL-IP$/MixTV$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
-	</item>
-</streaminginfo>
 <streaminginfo>
 	<cname>Cairo Cinema</cname>
 	<item>
