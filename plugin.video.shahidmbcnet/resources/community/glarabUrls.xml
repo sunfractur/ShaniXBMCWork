@@ -4,6 +4,63 @@
 
 
 
+<streaminginfo>
+	<cname>Maannews</cname>
+	<item>
+	<link>http://$GL-IP$/MixTV$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Cairo Cinema</cname>
+	<item>
+<title>Cairo Cinema 2</title>
+	<link>http://$GL-IP$/Mosar3$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Euro News Arabic</cname>
+	<item>
+	<link>http://$GL-IP$/EuroNews$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Maannews</cname>
+	<item>
+	<link>http://$GL-IP$/MixTV$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>LCD AFLAM</cname>
+	<item>
+	<link>http://$GL-IP$/LcdTurkey$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+		<cname>Aljazeera Mubasher Masr</cname>
+	<item>
+	<link>http://$GL-IP$/JSCLiveMisr$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Toktok</cname>
+	<item>
+	<link>http://$GL-IP$/25TV$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Taxi El Sahra</cname>
+	<item>
+	<link>http://$GL-IP$/TimeTiatro$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>ONT</cname>
+	<item>
+	<link>http://$GL-IP$/ONTVLive$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+
+
 
 
 <streaminginfo>
