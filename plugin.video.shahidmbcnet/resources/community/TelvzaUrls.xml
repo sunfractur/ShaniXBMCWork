@@ -1,6 +1,45 @@
 
 <streamingInfos>
-	<streaminginfo>
+
+<streaminginfo>
+        <cname>Dubai Sport 2</cname>
+       <item>
+	<title>Dubai Sport 2</title>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 pageUrl=http://www.telvza-online.com timeout=20</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres> file: "(.*?)"</expres>
+	<page>http://www.telvza-online.com/dubai-sport-2</page>
+	<cookieJar>$doregex[getsession]</cookieJar>
+	</regex>
+	<regex>
+	<name>getsession</name>
+	<expres></expres>
+	<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>
+</streaminginfo>
+<streaminginfo>
+        <cname>Dubai Sport 1</cname>
+       <item>
+	<title>Dubai Sport 1</title>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 pageUrl=http://www.telvza-online.com timeout=20</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres> file: "(.*?)"</expres>
+	<page>http://www.telvza-online.com/dubai-sport-1</page>
+	<cookieJar>$doregex[getsession]</cookieJar>
+	</regex>
+	<regex>
+	<name>getsession</name>
+	<expres></expres>
+	<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>
+</streaminginfo>
+<streaminginfo>
         <cname>2M</cname>
        <item>
 	<title>2m</title>
