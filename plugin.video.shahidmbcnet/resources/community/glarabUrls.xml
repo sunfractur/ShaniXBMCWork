@@ -8,7 +8,9 @@
 
 <streaminginfo>
 	<cname>Cairo Cinema</cname>
-	<item><link>http://$GL-IP$/Mosar3$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
+	<item>
+	<title>Cairo Cinema 2</title>
+	<link>http://$GL-IP$/Mosar3$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
 </streaminginfo>
 <streaminginfo>
 	<cname>Maannews</cname>
