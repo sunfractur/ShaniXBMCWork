@@ -1,6 +1,37 @@
 <streamingInfos>
 
 <streaminginfo>
+	<cname>Dubai Sport HD2</cname>
+	<item>
+	<title>288p</title>
+	<link>http://cdnehlsdubaisportsspecial.endavomedia.com/smil:dubaisportsspecialhls.smil/chunklist_b391600.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Dubai Sport HD2</cname>
+	<item>
+	<title>360p</title>
+	<link>http://cdnehlsdubaisportsspecial.endavomedia.com/smil:dubaisportsspecialhls.smil/chunklist_b666600.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Dubai Sport HD2</cname>
+	<item>
+	<title>480p</title>
+	<link>http://cdnehlsdubaisportsspecial.endavomedia.com/smil:dubaisportsspecialhls.smil/chunklist_b1161600.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Dubai Sport HD2</cname>
+	<item>
+	<title>720p</title>
+	<link>http://cdnehlsdubaisportsspecial.endavomedia.com/smil:dubaisportsspecialhls.smil/chunklist_b2151600.m3u8</link>
+	</item>
+</streaminginfo>
+
+
+
+<streaminginfo>
 	<cname>Al Iraqiya Sport</cname>
 	<item>
 	<title>Low</title>
