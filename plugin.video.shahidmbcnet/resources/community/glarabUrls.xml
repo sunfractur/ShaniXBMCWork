@@ -1758,14 +1758,14 @@
 	</item>
 </streaminginfo>
 <streaminginfo>
-	<cname>Oscar Drama</cname>
+	<cname>Oscar Drama 2</cname>
 	<item>
 		<title>HD</title>
 		<link>http://38.99.146.36:7777/OscarDrama2_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
 	</item>
 </streaminginfo>
 <streaminginfo>
-	<cname>Oscar Drama</cname>
+	<cname>Oscar Drama 2</cname>
 	<item>
 		<title>LOW</title>
 		<link>http://38.99.146.40:7777/OscarDrama2.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
