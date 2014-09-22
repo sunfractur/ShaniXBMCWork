@@ -2024,7 +2024,8 @@
 		<title>MED</title>
 		<link>http://38.99.146.36:7777/AlAhlyTV_Med.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
 	</item>
-</streaminginfo><streaminginfo>
+</streaminginfo>
+<streaminginfo>
 	<cname>Al Jadeed</cname>
 	<item>
 		<title>HD</title>
@@ -2038,7 +2039,7 @@
 		<link>http://38.99.146.36:7777/AlJadeed_Med.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
 	</item>
 </streaminginfo>
-</streaminginfo><streaminginfo>
+<streaminginfo>
 	<cname>Aliraqiya</cname>
 	<item>
 		<title>HD</title>
@@ -2052,7 +2053,7 @@
 		<link>http://38.99.146.36:7777/AlIraqia2_Med.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
 	</item>
 </streaminginfo>
-</streaminginfo><streaminginfo>
+<streaminginfo>
 	<cname>BEIN US</cname>
 	<item>
 		<title>HD</title>
