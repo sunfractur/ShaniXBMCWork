@@ -1,6 +1,44 @@
-
 <streamingInfos>
 
+
+<streaminginfo>
+        <cname>Samira Tv</cname>
+       <item>
+	<title>Samira TV</title>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 pageUrl=http://www.telvza-online.com timeout=20</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres> file: "(.*?)"</expres>
+	<page>http://www.telvza-online.com/samira-tv</page>
+	<cookieJar>$doregex[getsession]</cookieJar>
+	</regex>
+	<regex>
+	<name>getsession</name>
+	<expres></expres>
+	<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>
+</streaminginfo>
+<streaminginfo>
+        <cname>CBC Sofra</cname>
+       <item>
+	<title>Sofra</title>
+	<link>$doregex[get-rtmp] flashVer=WIN\2015,0,0,152 pageUrl=http://www.telvza-online.com timeout=20</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres> file: "(.*?)"</expres>
+	<page>http://www.telvza-online.com/cbc-sofra</page>
+	<cookieJar>$doregex[getsession]</cookieJar>
+	</regex>
+	<regex>
+	<name>getsession</name>
+	<expres></expres>
+	<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>
+</streaminginfo>
 <streaminginfo>
         <cname>Dubai Sport 2</cname>
        <item>
