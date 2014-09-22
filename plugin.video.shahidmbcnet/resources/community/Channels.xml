@@ -37,6 +37,18 @@
     <category>egypt</category>
     </assignedcategory>
 </channel>
+
+<channel>
+    <cname>Oscar Drama 2</cname>
+    <imageurl>http://www.lyngsat-logo.com/hires/oo/oscar_drama.png</imageurl>
+    <enabled>True</enabled>
+    <assignedcategory>
+    <category>drama</category>
+    <category>egypt</category>
+    </assignedcategory>
+</channel>
+
+
 <channel>
     <cname>Algharam Cinema</cname>
     <imageurl>http://s27.postimg.org/hku9o7m1f/a_LGHARAM_c_INEMA.png</imageurl>
