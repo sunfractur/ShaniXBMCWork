@@ -6,55 +6,12 @@
 
 
 
-<streaminginfo>
-	<cname>Cairo Cinema</cname>
-	<item>
-	<title>Cairo Cinema 2</title>
-	<link>http://$GL-IP$/Mosar3$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Maannews</cname>
-	<item><link>http://$GL-IP$/MixTV$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>LCD AFLAM</cname>
-	<item><link>http://$GL-IP$/LcdTurkey$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Aljazeera Mubasher Masr</cname>
-	<item><link>http://$GL-IP$/JSCLiveMisr$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Toktok</cname>
-	<item><link>http://$GL-IP$/25TV$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Taxi El Sahra</cname>
-	<item><link>http://$GL-IP$/TimeTiatro$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>ONT</cname>
-	<item><link>http://$GL-IP$/ONTVLive$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
+
+
+
 <streaminginfo>
 	<cname>Noor Dubai</cname>
 	<item><link>http://$GL-IP$/NoorDubai$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Alhayat2</cname>
-	<item><link>http://$GL-IP$/Alhayat2$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Alhayat-Series</cname>
-	<item><link>http://$GL-IP$/AlHayatMousalsalat$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Sama Cinema</cname>
-	<item><link>http://$GL-IP$/SamaCinema$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Baraem</cname>
-	<item><link>http://$GL-IP$/Baraem$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
 </streaminginfo>
 <streaminginfo>
 	<cname>Huda</cname>
@@ -63,10 +20,6 @@
 <streaminginfo>
 	<cname>Scope</cname>
 	<item><link>http://$GL-IP$/ScopeTV$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>MTV Arabia</cname>
-	<item><link>http://$GL-IP$/MTVArabia$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
 </streaminginfo>
 <streaminginfo>
 	<cname>Ishtar</cname>
@@ -145,10 +98,6 @@
 	<item><link>http://$GL-IP$/CairoCinema$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
 </streaminginfo>
 <streaminginfo>
-	<cname>AAAMusic</cname>
-	<item><link>http://$GL-IP$/AAAMusic$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
 	<cname>Taha</cname>
 	<item><link>http://$GL-IP$/Taha$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
 </streaminginfo>
@@ -221,10 +170,6 @@
 	<item><link>http://$GL-IP$/AlMustakila$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
 </streaminginfo>
 <streaminginfo>
-	<cname>Zee Aflam</cname>
-	<item><link>http://$GL-IP$/ZeeAflam$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
 	<cname>Al Masriyah</cname>
 	<item><link>http://$GL-IP$/AlMasriyah$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
 </streaminginfo>
@@ -239,38 +184,6 @@
 <streaminginfo>
 	<cname>Nile Tv</cname>
 	<item><link>http://$GL-IP$/NileInt$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Nile News</cname>
-	<item><link>http://$GL-IP$/NileNews$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Nile Family</cname>
-	<item><link>http://$GL-IP$/NileFamily$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Nile Life</cname>
-	<item><link>http://$GL-IP$/NileLife$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Nile Drama 2</cname>
-	<item><link>http://$GL-IP$/NileDrama2$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Rotana Cinema</cname>
-	<item><link>http://$GL-IP$/RotanaCinema$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Fox Movies</cname>
-	<item><link>http://$GL-IP$/FoxMovies$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Oscar Drama</cname>
-	<item><link>http://$GL-IP$/OscarDrama$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Cairo Drama</cname>
-	<item><link>http://$GL-IP$/CairoDrama$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
 </streaminginfo>
 <streaminginfo>
 	<cname>Nile Comedy</cname>
@@ -291,18 +204,6 @@
 <streaminginfo>
 	<cname>On TV</cname>
 	<item><link>http://$GL-IP$/ONTV$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>AL AHLY</cname>
-	<item><link>http://$GL-IP$/AlAhlyTV$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Rotana Masriya</cname>
-	<item><link>http://$GL-IP$/RotanaMasriya$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Rotana Khaligi</cname>
-	<item><link>http://$GL-IP$/RotanaKhalijiah$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
 </streaminginfo>
 <streaminginfo>
 	<cname>Alhayat Cinema</cname>
@@ -373,10 +274,6 @@
 	<item><link>http://$GL-IP$/AlQuran$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
 </streaminginfo>
 <streaminginfo>
-	<cname>sunnah TV</cname>
-	<item><link>http://$GL-IP$/Alsunnah$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
 	<cname>Iqra</cname>
 	<item><link>http://$GL-IP$/Iqraa$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
 </streaminginfo>
@@ -387,10 +284,6 @@
 <streaminginfo>
 	<cname>Al Majd</cname>
 	<item><link>http://$GL-IP$/AlmajdSpace$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>KSA 1</cname>
-	<item><link>http://$GL-IP$/SaoudiArabia1$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
 </streaminginfo>
 <streaminginfo>
 	<cname>KSA 2</cname>
@@ -449,10 +342,6 @@
 	<item><link>http://$GL-IP$/KTV2Kuwait$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
 </streaminginfo>
 <streaminginfo>
-	<cname>Al sahraa</cname>
-	<item><link>http://$GL-IP$/AlSaharaa$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
 	<cname>Bahrain</cname>
 	<item><link>http://$GL-IP$/Bahrain$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
 </streaminginfo>
@@ -485,20 +374,12 @@
 	<item><link>http://$GL-IP$/ToyorAlJanah$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
 </streaminginfo>
 <streaminginfo>
-	<cname>Toyor baby</cname>
-	<item><link>http://$GL-IP$/ToyorAlJanah2$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
 	<cname>Palestine</cname>
 	<item><link>http://$GL-IP$/Palestinian$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
 </streaminginfo>
 <streaminginfo>
 	<cname>Alqudis</cname>
 	<item><link>http://$GL-IP$/Alquds$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Al Jadeed</cname>
-	<item><link>http://$GL-IP$/AlJadeed$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
 </streaminginfo>
 <streaminginfo>
 	<cname>MTV</cname>
@@ -563,10 +444,6 @@
 <streaminginfo>
 	<cname>Tayba</cname>
 	<item><link>http://$GL-IP$/Tayba$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Om Durman</cname>
-	<item><link>http://$GL-IP$/OmDurman$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
 </streaminginfo>
 <streaminginfo>
 	<cname>Libya AlWataniya</cname>
@@ -677,10 +554,6 @@
 	<item><link>http://$GL-IP$/Beladi$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
 </streaminginfo>
 <streaminginfo>
-	<cname>Al iraq AL Tarba</cname>
-	<item><link>http://$GL-IP$/AlIraqATarbawiyah$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
 	<cname>Saudia Sport</cname>
 	<item><link>http://$GL-IP$/AlRiyadiah$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
 </streaminginfo>
@@ -697,88 +570,16 @@
 	<item><link>http://$GL-IP$/NeelainSport$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
 </streaminginfo>
 <streaminginfo>
-	<cname>Rotana Classic</cname>
-	<item><link>http://$GL-IP$/RotanaZaman$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Moga Comedy</cname>
-	<item><link>http://$GL-IP$/MogaComedy$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Panorama film</cname>
-	<item><link>http://$GL-IP$/PanoramaFilm$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
 	<cname>iFilm Arabic</cname>
 	<item><link>http://$GL-IP$/iFilm$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>MBC 1</cname>
-	<item><link>http://$GL-IP$/MBC1$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>MBC 2</cname>
-	<item><link>http://$GL-IP$/MBC2$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>MBC 3</cname>
-	<item><link>http://$GL-IP$/MBC3$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>MBC 4</cname>
-	<item><link>http://$GL-IP$/MBC4$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>MBC Action</cname>
-	<item><link>http://$GL-IP$/MBCAction$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>MBC Max</cname>
-	<item><link>http://$GL-IP$/MBCMax$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>MBC Drama</cname>
-	<item><link>http://$GL-IP$/MBCDrama$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>CBC</cname>
-	<item><link>http://$GL-IP$/CBC$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>CBC 2</cname>
-	<item><link>http://$GL-IP$/CBC2$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>CBC Drama</cname>
-	<item><link>http://$GL-IP$/CBCDrama$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Al-Nahar Drama</cname>
-	<item><link>http://$GL-IP$/AlNaharDrama$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
 </streaminginfo>
 <streaminginfo>
 	<cname>Dream 1</cname>
 	<item><link>http://$GL-IP$/Dream1$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
 </streaminginfo>
 <streaminginfo>
-	<cname>Dream 2</cname>
-	<item><link>http://$GL-IP$/Dream2$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Panorama Drama</cname>
-	<item><link>http://$GL-IP$/PanoramaDrama$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Panorama Drama 2</cname>
-	<item><link>http://$GL-IP$/PanoramaDrama2$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
 	<cname>Al Sumaria</cname>
 	<item><link>http://$GL-IP$/Alsumaria$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Top Movies</cname>
-	<item><link>http://$GL-IP$/TopMovies$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
 </streaminginfo>
 <streaminginfo>
 	<cname>Al Anwar</cname>
@@ -789,276 +590,8 @@
 	<item><link>http://$GL-IP$/RotanaMusic$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
 </streaminginfo>
 <streaminginfo>
-	<cname>Rotana Clip</cname>
-	<item><link>http://$GL-IP$/RotanaClip$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>OTV Lebanon</cname>
-	<item><link>http://$GL-IP$/OTV$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Time Drama</cname>
-	<item><link>http://$GL-IP$/TimeDrama$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Mehwar</cname>
-	<item><link>http://$GL-IP$/MehwarPlus2$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Oscar Drama</cname>
-	<item><link>http://$GL-IP$/OscarDrama2$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Aljazeera US</cname>
-	<item><link>http://$GL-IP$/AlJazeeraInt$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Aljazeera Doc</cname>
-	<item><link>http://$GL-IP$/AlJazeeraDocument$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>EnnaharTV algerie</cname>
-	<item><link>http://$GL-IP$/AlAtlas$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Alarabiya</cname>
-	<item><link>http://$GL-IP$/AlArabiya$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Syria Talaqie</cname>
-	<item><link>http://$GL-IP$/Talaqi$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>TV 5 MONDE</cname>
-	<item><link>http://$GL-IP$/TV5$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Abu Dhabi Drama</cname>
-	<item><link>http://$GL-IP$/ADDrama$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Abu Dhabi Emirates</cname>
-	<item><link>http://$GL-IP$/ADEmirates$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Alan</cname>
-	<item><link>http://$GL-IP$/AlAan$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Alarabiya Ahdas</cname>
-	<item><link>http://$GL-IP$/AlArabiyaHadath$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>AlQahera W Elnas</cname>
-	<item><link>http://$GL-IP$/AlKaheraWalNas$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>AlQahera W Elnas 2</cname>
-	<item><link>http://$GL-IP$/AlKaheraWalNas2$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Jordan Sport</cname>
-	<item><link>http://$GL-IP$/JordanSport$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>KTV ARABE</cname>
-	<item><link>http://$GL-IP$/KTVAlArabi$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Tounesna</cname>
-	<item><link>http://$GL-IP$/Tunisia$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Cine Majesti</cname>
-	<item><link>http://$GL-IP$/MajesticCinema$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Imagines Movies</cname>
-	<item><link>http://$GL-IP$/ImagineMovies$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Aljazeera Mubasher</cname>
-	<item><link>http://$GL-IP$/AlJazeeraLive$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Masrawi Aflam</cname>
-	<item><link>http://$GL-IP$/AlMasrawia$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Al Lubnania</cname>
-	<item><link>http://$GL-IP$/AlLubnania$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Al mayaden</cname>
-	<item><link>http://$GL-IP$/AlMayadeen$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Alnahar Alyoum</cname>
-	<item><link>http://$GL-IP$/AlNahar2$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Al Nahar 2</cname>
-	<item><link>http://$GL-IP$/AlNaharMovies$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Al Nahar</cname>
-	<item><link>http://$GL-IP$/AlNahar$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Al Nahar Sport</cname>
-	<item><link>http://$GL-IP$/AlNaharSport$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Alqithara</cname>
-	<item><link>http://$GL-IP$/AlQithara$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Saudia Sport</cname>
-	<item><link>http://$GL-IP$/AlRiyadiah1$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>alsaeedah</cname>
-	<item><link>http://$GL-IP$/AlSaeeda$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
 	<cname>Al sahraa</cname>
 	<item><link>http://$GL-IP$/AlSahraa$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Ashorooq</cname>
-	<item><link>http://$GL-IP$/AlShrooq$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Albait Baitak Cinema</cname>
-	<item><link>http://$GL-IP$/AlbaitBaitakCinema$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Time Cinema</cname>
-	<item><link>http://$GL-IP$/TimeCinema$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Al Tunisia</cname>
-	<item><link>http://$GL-IP$/Tounisa$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Star 1 Cinema</cname>
-	<item><link>http://$GL-IP$/StarCinema1$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Star 2 Cinema</cname>
-	<item><link>http://$GL-IP$/StarCinema2$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Royal Albadawiya</cname>
-	<item><link>http://$GL-IP$/RoyalAlBadawia$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Royal Edhak</cname>
-	<item><link>http://$GL-IP$/RoyalEdhak$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Royal Secret</cname>
-	<item><link>http://$GL-IP$/RoyalSecrets$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Sada AlBalad Drama</cname>
-	<item><link>http://$GL-IP$/SadaAlBaladDrama$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Sada Al Balad</cname>
-	<item><link>http://$GL-IP$/SadaAlBalad$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>SkyNewsArabia</cname>
-	<item><link>http://$GL-IP$/SkyNews$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Spacetoon</cname>
-	<item><link>http://$GL-IP$/SpaceToonArabic$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>AlKahera</cname>
-	<item><link>http://$GL-IP$/AlKahera$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Algharam Cinema</cname>
-	<item><link>http://$GL-IP$/AlTet$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Alrai</cname>
-	<item><link>http://$GL-IP$/Alrai$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Nile Culture</cname>
-	<item><link>http://$GL-IP$/NileCulture$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Orient News</cname>
-	<item><link>http://$GL-IP$/OrientNews$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Alhayat 1</cname>
-	<item><link>http://$GL-IP$/Hayat$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Kaifa</cname>
-	<item><link>http://$GL-IP$/Kaifa$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Koky Kids</cname>
-	<item><link>http://$GL-IP$/Koky$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Chobra Cima</cname>
-	<item><link>http://$GL-IP$/LayaliCinema$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Nessma</cname>
-	<item><link>http://$GL-IP$/NessmaAlKhadra$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Al Haneen Music</cname>
-	<item><link>http://$GL-IP$/MusicAlhanen$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>4Shbab</cname>
-	<item><link>http://$GL-IP$/4Shbab$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Cartoon Network</cname>
-	<item><link>http://$GL-IP$/CNArabia$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Cairo Comedy</cname>
-	<item><link>http://$GL-IP$/CairoComedy$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Cima</cname>
-	<item><link>http://$GL-IP$/Cima$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Euro News Arabic</cname>
-	<item><link>http://$GL-IP$/EuroNews$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>CBC Sofra</cname>
-	<item><link>http://$GL-IP$/CBCSofra$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>ANB</cname>
-	<item><link>http://$GL-IP$/ANB$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>MBC Masr</cname>
-	<item><link>http://$GL-IP$/MBCMaser$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Aljazeera Children</cname>
-	<item><link>http://$GL-IP$/AlJazeeraKid$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Al Hiwar Ettounsi</cname>
-	<item><link>http://$GL-IP$/AlHiwarTunis$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
 </streaminginfo>
 <streaminginfo>
 	<cname>Jordan</cname>
@@ -1073,44 +606,8 @@
 	<item><link>http://$GL-IP$/SaudiArabia1$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
 </streaminginfo>
 <streaminginfo>
-	<cname>Lbc Europe</cname>
-	<item><link>http://$GL-IP$/LBC$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Fx Arabia</cname>
-	<item><link>http://$GL-IP$/Fox$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>National Geo Ad</cname>
-	<item><link>http://$GL-IP$/ADNatGeo$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Future TV</cname>
-	<item><link>http://$GL-IP$/Future$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Dubai One</cname>
-	<item><link>http://$GL-IP$/DubaiOne$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
 	<cname>Al Iraqiya Documentary</cname>
 	<item><link>http://$GL-IP$/AlIraqAlTarbawiyah$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Aliraqiya</cname>
-	<item><link>http://$GL-IP$/AlIraqia2$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Zee Alwan</cname>
-	<item><link>http://$GL-IP$/ZeeAlwan$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Rotana Aflam</cname>
-	<item><link>http://$GL-IP$/RotanaAflam$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>ANN</cname>
-	<item><link>http://$GL-IP$/ANN$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
 </streaminginfo>
 <streaminginfo>
 	<cname>Mehwar</cname>
@@ -1121,40 +618,16 @@
 	<item><link>http://$GL-IP$/Oman$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
 </streaminginfo>
 <streaminginfo>
-	<cname>Cairo Comedy</cname>
-	<item><link>http://$GL-IP$/CarioComedy$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
 	<cname>Alkarama_Christian</cname>
 	<item><link>http://$GL-IP$/AlKarma$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Alnahar</cname>
-	<item><link>http://$GL-IP$/AlNahar$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
 </streaminginfo>
 <streaminginfo>
 	<cname>AlMalakot</cname>
 	<item><link>http://$GL-IP$/AlMalakot$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
 </streaminginfo>
 <streaminginfo>
-	<cname>Future News</cname>
-	<item><link>http://$GL-IP$/FutureNews$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Fx Arabia</cname>
-	<item><link>http://$GL-IP$/FX$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Infinity</cname>
-	<item><link>http://$GL-IP$/Infinity$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
 	<cname>LLBN</cname>
 	<item><link>http://$GL-IP$/LLBN$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
-</streaminginfo>
-<streaminginfo>
-	<cname>MBC Persia</cname>
-	<item><link>http://$GL-IP$/MBCPersia$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
 </streaminginfo>
 <streaminginfo>
 	<cname>Miracle</cname>
@@ -1173,9 +646,1432 @@
 	<item><link>http://$GL-IP$/Sat7Kid$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
 </streaminginfo>
 <streaminginfo>
-	<cname>Space Power</cname>
-	<item><link>http://$GL-IP$/SpacePower$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
+	<cname>beINSports</cname>
+	<item><link>http://$GL-IP$/beINSports$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
 </streaminginfo>
+<streaminginfo>
+	<cname>AlMukhales</cname>
+	<item><link>http://$GL-IP$/AlMukhales$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
+</streaminginfo>
+<streaminginfo>
+	<cname>ABN</cname>
+	<item><link>http://$GL-IP$/ABN$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
+</streaminginfo>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<streaminginfo>
+	<cname>Cairo Cinema 2</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/Mosar3_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Maannews</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/MixTV_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>LCD AFLAM</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/LcdTurkey_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Aljazeera Mubasher Masr</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/JSCLiveMisr_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Toktok</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/25TV_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Taxi El Sahra</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/TimeTiatro_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>ONT</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/ONTVLive_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>MBC 1</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/MBC1_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>MBC 2</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/MBC2_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>MBC 3</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/MBC3_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>MBC 4</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/MBC4_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>MBC Action</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/MBCAction_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>MBC Max</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/MBCMax_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>MBC Drama</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/MBCDrama_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Time Drama</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/TimeDrama_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Mehwar</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/MehwarPlus2_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Aljazeera US</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/AlJazeeraInt_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>EnnaharTV algerie</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/AlAtlas_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Syria Talaqie</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/Talaqi_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>TV 5 MONDE</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/TV5_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Abu Dhabi Drama</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/ADDrama_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Abu Dhabi Emirates</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/ADEmirates_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Alarabiya Ahdas</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/AlArabiyaHadath_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>AlQahera W Elnas</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/AlKaheraWalNas_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>AlQahera W Elnas 2</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/AlKaheraWalNas2_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Jordan Sport</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/JordanSport_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>KTV ARABE</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/KTVAlArabi_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Tounesna</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/Tunisia_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Cine Majesti</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/MajesticCinema_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Imagines Movies</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/ImagineMovies_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Masrawi Aflam</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/AlMasrawia_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Al Lubnania</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/AlLubnania_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Al mayaden</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/AlMayadeen_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Alnahar Alyoum</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/AlNahar2_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Al Nahar 2</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/AlNaharMovies_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Al Nahar Sport</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/AlNaharSport_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Alqithara</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/AlQithara_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Saudia Sport</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/AlRiyadiah1_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>alsaeedah</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/AlSaeeda_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Ashorooq</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/AlShrooq_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Albait Baitak Cinema</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/AlbaitBaitakCinema_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Time Cinema</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/TimeCinema_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Al Tunisia</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/Tounisa_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Star 1 Cinema</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/StarCinema1_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Star 2 Cinema</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/StarCinema2_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Royal Albadawiya</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/RoyalAlBadawia_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Royal Edhak</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/RoyalEdhak_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Royal Secret</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/RoyalSecrets_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Sada AlBalad Drama</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/SadaAlBaladDrama_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Sada Al Balad</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/SadaAlBalad_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>SkyNewsArabia</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/SkyNews_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Spacetoon</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/SpaceToonArabic_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>AlKahera</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/AlKahera_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Algharam Cinema</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/AlTet_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Nile Culture</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/NileCulture_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Orient News</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/OrientNews_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Alhayat 1</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/Hayat_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Kaifa</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/Kaifa_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Koky Kids</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/Koky_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Chobra Cima</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/LayaliCinema_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Nessma</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/NessmaAlKhadra_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Al Haneen Music</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/MusicAlhanen_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>4Shbab</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/4Shbab_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Cima</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/Cima_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Euro News Arabic</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/EuroNews_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>CBC Sofra</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/CBCSofra_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>ANB</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/ANB_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>MBC Masr</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/MBCMaser_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Al Hiwar Ettounsi</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/AlHiwarTunis_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Zee Alwan</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/ZeeAlwan_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Rotana Aflam</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/RotanaAflam_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>ANN</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/ANN_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>LDC</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/LDC_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Masrawi Aflam</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/MasrawiAflam_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>SNTV</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/SNTV_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>A1 Jordan</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/A1Jordan_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>AlHayat Sport</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/AlHayatSport_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Atfal wa Mawaheb</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/AtfalwaMawaheb_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Bahrain</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/BahrainInt_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Chabab</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/Chabab_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Dejlah</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/Dejlah_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Dubai Sport HD2</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/DubaiSport2_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Dubai Sport HD2</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/DubaiSport_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>ETV1</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/ETV1_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Gladiator</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/Gladiator_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>AssyrSat</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/AssyrSat_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>LineSport</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/LineSport_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>ORTM</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/ORTM_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>RAK</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/RAK_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>SSTV</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/SSTV_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Unrwa</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/Unrwa_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<streaminginfo>
+	<cname>Alhayat2</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/Alhayat2_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Alhayat2</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/Alhayat2.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Alhayat-Series</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/AlHayatMousalsalat_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Alhayat-Series</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/AlHayatMousalsalat.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Sama Cinema</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/SamaCinema_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Sama Cinema</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/SamaCinema.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Baraem</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/Baraem_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Baraem</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/Baraem.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>MTV Arabia</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/MTVArabia_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>MTV Arabia</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/MTVArabia.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>AAAMusic</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/AAAMusic_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>AAAMusic</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/AAAMusic.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Zee Aflam</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/ZeeAflam_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Zee Aflam</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/ZeeAflam.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Nile News</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/NileNews_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Nile News</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/NileNews.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Nile Family</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/NileFamily_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Nile Family</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/NileFamily.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Nile Life</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/NileLife_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Nile Life</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/NileLife.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Nile Drama 2</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/NileDrama2_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Nile Drama 2</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/NileDrama2.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Rotana Cinema</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/RotanaCinema_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Rotana Cinema</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/RotanaCinema.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Fox Movies</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/FoxMovies_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Fox Movies</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/FoxMovies.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Oscar Drama</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/OscarDrama_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Oscar Drama</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/OscarDrama.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Cairo Drama</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/CairoDrama_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Cairo Drama</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/CairoDrama.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Rotana Masriya</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/RotanaMasriya_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Rotana Masriya</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/RotanaMasriya.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Rotana Khaligi</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/RotanaKhalijiah_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Rotana Khaligi</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/RotanaKhalijiah.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Om Durman</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/OmDurman_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Om Durman</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/OmDurman.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Rotana Classic</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/RotanaZaman_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Rotana Classic</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/RotanaZaman.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Moga Comedy</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/MogaComedy_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Moga Comedy</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/MogaComedy.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Panorama film</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/PanoramaFilm_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Panorama film</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/PanoramaFilm.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>CBC</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/CBC_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>CBC</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/CBC.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>CBC 2</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/CBC2_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>CBC 2</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/CBC2.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>CBC Drama</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/CBCDrama_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>CBC Drama</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/CBCDrama.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Al-Nahar Drama</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/AlNaharDrama_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Al-Nahar Drama</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/AlNaharDrama.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Dream 2</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/Dream2_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Dream 2</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/Dream2.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Panorama Drama</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/PanoramaDrama_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Panorama Drama</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/PanoramaDrama.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Panorama Drama 2</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/PanoramaDrama2_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Panorama Drama 2</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/PanoramaDrama2.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Top Movies</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/TopMovies_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Top Movies</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/TopMovies.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Rotana Clip</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/RotanaClip_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Rotana Clip</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/RotanaClip.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>OTV Lebanon</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/OTV_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>OTV Lebanon</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/OTV.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Oscar Drama</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/OscarDrama2_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Oscar Drama</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/OscarDrama2.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Aljazeera Doc</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/AlJazeeraDocument_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Aljazeera Doc</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/AlJazeeraDocument.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Alarabiya</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/AlArabiya_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Alarabiya</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/AlArabiya.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Alan</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/AlAan_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Alan</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/AlAan.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Aljazeera Mubasher</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/AlJazeeraLive_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Aljazeera Mubasher</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/AlJazeeraLive.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Al Nahar</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/AlNahar_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Al Nahar</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/AlNahar.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Alrai</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/Alrai_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Alrai</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/Alrai.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Cartoon Network</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/CNArabia_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Cartoon Network</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/CNArabia.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Cairo Comedy</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/CairoComedy_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Cairo Comedy</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/CairoComedy.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Aljazeera Children</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/AlJazeeraKid_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Aljazeera Children</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/AlJazeeraKid.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+
+
+<streaminginfo>
+	<cname>Lbc Europe</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/LBC_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Lbc Europe</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/LBC.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Fx Arabia</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/Fox_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Fx Arabia</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/Fox.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>National Geo Ad</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/ADNatGeo_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>National Geo Ad</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/ADNatGeo.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Future TV</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/Future_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Future TV</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/Future.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Dubai One</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/DubaiOne_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Dubai One</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/DubaiOne.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Future News</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/FutureNews_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Future News</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/FutureNews.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Space Power</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/SpacePower_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Space Power</cname>
+	<item>
+		<title>LOW</title>
+		<link>http://38.99.146.40:7777/SpacePower.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<streaminginfo>
+	<cname>AL AHLY</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/AlAhlyTV_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>AL AHLY</cname>
+	<item>
+		<title>MED</title>
+		<link>http://38.99.146.36:7777/AlAhlyTV_Med.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo><streaminginfo>
+	<cname>Al Jadeed</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/AlJadeed_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Al Jadeed</cname>
+	<item>
+		<title>MED</title>
+		<link>http://38.99.146.36:7777/AlJadeed_Med.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+</streaminginfo><streaminginfo>
+	<cname>Aliraqiya</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/AlIraqia2_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Aliraqiya</cname>
+	<item>
+		<title>MED</title>
+		<link>http://38.99.146.36:7777/AlIraqia2_Med.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+</streaminginfo><streaminginfo>
+	<cname>BEIN US</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/beINSportsNews_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>BEIN US</cname>
+	<item>
+		<title>MED</title>
+		<link>http://38.99.146.36:7777/beINSportsNews_Med.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+
+
+
+
+
+
 
 
 
