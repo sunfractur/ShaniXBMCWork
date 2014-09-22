@@ -4185,7 +4185,14 @@
             <category>drama</category>
         </assignedcategory>
     </channel>
-
+    <channel>
+        <cname>AlMasrawia</cname>
+        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/msrwi_zpsf1027b17.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>egypt</category>
+        </assignedcategory>
+    </channel>
     <channel>
         <cname>Mauritanie</cname>
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/mrtn_zps679492ee.png</imageurl>
