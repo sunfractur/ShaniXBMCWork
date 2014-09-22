@@ -5864,4 +5864,161 @@
     </channel>
 
 
+
+
+
+
+<channel>
+     <cname>Cairo Cinema 2</cname>
+     <imageurl></imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+     <category>drama</category>
+     <category>egypt</category>
+     </assignedcategory>
+</channel>
+<channel>
+     <cname>AlMukhales</cname>
+     <imageurl></imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+     <category>christ</category>
+     </assignedcategory>
+</channel>
+<channel>
+     <cname>ABN</cname>
+     <imageurl></imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+     <category>news</category>
+     </assignedcategory>
+</channel>
+<channel>
+     <cname>LDC</cname>
+     <imageurl></imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+     <category>news</category>
+     </assignedcategory>
+</channel>
+<channel>
+     <cname>SNTV</cname>
+     <imageurl></imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+     <category>news</category>
+     </assignedcategory>
+</channel>
+<channel>
+     <cname>A1 Jordan</cname>
+     <imageurl></imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+     <category>news</category>
+     </assignedcategory>
+</channel>
+<channel>
+     <cname>AlHayat Sport</cname>
+     <imageurl></imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+     <category>sports</category>
+     </assignedcategory>
+</channel>
+<channel>
+     <cname>Atfal wa Mawaheb</cname>
+     <imageurl></imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+     <category>kids</category>
+     </assignedcategory>
+</channel>
+<channel>
+     <cname>Chabab</cname>
+     <imageurl></imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+     <category>sports</category>
+     </assignedcategory>
+</channel>
+<channel>
+     <cname>Dejlah</cname>
+     <imageurl></imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+     <category>iraq</category>
+     </assignedcategory>
+</channel>
+<channel>
+     <cname>ETV1</cname>
+     <imageurl></imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+     <category>news</category>
+     </assignedcategory>
+</channel>
+<channel>
+     <cname>Gladiator</cname>
+     <imageurl></imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+     <category>sports</category>
+     </assignedcategory>
+</channel>
+<channel>
+     <cname>AssyrSat</cname>
+     <imageurl></imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+     <category>news</category>
+     </assignedcategory>
+</channel>
+<channel>
+     <cname>Line Sport</cname>
+     <imageurl></imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+     <category>sports</category>
+     </assignedcategory>
+</channel>
+<channel>
+     <cname>ORTM</cname>
+     <imageurl></imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+     <category>news</category>
+     </assignedcategory>
+</channel>
+<channel>
+     <cname>RAK</cname>
+     <imageurl></imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+     <category>news</category>
+     </assignedcategory>
+</channel>
+<channel>
+     <cname>SSTV</cname>
+     <imageurl></imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+     <category>news</category>
+     </assignedcategory>
+</channel>
+<channel>
+     <cname>Unrwa</cname>
+     <imageurl></imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+     <category>news</category>
+     </assignedcategory>
+</channel>
+
+
+
+
+
+
+
+
 </channels>
