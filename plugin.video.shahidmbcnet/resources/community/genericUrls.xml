@@ -1,4 +1,13 @@
 <streamingInfos>
+
+
+<streaminginfo>
+	<cname>Abu Dhabi</cname>
+	<item>
+	<title>unknow</title>
+	<link>rtmp://185.5.222.189/live/ABUDHABI1 timeout=20</link>
+	</item>
+</streaminginfo>
 <streaminginfo>
 	<cname>CBC 2</cname>
 	<item>
