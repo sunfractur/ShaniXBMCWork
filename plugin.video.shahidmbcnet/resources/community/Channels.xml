@@ -3111,16 +3111,6 @@
             <category>Iraq</category>
         </assignedcategory>
     </channel>
-	
-	<channel>
-        <cname>Dijlah</cname>
-        <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash3/t1.0-1/c23.22.276.276/p320x320/534054_627798647235129_80115866_n.png</imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-            <category>Iraq</category>
-        </assignedcategory>
-    </channel>
-
     <channel>
         <cname>Al Sharqiya</cname>
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/shrkia_zps33bf4bda.png</imageurl>
@@ -5946,7 +5936,7 @@
 </channel>
 <channel>
      <cname>AlHayat Sport</cname>
-     <imageurl></imageurl>
+     <imageurl>http://1.bp.blogspot.com/-lkxFcZgJOhQ/UDjlxdaG_4I/AAAAAAAAC3E/PPTehRWTUb4/s1600/hayat_sports.png</imageurl>
      <enabled>True</enabled>
      <assignedcategory>
      <category>sports</category>
@@ -5954,7 +5944,7 @@
 </channel>
 <channel>
      <cname>Atfal wa Mawaheb</cname>
-     <imageurl></imageurl>
+     <imageurl>http://www.lyngsat-logo.com/logo/tv/aa/atfal_mawaheb.png</imageurl>
      <enabled>True</enabled>
      <assignedcategory>
      <category>kids</category>
@@ -5962,7 +5952,7 @@
 </channel>
 <channel>
      <cname>Chabab</cname>
-     <imageurl></imageurl>
+     <imageurl>http://bo7.net/wp-content/uploads/2014/02/57302_shatelarab.com_.jpg</imageurl>
      <enabled>True</enabled>
      <assignedcategory>
      <category>sports</category>
@@ -5970,7 +5960,7 @@
 </channel>
 <channel>
      <cname>Dejlah</cname>
-     <imageurl></imageurl>
+     <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash3/t1.0-1/c23.22.276.276/p320x320/534054_627798647235129_80115866_n.png</imageurl>
      <enabled>True</enabled>
      <assignedcategory>
      <category>iraq</category>
