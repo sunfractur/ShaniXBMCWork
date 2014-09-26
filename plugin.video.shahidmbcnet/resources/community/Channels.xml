@@ -5912,10 +5912,11 @@
 </channel>
 <channel>
      <cname>LDC</cname>
-     <imageurl></imageurl>
+     <imageurl>http://www.lyngsat-logo.com/hires/ll/ldc_lb.png</imageurl>
      <enabled>True</enabled>
      <assignedcategory>
      <category>news</category>
+     <category>ent</category>
      </assignedcategory>
 </channel>
 <channel>
@@ -6000,34 +6001,35 @@
 </channel>
 <channel>
      <cname>ORTM</cname>
-     <imageurl></imageurl>
+     <imageurl>http://www.lyngsat-logo.com/logo/tv/oo/ortm.png</imageurl>
      <enabled>True</enabled>
      <assignedcategory>
-     <category>news</category>
+     <category>africa</category>
      </assignedcategory>
 </channel>
 <channel>
      <cname>RAK</cname>
-     <imageurl></imageurl>
+     <imageurl>http://www.lyngsat-logo.com/logo/tv/rr/rak_tv_ae.png</imageurl>
      <enabled>True</enabled>
      <assignedcategory>
-     <category>news</category>
+     <category>gulf</category>
      </assignedcategory>
 </channel>
 <channel>
      <cname>SSTV</cname>
-     <imageurl></imageurl>
+     <imageurl>http://www.lyngsat-logo.com/logo/tv/ss/southern_sudan_tv.png</imageurl>
      <enabled>True</enabled>
      <assignedcategory>
-     <category>news</category>
+     <category>africa</category>
      </assignedcategory>
 </channel>
 <channel>
      <cname>Unrwa</cname>
-     <imageurl></imageurl>
+     <imageurl>http://www.lyngsat-logo.com/hires/uu/unrwa_tv_us.png</imageurl>
      <enabled>True</enabled>
      <assignedcategory>
      <category>news</category>
+     <category>sham</category>
      </assignedcategory>
 </channel>
 
