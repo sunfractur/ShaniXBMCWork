@@ -1,6 +1,13 @@
 <streamingInfos>
 
 <streaminginfo>
+	<cname>Bzaf</cname>
+	<item>
+	<title>Low</title>
+	<link>rtmp://fujtv.dyndns.org:4425/bzaftv/bzaftv swfUrl=http://player.longtailvideo.com/player.swf live=1 pageUrl=http://bzaf.tv/wp/?page_id=111</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
 	<cname>Dubai Sport HD2</cname>
 	<item>
 	<title>Low</title>
