@@ -1,5 +1,13 @@
 <channels>
-
+<channel>
+     <cname>Bzaf</cname>
+     <imageurl>http://s14.postimg.org/ag24bn1e9/10632174_707529022661111_1332298201_a.jpg</imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+     <category>magreb</category>
+	 <category>music</category>
+     </assignedcategory>
+</channel>
 <channel>
      <cname>Dubai Sport HD2</cname>
      <imageurl>http://s27.postimg.org/fiz0nqm5v/Dubaisport_Hd2.png</imageurl>
