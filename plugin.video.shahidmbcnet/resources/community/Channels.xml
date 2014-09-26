@@ -5921,10 +5921,10 @@
 </channel>
 <channel>
      <cname>SNTV</cname>
-     <imageurl></imageurl>
+     <imageurl>http://www.lyngsat-logo.com/hires/ss/sntv_so.png</imageurl>
      <enabled>True</enabled>
      <assignedcategory>
-     <category>news</category>
+     <category>africa</category>
      </assignedcategory>
 </channel>
 <channel>
