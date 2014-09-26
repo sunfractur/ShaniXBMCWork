@@ -1,5 +1,12 @@
 <streamingInfos>
 
+<streaminginfo>
+	<cname>TNN</cname>
+	<item>
+	<title>streaminghd</title>
+	<link>rtmp://41.231.53.11:8888/thd/ playpath=tnn swfUrl=http://streaminghd.tn/video/player.swf?random=1182275581 live=1 pageUrl=http://streaminghd.tn/index.php/tnn.html timeout=20</link>
+	</item>
+</streaminginfo>
 
 <streaminginfo>
 	<cname>Abu Dhabi</cname>
