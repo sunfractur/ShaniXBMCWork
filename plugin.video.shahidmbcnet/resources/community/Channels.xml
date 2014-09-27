@@ -148,8 +148,8 @@
      </assignedcategory>
 </channel>
 <channel>
-     <cname>viasat</cname>
-     <imageurl></imageurl>
+     <cname>viasat SPORT 3</cname>
+     <imageurl>https://pbs.twimg.com/profile_images/468712109056856064/ct4-fDA0_400x400.png</imageurl>
      <enabled>True</enabled>
      <assignedcategory>
 	 <category>oth</category>
