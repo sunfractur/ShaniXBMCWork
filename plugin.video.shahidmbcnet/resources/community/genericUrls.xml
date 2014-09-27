@@ -1,5 +1,12 @@
 <streamingInfos>
 <streaminginfo>
+        <cname>CBC +2</cname>
+	<item>
+	<title>Low vustream</title>
+	<link>rtmp://live-f01.vustream.net/live/livestream1 timeout=20</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
         <cname>MBC 2</cname>
 	<item>
 	<title>Low vustream</title>
