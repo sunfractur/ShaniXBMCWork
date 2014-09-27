@@ -112,8 +112,44 @@
      </assignedcategory>
 </channel>
 <channel>
+     <cname>viasat Canal9</cname>
+     <imageurl>https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xap1/v/t1.0-9/10329139_881154991899483_5333575506974925581_n.png?oh=c280413269d31fc02b94e26248225047&amp;oe=54C97DAA&amp;__gda__=1422800246_c3f6ee401304623cd2ef81c9560e7ffd</imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+	 <category>oth</category>
+	 <category>sports</category>
+     </assignedcategory>
+</channel>
+<channel>
+     <cname>viasat Canal8</cname>
+     <imageurl>http://www.kosden.tv/Logos/canal8_sport_dk.jpg</imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+	 <category>oth</category>
+	 <category>sports</category>
+     </assignedcategory>
+</channel>
+<channel>
+     <cname>viasat tv3sport1</cname>
+     <imageurl>https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSA_2V_T0xB5fCHX3nbsFp3lSgCkTjnZdbtH6--I0nueF9bOzVQvQ</imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+	 <category>oth</category>
+	 <category>sports</category>
+     </assignedcategory>
+</channel>
+<channel>
+     <cname>viasat tv3sport2</cname>
+     <imageurl>http://cdn.tv3sport.dk/wp-content/themes/tv3sport/images/logo.png</imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+	 <category>oth</category>
+	 <category>sports</category>
+     </assignedcategory>
+</channel>
+<channel>
      <cname>viasat</cname>
-     <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/c12.12.155.155/529278_312744555495801_357651768_n.jpg?oh=a1ebe753080ec54aff16e2340a58fd4b&amp;oe=54A122FA&amp;__gda__=1418633005_0600325d2c68db46d42304523d14fa74</imageurl>
+     <imageurl></imageurl>
      <enabled>True</enabled>
      <assignedcategory>
 	 <category>oth</category>
