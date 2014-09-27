@@ -1,5 +1,11 @@
 <streamingInfos>
-
+<streaminginfo>
+        <cname>MBC 2</cname>
+	<item>
+	<title>Low vustream</title>
+	<link>rtmp://live-f01.vustream.net/live/livestream timeout=20</link>
+	</item>
+</streaminginfo>
 <streaminginfo>
 	<cname>TNN</cname>
 	<item>
