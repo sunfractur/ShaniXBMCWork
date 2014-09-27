@@ -1,4 +1,34 @@
 <streamingInfos>
+
+<streaminginfo>
+	<cname>CBC</cname>
+	<item>
+	<title>185.5</title>
+	<link>rtmp://185.5.222.189/live/CBC timeout=20</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>CBC 2</cname>
+	<item>
+	<title>185.5</title>
+	<link>rtmp://185.5.222.189/live/CBC2 timeout=20</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>CBC Drama</cname>
+	<item>
+	<title>185.5</title>
+	<link>rtmp://185.5.222.189/live/CBCDrama timeout=20</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>CBC Extra</cname>
+	<item>
+	<title>185.5</title>
+	<link>rtmp://185.5.222.189/live/CBCExtra timeout=20</link>
+	</item>
+</streaminginfo>
+
 <streaminginfo>
         <cname>CBC +2</cname>
 	<item>
