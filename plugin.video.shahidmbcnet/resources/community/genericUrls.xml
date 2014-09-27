@@ -186,7 +186,14 @@
 <streaminginfo>
 	<cname>CBC Sofra</cname>
 	<item>
-	<title>unknow</title>
+	<title>185</title>
+	<link>rtmp://185.5.222.189:1935/live/CBCSofra timeout=20</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>CBC Sofra</cname>
+	<item>
+	<title>176</title>
 	<link>rtmp://176.58.79.15:1936/live/CBCSofra timeout=20</link>
 	</item>
 </streaminginfo>
