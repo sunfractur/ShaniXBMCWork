@@ -1,6 +1,41 @@
 <streamingInfos>
 
 <streaminginfo>
+	<cname>MBC Max</cname>
+	<item>
+	<title>185.5</title>
+	<link>rtmp://185.5.222.189/live/MBCMax timeout=20</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>MBC 3</cname>
+	<item>
+	<title>185.5</title>
+	<link>rtmp://185.5.222.189/live/MBC3 timeout=20</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>MBC 4</cname>
+	<item>
+	<title>185.5</title>
+	<link>rtmp://185.5.222.189/live/MBC4 timeout=20</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>MBC 2</cname>
+	<item>
+	<title>185.5</title>
+	<link>rtmp://185.5.222.189/live/MBC2 timeout=20</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>MBC Action</cname>
+	<item>
+	<title>185.5</title>
+	<link>rtmp://185.5.222.189/live/MBCAction timeout=20</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
 	<cname>CBC</cname>
 	<item>
 	<title>185.5</title>
