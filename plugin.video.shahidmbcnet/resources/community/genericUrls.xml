@@ -1,5 +1,18 @@
 <streamingInfos>
-
+<streaminginfo>
+	<cname>MBC 1</cname>
+	<item>
+	<title>185.5</title>
+	<link>rtmp://185.5.222.189/live/MBC1 timeout=20</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>MBC Bollywood</cname>
+	<item>
+	<title>185.5</title>
+	<link>rtmp://185.5.222.189/live/MBCBollywood timeout=20</link>
+	</item>
+</streaminginfo>
 <streaminginfo>
 	<cname>MBC Max</cname>
 	<item>
