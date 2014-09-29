@@ -1,5 +1,12 @@
 <streamingInfos>
 <streaminginfo>
+	<cname>Alrai</cname>
+	<item>
+	<title>mms</title>
+	<link> mms://62.215.216.130/wmtencoder/alrai350.wmv</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
 	<cname>MBC 1</cname>
 	<item>
 	<title>185.5</title>
