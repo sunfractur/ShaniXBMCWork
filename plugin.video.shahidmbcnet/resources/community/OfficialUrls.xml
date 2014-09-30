@@ -725,6 +725,7 @@
 </regex>
 </item>
 </streaminginfo>
+
 <streaminginfo>
 <cname>Alghad Alarabi</cname>
 <item>
@@ -1051,6 +1052,73 @@
 		</item>
 
 	</streaminginfo>
+	<streaminginfo>
+		<cname>Al Magharibia</cname>
+		<item>
+		<title>Med</title>
+		<link>$doregex[get-m3u8]&amp;hdnea=st=$doregex[get-hdnea]</link>
+		<regex>
+		<name>get-m3u8</name>
+		<expres>288.*[^h]+(.*)</expres>
+		<page>$doregex[get-page]</page>
+		</regex>
+		<regex>
+		<name>get-page</name>
+		<expres>"m3u8_url":"([^"]*)</expres>
+		<page>http://new.livestream.com/accounts/9841337/events/3348791</page>
+		</regex>
+		<regex>
+		<name>get-hdnea</name>
+		<expres>hdnea=st=([^"]*)</expres>
+		<page>http://new.livestream.com/accounts/9841337/events/3348791</page>
+		</regex>
+		</item>
+</streaminginfo>
+
+<streaminginfo>
+		<cname>Alghad Alarabi</cname>
+		<item>
+		<title>Low</title>
+		<link>$doregex[get-m3u8]&amp;hdnea=st=$doregex[get-hdnea]</link>
+		<regex>
+		<name>get-m3u8</name>
+		<expres>270.*[^h]+(.*)</expres>
+		<page>$doregex[get-page]</page>
+		</regex>
+		<regex>
+		<name>get-page</name>
+		<expres>"m3u8_url":"([^"]*)</expres>
+		<page>http://new.livestream.com/alghadtv/events/2330953</page>
+		</regex>
+		<regex>
+		<name>get-hdnea</name>
+		<expres>hdnea=st=([^"]*)</expres>
+		<page>http://new.livestream.com/alghadtv/events/2330953</page>
+		</regex>
+		</item>
+</streaminginfo>
+<streaminginfo>
+		<cname>Alghad Alarabi</cname>
+		<item>
+		<title>Med</title>
+		<link>$doregex[get-m3u8]&amp;hdnea=st=$doregex[get-hdnea]</link>
+		<regex>
+		<name>get-m3u8</name>
+		<expres>432.*[^h]+(.*)</expres>
+		<page>$doregex[get-page]</page>
+		</regex>
+		<regex>
+		<name>get-page</name>
+		<expres>"m3u8_url":"([^"]*)</expres>
+		<page>http://new.livestream.com/alghadtv/events/2330953</page>
+		</regex>
+		<regex>
+		<name>get-hdnea</name>
+		<expres>hdnea=st=([^"]*)</expres>
+		<page>http://new.livestream.com/alghadtv/events/2330953</page>
+		</regex>
+		</item>
+</streaminginfo>
 	<streaminginfo>
 		<cname>Alghad Alarabi</cname>
 		<item>
