@@ -1114,7 +1114,26 @@
 		</regex>
 		</item>
 </streaminginfo>
-
+<streaminginfo>
+	<cname>Al Magharibia</cname>
+	<item>
+	<title>Livestream Med</title>
+	<link>$doregex[get-m3u8]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+	<regex>
+	<name>get-m3u8</name>
+	<expres>512.*\s?(http.*?)\s</expres>
+	<page>$doregex[get-page]</page>
+	<agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+	<cookieJar></cookieJar>
+	</regex>
+	<regex>
+	<name>get-page</name>
+	<expres>"m3u8_url":"(.*?)"</expres>
+	<page>http://new.livestream.com/accounts/9841337/events/3348791</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>
+</streaminginfo>
 <streaminginfo>
 		<cname>Alghad Alarabi</cname>
 		<item>
