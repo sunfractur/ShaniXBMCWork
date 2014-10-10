@@ -1,42 +1,24 @@
 <streamingInfos>
+
 <streaminginfo>
-		<cname>Mazzika</cname>
-		<item>
-		<title>telvza</title>
-<link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/ timeout=20</link>
-<regex>
-<name>get-rtmp</name>
-<expres> file: "(.*?)"</expres>
-<page>http://www.telvza-online.com/mazzika</page>
-<cookieJar>$doregex[getsession]</cookieJar>
-</regex>
-<regex>
-<name>getsession</name>
-<expres></expres>
-<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
-<cookieJar></cookieJar>
-</regex>
-		</item>
+	<cname>Mazzika</cname>
+	<item>
+	<title>telvza</title>
+	<link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/ timeout=20</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres> file: "(.*?)"</expres>
+	<page>http://www.telvza-online.com/mazzika</page>
+	<cookieJar>$doregex[getsession]</cookieJar>
+	</regex>
+	<regex>
+	<name>getsession</name>
+	<expres></expres>
+	<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>
 	</streaminginfo>
-<streaminginfo>
-			<cname>Mazzika</cname>
-<item>
-<title>Mazzikatts</title>
-<link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/ timeout=20</link>
-<regex>
-<name>get-rtmp</name>
-<expres> file: "(.*?)"</expres>
-<page>http://www.telvza-online.com/mazzika</page>
-<cookieJar>$doregex[getsession]</cookieJar>
-</regex>
-<regex>
-<name>getsession</name>
-<expres></expres>
-<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
-<cookieJar></cookieJar>
-</regex>
-</item>
-</streaminginfo>
 <streaminginfo>
         <cname>Samira Tv</cname>
        <item>
