@@ -1,9 +1,20 @@
 <streamingInfos>
 <streaminginfo>
+	<cname>Al Mutawasit</cname>
+	<url>al_mutawasit_tv</url>
+</streaminginfo>
+<streaminginfo>
+	<cname>KBC Algeria</cname>
+	<url>kbc_algeria</url>
+</streaminginfo>
+<streaminginfo>
+	<cname>First TV</cname>
+	<url>tunisia_first_tv</url>
+</streaminginfo>
+<streaminginfo>
 	<cname>Qatar</cname>
 	<url>qatar</url>
 </streaminginfo>
-
 <streaminginfo>
 	<cname>Canal Cinema</cname>
 	<url>canal_plus_cinema</url>
