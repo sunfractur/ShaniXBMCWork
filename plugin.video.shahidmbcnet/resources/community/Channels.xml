@@ -1,5 +1,14 @@
 <channels>
 <channel>
+      <cname>KBC Algeria</cname>
+      <imageurl>http://2.bp.blogspot.com/-IkBy19PY8Fo/U0mSAu5nLiI/AAAAAAAAAyw/B9cBSNkC4II/s1600/%D9%82%D9%86%D8%A7%D8%A9+%D8%A7%D9%84%D8%AE%D8%A8%D8%B1+KBC+TV.png</imageurl>
+      <enabled>True</enabled>
+      <assignedcategory>
+      <category>magreb</category>
+      <category>news</category>
+      </assignedcategory>
+</channel>
+<channel>
      <cname>Bzaf</cname>
      <imageurl>http://s14.postimg.org/ag24bn1e9/10632174_707529022661111_1332298201_a.jpg</imageurl>
      <enabled>True</enabled>
