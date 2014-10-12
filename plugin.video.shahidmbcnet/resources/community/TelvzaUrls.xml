@@ -2473,7 +2473,271 @@
 	</regex>
 	</item>
 </streaminginfo>
+<streaminginfo>
+	<cname>Cima</cname>
+	<item>
+	<title>Cima</title>
+	<link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/cima timeout=20</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres> file: "(.*?)"</expres>
+	<page>http://www.telvza-online.com/cima</page>
+	<cookieJar>$doregex[getsession]</cookieJar>
+	</regex>
+	<regex>
+	<name>getsession</name>
+	<expres></expres>
+	<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>
+</streaminginfo>
+	
+<streaminginfo>
+	<cname>CNBC Arabic</cname>
+	<item>
+	<title>CNBC Arabic</title>
+	<link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/cnbc-arabia timeout=20</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres> file: "(.*?)"</expres>
+	<page>http://www.telvza-online.com/cnbc-arabia</page>
+	<cookieJar>$doregex[getsession]</cookieJar>
+	</regex>
+	<regex>
+	<name>getsession</name>
+	<expres></expres>
+	<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>
+</streaminginfo>
+	
+	
+<streaminginfo>
+	<cname>Coran</cname>
+	<item>
+	<title>Coran</title>
 
+	<link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/coran timeout=20</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres> file: "(.*?)"</expres>
+	<page>http://www.telvza-online.com/coran</page>
+	<cookieJar>$doregex[getsession]</cookieJar>
+	</regex>
+	<regex>
+	<name>getsession</name>
+	<expres></expres>
+	<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>
+</streaminginfo>
+	
+	 
+<streaminginfo>
+	<cname>Dubai One</cname>
+	<item>
+	<title>Dubai One</title>
+
+	<link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/coran-tv timeout=20</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres> file: "(.*?)"</expres>
+	<page>http://www.telvza-online.com/coran-tv</page>
+	<cookieJar>$doregex[getsession]</cookieJar>
+	</regex>
+	<regex>
+	<name>getsession</name>
+	<expres></expres>
+	<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Dalel</cname>
+	<item>
+	<title>Dalel</title>
+	<link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/dalel timeout=20</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres> file: "(.*?)"</expres>
+	<page>http://www.telvza-online.com/dalel</page>
+	<cookieJar>$doregex[getsession]</cookieJar>
+	</regex>
+	<regex>
+	<name>getsession</name>
+	<expres></expres>
+	<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>
+</streaminginfo>
+	
+	 
+<streaminginfo>
+	<cname></cname>
+	<item>
+	<title>telvza</title>
+	<link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/direct-8 timeout=20</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres> file: "(.*?)"</expres>
+	<page>http://www.telvza-online.com/direct-8</page>
+	<cookieJar>$doregex[getsession]</cookieJar>
+	</regex>
+	<regex>
+	<name>getsession</name>
+	<expres></expres>
+	<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>
+</streaminginfo>
+	
+	
+<streaminginfo>
+	<cname>Djibouti</cname>
+	<item>
+	<title>Djibouti</title>
+	<link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/djibouti timeout=20</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres> file: "(.*?)"</expres>
+	<page>http://www.telvza-online.com/djibouti</page>
+	<cookieJar>$doregex[getsession]</cookieJar>
+	</regex>
+	<regex>
+	<name>getsession</name>
+	<expres></expres>
+	<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+	<cname>Dream 1</cname>
+	<item>
+	<title>Dream 1</title>
+	<link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/dream-1 timeout=20</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres> file: "(.*?)"</expres>
+	<page>http://www.telvza-online.com/dream-1</page>
+	<cookieJar>$doregex[getsession]</cookieJar>
+	</regex>
+	<regex>
+	<name>getsession</name>
+	<expres></expres>
+	<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>
+</streaminginfo>	
+<streaminginfo>
+	<cname>Dubai</cname>
+	<item>
+	<title>Dubai</title>
+	<link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/dubai timeout=20</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres> file: "(.*?)"</expres>
+	<page>http://www.telvza-online.com/dubai</page>
+	<cookieJar>$doregex[getsession]</cookieJar>
+	</regex>
+	<regex>
+	<name>getsession</name>
+	<expres></expres>
+	<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>
+</streaminginfo>
+	
+	
+<streaminginfo>
+	<cname>Dubai</cname>
+	<item>
+	<title>SVR1</title>
+	<link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/dubai-one timeout=20</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres> file: "(.*?)"</expres>
+	<page>http://www.telvza-online.com/dubai-one</page>
+	<cookieJar>$doregex[getsession]</cookieJar>
+	</regex>
+	<regex>
+	<name>getsession</name>
+	<expres></expres>
+	<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>
+</streaminginfo>
+	
+	
+<streaminginfo>
+	<cname>Dubai Sport 1</cname>
+	<item>
+	<title>Dubai Sport 1</title>
+	<link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/dubai-sport-1 timeout=20</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres> file: "(.*?)"</expres>
+	<page>http://www.telvza-online.com/dubai-sport-1</page>
+	<cookieJar>$doregex[getsession]</cookieJar>
+	</regex>
+	<regex>
+	<name>getsession</name>
+	<expres></expres>
+	<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>
+</streaminginfo>
+	
+	
+<streaminginfo>
+	<cname>Dubai Sport 2</cname>
+	<item>
+	<title>Dubai Sport 2</title>
+	<link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/dubai-sport-2 timeout=20</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres> file: "(.*?)"</expres>
+	<page>http://www.telvza-online.com/dubai-sport-2</page>
+	<cookieJar>$doregex[getsession]</cookieJar>
+	</regex>
+	<regex>
+	<name>getsession</name>
+	<expres></expres>
+	<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>
+</streaminginfo>           
+<streaminginfo>
+	<cname>Dubai Sport 3</cname>
+	<item>
+	<title>Dubai Sport 3</title>
+	<link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/dubai-sport-3 timeout=20</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres> file: "(.*?)"</expres>
+	<page>http://www.telvza-online.com/dubai-sport-3</page>
+	<cookieJar>$doregex[getsession]</cookieJar>
+	</regex>
+	<regex>
+	<name>getsession</name>
+	<expres></expres>
+	<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>
+</streaminginfo>
 
 
 
