@@ -1,5 +1,10 @@
 <streamingInfos>
 <streaminginfo>
+	<cname>Qatar</cname>
+	<url>qatar</url>
+</streaminginfo>
+
+<streaminginfo>
 	<cname>Canal Cinema</cname>
 	<url>canal_plus_cinema</url>
 </streaminginfo>
