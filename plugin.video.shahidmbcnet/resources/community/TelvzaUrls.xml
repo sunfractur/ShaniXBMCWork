@@ -3,8 +3,8 @@
 <streaminginfo>
         <cname>Mazzika</cname>
         <item>
-	    <title>telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/mazzika timeout=20</link>
+        <title>telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/mazzika timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -17,13 +17,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>Samira Tv</cname>
         <item>
-	    <title>Samira TV</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/samira-tv timeout=20</link>
+        <title>Samira TV</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/samira-tv timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -36,13 +36,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>CBC Sofra</cname>
         <item>
-	    <title>Sofra</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/cbc-sofra timeout=20</link>
+        <title>Sofra</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/cbc-sofra timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -55,13 +55,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>Dubai Sport 2</cname>
         <item>
-	    <title>Dubai Sport 2</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/dubai-sport-2 timeout=20</link>
+        <title>Dubai Sport 2</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/dubai-sport-2 timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -74,13 +74,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>Dubai Sport 1</cname>
         <item>
-	    <title>Dubai Sport 1</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/dubai-sport-1 timeout=20</link>
+        <title>Dubai Sport 1</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/dubai-sport-1 timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -93,13 +93,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>2M</cname>
         <item>
-	    <title>2m</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/2m-national timeout=20</link>
+        <title>2m</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/2m-national timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -112,13 +112,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>Abu Dhabi</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/abu-dhabi timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/abu-dhabi timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -131,14 +131,14 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 
 <streaminginfo>
         <cname>Abu Dhabi Drama</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/abu-dhabi-drama timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/abu-dhabi-drama timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -151,14 +151,14 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 
 <streaminginfo>
         <cname>Abu Dhabi Sports 1</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/abu-dhabi-sports timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/abu-dhabi-sports timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -171,14 +171,14 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 
 <streaminginfo>
         <cname>Aghanina</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/aghanina timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/aghanina timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -191,13 +191,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>Ajyal</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/ajyal timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/ajyal timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -210,13 +210,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>Al oula Maroc</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/al-aoula-maroc timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/al-aoula-maroc timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -229,14 +229,14 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 
 <streaminginfo>
         <cname>Al Haneen Music</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/al-haneen-music timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/al-haneen-music timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -249,13 +249,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>Alhayat 1</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/al-hayat timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/al-hayat timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -268,13 +268,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>Alekhbaria Syria</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/al-ikhbaria timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/al-ikhbaria timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -287,13 +287,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>Al Janoubiya</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/al-janoubiya timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/al-janoubiya timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -306,13 +306,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>AlQahera W Elnas</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/al-kahera-wal-nas timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/al-kahera-wal-nas timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -325,13 +325,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>AlQahera W Elnas 2</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/al-kahera-wal-nas-2 timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/al-kahera-wal-nas-2 timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -344,13 +344,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>Al Maghribia</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/al-maghribia timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/al-maghribia timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -363,13 +363,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>Al Majd</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/al-majd timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/al-majd timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -382,13 +382,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>Al Manar</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/al-manar timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/al-manar timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -401,13 +401,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>Al Masriyah</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/al-masriyah timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/al-masriyah timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -420,13 +420,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>Al mayaden</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/al-mayaden timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/al-mayaden timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -439,13 +439,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>Al Moustakilla</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/al-moustakilla timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/al-moustakilla timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -458,13 +458,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>Al Mutawasit</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/al-mutawasit timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/al-mutawasit timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -477,13 +477,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>Al Nahar</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/al-nahar timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/al-nahar timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -496,13 +496,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>Al-Nahar Drama</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/al-nahar-drama timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/al-nahar-drama timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -515,13 +515,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>Egypt 1</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/al-oula timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/al-oula timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -534,13 +534,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>Al-Resalah</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/al-resalah timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/al-resalah timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -553,13 +553,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>Al Sharqiya</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/al-sharqiya timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/al-sharqiya timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -572,13 +572,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>Al Sumaria</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/al-sumaria timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/al-sumaria timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -591,13 +591,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>Egypt 2</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/al-thaniya timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/al-thaniya timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -610,13 +610,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>Alan</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/alan timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/alan timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -629,13 +629,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>Alarabiya</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/alarabiya timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/alarabiya timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -648,13 +648,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>Al Dafra</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/aldafrah timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/aldafrah timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -667,13 +667,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>AlGeria</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/algeria timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/algeria timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -686,13 +686,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>Algeria 3</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/algeria-3 timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/algeria-3 timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -705,13 +705,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>Alhayat2</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/alhayat-2 timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/alhayat-2 timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -724,13 +724,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>Al Hiwar</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/alhewar timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/alhewar timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -743,13 +743,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>Aliraqiya</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/aliraqiya timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/aliraqiya timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -762,13 +762,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>Al Iraqiya Sport</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/aliraqiya-sport timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/aliraqiya-sport timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -781,14 +781,14 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 
 <streaminginfo>
         <cname>Aljadeed</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/aljadeed timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/aljadeed timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -801,13 +801,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>Aljazeera</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/aljazeera timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/aljazeera timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -820,13 +820,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>Aljazeera Children</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/aljazeera-children timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/aljazeera-children timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -839,13 +839,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>Aljazeera Doc</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/aljazeera-doc timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/aljazeera-doc timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -858,13 +858,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>Alqudis</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/alqudis timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/alqudis timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -877,13 +877,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>Al Rasheed</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/alrashid timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/alrashid timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -896,13 +896,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>Alriadia Sport</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/alriadia-sport timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/alriadia-sport timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -915,13 +915,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>ALTAGHEER TV</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/altahrer timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/altahrer timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -934,13 +934,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>Arabica Music</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/arabica-tv timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/arabica-tv timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -953,13 +953,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>Arrabia</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/arrabia timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/arrabia timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -972,13 +972,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>Art Aflam 1</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/art-aflam-1 timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/art-aflam-1 timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -991,13 +991,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>Art Aflam 2</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/art-aflam-2 timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/art-aflam-2 timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -1010,13 +1010,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>ART Cinema</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/art-cinema timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/art-cinema timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -1029,13 +1029,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>ART Hekayat</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/art-hekayet-1 timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/art-hekayet-1 timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -1048,13 +1048,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>ART Hekayat 2</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/art-hekayet-2 timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/art-hekayet-2 timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -1067,13 +1067,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>ART Hekayat</cname>
         <item>
-	    <title>Mosalsalat</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/art-mosalsalet timeout=20</link>
+        <title>Mosalsalat</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/art-mosalsalet timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -1086,13 +1086,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>Assadissa</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/assadissa timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/assadissa timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -1105,13 +1105,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>Bahrain</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/bahrain timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/bahrain timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -1124,13 +1124,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>Baraem</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/baraem timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/baraem timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -1143,13 +1143,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>BBC Arabic</cname>
         <item>
-	    <title>Telvza</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/bbc-arabic timeout=20</link>
+        <title>Telvza</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/bbc-arabic timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -1162,7 +1162,7 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 
 <streaminginfo>
@@ -1187,7 +1187,7 @@
 <streaminginfo>
         <cname>Bein Sport News</cname>
         <item>
-	    <title>telvza</title>
+        <title>telvza</title>
 
         <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/bein-news timeout=20</link>
         <regex>
@@ -1207,7 +1207,7 @@
 <streaminginfo>
         <cname>Bein Sport 1</cname>
         <item>
-	    <title>telvza</title>
+        <title>telvza</title>
 
         <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/bein-sport-1-hd timeout=20</link>
         <regex>
@@ -1227,7 +1227,7 @@
 <streaminginfo>
         <cname>Bein Sport 2</cname>
         <item>
-	    <title>telvza</title>
+        <title>telvza</title>
 
         <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/bein-sport-2-hd timeout=20</link>
         <regex>
@@ -1247,7 +1247,7 @@
 <streaminginfo>
         <cname>Bein Sport 3</cname>
         <item>
-	    <title>telvza</title>
+        <title>telvza</title>
 
         <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/bein-sport-3-hd timeout=20</link>
         <regex>
@@ -1267,7 +1267,7 @@
 <streaminginfo>
         <cname>Bein Sport 4</cname>
         <item>
-	    <title>telvza</title>
+        <title>telvza</title>
 
         <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/bein-sport-4-hd timeout=20</link>
         <regex>
@@ -1287,7 +1287,7 @@
 <streaminginfo>
         <cname>Bein Sport 5</cname>
         <item>
-	    <title>telvza</title>
+        <title>telvza</title>
 
         <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/bein-sport-5-hd timeout=20</link>
         <regex>
@@ -1307,7 +1307,7 @@
 <streaminginfo>
         <cname>Bein Sport 6</cname>
         <item>
-	    <title>telvza</title>
+        <title>telvza</title>
 
         <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/bein-sport-6-hd timeout=20</link>
         <regex>
@@ -1327,7 +1327,7 @@
 <streaminginfo>
         <cname>Bein Sport 7</cname>
         <item>
-	    <title>telvza</title>
+        <title>telvza</title>
 
         <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/bein-sport-7-hd timeout=20</link>
         <regex>
@@ -1347,7 +1347,7 @@
 <streaminginfo>
         <cname>Bein Sport 8</cname>
         <item>
-	    <title>telvza</title>
+        <title>telvza</title>
 
         <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/bein-sport-8-hd timeout=20</link>
         <regex>
@@ -1367,7 +1367,7 @@
 <streaminginfo>
         <cname>Bein Sport 9</cname>
         <item>
-	    <title>telvza</title>
+        <title>telvza</title>
 
         <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/bein-sport-9-hd timeout=20</link>
         <regex>
@@ -1491,8 +1491,8 @@
 <streaminginfo>
         <cname>Canal plus</cname>
         <item>
-	    <title>Canal+</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/canal-fr timeout=20</link>
+        <title>Canal+</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/canal-fr timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -1505,14 +1505,14 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 
 <streaminginfo>
         <cname>Canal+ Sport</cname>
         <item>
-	    <title>Canal+ Sport</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/canal-sport timeout=20</link>
+        <title>Canal+ Sport</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/canal-sport timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -1525,14 +1525,14 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 
 <streaminginfo>
         <cname>Canal Cinema</cname>
         <item>
-	    <title>Canal+ Cinema</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/canal-cinema timeout=20</link>
+        <title>Canal+ Cinema</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/canal-cinema timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -1545,13 +1545,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 <streaminginfo>
         <cname>Eurosport France</cname>
         <item>
-	    <title>Eurosport France</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/eurosport-fr timeout=20</link>
+        <title>Eurosport France</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/eurosport-fr timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -1564,14 +1564,14 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 
 <streaminginfo>
         <cname>Bein 1 FR</cname>
         <item>
-	    <title>Bein Sport 1 HD FR</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/bein-sport-1-hd-fr timeout=20</link>
+        <title>Bein Sport 1 HD FR</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/bein-sport-1-hd-fr timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -1584,14 +1584,14 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 
 <streaminginfo>
         <cname>Bein 2 FR</cname>
         <item>
-	    <title>Bein Sport 2 HD FR</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/bein-sport-2-hd-fr timeout=20</link>
+        <title>Bein Sport 2 HD FR</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/bein-sport-2-hd-fr timeout=20</link>
         <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -1604,14 +1604,14 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 
 <streaminginfo>
         <cname>Future TV</cname>
         <item>
-	    <title>Future</title>
-	    <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/future timeout=20</link>
+        <title>Future</title>
+        <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/future timeout=20</link>
 	    <regex>
         <name>get-rtmp</name>
         <expres> file: "(.*?)"</expres>
@@ -1624,13 +1624,13 @@
         <page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
         <cookieJar></cookieJar>
         </regex>
-	    </item>
+        </item>
 </streaminginfo>
 
 <streaminginfo>
         <cname>Zee Alwan</cname>
         <item>
-	    <title>telvza</title>
+        <title>telvza</title>
 
         <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/future timeout=20</link>
         <regex>
@@ -1650,7 +1650,7 @@
 <streaminginfo>
         <cname>Zee Aflam</cname>
         <item>
-	    <title>telvza</title>
+        <title>telvza</title>
 
         <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/zee-aflam timeout=20</link>
         <regex>
@@ -1712,6 +1712,7 @@
         <cname>yemen</cname>
         <item>
         <title>telvza</title>
+
         <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/yemen timeout=20</link>
         <regex>
         <name>get-rtmp</name>
@@ -1731,6 +1732,7 @@
         <cname>Sky Sports 1</cname>
         <item>
         <title>telvza</title>
+
         <link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/sky-movies-premiere-uk timeout=20</link>
         <regex>
         <name>get-rtmp</name>
