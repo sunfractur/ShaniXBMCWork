@@ -1,5 +1,18 @@
 <streamingInfos>
-
+<streaminginfo>
+		<cname>Ajyal</cname>
+		<item>
+		<title>islambox</title>
+		<link>rtmp://ib12.islambox.tv/live/?v=hghpl]=a2V5bGl2ZTIxNy0yMzAtMjIzLTIwMjIwMTQtMDUtMjQtMTEtNTAtNDY=/vb008_ajial.stream? timeout=20</link>
+		</item>
+</streaminginfo>
+<streaminginfo>
+		<cname>KSA 1</cname>
+		<item>
+		<title>islambox</title>
+		<link>rtmp://ib12.islambox.tv/live/?v=hghpl]=a2V5bGl2ZTE5Ny0xNS0yMzUtNzkyMDE0LTA1LTIzLTE3LTA0LTM3/vb008_sauditv1.stream?key=1DF7699BEF2100B54B5F770003AEF11E66B5DD32C3AB969A08536956804CF892 timeout=20</link>
+		</item>
+</streaminginfo>
 <streaminginfo>
 	<cname>Al-hurra Iraq</cname>
 	<item>
