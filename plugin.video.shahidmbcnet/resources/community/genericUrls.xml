@@ -1,5 +1,12 @@
 <streamingInfos>
 <streaminginfo>
+		<cname>Quran TV ksa</cname>
+		<item>
+		<title>islambox</title>
+		<link>rtmp://ib12.islambox.tv/live/vb008_alquranalkareem_160k.stream?key=0111A8A7AEA120798F3C582A066AAF96843EF63A704AE0CE730C54EA0CBD5FE7 timeout=20</link>
+		</item>
+</streaminginfo>
+<streaminginfo>
 		<cname>Ajyal</cname>
 		<item>
 		<title>islambox</title>
