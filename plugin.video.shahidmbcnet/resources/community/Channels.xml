@@ -1,5 +1,14 @@
 <channels>
 <channel>
+      <cname>RTS 1</cname>
+      <imageurl>http://www.lyngsat-logo.com/hires/rr/rts1_sn.png</imageurl>
+      <enabled>True</enabled>
+      <assignedcategory>
+      <category>sports</category>
+      <category>africa</category>
+      </assignedcategory>
+</channel>
+<channel>
       <cname>KBC Algeria</cname>
       <imageurl>http://2.bp.blogspot.com/-IkBy19PY8Fo/U0mSAu5nLiI/AAAAAAAAAyw/B9cBSNkC4II/s1600/%D9%82%D9%86%D8%A7%D8%A9+%D8%A7%D9%84%D8%AE%D8%A8%D8%B1+KBC+TV.png</imageurl>
       <enabled>True</enabled>
