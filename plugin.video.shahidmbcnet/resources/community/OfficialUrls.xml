@@ -1,6 +1,42 @@
 <streamingInfos>
 
+<streaminginfo>
+	<cname>RTS 1</cname>
+	<item>
+	<title>Low</title>
+	<link>$doregex[url]</link>
+	<regex>
+	<name>url</name>
+	<expres>rtspURL = '([^']*)</expres>
+	<page>http://acanlinks.com/secureplayer/player.php?ch=rtssecure1.stream_LOW</page>
+	</regex>
+	</item>
+</streaminginfo>
 
+<streaminginfo>
+	<cname>RTS 1</cname>
+	<item>
+	<title>SD</title>
+	<link>$doregex[url]</link>
+	<regex>
+	<name>url</name>
+	<expres>rtspURL = '([^']*)</expres>
+	<page>http://acanlinks.com/secureplayer/player.php?ch=rtssecure1.stream_SD</page>
+	</regex>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>RTS 1</cname>
+	<item>
+	<title>High</title>
+	<link>$doregex[url]</link>
+	<regex>
+	<name>url</name>
+	<expres>rtspURL = '([^']*)</expres>
+	<page>http://acanlinks.com/secureplayer/player.php?ch=rtssecure1.stream_HD</page>
+	</regex>
+	</item>
+</streaminginfo>
 <streaminginfo>
 		<cname>Arabica Music</cname>
 		<item>
@@ -8,7 +44,6 @@
 		<link>http://live.itworkscdn.net/arabicalive/arabicatv/playlist.m3u8</link>
 		</item>
 </streaminginfo>
-
 <streaminginfo>
 		<cname>Arabica Music</cname>
 		<item>
@@ -16,7 +51,6 @@
 		<link>http://37.48.80.50/arabicalive/arabicatv/chunklist_w260000.m3u8</link>
 		</item>
 </streaminginfo>
-
 <streaminginfo>
 		<cname>Arabica Music</cname>
 		<item>
