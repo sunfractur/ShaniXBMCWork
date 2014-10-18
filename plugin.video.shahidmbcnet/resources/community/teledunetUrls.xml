@@ -1,5 +1,29 @@
 <streamingInfos>
 <streaminginfo>
+<title>Canal+ Foot</title>
+	<cname>Canal+ Sport</cname>
+	<url>foot_plus</url>
+</streaminginfo>
+<streaminginfo>
+        <cname>RTS 1</cname>
+		<url>rts_1</url>
+</streaminginfo>
+<streaminginfo>
+        <cname>I-TELE</cname>
+		<url>i_tele	</url>
+</streaminginfo>
+<streaminginfo>
+	<title>SRV2</title>
+	<cname>Quran TV ksa</cname>
+	<url>al_quran_al_karim</url>
+</streaminginfo>
+<streaminginfo>
+	<title>SRV1</title>
+	<cname>Quran TV ksa</cname>
+	<url>coran</url>
+</streaminginfo>
+
+<streaminginfo>
 	<cname>Bein 1 FR</cname>
 	<url>bein_sports_1_hd_fr</url>
 </streaminginfo>
@@ -86,11 +110,6 @@
 	<cname>Tamazigh Algeria</cname>
 	<url>tamazight</url>
 </streaminginfo>
-<streaminginfo>
-	<cname>Quran TV ksa</cname>
-	<url>coran</url>
-</streaminginfo>
-
 <streaminginfo>
 	<cname>Noon Kids</cname>
 	<url>noonkids</url>
