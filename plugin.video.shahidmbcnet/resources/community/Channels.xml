@@ -1,10 +1,17 @@
 <channels>
 <channel>
+      <cname>TFM</cname>
+      <imageurl>http://www.lyngsat-logo.com/logo/tv/tt/tfm_sn.png</imageurl>
+      <enabled>True</enabled>
+      <assignedcategory>
+      <category>africa</category>
+      </assignedcategory>
+</channel>
+<channel>
       <cname>RTS 1</cname>
       <imageurl>http://www.lyngsat-logo.com/hires/rr/rts1_sn.png</imageurl>
       <enabled>True</enabled>
       <assignedcategory>
-      <category>sports</category>
       <category>africa</category>
       </assignedcategory>
 </channel>
