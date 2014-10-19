@@ -1,4 +1,58 @@
 <streamingInfos>
+<streaminginfo><cname>MBC Masr</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.2:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>Dream 2</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.3:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>Alhayat Cinema</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.4:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>Music+</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.5:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>Beladi</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.6:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>iFilm Arabic</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.8:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>CCTV Arabic</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.10:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>Nile Family</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.12:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>Nile Tv</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.13:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>Nile Comedy</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.14:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>Nile Life</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.15:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>Nile Drama</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.16:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>Nile Sportcname></cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.17:1234</link></item>
+</streaminginfo>
+<streaminginfo><cname>Nile Culture</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.18:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>Nile Cinema</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.19:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>SM SM KIDS</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.20:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>Funoon</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.21:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>Rotana Music</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.23:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>Rotana Clip</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.24:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>Fox</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.25:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>Rotana Khaligi</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.26:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>AlQahera W Elnas</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.27:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>MTV Arabia</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.29:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>Sharjah Sport</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.30:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>Spacetoon</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.31:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>Mehwar</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.33:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>Abu Dhabi Emirates</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.34:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>Afaq</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.35:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>Alhayat2</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.36:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>Abu Dhabi Sports 1</cname><item><title>UPD Abu Dhabi Sports 2</title><link>http://82.135.224.134:80/udp/239.100.2.39:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>Rotana Classic</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.40:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>Rotana Masriya</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.41:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>Rotana cinema</cname><item><title>UPD SRV2</title><link>http://82.135.224.134:80/udp/239.100.2.42:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>Fox Movies</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.43:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>Rotana cinema</cname><item><title>UPD SRV1</title><link>http://82.135.224.134:80/udp/239.100.2.44:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>Alhayat-Series</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.46:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>OTV Lebanon</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.48:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>Panorama Drama</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.51:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>Panorama Drama 2</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.52:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>Panorama Comedy</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.53:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>Panorama film</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.56:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>CBC</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.58:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>CBC Extra</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.59:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>CBC Drama</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.60:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>Al Nahar</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.61:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>Libya AlWataniya</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.63:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>National Geo Ad</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.65:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>Al Magharibia</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.66:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>MBC Drama</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.67:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>Abu Dhabi</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.68:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>Al Baghdadia 2</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.69:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+<streaminginfo><cname>Wanasah</cname><item><title>UDP</title><link>http://82.135.224.134:80/udp/239.100.2.73:1234 live=1 swfVfy=1 timeout=15</link></item></streaminginfo>
+
 <streaminginfo>
 		<cname>Quran TV ksa</cname>
 		<item>
