@@ -1,5 +1,33 @@
 <streamingInfos>
 <streaminginfo>
+	<cname>Al Ahad</cname>
+	<item>
+	<title>Low</title>
+	<link>http://38.96.175.119:1935/alahadtv/maramhost3/playlist.m3u8?DVR</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Al Ahad</cname>
+	<item>
+	<title>Med</title>
+	<link>http://38.96.175.119:1935/alahadtv/maramhost2/playlist.m3u8?DVR</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Al Ahad</cname>
+	<item>
+	<title>High</title>
+	<link>http://38.96.175.119:1935/alahadtv/maramhost1/playlist.m3u8?DVR</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+    <cname>Al Ahad</cname>
+	<item>
+	<title>Med: You need to install f4m_tester addon from Shani Repo</title>
+	<link>plugin://plugin.video.f4mTester/?url=http://38.96.175.119:1935/alahadtv/maramhost1/manifest.f4m?DVR</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
     <cname>Al Baghdadia</cname>
 	<item>
 	<title>Med: You need to install f4m_tester addon from Shani Repo</title>
