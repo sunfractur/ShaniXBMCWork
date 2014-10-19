@@ -1,5 +1,13 @@
 <channels>
 <channel>
+      <cname>NBC Golf</cname>
+      <imageurl>https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQzjFf0-GG5z9V-K3U7mZipgZFHIy0kgZD-Ur9S9_eMYOl-QsD-Ew</imageurl>
+      <enabled>True</enabled>
+      <assignedcategory>
+      <category>sports</category>
+      </assignedcategory>
+</channel>
+<channel>
       <cname>TFM</cname>
       <imageurl>http://www.lyngsat-logo.com/logo/tv/tt/tfm_sn.png</imageurl>
       <enabled>True</enabled>
