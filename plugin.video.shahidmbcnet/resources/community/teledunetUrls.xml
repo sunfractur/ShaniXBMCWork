@@ -1,4 +1,9 @@
 <streamingInfos>
+
+<streaminginfo>
+        <cname>B4U Aflam</cname>
+	<url>b4u_aflam</url>
+</streaminginfo>
 <streaminginfo>
 <title>Canal+ Foot</title>
 	<cname>Canal+ Sport</cname>
@@ -568,10 +573,6 @@
 <streaminginfo>
 	<cname>BBC Arabic</cname>
 	<url>bbc_arabic</url>
-</streaminginfo>
-<streaminginfo>
-	<cname>Al Baghdadia</cname>
-	<url>al_baghdadia</url>
 </streaminginfo>
 <streaminginfo>
 	<cname>Bahrain</cname>
