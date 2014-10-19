@@ -1,5 +1,8 @@
 <streamingInfos>
-
+<streaminginfo>
+        <cname>TFM</cname>
+	<url>tfm_senegal</url>
+</streaminginfo>
 <streaminginfo>
         <cname>ORTM</cname>
 	<url>ortm_mali</url>
