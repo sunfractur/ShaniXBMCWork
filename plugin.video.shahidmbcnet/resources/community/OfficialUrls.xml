@@ -2892,15 +2892,27 @@
 	<link>rtmp://AgendaStreamer2.qna.org.qa/brm/brm</link>
 	</item>
 </streaminginfo>
-
 <streaminginfo>
 	<cname>Al Forat</cname>
 	<item>
 	<title>Low</title>
-	<link>rtmp://alforatlive.nanocdn.com:1935/live playpath=alforat256 swfUrl=http://www1.alforattv.net/modules/live/js/jwplayer/player.swf pageUrl=http://www1.alforattv.net live=1 swfVfy=1 timeout=10</link>
+	<link>http://alforatlive.nanocdn.com:1935/live/alforat64/playlist.m3u8</link>
 	</item>
 </streaminginfo> 
-
+<streaminginfo>
+	<cname>Al Forat</cname>
+	<item>
+	<title>Med</title>
+	<link>http://alforatlive.nanocdn.com:1935/live/alforat128/playlist.m3u8</link>
+	</item>
+</streaminginfo> 
+<streaminginfo>
+	<cname>Al Forat</cname>
+	<item>
+	<title>High</title>
+	<link>http://alforatlive.nanocdn.com:1935/live/alforat256/playlist.m3u8</link>
+	</item>
+</streaminginfo> 
 <streaminginfo>
 	<cname>SkyNewsArabia</cname>
 	<item><title>720p</title><link>rtmp://llnwvps231.fc.llnwd.net/llnwvps231/ playpath=eND-IS0mT2csspFA-2vGVs_NjZq-ZuZTMIgeu3aYyqcFI_640_360_3 swfUrl=http://assets.delvenetworks.com/player/loader.swf live=1 pageUrl=http://www.skynewsarabia.com/web/home?view=live</link>
