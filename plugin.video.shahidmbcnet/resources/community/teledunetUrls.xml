@@ -1,6 +1,11 @@
 <streamingInfos>
 
 <streaminginfo>
+        <cname>ORTM</cname>
+	<url>ortm_mali</url>
+</streaminginfo>
+
+<streaminginfo>
         <cname>B4U Aflam</cname>
 	<url>b4u_aflam</url>
 </streaminginfo>
