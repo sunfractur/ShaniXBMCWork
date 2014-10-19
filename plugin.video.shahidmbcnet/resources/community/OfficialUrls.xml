@@ -1,5 +1,11 @@
 <streamingInfos>
-
+<streaminginfo>
+    <cname>Al Baghdadia</cname>
+	<item>
+	<title>Med: You need to install f4m_tester addon from Shani Repo</title>
+	<link>plugin://plugin.video.f4mTester/?url=http://albaghdadiahds-lh.akamaihd.net/z/albaghdadia_1@199052/manifest.f4m?hdcore=true</link>
+	</item>
+</streaminginfo>
 <streaminginfo>
 	<cname>RTS 1</cname>
 	<item>
