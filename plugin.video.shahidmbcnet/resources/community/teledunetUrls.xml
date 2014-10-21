@@ -1,4 +1,26 @@
 <streamingInfos>
+
+<streaminginfo>
+        <cname>Karameesh</cname>
+	<url>karameesh</url>
+</streaminginfo>
+<streaminginfo>
+        <cname>Al Baghdadia</cname>
+	<url>al_baghdadia</url>
+</streaminginfo>
+<streaminginfo>
+	<cname>GearOne</cname>
+	<url>gearone</url>
+</streaminginfo>
+<streaminginfo>
+        <cname>Al Baghdadia 2</cname>
+		<url>al_baghdadia_2</url>
+</streaminginfo>
+<streaminginfo>
+        <cname>EnnaharTV algerie</cname>
+		<url>ennahar_algerie</url>
+</streaminginfo>
+
 <streaminginfo>
         <cname>TFM</cname>
 	<url>tfm_senegal</url>
@@ -23,7 +45,7 @@
 </streaminginfo>
 <streaminginfo>
         <cname>I-TELE</cname>
-		<url>i_tele	</url>
+		<url>i_tele</url>
 </streaminginfo>
 <streaminginfo>
 	<title>SRV2</title>
