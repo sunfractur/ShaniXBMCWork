@@ -1,6 +1,10 @@
 <streamingInfos>
 
 <streaminginfo>
+        <cname>Melody Classic</cname>
+	<url>melody_classic</url>
+</streaminginfo>
+<streaminginfo>
         <cname>Karameesh</cname>
 	<url>karameesh</url>
 </streaminginfo>
