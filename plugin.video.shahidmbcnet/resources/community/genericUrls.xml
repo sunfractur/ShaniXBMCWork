@@ -1,6 +1,11 @@
 <streamingInfos>
 
 <streaminginfo><cname>Samira TV</cname><item><title>teledunet source</title><link>rtmp://178.33.241.201:1935/teledunet?idu=06.430014131493E+13/samira_tv live=1 timeout=20</link></item></streaminginfo>
+<streaminginfo><cname>Tunisia national 1</cname><item><title>teledunet source</title><link>rtmp://178.33.241.201:1935/teledunet?idu=06.430014131493E+13/tunisia_national_1 live=1 timeout=20</link></item></streaminginfo>
+<streaminginfo><cname>Tunisia national 2</cname><item><title>teledunet source</title><link>rtmp://178.33.241.201:1935/teledunet?idu=06.430014131493E+13/tunisia_national_2 live=1 timeout=20</link></item></streaminginfo>
+<streaminginfo><cname>Nessma</cname><item><title>teledunet source</title><link>rtmp://www.teledunet.net:1935/teledunet?idu=06.430014131493E+13/nessma live=1 timeout=20</link></item></streaminginfo>
+<streaminginfo><cname>First TV</cname><item><title>teledunet source</title><link>rtmp://178.33.241.201:1935/teledunet?idu=06.430014131493E+13/tunisia_first_tv live=1 timeout=20</link></item></streaminginfo>
+<streaminginfo><cname>Al Tunisia</cname><item><title>teledunet source</title><link>rtmp://www.teledunet.net:1935/teledunet?idu=06.430014131493E+13/al_tunisia live=1 timeout=20</link></item></streaminginfo>
 
 
 <streaminginfo>
