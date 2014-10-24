@@ -3516,9 +3516,9 @@
 	</item>
 </streaminginfo> 
 <streaminginfo>
-	<cname>Mazeka zoom</cname>
+	<cname>Mazzika Zoom</cname>
 	<item>
-	<title>tMazeka zoom</title>
+	<title>Mazzika Zoom</title>
 	<link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/mazeka-zoom timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>
