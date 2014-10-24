@@ -4363,7 +4363,7 @@
     </channel>
 
     <channel>
-        <cname>Mazeka zoom</cname>
+        <cname>Mazzika Zoom</cname>
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/zoom_zps28bc2149.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
@@ -4373,7 +4373,7 @@
 
     <channel>
         <cname>Mazzika</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/MAZZIKA_zps96d32893.png</imageurl>
+        <imageurl>http://www.lyngsat-logo.com/hires/mm/mazzika.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>music</category>
