@@ -8,7 +8,10 @@
 
 
 
-
+<streaminginfo>
+	<cname>Samira TV</cname>
+	<item><link>http://$GL-IP$/SamiraTV$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
+</streaminginfo>
 <streaminginfo>
 	<cname>Noor Dubai</cname>
 	<item><link>http://$GL-IP$/NoorDubai$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
