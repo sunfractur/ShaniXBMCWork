@@ -1,5 +1,14 @@
 <channels>
 <channel>
+	<cname>CNN</cname>
+	<imageurl>http://www.lyngsat-logo.com/hires/cc/cnn_usa.png</imageurl>
+	<enabled>True</enabled>
+	<assignedcategory>
+	<category>english</category>
+	<category>news</category>
+	</assignedcategory>
+</channel>
+<channel>
    <cname>Al Rahma</cname>
    <imageurl>http://www.lyngsat-logo.com/hires/aa/al_rahma.png</imageurl>
    <enabled>True</enabled>
