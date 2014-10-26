@@ -6207,7 +6207,14 @@
      <category>sham</category>
      </assignedcategory>
 </channel>
-
+<channel>
+	<cname>Comedie+</cname>
+	<imageurl>http://www.lyngsat-logo.com/hires/cc/canalplus_fr_comedie_plus.png</imageurl>
+	<enabled>True</enabled>
+	<assignedcategory>
+	<category>french</category>
+	</assignedcategory>
+</channel>
 
 
 
