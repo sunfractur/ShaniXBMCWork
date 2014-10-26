@@ -1,5 +1,11 @@
 <streamingInfos>
-
+<streaminginfo>
+	<cname>Canal+ Sport</cname>
+	<item>
+		<title>Halima-Live</title>
+		<link>rtmp://halima-live.com:1936/live2 playpath=canal+fr4 swfUrl=http://www.scorpion-server.com.tn/js/jwplayer.flash.swf live=true flashver=WIN\2013,0,0,214 pageUrl=http://www.scorpion-server.com.tn/chaine.php?cat=16&amp;id=14 timeout=20</link> 
+	</item>
+</streaminginfo>
 <streaminginfo>
 	<cname>Comedie+</cname>
 	<item><title>NTV</title>
