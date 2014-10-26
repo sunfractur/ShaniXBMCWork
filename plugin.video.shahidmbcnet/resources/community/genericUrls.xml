@@ -3,9 +3,17 @@
 	<cname>Canal+ Sport</cname>
 	<item>
 		<title>Halima-Live</title>
-		<link>rtmp://halima-live.com:1936/live2 playpath=canal+fr4 swfUrl=http://www.scorpion-server.com.tn/js/jwplayer.flash.swf live=true flashver=WIN\2013,0,0,214 pageUrl=http://www.scorpion-server.com.tn/chaine.php?cat=16&amp;id=14 timeout=20</link> 
+		<link>$doregex[get-rtmp]2 playpath=canal+fr4 swfUrl=http://www.scorpion-server.com.tn/js/jwplayer.flash.swf live=true flashver=WIN\2014,0,0,152 swfVfy=true timeout=30 pageUrl=http://www.scorpion-server.com.tn/chaine.php?cat=16&amp;id=14</link> 
+	<regex>
+		<name>get-rtmp</name>
+                <expres>file: "([^"2$]*)</expres>
+                <page>http://www.scorpion-server.com.tn/chaine.php?cat=16&amp;id=85</page>
+                <referer>http://www.scorpion-server.com.tn/chaine.php?cat=16&amp;id=81</referer>
+                <cookieJar>PHPSESSID=62ddh75ccedqqmu5n24gdpvqb7</cookieJar>
+	</regex>
 	</item>
 </streaminginfo>
+
 <streaminginfo>
 	<cname>Comedie+</cname>
 	<item><title>NTV</title>
