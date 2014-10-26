@@ -3199,37 +3199,33 @@
 		<link>rtmp://206.190.153.70/live playpath=medi1tvfraja?id=14203 conn=S:OK swfUrl=http://www.janjua.tv/resources/scripts/eplayer.swf pageUrl=http://www.janjua.tv/embedplayer/medi1tvfraja/1/500/400live=true timeout=15</link>
 	</item>
 </streaminginfo>
-
-<streaminginfo>
-     	<cname>Al Tunisia</cname>
-	<item>
-	<title>zenex</title>
-	<link>rtmp://208.43.175.45/zenex playPath=ettouns002?id=68 conn=S:OK swfUrl=http://www.zenex.tv/data/scripts/eplayer.swf pageUrl=http://www.zenex.tv/embedplayer/ettouns002/1/500/400 live=1 timeout=10</link>
-	</item>
-</streaminginfo>
-
-<streaminginfo>
-     	<cname>Tunisia national 2</cname>
-	<item>
-	<title>zenex</title>
-	<link>rtmp://208.43.175.45/zenex playPath=wat2001?id=68 conn=S:OK swfUrl=http://www.zenex.tv/data/scripts/eplayer.swf pageUrl=http://www.zenex.tv/embedplayer/wat2001/1/500/400 live=1 timeout=10</link>
-	</item>
-</streaminginfo>
-
 <streaminginfo>
      	<cname>Al Mutawasit</cname>
 	<item>
 	<title>zenex</title>
-	<link>rtmp://208.43.175.45/zenex playPath=mutawa003?id=68 conn=S:OK swfUrl=http://www.zenex.tv/data/scripts/eplayer.swf pageUrl=http://www.zenex.tv/embedplayer/mutawa003/1/500/400 live=1 timeout=10</link>
+	<link>rtmp://95.211.169.38/zenex playPath=mutawa004?id=5855 conn=S:OK swfUrl=http://www.zenex.tv/data/scripts/fplayer.swf pageUrl=http://zenex.tv/mutawa004 live=1 timeout=10</link>
 	</item>
 </streaminginfo>
 
 <streaminginfo>
-     <cname>Hanibal</cname>
+     <cname>Al Tunisia</cname>
 	<item>
 	<title>zenex</title>
-	<link>rtmp://208.43.175.45/zenex playPath=hann002?id=68 conn=S:OK swfUrl=http://www.zenex.tv/data/scripts/eplayer.swf pageUrl=http://www.zenex.tv/embedplayer/hann002/1/500/400 live=1 timeout=10</link>
+	<link>rtmp://95.211.169.38/zenex playPath=ettounsiya11?id=9998 conn=S:OK swfUrl=http://www.zenex.tv/data/scripts/fplayer.swf pageUrl=http://zenex.tv/mutawa004 live=1 timeout=10</link>
 	</item>
+</streaminginfo>
+
+<streaminginfo>
+<cname>Zaitouna</cname>
+<item>
+<title>Ustream</title>
+<link>$doregex[get-link]</link>
+<regex>
+<name>get-link</name>
+<expres>$pyFunction:get_ustream('http://iphone-streaming.ustream.tv/ustreamVideo/18648453/streams/live/playlist.m3u8')</expres>
+<page></page>
+</regex>
+</item>
 </streaminginfo>
 
 
