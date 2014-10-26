@@ -1,252 +1,497 @@
 <streamingInfos>
 
-<streaminginfo>
-	<cname>Comedie+</cname>
-	<item><title>NTV</title>
-	<link>http://comedie-hls.live.numericable.tv/live/hls/comedie/ipad.m3u8</link>
-	</item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Bein 1 FR</cname>
-	<item><title>NTV</title>
-	<link>http://beinsport1-hls.live.numericable.tv/live/hls/beinsport1/ipad.m3u8</link>
-	</item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Bein 2 FR</cname>
-	<item><title>NTV</title>
-	<link>http://beinsport2-hls.live.numericable.tv/live/hls/beinsport2/ipad.m3u8</link>
-	</item>
-</streaminginfo>
+
+
+
+
+
+
+
+
+
 <streaminginfo>
 	<cname>Lbc Europe</cname>
-	<item><title>yoolive</title>
-	<link>rtmp://yoolive.com:1935/live/ch2?user=MjAwMDI1ODYzMw==&amp;pass=2000258633 live=1 timeout=20</link>
-	</item>
+	<item>
+	<title>yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://tarotcarmenblanco.com/lbc_europe.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
 </streaminginfo>
+
 <streaminginfo>
 	<cname>Al mayaden</cname>
-	<item><title>yoolive</title>
-	<link>rtmp://yoolive.com:1935/live/ch3?user=MjAwMDI1ODYzMw==&amp;pass=2000258633 live=1 timeout=20</link>
-	</item>
+	<item>
+	<title>yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://tarotcarmenblanco.com/mayadeen.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
 </streaminginfo>
 <streaminginfo>
 	<cname>Al Hiwar</cname>
-	<item><title>yoolive</title>
-	<link>rtmp://yoolive.com:1935/live/ch4?user=MjAwMDI1ODYzMw==&amp;pass=2000258633 live=1 timeout=20</link>
-	</item>
+		<item>
+	<title>yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://tarotcarmenblanco.com/hiwar.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
 </streaminginfo>
 
-<streaminginfo>
-	<cname>elbiladtv</cname>
-	<item><title>yoolive</title>
-	<link>rtmp://yoolive.com:1935/live/ch8?user=MjAwMDI1ODYzMw==&amp;pass=2000258633 live=1 timeout=20</link>
-	</item>
-</streaminginfo>
-
-<streaminginfo>
-	<cname>Alnahar</cname>
-	<item><title>yoolive</title>
-	<link>rtmp://yoolive.com:1935/live/ch6?user=MjAwMDI1ODYzMw==&amp;pass=2000258633 live=1 timeout=20</link>
-	</item>
+streaminginfo>
+	<cname>Al Nahar</cname>
+		<item>
+	<title>yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://tarotcarmenblanco.com/nahar_egy.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
 </streaminginfo>
 
 <streaminginfo>
 	<cname>Maannews</cname>
-	<item><title>yoolive</title>
-	<link>rtmp://yoolive.com:1935/live/ch7?user=MjAwMDI1ODYzMw==&amp;pass=2000258633 live=1 timeout=20</link>
-	</item>
+		<item>
+	<title>yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://tarotcarmenblanco.com/maan.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
 </streaminginfo>
 
 <streaminginfo>
 	<cname>Al Sumaria</cname>
-	<item><title>yoolive</title>
-	<link>rtmp://yoolive.com:1935/live/ch9?user=MjAwMDI1ODYzMw==&amp;pass=2000258633 live=1 timeout=20</link>
-	</item>
+	<item>
+	<title>yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://tarotcarmenblanco.com/sumaria.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
 </streaminginfo>
 <streaminginfo>
 	<cname>Aljazeera</cname>
-	<item><title>yoolive</title>
-	<link>rtmp://yoolive.com:1935/live/ch1?user=MjAwMDI1ODYzMw==&amp;pass=2000258633 live=1 timeout=20</link>
-	</item>
+	<item>
+	<title>yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://tarotcarmenblanco.com/jazeera.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
 </streaminginfo>
 <streaminginfo>
 	<cname>Masira</cname>
-	<item><title>yoolive</title>
-	<link>rtmp://yoolive.com:1935/live/ch12?user=MjAwMDI1ODYzMw==&amp;pass=2000258633 live=1 timeout=20</link>
-	</item>
+	<item>
+	<title>yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://tarotcarmenblanco.com/masirah.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
 </streaminginfo>
 <streaminginfo>
 	<cname>Palestine</cname>
-	<item><title>yoolive</title>
-	<link>rtmp://yoolive.com:1935/live/ch14?user=MjAwMDI1ODYzMw==&amp;pass=2000258633 live=1 timeout=20</link>
-	</item>
+	<item>
+	<title>yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://tarotcarmenblanco.com/palestine.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
 </streaminginfo>
 <streaminginfo>
 	<cname>Al Nahar Sport</cname>
-	<item><title>yoolive</title>
-	<link>rtmp://yoolive.com:1935/live/ch17?user=MjAwMDI1ODYzMw==&amp;pass=2000258633 live=1 timeout=20</link>
-	</item>
+	<item>
+	<title>yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://tarotcarmenblanco.com/nahar_spoort.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
 </streaminginfo>
 <streaminginfo>
 	<cname>Al-Nahar Drama</cname>
-	<item><title>yoolive</title>
-	<link>rtmp://yoolive.com:1935/live/ch18?user=MjAwMDI1ODYzMw==&amp;pass=2000258633 live=1 timeout=20</link>
-	</item>
+	<item>
+	<title>yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://tarotcarmenblanco.com/nahar_drama.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
 </streaminginfo>
 <streaminginfo>
 	<cname>Al Nahar 2</cname>
-	<item><title>yoolive</title>
-	<link>rtmp://yoolive.com:1935/live/ch19?user=MjAwMDI1ODYzMw==&amp;pass=2000258633 live=1 timeout=20</link>
-	</item>
+	<item>
+	<title>yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://tarotcarmenblanco.com/nahar_egy2.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
 </streaminginfo>
 <streaminginfo>
 	<cname>SkyNewsArabia</cname>
-	<item><title>yoolive</title>
-	<link>rtmp://yoolive.com:1935/live/ch20?user=MjAwMDI1ODYzMw==&amp;pass=2000258633 live=1 timeout=20</link>
-	</item>
+	<item>
+	<title>yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://tarotcarmenblanco.com/skynews_ar.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
 </streaminginfo>
 <streaminginfo>
 	<cname>elbiladtv</cname>
-	<item><title>yoolive_VoxMusic</title>
-	<link>rtmp://yoolive.com:1935/live/ch21?user=MjAwMDI1ODYzMw==&amp;pass=2000258633 live=1 timeout=20</link>
-	</item>
+	<item>
+	<title>yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://tarotcarmenblanco.com/balad_news.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
 </streaminginfo>
 
 <streaminginfo>
 	<cname>Hanibal</cname>
-	<item><title>yoolive</title>
-	<link>rtmp://yoolive.com:1935/live/ch22?user=MjAwMDI1ODYzMw==&amp;pass=2000258633 live=1 timeout=20</link>
-	</item>
+	<item>
+	<title>yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://tarotcarmenblanco.com/hanibal.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
 </streaminginfo>
 <streaminginfo>
 	<cname>First TV</cname>
-	<item><title>yoolive</title>
-	<link>rtmp://yoolive.com:1935/live/ch23?user=MjAwMDI1ODYzMw==&amp;pass=2000258633 live=1 timeout=20</link>
-	</item>
+	<item>
+	<title>yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://tarotcarmenblanco.com/first.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
 </streaminginfo>
 <streaminginfo>
 	<cname>Mehwar</cname>
-	<item><title>yoolive</title>
-	<link>rtmp://yoolive.com:1935/live/ch24?user=MjAwMDI1ODYzMw==&amp;pass=2000258633 live=1 timeout=20</link>
-	</item>
+	<item>
+	<title>mehwar_drama_yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://tarotcarmenblanco.com/mehwar_drama.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
 </streaminginfo>
 <streaminginfo>
 	<cname>Mehwar</cname>
-	<item><title>Mehwar_Drama yoolive</title>
-	<link>rtmp://yoolive.com:1935/live/ch25?user=MjAwMDI1ODYzMw==&amp;pass=2000258633 live=1 timeout=20</link>
-	</item>
+	<item>
+	<title>yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://tarotcarmenblanco.com/mehwar.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
 </streaminginfo>
 <streaminginfo>
 	<cname>AlQahera W Elnas 2</cname>
-	<item><title>yoolive</title>
-	<link>rtmp://yoolive.com:1935/live/ch26?user=MjAwMDI1ODYzMw==&amp;pass=2000258633 live=1 timeout=20</link>
-	</item>
+	<item>
+	<title>yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://tarotcarmenblanco.com/qahera_nass2.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
 </streaminginfo>
 <streaminginfo>
 	<cname>Mehwar</cname>
-	<item><title>Mehwar_2 yoolive</title>
-	<link>rtmp://yoolive.com:1935/live/ch27?user=MjAwMDI1ODYzMw==&amp;pass=2000258633 live=1 timeout=20</link>
-	</item>
+	<item>
+	<title>mehwar_2_yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://tarotcarmenblanco.com/mehwar_2.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
 </streaminginfo>
 <streaminginfo>
 	<cname>Nessma</cname>
-	<item><title>yoolive</title>
-	<link>rtmp://yoolive.com:1935/live/ch31?user=MjAwMDI1ODYzMw==&amp;pass=2000258633 live=1 timeout=20</link>
-	</item>
+	<item>
+	<title>yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://tarotcarmenblanco.com/nessma.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
 </streaminginfo>
 <streaminginfo>
 	<cname>Al Tunisia</cname>
-	<item><title>yoolive</title>
-	<link>rtmp://yoolive.com:1935/live/ch32?user=MjAwMDI1ODYzMw==&amp;pass=2000258633 live=1 timeout=20</link>
-	</item>
+	<item>
+	<title>yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://tarotcarmenblanco.com/tounesna.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
 </streaminginfo>
 <streaminginfo>
 	<cname>Telvza TV</cname>
-	<item><title>yoolive</title>
-	<link>rtmp://yoolive.com:1935/live/ch33?user=MjAwMDI1ODYzMw==&amp;pass=2000258633 live=1 timeout=20</link>
-	</item>
+	<item>
+	<title>yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://tarotcarmenblanco.com/telvza.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
 </streaminginfo>
 <streaminginfo>
 	<cname>Al Janoubiya</cname>
-	<item><title>yoolive</title>
-	<link>rtmp://yoolive.com:1935/live/ch34?user=MjAwMDI1ODYzMw==&amp;pass=2000258633 live=1 timeout=20</link>
-	</item>
+	<item>
+	<title>yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://tarotcarmenblanco.com/janoubia.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
 </streaminginfo>
 <streaminginfo>
 	<cname>Al Hiwar Ettounsi</cname>
-	<item><title>yoolive</title>
-	<link>rtmp://yoolive.com:1935/live/ch35?user=MjAwMDI1ODYzMw==&amp;pass=2000258633 live=1 timeout=20</link>
-	</item>
+	<item>
+	<title>yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://tarotcarmenblanco.com/hiwar_tounsi.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
 </streaminginfo>
 <streaminginfo>
 	<cname>ORTM</cname>
-	<item><title>yoolive</title>
-	<link>rtmp://yoolive.com:1935/live/ch36?user=MjAwMDI1ODYzMw==&amp;pass=2000258633 live=1 timeout=20</link>
-	</item>
+	<item>
+	<title>yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://tarotcarmenblanco.com/ortm.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
 </streaminginfo>
 <streaminginfo>
 	<cname>Tunisia national 1</cname>
-	<item><title>yoolive</title>
-	<link>rtmp://yoolive.com:1935/live/ch37?user=MjAwMDI1ODYzMw==&amp;pass=2000258633 live=1 timeout=20</link>
-	</item>
+	<item>
+	<title>yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://tarotcarmenblanco.com/watania_1.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
 </streaminginfo>
 <streaminginfo>
 	<cname>Tunisia national 2</cname>
-	<item><title>yoolive</title>
-	<link>rtmp://yoolive.com:1935/live/ch38?user=MjAwMDI1ODYzMw==&amp;pass=2000258633 live=1 timeout=20</link>
-	</item>
+	<item>
+	<title>yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://tarotcarmenblanco.com/watania_2.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
 </streaminginfo>
 <streaminginfo>
 	<cname>TNN</cname>
-	<item><title>yoolive</title>
-	<link>rtmp://yoolive.com:1935/live/ch39?user=MjAwMDI1ODYzMw==&amp;pass=2000258633 live=1 timeout=20</link>
-	</item>
+	<item>
+	<title>yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://tarotcarmenblanco.com/tnn.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
 </streaminginfo>
 
 <streaminginfo>
 	<cname>ANN</cname>
-	<item><title>yoolive</title>
-	<link>rtmp://yoolive.com:1935/live/ch40?user=MjAwMDI1ODYzMw==&amp;pass=2000258633 live=1 timeout=20</link>
-	</item>
+	<item>
+	<title>yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://tarotcarmenblanco.com/ann.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
 </streaminginfo>
 <streaminginfo>
 	<cname>Sat7</cname>
-	<item><title>yoolive</title>
-	<link>rtmp://yoolive.com:1935/live/ch42?user=MjAwMDI1ODYzMw==&amp;pass=2000258633 live=1 timeout=20</link>
-	</item>
+	<item>
+	<title>sat7_kids yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://tarotcarmenblanco.com/sat7_kids.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
 </streaminginfo>
 <streaminginfo>
 	<cname>Sat7</cname>
-	<item><title>Kids yoolive</title>
-	<link>rtmp://yoolive.com:1935/live/ch43?user=MjAwMDI1ODYzMw==&amp;pass=2000258633 live=1 timeout=20</link>
-	</item>
+	<item>
+	<title>yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://tarotcarmenblanco.com/sat7.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
 </streaminginfo>
 <streaminginfo>
 	<cname>MTV</cname>
-	<item><title>yoolive</title>
-	<link>rtmp://yoolive.com:1935/live/ch47?user=MjAwMDI1ODYzMw==&amp;pass=2000258633 live=1 timeout=20</link>
-	</item>
+	<item>
+	<title>yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://tarotcarmenblanco.com/mtv.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
 </streaminginfo>
 <streaminginfo>
 	<cname>Coptic_Christian</cname>
-	<item><title>yoolive</title>
-	<link>rtmp://yoolive.com:1935/live/ch47?user=MjAwMDI1ODYzMw==&amp;pass=2000258633 live=1 timeout=20</link>
-	</item>
+	<item>
+	<title>yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://tarotcarmenblanco.com/ctv.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
 </streaminginfo>
 
 <streaminginfo>
 	<cname>Aghanina</cname>
-	<item><title>yoolive</title>
-	<link>rtmp://yoolive.com:1935/live/ch48?user=MjAwMDI1ODYzMw==&amp;pass=2000258633 live=1 timeout=20</link>
-	</item>
+	<item>
+	<title>yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://tarotcarmenblanco.com/aghanina.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
 </streaminginfo>
 <streaminginfo>
 	<cname>CNN</cname>
-	<item><title>yoolive</title>
-	<link>rtmp://yoolive.com:1935/live/ch49?user=MjAwMDI1ODYzMw==&amp;pass=2000258633 live=1 timeout=20</link>
-	</item>
+	<item>
+	<title>yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://tarotcarmenblanco.com/cnn.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
 </streaminginfo>
+
+
+
+
+
+
+
+
 
 
 <streaminginfo><cname>2M</cname><item><title>Bein-tv Code</title><link>rtmp://www.teledunet.com:1935/live?idu=test_1414312701006/2m live=1 timeout=20</link></item></streaminginfo>
