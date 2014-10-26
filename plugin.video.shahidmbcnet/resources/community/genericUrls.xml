@@ -2172,7 +2172,7 @@
 	<cname>Tounesna</cname>
 	<item>
 	<title>streaminghd </title>
-	link>rtmp://41.231.53.11:1935/thd playpath=tunisna swfUrl=http://streaminghd.tn/video/player.swf?random=1578550586 live=1 pageUrl=http://www.direct4live.com/2014/02/tounesna-tv-direct-live.html timeout=20</link>
+	<link>rtmp://41.231.53.11:1935/thd playpath=tunisna swfUrl=http://streaminghd.tn/video/player.swf?random=1578550586 live=1 pageUrl=http://www.direct4live.com/2014/02/tounesna-tv-direct-live.html timeout=20</link>
 	</item>
 </streaminginfo>
 <streaminginfo>
