@@ -307,7 +307,7 @@
     <cname>Tchad</cname>
 	<item>
 	<title>Med</title>
-	<link>rtmpt://tchad.streamakaci.com/tchad/tchad.stream timeout=20</link>
+	<link>rtmp://tchad.streamakaci.com/tchad/tchad.stream timeout=20</link>
 	</item>
 </streaminginfo>
 
