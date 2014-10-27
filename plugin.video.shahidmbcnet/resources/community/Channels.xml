@@ -3380,6 +3380,7 @@
         <enabled>True</enabled>
         <assignedcategory>
             <category>news</category>
+            <category>gulf</category>
         </assignedcategory>
     </channel>
 	
