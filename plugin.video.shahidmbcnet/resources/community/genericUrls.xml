@@ -129,6 +129,202 @@
 
 
 
+
+<streaminginfo>
+	<cname>Bein Sport 1</cname>
+	<item>
+	<title>SD_yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://yoolive.com/bein_sd1.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
+</streaminginfo>
+<streaminginfo>
+	<cname>Bein Sport 2</cname>
+	<item>
+	<title>SD_yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://yoolive.com/bein_sd2.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
+</streaminginfo>
+<streaminginfo>
+	<cname>Bein Sport 3</cname>
+	<item>
+	<title>SD_yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://yoolive.com/bein_sd3.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
+</streaminginfo>
+<streaminginfo>
+	<cname>Bein Sport 4</cname>
+	<item>
+	<title>SD_yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://yoolive.com/bein_sd4.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
+</streaminginfo>
+<streaminginfo>
+	<cname>Bein Sport 5</cname>
+	<item>
+	<title>SD_yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://yoolive.com/bein_sd5.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
+</streaminginfo>
+<streaminginfo>
+	<cname>Bein Sport 6</cname>
+	<item>
+	<title>SD_yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://yoolive.com/bein_sd6.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
+</streaminginfo>
+<streaminginfo>
+	<cname>Bein Sport 1</cname>
+	<item>
+	<title>HD_yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://yoolive.com/bein_hd1.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
+</streaminginfo>
+<streaminginfo>
+	<cname>Bein Sport 2</cname>
+	<item>
+	<title>HD_yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://yoolive.com/bein_hd2.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
+</streaminginfo>
+<streaminginfo>
+	<cname>Bein Sport 3</cname>
+	<item>
+	<title>HD_yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://yoolive.com/bein_hd3.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
+</streaminginfo>
+<streaminginfo>
+	<cname>Bein Sport 4</cname>
+	<item>
+	<title>HD_yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://yoolive.com/bein_hd4.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
+</streaminginfo>
+<streaminginfo>
+	<cname>Bein Sport 5</cname>
+	<item>
+	<title>HD_yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://yoolive.com/bein_hd5.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
+</streaminginfo>
+<streaminginfo>
+	<cname>Bein Sport 6</cname>
+	<item>
+	<title>HD_yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://yoolive.com/bein_hd6.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
+</streaminginfo>
+<streaminginfo>
+	<cname>Bein Sport 7</cname>
+	<item>
+	<title>HD_yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://yoolive.com/bein_hd7.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
+</streaminginfo>
+<streaminginfo>
+	<cname>Bein Sport 8</cname>
+	<item>
+	<title>HD_yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://yoolive.com/bein_hd8.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
+</streaminginfo>
+<streaminginfo>
+	<cname>Bein Sport 9</cname>
+	<item>
+	<title>HD_yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://yoolive.com/bein_hd9.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
+</streaminginfo>
 <streaminginfo>
 	<cname>Al oula Maroc</cname>
 	<item>
