@@ -6215,7 +6215,14 @@
 	<category>french</category>
 	</assignedcategory>
 </channel>
-
+<channel>
+	<cname>Canal+ Decale</cname>
+	<imageurl>http://www.lyngsat-logo.com/hires/cc/canalplus_fr_decale.png</imageurl>
+	<enabled>True</enabled>
+	<assignedcategory>
+	<category>french</category>
+	</assignedcategory>
+</channel>
 
 
 
