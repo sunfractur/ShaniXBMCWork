@@ -89,15 +89,26 @@
 </streaminginfo>
 
 
+
+
+
+
+
+
+
+
+
+
+
 <streaminginfo>
 	<cname>Lbc Europe</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
-	<page>http://tarotcarmenblanco.com/lbc_europe.php</page>
+	<page>http://yoolive.com/lbc_europe.php</page>
 	<cookieJar></cookieJar>
 	</regex>
 	</item>	
@@ -107,11 +118,11 @@
 	<cname>Al mayaden</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
-	<page>http://tarotcarmenblanco.com/mayadeen.php</page>
+	<page>http://yoolive.com/mayadeen.php</page>
 	<cookieJar></cookieJar>
 	</regex>
 	</item>	
@@ -120,11 +131,11 @@
 	<cname>Al Hiwar</cname>
 		<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
-	<page>http://tarotcarmenblanco.com/hiwar.php</page>
+	<page>http://yoolive.com/hiwar.php</page>
 	<cookieJar></cookieJar>
 	</regex>
 	</item>	
@@ -134,11 +145,11 @@
 	<cname>Al Nahar</cname>
 		<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
-	<page>http://tarotcarmenblanco.com/nahar_egy.php</page>
+	<page>http://yoolive.com/nahar_egy.php</page>
 	<cookieJar></cookieJar>
 	</regex>
 	</item>	
@@ -148,11 +159,11 @@
 	<cname>Maannews</cname>
 		<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
-	<page>http://tarotcarmenblanco.com/maan.php</page>
+	<page>http://yoolive.com/maan.php</page>
 	<cookieJar></cookieJar>
 	</regex>
 	</item>	
@@ -162,11 +173,11 @@
 	<cname>Al Sumaria</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
-	<page>http://tarotcarmenblanco.com/sumaria.php</page>
+	<page>http://yoolive.com/sumaria.php</page>
 	<cookieJar></cookieJar>
 	</regex>
 	</item>	
@@ -175,11 +186,11 @@
 	<cname>Aljazeera</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
-	<page>http://tarotcarmenblanco.com/jazeera.php</page>
+	<page>http://yoolive.com/jazeera.php</page>
 	<cookieJar></cookieJar>
 	</regex>
 	</item>	
@@ -188,11 +199,11 @@
 	<cname>Masira</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
-	<page>http://tarotcarmenblanco.com/masirah.php</page>
+	<page>http://yoolive.com/masirah.php</page>
 	<cookieJar></cookieJar>
 	</regex>
 	</item>	
@@ -201,11 +212,11 @@
 	<cname>Palestine</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
-	<page>http://tarotcarmenblanco.com/palestine.php</page>
+	<page>http://yoolive.com/palestine.php</page>
 	<cookieJar></cookieJar>
 	</regex>
 	</item>	
@@ -214,11 +225,11 @@
 	<cname>Al Nahar Sport</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
-	<page>http://tarotcarmenblanco.com/nahar_spoort.php</page>
+	<page>http://yoolive.com/nahar_spoort.php</page>
 	<cookieJar></cookieJar>
 	</regex>
 	</item>	
@@ -227,11 +238,11 @@
 	<cname>Al-Nahar Drama</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
-	<page>http://tarotcarmenblanco.com/nahar_drama.php</page>
+	<page>http://yoolive.com/nahar_drama.php</page>
 	<cookieJar></cookieJar>
 	</regex>
 	</item>	
@@ -240,11 +251,11 @@
 	<cname>Al Nahar 2</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
-	<page>http://tarotcarmenblanco.com/nahar_egy2.php</page>
+	<page>http://yoolive.com/nahar_egy2.php</page>
 	<cookieJar></cookieJar>
 	</regex>
 	</item>	
@@ -253,11 +264,11 @@
 	<cname>SkyNewsArabia</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
-	<page>http://tarotcarmenblanco.com/skynews_ar.php</page>
+	<page>http://yoolive.com/skynews_ar.php</page>
 	<cookieJar></cookieJar>
 	</regex>
 	</item>	
@@ -266,11 +277,11 @@
 	<cname>elbiladtv</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
-	<page>http://tarotcarmenblanco.com/balad_news.php</page>
+	<page>http://yoolive.com/balad_news.php</page>
 	<cookieJar></cookieJar>
 	</regex>
 	</item>	
@@ -280,11 +291,11 @@
 	<cname>Hanibal</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
-	<page>http://tarotcarmenblanco.com/hanibal.php</page>
+	<page>http://yoolive.com/hanibal.php</page>
 	<cookieJar></cookieJar>
 	</regex>
 	</item>	
@@ -293,11 +304,11 @@
 	<cname>First TV</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
-	<page>http://tarotcarmenblanco.com/first.php</page>
+	<page>http://yoolive.com/first.php</page>
 	<cookieJar></cookieJar>
 	</regex>
 	</item>	
@@ -306,11 +317,11 @@
 	<cname>Mehwar</cname>
 	<item>
 	<title>mehwar_drama_yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
-	<page>http://tarotcarmenblanco.com/mehwar_drama.php</page>
+	<page>http://yoolive.com/mehwar_drama.php</page>
 	<cookieJar></cookieJar>
 	</regex>
 	</item>	
@@ -319,11 +330,11 @@
 	<cname>Mehwar</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
-	<page>http://tarotcarmenblanco.com/mehwar.php</page>
+	<page>http://yoolive.com/mehwar.php</page>
 	<cookieJar></cookieJar>
 	</regex>
 	</item>	
@@ -332,11 +343,11 @@
 	<cname>AlQahera W Elnas 2</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
-	<page>http://tarotcarmenblanco.com/qahera_nass2.php</page>
+	<page>http://yoolive.com/qahera_nass2.php</page>
 	<cookieJar></cookieJar>
 	</regex>
 	</item>	
@@ -345,11 +356,11 @@
 	<cname>Mehwar</cname>
 	<item>
 	<title>mehwar_2_yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
-	<page>http://tarotcarmenblanco.com/mehwar_2.php</page>
+	<page>http://yoolive.com/mehwar_2.php</page>
 	<cookieJar></cookieJar>
 	</regex>
 	</item>	
@@ -358,11 +369,11 @@
 	<cname>Nessma</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
-	<page>http://tarotcarmenblanco.com/nessma.php</page>
+	<page>http://yoolive.com/nessma.php</page>
 	<cookieJar></cookieJar>
 	</regex>
 	</item>	
@@ -371,11 +382,11 @@
 	<cname>Tounesna</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
-	<page>http://tarotcarmenblanco.com/tounesna.php</page>
+	<page>http://yoolive.com/tounesna.php</page>
 	<cookieJar></cookieJar>
 	</regex>
 	</item>	
@@ -384,11 +395,11 @@
 	<cname>Telvza TV</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
-	<page>http://tarotcarmenblanco.com/telvza.php</page>
+	<page>http://yoolive.com/telvza.php</page>
 	<cookieJar></cookieJar>
 	</regex>
 	</item>	
@@ -397,11 +408,11 @@
 	<cname>Al Janoubiya</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
-	<page>http://tarotcarmenblanco.com/janoubia.php</page>
+	<page>http://yoolive.com/janoubia.php</page>
 	<cookieJar></cookieJar>
 	</regex>
 	</item>	
@@ -410,11 +421,11 @@
 	<cname>Al Hiwar Ettounsi</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
-	<page>http://tarotcarmenblanco.com/hiwar_tounsi.php</page>
+	<page>http://yoolive.com/hiwar_tounsi.php</page>
 	<cookieJar></cookieJar>
 	</regex>
 	</item>	
@@ -423,11 +434,11 @@
 	<cname>ORTM</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
-	<page>http://tarotcarmenblanco.com/ortm.php</page>
+	<page>http://yoolive.com/ortm.php</page>
 	<cookieJar></cookieJar>
 	</regex>
 	</item>	
@@ -436,11 +447,11 @@
 	<cname>Tunisia national 1</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
-	<page>http://tarotcarmenblanco.com/watania_1.php</page>
+	<page>http://yoolive.com/watania_1.php</page>
 	<cookieJar></cookieJar>
 	</regex>
 	</item>	
@@ -449,11 +460,11 @@
 	<cname>Tunisia national 2</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
-	<page>http://tarotcarmenblanco.com/watania_2.php</page>
+	<page>http://yoolive.com/watania_2.php</page>
 	<cookieJar></cookieJar>
 	</regex>
 	</item>	
@@ -462,11 +473,11 @@
 	<cname>TNN</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
-	<page>http://tarotcarmenblanco.com/tnn.php</page>
+	<page>http://yoolive.com/tnn.php</page>
 	<cookieJar></cookieJar>
 	</regex>
 	</item>	
@@ -476,11 +487,11 @@
 	<cname>ANN</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
-	<page>http://tarotcarmenblanco.com/ann.php</page>
+	<page>http://yoolive.com/ann.php</page>
 	<cookieJar></cookieJar>
 	</regex>
 	</item>	
@@ -489,11 +500,11 @@
 	<cname>Sat7</cname>
 	<item>
 	<title>sat7_kids yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
-	<page>http://tarotcarmenblanco.com/sat7_kids.php</page>
+	<page>http://yoolive.com/sat7_kids.php</page>
 	<cookieJar></cookieJar>
 	</regex>
 	</item>	
@@ -502,11 +513,11 @@
 	<cname>Sat7</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
-	<page>http://tarotcarmenblanco.com/sat7.php</page>
+	<page>http://yoolive.com/sat7.php</page>
 	<cookieJar></cookieJar>
 	</regex>
 	</item>	
@@ -515,11 +526,11 @@
 	<cname>MTV</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
-	<page>http://tarotcarmenblanco.com/mtv.php</page>
+	<page>http://yoolive.com/mtv.php</page>
 	<cookieJar></cookieJar>
 	</regex>
 	</item>	
@@ -528,11 +539,11 @@
 	<cname>Coptic_Christian</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
-	<page>http://tarotcarmenblanco.com/ctv.php</page>
+	<page>http://yoolive.com/ctv.php</page>
 	<cookieJar></cookieJar>
 	</regex>
 	</item>	
@@ -542,11 +553,11 @@
 	<cname>Aghanina</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
-	<page>http://tarotcarmenblanco.com/aghanina.php</page>
+	<page>http://yoolive.com/aghanina.php</page>
 	<cookieJar></cookieJar>
 	</regex>
 	</item>	
@@ -555,15 +566,18 @@
 	<cname>CNN</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://tarotcarmenblanco.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
-	<page>http://tarotcarmenblanco.com/cnn.php</page>
+	<page>http://yoolive.com/cnn.php</page>
 	<cookieJar></cookieJar>
 	</regex>
 	</item>	
 </streaminginfo>
+
+
+
 
 
 
