@@ -129,7 +129,45 @@
 
 
 
-
+<streaminginfo>
+	<cname>Al oula Maroc</cname>
+	<item>
+	<title>yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://yoolive.com/rtm.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
+</streaminginfo>
+<streaminginfo>
+	<cname>Medi 1 Sat</cname>
+	<item>
+	<title>yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://yoolive.com/medi1.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
+</streaminginfo>
+<streaminginfo>
+	<cname>Al Dafra</cname>
+	<item>
+	<title>yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://yoolive.com/dufrah.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
+</streaminginfo>
 <streaminginfo>
 	<cname>MBC 1</cname>
 	<item>
