@@ -88,17 +88,12 @@
 	</item>
 </streaminginfo>
 
-
-
-
-
-
-
-
-
-
-
-
+<streaminginfo>
+	<cname>Sky Sports 1</cname>
+	<item><title>sky1</title>
+	<link>rtmpe://31.220.0.198/live playpath=sky1 pageUrl=http://www.pvtserverz.com/Vd?u#bt!25 timeout=15</link>
+	</item>
+</streaminginfo>
 
 <streaminginfo>
 	<cname>Lbc Europe</cname>
