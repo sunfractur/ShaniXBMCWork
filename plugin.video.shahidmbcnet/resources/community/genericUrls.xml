@@ -15,6 +15,20 @@
 </streaminginfo>
 
 <streaminginfo>
+	<cname>LCI</cname>
+	<item>
+		<title>MYFRTV</title>
+		<link>http://max.myfrtv.com/1408/m3u8/1408.m3u8$doregex[get-token]</link>
+		<regex>
+			<name>get-token</name>
+                 	<expres>enableOver.*(\?.*)</expres>
+                	<page>https://gb-free-proxy.cyberghostvpn.com/go/browse.php?u=http%3A%2F%2Fmyfrtv.com%2Fchannels%2Fnew-file&amp;b=7&amp;f=norefer</page>
+			<x-forward></x-forward>
+		</regex>
+		</item>
+</streaminginfo>
+
+<streaminginfo>
 	<cname>Canal plus</cname>
 	<item>
 		<title>MYFRTV</title>
