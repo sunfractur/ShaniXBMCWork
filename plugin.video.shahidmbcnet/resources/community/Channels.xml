@@ -6224,7 +6224,23 @@
 	<category>french</category>
 	</assignedcategory>
 </channel>
-
+<channel>
+	<cname>Infosport+</cname>
+	<imageurl>http://www.lyngsat-logo.com/hires/cc/canalplus_fr_infosport_plus.png</imageurl>
+	<enabled>True</enabled>
+	<assignedcategory>
+	<category>french</category>
+	</assignedcategory>
+</channel>
+<channel>
+	<cname>Boomerang</cname>
+	<imageurl>http://www.lyngsat-logo.com/hires/bb/boomerang_global.png</imageurl>
+	<enabled>True</enabled>
+	<assignedcategory>
+	<category>french</category>
+	<category>kids</category>
+	</assignedcategory>
+</channel>
 
 
 
