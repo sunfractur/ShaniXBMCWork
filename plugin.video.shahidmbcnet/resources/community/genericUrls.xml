@@ -172,7 +172,7 @@
 	<cname>Bein Sport 1</cname>
 	<item>
 	<title>SD_yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -185,7 +185,7 @@
 	<cname>Bein Sport 2</cname>
 	<item>
 	<title>SD_yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -198,7 +198,7 @@
 	<cname>Bein Sport 3</cname>
 	<item>
 	<title>SD_yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -211,7 +211,7 @@
 	<cname>Bein Sport 4</cname>
 	<item>
 	<title>SD_yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -224,7 +224,7 @@
 	<cname>Bein Sport 5</cname>
 	<item>
 	<title>SD_yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -237,7 +237,7 @@
 	<cname>Bein Sport 6</cname>
 	<item>
 	<title>SD_yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -250,7 +250,7 @@
 	<cname>Bein Sport 1</cname>
 	<item>
 	<title>HD_yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -263,7 +263,7 @@
 	<cname>Bein Sport 2</cname>
 	<item>
 	<title>HD_yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -276,7 +276,7 @@
 	<cname>Bein Sport 3</cname>
 	<item>
 	<title>HD_yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -289,7 +289,7 @@
 	<cname>Bein Sport 4</cname>
 	<item>
 	<title>HD_yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -302,7 +302,7 @@
 	<cname>Bein Sport 5</cname>
 	<item>
 	<title>HD_yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -315,7 +315,7 @@
 	<cname>Bein Sport 6</cname>
 	<item>
 	<title>HD_yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -328,7 +328,7 @@
 	<cname>Bein Sport 7</cname>
 	<item>
 	<title>HD_yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -341,7 +341,7 @@
 	<cname>Bein Sport 8</cname>
 	<item>
 	<title>HD_yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -354,7 +354,7 @@
 	<cname>Bein Sport 9</cname>
 	<item>
 	<title>HD_yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -367,7 +367,7 @@
 	<cname>Al oula Maroc</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -380,7 +380,7 @@
 	<cname>Medi 1 Sat</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -393,7 +393,7 @@
 	<cname>Al Dafra</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -406,7 +406,7 @@
 	<cname>MBC 1</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -419,7 +419,7 @@
 	<cname>MBC 2</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -432,7 +432,7 @@
 	<cname>MBC 3</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -445,7 +445,7 @@
 	<cname>MBC 4</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -459,7 +459,7 @@
 	<cname>MBC Action</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -472,7 +472,7 @@
 	<cname>MBC Drama</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -486,7 +486,7 @@
 	<cname>MBC Max</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -499,7 +499,7 @@
 	<cname>MBC Masr</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -512,7 +512,7 @@
 	<cname>MBC Masr2</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -525,7 +525,7 @@
 	<cname>MBC Bollywood</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -538,7 +538,7 @@
 	<cname>Rotana Aflam</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -551,7 +551,7 @@
 	<cname>Rotana Cinema</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -564,7 +564,7 @@
 	<cname>Rotana Masriya</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -578,7 +578,7 @@
 	<cname>Rotana Classic</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -592,7 +592,7 @@
 	<cname>Rotana Khaligi</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -605,7 +605,7 @@
 	<cname>2M</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -618,7 +618,7 @@
 	<cname>Lbc Europe</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -632,7 +632,7 @@
 	<cname>Al mayaden</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -645,7 +645,7 @@
 	<cname>Al Hiwar</cname>
 		<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -659,7 +659,7 @@
 	<cname>Al Nahar</cname>
 		<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -673,7 +673,7 @@
 	<cname>Maannews</cname>
 		<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -687,7 +687,7 @@
 	<cname>Al Sumaria</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -700,7 +700,7 @@
 	<cname>Aljazeera</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -713,7 +713,7 @@
 	<cname>Masira</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -726,7 +726,7 @@
 	<cname>Palestine</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -739,7 +739,7 @@
 	<cname>Al Nahar Sport</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -752,7 +752,7 @@
 	<cname>Al-Nahar Drama</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -765,7 +765,7 @@
 	<cname>Al Nahar 2</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -778,7 +778,7 @@
 	<cname>SkyNewsArabia</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -791,7 +791,7 @@
 	<cname>elbiladtv</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -805,7 +805,7 @@
 	<cname>Hanibal</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -818,7 +818,7 @@
 	<cname>First TV</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -831,7 +831,7 @@
 	<cname>Mehwar</cname>
 	<item>
 	<title>mehwar_drama_yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -844,7 +844,7 @@
 	<cname>Mehwar</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -857,7 +857,7 @@
 	<cname>AlQahera W Elnas 2</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -870,7 +870,7 @@
 	<cname>Mehwar</cname>
 	<item>
 	<title>mehwar_2_yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -883,7 +883,7 @@
 	<cname>Nessma</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -896,7 +896,7 @@
 	<cname>Tounesna</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -909,7 +909,7 @@
 	<cname>Telvza TV</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -922,7 +922,7 @@
 	<cname>Al Janoubiya</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -935,7 +935,7 @@
 	<cname>Al Hiwar Ettounsi</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -948,7 +948,7 @@
 	<cname>ORTM</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -961,7 +961,7 @@
 	<cname>Tunisia national 1</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -974,7 +974,7 @@
 	<cname>Tunisia national 2</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -987,7 +987,7 @@
 	<cname>TNN</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -1001,7 +1001,7 @@
 	<cname>ANN</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -1014,7 +1014,7 @@
 	<cname>Sat7</cname>
 	<item>
 	<title>sat7_kids yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -1027,7 +1027,7 @@
 	<cname>Sat7</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -1040,7 +1040,7 @@
 	<cname>MTV</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -1053,7 +1053,7 @@
 	<cname>Coptic_Christian</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -1067,7 +1067,7 @@
 	<cname>Aghanina</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
@@ -1080,7 +1080,7 @@
 	<cname>CNN</cname>
 	<item>
 	<title>yoolive</title>
-	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1</link>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
 	<regex>
 	<name>get-rtmp</name>
 	<expres>setup..file:"(.*?)"</expres>
