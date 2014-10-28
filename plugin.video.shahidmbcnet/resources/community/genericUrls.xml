@@ -203,6 +203,656 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<streaminginfo>
+<cname>Nessma</cname>
+<item>
+<title>Bei_TV CopyCat</title>
+<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=nessma flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
+<regex>
+<name>get-rtmp</name>
+<expres>file: '(.*?)'</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+<referer>http://bein-tv.com/al-tunisia.html</referer>
+</regex>
+<regex>
+<name>get-app</name>
+<expres>1935\/(.*?)\/</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+</regex>
+</item>
+</streaminginfo>
+<streaminginfo>
+<cname>Medi 1 Sat</cname>
+<item>
+<title>Bei_TV CopyCat</title>
+<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=medi_1_sat flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
+<regex>
+<name>get-rtmp</name>
+<expres>file: '(.*?)'</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+<referer>http://bein-tv.com/al-tunisia.html</referer>
+</regex>
+<regex>
+<name>get-app</name>
+<expres>1935\/(.*?)\/</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+</regex>
+</item>
+</streaminginfo>
+<streaminginfo>
+<cname>MBC 3</cname>
+<item>
+<title>Bei_TV CopyCat</title>
+<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=mbc_3 flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
+<regex>
+<name>get-rtmp</name>
+<expres>file: '(.*?)'</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+<referer>http://bein-tv.com/al-tunisia.html</referer>
+</regex>
+<regex>
+<name>get-app</name>
+<expres>1935\/(.*?)\/</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+</regex>
+</item>
+</streaminginfo>
+
+<streaminginfo>
+<cname>MBC Action</cname>
+<item>
+<title>Bei_TV CopyCat</title>
+<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=mbc_action flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
+<regex>
+<name>get-rtmp</name>
+<expres>file: '(.*?)'</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+<referer>http://bein-tv.com/al-tunisia.html</referer>
+</regex>
+<regex>
+<name>get-app</name>
+<expres>1935\/(.*?)\/</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+</regex>
+</item>
+</streaminginfo>
+
+
+
+<streaminginfo>
+<cname>MBC 2</cname>
+<item>
+<title>Bei_TV CopyCat</title>
+<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=mbc_2 flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
+<regex>
+<name>get-rtmp</name>
+<expres>file: '(.*?)'</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+<referer>http://bein-tv.com/al-tunisia.html</referer>
+</regex>
+<regex>
+<name>get-app</name>
+<expres>1935\/(.*?)\/</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+</regex>
+</item>
+</streaminginfo>
+
+<streaminginfo>
+<cname>MBC 4</cname>
+<item>
+<title>Bei_TV CopyCat</title>
+<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=mbc_4 flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
+<regex>
+<name>get-rtmp</name>
+<expres>file: '(.*?)'</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+<referer>http://bein-tv.com/al-tunisia.html</referer>
+</regex>
+<regex>
+<name>get-app</name>
+<expres>1935\/(.*?)\/</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+</regex>
+</item>
+</streaminginfo>
+
+
+<streaminginfo>
+<cname>MBC Bollywood</cname>
+<item>
+<title>Bei_TV CopyCat</title>
+<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=mbc_bollywood flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
+<regex>
+<name>get-rtmp</name>
+<expres>file: '(.*?)'</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+<referer>http://bein-tv.com/al-tunisia.html</referer>
+</regex>
+<regex>
+<name>get-app</name>
+<expres>1935\/(.*?)\/</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+</regex>
+</item>
+</streaminginfo>
+
+<streaminginfo>
+<cname>MBC Max</cname>
+<item>
+<title>Bei_TV CopyCat</title>
+<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=mbc_max flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
+<regex>
+<name>get-rtmp</name>
+<expres>file: '(.*?)'</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+<referer>http://bein-tv.com/al-tunisia.html</referer>
+</regex>
+<regex>
+<name>get-app</name>
+<expres>1935\/(.*?)\/</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+</regex>
+</item>
+</streaminginfo>
+
+
+<streaminginfo>
+<cname>MBC Drama</cname>
+<item>
+<title>Bei_TV CopyCat</title>
+<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=mbc_drama flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
+<regex>
+<name>get-rtmp</name>
+<expres>file: '(.*?)'</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+<referer>http://bein-tv.com/al-tunisia.html</referer>
+</regex>
+<regex>
+<name>get-app</name>
+<expres>1935\/(.*?)\/</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+</regex>
+</item>
+</streaminginfo>
+
+<streaminginfo>
+<cname>Al Nahar</cname>
+<item>
+<title>Bei_TV CopyCat</title>
+<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=al_nahar flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
+<regex>
+<name>get-rtmp</name>
+<expres>file: '(.*?)'</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+<referer>http://bein-tv.com/al-tunisia.html</referer>
+</regex>
+<regex>
+<name>get-app</name>
+<expres>1935\/(.*?)\/</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+</regex>
+</item>
+</streaminginfo>
+
+<streaminginfo>
+<cname>Echorouk Tv</cname>
+<item>
+<title>Bei_TV CopyCat</title>
+<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=echorouk_tv flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
+<regex>
+<name>get-rtmp</name>
+<expres>file: '(.*?)'</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+<referer>http://bein-tv.com/al-tunisia.html</referer>
+</regex>
+<regex>
+<name>get-app</name>
+<expres>1935\/(.*?)\/</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+</regex>
+</item>
+</streaminginfo>
+
+<streaminginfo>
+<cname>Dzair TV</cname>
+<item>
+<title>Bei_TV CopyCat</title>
+<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=dzair_tv flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
+<regex>
+<name>get-rtmp</name>
+<expres>file: '(.*?)'</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+<referer>http://bein-tv.com/al-tunisia.html</referer>
+</regex>
+<regex>
+<name>get-app</name>
+<expres>1935\/(.*?)\/</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+</regex>
+</item>
+</streaminginfo>
+<streaminginfo>
+<cname>AlGeria</cname>
+<item>
+<title>Bei_TV CopyCat</title>
+<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=algeria flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
+<regex>
+<name>get-rtmp</name>
+<expres>file: '(.*?)'</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+<referer>http://bein-tv.com/al-tunisia.html</referer>
+</regex>
+<regex>
+<name>get-app</name>
+<expres>1935\/(.*?)\/</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+</regex>
+</item>
+</streaminginfo>
+
+
+<streaminginfo>
+<cname>Al oula Maroc</cname>
+<item>
+<title>Bei_TV CopyCat</title>
+<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=al_aoula_maroc flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
+<regex>
+<name>get-rtmp</name>
+<expres>file: '(.*?)'</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+<referer>http://bein-tv.com/al-tunisia.html</referer>
+</regex>
+<regex>
+<name>get-app</name>
+<expres>1935\/(.*?)\/</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+</regex>
+</item>
+</streaminginfo>
+
+<streaminginfo>
+<cname>Al Maghribia</cname>
+<item>
+<title>Bei_TV CopyCat</title>
+<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=al_maghribia flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
+<regex>
+<name>get-rtmp</name>
+<expres>file: '(.*?)'</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+<referer>http://bein-tv.com/al-tunisia.html</referer>
+</regex>
+<regex>
+<name>get-app</name>
+<expres>1935\/(.*?)\/</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+</regex>
+</item>
+</streaminginfo>
+
+<streaminginfo>
+<cname>Algeria 3</cname>
+<item>
+<title>Bei_TV CopyCat</title>
+<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=algeria_3 flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
+<regex>
+<name>get-rtmp</name>
+<expres>file: '(.*?)'</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+<referer>http://bein-tv.com/al-tunisia.html</referer>
+</regex>
+<regex>
+<name>get-app</name>
+<expres>1935\/(.*?)\/</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+</regex>
+</item>
+</streaminginfo>
+
+
+<streaminginfo>
+<cname>Al Tunisia</cname>
+<item>
+<title>Bei_TV CopyCat</title>
+<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=al_tunisia flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
+<regex>
+<name>get-rtmp</name>
+<expres>file: '(.*?)'</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+<referer>http://bein-tv.com/al-tunisia.html</referer>
+</regex>
+<regex>
+<name>get-app</name>
+<expres>1935\/(.*?)\/</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+</regex>
+</item>
+</streaminginfo>
+<streaminginfo>
+<cname>Rotana Khaligi</cname>
+<item>
+<title>Bei_TV CopyCat</title>
+<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=rotana_khaligi flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
+<regex>
+<name>get-rtmp</name>
+<expres>file: '(.*?)'</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+<referer>http://bein-tv.com/mazzika.html</referer>
+</regex>
+<regex>
+<name>get-app</name>
+<expres>1935\/(.*?)\/</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+</regex>
+</item>
+</streaminginfo>
+<streaminginfo>
+<cname>Rotana Masriya</cname>
+<item>
+<title>Bei_TV CopyCat</title>
+<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=rotana_masriya flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
+<regex>
+<name>get-rtmp</name>
+<expres>file: '(.*?)'</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+<referer>http://bein-tv.com/mazzika.html</referer>
+</regex>
+<regex>
+<name>get-app</name>
+<expres>1935\/(.*?)\/</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+</regex>
+</item>
+</streaminginfo>
+<streaminginfo>
+<cname>Rotana Music</cname>
+<item>
+<title>Bei_TV CopyCat</title>
+<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=rotana_music flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
+<regex>
+<name>get-rtmp</name>
+<expres>file: '(.*?)'</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+<referer>http://bein-tv.com/mazzika.html</referer>
+</regex>
+<regex>
+<name>get-app</name>
+<expres>1935\/(.*?)\/</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+</regex>
+</item>
+</streaminginfo>
+<streaminginfo>
+<cname>Rotana Classic</cname>
+<item>
+<title>Bei_TV CopyCat</title>
+<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=rotana_classic flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
+<regex>
+<name>get-rtmp</name>
+<expres>file: '(.*?)'</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+<referer>http://bein-tv.com/mazzika.html</referer>
+</regex>
+<regex>
+<name>get-app</name>
+<expres>1935\/(.*?)\/</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+</regex>
+</item>
+</streaminginfo>
+<streaminginfo>
+<cname>Rotana Cinema</cname>
+<item>
+<title>Bei_TV CopyCat</title>
+<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=rotana_cinema flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
+<regex>
+<name>get-rtmp</name>
+<expres>file: '(.*?)'</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+<referer>http://bein-tv.com/mazzika.html</referer>
+</regex>
+<regex>
+<name>get-app</name>
+<expres>1935\/(.*?)\/</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+</regex>
+</item>
+</streaminginfo>
+<streaminginfo>
+<cname>Rotana Aflam</cname>
+<item>
+<title>Bei_TV CopyCat</title>
+<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=rotana_aflam flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
+<regex>
+<name>get-rtmp</name>
+<expres>file: '(.*?)'</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+<referer>http://bein-tv.com/mazzika.html</referer>
+</regex>
+<regex>
+<name>get-app</name>
+<expres>1935\/(.*?)\/</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+</regex>
+</item>
+</streaminginfo>
+
+
+
+
+<streaminginfo>
+<cname>Rotana Clip</cname>
+<item>
+<title>Bei_TV CopyCat</title>
+<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=rotana_clip flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
+<regex>
+<name>get-rtmp</name>
+<expres>file: '(.*?)'</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+<referer>http://bein-tv.com/mazzika.html</referer>
+</regex>
+<regex>
+<name>get-app</name>
+<expres>1935\/(.*?)\/</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+</regex>
+</item>
+</streaminginfo>
+
+
+<streaminginfo>
+<cname>Zee Alwan</cname>
+<item>
+<title>Bei_TV CopyCat</title>
+<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=zee_alwan flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
+<regex>
+<name>get-rtmp</name>
+<expres>file: '(.*?)'</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+<referer>http://bein-tv.com/mazzika.html</referer>
+</regex>
+<regex>
+<name>get-app</name>
+<expres>1935\/(.*?)\/</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+</regex>
+</item>
+</streaminginfo>
+
+<streaminginfo>
+<cname>Zee Aflam</cname>
+<item>
+<title>Bei_TV CopyCat</title>
+<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=zee_aflam flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
+<regex>
+<name>get-rtmp</name>
+<expres>file: '(.*?)'</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+<referer>http://bein-tv.com/mazzika.html</referer>
+</regex>
+<regex>
+<name>get-app</name>
+<expres>1935\/(.*?)\/</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+</regex>
+</item>
+</streaminginfo>
+
+<streaminginfo>
+<cname>Tunisia national 2</cname>
+<item>
+<title>Bei_TV CopyCat</title>
+<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=tunisia_national_2 flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
+<regex>
+<name>get-rtmp</name>
+<expres>file: '(.*?)'</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+<referer>http://bein-tv.com/mazzika.html</referer>
+</regex>
+<regex>
+<name>get-app</name>
+<expres>1935\/(.*?)\/</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+</regex>
+</item>
+</streaminginfo>
+<streaminginfo>
+<cname>Tunisia national 1</cname>
+<item>
+<title>Bei_TV CopyCat</title>
+<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=tunisia_national_1 flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
+<regex>
+<name>get-rtmp</name>
+<expres>file: '(.*?)'</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+<referer>http://bein-tv.com/mazzika.html</referer>
+</regex>
+<regex>
+<name>get-app</name>
+<expres>1935\/(.*?)\/</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+</regex>
+</item>
+</streaminginfo>
+<streaminginfo>
+<cname>Samira Tv</cname>
+<item>
+<title>Bei_TV CopyCat</title>
+<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=samira_tv flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
+<regex>
+<name>get-rtmp</name>
+<expres>file: '(.*?)'</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+<referer>http://bein-tv.com/mazzika.html</referer>
+</regex>
+<regex>
+<name>get-app</name>
+<expres>1935\/(.*?)\/</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+</regex>
+</item>
+</streaminginfo>
+
+<streaminginfo>
+<cname>MBC 1</cname>
+<item>
+<title>Bei_TV CopyCat</title>
+<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=mbc_1 flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
+<regex>
+<name>get-rtmp</name>
+<expres>file: '(.*?)'</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+<referer>http://bein-tv.com/mazzika.html</referer>
+</regex>
+<regex>
+<name>get-app</name>
+<expres>1935\/(.*?)\/</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+</regex>
+</item>
+</streaminginfo>
+<streaminginfo>
+<cname>Mazzika</cname>
+<item>
+<title>Bei_TV CopyCat</title>
+<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=mazzika flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
+<regex>
+<name>get-rtmp</name>
+<expres>file: '(.*?)'</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+<referer>http://bein-tv.com/mazzika.html</referer>
+</regex>
+<regex>
+<name>get-app</name>
+<expres>1935\/(.*?)\/</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+</regex>
+</item>
+</streaminginfo>
+
+<streaminginfo>
+	<cname>2M</cname>
+<item>
+<title>Bei_TV CopyCat</title>
+<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=2m flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
+<regex>
+<name>get-rtmp</name>
+<expres>file: '(.*?)'</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+<referer>http://bein-tv.com/2m-maroc-live-streaming.html</referer>
+</regex>
+<regex>
+<name>get-app</name>
+<expres>1935\/(.*?)\/</expres>
+<page>http://www.bein-tv.com/tv_/2m.php</page>
+</regex>
+</item>
+</streaminginfo>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <streaminginfo>
 	<cname>Bein Sport 1</cname>
 	<item>
