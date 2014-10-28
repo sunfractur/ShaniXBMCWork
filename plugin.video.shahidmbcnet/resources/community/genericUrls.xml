@@ -5303,5 +5303,25 @@
 			<link>http://mbc-live.hds.adaptive.level3.net/hls-live/mbc-channel02/_definst_/live/stream1.m3u8</link>
 		</item>
 	</streaminginfo>
-	
+	<streaminginfo>
+		<cname>CBC 2</cname>
+		<item>
+			<title>CBC Two Working</title>
+			<link>plugin://plugin.video.youtube/?path=/root/video&action=play_video&videoid=H0GBw6M_Wq0</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>Logos_Christian</cname>
+		<item>
+			<title>Logos Working</title>
+			<link>http://68.235.37.110/logoschannel.com/hls.m3u8</link>
+		</item>
+	</streaminginfo>
+	<streaminginfo>
+		<cname>MESat_Christian</cname>
+		<item>
+			<title>ME Sat Working</title>
+			<link>rtmp://sc-e1.streamcyclone.com:1935/jr1/_definst_/MeSatChannel</link>
+		</item>
+	</streaminginfo>
 </streamingInfos>
