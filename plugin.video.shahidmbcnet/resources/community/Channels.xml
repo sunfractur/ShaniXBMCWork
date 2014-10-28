@@ -1913,6 +1913,14 @@
 			</assignedcategory>
 	</channel>
 	<channel>
+			<cname>MESat_Christian</cname>
+			<imageurl>http://2.bp.blogspot.com/-c6eOTDD58xk/UaH20g-kkoI/AAAAAAAAFc0/weLSNHo685Y/s1600/460451_469459743069173_135762249_o.jpg</imageurl>
+			<enabled>True</enabled>
+			<assignedcategory>
+			<category>christ</category>
+			</assignedcategory>
+	</channel>
+	<channel>
 			<cname>Al Azhar</cname>
 			<imageurl>http://www.lyngsat-logo.com/hires/aa/al_azhar_tv_eg.png</imageurl>
 			<enabled>True</enabled>
