@@ -123,7 +123,19 @@
 	</item>	
 </streaminginfo>
 
-
+<streaminginfo>
+	<cname>Canal Cinema</cname>
+	<item>
+	<title>yoolive</title>
+	<link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link>
+	<regex>
+	<name>get-rtmp</name>
+	<expres>setup..file:"(.*?)"</expres>
+	<page>http://yoolive.com/canal_plus_cinema.php</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>	
+</streaminginfo>
 
 
 
