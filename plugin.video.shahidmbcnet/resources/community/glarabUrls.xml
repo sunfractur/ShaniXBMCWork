@@ -1635,14 +1635,14 @@
 	</item>
 </streaminginfo>
 <streaminginfo>
-	<cname>CBC 2</cname>
+	<cname>CBC Extra</cname>
 	<item>
 		<title>HD</title>
 		<link>http://38.99.146.36:7777/CBC2_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
 	</item>
 </streaminginfo>
 <streaminginfo>
-	<cname>CBC 2</cname>
+	<cname>CBC Extra</cname>
 	<item>
 		<title>LOW</title>
 		<link>http://38.99.146.43:7777/CBC2.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
@@ -2070,7 +2070,41 @@
 		<link>http://38.99.146.36:7777/beINSportsNews_Med.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
 	</item>
 </streaminginfo>
-
+<streaminginfo>
+	<cname>Nile Sport</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/NileSport_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>On TV</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/ONTV_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Coptic_Christian</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/CTVEgypt_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Aghapy</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/Aghapy_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Roya</cname>
+	<item>
+		<title>HD</title>
+		<link>http://38.99.146.36:7777/Roya_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
 
 
 
