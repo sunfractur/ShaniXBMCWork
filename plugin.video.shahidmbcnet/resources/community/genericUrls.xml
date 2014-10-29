@@ -3518,7 +3518,7 @@
 		<cname>CBC Sofra</cname>
 		<item>
 		<title>youtube</title>
-		<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=jgjneBqkrKU</link>
+		<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=VJPEambuVQE</link>
 		</item>
 </streaminginfo>
 
@@ -5291,7 +5291,7 @@
 		</item>
 	</streaminginfo>
 	<streaminginfo>
-		<cname>On TV</cname>
+		<cname>ONTV Live</cname>
 		<item>
 			<title>OnTvLive Working</title>
 			<link>http://50.7.180.18:1935/ONTV/smil:ontv_live.smil/playlist.m3u8</link>
@@ -5315,7 +5315,7 @@
 		<cname>CBC 2</cname>
 		<item>
 			<title>CBC Two Working</title>
-			<link>plugin://plugin.video.youtube/?path=/root/video&amp;action=play_video&amp;videoid=H0GBw6M_Wq0</link>
+			<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=H0GBw6M_Wq0</link>
 		</item>
 	</streaminginfo>
 	<streaminginfo>
