@@ -1,5 +1,12 @@
 <streamingInfos>
 <streaminginfo>
+	<cname>Rotana cinema</cname>
+	<item>
+		<title>Youtube Rotana Cinema</title>
+		<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=cplhqpMGMXI</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
 	<cname>Canal+ Sport</cname>
 	<item>
 		<title>Halima-Live</title>
@@ -13,7 +20,6 @@
 	</regex>
 	</item>
 </streaminginfo>
-
 <streaminginfo>
 	<cname>Canal+ Decale</cname>
 	<item>
@@ -28,7 +34,6 @@
 	</regex>
 	</item>
 </streaminginfo>
-
 <streaminginfo>
 	<cname>LCI</cname>
 	<item>
@@ -42,7 +47,6 @@
 		</regex>
 		</item>
 </streaminginfo>
-
 <streaminginfo>
 	<cname>Canal plus</cname>
 	<item>
@@ -56,7 +60,6 @@
 		</regex>
 		</item>
 </streaminginfo>
-
 <streaminginfo>
 	<cname>Comedie+</cname>
 	<item><title>NTV</title>
