@@ -4385,4 +4385,55 @@
 			<link>rtmp://sc-e1.streamcyclone.com:1935/jr1/_definst_/MeSatChannel</link>
 		</item>
 	</streaminginfo>
+	
+<streaminginfo><cname>MBC 1</cname><item><title>you need to install F.T.V Addon Filmon_Source</title><link>plugin://plugin.video.F.T.V/?url=http://www.filmon.com/channel/mbc&amp;mode=125&amp;name=MBC&amp;iconimage=http://static.filmon.com//couch/channels/367/extra_big_logo.png&amp;start=mbc&amp;ch_fanart=367</link>
+</item></streaminginfo>
+	
+<streaminginfo><cname>Dubai Sport 1</cname><item><title>you need to install F.T.V Addon Filmon_Source</title><link>plugin://plugin.video.F.T.V/?url=http%3A%2F%2Fwww.filmon.com%2Fchannel%2Fdubai-sports&amp;mode=125&amp;name=Dubai+Sports&amp;iconimage=http%3A%2F%2Fstatic.filmon.com%2Fcouch%2Fchannels%2F79%2Fextra_big_logo.png&amp;start=dubai-sports&amp;ch_fanart=79</link>
+</item></streaminginfo>
+
+<streaminginfo><cname>Alarabiya</cname><item><title>you need to install F.T.V Addon Filmon_Source</title><link>plugin://plugin.video.F.T.V/?url=http%3A%2F%2Fwww.filmon.com%2Fchannel%2Fal-arabiya&amp;mode=125&amp;name=Al+Arabiya&amp;iconimage=http%3A%2F%2Fstatic.filmon.com%2Fcouch%2Fchannels%2F366%2Fextra_big_logo.png&amp;start=al-arabiya&amp;ch_fanart=366</link>
+</item></streaminginfo>  
+<streaminginfo><cname>iFilm Arabic</cname><item><title>you need to install F.T.V Addon Filmon_Source</title><link>plugin://plugin.video.F.T.V/?url=http%3A%2F%2Fwww.filmon.com%2Fchannel%2Fifilm&amp;mode=125&amp;name=iFilm&amp;iconimage=http%3A%2F%2Fstatic.filmon.com%2Fcouch%2Fchannels%2F908%2Fextra_big_logo.png&amp;start=ifilm&amp;ch_fanart=908</link>
+</item></streaminginfo>  
+<streaminginfo><cname>Infinity</cname><item><title>you need to install F.T.V Addon Filmon_Source</title><link>plugin://plugin.video.F.T.V/?url=http%3A%2F%2Fwww.filmon.com%2Fchannel%2Finfinity-tv&amp;mode=125&amp;name=Infinity+TV&amp;iconimage=http%3A%2F%2Fstatic.filmon.com%2Fcouch%2Fchannels%2F1766%2Fextra_big_logo.png&amp;start=infinity-tv&amp;ch_fanart=1766</link>
+</item>
+</streaminginfo>  
+ 
+<streaminginfo>
+<cname>MBC 2</cname><item>
+<title>you need to install F.T.V Addon Filmon_Source</title>
+<link>plugin://plugin.video.F.T.V/?url=http%3A%2F%2Fwww.filmon.com%2Fchannel%2Fmbc2&amp;mode=125&amp;name=MBC2&amp;iconimage=http%3A%2F%2Fstatic.filmon.com%2Fcouch%2Fchannels%2F368%2Fextra_big_logo.png&amp;start=mbc2&amp;ch_fanart=368</link>
+</item></streaminginfo>
+
+<streaminginfo><cname>Rotana Music</cname><item><title>you need to install F.T.V Addon Filmon_Source</title>
+<link>plugin://plugin.video.F.T.V/?url=http%3A%2F%2Fwww.filmon.com%2Fchannel%2Frotana&amp;mode=125&amp;name=Rotana&amp;iconimage=http%3A%2F%2Fstatic.filmon.com%2Fcouch%2Fchannels%2F2600%2Fextra_big_logo.png&amp;start=rotana&amp;ch_fanart=2600</link></item></streaminginfo>
+
+<streaminginfo><cname>Rotana Aflam</cname><item><title>you need to install F.T.V Addon Filmon_Source</title>
+<link>plugin://plugin.video.F.T.V/?url=http%3A%2F%2Fwww.filmon.com%2Fchannel%2Frotana-aflam&amp;mode=125&amp;name=Rotana+Aflam&amp;iconimage=http%3A%2F%2Fstatic.filmon.com%2Fcouch%2Fchannels%2F2618%2Fextra_big_logo.png&amp;start=rotana-aflam&amp;ch_fanart=2618</link></item></streaminginfo>
+
+<streaminginfo><cname>Rotana Cinema</cname><item><title>you need to install F.T.V Addon Filmon_Source</title>
+<link>plugin://plugin.video.F.T.V/?url=http%3A%2F%2Fwww.filmon.com%2Fchannel%2Frotana-cinema&amp;mode=125&amp;name=Rotana+Cinema&amp;iconimage=http%3A%2F%2Fstatic.filmon.com%2Fcouch%2Fchannels%2F2615%2Fextra_big_logo.png&amp;start=rotana-cinema&amp;ch_fanart=2615</link></item></streaminginfo>
+
+<streaminginfo><cname>Rotana Classic</cname><item><title>you need to install F.T.V Addon Filmon_Source</title>
+<link>plugin://plugin.video.F.T.V/?url=http%3A%2F%2Fwww.filmon.com%2Fchannel%2Frotana-classic&amp;mode=125&amp;name=Rotana+Classic&amp;iconimage=http%3A%2F%2Fstatic.filmon.com%2Fcouch%2Fchannels%2F2609%2Fextra_big_logo.png&amp;start=rotana-classic&amp;ch_fanart=2609</link></item></streaminginfo>
+
+<streaminginfo><cname>Rotana Clip</cname><item><title>you need to install F.T.V Addon Filmon_Source</title>
+<link>plugin://plugin.video.F.T.V/?url=http%3A%2F%2Fwww.filmon.com%2Fchannel%2Frotana-clip&amp;mode=125&amp;name=Rotana+Clip&amp;iconimage=http%3A%2F%2Fstatic.filmon.com%2Fcouch%2Fchannels%2F2603%2Fextra_big_logo.png&amp;start=rotana-clip&amp;ch_fanart=2603</link></item></streaminginfo>
+
+<streaminginfo><cname>Rotana Khaligi</cname><item><title>you need to install F.T.V Addon Filmon_Source</title>
+<link>plugin://plugin.video.F.T.V/?url=http%3A%2F%2Fwww.filmon.com%2Fchannel%2Frotana-khalijiah&amp;mode=125&amp;name=Rotana+Khalijiah&amp;iconimage=http%3A%2F%2Fstatic.filmon.com%2Fcouch%2Fchannels%2F2606%2Fextra_big_logo.png&amp;start=rotana-khalijiah&amp;ch_fanart=2606</link></item></streaminginfo>
+
+<streaminginfo><cname>Rotana Masriya</cname><item><title>you need to install F.T.V Addon Filmon_Source</title>
+<link>plugin://plugin.video.F.T.V/?url=http%3A%2F%2Fwww.filmon.com%2Fchannel%2Frotana-masriya&amp;mode=125&amp;name=Rotana+Masriya&amp;iconimage=http%3A%2F%2Fstatic.filmon.com%2Fcouch%2Fchannels%2F2612%2Fextra_big_logo.png&amp;start=rotana-masriya&amp;ch_fanart=2612</link></item></streaminginfo>
+
+<streaminginfo><cname>KSA 1</cname><item><title>you need to install F.T.V Addon Filmon_Source</title>
+<link>plugin://plugin.video.F.T.V/?url=http%3A%2F%2Fwww.filmon.com%2Fchannel%2Fsaudi-arabian-tv-1&amp;mode=125&amp;name=Saudi+Arabian+TV+1&amp;iconimage=http%3A%2F%2Fstatic.filmon.com%2Fcouch%2Fchannels%2F1775%2Fextra_big_logo.png&amp;start=saudi-arabian-tv-1&amp;ch_fanart=1775</link></item></streaminginfo>
+
+<streaminginfo><cname>KSA 2</cname><item><title>you need to install F.T.V Addon Filmon_Source</title>
+<link>plugin://plugin.video.F.T.V/?url=http%3A%2F%2Fwww.filmon.com%2Fchannel%2Fsaudi-arabian-tv-2&amp;mode=125&amp;name=Saudi+Arabian+TV+2&amp;iconimage=http%3A%2F%2Fstatic.filmon.com%2Fcouch%2Fchannels%2F1778%2Fextra_big_logo.png&amp;start=saudi-arabian-tv-2&amp;ch_fanart=1778</link></item></streaminginfo>
+
+<streaminginfo><cname>Saudia Sport</cname><item><title>you need to install F.T.V Addon Filmon_Source</title>
+<link>plugin://plugin.video.F.T.V/?url=http%3A%2F%2Fwww.filmon.com%2Fchannel%2Fsaudi-arabian-tv-sports&amp;mode=125&amp;name=Saudi+Arabian+TV+Sports&amp;iconimage=http%3A%2F%2Fstatic.filmon.com%2Fcouch%2Fchannels%2F1781%2Fextra_big_logo.png&amp;start=saudi-arabian-tv-sports&amp;ch_fanart=1781</link></item></streaminginfo>
+
 </streamingInfos>
