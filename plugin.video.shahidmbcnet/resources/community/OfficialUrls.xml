@@ -1,5 +1,12 @@
 <streamingInfos>
 <streaminginfo>
+	<cname>Canal plus</cname>
+	<item>
+	<title>Canal+ en clair</title>
+	<link>rtmp://live-fms.canalplus.fr:1935/live/canalplusclair_1500@42246</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
 	<cname>Future TV</cname>
 	<item>
 	<title>Future TV Live</title>
