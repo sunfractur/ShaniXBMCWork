@@ -1,5 +1,12 @@
 <streamingInfos>
 <streaminginfo>
+	<cname>Future TV</cname>
+	<item>
+	<title>Future TV Live</title>
+	<link>rtmp://livestreaming2.itworkscdn.net/ftvlive/ playpath=ftvlive swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://itworks-me.net/ftvent/index.html timeout=15 live=1 swfvfy=1</link> 
+	</item>
+</streaminginfo>
+<streaminginfo>
 	<cname>Al Ahad</cname>
 	<item>
 	<title>Low</title>
