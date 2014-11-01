@@ -1,5 +1,19 @@
 <streamingInfos>
 <streaminginfo>
+	<cname>Canal+ Sport</cname>
+	<item>
+		<title>LaTVdeFrance</title>
+		<link>http://stream5.latvdefrance.com/live/canalsport.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Canal plus</cname>
+	<item>
+		<title>LaTVdeFrance</title>
+		<link>http://stream5.latvdefrance.com/live/canalplus.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
 	<cname>Rotana cinema</cname>
 	<item>
 		<title>Youtube Rotana Cinema</title>
