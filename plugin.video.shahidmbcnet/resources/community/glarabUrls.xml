@@ -1,13 +1,4 @@
 <streaminginfos>
-
-
-
-
-
-
-
-
-
 <streaminginfo>
 	<cname>Samira TV</cname>
 	<item><link>http://$GL-IP$/SamiraTV$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
@@ -660,18 +651,6 @@
 	<cname>ABN</cname>
 	<item><link>http://$GL-IP$/ABN$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
 </streaminginfo>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1948,7 +1927,7 @@
 	<cname>Future TV</cname>
 	<item>
 		<title>HD</title>
-		<link>http://38.99.146.36:7777/Future_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+		<link>http://38.99.146.37:7777/Future_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
 	</item>
 </streaminginfo>
 <streaminginfo>
@@ -2000,20 +1979,6 @@
 		<link>http://38.99.146.43:7777/SpacePower.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
 	</item>
 </streaminginfo>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <streaminginfo>
 	<cname>AL AHLY</cname>
 	<item>
@@ -2105,18 +2070,4 @@
 		<link>http://38.99.146.36:7777/Roya_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
 	</item>
 </streaminginfo>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </streaminginfos>
