@@ -122,6 +122,115 @@
 
 
 
+<streaminginfo>
+	<cname>Infosport+</cname>
+	<item>
+		<title>Scorpion Server</title>
+		<link>$doregex[get-rtmp]2 playpath=canal+fr8 swfUrl=http://www.scorpion-server.com.tn/js/jwplayer.flash.swf live=true flashver=WIN\2014,0,0,152 swfVfy=true timeout=30 pageUrl=http://www.scorpion-server.com.tn/chaine.php?cat=16&amp;id=14</link> 
+	<regex>
+		<name>get-rtmp</name>
+                <expres>file: "([^"2$]*)</expres>
+                <page>http://www.scorpion-server.com.tn/chaine.php?cat=16&amp;id=85</page>
+                <referer>http://www.scorpion-server.com.tn/chaine.php?cat=16&amp;id=81</referer>
+                <cookieJar></cookieJar>
+	</regex>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+	<cname>Boomerang</cname>
+	<item>
+		<title>Scorpion Server</title>
+		<link>$doregex[get-rtmp]2 playpath=boomerang swfUrl=http://www.scorpion-server.com.tn/js/jwplayer.flash.swf live=true flashver=WIN\2014,0,0,152 swfVfy=true timeout=30 pageUrl=http://www.scorpion-server.com.tn/chaine.php?cat=16&amp;id=88</link> 
+	<regex>
+		<name>get-rtmp</name>
+                <expres>file: "([^"2$]*)</expres>
+                <page>http://www.scorpion-server.com.tn/chaine.php?cat=16&amp;id=85</page>
+                <referer>http://www.scorpion-server.com.tn/chaine.php?cat=16&amp;id=81</referer>
+                <cookieJar></cookieJar>
+	</regex>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+	<cname>Boomerang</cname>
+	<item><title>NTV</title>
+	<link>http://boomerang-hls.live.numericable.tv/live/hls/boomerang/ipad.m3u8</link>
+	</item>
+</streaminginfo>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <streaminginfo><cname>Aljazeera Mubasher</cname><item><title>yoolive</title><link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link><regex><name>get-rtmp</name><expres>setup..file:"(.*?)"</expres><page>http://yoolive.com/jazeera_mubasher.php</page><cookieJar></cookieJar></regex></item></streaminginfo>
 <streaminginfo><cname>Aljazeera Mubasher Masr</cname><item><title>yoolive</title><link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link><regex><name>get-rtmp</name><expres>setup..file:"(.*?)"</expres><page>http://yoolive.com/jazeera_misr.php</page><cookieJar></cookieJar></regex></item></streaminginfo>
 <streaminginfo><cname>Aljazeera En</cname><item><title>yoolive</title><link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link><regex><name>get-rtmp</name><expres>setup..file:"(.*?)"</expres><page>http://yoolive.com/jazeera_en.php</page><cookieJar></cookieJar></regex></item></streaminginfo>
@@ -219,8 +328,6 @@
 <regex><name>get-rtmp</name><expres>setup..file:"(.*?)"</expres><page>http://yoolive.com/sama_dubai.php</page><cookieJar></cookieJar></regex></item></streaminginfo>
 <streaminginfo><cname>National Geo Ad</cname><item><title>yoolive</title><link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link><regex><name>get-rtmp</name><expres>setup..file:"(.*?)"</expres><page>http://yoolive.com/national_geo_ari.php</page><cookieJar></cookieJar></regex></item></streaminginfo>
 <streaminginfo><cname>Roya</cname><item><title>yoolive</title><link>$doregex[get-rtmp] swfUrl=http://p.jwpcdn.com/6/6/jwplayer.flash.swf pageUrl=http://yoolive.com live=1 timeout=15</link><regex><name>get-rtmp</name><expres>setup..file:"(.*?)"</expres><page>http://yoolive.com/roya.php</page><cookieJar></cookieJar></regex></item></streaminginfo>
-
-
 <streaminginfo>
 	<cname>Bein 1 FR</cname>
 	<item>
@@ -262,723 +369,6 @@
 	</regex>
 	</item>	
 </streaminginfo>
-
-<streaminginfo>
-	<cname>Infosport+</cname>
-	<item>
-		<title>Scorpion Server</title>
-		<link>$doregex[get-rtmp]2 playpath=canal+fr8 swfUrl=http://www.scorpion-server.com.tn/js/jwplayer.flash.swf live=true flashver=WIN\2014,0,0,152 swfVfy=true timeout=30 pageUrl=http://www.scorpion-server.com.tn/chaine.php?cat=16&amp;id=14</link> 
-	<regex>
-		<name>get-rtmp</name>
-                <expres>file: "([^"2$]*)</expres>
-                <page>http://www.scorpion-server.com.tn/chaine.php?cat=16&amp;id=85</page>
-                <referer>http://www.scorpion-server.com.tn/chaine.php?cat=16&amp;id=81</referer>
-                <cookieJar></cookieJar>
-	</regex>
-	</item>
-</streaminginfo>
-
-<streaminginfo>
-	<cname>Boomerang</cname>
-	<item>
-		<title>Scorpion Server</title>
-		<link>$doregex[get-rtmp]2 playpath=boomerang swfUrl=http://www.scorpion-server.com.tn/js/jwplayer.flash.swf live=true flashver=WIN\2014,0,0,152 swfVfy=true timeout=30 pageUrl=http://www.scorpion-server.com.tn/chaine.php?cat=16&amp;id=88</link> 
-	<regex>
-		<name>get-rtmp</name>
-                <expres>file: "([^"2$]*)</expres>
-                <page>http://www.scorpion-server.com.tn/chaine.php?cat=16&amp;id=85</page>
-                <referer>http://www.scorpion-server.com.tn/chaine.php?cat=16&amp;id=81</referer>
-                <cookieJar></cookieJar>
-	</regex>
-	</item>
-</streaminginfo>
-
-<streaminginfo>
-	<cname>Boomerang</cname>
-	<item><title>NTV</title>
-	<link>http://boomerang-hls.live.numericable.tv/live/hls/boomerang/ipad.m3u8</link>
-	</item>
-</streaminginfo>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<streaminginfo>
-<cname>Nessma</cname>
-<item>
-<title>Bei_TV CopyCat</title>
-<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=nessma flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
-<regex>
-<name>get-rtmp</name>
-<expres>file: '(.*?)'</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-<referer>http://bein-tv.com/al-tunisia.html</referer>
-</regex>
-<regex>
-<name>get-app</name>
-<expres>1935\/(.*?)\/</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-</regex>
-</item>
-</streaminginfo>
-<streaminginfo>
-<cname>Medi 1 Sat</cname>
-<item>
-<title>Bei_TV CopyCat</title>
-<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=medi_1_sat flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
-<regex>
-<name>get-rtmp</name>
-<expres>file: '(.*?)'</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-<referer>http://bein-tv.com/al-tunisia.html</referer>
-</regex>
-<regex>
-<name>get-app</name>
-<expres>1935\/(.*?)\/</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-</regex>
-</item>
-</streaminginfo>
-<streaminginfo>
-<cname>MBC 3</cname>
-<item>
-<title>Bei_TV CopyCat</title>
-<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=mbc_3 flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
-<regex>
-<name>get-rtmp</name>
-<expres>file: '(.*?)'</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-<referer>http://bein-tv.com/al-tunisia.html</referer>
-</regex>
-<regex>
-<name>get-app</name>
-<expres>1935\/(.*?)\/</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-</regex>
-</item>
-</streaminginfo>
-
-<streaminginfo>
-<cname>MBC Action</cname>
-<item>
-<title>Bei_TV CopyCat</title>
-<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=mbc_action flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
-<regex>
-<name>get-rtmp</name>
-<expres>file: '(.*?)'</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-<referer>http://bein-tv.com/al-tunisia.html</referer>
-</regex>
-<regex>
-<name>get-app</name>
-<expres>1935\/(.*?)\/</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-</regex>
-</item>
-</streaminginfo>
-
-
-
-<streaminginfo>
-<cname>MBC 2</cname>
-<item>
-<title>Bei_TV CopyCat</title>
-<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=mbc_2 flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
-<regex>
-<name>get-rtmp</name>
-<expres>file: '(.*?)'</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-<referer>http://bein-tv.com/al-tunisia.html</referer>
-</regex>
-<regex>
-<name>get-app</name>
-<expres>1935\/(.*?)\/</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-</regex>
-</item>
-</streaminginfo>
-
-<streaminginfo>
-<cname>MBC 4</cname>
-<item>
-<title>Bei_TV CopyCat</title>
-<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=mbc_4 flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
-<regex>
-<name>get-rtmp</name>
-<expres>file: '(.*?)'</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-<referer>http://bein-tv.com/al-tunisia.html</referer>
-</regex>
-<regex>
-<name>get-app</name>
-<expres>1935\/(.*?)\/</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-</regex>
-</item>
-</streaminginfo>
-
-
-<streaminginfo>
-<cname>MBC Bollywood</cname>
-<item>
-<title>Bei_TV CopyCat</title>
-<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=mbc_bollywood flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
-<regex>
-<name>get-rtmp</name>
-<expres>file: '(.*?)'</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-<referer>http://bein-tv.com/al-tunisia.html</referer>
-</regex>
-<regex>
-<name>get-app</name>
-<expres>1935\/(.*?)\/</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-</regex>
-</item>
-</streaminginfo>
-
-<streaminginfo>
-<cname>MBC Max</cname>
-<item>
-<title>Bei_TV CopyCat</title>
-<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=mbc_max flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
-<regex>
-<name>get-rtmp</name>
-<expres>file: '(.*?)'</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-<referer>http://bein-tv.com/al-tunisia.html</referer>
-</regex>
-<regex>
-<name>get-app</name>
-<expres>1935\/(.*?)\/</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-</regex>
-</item>
-</streaminginfo>
-
-
-<streaminginfo>
-<cname>MBC Drama</cname>
-<item>
-<title>Bei_TV CopyCat</title>
-<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=mbc_drama flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
-<regex>
-<name>get-rtmp</name>
-<expres>file: '(.*?)'</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-<referer>http://bein-tv.com/al-tunisia.html</referer>
-</regex>
-<regex>
-<name>get-app</name>
-<expres>1935\/(.*?)\/</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-</regex>
-</item>
-</streaminginfo>
-
-<streaminginfo>
-<cname>Al Nahar</cname>
-<item>
-<title>Bei_TV CopyCat</title>
-<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=al_nahar flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
-<regex>
-<name>get-rtmp</name>
-<expres>file: '(.*?)'</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-<referer>http://bein-tv.com/al-tunisia.html</referer>
-</regex>
-<regex>
-<name>get-app</name>
-<expres>1935\/(.*?)\/</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-</regex>
-</item>
-</streaminginfo>
-
-<streaminginfo>
-<cname>Echorouk Tv</cname>
-<item>
-<title>Bei_TV CopyCat</title>
-<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=echorouk_tv flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
-<regex>
-<name>get-rtmp</name>
-<expres>file: '(.*?)'</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-<referer>http://bein-tv.com/al-tunisia.html</referer>
-</regex>
-<regex>
-<name>get-app</name>
-<expres>1935\/(.*?)\/</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-</regex>
-</item>
-</streaminginfo>
-
-<streaminginfo>
-<cname>Dzair TV</cname>
-<item>
-<title>Bei_TV CopyCat</title>
-<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=dzair_tv flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
-<regex>
-<name>get-rtmp</name>
-<expres>file: '(.*?)'</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-<referer>http://bein-tv.com/al-tunisia.html</referer>
-</regex>
-<regex>
-<name>get-app</name>
-<expres>1935\/(.*?)\/</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-</regex>
-</item>
-</streaminginfo>
-<streaminginfo>
-<cname>AlGeria</cname>
-<item>
-<title>Bei_TV CopyCat</title>
-<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=algeria flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
-<regex>
-<name>get-rtmp</name>
-<expres>file: '(.*?)'</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-<referer>http://bein-tv.com/al-tunisia.html</referer>
-</regex>
-<regex>
-<name>get-app</name>
-<expres>1935\/(.*?)\/</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-</regex>
-</item>
-</streaminginfo>
-
-
-<streaminginfo>
-<cname>Al oula Maroc</cname>
-<item>
-<title>Bei_TV CopyCat</title>
-<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=al_aoula_maroc flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
-<regex>
-<name>get-rtmp</name>
-<expres>file: '(.*?)'</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-<referer>http://bein-tv.com/al-tunisia.html</referer>
-</regex>
-<regex>
-<name>get-app</name>
-<expres>1935\/(.*?)\/</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-</regex>
-</item>
-</streaminginfo>
-
-<streaminginfo>
-<cname>Al Maghribia</cname>
-<item>
-<title>Bei_TV CopyCat</title>
-<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=al_maghribia flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
-<regex>
-<name>get-rtmp</name>
-<expres>file: '(.*?)'</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-<referer>http://bein-tv.com/al-tunisia.html</referer>
-</regex>
-<regex>
-<name>get-app</name>
-<expres>1935\/(.*?)\/</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-</regex>
-</item>
-</streaminginfo>
-
-<streaminginfo>
-<cname>Algeria 3</cname>
-<item>
-<title>Bei_TV CopyCat</title>
-<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=algeria_3 flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
-<regex>
-<name>get-rtmp</name>
-<expres>file: '(.*?)'</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-<referer>http://bein-tv.com/al-tunisia.html</referer>
-</regex>
-<regex>
-<name>get-app</name>
-<expres>1935\/(.*?)\/</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-</regex>
-</item>
-</streaminginfo>
-
-
-<streaminginfo>
-<cname>Al Tunisia</cname>
-<item>
-<title>Bei_TV CopyCat</title>
-<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=al_tunisia flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
-<regex>
-<name>get-rtmp</name>
-<expres>file: '(.*?)'</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-<referer>http://bein-tv.com/al-tunisia.html</referer>
-</regex>
-<regex>
-<name>get-app</name>
-<expres>1935\/(.*?)\/</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-</regex>
-</item>
-</streaminginfo>
-<streaminginfo>
-<cname>Rotana Khaligi</cname>
-<item>
-<title>Bei_TV CopyCat</title>
-<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=rotana_khaligi flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
-<regex>
-<name>get-rtmp</name>
-<expres>file: '(.*?)'</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-<referer>http://bein-tv.com/mazzika.html</referer>
-</regex>
-<regex>
-<name>get-app</name>
-<expres>1935\/(.*?)\/</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-</regex>
-</item>
-</streaminginfo>
-<streaminginfo>
-<cname>Rotana Masriya</cname>
-<item>
-<title>Bei_TV CopyCat</title>
-<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=rotana_masriya flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
-<regex>
-<name>get-rtmp</name>
-<expres>file: '(.*?)'</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-<referer>http://bein-tv.com/mazzika.html</referer>
-</regex>
-<regex>
-<name>get-app</name>
-<expres>1935\/(.*?)\/</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-</regex>
-</item>
-</streaminginfo>
-<streaminginfo>
-<cname>Rotana Music</cname>
-<item>
-<title>Bei_TV CopyCat</title>
-<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=rotana_music flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
-<regex>
-<name>get-rtmp</name>
-<expres>file: '(.*?)'</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-<referer>http://bein-tv.com/mazzika.html</referer>
-</regex>
-<regex>
-<name>get-app</name>
-<expres>1935\/(.*?)\/</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-</regex>
-</item>
-</streaminginfo>
-<streaminginfo>
-<cname>Rotana Classic</cname>
-<item>
-<title>Bei_TV CopyCat</title>
-<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=rotana_classic flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
-<regex>
-<name>get-rtmp</name>
-<expres>file: '(.*?)'</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-<referer>http://bein-tv.com/mazzika.html</referer>
-</regex>
-<regex>
-<name>get-app</name>
-<expres>1935\/(.*?)\/</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-</regex>
-</item>
-</streaminginfo>
-<streaminginfo>
-<cname>Rotana Cinema</cname>
-<item>
-<title>Bei_TV CopyCat</title>
-<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=rotana_cinema flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
-<regex>
-<name>get-rtmp</name>
-<expres>file: '(.*?)'</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-<referer>http://bein-tv.com/mazzika.html</referer>
-</regex>
-<regex>
-<name>get-app</name>
-<expres>1935\/(.*?)\/</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-</regex>
-</item>
-</streaminginfo>
-<streaminginfo>
-<cname>Rotana Aflam</cname>
-<item>
-<title>Bei_TV CopyCat</title>
-<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=rotana_aflam flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
-<regex>
-<name>get-rtmp</name>
-<expres>file: '(.*?)'</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-<referer>http://bein-tv.com/mazzika.html</referer>
-</regex>
-<regex>
-<name>get-app</name>
-<expres>1935\/(.*?)\/</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-</regex>
-</item>
-</streaminginfo>
-
-
-
-
-<streaminginfo>
-<cname>Rotana Clip</cname>
-<item>
-<title>Bei_TV CopyCat</title>
-<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=rotana_clip flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
-<regex>
-<name>get-rtmp</name>
-<expres>file: '(.*?)'</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-<referer>http://bein-tv.com/mazzika.html</referer>
-</regex>
-<regex>
-<name>get-app</name>
-<expres>1935\/(.*?)\/</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-</regex>
-</item>
-</streaminginfo>
-
-
-<streaminginfo>
-<cname>Zee Alwan</cname>
-<item>
-<title>Bei_TV CopyCat</title>
-<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=zee_alwan flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
-<regex>
-<name>get-rtmp</name>
-<expres>file: '(.*?)'</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-<referer>http://bein-tv.com/mazzika.html</referer>
-</regex>
-<regex>
-<name>get-app</name>
-<expres>1935\/(.*?)\/</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-</regex>
-</item>
-</streaminginfo>
-
-<streaminginfo>
-<cname>Zee Aflam</cname>
-<item>
-<title>Bei_TV CopyCat</title>
-<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=zee_aflam flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
-<regex>
-<name>get-rtmp</name>
-<expres>file: '(.*?)'</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-<referer>http://bein-tv.com/mazzika.html</referer>
-</regex>
-<regex>
-<name>get-app</name>
-<expres>1935\/(.*?)\/</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-</regex>
-</item>
-</streaminginfo>
-
-<streaminginfo>
-<cname>Tunisia national 2</cname>
-<item>
-<title>Bei_TV CopyCat</title>
-<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=tunisia_national_2 flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
-<regex>
-<name>get-rtmp</name>
-<expres>file: '(.*?)'</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-<referer>http://bein-tv.com/mazzika.html</referer>
-</regex>
-<regex>
-<name>get-app</name>
-<expres>1935\/(.*?)\/</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-</regex>
-</item>
-</streaminginfo>
-<streaminginfo>
-<cname>Tunisia national 1</cname>
-<item>
-<title>Bei_TV CopyCat</title>
-<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=tunisia_national_1 flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
-<regex>
-<name>get-rtmp</name>
-<expres>file: '(.*?)'</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-<referer>http://bein-tv.com/mazzika.html</referer>
-</regex>
-<regex>
-<name>get-app</name>
-<expres>1935\/(.*?)\/</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-</regex>
-</item>
-</streaminginfo>
-<streaminginfo>
-<cname>Samira Tv</cname>
-<item>
-<title>Bei_TV CopyCat</title>
-<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=samira_tv flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
-<regex>
-<name>get-rtmp</name>
-<expres>file: '(.*?)'</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-<referer>http://bein-tv.com/mazzika.html</referer>
-</regex>
-<regex>
-<name>get-app</name>
-<expres>1935\/(.*?)\/</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-</regex>
-</item>
-</streaminginfo>
-
-<streaminginfo>
-<cname>MBC 1</cname>
-<item>
-<title>Bei_TV CopyCat</title>
-<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=mbc_1 flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
-<regex>
-<name>get-rtmp</name>
-<expres>file: '(.*?)'</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-<referer>http://bein-tv.com/mazzika.html</referer>
-</regex>
-<regex>
-<name>get-app</name>
-<expres>1935\/(.*?)\/</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-</regex>
-</item>
-</streaminginfo>
-<streaminginfo>
-<cname>Mazzika</cname>
-<item>
-<title>Bei_TV CopyCat</title>
-<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=mazzika flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
-<regex>
-<name>get-rtmp</name>
-<expres>file: '(.*?)'</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-<referer>http://bein-tv.com/mazzika.html</referer>
-</regex>
-<regex>
-<name>get-app</name>
-<expres>1935\/(.*?)\/</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-</regex>
-</item>
-</streaminginfo>
-
-<streaminginfo>
-	<cname>2M</cname>
-<item>
-<title>Bei_TV CopyCat</title>
-<link>$doregex[get-rtmp] app=$doregex[get-app] playpath=2m flashver=WIN\2013.0.0.214 swfUrl=http://www.bein-tv.com/tv_/bein-sd/jwplayer/jwplayer.flash.swf pageUrl=http://www.bein-tv.com live=1 timeout=20</link>
-<regex>
-<name>get-rtmp</name>
-<expres>file: '(.*?)'</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-<referer>http://bein-tv.com/2m-maroc-live-streaming.html</referer>
-</regex>
-<regex>
-<name>get-app</name>
-<expres>1935\/(.*?)\/</expres>
-<page>http://www.bein-tv.com/tv_/2m.php</page>
-</regex>
-</item>
-</streaminginfo>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <streaminginfo>
 	<cname>Bein Sport 1</cname>
 	<item>
@@ -1931,205 +1321,21 @@
 
 
 
-<streaminginfo><cname>Eurosport France</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/eurosport_fr live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Dalel</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/dalel live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Baghdad</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/baghdad live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Om Durman</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/om_durman live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>2M</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/2m live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Alhayat 1</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/alhayat live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Abu Dhabi Drama</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/abu_dhabi_drama live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Abu Dhabi Sports 1</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/abu_dhabi_sports_1 live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Abu Dhabi</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/abu_dhabi live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Aghanina</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/aghanina live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Ajyal</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/ajyal live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Al oula Maroc</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/al_aoula_maroc live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Al Baghdadia 2</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/al_baghdadia_2 live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Al Baghdadia</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/al_baghdadia live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Al Haneen Music</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/al_haneen_music live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Alhayat Cinema</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/al_hayat_cinema live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Al Ikhbaria</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/al_ikhbaria live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>AlQahera W Elnas</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/al_kahera_wal_nas live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Al Maghribia</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/al_maghribia live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Al Majd</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/al_majd live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Al Manar</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/al_manar live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Al Masriyah</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/al_masriyah live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Al Moustakilla</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/al_moustakilla live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Al-Nahar Drama</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/al_nahar_drama live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Quran TV ksa</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/al_quran_al_karim live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Al Rahma</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/al_rahma live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Al-Resalah</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/al_resalah live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Al Sharqiya</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/al_sharqiya live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Al Sumaria</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/al_sumaria live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Egypt 2</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/al_thaniya live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Al Tunisia</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/al_tunisia live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Al-hurra Iraq</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/al_hurra_iraq live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Al mayaden</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/al_mayaden live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Al Nahar</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/al_nahar live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Egypt 1</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/al_oula live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>AlGeria</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/algeria live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Al Anwar</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/alanwar live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Alarabiya</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/alarabiya live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Algeria 3</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/algeria_3 live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Alhayat2</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/alhayat_2 live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Al Hiwar</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/alhewar live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Iraqiya Sport</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/aliraqiya_sport live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Aliraqiya</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/aliraqiya live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Aljadeed</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/aljadeed live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Aljazeera Children</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/aljazeera_children live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Aljazeera Doc</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/aljazeera_doc live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Aljazeera</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/aljazeera live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Alqudis</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/alqudis live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Alriadia Sport</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/alriadia_sport live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Arabica Music</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/arabica_tv live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Arrabia</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/arrabia live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Art Aflam 1</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/art_aflam_1 live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Art Aflam 2</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/art_aflam_2 live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Assadissa</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/assadissa live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>B4U Aflam</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/b4u_aflam live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>BBC Arabic</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/bbc_arabic live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Bahrain</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/bahrain live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Baraem</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/baraem live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Bein 1 FR</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/bein_sports_1_hd_fr live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Bein 2 FR</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/bein_sports_2_hd_fr live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Bein Sport 1</cname><item><title>Teledunet Temporary_LOW</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/bein_sport_1_low live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Bein Sport 2</cname><item><title>Teledunet Temporary_LOW</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/bein_sport_2_low live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Bein Sport 3</cname><item><title>Teledunet Temporary_LOW</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/bein_sport_3_low live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Bein Sport 4</cname><item><title>Teledunet Temporary_LOW</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/bein_sport_4_low live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Bein Sport 5</cname><item><title>Teledunet Temporary_LOW</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/bein_sport_5_low live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Bein Sport 1</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/bein_sport_1 live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Bein Sport 2</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/bein_sport_2 live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Bein Sport 3</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/bein_sport_3 live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Bein Sport 4</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/bein_sport_4 live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Bein Sport 5</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/bein_sport_5 live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Bein Sport 6</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/bein_sport_6 live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Bein Sport 7</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/bein_sport_7 live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Bein Sport 8</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/bein_sport_8 live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Bein Sport 9</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/bein_sport_9 live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Bein Sport 10</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/bein_sport_10 live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Bein Sport 11</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/bein_sport11 live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Bein Sport 12</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/bein_sport_12 live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Bein Sport 13</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/bein_sport_13 live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Bein Sport 14</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/bein_sport_14 live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Bein Sport 15</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/bein_sport_15 live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>CBC 2</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/cbc_2 live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>CBC Drama</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/cbc_drama live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>CBC</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/cbc live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Cairo Cinema</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/cairo_cinema live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Cairo Drama</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/cairo_drama live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Canal Cinema</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/canal_plus_cinema live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Canal+ Sport</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/canal_plus_sport live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Canal plus</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/canal_plus live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Cartoon Network</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/cartoon_network live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Cima</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/cima live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Quran TV ksa</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/coran live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Djibouti</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/djibouti live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Dream 1</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/dream_1 live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Dubai One</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/dubai_one live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Dubai Sport 1</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/dubai_sport_1 live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Dubai Sport 2</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/dubai_sport_2 live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Dubai</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/dubai live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Dzair 24</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/dzair_24 live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Dzair tv</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/dzair_tv live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>El Djazairia</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/el_djazairia live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Echorouk Tv</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/echorouk_tv live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>EnnaharTV algerie</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/ennahar_algerie live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Fatafeat</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/fatafeat live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Canal+ Sport</cname><item><title>Teledunet Temporary_Canal+ Foot</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/foot_plus live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Fox Movies</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/fox_movies live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>FRANCE 2</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/france_2 live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>FRANCE 3</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/france_3 live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>FRANCE 5</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/france_5 live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>France 24</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/france24_arabic live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Funoon</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/funoon live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Future</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/future live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>GearOne</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/gearone live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Hanibal</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/hanibal live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>I-TELE</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/i_tele live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Iqra</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/iqra live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Ishtar</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/ishtar live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Jordan</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/jordan live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>KBC Algeria</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/kbc_algeria live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>KSA 1</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/ksa_1 live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>KSA 2</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/ksa_2 live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Karameesh</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/karameesh live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Kuwait</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/kuwait live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>LBC</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/lbc live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>LLBN</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/llbn live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Lbc Europe</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/lbc_europe live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Libya 2</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/libya_tv live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>M6</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/m6 live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>MBC 1</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/mbc_1 live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>MBC 2</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/mbc_2 live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>MBC 3</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/mbc_3 live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>MBC 4</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/mbc_4 live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>MBC Action</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/mbc_action live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>MBC Bollywood</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/mbc_bollywood live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>MBC Drama</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/mbc_drama live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>MBC Masr</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/mbc_masr live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>MBC Max</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/mbc_max live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>MTV</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/mtv live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Al oula Maroc</cname><item><title>Teledunet Temporary_SRV2</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/maghreb_1 live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Mauritanie</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/mauritanie live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Mazzika Zoom</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/mazeka_zoom live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Mazzika</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/mazzika live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Medi 1 Sat</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/medi_1_sat live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Melody Classic</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/melody_classic live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>NBN</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/nbn live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>National Geo Ad</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/nat_geo_ad live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Nessma</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/nessma live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Nile Cinema</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/nile_cinema live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Nile Comedy</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/nile_comedy live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Nile Drama 2</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/nile_drama_2 live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Nile Drama</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/nile_drama live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Nile Family</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/nile_family live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Nile Life</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/nile_life live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Nile News</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/nile_news live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Nile Sport</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/nile_sport live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Nile Tv</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/nile_tv live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Noor Dubai</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/noor_dubai live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Noursat</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/noursat live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>ORTM</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/ortm_mali live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>OTV Lebanon</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/otv_lebanon live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>On TV</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/on_tv live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Panorama Comedy</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/panorama_comedy live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Panorama drama</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/panorama_drama live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Qatar</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/qatar live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>RTS 1</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/rts_1 live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Rotana Aflam</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/rotana_aflam live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Rotana Classic</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/rotana_classic live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Rotana Clip</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/rotana_clip live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Rotana Khaligi</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/rotana_khaligi live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Rotana Masriya</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/rotana_masriya live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Rotana Music</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/rotana_music live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Rotana cinema</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/rotana_cinema live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Roya</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/roya live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Royali Somali</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/royali_somali live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Russia Alyaum</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/russia_alyaum live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Sama Dubai</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/sama_dubai live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Samira Tv</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/samira_tv live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>SM SM KIDS</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/semsem live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Sharjah</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/sharjah live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Al Sharqiya News</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/sharqia_news live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Spacetoon</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/spacetoon live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Star Cinema</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/star_cinema live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Sudan TV</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/sudan_tv live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Syria Drama</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/syria_drama live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Syria</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/syria live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>TF1</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/tf1 live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>TFM</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/tfm_senegal live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Tamazigh Maroc</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/tamazigh_algeria live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Tchad</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/tchad live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Algeria 3</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/thalitha live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Time comedy</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/time_comedy live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Toyor Al Janah</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/toyor_al_janah live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>First TV</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/tunisia_first_tv live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Tunisia national 1</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/tunisia_national_1 live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Tunisia national 2</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/tunisia_national_2 live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>W9</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/w9 live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Wanasah</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/wanasah live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Yemen</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/yemen live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Zee Aflam</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/zee_aflam live=1 timeout=20</link></item></streaminginfo>
-<streaminginfo><cname>Zee Alwan</cname><item><title>Teledunet Temporary</title><link>rtmp://www.teledunet.com:1935/live?idu=test_$epoctime$/zee_alwan live=1 timeout=20</link></item></streaminginfo>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
