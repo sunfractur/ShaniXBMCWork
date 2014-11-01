@@ -3,7 +3,7 @@
 	<cname>Canal plus</cname>
 	<item>
 	<title>Canal+ en clair</title>
-	<link>rtmp://live-fms.canalplus.fr:1935/live/canalplusclair_1500@42246</link>
+	<link>rtmp://live-fms.canalplus.fr:1935/live/canalplusclair_1500@42246 timeout=15</link>
 	</item>
 </streaminginfo>
 <streaminginfo>
