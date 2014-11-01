@@ -59,7 +59,7 @@ def Addtypes():
 
 def getMainMenu():
     list=[]
-    list.append({'name':'Banga Channels','url':mainurl+'/list/bangla.php','mode':'BC'})
+    list.append({'name':'Bangla Channels','url':mainurl+'/list/bangla.php','mode':'BC'})
     list.append({'name':'Islamic Channels','url':mainurl+'/list/islamic.php','mode':'IC'})
     list.append({'name':'Settings','url':'Settings','mode':'Settings'})
     return list;
@@ -103,7 +103,7 @@ def getLiveUrl(url):
     #print 'link',link
     progress.update( 30, "", "Finding links..", "" )
     h=HTMLParser.HTMLParser()
-    match= re.findall('ass="stremb">.*?href="(http.*?)"', link)
+    match= re.findall('<iframe name="ifram2" src="(.*?)"', link)
     if len(match)==0:
         progress.update( 60, "", "Finding links..", "" )
 
@@ -126,7 +126,7 @@ def getLiveUrl(url):
 
     if len(match)==0:
         return None
-    return {'rtmp':match[0][2],'playpath':match[0][1],'swf':match[0][0]}
+    return {'rtmp':match[0][2],'playpath':match[0][1],'swf':match[0][0],'pageUrl':zzUrl}
     
     
 
@@ -143,8 +143,11 @@ def PlayLiveLink ( url,name ):
         rtmp=urlDic["rtmp"]
         playPath=urlDic["playpath"]
         swf=urlDic["swf"]
+        pageurl=urlDic["pageUrl"]
 
-        playfile= "%s playpath=%s swfUrl=%s token=%s live=1 timeout=15 swfVfy=1 pageUrl=%s"%(rtmp,playPath,swf,'%bwwpe(nKa@#.',url)
+        playfile= "%s playpath=%s swfUrl=%s token=%s live=1 timeout=15 swfVfy=1 flashVer=WIN\\2015,0,0,167 pageUrl=%s"%(rtmp,playPath,swf,'%bedcsd(nKa@#.',pageurl)
+#        playfile= "%s playpath=%s swfUrl=%s live=1 timeout=15 swfVfy=1 flashVer=WIN\\2015,0,0,167 pageUrl=%s"%(rtmp,playPath,swf,pageurl)
+
         listitem = xbmcgui.ListItem( label = str(name), iconImage = "DefaultVideo.png", thumbnailImage = xbmc.getInfoImage( "ListItem.Thumb" ) )
         print "playing stream name: " + str(name) 
         xbmc.Player( xbmc.PLAYER_CORE_AUTO ).play( playfile, listitem)

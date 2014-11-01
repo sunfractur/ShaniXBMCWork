@@ -10,3 +10,6 @@ B]Version 1.0.3[/B]
 
 [B]Version 1.0.4[/B]
 - Gotham dependencies
+
+[B]Version 1.0.4[/B]
+- recent key changes
