@@ -2967,6 +2967,55 @@
 	</regex>
 	</item>
 </streaminginfo>
+<streaminginfo>
+	<cname>Qatar</cname>
+	<item>
+	<title>720P</title>
+	<link>http://qtv-i.akamaihd.net/hls/live/213233/QTV/s_64s.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Qatar</cname>
+	<item>
+	<title>290kbps</title>
+	<link>http://qtv-i.akamaihd.net/hls/live/213233/QTV/s_64s2.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Qatar</cname>
+	<item>
+	<title>510kbps</title>
+	<link>http://qtv-i.akamaihd.net/hls/live/213233/QTV/s_64s4.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Qatar</cname>
+	<item>
+	<title>950kbps</title>
+	<link>http://qtv-i.akamaihd.net/hls/live/213233/QTV/s_64s8.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Qatar</cname>
+	<item>
+	<title>1390kbps</title>
+	<link>http://qtv-i.akamaihd.net/hls/live/213233/QTV/s_64s12.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Qatar</cname>
+	<item>
+	<title>2050kbps_720P</title>
+	<link>http://qtv-i.akamaihd.net/hls/live/213233/QTV/s_64s18.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Qatar</cname>
+	<item>
+	<title>3370kbps_720P</title>
+	<link>http://qtv-i.akamaihd.net/hls/live/213233/QTV/s_64s30.m3u8</link>
+	</item>
+</streaminginfo>
 
 
 
