@@ -106,7 +106,7 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 				traceback.print_exc(file=sys.stdout)
 				print 'trying backup'
 				try:
-					link=getUrl("https://dl.dropboxusercontent.com/s/ku3n4n53qphqnmn/Frame-code.txt", getCookieJar())
+					link=getUrl("http://www.pastebin.com/download.php?i=fKh4gG5s", getCookieJar())
 					rtmp =re.findall(('rtmp://(.*?)/%s\''%channelId), link)[0]
 					rtmp='rtmp://%s/%s'%(rtmp,channelId)
 				except:
