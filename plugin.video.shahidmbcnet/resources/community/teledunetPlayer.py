@@ -48,7 +48,7 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 		
 
 		if 1==1:
-			newURL='http://www.teledunet.com/mobile/?con'
+			newURL='http://www.teledunet.com/mobile/'
 			print 'newURL',newURL
 			#req = urllib2.Request(newURL)
 			#req.add_header('User-Agent','Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36')
@@ -59,7 +59,7 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 
 			try:
 				link=None
-				result = getChannelHTML();#cache2Hr.cacheFunction(getChannelHTML)
+				result = getChannelHTML(channelId);#cache2Hr.cacheFunction(getChannelHTML)
 				if result:
 					link=result['link']
 					print 'file_exists',len(link)
@@ -322,7 +322,7 @@ def shouldforceLogin(cookieJar=None):
         traceback.print_exc(file=sys.stdout)
     return True
 
-def getChannelHTML():
+def getChannelHTML(cid):
     try:
         cookie_jar=None
         print 'Getting HTML from Teledunet'
@@ -337,10 +337,15 @@ def getChannelHTML():
                 print 'Login not forced.. perhaps reusing the session'
             cookie_jar=getCookieJar()
         else:
-            cookie_jar=getCookieJar()
+            cookie_jar=cookielib.LWPCookieJar()
             getUrl('http://www.teledunet.com/', cookie_jar)
             print 'login name not defined'
-        newURL='http://www.teledunet.com/mobile/?con'
+ 
+        import time
+        currentTime=int(time.time()*1000)
+        recordUrl="http://www.teledunet.com/spacer.php"
+        getUrl(recordUrl,cookie_jar ,None,'http://www.teledunet.com/')
+        newURL='http://www.teledunet.com/mobile/'
         link=getUrl(newURL,cookie_jar ,None,'http://www.teledunet.com/')
         return {'link':link}
     except:
