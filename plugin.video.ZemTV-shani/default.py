@@ -29,7 +29,7 @@ def addLink(name,url,iconimage):
 	return ok
 
 
-def addDir(name,url,mode,iconimage,showContext=False,showLiveContext=False,isItFolder=True):
+def addDir(name,url,mode,iconimage,showContext=False,showLiveContext=False,isItFolder=True, linkType=None):
 #	print name
 	u=sys.argv[0]+"?url="+urllib.quote_plus(url)+"&mode="+str(mode)+"&name="+urllib.quote_plus(name)
 	ok=True
@@ -40,7 +40,13 @@ def addDir(name,url,mode,iconimage,showContext=False,showLiveContext=False,isItF
 		cmd1 = "XBMC.RunPlugin(%s&linkType=%s)" % (u, "DM")
 		cmd2 = "XBMC.RunPlugin(%s&linkType=%s)" % (u, "LINK")
 		cmd3 = "XBMC.RunPlugin(%s&linkType=%s)" % (u, "Youtube")
-		liz.addContextMenuItems([('Play Youtube video',cmd3),('Play DailyMotion video',cmd1),('Play Tune.pk video',cmd2)])
+		cmd4 = "XBMC.RunPlugin(%s&linkType=%s)" % (u, "PLAYWIRE")
+		cmd5 = "XBMC.RunPlugin(%s&linkType=%s)" % (u, "ShowAll")
+
+		liz.addContextMenuItems([('Show All Sources',cmd5),('Play Playwire video',cmd4),('Play Youtube video',cmd3),('Play DailyMotion video',cmd1),('Play Tune.pk video',cmd2)])
+	if linkType:
+		u="XBMC.RunPlugin(%s&linkType=%s)" % (u, linkType)
+		
 	if showLiveContext==True:
 		cmd1 = "XBMC.RunPlugin(%s&linkType=%s)" % (u, "RTMP")
 		cmd2 = "XBMC.RunPlugin(%s&linkType=%s)" % (u, "HTTP")
@@ -167,6 +173,7 @@ def AddChannelsFromOthers():
         match.append(('News One','manual','http://dag.total-stream.net/dag1.asx?id=ad1!newsone'))
     match.append(('Ary news (manual)','manual','http://dag.total-stream.net/dag1.asx?id=ad1!arynews'))
     match.append(('Express news (manual)','manual','http://dag.total-stream.net/dag1.asx?id=ad1!expressnews'))
+    match.append(('Geo news (manual)','manual','http://dag.total-stream.net/dag1.asx?id=jdp!geonewsap'))
 
 #    match=sorted(match,key=itemgetter(0)   )
     match=sorted(match,key=lambda s: s[0].lower()   )
@@ -334,7 +341,7 @@ def Colored(text = '', colorid = '', isBold = False):
 		text = '[B]' + text + '[/B]'
 	return '[COLOR ' + color + ']' + text + '[/COLOR]'	
 
-def PlayShowLink ( url ): 
+def PlayShowLinkDup ( url ): 
 #	url = tabURL.replace('%s',channelName);
 	req = urllib2.Request(url)
 	req.add_header('User-Agent', 'Mozilla/5.0(iPad; U; CPU iPhone OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B314 Safari/531.21.10')
@@ -483,12 +490,20 @@ def PlayShowLink ( url ):
 	print "LT link is" + linkType
 	# if linktype is not provided then use the defaultLinkType
 	
-	if linkType=="DM" or (linkType=="" and defaultLinkType=="1"):
+	if linkType.upper()=="SHOWALL" or (linkType.upper()=="" and defaultLinkType=="4"):
+		ShowAllSources(url,link)
+		return
+	if linkType.upper()=="DM" or (linkType=="" and defaultLinkType=="1"):
 		print "PlayDM"
 		line1 = "Playing DM Link"
 		xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
 #		print link
 		playURL= match =re.findall('src="(.*?(dailymotion).*?)"',link)
+		if len(playURL)==0:
+			line1 = "Daily motion link not found"
+			xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
+			ShowAllSources(url,link)
+			return 
 		playURL=match[0][0]
 		print playURL
 		playlist = xbmc.PlayList(1)
@@ -501,15 +516,20 @@ def PlayShowLink ( url ):
 		print stream_url
 		playlist.add(stream_url,listitem)
 		xbmcPlayer = xbmc.Player(xbmc.PLAYER_CORE_AUTO)
-	        xbmcPlayer.play(playlist)
-	        #xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, listitem)
-#src="(.*?(dailymotion).*?)"
-	elif  linkType=="LINK"  or (linkType=="" and defaultLinkType=="2"):
+		xbmcPlayer.play(playlist)
+		#xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, listitem)
+		#src="(.*?(dailymotion).*?)"
+	elif  linkType.upper()=="LINK"  or (linkType=="" and defaultLinkType=="2"):
 		line1 = "Playing Tune.pk Link"
 		xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
-
 		print "PlayLINK"
 		playURL= match =re.findall('src="(.*?(tune\.pk).*?)"', link)
+		if len(playURL)==0:
+			line1 = "Link.pk link not found"
+			xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
+			ShowAllSources(url,link)
+			return 
+
 		playURL=match[0][0]
 		print playURL
 		playlist = xbmc.PlayList(1)
@@ -522,14 +542,47 @@ def PlayShowLink ( url ):
 		print stream_url
 		playlist.add(stream_url,listitem)
 		xbmcPlayer = xbmc.Player(xbmc.PLAYER_CORE_AUTO)
-	        xbmcPlayer.play(playlist)
-		x#bmcplugin.setResolvedUrl(int(sys.argv[1]), True, listitem)
-#src="(.*?(tune\.pk).*?)"
+		xbmcPlayer.play(playlist)
+	elif  linkType.upper()=="PLAYWIRE"  or (linkType=="" and defaultLinkType=="3"):
+		line1 = "Playing Playwire Link"
+		xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
+		print "Playwire"
+		playURL =re.findall('src=".*?(playwire).*?data-publisher-id="(.*?)"\s*data-video-id="(.*?)"', link)
+		if len(playURL)==0:
+			line1 = "Playwire link not found"
+			xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
+			ShowAllSources(url,link)
+			return 
+		(playWireVar,PubId,videoID)=playURL[0]
+		cdnUrl="http://cdn.playwire.com/v2/%s/config/%s.json"%(PubId,videoID)
+		req = urllib2.Request(cdnUrl)
+		req.add_header('User-Agent', 'Mozilla/5.0(iPad; U; CPU iPhone OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B314 Safari/531.21.10')
+		response = urllib2.urlopen(req)
+		link=response.read()
+		response.close()
+		playURL ="http://cdn.playwire.com/%s/%s"%(PubId,re.findall('src":".*?mp4:(.*?)"', link)[0])
+		print 'playURL',playURL
+		playlist = xbmc.PlayList(1)
+		playlist.clear()
+		listitem = xbmcgui.ListItem(name, iconImage="DefaultVideo.png")
+		listitem.setInfo("Video", {"Title":name})
+		listitem.setProperty('mimetype', 'video/x-msvideo')
+		listitem.setProperty('IsPlayable', 'true')
+		stream_url = playURL#urlresolver.HostedMediaFile(playURL).resolve()
+		print 'stream_url',stream_url
+		playlist.add(stream_url,listitem)
+		xbmcPlayer = xbmc.Player(xbmc.PLAYER_CORE_AUTO)
+		xbmcPlayer.play(playlist)
+		#bmcplugin.setResolvedUrl(int(sys.argv[1]), True, listitem)#src="(.*?(tune\.pk).*?)"
 	else:	#either its default or nothing selected
 		line1 = "Playing Youtube Link"
 		xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
-
 		youtubecode= match =re.findall('<strong>Youtube<\/strong>.*?src=\".*?embed\/(.*?)\?.*\".*?<\/iframe>', link,re.DOTALL| re.IGNORECASE)
+		if len(youtubecode)==0:
+			line1 = "Youtube link not found"
+			xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
+			ShowAllSources(url,link)
+			return
 		youtubecode=youtubecode[0]
 		uurl = 'plugin://plugin.video.youtube/?action=play_video&videoid=%s' % youtubecode
 #	print uurl
@@ -537,6 +590,47 @@ def PlayShowLink ( url ):
 	
 	return
 
+def ShowAllSources(url, loadedLink=None):
+	global linkType
+	print 'show all sources',url
+	link=loadedLink
+	if not loadedLink:
+		req = urllib2.Request(url)
+		req.add_header('User-Agent', 'Mozilla/5.0(iPad; U; CPU iPhone OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B314 Safari/531.21.10')
+		response = urllib2.urlopen(req)
+		link=response.read()
+		response.close()
+	available_source=[]
+	playURL =re.findall('src=".*?(playwire).*?data-publisher-id="(.*?)"\s*data-video-id="(.*?)"', link)
+#	def addDir(name,url,mode,iconimage,showContext=False,showLiveContext=False,isItFolder=True):
+#		cmd1 = "XBMC.RunPlugin(%s&linkType=%s)" % (u, "DM")
+#		cmd2 = "XBMC.RunPlugin(%s&linkType=%s)" % (u, "LINK")
+#		cmd3 = "XBMC.RunPlugin(%s&linkType=%s)" % (u, "Youtube")
+#		cmd4 = "XBMC.RunPlugin(%s&linkType=%s)" % (u, "PLAYWIRE")
+	print 'playURL',playURL
+	if not len(playURL)==0:
+		available_source.append('Playwire Source')
+
+	playURL= match =re.findall('src="(.*?(dailymotion).*?)"',link)
+	if not len(playURL)==0:
+		available_source.append('Daily Motion Source')
+
+	playURL= match =re.findall('src="(.*?(tune\.pk).*?)"', link)
+	if not len(playURL)==0:
+		available_source.append('Link Source')
+
+	playURL= match =re.findall('<strong>Youtube<\/strong>.*?src=\".*?embed\/(.*?)\?.*\".*?<\/iframe>', link,re.DOTALL| re.IGNORECASE)
+	if not len(playURL)==0:
+		available_source.append('Youtube Source')
+
+	if len(available_source)>0:
+		dialog = xbmcgui.Dialog()
+		index = dialog.select('Choose your stream', available_source)
+		if index > -1:
+			linkType=available_source[index].replace(' Source','').replace('Daily Motion','DM').upper()
+			print 'linkType',linkType
+			PlayShowLink(url);
+		
 
 def PlayLiveLink ( url ):
 	progress = xbmcgui.DialogProgress()
@@ -704,5 +798,5 @@ except:
 	traceback.print_exc(file=sys.stdout)
 	
 
-if not ( mode==3 or mode==4 or mode==9):
+if not ( (mode==3 or mode==4 or mode==9 )  )  :
 	xbmcplugin.endOfDirectory(int(sys.argv[1]))
