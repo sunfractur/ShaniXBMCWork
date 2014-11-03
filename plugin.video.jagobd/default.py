@@ -116,17 +116,26 @@ def getLiveUrl(url):
     print zzUrl,'zzURL'
     if len(zzUrl)==0:
         return None
-    print zzUrl,'zzURL'
+    #print zzUrl,'zzURL'
     progress.update( 70, "", "Finding links..", "" )
 
-    link=getURL(zzUrl,referer=url).result;
+    link=getURL(zzUrl,referer=url, mobile=True).result;
+    #print link,zzUrl
+    #link=zzUrl
     progress.update( 90, "", "Finding links..", "" )
-    match= re.findall('SWFObject\(\'(.*?)\',.*file\',\'(.*?)\'.*streamer\',\'(.*?)\'', link, re.DOTALL)
+    #match= re.findall('SWFObject\(\'(.*?)\',.*file\',\'(.*?)\'.*streamer\',\'(.*?)\'', link, re.DOTALL)
+    #match= re.findall('href="(http.*?playlist.*?)"', link)
+    #print match
+   
+    #link=getURL(match[0][0],referer=url, mobile=True).result;
+    match= re.findall('(http.*?)\\s', link, re.DOTALL)
+    print match
     progress.update( 100, "", "Finding links..", "" )
 
     if len(match)==0:
         return None
-    return {'rtmp':match[0][2],'playpath':match[0][1],'swf':match[0][0],'pageUrl':zzUrl}
+    return {'url':match[0]}
+    #return {'rtmp':match[0][2],'playpath':match[0][1],'swf':match[0][0],'pageUrl':zzUrl}
     
     
 
@@ -140,14 +149,17 @@ def PlayLiveLink ( url,name ):
         time=2000
         xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
 
-        rtmp=urlDic["rtmp"]
-        playPath=urlDic["playpath"]
-        swf=urlDic["swf"]
-        pageurl=urlDic["pageUrl"]
+        if 1==2:
+            rtmp=urlDic["rtmp"]
+            playPath=urlDic["playpath"]
+            swf=urlDic["swf"]
+            pageurl=urlDic["pageUrl"]
 
-        playfile= "%s playpath=%s swfUrl=%s token=%s live=1 timeout=15 swfVfy=1 flashVer=WIN\\2015,0,0,167 pageUrl=%s"%(rtmp,playPath,swf,'%bedcsd(nKa@#.',pageurl)
-#        playfile= "%s playpath=%s swfUrl=%s live=1 timeout=15 swfVfy=1 flashVer=WIN\\2015,0,0,167 pageUrl=%s"%(rtmp,playPath,swf,pageurl)
+            playfile= "%s playpath=%s swfUrl=%s token=%s live=1 timeout=15 swfVfy=1 flashVer=WIN\\2015,0,0,167 pageUrl=%s"%(rtmp,playPath,swf,'%bedcsd(nKa@#.',pageurl)
+    #        playfile= "%s playpath=%s swfUrl=%s live=1 timeout=15 swfVfy=1 flashVer=WIN\\2015,0,0,167 pageUrl=%s"%(rtmp,playPath,swf,pageurl)
 
+        playfile=urlDic["url"]
+        print 'playfile', playfile
         listitem = xbmcgui.ListItem( label = str(name), iconImage = "DefaultVideo.png", thumbnailImage = xbmc.getInfoImage( "ListItem.Thumb" ) )
         print "playing stream name: " + str(name) 
         xbmc.Player( xbmc.PLAYER_CORE_AUTO ).play( playfile, listitem)
