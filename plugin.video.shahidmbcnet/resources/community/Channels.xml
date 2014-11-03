@@ -1,5 +1,13 @@
 <channels>
 <channel>
+	<cname>AL sahat</cname>
+	<imageurl>http://www.lyngsat-logo.com/logo/tv/aa/al_sahat_tv_ye.png</imageurl>
+	<enabled>True</enabled>
+	<assignedcategory>
+	<category>golf</category>
+	</assignedcategory>
+</channel>
+<channel>
 	<cname>CNN</cname>
 	<imageurl>http://www.lyngsat-logo.com/hires/cc/cnn_usa.png</imageurl>
 	<enabled>True</enabled>
