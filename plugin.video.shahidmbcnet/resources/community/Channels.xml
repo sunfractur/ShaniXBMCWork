@@ -3494,15 +3494,6 @@
     </channel>
 
     <channel>
-        <cname>Al Jazeera America</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/jscam_zps29480914.png</imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-            <category>news</category>
-        </assignedcategory>
-    </channel>
-
-    <channel>
         <cname>Aljazeera</cname>
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/jsc_zpse578645b.png</imageurl>
         <enabled>True</enabled>
