@@ -1,28 +1,9 @@
 <streamingInfos>
-<streaminginfo>
-	<cname>TMC</cname>
-	<url>tmc</url>
-</streaminginfo>
-<streaminginfo>
-	<cname>Eurosport France</cname>
-	<url>eurosport_fr</url>
-</streaminginfo>
-<streaminginfo>
-	<cname>Dalel</cname>
-	<url>dalel</url>
-</streaminginfo>
-<streaminginfo>
-	<cname>Baghdad</cname>
-	<url>baghdad</url>
-</streaminginfo>
-<streaminginfo>
-	<cname>Om Durman</cname>
-	<url>om_durman</url>
-</streaminginfo>
-<streaminginfo>
-	<cname>2M</cname>
-	<url>2m</url>
-</streaminginfo>
+
+<streaminginfo><cname>Dalel</cname><url>dalel</url></streaminginfo>
+<streaminginfo><cname>Baghdad</cname><url>baghdad</url></streaminginfo>
+<streaminginfo><cname>Om Durman</cname><url>om_durman</url></streaminginfo>
+<streaminginfo><cname>2M</cname><url>2m</url></streaminginfo>
 <streaminginfo><cname>Alhayat 1</cname><url>alhayat</url></streaminginfo>
 <streaminginfo><cname>Abu Dhabi Drama</cname><url>abu_dhabi_drama</url></streaminginfo>
 <streaminginfo><cname>Abu Dhabi Sports 1</cname><url>abu_dhabi_sports_1</url></streaminginfo>
@@ -120,6 +101,7 @@
 <streaminginfo><cname>El Djazairia</cname><url>el_djazairia</url></streaminginfo>
 <streaminginfo><cname>Echorouk Tv</cname><url>echorouk_tv</url></streaminginfo>
 <streaminginfo><cname>EnnaharTV algerie</cname><url>ennahar_algerie</url></streaminginfo>
+<streaminginfo><cname>Eurosport France</cname><url>eurosport_fr</url></streaminginfo>
 <streaminginfo><cname>Fatafeat</cname><url>fatafeat</url></streaminginfo>
 <streaminginfo><cname>Canal+ Sport</cname><title>Canal+ Foot</title><url>foot_plus</url></streaminginfo>
 <streaminginfo><cname>Fox Movies</cname><url>fox_movies</url></streaminginfo>
@@ -128,7 +110,7 @@
 <streaminginfo><cname>FRANCE 5</cname><url>france_5</url></streaminginfo>
 <streaminginfo><cname>France 24</cname><url>france24_arabic</url></streaminginfo>
 <streaminginfo><cname>Funoon</cname><url>funoon</url></streaminginfo>
-<streaminginfo><cname>Future</cname><url>future</url></streaminginfo>
+<streaminginfo><cname>Future TV</cname><url>future</url></streaminginfo>
 <streaminginfo><cname>GearOne</cname><url>gearone</url></streaminginfo>
 <streaminginfo><cname>Hanibal</cname><url>hanibal</url></streaminginfo>
 <streaminginfo><cname>I-TELE</cname><url>i_tele</url></streaminginfo>
@@ -206,6 +188,7 @@
 <streaminginfo><cname>TFM</cname><url>tfm_senegal</url></streaminginfo>
 <streaminginfo><cname>Tamazigh Maroc</cname><url>tamazigh_algeria</url></streaminginfo>
 <streaminginfo><cname>Tchad</cname><url>tchad</url></streaminginfo>
+<streaminginfo><cname>TMC</cname><url>tmc</url></streaminginfo>
 <streaminginfo><cname>Algeria 3</cname><url>thalitha</url></streaminginfo>
 <streaminginfo><cname>Time comedy</cname><url>time_comedy</url></streaminginfo>
 <streaminginfo><cname>Toyor Al Janah</cname><url>toyor_al_janah</url></streaminginfo>
@@ -217,6 +200,5 @@
 <streaminginfo><cname>Yemen</cname><url>yemen</url></streaminginfo>
 <streaminginfo><cname>Zee Aflam</cname><url>zee_aflam</url></streaminginfo>
 <streaminginfo><cname>Zee Alwan</cname><url>zee_alwan</url></streaminginfo>
-
 
 </streamingInfos>
