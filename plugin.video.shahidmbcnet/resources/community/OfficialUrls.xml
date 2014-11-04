@@ -1,5 +1,42 @@
 <streamingInfos>
 <streaminginfo>
+	<cname>Al Manar</cname>
+	<item>
+	<title>Low_M_256P</title>
+	<link>http://38.96.148.199:1935/liveedge1/livestream_m256p/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Al Manar</cname>
+	<item>
+	<title>Low_160P</title>
+	<link>http://38.96.148.199:1935/liveedge1/livestream_160p/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Al Manar</cname>
+	<item>
+	<title>Med_240P</title>
+	<link>http://38.96.148.199:1935/liveedge1/livestream_240p/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+	<cname>Al Manar</cname>
+	<item>
+	<title>Med_360P</title>
+	<link>http://38.96.148.199:1935/liveedge1/livestream_360p/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Al Manar</cname>
+	<item>
+	<title>High_720P</title>
+	<link>http://38.96.148.199:1935/liveedge1/livestream_720p/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
 	<cname>Canal plus</cname>
 	<item>
 	<title>Canal+ en clair</title>
