@@ -709,7 +709,10 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
                 if 'rawpost' in m and '$epoctime$' in m['rawpost']:
                     m['rawpost']=m['rawpost'].replace('$epoctime$',getEpocTime())
   
+                if 'rawpost' in m and '$epoctime2$' in m['rawpost']:
+                    m['rawpost']=m['rawpost'].replace('$epoctime2$',getEpocTime2())
 
+  
                 link=''
                 if m['page'] and m['page'] in cachedPages and not 'ignorecache' in m and forCookieJarOnly==False :
                     link = cachedPages[m['page']]
@@ -717,6 +720,9 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
                     if m['page'] and  not m['page']=='' and  m['page'].startswith('http'):
                         if '$epoctime$' in m['page']:
                             m['page']=m['page'].replace('$epoctime$',getEpocTime())
+                        if '$epoctime2$' in m['page']:
+                            m['page']=m['page'].replace('$epoctime2$',getEpocTime2())
+
                         #print 'Ingoring Cache',m['page']
                         req = urllib2.Request(m['page'])
                         print 'req',m['page']
@@ -838,6 +844,9 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
                     url = url.replace("$doregex[" + k + "]",'')
         if '$epoctime$' in url:
             url=url.replace('$epoctime$',getEpocTime())
+        if '$epoctime2$' in url:
+            url=url.replace('$epoctime2$',getEpocTime2())
+
         if '$GUID$' in url:
             import uuid
             url=url.replace('$GUID$',str(uuid.uuid1()).upper())
@@ -864,6 +873,12 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
 
         #xbmc.Player(xbmc.PLAYER_CORE_DVDPLAYER).play(item=url)
         
+def getmd5(t):
+    import hashlib
+    h=hashlib.md5()
+    h.update(t)
+    return h.hexdigest()
+
 def decrypt_vaughnlive(encrypted):
     retVal=""
     for val in encrypted.split(':'):
@@ -1389,6 +1404,11 @@ class InputWindow(xbmcgui.WindowDialog):
 def getEpocTime():
     import time
     return str(int(time.time()*1000))
+
+def getEpocTime2():
+    import time
+    return str(int(time.time()))
+
 def get_params():
         param=[]
         paramstring=sys.argv[2]

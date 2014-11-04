@@ -1,3 +1,7 @@
+Version 1.3.7
+epoctime2 in page tag and vipracing function
+
+
 Version 1.3.6
 epoctime in page tag
 
