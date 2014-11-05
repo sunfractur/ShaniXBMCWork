@@ -1,9 +1,10 @@
 import xbmc, xbmcgui, xbmcplugin
-import urllib2,urllib,cgi, re, urlresolver
+import urllib2,urllib,cgi, re, urlresolver, sys
 import urlparse
 import HTMLParser
 import xbmcaddon
 from operator import itemgetter
+import traceback,os
 
 __addon__       = xbmcaddon.Addon()
 __addonname__   = __addon__.getAddonInfo('name')
@@ -299,16 +300,147 @@ def Colored(text = '', colorid = '', isBold = False):
 		text = '[B]' + text + '[/B]'
 	return '[COLOR ' + color + ']' + text + '[/COLOR]'	
 
+def getPlaywireUrl(html, short):
+	try:
+		match =re.findall('src=".*?(playwire).*?data-publisher-id="(.*?)"\s*data-video-id="(.*?)"',html)
+		playURL=match[0]
+		print playURL
+		if short:
+			return playURL
+		(playWireVar,PubId,videoID)=playURL
+		cdnUrl="http://cdn.playwire.com/v2/%s/config/%s.json"%(PubId,videoID)
+		link=getHtml(cdnUrl)
+		playURL ="http://cdn.playwire.com/%s/%s"%(PubId,re.findall('src":".*?mp4:(.*?)"', link)[0])
+		return playURL
 
+	except:
+		traceback.print_exc(file=sys.stdout)
+		return None
+		
+def getDailyMotionUrl(html, short):
+	try:
+		match =re.findall('src="(.*?(dailymotion).*?)"',html)
+		playURL=match[0][0]
+		print playURL
+		if short:
+			return playURL
+		stream_url = urlresolver.HostedMediaFile(playURL).resolve()
+		return stream_url
+	except:
+		traceback.print_exc(file=sys.stdout)
+		return None
+
+def getTuneTvUrl(html, short):
+	try:
+		match =re.findall('<strong>Tune\s*[fU]ull<\/strong>\s*.*?src="(.*?)"',html)
+		playURL=match[0]
+		print playURL
+		if short:
+			return playURL
+		pattern='src="(.*?(embed.tune).*?)"'
+		link=getHtml(playURL)
+		match =re.findall(pattern,link)
+		playURL=match[0][0]
+		print playURL
+		link=getHtml(playURL)
+		pattern='file":"(.*?)"'
+		match =re.findall(pattern,link)
+		print 'match',match
+		stream_url=match[0]
+		print stream_url
+		stream_url=stream_url.replace('\\/','/')
+#		stream_url = urlresolver.HostedMediaFile(playURL).resolve()
+		return stream_url
+	except:
+		traceback.print_exc(file=sys.stdout)
+		return None
+
+def getHtml(url, ref=None):
+	req = urllib2.Request(url)
+	req.add_header('User-Agent', 'Mozilla/5.0(iPad; U; CPU iPhone OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B314 Safari/531.21.10')
+	response = urllib2.urlopen(req)
+	link=response.read()
+	response.close()
+	return link
+
+def SelectUrl(html, url):
+	try:
+		available_source=[]
+		print 'selecting Url'
+		mainUrl=getDailyMotionUrl(html,True)
+		print 'selected Url',mainUrl
+
+		if (mainUrl):
+			available_source.append('Dailymotion Video')
+
+		mainUrl=getTuneTvUrl(html,True)
+		if (mainUrl):
+			available_source.append('Tune Video')
+			
+		mainUrl=getPlaywireUrl(html,True)
+		if (mainUrl):
+			available_source.append('Playwire Video')
+		defaultlinks='Dailymotion Video|Tune Video|Playwire Video'.split('|')
+		defaultLinkType=selfAddon.getSetting( "DefaultVideoType" ) 
+		if defaultLinkType is None: defaultLinkType='0'
+		print defaultLinkType
+		defaultLinkType = defaultlinks[int(defaultLinkType)]
+		print defaultLinkType
+
+		print 'available_source',available_source
+		if len(available_source)>0:
+			index=0
+			if len(available_source)>1:
+				print 'defaultLinkType',defaultLinkType
+				if not defaultLinkType in available_source:
+					dialog = xbmcgui.Dialog()
+					index = dialog.select('Choose your source', available_source)
+				else:
+					index=available_source.index(defaultLinkType)
+			if index > -1:
+				linkType=available_source[index]
+				line1 = "Finding links from "+linkType
+				xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, 2000, __icon__))
+				print 'linkType',linkType
+				if 'Dailymotion Video'==linkType:
+					return getDailyMotionUrl(html,False)
+				if 'Tune Video'==linkType:
+					return getTuneTvUrl(html,False)
+				if 'Playwire Video'==linkType:
+					return getPlaywireUrl(html,False)
+		else:
+			line1 = "No sources found"
+			xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, 2000, __icon__))
+		return None
+	except:
+		traceback.print_exc(file=sys.stdout)
+		return None
+		
+		
 def PlayShowLink ( url ): 
 #	url = tabURL.replace('%s',channelName);
+	line1 = "Finding links"
+	xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, 1000, __icon__))
+
 	req = urllib2.Request(url)
 	req.add_header('User-Agent', 'Mozilla/5.0(iPad; U; CPU iPhone OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B314 Safari/531.21.10')
 	response = urllib2.urlopen(req)
 	link=response.read()
 	response.close()
 #	print url
-
+	urlToPlay=SelectUrl(link, url)
+	if urlToPlay:
+		playlist = xbmc.PlayList(1)
+		playlist.clear()
+		listitem = xbmcgui.ListItem(name, iconImage="DefaultVideo.png")
+		listitem.setInfo("Video", {"Title":name})
+		listitem.setProperty('mimetype', 'video/x-msvideo')
+		listitem.setProperty('IsPlayable', 'true')
+		playlist.add(urlToPlay,listitem)
+		xbmcPlayer = xbmc.Player(xbmc.PLAYER_CORE_AUTO)
+		xbmcPlayer.play(playlist)
+	return 
+	
 	line1 = "Playing DM Link"
 	time = 5000  #in miliseconds
  	defaultLinkType=0 #0 youtube,1 DM,2 tunepk
@@ -335,14 +467,15 @@ def PlayShowLink ( url ):
 		print stream_url
 		playlist.add(stream_url,listitem)
 		xbmcPlayer = xbmc.Player(xbmc.PLAYER_CORE_AUTO)
-	        xbmcPlayer.play(playlist)
+		xbmcPlayer.play(playlist)
 #src="(.*?(dailymotion).*?)"
 	elif  linkType=="LINK"  or (linkType=="" and defaultLinkType=="2"):
 		line1 = "Playing Tune.pk Link"
 		xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
 
 		print "PlayLINK"
-		playURL= match =re.findall('<strong>.*tune.*.*full.*<\/strong>\s*.*?src="(.*?(tune\.pk).*?)"', link, re.IGNORECASE)
+		playURL= match =re.findall('<strong>Tune\s*[fU]ull<\/strong>\s*.*?src="(.*?)"', link, re.IGNORECASE)
+		print 'playURL',playURL
 		if len(playURL)<=0:
 			line1 = "Tune not found, trying Daily motion"
 			xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
@@ -352,7 +485,7 @@ def PlayShowLink ( url ):
 			line1 = "Link not found, check the website for Full Tune or Daily motion lists"
 			xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
 			return;
-		playURL=match[0][0]# check if not found then try other methods
+		playURL=match[0]# check if not found then try other methods
 		print playURL
 		playlist = xbmc.PlayList(1)
 		playlist.clear()
@@ -370,7 +503,6 @@ def PlayShowLink ( url ):
 	else:	#either its default or nothing selected
 		line1 = "Playing Youtube Link"
 		xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
-
 		youtubecode= match =re.findall('<strong>Youtube<\/strong>.*?src=\".*?embed\/(.*?)\?.*\".*?<\/iframe>', link,re.DOTALL| re.IGNORECASE)
 		youtubecode=youtubecode[0]
 		uurl = 'plugin://plugin.video.youtube/?action=play_video&videoid=%s' % youtubecode

@@ -42,3 +42,5 @@
 - added ARY Digital and news in eb section
 [B]Version 2.3.3[/B]
 - Removed common
+[B]Version 2.4.0[/B]
+- Shows the list if the prefered video source is not available
