@@ -217,9 +217,9 @@ def performLogin():
 		post = urllib.urlencode(post)
 		html_text=getUrl("http://www.teledunet.com/boutique/connexion.php",cookieJar,post)
 		cookieJar.save (COOKIEFILE,ignore_discard=True)
-		print 'cookie jar saved',cookieJar
-		html_text=getUrl("http://www.teledunet.com/",cookieJar)
-		cookieJar.save (COOKIEFILE,ignore_discard=True)
+		#print 'cookie jar saved',cookieJar
+		#html_text=getUrl("http://www.teledunet.com/",cookieJar,referer='http://www.teledunet.com/boutique/connexion.php')
+		#cookieJar.save (COOKIEFILE,ignore_discard=True)
 		return shouldforceLogin(cookieJar)==False
 	except:
 		traceback.print_exc(file=sys.stdout)
@@ -335,11 +335,10 @@ def getChannelHTML(cid):
                     print 'login failed??'
             else:
                 print 'Login not forced.. perhaps reusing the session'
-            cookie_jar=getCookieJar()
-        else:
-            cookie_jar=cookielib.LWPCookieJar()
-            getUrl('http://www.teledunet.com/', cookie_jar)
-            print 'login name not defined'
+        cookie_jar=getCookieJar()
+        
+        getUrl('http://www.teledunet.com/', cookie_jar)
+        getUrl('http://www.teledunet.com/', cookie_jar,referer='http://www.teledunet.com/boutique/connexion.php')
  
         import time
         currentTime=int(time.time()*1000)
