@@ -20,7 +20,7 @@ import SimpleDownloader as downloader
 import time
 
 
-g_ignoreSetResolved=['plugin.video.f4mTester','plugin.video.shahidmbcnet']
+g_ignoreSetResolved=['plugin.video.f4mTester','plugin.video.shahidmbcnet','plugin.video.SportsDevil','plugin.stream.vaughnlive.tv']
 
 REMOTE_DBG=False;
 if REMOTE_DBG:
@@ -459,12 +459,43 @@ def getItems(items,fanart):
                     pass
             except:
                 addon_log('EPG Error')
-
             try:
                 url = []
-                for i in item('link'):
-                    if not i.string == None:
-                        url.append(i.string)
+                if len(item('link')) >0:
+                    #print 'item link', item('link')
+                    for i in item('link'):
+                        if not i.string == None:
+                            url.append(i.string)
+                    
+                elif len(item('sportsdevil')) >0:
+                    for i in item('sportsdevil'):
+                        if not i.string == None:
+                            sportsdevil = 'plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=' +i.string
+                            referer = item('referer')[0].string
+                            if referer:
+                                #print 'referer found'
+                                sportsdevil = sportsdevil + '%26referer=' +referer
+                            print 'sportsdevil been added'
+                            url.append(sportsdevil)
+                elif len(item('p2p')) >0:
+                    for i in item('p2p'):
+                        if not i.string == None:
+                            if 'sop://' in i:
+                                sop = 'plugin://plugin.video.p2p-streams/?url='+i.string +'&amp;mode=2&amp;' + 'name='+name 
+                                url.append(sop) 
+                            else:
+                                p2p='plugin://plugin.video.p2p-streams/?url='+i.string +'&amp;mode=1&amp;' + 'name='+name 
+                                url.append(p2p)
+                elif len(item('vaughn')) >0:
+                    for i in item('vaughn'):
+                        if not i.string == None:
+                            vaughn = 'plugin://plugin.stream.vaughnlive.tv/?mode=PlayLiveStream&amp;channel='+i.string
+                            url.append(vaughn)
+                elif len(item('ilive')) >0:
+                    for i in item('ilive'):
+                        if not i.string == None:
+                            ilive = 'plugin://plugin.video.tbh.ilive/?url=http://www.ilive.to/view/'+i.string+'&amp;link=99&amp;mode=iLivePlay'
+                            url.append(ilive) 
                 if len(url) < 1:
                     raise
             except:
