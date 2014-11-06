@@ -23,7 +23,7 @@
      <string id="32056">Ninth Preference</string>
     <string id="32059">Tenth Preference</string>
     <string id="32061">Eleventh Preference</string>
-
+    <string id="32068">Thirteenth Preference</string>
 		
 	<string id="32027">Local Resources</string>
 	<string id="32028">Your Youtube file</string>
@@ -62,7 +62,7 @@
 	<string id="32050">Override default view mode</string>	
     <string id="32057">Teledunet retry count</string>	
      <string id="32058">Favourite add mode</string>	
-
+    <string id="32064">Twelfth Preference</string>
 	<string id="32065">Disable Offcial source</string>	
 	<string id="32066">Try All sources one by one</string>	
 
