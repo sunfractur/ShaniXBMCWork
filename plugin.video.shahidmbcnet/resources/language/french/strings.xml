@@ -23,7 +23,6 @@
      <string id="32056">9ème préférence</string>
     <string id="32059">10ème préférence</string>
     <string id="32061">11ème préférence</string>
-	<string id="32068">13ème préférence</string>
 
 		
 	<string id="32027">Ressources locales</string>
@@ -62,7 +61,6 @@
 	<string id="32050">Override default view mode</string>	
     <string id="32057">Nbre de tentatives de connexion à Teledunet</string>	
      <string id="32058">Favourite add mode</string>	
-    <string id="32064">12ème préférence</string>
 	<string id="32065">Désactiver Official</string>	
 
 	<string id="32066">Essayer toutes les sources une par une</string>
