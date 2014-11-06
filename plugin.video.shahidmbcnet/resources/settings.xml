@@ -18,12 +18,12 @@
 		<setting label="32026" type="labelenum" id="order5" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox|Emad|FilmOn|Official|Telvza" default="Zombi"/>
 		<setting label="32030" type="labelenum" id="order6" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox|Emad|FilmOn|Official|Telvza" default="Local"/>
 
-        <setting label="32054" type="labelenum" id="order8" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox|Emad|FilmOn|Official|Telvza" default="GLArab"/>
+        <setting label="32054" type="labelenum" id="order7" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox|Emad|FilmOn|Official|Telvza" default="GLArab"/>
    
-        <setting label="32059" type="labelenum" id="order10" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox|Emad|FilmOn|Official|Telvza" default="Emad"/>   
-        <setting label="32061" type="labelenum" id="order11" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox|Emad|FilmOn|Official|Telvza" default="FilmOn"/>   
-       <setting label="32064" type="labelenum" id="order12" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox|Emad|FilmOn|Official|Telvza" default="Official"/>   
-       <setting label="32068" type="labelenum" id="order13" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox|Emad|FilmOn|Official|Telvza" default="Telvza"/>   
+        <setting label="32059" type="labelenum" id="order8" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox|Emad|FilmOn|Official|Telvza" default="Emad"/>   
+        <setting label="32061" type="labelenum" id="order9" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox|Emad|FilmOn|Official|Telvza" default="FilmOn"/>   
+       <setting label="32064" type="labelenum" id="order10" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox|Emad|FilmOn|Official|Telvza" default="Official"/>   
+       <setting label="32068" type="labelenum" id="order11" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox|Emad|FilmOn|Official|Telvza" default="Telvza"/>   
         
      
 	   </category>
