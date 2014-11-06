@@ -11,19 +11,19 @@
 <category label="32015">
  <setting label="32020" type="bool"   id="playFirstChannel" default="false"/>
    <setting label="32021" type="lsep"/>
-		<setting label="32022" type="labelenum" id="order1" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox|Emad|FilmOn|Official|Telvza" default="Teledunet.com"/>
-		<setting label="32023" type="labelenum" id="order2" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox|Emad|FilmOn|Official|Telvza" default="livetv.tn"/>
-		<setting label="32024" type="labelenum" id="order3" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox|Emad|FilmOn|Official|Telvza" default="Shani"/>
-		<setting label="32025" type="labelenum" id="order4" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox|Emad|FilmOn|Official|Telvza" default="PC"/>
-		<setting label="32026" type="labelenum" id="order5" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox|Emad|FilmOn|Official|Telvza" default="Zombi"/>
-		<setting label="32030" type="labelenum" id="order6" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox|Emad|FilmOn|Official|Telvza" default="Local"/>
+		<setting label="32022" type="labelenum" id="order1" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|GLArab|Emad|FilmOn|Official|Telvza" default="Teledunet.com"/>
+		<setting label="32023" type="labelenum" id="order2" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|GLArab|Emad|FilmOn|Official|Telvza" default="livetv.tn"/>
+		<setting label="32024" type="labelenum" id="order3" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|GLArab|Emad|FilmOn|Official|Telvza" default="Shani"/>
+		<setting label="32025" type="labelenum" id="order4" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|GLArab|Emad|FilmOn|Official|Telvza" default="PC"/>
+		<setting label="32026" type="labelenum" id="order5" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|GLArab|Emad|FilmOn|Official|Telvza" default="Zombi"/>
+		<setting label="32030" type="labelenum" id="order6" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|GLArab|Emad|FilmOn|Official|Telvza" default="Local"/>
 
-        <setting label="32054" type="labelenum" id="order7" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox|Emad|FilmOn|Official|Telvza" default="GLArab"/>
+        <setting label="32054" type="labelenum" id="order7" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|GLArab|Emad|FilmOn|Official|Telvza" default="GLArab"/>
    
-        <setting label="32059" type="labelenum" id="order8" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox|Emad|FilmOn|Official|Telvza" default="Emad"/>   
-        <setting label="32061" type="labelenum" id="order9" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox|Emad|FilmOn|Official|Telvza" default="FilmOn"/>   
-       <setting label="32064" type="labelenum" id="order10" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox|Emad|FilmOn|Official|Telvza" default="Official"/>   
-       <setting label="32068" type="labelenum" id="order11" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|iptvOsn|GLArab|magictvBox|Emad|FilmOn|Official|Telvza" default="Telvza"/>   
+        <setting label="32059" type="labelenum" id="order8" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|GLArab|Emad|FilmOn|Official|Telvza" default="Emad"/>   
+        <setting label="32061" type="labelenum" id="order9" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|GLArab|Emad|FilmOn|Official|Telvza" default="FilmOn"/>   
+       <setting label="32064" type="labelenum" id="order10" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|GLArab|Emad|FilmOn|Official|Telvza" default="Official"/>   
+       <setting label="32068" type="labelenum" id="order11" values="Teledunet.com|livetv.tn|Shani|PC|Zombi|Local|GLArab|Emad|FilmOn|Official|Telvza" default="Telvza"/>   
         
      
 	   </category>
