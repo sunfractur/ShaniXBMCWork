@@ -335,15 +335,29 @@ def getChannelHTML(cid):
                     print 'login failed??'
             else:
                 print 'Login not forced.. perhaps reusing the session'
-        cookie_jar=getCookieJar()
-        
+            cookie_jar=getCookieJar()
+        else:
+            cookie_jar=cookielib.LWPCookieJar()
         getUrl('http://www.teledunet.com/', cookie_jar)
         getUrl('http://www.teledunet.com/', cookie_jar,referer='http://www.teledunet.com/boutique/connexion.php')
  
         import time
-        currentTime=int(time.time()*1000)
-        recordUrl="http://www.teledunet.com/spacer.php"
-        getUrl(recordUrl,cookie_jar ,None,'http://www.teledunet.com/')
+        #currentTime=int(time.time()*1000)
+        
+        rnd=time.time()*1000
+        post={'rndval':rnd}
+        post = urllib.urlencode(post)
+        html=getUrl('http://www.teledunet.com/who_watch_channel.php?refresh=1', cookie_jar,referer='http://www.teledunet.com/',post=post)
+        answer=re.findall('answer\',\'(.*?)\'', html)
+        if answer and len(answer)>0:
+            answer=answer[0]
+            rnd=time.time()*1000
+            post={'answer':answer,'rndval':rnd}
+            spacerUrl="http://www.teledunet.com/spacer.php"
+            post = urllib.urlencode(post)
+            getUrl(spacerUrl,cookie_jar ,post,'http://www.teledunet.com/')
+        
+        
         newURL='http://www.teledunet.com/mobile/'
         link=getUrl(newURL,cookie_jar ,None,'http://www.teledunet.com/')
         return {'link':link}
