@@ -1,3 +1,6 @@
+Version 1.3.9
+Change to support the calls to Vaughnlive,ilive,p2p, and sportsdevil. Thanks to alibbaba@tvaddon.ag
+
 Version 1.3.8
 vipracing function, support for option pages
 
