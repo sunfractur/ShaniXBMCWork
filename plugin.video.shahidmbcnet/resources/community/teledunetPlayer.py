@@ -90,8 +90,10 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 					#	cache2Hr.set('MainChannelPage','yes')
 					#	print 'Stored in local file',cache2Hr.get('MainChannelPage')
 					
-
-				match =re.findall('aut=\'\?id0=(.*?)\'', link)
+				if '' in link:
+					match =re.findall('fromspacer\((.*?)\)', link)
+				else:
+					match =re.findall('aut=\'\?id0=(.*?)\'', link)
 				print match
 				timesegment=str(long(float(match[0])))
 				if timesegment=="0":
@@ -349,17 +351,21 @@ def getChannelHTML(cid):
         post = urllib.urlencode(post)
         html=getUrl('http://www.teledunet.com/who_watch_channel.php?refresh=1', cookie_jar,referer='http://www.teledunet.com/',post=post)
         answer=re.findall('answer\',\'(.*?)\'', html)
+        newod1=None
         if answer and len(answer)>0:
             answer=answer[0]
             rnd=time.time()*1000
             post={'answer':answer,'rndval':rnd}
             spacerUrl="http://www.teledunet.com/spacer.php"
             post = urllib.urlencode(post)
-            getUrl(spacerUrl,cookie_jar ,post,'http://www.teledunet.com/')
-        
+            html=getUrl(spacerUrl,cookie_jar ,post,'http://www.teledunet.com/')
+            if 'id0' in html:
+                newod1=re.findall('id0=(.*)', html)[0]
         
         newURL='http://www.teledunet.com/mobile/'
         link=getUrl(newURL,cookie_jar ,None,'http://www.teledunet.com/')
+        if newod1:
+            link+='fromspacer('+newod1+")"
         return {'link':link}
     except:
         traceback.print_exc(file=sys.stdout)
