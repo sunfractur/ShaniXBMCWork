@@ -154,6 +154,7 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 			#return player.urlplayed
 			done = time.time()
 			elapsed = done - start
+			#save file
 			if player.urlplayed and elapsed>=3:
 				return True
 		pDialog.close()
@@ -349,18 +350,19 @@ def getChannelHTML(cid):
         rnd=time.time()*1000
         post={'rndval':rnd}
         post = urllib.urlencode(post)
-        html=getUrl('http://www.teledunet.com/who_watch_channel.php?refresh=1', cookie_jar,referer='http://www.teledunet.com/',post=post)
+        html=getUrl('http://www.teledunet.com/comment.php?w=100%&pseudo_2=&get_comments=Salon_Publique', cookie_jar,referer='http://www.teledunet.com/',post=post)
         answer=re.findall('answer\',\'(.*?)\'', html)
         newod1=None
         if answer and len(answer)>0:
-            answer=answer[0]
-            rnd=time.time()*1000
-            post={'answer':answer,'rndval':rnd}
-            spacerUrl="http://www.teledunet.com/spacer.php"
-            post = urllib.urlencode(post)
-            html=getUrl(spacerUrl,cookie_jar ,post,'http://www.teledunet.com/')
-            if 'id0' in html:
-                newod1=re.findall('id0=(.*)', html)[0]
+            for ans in answer:
+                if not newod1: 
+                    rnd=time.time()*1000
+                    post={'answer':ans,'rndval':rnd}
+                    spacerUrl="http://www.teledunet.com/spacer.php"
+                    post = urllib.urlencode(post)
+                    html=getUrl(spacerUrl,cookie_jar ,post,'http://www.teledunet.com/')
+                    if 'id0' in html:
+                        newod1=re.findall('id0=(.*)', html)[0]
         
         newURL='http://www.teledunet.com/mobile/'
         link=getUrl(newURL,cookie_jar ,None,'http://www.teledunet.com/')
