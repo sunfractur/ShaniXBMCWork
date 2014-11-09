@@ -1436,15 +1436,6 @@
 			</assignedcategory>
 	</channel>
 	
-
-	<channel>
-		<cname>MBC Drama Plus</cname>
-		<imageurl>http://www.web-medias.net/uploads/thumbs/b094a4888-1.jpg</imageurl>
-		<enabled>True</enabled>
-		<assignedcategory>
-		<category>drama</category>
-		</assignedcategory>
-	</channel>
 	<channel>
 		<cname>Discovery HD</cname>
 		<imageurl>http://upload.wikimedia.org/wikipedia/tr/6/69/Discovery_HD_logo.PNG</imageurl>
@@ -4323,17 +4314,7 @@
             <category>drama</category>
         </assignedcategory>
     </channel>
-
-    <channel>
-        <cname>MBC Persia</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/mbcpers_zps3fd3d4ef.png</imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-            <category>drama</category>
-        </assignedcategory>
-    </channel>
-
-    <channel>
+<channel>
         <cname>MTV</cname>
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/mtv_zpsadd2693c.png</imageurl>
         <enabled>True</enabled>
