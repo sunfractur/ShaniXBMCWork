@@ -90,7 +90,7 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 					#	cache2Hr.set('MainChannelPage','yes')
 					#	print 'Stored in local file',cache2Hr.get('MainChannelPage')
 					
-				if '' in link:
+				if 'fromspacer' in link:
 					match =re.findall('fromspacer\((.*?)\)', link)
 				else:
 					match =re.findall('aut=\'\?id0=(.*?)\'', link)
@@ -363,7 +363,13 @@ def getChannelHTML(cid):
                     html=getUrl(spacerUrl,cookie_jar ,post,'http://www.teledunet.com/')
                     if 'id0' in html:
                         newod1=re.findall('id0=(.*)', html)[0]
-        
+        if newod1==None:
+            post={'onData':'[type Function]','secure':'1'}
+            post = urllib.urlencode(post)#Referer: http://www.teledunet.com/player.swf?
+            html=getUrl('http://www.teledunet.com/security.php',cookie_jar ,post,'http://www.teledunet.com/player.swf?')        
+            if 'id0' in html:
+                newod1=re.findall('id0=(.*)', html)[0]
+
         newURL='http://www.teledunet.com/mobile/'
         link=getUrl(newURL,cookie_jar ,None,'http://www.teledunet.com/')
         if newod1:
