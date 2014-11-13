@@ -374,9 +374,9 @@ def getChannelHTML(cid):
         token=''
         import random
         token=str(   int('11' +  str(int(999999 +random.random() * (99999999 - 999999)))) * 65);
-        post=None
-        testUrl='http://www.teledunet.com/mobile//player.swf?id0=%s&channel=abu_dhabi_drama&user=&token=%s'%(newod1,token) 
-        getUrl(testUrl,cookie_jar ,post,'http://www.teledunet.com/mobile/') 
+#        post=None
+#        testUrl='http://www.teledunet.com/mobile//player.swf?id0=%s&channel=abu_dhabi_drama&user=&token=%s'%(newod1,token) 
+#        getUrl(testUrl,cookie_jar ,post,'http://www.teledunet.com/mobile/') 
 
         newURL='http://www.teledunet.com/mobile/'
         link=getUrl(newURL,cookie_jar ,None,'http://www.teledunet.com/')
