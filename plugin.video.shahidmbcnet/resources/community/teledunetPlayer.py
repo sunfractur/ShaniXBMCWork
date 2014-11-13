@@ -56,12 +56,14 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 			#response = urllib2.urlopen(req)
 			#link=response.read()
 			#response.close()
-
+			token=''
 			try:
 				link=None
 				result = getChannelHTML(channelId);#cache2Hr.cacheFunction(getChannelHTML)
+				
 				if result:
 					link=result['link']
+					token=result['token']
 					print 'file_exists',len(link)
 				else:
 					print 'cache or the url failed!!'
@@ -120,7 +122,7 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 
 		print 'rtmpstring',liveLink,rtmp
 #		liveLink=liveLink%(rtmp,channelId,match,channelId,channelId)
-		liveLink=liveLink%(rtmp,channelId,timesegment,channelId)
+		liveLink=liveLink%(rtmp,channelId,timesegment,channelId,token)
 		name+='-Teledunet'
 		print 'liveLink',liveLink
 		pDialog.close()
@@ -369,12 +371,19 @@ def getChannelHTML(cid):
             html=getUrl('http://www.teledunet.com/security.php',cookie_jar ,post,'http://www.teledunet.com/player.swf?')        
             if 'id0' in html:
                 newod1=re.findall('id0=(.*)', html)[0]
+        token=''
+        import random
+        token=str(   int('11' +  str(int(999999 +random.random() * (99999999 - 999999)))) * 65);
+        post=None
+        testUrl='http://www.teledunet.com/mobile//player.swf?id0=%s&channel=abu_dhabi_drama&user=&token=%s'%(newod1,token) 
+        getUrl(testUrl,cookie_jar ,post,'http://www.teledunet.com/mobile/') 
 
         newURL='http://www.teledunet.com/mobile/'
         link=getUrl(newURL,cookie_jar ,None,'http://www.teledunet.com/')
         if newod1:
             link+='fromspacer('+newod1+")"
-        return {'link':link}
+        
+        return {'link':link,'token':token}
     except:
         traceback.print_exc(file=sys.stdout)
         return ''
