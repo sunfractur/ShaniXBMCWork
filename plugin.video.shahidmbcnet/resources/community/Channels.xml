@@ -1772,7 +1772,7 @@
 
 	<channel>
 			<cname>Sat7</cname>
-			<imageurl>http://www.magictvbox.com/wp-content/uploads/2013/05/Sat-7-arabic.gif</imageurl>
+			<imageurl>http://www.lyngsat-logo.com/hires/ss/sat7_plus.png</imageurl>
 			<enabled>True</enabled>
 			<assignedcategory>
 			<category>christ</category>
@@ -1797,7 +1797,7 @@
 	</channel>
 	<channel>
 			<cname>Toktok</cname>
-			<imageurl>http://www.magictvbox.com/wp-content/uploads/2013/05/toktok-cinema.jpg</imageurl>
+			<imageurl>http://www.lyngsat-logo.com/logo/tv/tt/tok_tok_cinema.png</imageurl>
 			<enabled>True</enabled>
 			<assignedcategory>
 			<category>drama</category>
@@ -1815,7 +1815,7 @@
 
 	<channel>
 			<cname>AlHayat_Christian</cname>
-			<imageurl>http://www.magictvbox.com/wp-content/uploads/2013/05/Alhayat-Christian.jpg</imageurl>
+			<imageurl>http://www.lyngsat-logo.com/logo/tv/aa/al_hayat.png</imageurl>
 			<enabled>True</enabled>
 			<assignedcategory>
 			<category>christ</category>
@@ -1831,7 +1831,7 @@
 	</channel>
 	<channel>
 			<cname>Logos_Christian</cname>
-			<imageurl>http://www.magictvbox.com/wp-content/uploads/2013/05/Logos-tv.jpg</imageurl>
+			<imageurl>http://www.lyngsat-logo.com/hires/ll/logos_tv_us.png</imageurl>
 			<enabled>True</enabled>
 			<assignedcategory>
 			<category>christ</category>
@@ -1839,7 +1839,7 @@
 	</channel>
 	<channel>
 			<cname>CYC_Christian</cname>
-			<imageurl>http://www.magictvbox.com/wp-content/uploads/2013/05/cyc-tv.png</imageurl>
+			<imageurl>http://www.lyngsat-logo.com/hires/cc/cyc.png</imageurl>
 			<enabled>True</enabled>
 			<assignedcategory>
 			<category>christ</category>
@@ -1855,7 +1855,7 @@
 	</channel>
 	<channel>
 			<cname>Alkarama_Christian</cname>
-			<imageurl>http://www.magictvbox.com/wp-content/uploads/2013/05/AlKarma-TV.jpg</imageurl>
+			<imageurl>http://www.lyngsat-logo.com/hires/aa/alkarma_tv_na.png</imageurl>
 			<enabled>True</enabled>
 			<assignedcategory>
 			<category>christ</category>
@@ -1863,7 +1863,7 @@
 	</channel>
 	<channel>
 			<cname>The Way_Christian</cname>
-			<imageurl>http://www.magictvbox.com/wp-content/uploads/2013/05/The-Way-TV.jpg</imageurl>
+			<imageurl>http://www.lyngsat-logo.com/hires/tt/the_way_tv_us.png</imageurl>
 			<enabled>True</enabled>
 			<assignedcategory>
 			<category>christ</category>
@@ -1871,7 +1871,7 @@
 	</channel>
 	<channel>
 			<cname>Csat_Christian</cname>
-			<imageurl>http://www.magictvbox.com/wp-content/uploads/2013/05/csat.png</imageurl>
+			<imageurl>http://www.lyngsat-logo.com/hires/cc/c_sat_us.png</imageurl>
 			<enabled>True</enabled>
 			<assignedcategory>
 			<category>christ</category>
@@ -1887,7 +1887,7 @@
 	</channel>
 	<channel>
 			<cname>Smile-of-a-Child_Christian</cname>
-			<imageurl>http://www.magictvbox.com/wp-content/uploads/2013/03/smile-of-a-child.jpg</imageurl>
+			<imageurl>http://www.lyngsat-logo.com/logo/tv/ss/smile_of_a_child.png</imageurl>
 			<enabled>True</enabled>
 			<assignedcategory>
 			<category>christ</category>
@@ -1896,7 +1896,7 @@
 
 	<channel>
 			<cname>Coptic_Christian</cname>
-			<imageurl>http://www.magictvbox.com/wp-content/uploads/2013/05/Coptic-TV-CTV.jpg</imageurl>
+			<imageurl>http://www.lyngsat-logo.com/logo/tv/cc/ctv_eg.png</imageurl>
 			<enabled>True</enabled>
 			<assignedcategory>
 			<category>christ</category>
