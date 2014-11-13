@@ -1,3 +1,6 @@
+[B]Version 3.3.5[/B]
+Change settings to reflect the new ip address
+
 [B]Version 3.3.4[/B]
 GLArab improvment, now selection of quality is available in settings 
 
