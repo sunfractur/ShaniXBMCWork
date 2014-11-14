@@ -122,7 +122,7 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 
 		print 'rtmpstring',liveLink,rtmp
 #		liveLink=liveLink%(rtmp,channelId,match,channelId,channelId)
-		liveLink=liveLink%(rtmp,channelId,timesegment,channelId,token)
+		liveLink=liveLink%(rtmp,channelId,timesegment,channelId,'user'+token,token)
 		name+='-Teledunet'
 		print 'liveLink',liveLink
 		pDialog.close()
