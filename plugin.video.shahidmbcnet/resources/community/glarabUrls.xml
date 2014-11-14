@@ -2872,13 +2872,6 @@
 	</item>
 </streaminginfo>
 <streaminginfo>
-	<cname>Fatafeat</cname>
-	<item>
-		<title>HD</title>
-		<link>http://8.21.48.19:7777/Fatafeat_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
-	</item>
-</streaminginfo>
-<streaminginfo>
 	<cname>KTV2</cname>
 	<item>
 		<title>HD</title>
@@ -3775,7 +3768,9 @@
 </streaminginfo>
 <streaminginfo>
 	<cname>Fatafeat</cname>
-	<item><link>http://$GL-IP$/Fatafeat$GL-Qlty$.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link></item>
+	<item>
+		<link>http://8.21.48.19:7777/Fatafeat_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
 </streaminginfo>
 <streaminginfo>
 	<cname>KTV2</cname>
