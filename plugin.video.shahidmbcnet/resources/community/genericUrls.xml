@@ -69,6 +69,34 @@
 		</item>
 </streaminginfo>
 <streaminginfo>
+	<cname>Canal plus</cname>
+	<item>
+		<title>Halima-Live</title>
+		<link>rtmp://halima-live.com:1936/scorpion playpath=canal+fr swfUrl=http://www.scorpion-server.com.tn/js/jwplayer.flash.swf live=true flashver=WIN\2015,0,0,152 swfVfy=true timeout=30 pageUrl=http://www.scorpion-server.com.tn/chaine.php?cat=23&amp;id=33</link> 
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Bein 1 FR</cname>
+	<item>
+		<title>Halima-Live</title>
+		<link>rtmp://halima-live.com:1936/scorpion playpath=bein1fr swfUrl=http://www.scorpion-server.com.tn/js/jwplayer.flash.swf live=true flashver=WIN\2015,0,0,152 swfVfy=true timeout=30 pageUrl=http://www.scorpion-server.com.tn/chaine.php?cat=23&amp;id=33</link> 
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Bein 2 FR</cname>
+	<item>
+		<title>Halima-Live</title>
+		<link>rtmp://halima-live.com:1936/scorpion playpath=bein2fr swfUrl=http://www.scorpion-server.com.tn/js/jwplayer.flash.swf live=true flashver=WIN\2015,0,0,152 swfVfy=true timeout=30 pageUrl=http://www.scorpion-server.com.tn/chaine.php?cat=23&amp;id=33</link> 
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Canal+ Sport</cname>
+	<item>
+		<title>Halima-Live</title>
+		<link>rtmp://halima-live.com:1936/scorpion playpath=canal+fr3 swfUrl=http://www.scorpion-server.com.tn/js/jwplayer.flash.swf live=true flashver=WIN\2015,0,0,152 swfVfy=true timeout=30 pageUrl=http://www.scorpion-server.com.tn/chaine.php?cat=23&amp;id=33</link> 
+	</item>
+</streaminginfo>
+<streaminginfo>
 	<cname>Comedie+</cname>
 	<item><title>NTV</title>
 	<link>http://comedie-hls.live.numericable.tv/live/hls/comedie/ipad.m3u8</link>
