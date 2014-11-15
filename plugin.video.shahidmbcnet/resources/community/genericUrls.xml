@@ -1242,14 +1242,6 @@
 </streaminginfo>
 
 <streaminginfo>
-	<cname>RMC</cname>
-	<item>
-	<title>youtube</title>
-		<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=msqdbWgfltc</link>
-	</item>
-</streaminginfo>
-
-<streaminginfo>
 	<cname>ZDF</cname>
 	<item>
 	<title>edge1.stream-server</title>
@@ -3060,7 +3052,7 @@
 	</streaminginfo>
 	
 	<streaminginfo>
-		<cname>RMC</cname>
+		<cname>RMC Decouverte</cname>
 		<item>
 			<title>rmc_decouverte</title>
 			<link>rtmp://vipwowza.yacast.net/rmc_decouverte_rtmp//live</link> 
