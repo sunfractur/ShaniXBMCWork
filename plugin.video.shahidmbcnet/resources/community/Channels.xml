@@ -324,7 +324,7 @@
 </channel>
 <channel>
      <cname>Sport365</cname>
-     <imageurl>https://pbs.twimg.com/profile_images/469052709392232449/5vsQdclC.jpeg</imageurl>
+     <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/516.png</imageurl>
      <enabled>True</enabled>
      <assignedcategory>
 	 <category>french</category>
@@ -426,7 +426,7 @@
 </channel>
 <channel>
      <cname>RTL 9</cname>
-     <imageurl>https://pbs.twimg.com/profile_images/1745839482/424.jpg</imageurl>
+     <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/521.png</imageurl>
      <enabled>True</enabled>
      <assignedcategory>
 	 <category>french</category>
@@ -613,7 +613,7 @@
 </channel>
 <channel>
         <cname>NT1</cname>
-        <imageurl>http://www.lyngsat-logo.com/hires/nn/nt1.png</imageurl>
+        <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/533.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
         <category>french</category>
@@ -934,7 +934,7 @@
 
 <channel>
 	<cname>Cherie 25</cname>
-	<imageurl>http://www.lyngsat-logo.com/hires/cc/cherie_25_fr.png</imageurl>
+	<imageurl>http://www.gwenael.org/xbmc-streams/images/channels/558.png</imageurl>
 	<enabled>True</enabled>
 	<assignedcategory>
 	<category>french</category>
@@ -1206,7 +1206,7 @@
 	</channel>
 	<channel>
         <cname>RFI</cname>
-        <imageurl>https://yt3.ggpht.com/-08Bdu3vTpH0/AAAAAAAAAAI/AAAAAAAAAAA/kSd5ivzYRoo/s100-c-k-no/photo.jpg</imageurl>
+        <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/556.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
 		<category>french</category>
@@ -1690,7 +1690,7 @@
 	</channel>
 	<channel>
 			<cname>HD1</cname>
-			<imageurl>http://www.lyngsat-logo.com/hires/hh/hd1_fr.png</imageurl>
+			<imageurl>http://www.gwenael.org/xbmc-streams/images/channels/566.png</imageurl>
 			<enabled>True</enabled>
 			<assignedcategory>
 			 <category>french</category>
@@ -3906,7 +3906,7 @@
     
     <channel>
         <cname>Canal+ Sport</cname>
-        <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/241.png</imageurl>
+        <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/576.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>french</category>
@@ -3916,7 +3916,7 @@
 	
 	<channel>
         <cname>CN FR</cname>
-        <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/t1.0-1/969199_10151428604053372_1794292834_n.png</imageurl>
+        <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/502.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>kids</category>
@@ -5361,7 +5361,7 @@
 
     <channel>
         <cname>Canal Cinema</cname>
-        <imageurl>http://logostv.netii.net/CANAL+%20Cinema.png</imageurl>
+        <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/518.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>french</category>
