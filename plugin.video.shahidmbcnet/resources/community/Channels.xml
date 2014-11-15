@@ -600,14 +600,6 @@
      </assignedcategory>
 </channel>
 <channel>
-        <cname>NT1</cname>
-        <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/533.png</imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-        <category>french</category>
-        </assignedcategory>
-</channel>
-<channel>
         <cname>HCTV</cname>
         <imageurl>http://www.lyngsat-logo.com/logo/tv/hh/horn_cable_tv_so.png</imageurl>
         <enabled>True</enabled>
