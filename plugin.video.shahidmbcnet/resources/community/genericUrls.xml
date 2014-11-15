@@ -3060,22 +3060,6 @@
 	</streaminginfo>
 	
 	<streaminginfo>
-		<cname>Canal plus</cname>
-		<item>
-			<title>halima-live</title>
-			<link>rtmp://halima-live.com:1936/live2 playpath=canal+fr swfUrl=http://www.scorpion-server.com.tn/js/jwplayer.flash.swf live=true flashver=WIN\2013,0,0,214 pageUrl=http://www.scorpion-server.com.tn/chaine.php?cat=16&amp;id=13 timeout=20</link> 
-		</item>
-	</streaminginfo>
-	
-	<streaminginfo>
-		<cname>MTV</cname>
-		<item>
-			<title>halima-live</title>
-			<link>rtmp://halima-live.com:1936/live2 playpath=mtvlebanon swfUrl=http://www.scorpion-server.com.tn/js/jwplayer.flash.swf live=true flashver=WIN\2013,0,0,214 pageUrl=http://www.scorpion-server.com.tn/chaine.php?cat=21&amp;id=48 timeout=20</link> 
-		</item>
-	</streaminginfo>
-	
-	<streaminginfo>
 		<cname>RMC</cname>
 		<item>
 			<title>rmc_decouverte</title>
