@@ -6164,4 +6164,41 @@
 
 
 
+<channel>
+	<cname>AlBaghdadia2</cname>
+	<enabled>True</enabled>
+</channel>
+<channel>
+	<cname>AlDafra</cname>
+	<enabled>True</enabled>
+</channel>
+<channel>
+	<cname>ALhayat</cname>
+	<enabled>True</enabled>
+</channel>
+<channel>
+	<cname>AlSunnah</cname>
+	<enabled>True</enabled>
+</channel>
+<channel>
+	<cname>FutureUSA</cname>
+	<enabled>True</enabled>
+</channel>
+<channel>
+	<cname>MBCBollywood</cname>
+	<enabled>True</enabled>
+</channel>
+<channel>
+	<cname>MBCMasrPlus2</cname>
+	<enabled>True</enabled>
+</channel>
+<channel>
+	<cname>Noon</cname>
+	<enabled>True</enabled>
+</channel>
+
+
+
+
+
 </channels>
