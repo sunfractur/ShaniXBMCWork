@@ -366,7 +366,7 @@
 </channel>
 <channel>
      <cname>Encyclo</cname>
-     <imageurl>https://pbs.twimg.com/profile_images/476363279506210816/jQ4nm5FI.jpeg</imageurl>
+     <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/30.png</imageurl>
      <enabled>True</enabled>
      <assignedcategory>
      <category>doc</category>
@@ -392,7 +392,7 @@
 </channel>
 <channel>
      <cname>Animaux</cname>
-     <imageurl>https://pbs.twimg.com/profile_images/2169660837/animaux.jpg</imageurl>
+     <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/28.png</imageurl>
      <enabled>True</enabled>
      <assignedcategory>
      <category>doc</category>
@@ -1286,7 +1286,7 @@
 	</channel>
 	<channel>
 			<cname>Eurosport France</cname>
-			<imageurl>http://www.lyngsat-logo.com/hires/ee/eurosport.png</imageurl>
+			<imageurl>http://logostv.netii.net/Eurosport.png</imageurl>
 			<enabled>True</enabled>
 			<assignedcategory>
 			<category>sports</category>
@@ -1520,7 +1520,7 @@
 	</channel>
 	<channel>
 			<cname>Grande Lille TV</cname>
-			<imageurl>http://www.grandlille.tv/images/stories/header_logo_grandlilletv.png</imageurl>
+			<imageurl>http://www.gwenael.org/xbmc-streams/images/channels/100.png</imageurl>
 			<enabled>True</enabled>
 			<assignedcategory>
 			 <category>french</category>
@@ -1561,7 +1561,7 @@
 	</channel>
 	<channel>
 			<cname>Euronews fr</cname>
-			<imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/t1.0-1/10310626_658865060829548_1544787395216783457_a.png</imageurl>
+			<imageurl>http://www.gwenael.org/xbmc-streams/images/channels/102.png</imageurl>
 			<enabled>True</enabled>
 			<assignedcategory>
 			 <category>french</category>
@@ -1569,7 +1569,7 @@
 	</channel>
 	<channel>
 			<cname>rts un</cname>
-			<imageurl>http://www.rts.ch/2012/02/29/00/35/3817034.image?mw=1920&amp;mh1080</imageurl>
+			<imageurl>http://www.gwenael.org/xbmc-streams/images/channels/64.png</imageurl>
 			<enabled>True</enabled>
 			<assignedcategory>
 			 <category>french</category>
@@ -1577,7 +1577,7 @@
 	</channel>
 	<channel>
 			<cname>rts deux</cname>
-			<imageurl>http://www.rts.ch/2012/03/07/08/28/3817029.image?w=640&amp;h=360</imageurl>
+			<imageurl>http://www.gwenael.org/xbmc-streams/images/channels/66.png</imageurl>
 			<enabled>True</enabled>
 			<assignedcategory>
 			 <category>french</category>
@@ -1713,12 +1713,11 @@
 			</assignedcategory>
 	</channel>
 	<channel>
-			<cname>RMC</cname>
-			<imageurl>http://www.lyngsat-logo.com/logo/radio/rr/rmc.png</imageurl>
+			<cname>RMC Decouverte</cname>
+			<imageurl>http://www.gwenael.org/xbmc-streams/images/channels/128.png</imageurl>
 			<enabled>True</enabled>
 			<assignedcategory>
 			 <category>french</category>
-			 <category>rdio</category>
 			</assignedcategory>
 	</channel>
 	<channel>
@@ -2846,7 +2845,7 @@
 
   <channel>
         <cname>TMC</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/tmc_zps97f4794e.png</imageurl>
+        <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/15.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>french</category>
@@ -2855,7 +2854,7 @@
 
     <channel>
         <cname>W9</cname>
-        <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash3/t1.0-1/166568_10150944766269831_50838980_n.jpg</imageurl>
+        <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/14.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>french</category>
@@ -2864,7 +2863,7 @@
 
     <channel>
         <cname>NT1</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/NT1_zps0cf6c707.png</imageurl>
+        <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/16.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>french</category>
@@ -2873,7 +2872,7 @@
 
     <channel>
         <cname>NRJ 12</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/ngj12_zpsdd1d8b54.png</imageurl>
+        <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/17.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>french</category>
@@ -3898,7 +3897,7 @@
 
     <channel>
         <cname>Canal plus</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/c_zps4393c83f.png</imageurl>
+        <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/9.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>french</category>
@@ -4054,7 +4053,7 @@
 
     <channel>
         <cname>France 24</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/fr24_zps2bc09892.png</imageurl>
+        <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/101.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>news</category>
@@ -4196,7 +4195,7 @@
 	
     <channel>
         <cname>M6</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/m6_zps07ae0cb8.png</imageurl>
+        <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/11.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>french</category>
@@ -4808,7 +4807,7 @@
 
     <channel>
         <cname>TF1</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/TF1_zps62833f4f.png</imageurl>
+        <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/2.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>french</category>
@@ -5362,7 +5361,7 @@
 
     <channel>
         <cname>Canal Cinema</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/ccin_zpsb18f090f.png</imageurl>
+        <imageurl>http://logostv.netii.net/CANAL+%20Cinema.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>french</category>
@@ -5400,7 +5399,7 @@
 
     <channel>
         <cname>TV 5 MONDE</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/TV5_zps2155f4c9.png</imageurl>
+        <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/50.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>french</category>
@@ -5409,7 +5408,7 @@
 
     <channel>
         <cname>BFMTV</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/bfmtv_zpsf75d0656.png</imageurl>
+        <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/21.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>french</category>
@@ -5418,7 +5417,7 @@
 
     <channel>
         <cname>arte</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/arte_zpsc258bc51.png</imageurl>
+        <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/12.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>french</category>
@@ -5427,7 +5426,7 @@
 
     <channel>
         <cname>FRANCE 5</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/fr5_zps99ab7120.png</imageurl>
+        <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/10.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>french</category>
@@ -5436,7 +5435,7 @@
 
     <channel>
         <cname>FRANCE 4</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/fr4_zps1db13c19.png</imageurl>
+        <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/20.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>french</category>
@@ -5445,7 +5444,7 @@
 
     <channel>
         <cname>FRANCE 3</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/fr3_zps7d96af33.png</imageurl>
+        <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/4.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>french</category>
@@ -5454,7 +5453,7 @@
 
     <channel>
         <cname>FRANCE 2</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/FR2_zps2d0a8bb3.png</imageurl>
+        <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/3.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>french</category>
@@ -5463,7 +5462,7 @@
 
     <channel>
         <cname>FRANCE 0</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/fr0_zpscc684394.png</imageurl>
+        <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/25.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>french</category>
@@ -5473,7 +5472,7 @@
 
     <channel>
         <cname>GULLI</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/gulli_zps84f73f99.png</imageurl>
+        <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/24.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>french</category>
@@ -5501,7 +5500,7 @@
 
     <channel>
         <cname>France 24 FR</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/fr24_zps2bc09892.png</imageurl>
+        <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/101.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>french</category>
@@ -5511,7 +5510,7 @@
 
     <channel>
         <cname>D17</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/D17_zps6949c88a.png</imageurl>
+        <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/23.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>french</category>
@@ -5520,7 +5519,7 @@
 
     <channel>
         <cname>D8</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/8D_zps67ad0a5d.png</imageurl>
+        <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/13.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>french</category>
@@ -5529,7 +5528,7 @@
 
     <channel>
         <cname>I-TELE</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/itele_zps464a31c3.png</imageurl>
+        <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/22.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>french</category>
@@ -5902,7 +5901,7 @@
     </channel>
     <channel>
         <cname>LCI</cname>
-        <imageurl>http://www.lyngsat-logo.com/hires/ll/lci.png</imageurl>
+        <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/89.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>french</category>
@@ -6121,22 +6120,6 @@
 <channel>
 	<cname>Comedie+</cname>
 	<imageurl>http://www.lyngsat-logo.com/hires/cc/canalplus_fr_comedie_plus.png</imageurl>
-	<enabled>True</enabled>
-	<assignedcategory>
-	<category>french</category>
-	</assignedcategory>
-</channel>
-<channel>
-	<cname>Canal+ Decale</cname>
-	<imageurl>http://www.lyngsat-logo.com/hires/cc/canalplus_fr_decale.png</imageurl>
-	<enabled>False</enabled>
-	<assignedcategory>
-	<category>french</category>
-	</assignedcategory>
-</channel>
-<channel>
-	<cname>Infosport+</cname>
-	<imageurl>http://www.lyngsat-logo.com/hires/cc/canalplus_fr_infosport_plus.png</imageurl>
 	<enabled>True</enabled>
 	<assignedcategory>
 	<category>french</category>
