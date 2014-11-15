@@ -1306,7 +1306,7 @@ def getCommunityChannels(catType):
 						val=MyChannelList.find("channel",{"cname":chName})
 						if val:
 							exists=True
-				if config and 'hidden' in config:
+				if exists and config and 'hidden' in config:
 					exists=not config['hidden']=="yes"
 				if not exists:
 					continue
