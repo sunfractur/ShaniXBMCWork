@@ -14,7 +14,13 @@
 	</regex>
 	</item>
 </streaminginfo>
-
+<streaminginfo>
+	<cname>Paris Premiere</cname>
+	<item>
+	<title>576px</title>
+	<link>http://hls.francovox.com/hls/parispremiereb_mid.m3u8</link>
+	</item>
+</streaminginfo>
 <streaminginfo>
 	<cname>Canal+ Sport</cname>
 	<item>
