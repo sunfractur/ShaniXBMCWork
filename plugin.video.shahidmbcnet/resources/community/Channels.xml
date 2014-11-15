@@ -341,7 +341,7 @@
 </channel>
 <channel>
      <cname>CineFx</cname>
-     <imageurl>https://pbs.twimg.com/profile_images/378800000224295680/7fb0c2c24cdec47d270cfec8c689334f.jpeg</imageurl>
+     <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/367.png</imageurl>
      <enabled>True</enabled>
      <assignedcategory>
 	 <category>french</category>
@@ -349,7 +349,7 @@
 </channel>
 <channel>
      <cname>Escales</cname>
-     <imageurl>https://pbs.twimg.com/profile_images/2169899742/escales.jpg</imageurl>
+     <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/324.png</imageurl>
      <enabled>True</enabled>
      <assignedcategory>
      <category>doc</category>
@@ -358,7 +358,7 @@
 </channel>
 <channel>
      <cname>Action</cname>
-     <imageurl>https://pbs.twimg.com/profile_images/2186702797/action.jpg</imageurl>
+     <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/366.png</imageurl>
      <enabled>True</enabled>
      <assignedcategory>
 	 <category>french</category>
@@ -383,7 +383,7 @@
 </channel>
 <channel>
      <cname>ABMoteurs</cname>
-     <imageurl>https://pbs.twimg.com/profile_images/3032184642/26438ec87257fff4ec84c1fec44d5ecc.jpeg</imageurl>
+     <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/229.png</imageurl>
      <enabled>True</enabled>
      <assignedcategory>
      <category>sports</category>
@@ -401,7 +401,7 @@
 </channel>
 <channel>
      <cname>Chasse_et_peche</cname>
-     <imageurl>https://pbs.twimg.com/profile_images/378800000220355787/06ec2195d13f961d11696d4ef60ef631.jpeg</imageurl>
+     <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/322.png</imageurl>
      <enabled>True</enabled>
      <assignedcategory>
      <category>doc</category>
@@ -410,7 +410,7 @@
 </channel>
 <channel>
      <cname>AB1</cname>
-     <imageurl>https://pbs.twimg.com/profile_images/1721327577/AB1_logo_2011.png</imageurl>
+     <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/365.pngg</imageurl>
      <enabled>True</enabled>
      <assignedcategory>
 	 <category>french</category>
@@ -443,7 +443,7 @@
 </channel>
 <channel>
      <cname>NATIONAL GEO FR</cname>
-     <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc3/t1.0-1/p320x320/1044696_665694903448030_1017020399_n.jpg</imageurl>
+     <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/375.png</imageurl>
      <enabled>True</enabled>
      <assignedcategory>
      <category>doc</category>
@@ -461,7 +461,7 @@
 </channel>
 <channel>
      <cname>Histoire</cname>
-     <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfa1/v/t1.0-1/166258_149817018404256_1058329_n.jpg?oh=b38b50b4c83838764f62997147d586d2&amp;oe=545D555A&amp;__gda__=1417555138_979784dbbd2285f26e83bbface42850a</imageurl>
+     <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/475.png</imageurl>
      <enabled>True</enabled>
      <assignedcategory>
      <category>doc</category>
@@ -889,7 +889,7 @@
 </channel>
 <channel>
         <cname>i24News</cname>
-        <imageurl>http://www.lyngsat-logo.com/hires/ii/i_24_news_il.png</imageurl>
+        <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/232.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
         <category>news</category>
@@ -1239,7 +1239,7 @@
 	</channel>
 	<channel>
         <cname>Europe 1</cname>
-        <imageurl>https://yt3.ggpht.com/-usC-mmT8ZaU/AAAAAAAAAAI/AAAAAAAAAAA/yUnQfn6wVQE/s100-c-k-no/photo.jpg</imageurl>
+        <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/197.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
 		<category>french</category>
@@ -1286,7 +1286,7 @@
 	</channel>
 	<channel>
 			<cname>Eurosport France</cname>
-			<imageurl>http://logostv.netii.net/Eurosport.png</imageurl>
+			<imageurl>http://www.gwenael.org/xbmc-streams/images/channels/137.png</imageurl>
 			<enabled>True</enabled>
 			<assignedcategory>
 			<category>sports</category>
@@ -1296,7 +1296,7 @@
 	
 	<channel>
 			<cname>Eurosport 2 France</cname>
-			<imageurl>http://www.lyngsat-logo.com/hires/ee/eurosport2.png</imageurl>
+			<imageurl>http://www.gwenael.org/xbmc-streams/images/channels/138.png</imageurl>
 			<enabled>True</enabled>
 			<assignedcategory>
 			<category>sports</category>
@@ -1698,7 +1698,7 @@
 	</channel>
 	<channel>
 			<cname>Equipe 21</cname>
-			<imageurl>http://www.lyngsat-logo.com/logo/tv/ll/l_equipe_21_fr.png</imageurl>
+			<imageurl>http://www.gwenael.org/xbmc-streams/images/channels/129.png</imageurl>
 			<enabled>True</enabled>
 			<assignedcategory>
 			 <category>french</category>
@@ -1706,7 +1706,7 @@
 	</channel>
 	<channel>
 			<cname>Numero 23</cname>
-			<imageurl>http://www.lyngsat-logo.com/hires/nn/numero_23_fr.png</imageurl>
+			<imageurl>http://www.gwenael.org/xbmc-streams/images/channels/493.png</imageurl>
 			<enabled>True</enabled>
 			<assignedcategory>
 			 <category>french</category>
@@ -3906,7 +3906,7 @@
     
     <channel>
         <cname>Canal+ Sport</cname>
-        <imageurl>http://www.lyngsat-logo.com/hires/cc/canalplus_fr_sport.png</imageurl>
+        <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/241.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>french</category>
@@ -5323,7 +5323,7 @@
     
     <channel>
         <cname>Bein 1 FR</cname>
-        <imageurl>http://www.futbolenlatv.com/fotos/20140113121534-bein-1-hd-fr.png</imageurl>
+        <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/285.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>sports</category>
@@ -5333,7 +5333,7 @@
 
     <channel>
         <cname>Bein 2 FR</cname>
-        <imageurl>http://www.futbolenlatv.com/fotos/20140113121607-bein-2-hd-fr.png</imageurl>
+        <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/286.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>sports</category>
@@ -6119,7 +6119,7 @@
 </channel>
 <channel>
 	<cname>Comedie+</cname>
-	<imageurl>http://www.lyngsat-logo.com/hires/cc/canalplus_fr_comedie_plus.png</imageurl>
+	<imageurl>http://www.gwenael.org/xbmc-streams/images/channels/477.png</imageurl>
 	<enabled>True</enabled>
 	<assignedcategory>
 	<category>french</category>
@@ -6127,7 +6127,7 @@
 </channel>
 <channel>
 	<cname>Boomerang</cname>
-	<imageurl>http://www.lyngsat-logo.com/hires/bb/boomerang_global.png</imageurl>
+	<imageurl>http://www.gwenael.org/xbmc-streams/images/channels/471.png</imageurl>
 	<enabled>True</enabled>
 	<assignedcategory>
 	<category>french</category>
