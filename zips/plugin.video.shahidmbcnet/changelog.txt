@@ -1,3 +1,6 @@
+[B]Version 3.3.9[/B]
+Revert the hide bug
+
 [B]Version 3.3.8[/B]
 Fixed unhide bug2
 

@@ -122,9 +122,7 @@ def addDir(name,url,mode,iconimage	,showContext=False,isItFolder=True,pageNumber
 #		url=  url.encode("utf-8")
 #	url= url.encode('ascii','ignore')
 
-	if not hideChannel==None:
-		if not hideChannel:
-			rname+=" [Hidden]"
+	
 	#print rname
 	#print iconimage
 	u=sys.argv[0]+"?url="+urllib.quote_plus(url)+"&mode="+str(mode)+"&name="+urllib.quote_plus(rname)
@@ -1115,11 +1113,9 @@ def PlayCommunityStream(channelId, name, mode):
 
 def import_module(name, package=None):
     """Import a module.
-
     The 'package' argument is required when performing a relative import. It
     specifies the package to use as the anchor point from which to resolve the
     relative import to an absolute import.
-
     """
     if name.startswith('.'):
         if not package:
@@ -1262,6 +1258,7 @@ def getCommunityChannels(catType):
 	Channelsxml=getEtreeFromFile('Channels.xml')
 	#channels=soup('channel')
 	retVal=[]
+		
 	#for channel in channels:
 	searchCall='channel'
 	#if not catType=="all":
@@ -1283,34 +1280,38 @@ def getCommunityChannels(catType):
 			MyChannelList=getSoup(fileName,True)
 			#print MyChannelList
 		except: MyChannelList=None
-	print catType
+		
 	for channel in Channelsxml.findall('channel'):
 		#print channel
-		hidechanneloption=True
 		chName=channel.findtext('cname')
-		config=getChannelSettings( chName)
-		#print 'config is ',config
-		exists=True
-		if not catType=="all":
-			exists=False
-			if not catType=="My Channels":
-				supportCats= channel.findall(searchCall)
-				if len(supportCats)==0:
+		if 1==1:
+			config=getChannelSettings( chName)
+			#print 'config is ',config
+			if not catType=="all":
+				exists=False
+				if not catType=="My Channels":
+					supportCats= channel.findall(searchCall)
+					if len(supportCats)==0:
+						continue
+					
+					for c in supportCats:
+						if c.text.lower()==catType.lower():
+							exists=True
+							break
+				else:
+					#check if channel exists in file
+					if MyChannelList:
+						val=MyChannelList.find("channel",{"cname":chName})
+						if val:
+							exists=True
+				if config and 'hidden' in config:
+					exists=not config['hidden']=="yes"
+				if not exists:
 					continue
-				for c in supportCats:
-					if c.text.lower()==catType.lower():
-						exists=True
-						break
-			else:
-				#check if channel exists in file
-				if MyChannelList:
-					val=MyChannelList.find("channel",{"cname":chName})
-					if val:
-						exists=True
-			if exists and config and 'hidden' in config:
-				exists=not config['hidden']=="yes"
-		if not exists:
-			continue
+
+			
+
+		
 		if config and 'hidden' in config:
 			hidechanneloption=not config['hidden']=="yes"
 		#chUrl = channel.id.text
@@ -1811,4 +1812,3 @@ try:
 except: pass
 if not ( mode==5 or mode==10 or mode==8 or mode==11 or mode==16 or mode==17):
 	xbmcplugin.endOfDirectory(int(sys.argv[1]))
-
