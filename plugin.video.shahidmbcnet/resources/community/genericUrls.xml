@@ -1,7 +1,20 @@
 <streamingInfos>
 
 
-
+<streaminginfo>
+     <cname>Tunisia</cname>
+	<item>
+	<title>Jawhara FM</title>
+	<link>http://streaming2.toutech.net:8000/jawharafm</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+     <cname>Tunisia</cname>
+	<item>
+	<title>Mosaique FM</title>
+	<link>http://radio.mosaiquefm.net:8000/mosalive</link>
+	</item>
+</streaminginfo>
 <streaminginfo>
 	<cname>AL sahat</cname>
 	<item>
