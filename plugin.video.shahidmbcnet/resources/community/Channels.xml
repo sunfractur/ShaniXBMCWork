@@ -6046,41 +6046,15 @@
 	</assignedcategory>
 </channel>
 
-
-
-
-<channel>
-	<cname>AlBaghdadia2</cname>
-	<enabled>True</enabled>
-</channel>
-<channel>
-	<cname>AlDafra</cname>
-	<enabled>True</enabled>
-</channel>
-<channel>
-	<cname>ALhayat</cname>
-	<enabled>True</enabled>
-</channel>
-<channel>
-	<cname>AlSunnah</cname>
-	<enabled>True</enabled>
-</channel>
-<channel>
-	<cname>FutureUSA</cname>
-	<enabled>True</enabled>
-</channel>
-<channel>
-	<cname>MBCBollywood</cname>
-	<enabled>True</enabled>
-</channel>
 <channel>
 	<cname>MBCMasrPlus2</cname>
-	<enabled>True</enabled>
+	<imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xap1/v/t1.0-1/p200x200/10675648_861154200561369_8070301081898188623_n.jpg?oh=620966a7389a2b03907aa695b5a248c2&amp;oe=54D9561B&amp;__gda__=1427343134_94907c5a53a7f1ebbf192f51351b8e37</imageurl>
+<enabled>True</enabled>
+<assignedcategory>
+	<category>egypt</category>
+	</assignedcategory>
 </channel>
-<channel>
-	<cname>Noon</cname>
-	<enabled>True</enabled>
-</channel>
+
 
 <channel>
         <cname>Al oula Maroc</cname>

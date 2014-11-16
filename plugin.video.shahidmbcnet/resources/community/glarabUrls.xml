@@ -388,7 +388,7 @@
 	</item>
 </streaminginfo>
 <streaminginfo>
-	<cname>AlSunnah</cname>
+	<cname>Asunnah TV</cname>
 	<item>
 		<title>Low</title>
 		<link>http://8.21.48.26:7777/AlSunnah.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
@@ -1497,7 +1497,7 @@
 	</item>
 </streaminginfo>
 <streaminginfo>
-	<cname>AlSunnah</cname>
+	<cname>sunnah TV</cname>
 	<item>
 		<title>Med</title>
 		<link>http://8.21.48.19:7777/AlSunnah_Med.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
@@ -2466,7 +2466,7 @@
 	</item>
 </streaminginfo>
 <streaminginfo>
-	<cname>AlBaghdadia2</cname>
+	<cname>Al Baghdadia 2</cname>
 	<item>
 		<title>HD</title>
 		<link>http://8.21.48.20:7777/AlBaghdadia2_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
@@ -2480,7 +2480,7 @@
 	</item>
 </streaminginfo>
 <streaminginfo>
-	<cname>AlDafra</cname>
+	<cname>Al Dafra</cname>
 	<item>
 		<title>HD</title>
 		<link>http://8.21.48.20:7777/AlDafra_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
@@ -2543,7 +2543,7 @@
 	</item>
 </streaminginfo>
 <streaminginfo>
-	<cname>ALhayat</cname>
+	<cname>AlHayat_Christian</cname>
 	<item>
 		<title>HD</title>
 		<link>http://8.21.48.20:7777/ALhayat_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
@@ -2942,7 +2942,7 @@
 	</item>
 </streaminginfo>
 <streaminginfo>
-	<cname>AlSunnah</cname>
+	<cname>sunnah TV</cname>
 	<item>
 		<title>HD</title>
 		<link>http://8.21.48.20:7777/AlSunnah_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
@@ -3348,9 +3348,9 @@
 	</item>
 </streaminginfo>
 <streaminginfo>
-	<cname>FutureUSA</cname>
+	<cname>Future TV</cname>
 	<item>
-		<title>HD</title>
+		<title>HD-usa</title>
 		<link>http://8.21.48.20:7777/FutureUSA_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
 	</item>
 </streaminginfo>
@@ -3656,7 +3656,7 @@
 	</item>
 </streaminginfo>
 <streaminginfo>
-	<cname>MBCBollywood</cname>
+	<cname>MBC Bollywood</cname>
 	<item>
 		<title>HD</title>
 		<link>http://8.21.48.20:7777/MBCBollywood_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
@@ -3880,7 +3880,7 @@
 	</item>
 </streaminginfo>
 <streaminginfo>
-	<cname>Noon</cname>
+	<cname>Noon Kids</cname>
 	<item>
 		<title>HD</title>
 		<link>http://8.21.48.20:7777/Noon_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
