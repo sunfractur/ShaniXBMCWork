@@ -1,5 +1,18 @@
 <streamingInfos>
-
+<streaminginfo>
+     <cname>Tunisia</cname>
+	<item>
+	<title>Radio Kef</title>
+	<link>http://stream8.tanitweb.com/kef</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+     <cname>Tunisia</cname>
+	<item>
+	<title>RTCI</title>
+	<link>http://stream8.tanitweb.com/rtci</link>
+	</item>
+</streaminginfo>
 <streaminginfo>
      <cname>Tunisia</cname>
 	<item>
