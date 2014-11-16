@@ -1,5 +1,32 @@
 <streamingInfos>
-
+<streaminginfo>
+     <cname>Tunisia</cname>
+	<item>
+	<title>Radio Sfax</title>
+	<link>http://stream8.tanitweb.com/sfax</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+     <cname>Tunisia</cname>
+	<item>
+	<title>Cap FM</title>
+	<link>http://stream6.tanitweb.com/capfm</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+     <cname>Tunisia</cname>
+	<item>
+	<title>Zitouna FM</title>
+	<link> http://87.98.172.205:8000/;stream.mp3</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+     <cname>Tunisia</cname>
+	<item>
+	<title>Radio Jeunes Tunisie</title>
+	<link>http://stream8.tanitweb.com/jeunes</link>
+	</item>
+</streaminginfo>
 <streaminginfo>
      <cname>Tunisia</cname>
 	<item>
