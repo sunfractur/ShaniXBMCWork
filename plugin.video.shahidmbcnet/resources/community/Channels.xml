@@ -1,5 +1,14 @@
 <channels>
 <channel>
+        <cname>Tunisia</cname>
+        <imageurl>http://img.freeflagicons.com/thumb/glossy_square_icon_3d/tunisia/tunisia_640.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>rdio</category>
+		<category>tunis</category>
+        </assignedcategory>
+</channel>
+<channel>
 	<cname>AL sahat</cname>
 	<imageurl>http://www.lyngsat-logo.com/logo/tv/aa/al_sahat_tv_ye.png</imageurl>
 	<enabled>True</enabled>
