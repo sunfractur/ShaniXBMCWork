@@ -53,7 +53,7 @@
       <imageurl>http://2.bp.blogspot.com/-IkBy19PY8Fo/U0mSAu5nLiI/AAAAAAAAAyw/B9cBSNkC4II/s1600/%D9%82%D9%86%D8%A7%D8%A9+%D8%A7%D9%84%D8%AE%D8%A8%D8%B1+KBC+TV.png</imageurl>
       <enabled>True</enabled>
       <assignedcategory>
-      <category>magreb</category>
+      <category>dzair</category>
       <category>news</category>
       </assignedcategory>
 </channel>
@@ -62,7 +62,7 @@
      <imageurl>http://s14.postimg.org/ag24bn1e9/10632174_707529022661111_1332298201_a.jpg</imageurl>
      <enabled>True</enabled>
      <assignedcategory>
-     <category>magreb</category>
+     <category>dzair</category>
 	 <category>music</category>
      </assignedcategory>
 </channel>
@@ -570,7 +570,7 @@
 	<imageurl>http://www.lyngsat-logo.com/hires/dd/dzair_news_dz.png</imageurl>
 	<enabled>True</enabled>
 	<assignedcategory>
-	<category>magreb</category>
+	<category>dzair</category>
 	<category>news</category>
 	</assignedcategory>
 </channel>
@@ -759,7 +759,7 @@
         <imageurl>https://pbs.twimg.com/profile_images/481827316822056960/QBvIUeHl_400x400.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-        <category>magreb</category>
+        <category>tunis</category>
         </assignedcategory>
 </channel>
 <channel>
@@ -767,7 +767,7 @@
         <imageurl>http://www.lyngsat-logo.com/hires/cc/canal_atlas_dz.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-        <category>magreb</category>
+        <category>dzair</category>
         </assignedcategory>
 </channel> 
 <channel>
@@ -778,14 +778,7 @@
         <category>rdio</category>
         </assignedcategory>
 </channel>
-<channel>
-        <cname>Maroc</cname>
-        <imageurl>http://icons.iconarchive.com/icons/hopstarter/flag-borderless/256/Morocco-icon.png</imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-        <category>rdio</category>
-        </assignedcategory>
-</channel>
+
 
 
 
@@ -830,7 +823,7 @@
         <imageurl>http://panorama-pvs.com/files/image/Clients/Libya%20Al-Hurrah.jpg</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-        <category>magreb</category>
+        <category>lyb</category>
         </assignedcategory>
 </channel>
 
@@ -839,7 +832,7 @@
         <imageurl>http://www.lyngsat-logo.com/hires/ff/fezzan_tv_ly.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-        <category>magreb</category>
+        <category>lyb</category>
         </assignedcategory>
 </channel>
 <channel>
@@ -847,7 +840,7 @@
         <imageurl>http://www.lyngsat-logo.com/hires/mm/misrata_tv.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-        <category>magreb</category>
+        <category>lyb</category>
         </assignedcategory>
 </channel>
 <channel>
@@ -855,7 +848,7 @@
         <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xaf1/t1.0-1/c25.25.315.315/s160x160/205367_403626716340925_5096025_n.jpg</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-        <category>magreb</category>
+        <category>lyb</category>
         </assignedcategory>
 </channel>
 
@@ -893,15 +886,7 @@
 		<category>sports</category>
         </assignedcategory>
 </channel>
-<channel>
-        <cname>Radio Mars</cname>
-        <imageurl>http://1.bp.blogspot.com/_Kk1oZ2L1DQI/S8myt5k2q9I/AAAAAAAAALM/71rXujlmTuA/s1600/logo+radio+mars.jpg</imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-        <category>magreb</category>
-		<category>rdio</category>
-        </assignedcategory>
-</channel>
+
 <channel>
 	<cname>Oman Sport</cname>
 	<imageurl>http://www.lyngsat-logo.com/logo/tv/oo/oman_tv_sport.png</imageurl>
@@ -1046,7 +1031,7 @@
 	<imageurl>http://www.lyngsat-logo.com/hires/ll/libya_awalan.png</imageurl>
 	<enabled>True</enabled>
 	<assignedcategory>
-	<category>magreb</category>
+	<category>lyb</category>
 	</assignedcategory>
 </channel>
 <channel>
@@ -1514,14 +1499,7 @@
 			<category>french</category>
 			</assignedcategory>
 	</channel>
-	<channel>
-			<cname>Elmaghreb tv</cname>
-			<imageurl>http://www.lyngsat-logo.com/hires/mm/maghreb_tv_be.png</imageurl>
-			<enabled>True</enabled>
-			<assignedcategory>
-			<category>magreb</category>
-			</assignedcategory>
-	</channel>
+	
 
 	<channel>
 			<cname>ERI.TV</cname>
@@ -1920,7 +1898,7 @@
 			<enabled>True</enabled>
 			<assignedcategory>
 			<category>sports</category>
-			<category>magreb</category>
+			<category>lyb</category>
 			</assignedcategory>
 	</channel>
 	<channel>
@@ -2020,7 +1998,7 @@
 			<imageurl>http://www.lyngsat-logo.com/logo/tv/ss/sheba_tv.png</imageurl>
 			<enabled>True</enabled>
 			<assignedcategory>
-			<category>magreb</category>
+			<category>lyb</category>
 			</assignedcategory>
 	</channel>
 	<channel>
@@ -2094,7 +2072,7 @@
 			<imageurl>http://www.lyngsat-logo.com/logo/tv/ll/libya_al_watanya.png</imageurl>
 			<enabled>True</enabled>
 			<assignedcategory>
-			<category>magreb</category>
+			<category>lyb</category>
 			</assignedcategory>
 	</channel>
 	<channel>
@@ -2210,7 +2188,7 @@
 			<imageurl>http://www.lyngsat-logo.com/hires/mm/maghreb_tv_be.png</imageurl>
 			<enabled>True</enabled>
 			<assignedcategory>
-			 <category>magreb</category>
+			 <category>maroc</category>
 			</assignedcategory>
 	</channel>
 	<channel>
@@ -2237,7 +2215,7 @@
 			<enabled>True</enabled>
 			<assignedcategory>
 			 <category>kids</category>
-			 <category>magreb</category>
+			 <category>lyb</category>
 			</assignedcategory>
 	</channel>
 	<channel>
@@ -2245,7 +2223,7 @@
 			<imageurl>http://www.lyngsat-logo.com/logo/tv/tt/tunisia_tv_shop_tn.png</imageurl>
 			<enabled>True</enabled>
 			<assignedcategory>
-			 <category>magreb</category>
+			 <category>tunis</category>
 			</assignedcategory>
 	</channel>
 	<channel>
@@ -2302,7 +2280,7 @@
 			<imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/t1.0-1/c13.0.320.320/p320x320/10313534_611057852334417_8197505129995555985_n.png</imageurl>
 			<enabled>True</enabled>
 			<assignedcategory>
-			 <category>magreb</category>
+			 <category>dzair</category>
 			</assignedcategory>
 	</channel>
 	<channel>
@@ -2352,7 +2330,7 @@
 			<imageurl>http://www.lyngsat-logo.com/hires/aa/al_insan_tv_tn.png</imageurl>
 			<enabled>True</enabled>
 			<assignedcategory>
-			<category>magreb</category>
+			<category>tunis</category>
 		<category>islam</category>
 			</assignedcategory>
 	</channel>
@@ -2420,7 +2398,7 @@
 			<imageurl>http://www.lyngsat-logo.com/logo/tv/ee/entv_4_tv_tamazight.png</imageurl>
 			<enabled>True</enabled>
 			<assignedcategory>
-				<category>magreb</category>
+				<category>dzair</category>
 			</assignedcategory>
 	</channel>
 	<channel>
@@ -2490,7 +2468,7 @@
 			<imageurl>http://www.lyngsat-logo.com/hires/nn/numidia_news_tv_dz.png</imageurl>
 			<enabled>True</enabled>
 			<assignedcategory>
-				<category>magreb</category>
+				<category>maroc</category>
 				<category>news</category>
 			</assignedcategory>
 		</channel>
@@ -2612,7 +2590,7 @@
         <imageurl>http://4.bp.blogspot.com/-o9kBpBMJ4eM/UuBd3NHJOOI/AAAAAAAAE1U/Et7FhFfYpkI/s1600/alasr_tv.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-            <category>magreb</category>
+            <category>dzair</category>
         </assignedcategory>
     </channel>
     
@@ -4901,7 +4879,7 @@
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/mgrbi_zps1eec1e35.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-            <category>magreb</category>
+            <category>maroc</category>
             <category>news</category>
         </assignedcategory>
     </channel>
@@ -4910,7 +4888,7 @@
         <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfp1/v/t1.0-1/1972516_425052304297001_1971848391_n.jpg?oh=6b368ab98dcec4ab0b21d1dbb31967eb&amp;oe=5440EB2E&amp;__gda__=1414602934_b23db6fd485e0d0771ce3edbdd01876f</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-            <category>magreb</category>
+            <category>dzair</category>
             <category>news</category>
         </assignedcategory>
     </channel>
@@ -4920,7 +4898,7 @@
         <imageurl>http://www.maghreb24tv.com/commons/images/m24Entertainment.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-            <category>magreb</category>
+            <category>maroc</category>
         </assignedcategory>
     </channel>
 	
@@ -4929,7 +4907,7 @@
         <imageurl>http://www.maghreb24tv.com/commons/images/m24Entertainment.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-            <category>magreb</category>
+            <category>maroc</category>
         </assignedcategory>
     </channel>
 
@@ -4938,7 +4916,7 @@
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/ttn1_zps7e34acdf.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-            <category>magreb</category>
+            <category>tunis</category>
         </assignedcategory>
     </channel>
 
@@ -4947,7 +4925,7 @@
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/ttn2_zps9da27537.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-            <category>magreb</category>
+            <category>tunis</category>
         </assignedcategory>
     </channel>
 
@@ -4956,7 +4934,7 @@
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/nessma_zpsc12bef51.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-            <category>magreb</category>
+            <category>tunis</category>
         </assignedcategory>
     </channel>
 	
@@ -4965,7 +4943,7 @@
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/mtwst_zps980a7b4a.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-            <category>magreb</category>
+            <category>tunis</category>
         </assignedcategory>
     </channel>
 	
@@ -4974,7 +4952,7 @@
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/tounsya_zpsbaca8af3.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-            <category>magreb</category>
+            <category>tunis</category>
         </assignedcategory>
     </channel>
 
@@ -4984,7 +4962,7 @@
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/htv_zpsb411e35d.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-            <category>magreb</category>
+            <category>tunis</category>
         </assignedcategory>
     </channel>
 
@@ -4994,7 +4972,7 @@
         <imageurl>http://www.aljanoubiyatv.com/-/wp-content/uploads/2014/04/1-300x217.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-            <category>magreb</category>
+            <category>tunis</category>
         </assignedcategory>
     </channel>
 	
@@ -5003,7 +4981,7 @@
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/telvza-tv_zpsdcbaec58.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-            <category>magreb</category>
+            <category>tunis</category>
         </assignedcategory>
     </channel>
 
@@ -5015,7 +4993,7 @@
         <enabled>True</enabled>
         <assignedcategory>
             <category>news</category>
-            <category>magreb</category>
+            <category>tunis</category>
         </assignedcategory>
     </channel>
 
@@ -5025,7 +5003,7 @@
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/tunisna_zps3cd36551.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-            <category>magreb</category>
+            <category>tunis</category>
         </assignedcategory>
     </channel>
 
@@ -5034,7 +5012,7 @@
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/zitoun_zps47a41297.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-            <category>magreb</category>
+            <category>tunis</category>
         </assignedcategory>
     </channel>
 
@@ -5043,7 +5021,7 @@
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/hiwar_zps48f74f57.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-            <category>magreb</category>
+            <category>tunis</category>
         </assignedcategory>
     </channel>
 	
@@ -5052,7 +5030,7 @@
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/mstkl_zps28de00ad.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-            <category>magreb</category>
+            <category>tunis</category>
         </assignedcategory>
     </channel>
 
@@ -5062,7 +5040,7 @@
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/alg_zps9afbe8a8.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-            <category>magreb</category>
+            <category>dzair</category>
         </assignedcategory>
     </channel>
 
@@ -5071,7 +5049,7 @@
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/3g_zps0a074509.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-            <category>magreb</category>
+            <category>dzair</category>
         </assignedcategory>
     </channel>
 
@@ -5080,7 +5058,7 @@
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/nhr_zps0a69a25a.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-            <category>magreb</category>
+            <category>dzair</category>
         </assignedcategory>
     </channel>
 
@@ -5089,7 +5067,7 @@
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/chrouknws_zpsd0413ad3.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-            <category>magreb</category>
+            <category>dzair</category>
         </assignedcategory>
     </channel>
 
@@ -5098,7 +5076,7 @@
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/djez_zpsddb209c6.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-            <category>magreb</category>
+            <category>dzair</category>
         </assignedcategory>
     </channel>
 
@@ -5108,7 +5086,7 @@
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/dzer_zpseefbfe79.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-            <category>magreb</category>
+            <category>dzair</category>
         </assignedcategory>
 </channel>
  <channel>
@@ -5116,7 +5094,7 @@
         <imageurl>http://www.teledunet.com/player/icones/dzair_24.jpg</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-            <category>magreb</category>
+            <category>dzair</category>
         </assignedcategory>
     </channel> 
 <channel>
@@ -5124,7 +5102,7 @@
         <imageurl>http://www.lyngsat-logo.com/logo/tv/dd/dzair_24_dz.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-            <category>magreb</category>
+            <category>dzair</category>
         </assignedcategory>
    </channel>
 
@@ -5145,7 +5123,7 @@
         <enabled>True</enabled>
         <assignedcategory>
             <category>news</category>
-            <category>magreb</category>
+            <category>lyb</category>
         </assignedcategory>
     </channel>
 	
@@ -5154,7 +5132,7 @@
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/LIBYE_zpsdc438529.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-            <category>magreb</category>
+            <category>lyb</category>
         </assignedcategory>
     </channel>
 
@@ -5163,76 +5141,12 @@
         <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash2/t1.0-1/c48.22.276.276/p320x320/302788_190009627738036_1004835846_n.jpg</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-        <category>magreb</category>
+        <category>lyb</category>
         </assignedcategory>
     </channel>
 
 	
-	<channel>
-        <cname>Al oula Maroc</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/oula_zpsd979b818.png</imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-            <category>magreb</category>
-        </assignedcategory>
-    </channel>
-
-    <channel>
-        <cname>2M</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/2m_zps92ea421b.png</imageurl>
-        <assignedcategory>
-            <category>ent</category>
-            <category>magreb</category>
-        </assignedcategory>
-    </channel>
-
 	
-	<channel>
-        <cname>Medi 1 Sat</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/med1_zps6d90fb9f.png</imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-            <category>magreb</category>
-        </assignedcategory>
-    </channel>
-    <channel>
-        <cname>Al Maghribia</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/m5_zps9ab04d28.png</imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-            <category>magreb</category>
-        </assignedcategory>
-    </channel>
-
-    
-    <channel>
-        <cname>Arrabia</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/m4_zpse201689a.png</imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-            <category>sport</category>
-            <category>magreb</category>
-        </assignedcategory>
-    </channel>
-
-    <channel>
-        <cname>Assadissa</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/6d_zpsc4b4aa57.png</imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-            <category>islam</category>
-            <category>magreb</category>
-        </assignedcategory>
-    </channel>
-
-    <channel>
-        <cname>Tamazigh Maroc</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/tmzg_zps302fc6f4.png</imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-            <category>magreb</category>
-        </assignedcategory>
-    </channel>
 
     
     <channel>
@@ -6167,6 +6081,98 @@
 	<cname>Noon</cname>
 	<enabled>True</enabled>
 </channel>
+
+<channel>
+        <cname>Al oula Maroc</cname>
+        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/oula_zpsd979b818.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>maroc</category>
+        </assignedcategory>
+    </channel>
+
+    <channel>
+        <cname>2M</cname>
+        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/2m_zps92ea421b.png</imageurl>
+        <assignedcategory>
+            <category>ent</category>
+            <category>maroc</category>
+        </assignedcategory>
+    </channel>
+
+	
+	<channel>
+        <cname>Medi 1 Sat</cname>
+        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/med1_zps6d90fb9f.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>maroc</category>
+        </assignedcategory>
+    </channel>
+    <channel>
+        <cname>Al Maghribia</cname>
+        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/m5_zps9ab04d28.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>maroc</category>
+        </assignedcategory>
+    </channel>
+
+    
+    <channel>
+        <cname>Arrabia</cname>
+        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/m4_zpse201689a.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>sport</category>
+            <category>maroc</category>
+        </assignedcategory>
+    </channel>
+
+    <channel>
+        <cname>Assadissa</cname>
+        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/6d_zpsc4b4aa57.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>islam</category>
+            <category>maroc</category>
+        </assignedcategory>
+    </channel>
+
+    <channel>
+        <cname>Tamazigh Maroc</cname>
+        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/tmzg_zps302fc6f4.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>maroc</category>
+        </assignedcategory>
+    </channel>
+	<channel>
+        <cname>Maroc</cname>
+        <imageurl>http://icons.iconarchive.com/icons/hopstarter/flag-borderless/256/Morocco-icon.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>rdio</category>
+		<category>maroc</category>
+        </assignedcategory>
+</channel>
+<channel>
+        <cname>Radio Mars</cname>
+        <imageurl>http://1.bp.blogspot.com/_Kk1oZ2L1DQI/S8myt5k2q9I/AAAAAAAAALM/71rXujlmTuA/s1600/logo+radio+mars.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+        <category>maroc</category>
+		<category>rdio</category>
+        </assignedcategory>
+</channel>
+<channel>
+			<cname>Elmaghreb tv</cname>
+			<imageurl>http://www.lyngsat-logo.com/hires/mm/maghreb_tv_be.png</imageurl>
+			<enabled>True</enabled>
+			<assignedcategory>
+			<category>maroc</category>
+			</assignedcategory>
+	</channel>
 
 
 
