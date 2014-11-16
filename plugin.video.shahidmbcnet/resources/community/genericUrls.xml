@@ -1,4 +1,41 @@
 <streamingInfos>
+
+<streaminginfo>
+     <cname>Tunisia</cname>
+	<item>
+	<title>Oxygene FM Bizerte</title>
+	<link>http://radiooxygenefm.ice.infomaniak.ch/radiooxygenefm-64.mp3</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+     <cname>Tunisia</cname>
+	<item>
+	<title>Radio Monastir</title>
+	<link>http://stream8.tanitweb.com/monastir</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+     <cname>Tunisia</cname>
+	<item>
+	<title>Oasis FM Gabe</title>
+	<link>http://stream6.tanitweb.com/oasis</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+     <cname>Tunisia</cname>
+	<item>
+	<title>Mosaique FM Tarab</title>
+	<link>http://webradio.mosaiquefm.net:8000/mosatarab</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+     <cname>Tunisia</cname>
+	<item>
+	<title>Mosaique FM Tounsi</title>
+	<link>http://webradio.mosaiquefm.net:8000/mosatounsi</link>
+	</item>
+</streaminginfo>
 <streaminginfo>
      <cname>Tunisia</cname>
 	<item>
