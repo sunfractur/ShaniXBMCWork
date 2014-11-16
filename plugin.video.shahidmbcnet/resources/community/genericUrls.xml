@@ -1,6 +1,33 @@
 <streamingInfos>
 
-
+<streaminginfo>
+     <cname>Tunisia</cname>
+	<item>
+	<title>Shems FM</title>
+	<link>http://stream6.tanitweb.com/shems</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+     <cname>Tunisia</cname>
+	<item>
+	<title>Express FM</title>
+	<link>http://stream6.tanitweb.com/expressfm</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+     <cname>Tunisia</cname>
+	<item>
+	<title>Tunis Nationale</title>
+	<link>http://stream8.tanitweb.com/nationale</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+     <cname>Tunisia</cname>
+	<item>
+	<title>IFM</title>
+	<link>http://stream6.tanitweb.com/expressfm</link>
+	</item>
+</streaminginfo>
 <streaminginfo>
      <cname>Tunisia</cname>
 	<item>
