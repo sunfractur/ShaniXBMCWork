@@ -122,7 +122,9 @@ def addDir(name,url,mode,iconimage	,showContext=False,isItFolder=True,pageNumber
 #		url=  url.encode("utf-8")
 #	url= url.encode('ascii','ignore')
 
-	
+	if not hideChannel==None:
+		if not hideChannel:
+			rname+=" [Hidden]"
 	#print rname
 	#print iconimage
 	u=sys.argv[0]+"?url="+urllib.quote_plus(url)+"&mode="+str(mode)+"&name="+urllib.quote_plus(rname)
@@ -1260,7 +1262,6 @@ def getCommunityChannels(catType):
 	Channelsxml=getEtreeFromFile('Channels.xml')
 	#channels=soup('channel')
 	retVal=[]
-		
 	#for channel in channels:
 	searchCall='channel'
 	#if not catType=="all":
@@ -1282,38 +1283,34 @@ def getCommunityChannels(catType):
 			MyChannelList=getSoup(fileName,True)
 			#print MyChannelList
 		except: MyChannelList=None
-		
+	print catType
 	for channel in Channelsxml.findall('channel'):
 		#print channel
+		hidechanneloption=True
 		chName=channel.findtext('cname')
-		if 1==1:
-			config=getChannelSettings( chName)
-			#print 'config is ',config
-			if not catType=="all":
-				exists=False
-				if not catType=="My Channels":
-					supportCats= channel.findall(searchCall)
-					if len(supportCats)==0:
-						continue
-					
-					for c in supportCats:
-						if c.text.lower()==catType.lower():
-							exists=True
-							break
-				else:
-					#check if channel exists in file
-					if MyChannelList:
-						val=MyChannelList.find("channel",{"cname":chName})
-						if val:
-							exists=True
-				if exists and config and 'hidden' in config:
-					exists=not config['hidden']=="yes"
-				if not exists:
+		config=getChannelSettings( chName)
+		#print 'config is ',config
+		exists=True
+		if not catType=="all":
+			exists=False
+			if not catType=="My Channels":
+				supportCats= channel.findall(searchCall)
+				if len(supportCats)==0:
 					continue
-
-			
-
-		
+				for c in supportCats:
+					if c.text.lower()==catType.lower():
+						exists=True
+						break
+			else:
+				#check if channel exists in file
+				if MyChannelList:
+					val=MyChannelList.find("channel",{"cname":chName})
+					if val:
+						exists=True
+			if exists and config and 'hidden' in config:
+				exists=not config['hidden']=="yes"
+		if not exists:
+			continue
 		if config and 'hidden' in config:
 			hidechanneloption=not config['hidden']=="yes"
 		#chUrl = channel.id.text

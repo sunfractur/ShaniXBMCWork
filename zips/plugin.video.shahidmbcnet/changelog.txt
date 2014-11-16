@@ -1,3 +1,6 @@
+[B]Version 3.3.7[/B]
+Fixed unhide bug
+
 [B]Version 3.3.6[/B]
 Fixed unhide bug
 
