@@ -2721,9 +2721,9 @@
 	</item>
 </streaminginfo>	             	
 <streaminginfo>
-	<cname>Al Tunisia</cname>
+	<cname>Al Hiwar Ettounsi</cname>
 	<item>
-	<title>Al Tunisia</title>
+	<title>Al Hiwar Ettounsi</title>
 	<link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/ettounsia timeout=20</link>
 	<regex>
 	<name>get-rtmp</name>

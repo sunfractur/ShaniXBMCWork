@@ -4947,14 +4947,6 @@
         </assignedcategory>
     </channel>
 	
-	<channel>
-        <cname>Al Tunisia</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/tounsya_zpsbaca8af3.png</imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-            <category>tunis</category>
-        </assignedcategory>
-    </channel>
 
 	
     <channel>
@@ -4978,7 +4970,7 @@
 	
 	<channel>
         <cname>Telvza TV</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/telvza-tv_zpsdcbaec58.png</imageurl>
+        <imageurl>https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-9/1796520_787974247927560_6567902159216284330_n.png?oh=cc80dfd7bc3fc90cc05b9ade389f9d58&amp;oe=55192D1E&amp;__gda__=1424070240_e0e104bdf79277a2a17870a0a193c192</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>tunis</category>
