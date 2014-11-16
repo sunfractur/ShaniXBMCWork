@@ -1340,7 +1340,7 @@ def addCommunityChannels(catType):
 		imageUrl = channel[2]
 		hideChannel=channel[3]
 		addRemoveMyChannel=not catType=="My Channels"
- 		addDir(chName ,chUrl ,16,imageUrl, False,isItFolder=False,AddRemoveMyChannels=addRemoveMyChannel, SelectDefaultSource=True,hideChannel=hideChannel )		#name,url,mode,icon
+		addDir(chName ,chUrl ,16,imageUrl, False,isItFolder=False,AddRemoveMyChannels=addRemoveMyChannel, SelectDefaultSource=True,hideChannel=hideChannel )		#name,url,mode,icon
 	return
 
 def setChannelSettings(cname,settingName,SettingVal):
