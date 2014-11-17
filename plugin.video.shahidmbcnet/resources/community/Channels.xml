@@ -407,7 +407,7 @@
 </channel>
 <channel>
      <cname>AB1</cname>
-     <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/365.pngg</imageurl>
+     <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/365.png</imageurl>
      <enabled>True</enabled>
      <assignedcategory>
 	 <category>french</category>
