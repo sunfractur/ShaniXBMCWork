@@ -1901,24 +1901,18 @@
 <streaminginfo>
     <cname>Roya</cname>
 	<item>
-	<title>Low</title>
-	<link>http://stream.joinvisions.net:1935/royalive/roya_2/playlist.m3u8</link>
+	<title>300kB_Low</title>
+	<link>http://212.35.75.130/3330/playlist.m3u8?email=tac@umniah.com&amp;password=2acc51f15bbba0a9ad4bab6da0ff0c81&amp;lq=1</link>
 	</item>
 </streaminginfo>
 <streaminginfo>
     <cname>Roya</cname>
 	<item>
-	<title>Med</title>
-	<link>http://stream.joinvisions.net:1935/royalive/roya_1/playlist.m3u8</link>
+	<title>750p_High</title>
+	<link>http://212.35.75.130/3330/playlist.m3u8?email=tac@umniah.com&amp;password=2acc51f15bbba0a9ad4bab6da0ff0c81</link>
 	</item>
 </streaminginfo>
-<streaminginfo>
-    <cname>Roya</cname>
-	<item>
-	<title>High</title>
-	<link>http://212.35.75.18/roya/playlist.m3u8</link>
-	</item>
-</streaminginfo>
+
 
 <streaminginfo>
     <cname>7Stars</cname>
