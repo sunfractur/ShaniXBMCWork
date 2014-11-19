@@ -3199,15 +3199,6 @@
 	</streaminginfo>
 
 	<streaminginfo>
-		<cname>Melody Hits</cname>	
-		<item>
-			<title>Melody Hits.206</title>
-			<thumbnail>https://lh3.ggpht.com/-DE3GqoUaC4g/UuNmaROcywI/AAAAAAAABDM/trn-g__hU7M/s1600/melody_hits.png</thumbnail>
-			<link>rtmp://38.96.148.206/Melody/ playpath=MHitsWeb swfUrl=http://p.jwpcdn.com/6/7/jwplayer.flash.swf pageUrl=http://freetv247.com/content/melody-hits-channel live=1 timeout=15</link>
-		</item>
-	</streaminginfo>
-
-	<streaminginfo>
 		<cname>Melody Hits</cname>
 		<item>
 			<title>Melody Hits .24 sab9a</title>
