@@ -71,7 +71,7 @@
      <imageurl>http://s14.postimg.org/ag24bn1e9/10632174_707529022661111_1332298201_a.jpg</imageurl>
      <enabled>True</enabled>
      <assignedcategory>
-     <category>dzair</category>
+     <category>maroc</category>
 	 <category>music</category>
      </assignedcategory>
 </channel>
@@ -776,7 +776,7 @@
         <imageurl>http://www.lyngsat-logo.com/hires/cc/canal_atlas_dz.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-        <category>dzair</category>
+        <category>maroc</category>
         </assignedcategory>
 </channel> 
 <channel>
@@ -2470,7 +2470,7 @@
 			<imageurl>http://www.lyngsat-logo.com/hires/nn/numidia_news_tv_dz.png</imageurl>
 			<enabled>True</enabled>
 			<assignedcategory>
-				<category>maroc</category>
+				<category>dzair</category>
 				<category>news</category>
 			</assignedcategory>
 		</channel>
@@ -6128,15 +6128,6 @@
 		<category>rdio</category>
         </assignedcategory>
 </channel>
-<channel>
-			<cname>Elmaghreb tv</cname>
-			<imageurl>http://www.lyngsat-logo.com/hires/mm/maghreb_tv_be.png</imageurl>
-			<enabled>True</enabled>
-			<assignedcategory>
-			<category>maroc</category>
-			</assignedcategory>
-	</channel>
-
 
 
 
