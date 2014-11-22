@@ -44,8 +44,12 @@
 		<catname>AlSham</catname>
 		<imageurl>http://img.freeflagicons.com/thumb/glossy_square_icon_3d/lebanon/lebanon_640.png</imageurl>
 	</category>
-	
 		<category>
+		<id>music</id>
+		<catname>Music</catname>
+		<imageurl>http://icons.iconarchive.com/icons/graphics-vibe/retro-social/256/music-icon.png</imageurl>
+	</category>
+	<category>
 		<id>news</id>
 		<catname>News</catname>
 		<imageurl>http://icons.iconarchive.com/icons/pelfusion/folded-flat/96/News-icon.png</imageurl>
@@ -54,12 +58,6 @@
 		<id>ent</id>
 		<catname>Entertainment</catname>
 		<imageurl>http://technostacks.com/wp-content/themes/technostacks/img/entertaiment.png</imageurl>
-	</category>
-
-	<category>
-		<id>music</id>
-		<catname>Music</catname>
-		<imageurl>http://icons.iconarchive.com/icons/itzikgur/my-seven/96/Music-Piano-Chello-icon.png</imageurl>
 	</category>
 	<category>
 		<id>sports</id>
