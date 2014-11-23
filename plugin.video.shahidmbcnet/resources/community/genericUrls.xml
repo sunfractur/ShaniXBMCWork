@@ -1285,7 +1285,7 @@
     </regex>    
     <regex>
         <name>getplayerid</name>
-        <expres>data-alias="arab-woman-tv" data-playerid="(.*?)"</expres>
+        <expres>data-alias="arab-woman-tv"\s*data-playerid="(.*?)"</expres>
         <page>http://playtv.fr/television/</page>
     </regex>    
 </item>
@@ -1314,7 +1314,7 @@
     </regex>    
     <regex>
         <name>getplayerid</name>
-        <expres>data-alias="mirabelle-tv" data-playerid="(.*?)"</expres>
+        <expres>data-alias="mirabelle-tv"\s*data-playerid="(.*?)"</expres>
         <page>http://playtv.fr/television/</page>
     </regex>    
 </item>
@@ -1343,7 +1343,7 @@
     </regex>    
     <regex>
         <name>getplayerid</name>
-        <expres>data-alias="canal-atlas" data-playerid="(.*?)"</expres>
+        <expres>data-alias="canal-atlas"\s*data-playerid="(.*?)"</expres>
         <page>http://playtv.fr/television/</page>
     </regex>    
 </item>
@@ -1359,7 +1359,7 @@
     </regex>    
     <regex>
         <name>getplayerid</name>
-        <expres>data-alias="russia-al-yaum" data-playerid="(.*?)"</expres>
+        <expres>data-alias="russia-al-yaum"\s*data-playerid="(.*?)"</expres>
         <page>http://playtv.fr/television/</page>
     </regex>    
 </item>
@@ -1389,18 +1389,12 @@
     </regex>    
     <regex>
         <name>getplayerid</name>
-        <expres>data-alias="i24-news" data-playerid="(.*?)"</expres>
+        <expres>data-alias="i24-news"\s*data-playerid="(.*?)"</expres>
         <page>http://playtv.fr/television/</page>
     </regex>    
 </item>
 </streaminginfo>
-<streaminginfo>
-     <cname>2M</cname>
-	<item>
-	<title>Elahmad source</title>
-	<link>http://www.elahmad.com/tv/m3u8/fr_1.m3u8?id=maroc2</link>
-	</item>
-</streaminginfo>
+
 <streaminginfo>
 <cname>2M</cname>
 <item>
@@ -1425,7 +1419,7 @@
     </regex>    
     <regex>
         <name>getplayerid</name>
-        <expres>data-alias="2m-maroc" data-playerid="(.*?)"</expres>
+        <expres>data-alias="2m-maroc"\s*data-playerid="(.*?)"</expres>
         <page>http://playtv.fr/television/</page>
     </regex>    
 </item>
@@ -1454,7 +1448,7 @@
     </regex>    
     <regex>
         <name>getplayerid</name>
-        <expres>data-alias="canal-algerie" data-playerid="(.*?)"</expres>
+        <expres>data-alias="canal-algerie"\s*data-playerid="(.*?)"</expres>
         <page>http://playtv.fr/television/</page>
     </regex>    
 </item>
@@ -1467,7 +1461,7 @@
         <regex>
         <name>key</name>
         <expres>sessionid=([^'"]*)</expres>
-        <page>http://m.playtv.fr/api/channels/canal-algerie/?preset=with_programme%2Cwith_streams</page>
+        <page>http://m.playtv.fr/api/channels/euronews-ar/?preset=with_programme%2Cwith_streams</page>
         <referer></referer>
         </regex>
 <thumbnail>http://static.playtv.fr/img/tv_channels/520_medium.png</thumbnail>
@@ -1484,7 +1478,7 @@
     </regex>    
     <regex>
         <name>getplayerid</name>
-        <expres>data-alias="euronews-ar" data-playerid="(.*?)"</expres>
+        <expres>data-alias="euronews-ar"\s*data-playerid="(.*?)"</expres>
         <page>http://playtv.fr/television/</page>
     </regex>    
 </item>
@@ -1514,7 +1508,7 @@
     </regex>    
     <regex>
         <name>getplayerid</name>
-        <expres>data-alias="weo" data-playerid="(.*?)"</expres>
+        <expres>data-alias="weo"\s*data-playerid="(.*?)"</expres>
         <page>http://playtv.fr/television/</page>
     </regex>    
 </item>
@@ -1544,7 +1538,7 @@
     </regex>    
     <regex>
         <name>getplayerid</name>
-        <expres>data-alias="france-24-arabe" data-playerid="(.*?)"</expres>
+        <expres>data-alias="france-24-arabe"\s*data-playerid="(.*?)"</expres>
         <page>http://playtv.fr/television/</page>
     </regex>    
 </item>
@@ -1589,7 +1583,7 @@
     </regex>    
     <regex>
         <name>getplayerid</name>
-        <expres>data-alias="coran-tv-5" data-playerid="(.*?)"</expres>
+        <expres>data-alias="coran-tv-5"\s*data-playerid="(.*?)"</expres>
         <page>http://playtv.fr/television/</page>
     </regex>    
 </item>
@@ -1619,7 +1613,7 @@
     </regex>    
     <regex>
         <name>getplayerid</name>
-        <expres>data-alias="tamazight-tv-4" data-playerid="(.*?)"</expres>
+        <expres>data-alias="tamazight-tv-4"\s*data-playerid="(.*?)"</expres>
         <page>http://playtv.fr/television/</page>
     </regex>    
 </item>
@@ -2825,29 +2819,8 @@
 	</item>
 </streaminginfo>
 
-<streaminginfo>
-     <cname>AlGeria</cname>
-	<item>
-	<title>Elahmad source</title>
-	<link>http://www.elahmad.com/tv/m3u8/fr___a.m3u8?id=algerie</link>
-	</item>
-</streaminginfo>
 
-<streaminginfo>
-     <cname>Coran</cname>
-	<item>
-	<title>Elahmad source</title>
-	<link>http://www.elahmad.com/tv/m3u8/fr___a.m3u8?id=coran</link>
-	</item>
-</streaminginfo>
 
-<streaminginfo>
-     <cname>Tamazigh Algeria</cname>
-	<item>
-	<title>Algeria Elahmad source</title>
-	<link>http://www.elahmad.com/tv/m3u8/fr___a.m3u8?id=tamazight</link>
-	</item>
-</streaminginfo>
 
 
 
