@@ -3476,6 +3476,7 @@
         <enabled>True</enabled>
         <assignedcategory>
             <category>sports</category>
+            <category>maroc</category>
         </assignedcategory>
     </channel>
 
@@ -4881,7 +4882,7 @@
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/mgrbi_zps1eec1e35.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
-            <category>maroc</category>
+            <category>dzair</category>
             <category>news</category>
         </assignedcategory>
     </channel>
@@ -4905,7 +4906,7 @@
     </channel>
 	
 	<channel>
-        <cname>Maghreb tv</cname>
+        <cname>Maghreb24</cname>
         <imageurl>http://www.maghreb24tv.com/commons/images/m24Entertainment.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
