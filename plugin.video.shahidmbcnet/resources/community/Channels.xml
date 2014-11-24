@@ -4896,14 +4896,7 @@
         </assignedcategory>
     </channel>
 
-	<channel>
-        <cname>Maghreb24 Entertainment</cname>
-        <imageurl>http://www.maghreb24tv.com/commons/images/m24Entertainment.png</imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-            <category>maroc</category>
-        </assignedcategory>
-    </channel>
+
 	
 	<channel>
         <cname>Maghreb24</cname>
