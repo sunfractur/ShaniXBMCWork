@@ -60,3 +60,6 @@
 
 [B]Version 3.0.0[/B]
 - Support for "All sources" in the settings and context menu. if default source is not available then it will show all available. Also added Playwire video playing support too.
+
+B]Version 3.0.1[/B]
+- Added ETV Urdu and Ary zindagi

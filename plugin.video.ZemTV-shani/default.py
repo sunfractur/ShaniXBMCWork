@@ -174,6 +174,10 @@ def AddChannelsFromOthers():
     match.append(('Ary news (manual)','manual','http://dag.total-stream.net/dag1.asx?id=ad1!arynews'))
     match.append(('Express news (manual)','manual','http://dag.total-stream.net/dag1.asx?id=ad1!expressnews'))
     match.append(('Geo news (manual)','manual','http://dag.total-stream.net/dag1.asx?id=jdp!geonewsap'))
+    match.append(('Ary Zindagi','manual','http://live.aryzindagi.tv/'))
+    match.append(('ETV Urdu','manual','etv'))
+
+
 
 #    match=sorted(match,key=itemgetter(0)   )
     match=sorted(match,key=lambda s: s[0].lower()   )
@@ -229,7 +233,27 @@ def PlayOtherUrl ( url ):
     progress = xbmcgui.DialogProgress()
     progress.create('Progress', 'Fetching Streaming Info')
     progress.update( 10, "", "Finding links..", "" )
-    if 'dag1.asx' not in url:
+    if url=='http://live.aryzindagi.tv/':
+        req = urllib2.Request(url)
+        #req.add_header('User-Agent', 'Verismo-BlackUI_(2.4.7.5.8.0.34)')   
+        #req.add_header('User-Agent', 'Mozilla/5.0(iPad; U; CPU iPhone OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B314 Safari/531.21.10')
+        req.add_header('User-Agent', 'Verismo-BlackUI_(2.4.7.5.8.0.34)') 
+        response = urllib2.urlopen(req)
+        link=response.read()
+        curlpatth='file: "(htt.*?)"'
+        progress.update( 50, "", "Preparing url..", "" )
+        dag_url =re.findall(curlpatth,link)[0]
+    elif url=='etv':
+        req = urllib2.Request('http://m.news18.com/live-tv/etv-urdu')
+        #req.add_header('User-Agent', 'Verismo-BlackUI_(2.4.7.5.8.0.34)')   
+        req.add_header('User-Agent', 'Mozilla/5.0(iPad; U; CPU iPhone OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B314 Safari/531.21.10')
+        #req.add_header('User-Agent', 'Verismo-BlackUI_(2.4.7.5.8.0.34)') 
+        response = urllib2.urlopen(req)
+        link=response.read()
+        curlpatth='<source src="(.*?)"'
+        progress.update( 50, "", "Preparing url..", "" )
+        dag_url =re.findall(curlpatth,link)[0]
+    elif 'dag1.asx' not in url:
         req = urllib2.Request(url)
         #req.add_header('User-Agent', 'Verismo-BlackUI_(2.4.7.5.8.0.34)')   
         #req.add_header('User-Agent', 'Mozilla/5.0(iPad; U; CPU iPhone OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B314 Safari/531.21.10')
@@ -301,6 +325,7 @@ def AddChannelsFromEbound():
 	match.append(('madina','madina','manual'))
 	match.append(('Qtv','qtv','manual'))
 	match.append(('Peace Tv','peacetv','manual'))
+
 	match=sorted(match,key=lambda s: s[0].lower()   )
 
 	#h = HTMLParser.HTMLParser()
