@@ -108,7 +108,7 @@ def Colored(text = '', colorid = '', isBold = False):
 		text = '[B]' + text + '[/B]'
 	return '[COLOR ' + color + ']' + text + '[/COLOR]'	
 	
-def addDir(name,url,mode,iconimage	,showContext=False,isItFolder=True,pageNumber="", isHTML=True,addIconForPlaylist=False, AddRemoveMyChannels=None, SelectDefaultSource=None, hideChannel=None):
+def addDir(name,url,mode,iconimage	,showContext=False,isItFolder=True,pageNumber="", isHTML=True,addIconForPlaylist=False, AddRemoveMyChannels=None, SelectDefaultSource=None, hideChannel=None, BySource=None):
 #	print name
 #	name=name.decode('utf-8','replace')
 	if isHTML:
@@ -126,6 +126,9 @@ def addDir(name,url,mode,iconimage	,showContext=False,isItFolder=True,pageNumber
 	#print rname
 	#print iconimage
 	u=sys.argv[0]+"?url="+urllib.quote_plus(url)+"&mode="+str(mode)+"&name="+urllib.quote_plus(rname)
+
+	if BySource:
+		u+="&sourceFilter="+urllib.quote_plus(BySource)
 	if len(pageNumber):
 		u+="&pagenum="+pageNumber
 	if addIconForPlaylist:
@@ -818,7 +821,7 @@ def PlayStream(url, name, mode):
 	xbmc.Player().play( liveLink,listitem)
 
 
-def getSourceAndStreamInfo(channelId, returnOnFirst,pDialog):
+def getSourceAndStreamInfo(channelId, returnOnFirst,pDialog, filterBySource=""):
 	try:
 		ret=[]
 		#Ssoup=getSoup('Sources.xml');
@@ -843,9 +846,6 @@ def getSourceAndStreamInfo(channelId, returnOnFirst,pDialog):
 				orderlist[val]=n*100
 				if not default_source=='' and default_source ==val:
 					orderlist[val]=-100
-
-
-
 					
 			
 		#print orderlist
@@ -856,14 +856,16 @@ def getSourceAndStreamInfo(channelId, returnOnFirst,pDialog):
 		pDialog.update(30, 'Looping on sources')
 		sources=sourcesXml.findall('source')
 		for source in sources:
+			sname = source.findtext('sname')
 			num+=1
 			pDialog.update(30+(num*70)/len(sources) , 'Checking ..'+source.findtext('sname'))
+			if not filterBySource=="":
+				if not sname==filterBySource: continue
 			try:
 				#print 'source....................',source
 				xmlfile = source.findtext('urlfile')
 				isEnabled = source.findtext('enabled').lower()
 				sid = source.findtext('id')
-				sname = source.findtext('sname')
 				#print 'sid',sid,xmlfile
 				isAbSolutePath=False
 				if sname=="Local":
@@ -1020,7 +1022,7 @@ def PlayCommunityStream(channelId, name, mode):
 			playFirst=True
 		playFirst=bool(playFirst)
 		pDialog.update(20, 'Finding sources..')
-		providers,default_source_exists=getSourceAndStreamInfo(channelId,playFirst,pDialog)
+		providers,default_source_exists=getSourceAndStreamInfo(channelId,playFirst,pDialog, sourceFilter)
 		if default_source_exists:
 			playFirst=True
 		if len(providers)==0:
@@ -1239,19 +1241,73 @@ def removeFromMyChannels(cname):
 		with open(fileName, "wb") as filewriter:
 			filewriter.write(str(MyChannelList))
 
+def ShowSources(url):
+	#soup=getSoup('Categories.xml');
+	cats=getEtreeFromFile('Sources.xml');
+	#print cats 
+
+	for cat in cats.findall('source'):
+		isEnabled = cat.findtext('enabled').lower()
+		chName=cat.findtext('sname')
+		chUrl = cat.findtext('id')
+		settingname="is"+chName.replace('.','')+"SourceDisabled"
+		settingDisabled=selfAddon.getSetting(settingname)  
+		imageUrl = cat.findtext('imageurl')
+		if isEnabled=="true" and not settingDisabled=="true":
+			addDir(chName ,chUrl ,26,imageUrl, False,isItFolder=True, BySource=chName)		#name,url,mode,icon
+	return
+
+
+	
 def addCommunityCats():
 	#soup=getSoup('Categories.xml');
 	cats=getEtreeFromFile('Categories.xml');
 	#print cats 
 
-	addDir('My Channels' ,'My Channels' ,15,addonArt+'/mychannels.png', False,isItFolder=True)		#name,url,mode,icon
-
+	if sourceFilter=="":
+		addDir('My Channels' ,'My Channels' ,15,addonArt+'/mychannels.png', False,isItFolder=True)		#name,url,mode,icon
+		addDir('By Sources' ,'By Sources' ,25,addonArt+'/bysource.png', False,isItFolder=True)		#name,url,mode,icon
+	else:
+		sources=getSourceList()
+		source = sources[sourceFilter]
+		sourceName=source[0]
+		SourceFileName=source[2]
+		SourceImageName=source[3]
+		isAbsolutePath=source[4]
+		addDir('** Filtered by ' + sourceName+' **','' ,99,SourceImageName, False,isItFolder=False )
 	for cat in cats.findall('category'):
 		chName=cat.findtext('catname')
 		chUrl = cat.findtext('id')
 		imageUrl = cat.findtext('imageurl')
-		addDir(chName ,chUrl ,15,imageUrl, False,isItFolder=True)		#name,url,mode,icon
+		addDir(chName ,chUrl ,15,imageUrl, False,isItFolder=True,BySource=sourceFilter)		#name,url,mode,icon
 	return
+
+def getSourceList():
+	sourcesXml=getEtreeFromFile('Sources.xml');
+	sources_list={}
+	for sources in sourcesXml.findall('source'): 
+		id=sources.findtext('id')
+		sname=sources.findtext('sname')
+		ssname=sources.findtext('shortname')
+		scolour=sources.findtext('colour')
+		urlfile=sources.findtext('urlfile')
+		imageUrl=sources.findtext('imageurl')
+		isAbSolutePath=False
+		if sname=="Local":
+			isAbSolutePath=True
+			filename=selfAddon.getSetting( "localstreampath" ).decode('utf-8')
+			if filename and len(filename)>0:
+				urlfile=filename
+		sources_list[sname]=[ssname,scolour,urlfile,imageUrl, isAbSolutePath ]
+	return sources_list
+
+def getSourceChannelList(fileName, isAbsolutePath):
+	sourcesXml=getEtreeFromFile(fileName,isAbsolutePath );
+	sources_list={}
+	for sources in sourcesXml.findall('streaminginfo'): 
+		cname=sources.findtext('cname')
+		sources_list[cname]=[cname]
+	return sources_list
 
 def getCommunityChannels(catType):
 	#soup=getSoup('Channels.xml');#changetoEtree
@@ -1335,13 +1391,31 @@ def getCommunityChannels(catType):
 def addCommunityChannels(catType):
 	channels=getCommunityChannels(catType)
 	channels=sorted(channels,key=lambda x:x[1].lower())
+	FilterBySource=False
+	ExistsInSource=False
+	print 'Source Filter',sourceFilter
+	if not sourceFilter=="":
+		FilterBySource=True
+		sources=getSourceList()
+		source = sources[sourceFilter]
+		sourceName=source[0]
+		SourceFileName=source[2]
+		SourceImageName=source[3]
+		isAbsolutePath=source[4]
+		addDir('** Filtered by ' + sourceName+' **','' ,99,SourceImageName, False,isItFolder=False )
+		streamingxml=getEtreeFromFile(SourceFileName,isAbsolutePath);
+		sInfos=streamingxml.findall('streaminginfo')
+		sInfo=getSourceChannelList(SourceFileName, isAbsolutePath )
+
 	for channel in channels:
+		ExistsInSource=False
 		chName=channel[1]
 		chUrl = channel[0]
 		imageUrl = channel[2]
 		hideChannel=channel[3]
 		addRemoveMyChannel=not catType=="My Channels"
-		addDir(chName ,chUrl ,16,imageUrl, False,isItFolder=False,AddRemoveMyChannels=addRemoveMyChannel, SelectDefaultSource=True,hideChannel=hideChannel )		#name,url,mode,icon
+		if FilterBySource and not chName in sInfo: continue
+		addDir(chName ,chUrl ,16,imageUrl, False,isItFolder=False,AddRemoveMyChannels=addRemoveMyChannel, SelectDefaultSource=True,hideChannel=hideChannel, BySource=sourceFilter )		#name,url,mode,icon
 	return
 
 def setChannelSettings(cname,settingName,SettingVal):
@@ -1630,6 +1704,14 @@ mode=None
 linkType=None
 pageNumber=None
 AddRemoveMyChannels=None
+sourceFilter=""
+
+try:
+	sourceFilter=urllib.unquote_plus(params["sourceFilter"])
+except:
+	pass
+print 'sourceFilter',sourceFilter
+	
 try:
 	url=urllib.unquote_plus(params["url"])
 except:
@@ -1768,7 +1850,7 @@ try:
 	elif mode==10 or mode==11:
 		print "Play url is "+url,mode
 		PlayStream(url,name,mode);
-	elif mode==14: #add communutycats
+	elif mode==14 or mode==26: #add communutycats
 		print "Play url is "+url,mode
 		addCommunityCats();
 	elif mode==15: #add communutycats
@@ -1798,6 +1880,12 @@ try:
 	elif mode==23: #add communutycats
 		print "play youtube url is "+url,mode
 		AddYoutubeVideosByPlaylist(url);	
+	elif mode==25: #add communutycats
+		print "play youtube url is "+url,mode
+		ShowSources(url);	
+#	elif mode==26: #add communutycats
+#		print "play youtube url is "+url,mode
+#		ShowSources(url);	
 
 except:
 	print 'somethingwrong'
