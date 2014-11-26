@@ -5,6 +5,7 @@ import HTMLParser
 import xbmcaddon
 from operator import itemgetter
 import traceback
+import base64
 
 __addon__       = xbmcaddon.Addon()
 __addonname__   = __addon__.getAddonInfo('name')
@@ -154,7 +155,9 @@ def AddEnteries(type):
 		addDir(Colored('Other sources','ZM',True) ,'ZEMTV' ,10,'', False, True,isItFolder=False)
 		try:
 			AddChannelsFromOthers()
-		except: pass
+		except:
+			print 'somethingwrong'
+			traceback.print_exc(file=sys.stdout)
 	return
 
 def AddChannelsFromOthers():
@@ -176,7 +179,30 @@ def AddChannelsFromOthers():
     match.append(('Geo news (manual)','manual','http://dag.total-stream.net/dag1.asx?id=jdp!geonewsap'))
     match.append(('Ary Zindagi','manual','http://live.aryzindagi.tv/'))
     match.append(('ETV Urdu','manual','etv'))
+    match.append(('Tez','manual','http://dag.total-stream.net/dag1.asx?id=ad1!tez'))
 
+    match.append((base64.b64decode('U2t5IFNwb3J0IDE='),'manual',base64.b64decode('aHR0cDovL2pweG1sLmphZG9vdHYuY29tL3Z1eG1sLnBocC9qYWRvb3htbDMvcGxheS8zMTY=')))
+
+    match.append((base64.b64decode('U2t5IFNwb3J0IDI='),'manual',base64.b64decode('aHR0cDovL2pweG1sLmphZG9vdHYuY29tL3Z1eG1sLnBocC9qYWRvb3htbDMvcGxheS8zMjY=')))
+
+    match.append((base64.b64decode('U2t5IFNwb3J0IDQ='),'manual',base64.b64decode('aHR0cDovL2pweG1sLmphZG9vdHYuY29tL3Z1eG1sLnBocC9qYWRvb3htbDMvcGxheS8zMTU=')))
+
+##other v2
+    match.append((base64.b64decode('U2tpIFNwb3J0IDEgVjI='),'manual',base64.b64decode('aHR0cDovL2FjYWJzdy5kb2lwdHYuY29tL3NreV9zcG9ydF8xL3BsYXlsaXN0Lm0zdTh8VXNlci1BZ2VudD1zdGFnZWZyaWdodA==')))
+    match.append((base64.b64decode('U2tpIFNwb3J0IDIgVjI='),'manual',base64.b64decode('aHR0cDovL2FjYWJzdy5kb2lwdHYuY29tL3NreV9zcG9ydF8yL3BsYXlsaXN0Lm0zdTh8VXNlci1BZ2VudD1zdGFnZWZyaWdodA==')))
+    match.append((base64.b64decode('U2tpIFNwb3J0IDMgVjI='),'manual',base64.b64decode('aHR0cDovL2FjYWJzdy5kb2lwdHYuY29tL3NreV9zcG9ydF8zL3BsYXlsaXN0Lm0zdTh8VXNlci1BZ2VudD1zdGFnZWZyaWdodA==')))
+    match.append((base64.b64decode('U2tpIFNwb3J0IDQgVjI='),'manual',base64.b64decode('aHR0cDovL2FjYWJzdy5kb2lwdHYuY29tL3NreV9zcG9ydF80L3BsYXlsaXN0Lm0zdTh8VXNlci1BZ2VudD1zdGFnZWZyaWdodA==')))
+    match.append((base64.b64decode('U2tpIFNwb3J0IDUgVjI='),'manual',base64.b64decode('aHR0cDovL2FjYWJzdy5kb2lwdHYuY29tL3NreV9zcG9ydF81L3BsYXlsaXN0Lm0zdTh8VXNlci1BZ2VudD1zdGFnZWZyaWdodA==')))
+    match.append((base64.b64decode('U2tpIFNwb3J0IEYxIFYy'),'manual',base64.b64decode('aHR0cDovL2FjYWJzdy5kb2lwdHYuY29tL3NreV9zcG9ydF9mMS9wbGF5bGlzdC5tM3U4fFVzZXItQWdlbnQ9c3RhZ2VmcmlnaHQ=')))
+
+
+
+
+    #for s in [92,104,126,127,133,136,137,168,169,173,177,218,219,230,234,236,242,249,250,251,252,253,262,268,278,280,286,288,307,308,318,336,341,362,363,373,382,404,411,412,417,418,422,428,464,529,531,533,535,537,539,567,569,573,614,620,621,624,625,626,627,628,629,674,676,683,692,693,697,702,703,728,729,745,746,748,752,753,764,840,909,]:
+    #    match.append((str(s),'manual','http://ferrarilb.jemtv.com/index.php/2_2/gxml/play/'+str(s)))
+
+    for s in [104,108,109,111,130,131,133,135,136,137,139,140,175,177,179,191,193,204,206,231,234,242,246,289,296,305,313,314,315,316,317,318,319,320,321,322,323,324,325,326,328,329,330,331,332,333,334,335,337,338,355,356,368,370,372,373,380,381,400,401,434,435,444,446,452,455,457,458,476,477,487,500,508,509,510,516,517,569,615,617,621,643,645,655,723,732,744,780,784,823,827,872,875,881,907,910,911,912]:
+        match.append(('ZZTest '+str(s),'manual',base64.b64decode('aHR0cDovL2pweG1sLmphZG9vdHYuY29tL3Z1eG1sLnBocC9qYWRvb3htbDMvcGxheS8=')+str(s)))
 
 
 #    match=sorted(match,key=itemgetter(0)   )
@@ -199,7 +225,6 @@ def revist_dag(page_data):
     final_url = ''
     if '127.0.0.1' in page_data:
         final_url = re_me(page_data, '&ver_t=([^&]+)&') + ' live=true timeout=15 playpath=' + re_me(page_data, '\\?y=([a-zA-Z0-9-_\\.@]+)')
-        
     if re_me(page_data, 'token=([^&]+)&') != '':
         final_url = final_url + '?token=' + re_me(page_data, 'token=([^&]+)&')
     elif re_me(page_data, 'wmsAuthSign%3D([^%&]+)') != '':
@@ -233,6 +258,7 @@ def PlayOtherUrl ( url ):
     progress = xbmcgui.DialogProgress()
     progress.create('Progress', 'Fetching Streaming Info')
     progress.update( 10, "", "Finding links..", "" )
+
     if url=='http://live.aryzindagi.tv/':
         req = urllib2.Request(url)
         #req.add_header('User-Agent', 'Verismo-BlackUI_(2.4.7.5.8.0.34)')   
@@ -253,7 +279,7 @@ def PlayOtherUrl ( url ):
         curlpatth='<source src="(.*?)"'
         progress.update( 50, "", "Preparing url..", "" )
         dag_url =re.findall(curlpatth,link)[0]
-    elif 'dag1.asx' not in url:
+    elif 'dag1.asx' not in url and 'stagefright' not in url:
         req = urllib2.Request(url)
         #req.add_header('User-Agent', 'Verismo-BlackUI_(2.4.7.5.8.0.34)')   
         #req.add_header('User-Agent', 'Mozilla/5.0(iPad; U; CPU iPhone OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B314 Safari/531.21.10')
@@ -261,7 +287,12 @@ def PlayOtherUrl ( url ):
         link=response.read()
         curlpatth='<link>(.*?)<\/link>'
         progress.update( 50, "", "Preparing url..", "" )
-        dag_url =re.findall(curlpatth,link)[0]
+        dag_url =re.findall(curlpatth,link)
+        if not (dag_url and len(dag_url)>0 ):
+            curlpatth='\<ENTRY\>\<REF HREF="(.*?)"'
+            dag_url =re.findall(curlpatth,link)[0]
+        else:
+            dag_url=dag_url[0]
     else:
         dag_url=url
     print 'dag_url',dag_url,name
