@@ -675,7 +675,34 @@ def get_ustream(url):
         return
     except:
         return
+def parse_m3u(url):
+    if "http" in url: content = makeRequest(url)
+    else: content = readfile(url)
+    match = re.compile('#EXTINF:(.+?),(.*?)\n(.*?)(?:\r|\n)').findall(content)
+    total = len(match)
+    print total
+    for other,channel_name,stream_url in match:
+        if 'tvg-logo' in other:
+            thumbnail = re_me(other,'tvg-logo="(.*?)"')
+            if thumbnail:
+                if not addon.getSetting('logo-folderPath') == "":
+                    logo_url = addon.getSetting('logo-folderPath')
+                    thumbnail = logo_url + thumbnail
+       #        
+                else:
+                    thumbnail = thumbnail
+            #else:
+            
+        else:
+            thumbnail = ''
+        addLink(stream_url, channel_name.encode('utf-8', 'ignore'),thumbnail,'','','','',True,'','',total)
         
+   
+            
+def readfile(filename):
+    f = open(filename, "r")
+    string = f.read()
+    return string        
  
 def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCall=False,cachedPages={}, rawPost=False, cookie_jar_file=None):#0,1,2 = URL, regexOnly, CookieJarOnly
         if not recursiveCall:
@@ -1097,7 +1124,34 @@ def unwise_func( w, i, s, e):
     else:
         print 'FINISHED'
         return ret
-    
+def parse_m3u(url):
+    if "http" in url: content = makeRequest(url)
+    else: content = readfile(url)
+    match = re.compile('#EXTINF:(.+?),(.*?)\n(.*?)(?:\r|\n)').findall(content)
+    total = len(match)
+    print total
+    for other,channel_name,stream_url in match:
+        if 'tvg-logo' in other:
+            thumbnail = re_me(other,'tvg-logo="(.*?)"')
+            if thumbnail:
+                if not thumbnail.startswith('http'):
+                    thumbnail = logo_url + urllib.quote(thumbnail)    #.replace(' ', '%20') #.replace('\n', '').replace('\r', '')
+                    print thumbnail
+        #        
+                else:
+                    thumbnail = thumbnail
+            #else:
+            
+        else:
+            thumbnail = ''
+        addLink(stream_url, channel_name.encode('utf-8', 'ignore'),thumbnail,'','','','',True,'','',total)
+        
+   
+            
+def readfile(filename):
+    f = open(filename, "r")
+    string = f.read()
+    return string    
 def get_unpacked( page_value, regex_for_text='', iterations=1, total_iteration=1):
     try:        
         reg_data=None
