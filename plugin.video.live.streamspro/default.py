@@ -1124,6 +1124,8 @@ def unwise_func( w, i, s, e):
     else:
         print 'FINISHED'
         return ret
+# borrow from https://github.com/enen92/P2P-Streams-XBMC/blob/master/plugin.video.p2p-streams/resources/core/livestreams.py
+# This will not go through the getItems functions ( means you must have ready to play url, no regex)        
 def parse_m3u(url):
     if "http" in url: content = makeRequest(url)
     else: content = readfile(url)
