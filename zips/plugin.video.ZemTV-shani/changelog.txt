@@ -65,3 +65,5 @@ B]Version 3.0.1[/B]
 - Added ETV Urdu and Ary zindagi
 B]Version 3.0.2[/B]
 - Added Sky sports and few test channels
+B]Version 3.0.3[/B]
+- some tweaks

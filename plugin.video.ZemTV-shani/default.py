@@ -201,7 +201,7 @@ def AddChannelsFromOthers():
     #for s in [92,104,126,127,133,136,137,168,169,173,177,218,219,230,234,236,242,249,250,251,252,253,262,268,278,280,286,288,307,308,318,336,341,362,363,373,382,404,411,412,417,418,422,428,464,529,531,533,535,537,539,567,569,573,614,620,621,624,625,626,627,628,629,674,676,683,692,693,697,702,703,728,729,745,746,748,752,753,764,840,909,]:
     #    match.append((str(s),'manual','http://ferrarilb.jemtv.com/index.php/2_2/gxml/play/'+str(s)))
 
-    for s in [104,108,109,111,130,131,133,135,136,137,139,140,175,177,179,191,193,204,206,231,234,242,246,289,296,305,313,314,315,316,317,318,319,320,321,322,323,324,325,326,328,329,330,331,332,333,334,335,337,338,355,356,368,370,372,373,380,381,400,401,434,435,444,446,452,455,457,458,476,477,487,500,508,509,510,516,517,569,615,617,621,643,645,655,723,732,744,780,784,823,827,872,875,881,907,910,911,912]:
+    for s in [104,108,109,111,130,131,133,135,136,137,139,140,175,177,179,191,193,204,206,231,234,246,289,296,305,313,314,315,316,317,318,319,320,321,322,323,324,325,326,328,329,330,331,332,333,334,335,337,338,355,356,368,370,372,373,380,381,400,401,434,435,444,446,452,455,457,458,476,477,487,500,508,509,510,516,517,569,615,617,621,643,645,655,723,732,744,780,784,823,827,872,875,881,907,910,911,912,913]:
         match.append(('ZZTest '+str(s),'manual',base64.b64decode('aHR0cDovL2pweG1sLmphZG9vdHYuY29tL3Z1eG1sLnBocC9qYWRvb3htbDMvcGxheS8=')+str(s)))
 
 
@@ -705,10 +705,11 @@ def PlayLiveLink ( url ):
 		progress.update( 20, "", "Finding links..", "" )
 	else:
 		cName=url
-	
-	newURL='http://www.eboundservices.com/iframe/newads/iframe.php?stream='+ cName+'&width=undefined&height=undefined&clip=' + cName
-	print newURL
-
+	import math, random, time
+	rv=str(int(5000+ math.floor(random.random()*10000)))
+	currentTime=str(int(time.time()*1000))
+	#newURL='http://www.eboundservices.com/iframe/newads/iframe.php?stream='+ cName+'&width=undefined&height=undefined&clip=' + cName
+	newURL='http://www.eboundservices.com/iframe/new/mainPage.php?stream='+cName+  '&width=undefined&height=undefined&clip=' + cName+'&rv='+rv+'&_='+currentTime
 	
 	req = urllib2.Request(newURL)
 	req.add_header('User-Agent', 'Mozilla/5.0(iPad; U; CPU iPhone OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B314 Safari/531.21.10')
@@ -780,7 +781,7 @@ def PlayLiveLink ( url ):
 		#playlist.clear()
 		#playlist.add (strval)
 
-		playfile='rtmp://cdn.ebound.tv/tv?wmsAuthSign=/%s app=tv?wmsAuthSign=?%s swfurl=http://www.eboundservices.com/live/v6/player.swf?domain=&channel=%s&country=GB pageUrl=http://www.eboundservices.com/iframe/newads/iframe.php?stream=%s tcUrl=rtmp://cdn.ebound.tv/tv?wmsAuthSign=?%s live=true timeout=15'	% (cName,strval,cName,cName,strval)
+		playfile='rtmp://cdn.ebound.tv/tv?wmsAuthSign=/%s app=tv?wmsAuthSign=%s swfurl=http://www.eboundservices.com/live/v6/jwplayer.flash.swf?domain=www.eboundservices.com&channel=%s&country=EU pageUrl=http://www.eboundservices.com/channel.php?app=tv&stream=%s tcUrl=rtmp://cdn.ebound.tv/tv?wmsAuthSign=%s live=true timeout=15'	% (cName,strval,cName,cName,strval)
 		#playfile='rtmp://cdn.ebound.tv/tv?wmsAuthSign=/humtv app=tv?wmsAuthSign=?%s swfurl=http://www.eboundservices.com/live/v6/player.swf?domain=&channel=humtv&country=GB pageUrl=http://www.eboundservices.com/iframe/newads/iframe.php?stream=humtv tcUrl=rtmp://cdn.ebound.tv/tv?wmsAuthSign=?%s live=true'	% (strval,strval)
 		progress.update( 100, "", "Almost done..", "" )
 		print playfile
