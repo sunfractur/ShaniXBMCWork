@@ -765,34 +765,6 @@
 </streaminginfo>   
 
 <streaminginfo>
-     <cname>OTV Lebanon</cname>
-	<item>
-	<title>itworkscd Low</title>
-	<link>http://livestreaming.itworkscdn.net:1935/otvmobile/otvlive_160p/playlist.m3u8</link>
-	</item>
-</streaminginfo><streaminginfo>
-     <cname>OTV Lebanon</cname>
-	<item>
-	<title>itworkscd Med</title>
-	<link>http://livestreaming.itworkscdn.net:1935/otvmobile/otvlive_240p/playlist.m3u8</link>
-	</item>
-</streaminginfo>
-<streaminginfo>
-     <cname>OTV Lebanon</cname>
-	<item>
-	<title>itworkscd High</title>
-	<link>http://livestreaming.itworkscdn.net:1935/otvmobile/otvlive_360p/playlist.m3u8</link>
-	</item>
-</streaminginfo>
-<streaminginfo>
-     <cname>OTV Lebanon</cname>
-	<item>
-	<title>itworkscd Highest</title>
-	<link>http://livestreaming.itworkscdn.net:1935/otvmobile/otvlive/playlist.m3u8</link>
-	</item>
-</streaminginfo>
-
-<streaminginfo>
 	<cname>LBC</cname>
 	<item>
         <title>Low</title>
@@ -1882,8 +1854,22 @@
 <streaminginfo>
    	<cname>OTV Lebanon</cname>
 	<item>
+	<title>Low</title>
+	<link>http://livestreaming.itworkscdn.net/otvmobile/otvlive_3/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+   	<cname>OTV Lebanon</cname>
+	<item>
 	<title>Med</title>
 	<link>http://livestreaming.itworkscdn.net/otvmobile/otvlive_2/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+   	<cname>OTV Lebanon</cname>
+	<item>
+	<title>High</title>
+	<link>http://livestreaming.itworkscdn.net/otvmobile/otvlive_1/playlist.m3u8</link>
 	</item>
 </streaminginfo>
 <streaminginfo>
