@@ -1,4 +1,12 @@
 <streamingInfos>
+
+<streaminginfo>
+    <cname>Selah</cname>
+	<item>
+	<title>Low: You need to install f4m_tester addon from Shani Repo</title>
+	<link>plugin://plugin.video.f4mTester/?url=http://streamer11.elementssys.com:8080/selah/archive/1415734692/now/manifest.f4m</link>
+	</item>
+</streaminginfo>
 <streaminginfo>
     <cname>MTV</cname>
 	<item>
