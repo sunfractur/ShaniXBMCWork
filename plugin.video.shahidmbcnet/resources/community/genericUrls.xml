@@ -1421,19 +1421,20 @@
 </streaminginfo>
 <streaminginfo>
     <cname>2M</cname>
-<item><title>High playtv</title>
-<link>$doregex[geturl]</link>
-     <regex>
-        <name>geturl</name>
-        <expres>$pyFunction:playtvfr.get_url('$doregex[getplayerid]')</expres>
-        <page></page>
-    </regex>    
-    <regex>
-        <name>getplayerid</name>
-        <expres>data-alias="2m-maroc"\s*data-playerid="(.*?)"</expres>
-        <page>http://playtv.fr/television/</page>
-    </regex>    
-</item>
+	<item>
+	<title>High playtv</title>
+	<link>$doregex[getURL]</link>
+	<regex>
+	<name>getURL</name>
+	<expres>$pyFunction:'$doregex[getLink]'.replace('\\/','/')</expres>
+	<page></page>
+	</regex>
+	<regex>
+	<name>getLink</name>
+	<expres>http":"(.*?)"</expres>
+	<page>http://m.playtv.fr/api/channels/2m-maroc/?preset=with_programme%2Cwith_streams</page>
+	</regex>
+	</item>
 </streaminginfo>
 <streaminginfo>
 <cname>AlGeria</cname>
