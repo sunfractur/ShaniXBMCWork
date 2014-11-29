@@ -1406,6 +1406,7 @@ def addCommunityChannels(catType):
 		streamingxml=getEtreeFromFile(SourceFileName,isAbsolutePath);
 		sInfos=streamingxml.findall('streaminginfo')
 		sInfo=getSourceChannelList(SourceFileName, isAbsolutePath )
+		#print sInfo
 
 	for channel in channels:
 		ExistsInSource=False
@@ -1414,7 +1415,8 @@ def addCommunityChannels(catType):
 		imageUrl = channel[2]
 		hideChannel=channel[3]
 		addRemoveMyChannel=not catType=="My Channels"
-		if FilterBySource and not chName in sInfo: continue
+		#print chName,chName in sInfo,
+		if FilterBySource and not chUrl in sInfo: continue
 		addDir(chName ,chUrl ,16,imageUrl, False,isItFolder=False,AddRemoveMyChannels=addRemoveMyChannel, SelectDefaultSource=True,hideChannel=hideChannel, BySource=sourceFilter )		#name,url,mode,icon
 	return
 

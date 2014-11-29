@@ -1,5 +1,9 @@
+[B]Version 3.4.1[/B]
+Support for filter by sources (bug fix)
+
 [B]Version 3.4.0[/B]
 Support for filter by sources
+
 
 [B]Version 3.3.9[/B]
 Revert the hide bug
