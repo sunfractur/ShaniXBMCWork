@@ -1,4 +1,13 @@
 <channels>
+
+<channel>
+	<cname>Selah</cname>
+	<imageurl>http://selahtv.tv/file/2014/09/sela-logo.gif</imageurl>
+	<enabled>True</enabled>
+	<assignedcategory>
+	<category>gulf</category>
+	</assignedcategory>
+</channel>
 <channel>
         <cname>Radio Tunisia</cname>
         <imageurl>http://img.freeflagicons.com/thumb/glossy_square_icon_3d/tunisia/tunisia_640.png</imageurl>
