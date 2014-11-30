@@ -677,16 +677,21 @@ def replaceGLArabVariables(link):
         import cookielib
         cookieJar = cookielib.LWPCookieJar()
         #def getUrl(url, cookieJar=None,post=None, timeout=20, headers=None):
-        if tryLogin:
-            mainpage=getUrl('http://www.glarab.com/',cookieJar)
-            evalidation=re.compile(' id="__EVENTVALIDATION" value="(.*?)"').findall(mainpage)[0]
-            vstate=re.compile('id="__VIEWSTATE" value="(.*?)"').findall(mainpage)[0]  
+        
+        try:
+            if tryLogin:
+                mainpage=getUrl('http://www.glarab.com/',cookieJar)
+                evalidation=re.compile(' id="__EVENTVALIDATION" value="(.*?)"').findall(mainpage)[0]
+                vstate=re.compile('id="__VIEWSTATE" value="(.*?)"').findall(mainpage)[0]  
 
-            post={'pageHeader$ScriptManager1':'pageHeader$UpdatePanel1|pageHeader$buttonLogin','__EVENTTARGET':'','__EVENTARGUMENT':'','__VIEWSTATE':vstate,'__EVENTVALIDATION':evalidation,'pageHeader$txtUsername':GLArabUserName,'pageHeader$txtPassword':GLArabUserPwd,'pageHeader$buttonLogin':' '}
-            post = urllib.urlencode(post)
-            getUrl('http://www.glarab.com/homepage.aspx',cookieJar,post)
-        else:
-            getUrl('http://www.glarab.com/',cookieJar)
+                post={'pageHeader$ScriptManager1':'pageHeader$UpdatePanel1|pageHeader$buttonLogin','__EVENTTARGET':'','__EVENTARGUMENT':'','__VIEWSTATE':vstate,'__EVENTVALIDATION':evalidation,'pageHeader$txtUsername':GLArabUserName,'pageHeader$txtPassword':GLArabUserPwd,'pageHeader$buttonLogin':' '}
+                post = urllib.urlencode(post)
+                getUrl('http://www.glarab.com/homepage.aspx',cookieJar,post)
+            else:
+                getUrl('http://www.glarab.com/',cookieJar)
+        except:
+            print 'login or accessing the site failed.. continuing'
+            traceback.print_exc(file=sys.stdout)
         
         sessionpage=getUrl('http://www.glarab.com/ajax.aspx?stream=live&type=reg&ppoint=KuwaitSpace',cookieJar)
         print sessionpage
@@ -697,6 +702,6 @@ def replaceGLArabVariables(link):
         return link
     except:
         traceback.print_exc(file=sys.stdout)
-        return ""
+        return link
         
         
