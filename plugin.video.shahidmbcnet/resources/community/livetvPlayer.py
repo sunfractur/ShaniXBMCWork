@@ -67,7 +67,7 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 					print 'no code speficied'
 					#no login for time being ;)
 				if lastWorkingCode=="" and liveTvNonPremiumCode=="" : #stop free account
-					if 1==2 and shouldforceLogin():
+					if shouldforceLogin():
 						print 'performing login'
 						if not performLogin():
 							timeD = 1000  #in miliseconds
@@ -152,6 +152,8 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 def getcode(page_name=None):
 	global codepage
 	try:
+ 
+		print 'aaaaaaaaaaaaaaaaa'
 		#url = urlSoup.url.text
 		if page_name:
 			codepage=page_name
@@ -192,9 +194,9 @@ def getcode(page_name=None):
 				solution = solver.get()
 			else:
 				solution=cap
-
-		(captcha_reload_response_chall,solution)=performaceRecaptcha(link)
-
+		print 'here for flash'        
+		#(captcha_reload_response_chall,solution)=performaceRecaptcha(link)
+		(captcha_reload_response_chall,solution)=performCaptchaFlash(link)
 		if solution:
 			#do captcha post
 			
@@ -204,7 +206,7 @@ def getcode(page_name=None):
 																		# let me know if you need help!
 			#postVar2=re.findall('input type=\"text\" name=\"(.*?)\"', link) #additional textbox
 			#post={postVar:solution}
-			post={'recaptcha_challenge_field':captcha_reload_response_chall,'recaptcha_response_field':solution}
+			post={'captcha':captcha_reload_response_chall,'submit':'Send'}
 			print 'pst',post
 			#if len(postVar2)>0:
 			#	if postVar2[0] not in post:
@@ -366,16 +368,18 @@ def performLogin():
 				
 	
 
-	(captcha_reload_response_chall,solution)=performaceRecaptcha(html_text)
+	#(captcha_reload_response_chall,solution)=performaceRecaptcha(html_text)
+	
+	(captcha_reload_response_chall,solution)=performCaptchaFlash(html_text)
 	
 
 	print 'performing login'
 	userName=selfAddon.getSetting( "liveTvLogin" )
 	password=selfAddon.getSetting( "liveTvPassword")
 	if captcha_reload_response_chall:
-		post={'pseudo':userName,'epass':password,'recaptcha_challenge_field':captcha_reload_response_chall,'recaptcha_response_field':solution}
+		post={'pseudo':userName,'epass':password,'captcha':captcha_reload_response_chall,'submit':'Login'}
 	else:
-		post={'pseudo':userName,'epass':password}
+		post={'pseudo':userName,'epass':password,'submit':'Login'}
 	print 'post',post
 	post = urllib.urlencode(post)
 	
@@ -385,6 +389,22 @@ def performLogin():
 	
 	return shouldforceLogin(cookieJar, link)==False
 
+def getmd5(t):    
+    import hashlib
+    h=hashlib.md5()
+    h.update(t)
+    return h.hexdigest()
+    
+def performCaptchaFlash(html_text):
+    str_pattern='"keyString", "(.*?)"'
+    match =re.findall(str_pattern, html_text)
+    captcha=False
+    captcha_val=''
+    if match and len(match)>0: #new shiny captcha in Flash lols!
+        captcha=True
+        captcha_val=getmd5(match[0])[0:6]
+    return captcha_val,captcha
+        
 def performaceRecaptcha(html_text):
 	recapChallenge=None
 	captcha_reload_response_chall=None
