@@ -16,56 +16,56 @@
 	<cname>CafeCreme 1</cname>
 	<item>
 	<title>Chaine 1</title>
-	<link>rtmp://85.159.237.249:1935/live/_definst_ playpath=live swfUrl=http://cafe-creme.me/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://cafe-creme.me timeout=15</link>
+	<link>rtmp://85.159.237.249:1935/gigi1/_definst_ playpath=gigi1 swfUrl=http://cafe-creme.ws/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://cafe-creme.ws timeout=15</link>
 	</item>
 </streaminginfo>
 <streaminginfo>
 	<cname>CafeCreme 2</cname>
 	<item>
 	<title>Chaine 2</title>
-	<link>rtmp://85.159.237.249:1935/live2/_definst_ playpath=live2  swfUrl=http://cafe-creme.me/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://cafe-creme.me timeout=15</link>
+	<link>rtmp://85.159.237.249:1935/bibi2/_definst_ playpath=bibi2 swfUrl=http://cafe-creme.ws/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://cafe-creme.ws timeout=15</link>
 	</item>
 </streaminginfo>
 <streaminginfo>
 	<cname>CafeCreme 3</cname>
 	<item>
 	<title>Chaine 3</title>
-	<link>rtmp://85.159.237.249:1935/live3/_definst_ playpath=live3  swfUrl=http://cafe-creme.me/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://cafe-creme.me timeout=15</link>
+	<link>rtmp://85.159.237.249:1935/aiai3/_definst_ playpath=aiai3  swfUrl=http://cafe-creme.ws/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://cafe-creme.ws timeout=15</link>
 	</item>
 </streaminginfo>
 <streaminginfo>
 	<cname>CafeCreme 4</cname>
 	<item>
 	<title>Chaine 4</title>
-	<link>rtmp://85.159.237.249:1935/live4/_definst_ playpath=live4  swfUrl=http://cafe-creme.me/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://cafe-creme.me timeout=15</link>
+	<link>rtmp://85.159.237.249:1935/live4/_definst_ playpath=live4  swfUrl=http://cafe-creme.ws/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://cafe-creme.ws timeout=15</link>
 	</item>
 </streaminginfo>
 <streaminginfo>
 	<cname>CafeCreme 5</cname>
 	<item>
 	<title>Chaine 5</title>
-	<link>rtmp://85.159.237.249:1935/live5/_definst_ playpath=live5  swfUrl=http://cafe-creme.me/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://cafe-creme.me timeout=15</link>
+	<link>rtmp://85.159.237.249:1935/kiki5/_definst_ playpath=kiki5  swfUrl=http://cafe-creme.ws/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://cafe-creme.ws timeout=15</link>
 	</item>
 </streaminginfo>
 <streaminginfo>
 	<cname>CafeCreme 6</cname>
 	<item>
 	<title>Chaine 6</title>
-	<link>rtmp://85.159.237.249:1935/live6/_definst_ playpath=live6  swfUrl=http://cafe-creme.me/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://cafe-creme.me timeout=15</link>
+	<link>rtmp://85.159.237.249:1935/sisi6/_definst_ playpath=sisi6  swfUrl=http://cafe-creme.ws/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://cafe-creme.ws timeout=15</link>
 	</item>
 </streaminginfo>
 <streaminginfo>
 	<cname>CafeCreme 7</cname>
 	<item>
 	<title>Chaine 7</title>
-	<link>rtmp://85.159.237.249:1935/live7/_definst_ playpath=live7  swfUrl=http://cafe-creme.me/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://cafe-creme.me timeout=15</link>
+	<link>rtmp://85.159.237.249:1935/live7/_definst_ playpath=live7  swfUrl=http://cafe-creme.ws/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://cafe-creme.ws timeout=15</link>
 	</item>
 </streaminginfo>
 <streaminginfo>
 	<cname>CafeCreme 8</cname>
 	<item>
 		<title>Chaine 8</title>
-		<link>$doregex[get-rtmp] app=vod/?token=play@$doregex[get-token] playpath=pentiumstream_8mytduu swfUrl=http://cafe-creme.me/jwplayer/jwplayer.flash.swf pageUrl=$doregex[get-iframe] timeout=15</link> 
+		<link>$doregex[get-rtmp] app=vod/?token=play@$doregex[get-token] playpath=pentiumstream_8mytduu swfUrl=http://cafe-creme.ws/jwplayer/jwplayer.flash.swf pageUrl=$doregex[get-iframe] timeout=15</link> 
 		<regex>
 		<name>get-rtmp</name>
 		<expres>(.*)\/re</expres>
@@ -104,7 +104,7 @@
 	<cname>CafeCreme 9</cname>
 	<item>
 		<title>Chaine 9</title>
-		<link>$doregex[get-rtmp] app=vod/?token=play@$doregex[get-token] playpath=tuche68_8mpb73f swfUrl=http://cafe-creme.me/jwplayer/jwplayer.flash.swf pageUrl=$doregex[get-iframe] timeout=15</link> 
+		<link>$doregex[get-rtmp] app=vod/?token=play@$doregex[get-token] playpath=tuche68_8mpb73f swfUrl=http://cafe-creme.ws/jwplayer/jwplayer.flash.swf pageUrl=$doregex[get-iframe] timeout=15</link> 
 		<regex>
 		<name>get-rtmp</name>
 		<expres>(.*)\/re</expres>
@@ -143,7 +143,7 @@
 	<cname>CafeCreme 10</cname>
 	<item>
 		<title>Chaine 10</title>
-		<link>$doregex[get-rtmp] app=vod/?token=play@$doregex[get-token] playpath=Jackie_8mpiprb swfUrl=http://cafe-creme.me/jwplayer/jwplayer.flash.swf pageUrl=$doregex[get-iframe] timeout=15</link>
+		<link>$doregex[get-rtmp] app=vod/?token=play@$doregex[get-token] playpath=Jackie_8mpiprb swfUrl=http://cafe-creme.ws/jwplayer/jwplayer.flash.swf pageUrl=$doregex[get-iframe] timeout=15</link>
 		<regex>
 		<name>get-rtmp</name>
 		<expres>(.*)\/re</expres>
@@ -182,7 +182,7 @@
 	<cname>CafeCreme 11</cname>
 	<item>
 		<title>Chaine 11</title>
-		<link>$doregex[get-rtmp] app=vod/?token=play@$doregex[get-token] playpath=kam19_8mpe5mb swfUrl=http://cafe-creme.me/jwplayer/jwplayer.flash.swf pageUrl=$doregex[get-iframe] timeout=15</link>
+		<link>$doregex[get-rtmp] app=vod/?token=play@$doregex[get-token] playpath=kam19_8mpe5mb swfUrl=http://cafe-creme.ws/jwplayer/jwplayer.flash.swf pageUrl=$doregex[get-iframe] timeout=15</link>
 		<regex>
 		<name>get-rtmp</name>
 		<expres>(.*)\/re</expres>
@@ -221,7 +221,7 @@
 	<cname>CafeCreme 12</cname>
 	<item>
 		<title>Chaine 12</title>
-		<link>$doregex[get-rtmp] app=vod/?token=play@$doregex[get-token] playpath=CafeCh1_8moqiij swfUrl=http://cafe-creme.me/jwplayer/jwplayer.flash.swf pageUrl=$doregex[get-iframe] timeout=15</link>
+		<link>$doregex[get-rtmp] app=vod/?token=play@$doregex[get-token] playpath=CafeCh1_8moqiij swfUrl=http://cafe-creme.ws/jwplayer/jwplayer.flash.swf pageUrl=$doregex[get-iframe] timeout=15</link>
 		<regex>
 		<name>get-rtmp</name>
 		<expres>(.*)\/re</expres>
