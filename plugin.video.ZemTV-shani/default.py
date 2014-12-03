@@ -188,12 +188,12 @@ def AddChannelsFromOthers():
     match.append((base64.b64decode('U2t5IFNwb3J0IDQ='),'manual',base64.b64decode('aHR0cDovL2pweG1sLmphZG9vdHYuY29tL3Z1eG1sLnBocC9qYWRvb3htbDMvcGxheS8zMTU=')))
 
 ##other v2
-    match.append((base64.b64decode('U2tpIFNwb3J0IDEgVjI='),'manual',base64.b64decode('aHR0cDovL2FjYWJzdy5kb2lwdHYuY29tL3NreV9zcG9ydF8xL3BsYXlsaXN0Lm0zdTh8VXNlci1BZ2VudD1zdGFnZWZyaWdodA==')))
-    match.append((base64.b64decode('U2tpIFNwb3J0IDIgVjI='),'manual',base64.b64decode('aHR0cDovL2FjYWJzdy5kb2lwdHYuY29tL3NreV9zcG9ydF8yL3BsYXlsaXN0Lm0zdTh8VXNlci1BZ2VudD1zdGFnZWZyaWdodA==')))
-    match.append((base64.b64decode('U2tpIFNwb3J0IDMgVjI='),'manual',base64.b64decode('aHR0cDovL2FjYWJzdy5kb2lwdHYuY29tL3NreV9zcG9ydF8zL3BsYXlsaXN0Lm0zdTh8VXNlci1BZ2VudD1zdGFnZWZyaWdodA==')))
-    match.append((base64.b64decode('U2tpIFNwb3J0IDQgVjI='),'manual',base64.b64decode('aHR0cDovL2FjYWJzdy5kb2lwdHYuY29tL3NreV9zcG9ydF80L3BsYXlsaXN0Lm0zdTh8VXNlci1BZ2VudD1zdGFnZWZyaWdodA==')))
-    match.append((base64.b64decode('U2tpIFNwb3J0IDUgVjI='),'manual',base64.b64decode('aHR0cDovL2FjYWJzdy5kb2lwdHYuY29tL3NreV9zcG9ydF81L3BsYXlsaXN0Lm0zdTh8VXNlci1BZ2VudD1zdGFnZWZyaWdodA==')))
-    match.append((base64.b64decode('U2tpIFNwb3J0IEYxIFYy'),'manual',base64.b64decode('aHR0cDovL2FjYWJzdy5kb2lwdHYuY29tL3NreV9zcG9ydF9mMS9wbGF5bGlzdC5tM3U4fFVzZXItQWdlbnQ9c3RhZ2VmcmlnaHQ=')))
+    match.append((base64.b64decode('U2tpIFNwb3J0IDEgVjI='),'manual',base64.b64decode('aHR0cDovL2FjYWJzdy5kb2lwdHYuY29tL3NreV9zcG9ydF8xL3BsYXlsaXN0Lm0zdTh8VXNlci1BZ2VudD1MYXZmNTMuMzIuMTAw')))
+    match.append((base64.b64decode('U2tpIFNwb3J0IDIgVjI='),'manual',base64.b64decode('aHR0cDovL2FjYWJzdy5kb2lwdHYuY29tL3NreV9zcG9ydF8yL3BsYXlsaXN0Lm0zdTh8VXNlci1BZ2VudD1MYXZmNTMuMzIuMT')))
+    match.append((base64.b64decode('U2tpIFNwb3J0IDMgVjI='),'manual',base64.b64decode('aHR0cDovL2FjYWJzdy5kb2lwdHYuY29tL3NreV9zcG9ydF8zL3BsYXlsaXN0Lm0zdTh8VXNlci1BZ2VudD1MYXZmNTMuMzIuMTAw')))
+    match.append((base64.b64decode('U2tpIFNwb3J0IDQgVjI='),'manual',base64.b64decode('aHR0cDovL2FjYWJzdy5kb2lwdHYuY29tL3NreV9zcG9ydF80L3BsYXlsaXN0Lm0zdTh8VXNlci1BZ2VudD1MYXZmNTMuMzIuMTAw')))
+    match.append((base64.b64decode('U2tpIFNwb3J0IDUgVjI='),'manual',base64.b64decode('aHR0cDovL2FjYWJzdy5kb2lwdHYuY29tL3NreV9zcG9ydF81L3BsYXlsaXN0Lm0zdTh8VXNlci1BZ2VudD1MYXZmNTMuMzIuMTAw')))
+    match.append((base64.b64decode('U2tpIFNwb3J0IEYxIFYy'),'manual',base64.b64decode('aHR0cDovL2FjYWJzdy5kb2lwdHYuY29tL3NreV9zcG9ydF9mMS9wbGF5bGlzdC5tM3U4fFVzZXItQWdlbnQ9TGF2ZjUzLjMyLjEwMA==')))
 
 
 
@@ -279,7 +279,7 @@ def PlayOtherUrl ( url ):
         curlpatth='<source src="(.*?)"'
         progress.update( 50, "", "Preparing url..", "" )
         dag_url =re.findall(curlpatth,link)[0]
-    elif 'dag1.asx' not in url and 'stagefright' not in url:
+    elif 'dag1.asx' not in url and 'Lavf53.32.100' not in url:
         req = urllib2.Request(url)
         #req.add_header('User-Agent', 'Verismo-BlackUI_(2.4.7.5.8.0.34)')   
         #req.add_header('User-Agent', 'Mozilla/5.0(iPad; U; CPU iPhone OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B314 Safari/531.21.10')
