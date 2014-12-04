@@ -329,6 +329,22 @@
      </assignedcategory>
 </channel>
 <channel>
+     <cname>CafeCreme 13</cname>
+     <imageurl>http://www.liveonlinetv247.com/images/stream13.png</imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+	 <category>sports</category>
+     </assignedcategory>
+</channel>
+<channel>
+     <cname>CafeCreme 14</cname>
+     <imageurl>http://www.liveonlinetv247.com/images/stream14.png</imageurl>
+     <enabled>True</enabled>
+     <assignedcategory>
+	 <category>sports</category>
+     </assignedcategory>
+</channel>
+<channel>
      <cname>Sport365</cname>
      <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/516.png</imageurl>
      <enabled>True</enabled>
@@ -364,7 +380,7 @@
 </channel>
 <channel>
      <cname>Action</cname>
-     <imageurl>https://pbs.twimg.com/profile_images/2186702797/action.jpg</imageurl>
+     <imageurl>http://www.lyngsat-logo.com/hires/aa/action_fr.png</imageurl>
      <enabled>True</enabled>
      <assignedcategory>
 	 <category>french</category>
@@ -372,7 +388,7 @@
 </channel>
 <channel>
      <cname>Encyclo</cname>
-     <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/30.png</imageurl>
+     <imageurl>http://www.lyngsat-logo.com/hires/ee/encyclo_fr.png</imageurl>
      <enabled>True</enabled>
      <assignedcategory>
      <category>doc</category>
@@ -389,7 +405,7 @@
 </channel>
 <channel>
      <cname>ABMoteurs</cname>
-     <imageurl>https://pbs.twimg.com/profile_images/3032184642/26438ec87257fff4ec84c1fec44d5ecc.jpeg</imageurl>
+     <imageurl>http://www.lyngsat-logo.com/hires/aa/ab_moteurs.png</imageurl>
      <enabled>True</enabled>
      <assignedcategory>
      <category>sports</category>
@@ -398,7 +414,7 @@
 </channel>
 <channel>
      <cname>Animaux</cname>
-     <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/28.png</imageurl>
+     <imageurl>http://www.lyngsat-logo.com/hires/aa/animaux.png</imageurl>
      <enabled>True</enabled>
      <assignedcategory>
      <category>doc</category>
@@ -432,7 +448,7 @@
 </channel>
 <channel>
      <cname>RTL 9</cname>
-     <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/521.png</imageurl>
+     <imageurl>http://www.lyngsat-logo.com/hires/rr/rtl9.png</imageurl>
      <enabled>True</enabled>
      <assignedcategory>
 	 <category>french</category>
@@ -467,7 +483,7 @@
 </channel>
 <channel>
      <cname>Histoire</cname>
-     <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/475.png</imageurl>
+     <imageurl>http://www.lyngsat-logo.com/hires/hh/histoire_fr.png</imageurl>
      <enabled>True</enabled>
      <assignedcategory>
      <category>doc</category>
@@ -2815,7 +2831,7 @@
 
   <channel>
         <cname>TMC</cname>
-        <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/15.png</imageurl>
+        <imageurl>http://www.lyngsat-logo.com/hires/tt/tmc_mc.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>french</category>
@@ -2824,7 +2840,7 @@
 
     <channel>
         <cname>W9</cname>
-        <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/14.png</imageurl>
+        <imageurl>http://www.lyngsat-logo.com/hires/ww/w9_fr.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>french</category>
@@ -2833,7 +2849,7 @@
 
     <channel>
         <cname>NT1</cname>
-        <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/16.png</imageurl>
+        <imageurl>http://www.lyngsat-logo.com/hires/nn/nt1.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>french</category>
@@ -2842,7 +2858,7 @@
 
     <channel>
         <cname>NRJ 12</cname>
-        <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/17.png</imageurl>
+        <imageurl>http://www.lyngsat-logo.com/hires/nn/nrj12.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>french</category>
@@ -4778,7 +4794,7 @@
 
     <channel>
         <cname>TF1</cname>
-        <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/2.png</imageurl>
+        <imageurl>http://www.lyngsat-logo.com/hires/tt/tf1.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>french</category>
