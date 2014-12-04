@@ -808,7 +808,7 @@
 	</item>
 </streaminginfo>
 <streaminginfo>
-	<cname>Noursat</cname>
+	<cname>NoursatAlShabab</cname>
 	<item>
 		<title>Low</title>
 		<link>http://8.21.48.26:7777/NourAlShabab.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
@@ -1987,7 +1987,7 @@
 	</item>
 </streaminginfo>
 <streaminginfo>
-	<cname>Noursat</cname>
+	<cname>NoursatAlShabab</cname>
 	<item>
 		<title>Med</title>
 		<link>http://38.99.146.36:7777/NourAlShabab_Med.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
@@ -3894,7 +3894,7 @@
 	</item>
 </streaminginfo>
 <streaminginfo>
-	<cname>Noursat</cname>
+	<cname>NoursatAlShabab</cname>
 	<item>
 		<title>HD</title>
 		<link>http://38.99.146.37:7777/NourAlShabab_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>

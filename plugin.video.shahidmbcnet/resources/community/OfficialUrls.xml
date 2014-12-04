@@ -1,5 +1,67 @@
 <streamingInfos>
-
+<streaminginfo>
+	<cname>Noursat</cname>
+	<item>
+		<title>noursat.tv</title>
+		<link>rtmp://fl1.viastreaming.net/noursat/ playpath=livestream swfUrl=http://www.noursat.tv/ar/player.swf live=true timeout=15 pageUrl=http://noursat.tv/channels2/en/live.php?id=2</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>NoursatAlShabab</cname>
+	<item>
+		<title>noursat.tv</title>
+		<link>rtmp://fl1.viastreaming.net/nouralchabab/ playpath=livestream swfUrl=http://www.noursat.tv/ar/player.swf live=true timeout=15 pageUrl=http://noursat.tv/channels2/en/live.php?id=3</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>NoursatAlsharq</cname>
+	<item>
+		<title>noursat.tv</title>
+		<link>rtmp://fl1.viastreaming.net/nouralshark/ playpath=livestream swfUrl=http://www.noursat.tv/ar/player.swf live=true timeout=15 pageUrl=http://noursat.tv/channels2/en/live.php?id=4</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>NoursatAlkalima</cname>
+	<item>
+		<title>noursat.tv</title>
+		<link>rtmp://fl1.viastreaming.net/nouralkalima/ playpath=livestream swfUrl=http://www.noursat.tv/ar/player.swf live=true timeout=15 pageUrl=http://noursat.tv/channels2/en/live.php?id=5</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Noursatkids</cname>
+	<item>
+		<title>noursat.tv</title>
+		<link>rtmp://fl1.viastreaming.net/nourkids/ playpath=livestream swfUrl=http://www.noursat.tv/ar/player.swf live=true timeout=15 pageUrl=http://noursat.tv/channels2/en/live.php?id=6</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>NoursatAlkoddass</cname>
+	<item>
+		<title>noursat.tv</title>
+		<link>rtmp://fl1.viastreaming.net/nourelkoddass/ playpath=livestream swfUrl=http://www.noursat.tv/ar/player.swf live=true timeout=15 pageUrl=http://noursat.tv/channels2/en/live.php?id=7</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Noursatmusic</cname>
+	<item>
+		<title>noursat.tv</title>
+		<link>rtmp://fl1.viastreaming.net/nourmusic/ playpath=livestream swfUrl=http://www.noursat.tv/ar/player.swf live=true timeout=15 pageUrl=http://noursat.tv/channels2/en/live.php?id=8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Noursatmariam</cname>
+	<item>
+		<title>noursat.tv</title>
+		<link>rtmp://fl1.viastreaming.net/mariam/ playpath=livestream swfUrl=http://www.noursat.tv/ar/player.swf live=true timeout=15 pageUrl=http://noursat.tv/channels2/en/live.php?id=9</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Noursatspirit</cname>
+	<item>
+		<title>noursat.tv</title>
+		<link>rtmp://fl1.viastreaming.net/nourspirit/ playpath=livestream swfUrl=http://www.noursat.tv/ar/player.swf live=true timeout=15 pageUrl=http://noursat.tv/channels2/en/live.php?id=10</link>
+	</item>
+</streaminginfo>
 <streaminginfo>
     <cname>Selah</cname>
 	<item>

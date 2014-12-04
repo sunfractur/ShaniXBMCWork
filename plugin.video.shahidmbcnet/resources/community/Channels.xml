@@ -4523,6 +4523,71 @@
             <category>christ</category>
         </assignedcategory>
     </channel>
+	 <channel>
+        <cname>NoursatAlsharq</cname>
+        <imageurl>http://noursat.tv/mediafiles/channels/sharq-logo.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>christ</category>
+        </assignedcategory>
+    </channel>
+	<channel>
+        <cname>NoursatAlShabab</cname>
+        <imageurl>http://noursat.tv/mediafiles/channels/shabab-logo.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>christ</category>
+        </assignedcategory>
+    </channel>
+	<channel>
+        <cname>NoursatAlkalima</cname>
+        <imageurl>http://noursat.tv/mediafiles/channels/kalima-logo.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>christ</category>
+        </assignedcategory>
+    </channel>
+	<channel>
+        <cname>Noursatkids</cname>
+        <imageurl>http://noursat.tv/mediafiles/channels/kids-logo.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>christ</category>
+        </assignedcategory>
+    </channel>
+	<channel>
+        <cname>NoursatAlkoddass</cname>
+        <imageurl>http://noursat.tv/mediafiles/channels/koddass-logo.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>christ</category>
+        </assignedcategory>
+    </channel>
+	<channel>
+        <cname>Noursatmusic</cname>
+        <imageurl>http://noursat.tv/mediafiles/channels/music-logo.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>christ</category>
+        </assignedcategory>
+    </channel>
+	<channel>
+        <cname>Noursatmariam</cname>
+        <imageurl>http://noursat.tv/mediafiles/channels/mariam-logo.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>christ</category>
+        </assignedcategory>
+    </channel>
+	<channel>
+        <cname>Noursatspirit</cname>
+        <imageurl>http://noursat.tv/mediafiles/channels/spirit-logo.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>christ</category>
+        </assignedcategory>
+    </channel>
+	
 
     <channel>
         <cname>OTV Lebanon</cname>
