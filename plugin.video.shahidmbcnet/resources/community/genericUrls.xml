@@ -37,7 +37,7 @@
 	<cname>CafeCreme 4</cname>
 	<item>
 	<title>Chaine 4</title>
-	<link>rtmp://85.159.237.249:1935/live4/_definst_ playpath=live4  swfUrl=http://cafe-creme.ws/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://cafe-creme.ws timeout=15</link>
+	<link>rtmp://85.159.237.249:1935/kiki4/_definst_ playpath=kiki4  swfUrl=http://cafe-creme.ws/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://cafe-creme.ws timeout=15</link>
 	</item>
 </streaminginfo>
 <streaminginfo>
