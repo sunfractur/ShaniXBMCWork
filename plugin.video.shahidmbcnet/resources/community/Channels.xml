@@ -1,6 +1,14 @@
 <channels>
 
 <channel>
+	<cname>Ghenwaty</cname>
+	<imageurl></imageurl>
+	<enabled>True</enabled>
+	<assignedcategory>
+	<category>music</category>
+	</assignedcategory>
+</channel>
+<channel>
 	<cname>Selah</cname>
 	<imageurl>http://selahtv.tv/file/2014/09/sela-logo.gif</imageurl>
 	<enabled>True</enabled>
