@@ -67,3 +67,5 @@ B]Version 3.0.2[/B]
 - Added Sky sports and few test channels
 B]Version 3.0.3[/B]
 - some tweaks
+B]Version 3.0.4[/B]
+- update v2 links

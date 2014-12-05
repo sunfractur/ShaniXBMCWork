@@ -189,8 +189,8 @@ def AddChannelsFromOthers():
 
 ##other v2
     match.append((base64.b64decode('U2tpIFNwb3J0IDEgVjI='),'manual',base64.b64decode('aHR0cDovL2FjYWJzdy5kb2lwdHYuY29tL3NreV9zcG9ydF8xL3BsYXlsaXN0Lm0zdTh8VXNlci1BZ2VudD1MYXZmNTMuMzIuMTAw')))
-    match.append((base64.b64decode('U2tpIFNwb3J0IDIgVjI='),'manual',base64.b64decode('aHR0cDovL2FjYWJzdy5kb2lwdHYuY29tL3NreV9zcG9ydF8yL3BsYXlsaXN0Lm0zdTh8VXNlci1BZ2VudD1MYXZmNTMuMzIuMT')))
-    match.append((base64.b64decode('U2tpIFNwb3J0IDMgVjI='),'manual',base64.b64decode('aHR0cDovL2FjYWJzdy5kb2lwdHYuY29tL3NreV9zcG9ydF8zL3BsYXlsaXN0Lm0zdTh8VXNlci1BZ2VudD1MYXZmNTMuMzIuMTAw')))
+    match.append((base64.b64decode('U2tpIFNwb3J0IDIgVjI='),'manual',base64.b64decode('aHR0cDovL2FjYWJzdy5kb2lwdHYuY29tL3NreV9zcG9ydF8yL3BsYXlsaXN0Lm0zdTh8VXNlci1BZ2VudD1MYXZmNTMuMzIuMTAw')))
+    match.append((base64.b64decode('U2tpIFNwb3J0IDMgVjI='),'manual',base64.b64decode('aHR0cDovL2FjYWJzdy5kb2lwdHYuY29tL3NreV9zcG9ydF8yL3BsYXlsaXN0Lm0zdTh8VXNlci1BZ2VudD1MYXZmNTMuMzIuMTAw')))
     match.append((base64.b64decode('U2tpIFNwb3J0IDQgVjI='),'manual',base64.b64decode('aHR0cDovL2FjYWJzdy5kb2lwdHYuY29tL3NreV9zcG9ydF80L3BsYXlsaXN0Lm0zdTh8VXNlci1BZ2VudD1MYXZmNTMuMzIuMTAw')))
     match.append((base64.b64decode('U2tpIFNwb3J0IDUgVjI='),'manual',base64.b64decode('aHR0cDovL2FjYWJzdy5kb2lwdHYuY29tL3NreV9zcG9ydF81L3BsYXlsaXN0Lm0zdTh8VXNlci1BZ2VudD1MYXZmNTMuMzIuMTAw')))
     match.append((base64.b64decode('U2tpIFNwb3J0IEYxIFYy'),'manual',base64.b64decode('aHR0cDovL2FjYWJzdy5kb2lwdHYuY29tL3NreV9zcG9ydF9mMS9wbGF5bGlzdC5tM3U4fFVzZXItQWdlbnQ9TGF2ZjUzLjMyLjEwMA==')))
