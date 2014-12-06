@@ -34,6 +34,7 @@ from urllib import *
 import urlparse
 from f4mDownloader import F4MDownloader
 from interalSimpleDownloader import interalSimpleDownloader
+from hlsDownloader import HLSDownloader
 import xbmc
 import thread
 import zlib
@@ -85,9 +86,11 @@ class MyHandler(BaseHTTPRequestHandler):
                 return
 
 
-            (url,proxy,use_proxy_for_chunks,maxbitrate,simpledownloader, auth)=self.decode_url(request_path)
+            (url,proxy,use_proxy_for_chunks,maxbitrate,simpledownloader, auth,streamtype)=self.decode_url(request_path)
             print 'simpledownloaderxxxxxxxxxxxxxxx',simpledownloader
-            if not simpledownloader:
+            if streamtype=='' or streamtype==None or streamtype=='none': streamtype='HDS'
+            
+            if streamtype=='HDS':
 
                 print 'Url received at proxy',url,proxy,use_proxy_for_chunks,maxbitrate
 
@@ -160,9 +163,19 @@ class MyHandler(BaseHTTPRequestHandler):
                     self.send_header("Content-Type", rtype)
                     srange=None
                     
-            else:
+            elif streamtype=='SIMPLE' or simpledownloader :
                 downloader=interalSimpleDownloader();
                 if not downloader.init(self.wfile,url,proxy,g_stopEvent,maxbitrate):
+                    print 'cannot init'
+                    return
+                srange,framgementToSend=(None,None)
+                self.send_response(200)
+                rtype="flv-application/octet-stream"  #default type could have gone to the server to get it.
+                self.send_header("Content-Type", rtype)
+                srange=None
+            elif streamtype=='HLS' or simpledownloader :
+                downloader=HLSDownloader()
+                if not downloader.init(self.wfile,url,proxy,use_proxy_for_chunks,g_stopEvent,maxbitrate,auth):
                     print 'cannot init'
                     return
                     
@@ -194,7 +207,8 @@ class MyHandler(BaseHTTPRequestHandler):
         except:
             #Print out a stack trace
             traceback.print_exc()
-
+            g_stopEvent.set()
+            self.send_response(404)
             #Close output stream file
             self.wfile.close()
             return
@@ -267,8 +281,12 @@ class MyHandler(BaseHTTPRequestHandler):
             else:
                 simpledownloader=False
         except: pass
-        
-        return (received_url,proxy,use_proxy_for_chunks,maxbitrate,simpledownloader,auth)   
+        streamtype='HDS'
+        try:
+            streamtype =  params['streamtype'][0]#            
+        except: pass 
+        if streamtype=='None' and streamtype=='': streamtype='HDS'
+        return (received_url,proxy,use_proxy_for_chunks,maxbitrate,simpledownloader,auth,streamtype)   
     """
    Sends the requested file and add additional headers.
    """
@@ -314,16 +332,16 @@ class f4mProxy():
             httpd.handle_request()
         httpd.server_close()
         print "XBMCLocalProxy Stops %s:%s" % (HOST_NAME, port)
-    def prepare_url(self,url,proxy=None, use_proxy_for_chunks=True,port=PORT_NUMBER, maxbitrate=0,simpleDownloader=False,auth=None):
+    def prepare_url(self,url,proxy=None, use_proxy_for_chunks=True,port=PORT_NUMBER, maxbitrate=0,simpleDownloader=False,auth=None, streamtype='HDS'):
         global PORT_NUMBER
         global PORT_NUMBER
-        newurl=urllib.urlencode({'url': url,'proxy':proxy,'use_proxy_for_chunks':use_proxy_for_chunks,'maxbitrate':maxbitrate,'simpledownloader':simpleDownloader,'auth':auth})
+        newurl=urllib.urlencode({'url': url,'proxy':proxy,'use_proxy_for_chunks':use_proxy_for_chunks,'maxbitrate':maxbitrate,'simpledownloader':simpleDownloader,'auth':auth,'streamtype':streamtype})
         link = 'http://'+HOST_NAME+(':%s/'%str(port)) + newurl
         return (link) #make a url that caller then call load into player
 
 class f4mProxyHelper():
 
-    def playF4mLink(self,url,name,proxy=None,use_proxy_for_chunks=False, maxbitrate=0, simpleDownloader=False, auth=None):
+    def playF4mLink(self,url,name,proxy=None,use_proxy_for_chunks=False, maxbitrate=0, simpleDownloader=False, auth=None, streamtype='HDS'):
         print "URL: " + url
         stopPlaying=threading.Event()
         progress = xbmcgui.DialogProgress()
@@ -338,7 +356,7 @@ class f4mProxyHelper():
         progress.update( 20, "", 'Loading local proxy', "" )
         xbmc.sleep(stream_delay*1000)
         progress.update( 100, "", 'Loading local proxy', "" )
-        url_to_play=f4m_proxy.prepare_url(url,proxy,use_proxy_for_chunks,maxbitrate=maxbitrate,simpleDownloader=simpleDownloader,auth=auth)
+        url_to_play=f4m_proxy.prepare_url(url,proxy,use_proxy_for_chunks,maxbitrate=maxbitrate,simpleDownloader=simpleDownloader,auth=auth, streamtype=streamtype)
         mplayer = MyPlayer()    
         mplayer.stopPlaying = stopPlaying
         progress.close() 
@@ -361,7 +379,7 @@ class f4mProxyHelper():
         print 'Job done'
         return
         
-    def start_proxy(self,url,name,proxy=None,use_proxy_for_chunks=False, maxbitrate=0,simpleDownloader=False,auth=None):
+    def start_proxy(self,url,name,proxy=None,use_proxy_for_chunks=False, maxbitrate=0,simpleDownloader=False,auth=None,streamtype='HDS'):
         print "URL: " + url
         stopPlaying=threading.Event()
         f4m_proxy=f4mProxy()
@@ -369,7 +387,7 @@ class f4mProxyHelper():
         runningthread=thread.start_new_thread(f4m_proxy.start,(stopPlaying,))
         stream_delay = 1
         xbmc.sleep(stream_delay*1000)
-        url_to_play=f4m_proxy.prepare_url(url,proxy,use_proxy_for_chunks,maxbitrate=maxbitrate,simpleDownloader=simpleDownloader,auth=auth)
+        url_to_play=f4m_proxy.prepare_url(url,proxy,use_proxy_for_chunks,maxbitrate=maxbitrate,simpleDownloader=simpleDownloader,auth=auth,streamtype=streamtype)
         return url_to_play, stopPlaying
 
 
