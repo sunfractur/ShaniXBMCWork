@@ -65,195 +65,64 @@
 	<cname>CafeCreme 8</cname>
 	<item>
 		<title>Chaine 8</title>
-		<link>$doregex[get-rtmp] app=vod/?token=play@$doregex[get-token] playpath=pentiumstream_8mytduu swfUrl=http://cafe-creme.ws/jwplayer/jwplayer.flash.swf pageUrl=$doregex[get-iframe] timeout=15</link> 
-		<regex>
-		<name>get-rtmp</name>
-		<expres>(.*)\/re</expres>
-		<page>$doregex[get-decrypted-ssx4]</page>
-		</regex>
-
-        <regex>
-        <name>get-token</name>
-        <expres>@(.*)</expres>
-        <page>$doregex[get-decrypted-ssx4]</page>
-        </regex>
-
-        <regex>
-        <name>get-decrypted-ssx4</name>
-        <expres>$pyFunction:base64.b64decode("$doregex[get-encrypted-ssx4]")</expres>
-        <page></page>
-        </regex>
-
-        <regex>
-        <name>get-encrypted-ssx4</name>
-        <expres>ssx4" value="(.*)"</expres>
-        <page>$doregex[get-iframe]</page>
-        </regex>
-
-        <regex>
-        <name>get-iframe</name>
-        <expres>src="(.*?)\"</expres>
-        <page>http://www.dinozap.info/redirect/channel.php?id=114&amp;width=680&amp;height=390&amp;autostart=true</page>
-        <referer>http://www.dinozap.info/?id=114</referer>
-        <x-forward>77.132.237.189</x-forward>
-        </regex>
-		
+		<link>rtmp://$doregex[get-rtmp]/live playpath=defelkil?id=218184 conn=S:OK swfUrl=http://www.mips.tv/content/scripts/fplayer.swf pageUrl=http://www.mips.tv/embedplayer/defelkil/1/640/460 live=1 timeout=15</link>
+	            <regex>
+	         	<name>get-rtmp</name>
+		        <expres>redirect=(.*)</expres>
+		        <page>http://www.mips.tv:1935/loadbalancer?218184</page>
+		        <referer>http://www.mips.tv/embedplayer/defelkil/1/850/500</referer>
+	            </regex>
 		</item>
 </streaminginfo>
 <streaminginfo>
 	<cname>CafeCreme 9</cname>
 	<item>
 		<title>Chaine 9</title>
-		<link>$doregex[get-rtmp] app=vod/?token=play@$doregex[get-token] playpath=tuche68_8mpb73f swfUrl=http://cafe-creme.ws/jwplayer/jwplayer.flash.swf pageUrl=$doregex[get-iframe] timeout=15</link> 
-		<regex>
-		<name>get-rtmp</name>
-		<expres>(.*)\/re</expres>
-		<page>$doregex[get-decrypted-ssx4]</page>
-		</regex>
-
-        <regex>
-        <name>get-token</name>
-        <expres>@(.*)</expres>
-        <page>$doregex[get-decrypted-ssx4]</page>
-        </regex>
-
-        <regex>
-        <name>get-decrypted-ssx4</name>
-        <expres>$pyFunction:base64.b64decode("$doregex[get-encrypted-ssx4]")</expres>
-        <page></page>
-        </regex>
-
-        <regex>
-        <name>get-encrypted-ssx4</name>
-        <expres>ssx4" value="(.*)"</expres>
-        <page>$doregex[get-iframe]</page>
-        </regex>
-
-        <regex>
-        <name>get-iframe</name>
-        <expres>src="(.*?)\"</expres>
-        <page>http://www.dinozap.info/redirect/channel.php?id=114&amp;width=680&amp;height=390&amp;autostart=true</page>
-        <referer>http://www.dinozap.info/?id=114</referer>
-        <x-forward>77.132.237.189</x-forward>
-        </regex>
-		
+		<link>rtmp://$doregex[get-rtmp]/live playpath=achrfsdd?id=218376 conn=S:OK swfUrl=http://www.mips.tv/content/scripts/fplayer.swf pageUrl=http://www.mips.tv/embedplayer/achrfsdd/1/640/460 live=1 timeout=15</link>
+	            <regex>
+	         	<name>get-rtmp</name>
+		        <expres>redirect=(.*)</expres>
+		        <page>http://www.mips.tv:1935/loadbalancer?218376</page>
+		        <referer>http://www.mips.tv/embedplayer/achrfsdd/1/850/500</referer>
+	            </regex>		
 		</item>
 </streaminginfo>
 <streaminginfo>
 	<cname>CafeCreme 10</cname>
 	<item>
 		<title>Chaine 10</title>
-		<link>$doregex[get-rtmp] app=vod/?token=play@$doregex[get-token] playpath=Jackie_8mpiprb swfUrl=http://cafe-creme.ws/jwplayer/jwplayer.flash.swf pageUrl=$doregex[get-iframe] timeout=15</link>
-		<regex>
-		<name>get-rtmp</name>
-		<expres>(.*)\/re</expres>
-		<page>$doregex[get-decrypted-ssx4]</page>
-		</regex>
-
-        <regex>
-        <name>get-token</name>
-        <expres>@(.*)</expres>
-        <page>$doregex[get-decrypted-ssx4]</page>
-        </regex>
-
-        <regex>
-        <name>get-decrypted-ssx4</name>
-        <expres>$pyFunction:base64.b64decode("$doregex[get-encrypted-ssx4]")</expres>
-        <page></page>
-        </regex>
-
-        <regex>
-        <name>get-encrypted-ssx4</name>
-        <expres>ssx4" value="(.*)"</expres>
-        <page>$doregex[get-iframe]</page>
-        </regex>
-
-        <regex>
-        <name>get-iframe</name>
-        <expres>src="(.*?)\"</expres>
-        <page>http://www.dinozap.info/redirect/channel.php?id=114&amp;width=680&amp;height=390&amp;autostart=true</page>
-        <referer>http://www.dinozap.info/?id=114</referer>
-        <x-forward>77.132.237.189</x-forward>
-        </regex>
-		
+		<link>rtmp://$doregex[get-rtmp]/live playpath=simosat68?id=218376 conn=S:OK swfUrl=http://www.mips.tv/content/scripts/fplayer.swf pageUrl=http://www.mips.tv/embedplayer/simosat68/1/640/460 live=1 timeout=15</link>
+	            <regex>
+	         	<name>get-rtmp</name>
+		        <expres>redirect=(.*)</expres>
+		        <page>http://www.mips.tv:1935/loadbalancer?218376</page>
+		        <referer>http://www.mips.tv/embedplayer/simosat68/1/850/500</referer>
+	            </regex>
 		</item>
 </streaminginfo>
 <streaminginfo>
 	<cname>CafeCreme 11</cname>
 	<item>
-		<title>Chaine 11</title>
-		<link>$doregex[get-rtmp] app=vod/?token=play@$doregex[get-token] playpath=kam19_8mpe5mb swfUrl=http://cafe-creme.ws/jwplayer/jwplayer.flash.swf pageUrl=$doregex[get-iframe] timeout=15</link>
-		<regex>
-		<name>get-rtmp</name>
-		<expres>(.*)\/re</expres>
-		<page>$doregex[get-decrypted-ssx4]</page>
-		</regex>
-
-        <regex>
-        <name>get-token</name>
-        <expres>@(.*)</expres>
-        <page>$doregex[get-decrypted-ssx4]</page>
-        </regex>
-
-        <regex>
-        <name>get-decrypted-ssx4</name>
-        <expres>$pyFunction:base64.b64decode("$doregex[get-encrypted-ssx4]")</expres>
-        <page></page>
-        </regex>
-
-        <regex>
-        <name>get-encrypted-ssx4</name>
-        <expres>ssx4" value="(.*)"</expres>
-        <page>$doregex[get-iframe]</page>
-        </regex>
-
-        <regex>
-        <name>get-iframe</name>
-        <expres>src="(.*?)\"</expres>
-        <page>http://www.dinozap.info/redirect/channel.php?id=114&amp;width=680&amp;height=390&amp;autostart=true</page>
-        <referer>http://www.dinozap.info/?id=114</referer>
-        <x-forward>77.132.237.189</x-forward>
-        </regex>
-		
+		<link>rtmp://$doregex[get-rtmp]/live playpath=amir19?id=218181 conn=S:OK swfUrl=http://www.mips.tv/content/scripts/fplayer.swf pageUrl=http://www.mips.tv/embedplayer/amir19/1/640/460 live=1 timeout=15</link>
+	            <regex>
+	         	<name>get-rtmp</name>
+		        <expres>redirect=(.*)</expres>
+		        <page>http://www.mips.tv:1935/loadbalancer?218181</page>
+		        <referer>http://www.mips.tv/embedplayer/amir19/1/850/500</referer>
+	            </regex>
 		</item>
 </streaminginfo>
 <streaminginfo>
 	<cname>CafeCreme 12</cname>
 	<item>
 		<title>Chaine 12</title>
-		<link>$doregex[get-rtmp] app=vod/?token=play@$doregex[get-token] playpath=CafeCh1_8moqiij swfUrl=http://cafe-creme.ws/jwplayer/jwplayer.flash.swf pageUrl=$doregex[get-iframe] timeout=15</link>
-		<regex>
-		<name>get-rtmp</name>
-		<expres>(.*)\/re</expres>
-		<page>$doregex[get-decrypted-ssx4]</page>
-		</regex>
-
-        <regex>
-        <name>get-token</name>
-        <expres>@(.*)</expres>
-        <page>$doregex[get-decrypted-ssx4]</page>
-        </regex>
-
-        <regex>
-        <name>get-decrypted-ssx4</name>
-        <expres>$pyFunction:base64.b64decode("$doregex[get-encrypted-ssx4]")</expres>
-        <page></page>
-        </regex>
-
-        <regex>
-        <name>get-encrypted-ssx4</name>
-        <expres>ssx4" value="(.*)"</expres>
-        <page>$doregex[get-iframe]</page>
-        </regex>
-
-        <regex>
-        <name>get-iframe</name>
-        <expres>src="(.*?)\"</expres>
-        <page>http://www.dinozap.info/redirect/channel.php?id=114&amp;width=680&amp;height=390&amp;autostart=true</page>
-        <referer>http://www.dinozap.info/?id=114</referer>
-        <x-forward>77.132.237.189</x-forward>
-        </regex>
-		
+		<link>rtmp://$doregex[get-rtmp]/live playpath=kasixidfifff?id=218181 conn=S:OK swfUrl=http://www.mips.tv/content/scripts/fplayer.swf pageUrl=http://www.mips.tv/embedplayer/kasixidfifff/1/640/460 live=1 timeout=15</link>
+	            <regex>
+	         	<name>get-rtmp</name>
+		        <expres>redirect=(.*)</expres>
+		        <page>http://www.mips.tv:1935/loadbalancer?218181</page>
+		        <referer>http://www.mips.tv/embedplayer/kasixidfifff/1/850/500</referer>
+	            </regex>
 		</item>
 </streaminginfo>
 
