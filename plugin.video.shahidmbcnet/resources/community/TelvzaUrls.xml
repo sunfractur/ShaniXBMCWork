@@ -4232,67 +4232,7 @@
 	</item>
 </streaminginfo>
 	
-            
-<streaminginfo>
-	<cname>Bein Sport 1</cname>
-	<item>
-	<title>osn-sports-1-hd</title>
-	<link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/osn-sports-1-hd timeout=20</link>
-	<regex>
-	<name>get-rtmp</name>
-	<expres> file: "(.*?)"</expres>
-	<page>http://www.telvza-online.com/osn-sports-1-hd</page>
-	<cookieJar>$doregex[getsession]</cookieJar>
-	</regex>
-	<regex>
-	<name>getsession</name>
-	<expres></expres>
-	<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
-	<cookieJar></cookieJar>
-	</regex>
-	</item>
-</streaminginfo>
- 
-<streaminginfo>
-	<cname>Bein Sport 2</cname>
-	<item>
-	<title>osn-sports-2-hd</title>
-	<link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/osn-sports-2-hd timeout=20</link>
-	<regex>
-	<name>get-rtmp</name>
-	<expres> file: "(.*?)"</expres>
-	<page>http://www.telvza-online.com/osn-sports-2-hd</page>
-	<cookieJar>$doregex[getsession]</cookieJar>
-	</regex>
-	<regex>
-	<name>getsession</name>
-	<expres></expres>
-	<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
-	<cookieJar></cookieJar>
-	</regex>
-	</item>
-</streaminginfo>
-        
-<streaminginfo>
-	<cname>Bein Sport 3</cname>
-	<item>
-	<title>osn-sports-3-hd</title>
-	<link>$doregex[get-rtmp] flashver=WIN\2013.0.0.214 pageUrl=http://www.telvza-online.com/osn-sports-3-hd timeout=20</link>
-	<regex>
-	<name>get-rtmp</name>
-	<expres> file: "(.*?)"</expres>
-	<page>http://www.telvza-online.com/osn-sports-3-hd</page>
-	<cookieJar>$doregex[getsession]</cookieJar>
-	</regex>
-	<regex>
-	<name>getsession</name>
-	<expres></expres>
-	<page>http://www.telvza-online.com/drupalchat/auth?t=$epoctime$</page>
-	<cookieJar></cookieJar>
-	</regex>
-	</item>
-</streaminginfo>
-	
+ 	
  
 <streaminginfo>
 	<cname>OSN Yahala HD</cname>
