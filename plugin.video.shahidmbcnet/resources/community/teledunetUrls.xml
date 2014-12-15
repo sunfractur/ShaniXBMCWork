@@ -1,4 +1,11 @@
 <streamingInfos>
+
+<streaminginfo><cname>Telvza TV</cname><url>telvza_tv</url></streaminginfo>
+<streaminginfo><cname>Moga Comedy</cname><url>moga_comedy</url></streaminginfo>
+<streaminginfo><cname>Tounesna</cname><url>tounesna</url></streaminginfo>
+<streaminginfo><cname>Massaya</cname><url>massaya</url></streaminginfo>
+<streaminginfo><cname>Abu Dhabi Emirates</cname><url>abu_dhabi_emarat</url></streaminginfo>
+<streaminginfo><cname>iFilm Arabic</cname><url>ifilm</url></streaminginfo>
 <streaminginfo><cname>Ghenwaty</cname><url>ghenwaty</url></streaminginfo>
 <streaminginfo><cname>Melody</cname><url>melody</url></streaminginfo>
 <streaminginfo><cname>Top Movies</cname><url>top_movies</url></streaminginfo>
@@ -72,6 +79,16 @@
 <streaminginfo><cname>Bein Sport 3</cname><title>Low</title><url>bein_sport_3_low</url></streaminginfo>
 <streaminginfo><cname>Bein Sport 4</cname><title>Low</title><url>bein_sport_4_low</url></streaminginfo>
 <streaminginfo><cname>Bein Sport 5</cname><title>Low</title><url>bein_sport_5_low</url></streaminginfo>
+<streaminginfo><cname>Bein Sport 6</cname><title>Low</title><url>bein_sport_6_low</url></streaminginfo>
+<streaminginfo><cname>Bein Sport 7</cname><title>Low</title><url>bein_sport_7_low</url></streaminginfo>
+<streaminginfo><cname>Bein Sport 8</cname><title>Low</title><url>bein_sport_8_low</url></streaminginfo>
+<streaminginfo><cname>Bein Sport 9</cname><title>Low</title><url>bein_sport_9_low</url></streaminginfo>
+<streaminginfo><cname>Bein Sport 10</cname><title>Low</title><url>bein_sport_10_low</url></streaminginfo>
+<streaminginfo><cname>Bein Sport 11</cname><title>Low</title><url>bein_sport_11_low</url></streaminginfo>
+<streaminginfo><cname>Bein Sport 12</cname><title>Low</title><url>bein_sport_12_low</url></streaminginfo>
+<streaminginfo><cname>Bein Sport 13</cname><title>Low</title><url>bein_sport_13_low</url></streaminginfo>
+<streaminginfo><cname>Bein Sport 14</cname><title>Low</title><url>bein_sport_14_low</url></streaminginfo>
+<streaminginfo><cname>Bein Sport 15</cname><title>Low</title><url>bein_sport_15_low</url></streaminginfo>
 <streaminginfo><cname>Bein Sport 1</cname><url>bein_sport_1</url></streaminginfo>
 <streaminginfo><cname>Bein Sport 2</cname><url>bein_sport_2</url></streaminginfo>
 <streaminginfo><cname>Bein Sport 3</cname><url>bein_sport_3</url></streaminginfo>
