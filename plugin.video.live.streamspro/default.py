@@ -830,7 +830,13 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
                         if forCookieJarOnly:
                             return cookieJar# do nothing
                     elif m['page'] and  not m['page'].startswith('http'):
-                        link=m['page']
+                        if m['page'].startswith('$pyFunction:'):
+                            val=doEval(m['page'].split('$pyFunction:')[1],'',cookieJar )
+                            if forCookieJarOnly:
+                                return cookieJar# do nothing
+                            link=val
+                        else:
+                            link=m['page']
                 if '$pyFunction:playmedia(' in m['expre'] or  any(x in url for x in g_ignoreSetResolved):
                     setresolved=False
                 if  '$doregex' in m['expre']:
@@ -850,7 +856,7 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
 
                         val=doEval(m['expre'].split('$pyFunction:')[1],link,cookieJar )
 
-                        print 'url and val',url,val
+                        print 'url k val',url,k,val
 
                         url = url.replace("$doregex[" + k + "]", val)
                     else:
@@ -868,10 +874,10 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
                         if 'htmlunescape' in m:
                             #val=urllib.unquote_plus(val)
                             import HTMLParser
-                            val=HTMLParser.HTMLParser().unescape(val)
+                            val=HTMLParser.HTMLParser().unescape(val)                     
                         url = url.replace("$doregex[" + k + "]", val)
                         #return val
-                else:
+                else:           
                     url = url.replace("$doregex[" + k + "]",'')
         if '$epoctime$' in url:
             url=url.replace('$epoctime$',getEpocTime())

@@ -1,3 +1,6 @@
+Version 1.4.3
+support for clourdflare
+
 Version 1.4.2
 support for wat.tv token generation
 
