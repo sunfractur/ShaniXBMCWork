@@ -69,3 +69,5 @@ B]Version 3.0.3[/B]
 - some tweaks
 B]Version 3.0.4[/B]
 - update v2 links
+B]Version 3.0.5[/B]
+- Fixed new outlook of Zem, added support for ebound video

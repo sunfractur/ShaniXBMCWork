@@ -42,9 +42,10 @@ def addDir(name,url,mode,iconimage,showContext=False,showLiveContext=False,isItF
 		cmd2 = "XBMC.RunPlugin(%s&linkType=%s)" % (u, "LINK")
 		cmd3 = "XBMC.RunPlugin(%s&linkType=%s)" % (u, "Youtube")
 		cmd4 = "XBMC.RunPlugin(%s&linkType=%s)" % (u, "PLAYWIRE")
-		cmd5 = "XBMC.RunPlugin(%s&linkType=%s)" % (u, "ShowAll")
-
-		liz.addContextMenuItems([('Show All Sources',cmd5),('Play Playwire video',cmd4),('Play Youtube video',cmd3),('Play DailyMotion video',cmd1),('Play Tune.pk video',cmd2)])
+		cmd5 = "XBMC.RunPlugin(%s&linkType=%s)" % (u, "EBOUND")
+		cmd6 = "XBMC.RunPlugin(%s&linkType=%s)" % (u, "PLAYWIRE")
+		
+		liz.addContextMenuItems([('Show All Sources',cmd6),('Play Ebound video',cmd5),('Play Playwire video',cmd4),('Play Youtube video',cmd3),('Play DailyMotion video',cmd1),('Play Tune.pk video',cmd2)])
 	if linkType:
 		u="XBMC.RunPlugin(%s&linkType=%s)" % (u, linkType)
 		
@@ -484,17 +485,17 @@ def AddShows(Fromurl):
 #	match =re.findall('<div class=\"post-title\"><a href=\"(.*?)\".*<b>(.*)<\/b><\/a>', link, re.IGNORECASE)
 #	match =re.findall('<img src="(.*?)" alt=".*".+<\/a>\n*.+<div class="post-title"><a href="(.*?)".*<b>(.*)<\/b>', link, re.UNICODE)
 
-	match =re.findall('\/><noscript><img src=\"(.*?)\" alt=".*".+<\/a>\s*.+<div class="post-title"><a href="(.*?)".*<b>(.*)<\/b>', link, re.UNICODE)
+	match =re.findall('<div class="thumbnail">\s*<a href="(.*?)" title="(.*?)".*\s*.*src="(.*?)"', link, re.UNICODE)
 #	print Fromurl
 
 #	print match
 	h = HTMLParser.HTMLParser()
 
 	for cname in match:
-		addDir(h.unescape(cname[2]) ,cname[1] ,3,cname[0], True,isItFolder=False)
+		addDir(h.unescape(cname[1]) ,cname[0] ,3,cname[2], True,isItFolder=False)
 		
 #	<a href="http://www.zemtv.com/page/2/">&gt;</a></li>
-	match =re.findall('<a href="(.*)">&gt;<\/a><\/li>', link, re.IGNORECASE)
+	match =re.findall('<a class="nextpostslink" rel="next" href="(.*?)">', link, re.IGNORECASE)
 	
 	if len(match)==1:
 		addDir('Next Page' ,match[0] ,2,'',isItFolder=True)
@@ -546,7 +547,7 @@ def PlayShowLink ( url ):
 	print "LT link is" + linkType
 	# if linktype is not provided then use the defaultLinkType
 	
-	if linkType.upper()=="SHOWALL" or (linkType.upper()=="" and defaultLinkType=="4"):
+	if linkType.upper()=="SHOWALL" or (linkType.upper()=="" and defaultLinkType=="5"):
 		ShowAllSources(url,link)
 		return
 	if linkType.upper()=="DM" or (linkType=="" and defaultLinkType=="1"):
@@ -575,6 +576,47 @@ def PlayShowLink ( url ):
 		xbmcPlayer.play(playlist)
 		#xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, listitem)
 		#src="(.*?(dailymotion).*?)"
+	elif  linkType.upper()=="EBOUND"  or (linkType=="" and defaultLinkType=="4"):
+		line1 = "Playing Ebound Link"
+		xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
+		print "Eboundlink"
+		playURL= match =re.findall(' src=".*?ebound\\.tv.*?site=(.*?)&.*?date=(.*?)\\&', link)
+		if len(playURL)==0:
+			line1 = "EBound link not found"
+			xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
+			ShowAllSources(url,link)
+			return 
+
+		playURL=match[0]
+		dt=playURL[1]
+		clip=playURL[0]
+		urli='http://www.eboundservices.com/iframe/new/vod_ugc.php?stream=mp4:vod/%s/%s&width=620&height=350&clip=%s&day=%s&month=undefined'%(dt,clip,clip,dt)
+		#req = urllib2.Request(urli)
+		#req.add_header('User-Agent', 'Mozilla/5.0(iPad; U; CPU iPhone OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B314 Safari/531.21.10')
+		#response = urllib2.urlopen(req)
+		#link=response.read()
+		#response.close()
+		post = {'username':'hash'}
+		post = urllib.urlencode(post)
+		req = urllib2.Request('http://eboundservices.com/flashplayerhash/index.php')
+		req.add_header('User-Agent', 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36')
+		response = urllib2.urlopen(req,post)
+		link=response.read()
+		response.close()
+		strval =link;# match[0]
+
+		stream_url='rtmp://cdn.ebound.tv/vod playpath=mp4:vod/%s/%s app=vod?wmsAuthSign=%s swfurl=http://www.eboundservices.com/live/v6/player.swf?domain=www.zemtv.com&channel=%s&country=EU pageUrl=%s tcUrl=rtmp://cdn.ebound.tv/vod?wmsAuthSign=%s live=true timeout=15'	% (dt,clip,strval,clip,urli,strval)
+
+		print stream_url
+		playlist = xbmc.PlayList(1)
+		playlist.clear()
+		listitem = xbmcgui.ListItem(name, iconImage="DefaultVideo.png")
+		listitem.setInfo("Video", {"Title":name})
+		listitem.setProperty('mimetype', 'video/x-msvideo')
+		listitem.setProperty('IsPlayable', 'true')
+		playlist.add(stream_url,listitem)
+		xbmcPlayer = xbmc.Player(xbmc.PLAYER_CORE_AUTO)
+		xbmcPlayer.play(playlist)
 	elif  linkType.upper()=="LINK"  or (linkType=="" and defaultLinkType=="2"):
 		line1 = "Playing Tune.pk Link"
 		xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
@@ -604,20 +646,45 @@ def PlayShowLink ( url ):
 		xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
 		print "Playwire"
 		playURL =re.findall('src=".*?(playwire).*?data-publisher-id="(.*?)"\s*data-video-id="(.*?)"', link)
+		V=1
+		if len(playURL)==0:
+			playURL =re.findall('data-config="(.*?config.playwire.com.*?)"', link)
+			V=2
 		if len(playURL)==0:
 			line1 = "Playwire link not found"
 			xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
 			ShowAllSources(url,link)
 			return 
-		(playWireVar,PubId,videoID)=playURL[0]
-		cdnUrl="http://cdn.playwire.com/v2/%s/config/%s.json"%(PubId,videoID)
-		req = urllib2.Request(cdnUrl)
-		req.add_header('User-Agent', 'Mozilla/5.0(iPad; U; CPU iPhone OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B314 Safari/531.21.10')
-		response = urllib2.urlopen(req)
-		link=response.read()
-		response.close()
-		playURL ="http://cdn.playwire.com/%s/%s"%(PubId,re.findall('src":".*?mp4:(.*?)"', link)[0])
-		print 'playURL',playURL
+		if V==1:
+			(playWireVar,PubId,videoID)=playURL[0]
+			cdnUrl="http://cdn.playwire.com/v2/%s/config/%s.json"%(PubId,videoID)
+			req = urllib2.Request(cdnUrl)
+			req.add_header('User-Agent', 'Mozilla/5.0(iPad; U; CPU iPhone OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B314 Safari/531.21.10')
+			response = urllib2.urlopen(req)
+			link=response.read()
+			response.close()
+			playURL ="http://cdn.playwire.com/%s/%s"%(PubId,re.findall('src":".*?mp4:(.*?)"', link)[0])
+			print 'playURL',playURL
+		else:
+			playURL=playURL[0]
+			reg='media":\{"(.*?)":"(.*?)"'
+			req = urllib2.Request(playURL)
+			req.add_header('User-Agent', 'Mozilla/5.0(iPad; U; CPU iPhone OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B314 Safari/531.21.10')
+			response = urllib2.urlopen(req)
+			link=response.read()
+			playURL =re.findall(reg, link)
+			if len(playURL)>0:
+				playURL=playURL[0]
+				ty=playURL[0]
+				innerUrl=playURL[1]
+				print innerUrl
+				req = urllib2.Request(innerUrl)
+				req.add_header('User-Agent', 'Mozilla/5.0(iPad; U; CPU iPhone OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B314 Safari/531.21.10')
+				response = urllib2.urlopen(req)
+				link=response.read()
+				reg='baseURL>(.*?)<\/baseURL>\s*?<media url="(.*?)"'
+				playURL =re.findall(reg, link)[0]
+				playURL=playURL[0]+'/'+playURL[1]
 		playlist = xbmc.PlayList(1)
 		playlist.clear()
 		listitem = xbmcgui.ListItem(name, iconImage="DefaultVideo.png")
@@ -658,15 +725,20 @@ def ShowAllSources(url, loadedLink=None):
 		response.close()
 	available_source=[]
 	playURL =re.findall('src=".*?(playwire).*?data-publisher-id="(.*?)"\s*data-video-id="(.*?)"', link)
-#	def addDir(name,url,mode,iconimage,showContext=False,showLiveContext=False,isItFolder=True):
-#		cmd1 = "XBMC.RunPlugin(%s&linkType=%s)" % (u, "DM")
-#		cmd2 = "XBMC.RunPlugin(%s&linkType=%s)" % (u, "LINK")
-#		cmd3 = "XBMC.RunPlugin(%s&linkType=%s)" % (u, "Youtube")
-#		cmd4 = "XBMC.RunPlugin(%s&linkType=%s)" % (u, "PLAYWIRE")
 	print 'playURL',playURL
 	if not len(playURL)==0:
 		available_source.append('Playwire Source')
 
+	playURL =re.findall('data-config="(.*?config.playwire.com.*?)"', link)
+	print 'playURL',playURL
+	if not len(playURL)==0:
+		available_source.append('Playwire Source')
+
+	playURL =re.findall('src="(.*?ebound\\.tv.*?)"', link)
+	print 'playURL',playURL
+	if not len(playURL)==0:
+		available_source.append('Ebound Source')		
+		 
 	playURL= match =re.findall('src="(.*?(dailymotion).*?)"',link)
 	if not len(playURL)==0:
 		available_source.append('Daily Motion Source')
@@ -686,7 +758,6 @@ def ShowAllSources(url, loadedLink=None):
 			linkType=available_source[index].replace(' Source','').replace('Daily Motion','DM').upper()
 			print 'linkType',linkType
 			PlayShowLink(url);
-		
 
 def PlayLiveLink ( url ):
 	progress = xbmcgui.DialogProgress()
