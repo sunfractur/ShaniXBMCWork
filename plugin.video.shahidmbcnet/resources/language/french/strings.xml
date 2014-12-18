@@ -70,5 +70,8 @@
 	<string id="32073">Mot de passe GLArab</string>		
 	<string id="32074">Sélection du serveur</string>		
 	<string id="32075">Qualité</string>
-	
+	<string id="32077">GL Qualité haute</string>		
+	<string id="32078">GL Qualité moyenne</string>		
+	<string id="32079">GL Qualité basse</string>
+
 </strings>
