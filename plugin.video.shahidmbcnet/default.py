@@ -1854,6 +1854,7 @@ try:
 		PlayStream(url,name,mode);
 	elif mode==14 or mode==26: #add communutycats
 		print "Play url is "+url,mode
+		checkAndRefresh() 
 		addCommunityCats();
 	elif mode==15: #add communutycats
 		print "Play url is "+url,mode

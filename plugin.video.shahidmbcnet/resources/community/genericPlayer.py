@@ -660,20 +660,26 @@ def replaceGLArabVariables(link):
     try:
         GLArabUserName=selfAddon.getSetting( "GLArabUserName" )
         GLArabUserPwd=selfAddon.getSetting( "GLArabUserPwd" )
-        GLArabServer=selfAddon.getSetting( "GLArabServer" )
+        GLArabServerLOW=selfAddon.getSetting( "GLArabServerLOW" )
+        GLArabServerHD=selfAddon.getSetting( "GLArabServerHD" )
+        GLArabServerMED=selfAddon.getSetting( "GLArabServerMED" )
+
+        if GLArabServerLOW=="": GLArabServerLOW="38.99.146.42:7777"
+        if GLArabServerHD=="": GLArabServerHD="8.21.48.19:7777"
+        if GLArabServerMED=="": GLArabServerMED="38.99.146.36:7777"        
+
         GLArabQuality=selfAddon.getSetting( "GLArabQuality" )
         tryLogin=True
         if GLArabUserName=="" or GLArabUserPwd=="":
             tryLogin=False
             timeD = 2000  #in miliseconds
             line1="Login not defined, using default login and low quality"
-            GLArabServer="Low 38.99.146.43:7777"
             GLArabQuality=""
             xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, timeD, __icon__))
 
-        if GLArabServer=="": GLArabServer="Low 38.99.146.43:7777"
-        GLArabServer=GLArabServer.split(' ')[1]
-        GLArabQuality="" if GLArabQuality=="Low" or GLArabQuality=="" else '_'+GLArabQuality
+        #if GLArabServer=="": GLArabServer="Low 38.99.146.43:7777"
+        #GLArabServer=GLArabServer.split(' ')[1]
+        #GLArabQuality="" if GLArabQuality=="Low" or GLArabQuality=="" else '_'+GLArabQuality
         import cookielib
         cookieJar = cookielib.LWPCookieJar()
         #def getUrl(url, cookieJar=None,post=None, timeout=20, headers=None):
@@ -696,7 +702,9 @@ def replaceGLArabVariables(link):
         sessionpage=getUrl('http://www.glarab.com/ajax.aspx?stream=live&type=reg&ppoint=KuwaitSpace',cookieJar)
         print sessionpage
         sessionpage=sessionpage.split('|')[1]
-        link=link.replace('$GL-IP$',GLArabServer)
+        link=link.replace('$GL-IPLOW$',GLArabServerLOW)
+        link=link.replace('$GL-IPHD$',GLArabServerHD)
+        link=link.replace('$GL-IPMED$',GLArabServerMED)
         link=link.replace('$GL-Qlty$',GLArabQuality)
         link=link.replace('$GL-Sesession$',sessionpage)
         return link
