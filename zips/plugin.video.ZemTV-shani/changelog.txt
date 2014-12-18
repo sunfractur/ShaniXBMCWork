@@ -73,3 +73,5 @@ B]Version 3.0.6[/B]
 - Fixed new outlook of Zem, added support for ebound video
 B]Version 3.0.7[/B]
 - Fixed DM source
+B]Version 3.0.8[/B]
+- Updated caption problem

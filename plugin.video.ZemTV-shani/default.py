@@ -467,7 +467,12 @@ def PlayShowLinkDup ( url ):
 		xbmc.executebuiltin("xbmc.PlayMedia("+uurl+")")
 	
 	return
-
+def convert(s):
+    try:
+        return s.group(0).encode('latin1').decode('utf8')
+    except:
+        return s.group(0)
+		
 def AddShows(Fromurl):
 #	print Fromurl
 	req = urllib2.Request(Fromurl)
@@ -486,14 +491,17 @@ def AddShows(Fromurl):
 #	match =re.findall('<img src="(.*?)" alt=".*".+<\/a>\n*.+<div class="post-title"><a href="(.*?)".*<b>(.*)<\/b>', link, re.UNICODE)
 
 	link=link.split('Artilces starts here')[0]
-	match =re.findall('<div class="thumbnail">\s*<a href="(.*?)" title="(.*?)".*\s*.*src="(.*?)"', link, re.UNICODE)
+	match =re.findall('<div class="thumbnail">\s*<a href="(.*?)".*\s*<img class="thumb" src="(.*?)".*\s*<div class="caption">\s*<p>(.*?)<', link, re.UNICODE)
 #	print Fromurl
 
 #	print match
 	h = HTMLParser.HTMLParser()
 
 	for cname in match:
-		addDir(h.unescape(cname[1]) ,cname[0] ,3,cname[2], True,isItFolder=False)
+		tname=cname[2]
+		tname=re.sub(r'[\x80-\xFF]+', convert,tname )
+		#tname=repr(tname)
+		addDir(tname,cname[0] ,3,cname[1], True,isItFolder=False)
 		
 #	<a href="http://www.zemtv.com/page/2/">&gt;</a></li>
 	match =re.findall('<a class="nextpostslink" rel="next" href="(.*?)">', link, re.IGNORECASE)
