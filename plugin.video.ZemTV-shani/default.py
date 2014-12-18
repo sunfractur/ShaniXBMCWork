@@ -556,7 +556,7 @@ def PlayShowLink ( url ):
 		line1 = "Playing DM Link"
 		xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
 #		print link
-		playURL= match =re.findall('src="(.*?(dailymotion).*?)"',link)
+		playURL= match =re.findall('src="(http.*?(dailymotion.com).*?)"',link)
 		if len(playURL)==0:
 			line1 = "Daily motion link not found"
 			xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
