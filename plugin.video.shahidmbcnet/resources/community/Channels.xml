@@ -352,15 +352,7 @@
 	 <category>sports</category>
      </assignedcategory>
 </channel>
-<channel>
-     <cname>Sport365</cname>
-     <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/516.png</imageurl>
-     <enabled>True</enabled>
-     <assignedcategory>
-	 <category>french</category>
-	 <category>sports</category>
-     </assignedcategory>
-</channel>
+
 <channel>
      <cname>CinePolar</cname>
      <imageurl>https://pbs.twimg.com/profile_images/3032201452/fbc97cfe76b474a4581c3704aaf8dc5d.jpeg</imageurl>
@@ -781,11 +773,12 @@
 </channel>
 <channel>
         <cname>Ajyal Network</cname>
-        <imageurl>https://scontent-b-lhr.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/1526684_826498567362125_2009328117_n.jpg?oh=f0e24d670ac17d37e9e5bd0af64f40b5&amp;oe=541AE3D6</imageurl>
+        <imageurl>https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/10484046_946154135396567_8355934929477502931_n.jpg?oh=04485ddb78dc676a4de8ddf287d5bc18&amp;oe=5537C01E&amp;__gda__=1430038644_5b1651fc7fb5f26d7f6397e69981d705</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
 		<category>rdio</category>
 		<category>sham</category>
+		<category>sports</category>
         </assignedcategory>
 </channel>
 <channel>
