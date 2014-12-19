@@ -2371,36 +2371,6 @@
 </streaminginfo>
 
 <streaminginfo>
-<cname>Alriadia Sport</cname>
-<item>
-<title>Mips Low</title>
-<link>rtmp://$doregex[rtmp]/live playpath=fjfgjhjghjgjghjjggg?id=201710 swfUrl=http://www.mips.tv/content/scripts/eplayer.swf pageUrl=http://mips.tv conn=S:OK live=1 swfVfy=1 timeout=20</link>
-<regex>
-<name>rtmp</name>
-<expres>.*redirect=([\.\d]+)</expres>
-<page>http://mips.tv:1935/loadbalancer</page>
-</regex>
-</item>
-</streaminginfo>
-
-
-
-<streaminginfo>
-<cname>Al oula Maroc</cname>
-<item>
-<title>Mips Low</title>
-<link>rtmp://$doregex[rtmp]/live playpath=hjkhjffhfhfghh?id=179155 swfUrl=http://www.mips.tv/content/scripts/eplayer.swf pageUrl=http://mips.tv conn=S:OK live=1 swfVfy=1 timeout=20</link>
-<regex>
-<name>rtmp</name>
-<expres>.*redirect=([\.\d]+)</expres>
-<page>http://mips.tv:1935/loadbalancer</page>
-</regex>
-</item>
-</streaminginfo>
-
-
-
-<streaminginfo>
 <cname>MBC 3</cname>
 <item>
 <title>Mips Low</title>
@@ -2577,21 +2547,6 @@
 	<item><title>Alhayat2 Ngmatv</title><link>http://85.91.143.22:1935/35431/35431.stream/playlist.m3u8</link></item> 
 </streaminginfo>
 
-<streaminginfo>
-    <cname>Alriadia Sport</cname>
-	<item>
-		<title>Janjua</title>
-		<link>rtmp://206.190.153.70/live playpath=arryadia?id=12387 conn=S:OK swfUrl=http://www.janjua.tv/resources/scripts/eplayer.swf pageUrl=http://www.janjua.tv/embedplayer/arryadia/1/500/400live=true timeout=15</link>
-	</item>
-</streaminginfo>
-
-<streaminginfo>
-    <cname>Al oula Maroc</cname>
-	<item>
-		<title>Janjua</title>
-		<link>rtmp://206.190.153.70/live playpath=alaoula?id=12371 conn=S:OK swfUrl=http://www.janjua.tv/resources/scripts/eplayer.swf pageUrl=http://www.janjua.tv/embedplayer/alaoula/1/500/400live=true timeout=15</link>
-	</item>
-</streaminginfo>
 
 
 <streaminginfo>
