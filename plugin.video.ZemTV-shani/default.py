@@ -189,12 +189,12 @@ def AddChannelsFromOthers():
     match.append((base64.b64decode('U2t5IFNwb3J0IDQ='),'manual',base64.b64decode('aHR0cDovL2pweG1sLmphZG9vdHYuY29tL3Z1eG1sLnBocC9qYWRvb3htbDMvcGxheS8zMTU=')))
 
 ##other v2
-    match.append((base64.b64decode('U2tpIFNwb3J0IDEgVjI='),'manual',base64.b64decode('aHR0cDovL2FjYWJzdy5kb2lwdHYuY29tL3NreV9zcG9ydF8xL3BsYXlsaXN0Lm0zdTh8VXNlci1BZ2VudD1MYXZmNTMuMzIuMTAw')))
-    match.append((base64.b64decode('U2tpIFNwb3J0IDIgVjI='),'manual',base64.b64decode('aHR0cDovL2FjYWJzdy5kb2lwdHYuY29tL3NreV9zcG9ydF8yL3BsYXlsaXN0Lm0zdTh8VXNlci1BZ2VudD1MYXZmNTMuMzIuMTAw')))
-    match.append((base64.b64decode('U2tpIFNwb3J0IDMgVjI='),'manual',base64.b64decode('aHR0cDovL2FjYWJzdy5kb2lwdHYuY29tL3NreV9zcG9ydF8yL3BsYXlsaXN0Lm0zdTh8VXNlci1BZ2VudD1MYXZmNTMuMzIuMTAw')))
-    match.append((base64.b64decode('U2tpIFNwb3J0IDQgVjI='),'manual',base64.b64decode('aHR0cDovL2FjYWJzdy5kb2lwdHYuY29tL3NreV9zcG9ydF80L3BsYXlsaXN0Lm0zdTh8VXNlci1BZ2VudD1MYXZmNTMuMzIuMTAw')))
-    match.append((base64.b64decode('U2tpIFNwb3J0IDUgVjI='),'manual',base64.b64decode('aHR0cDovL2FjYWJzdy5kb2lwdHYuY29tL3NreV9zcG9ydF81L3BsYXlsaXN0Lm0zdTh8VXNlci1BZ2VudD1MYXZmNTMuMzIuMTAw')))
-    match.append((base64.b64decode('U2tpIFNwb3J0IEYxIFYy'),'manual',base64.b64decode('aHR0cDovL2FjYWJzdy5kb2lwdHYuY29tL3NreV9zcG9ydF9mMS9wbGF5bGlzdC5tM3U4fFVzZXItQWdlbnQ9TGF2ZjUzLjMyLjEwMA==')))
+    match.append((base64.b64decode('U2tpIFNwb3J0IDEgVjI='),'manual',base64.b64decode('cnRtcGU6Ly80Ni4yNDYuMjkuMTYyOjE5MzUvbGl2ZS8gcGxheXBhdGg9U3BvcnRoZHNreTEgcGFnZVVybD1odHRwOi8vd3d3LmhkY2FzdC5vcmcvIHRva2VuPSN5dyV0dCN3QGtrdQ==')))
+    match.append((base64.b64decode('U2tpIFNwb3J0IDIgVjI='),'manual',base64.b64decode('cnRtcGU6Ly80Ni4yNDYuMjkuMTYyOjE5MzUvbGl2ZS8gcGxheXBhdGg9U3BvcnRoZHNreTIgcGFnZVVybD1odHRwOi8vd3d3LmhkY2FzdC5vcmcvIHRva2VuPSN5dyV0dCN3QGtrdQ==')))
+    match.append((base64.b64decode('U2tpIFNwb3J0IDMgVjI='),'manual',base64.b64decode('cnRtcGU6Ly80Ni4yNDYuMjkuMTYyOjE5MzUvbGl2ZS8gcGxheXBhdGg9U3BvcnRoZHNreTMgcGFnZVVybD1odHRwOi8vd3d3LmhkY2FzdC5vcmcvIHRva2VuPSN5dyV0dCN3QGtrdQ==')))
+    match.append((base64.b64decode('U2tpIFNwb3J0IDQgVjI='),'manual',base64.b64decode('cnRtcGU6Ly80Ni4yNDYuMjkuMTYyOjE5MzUvbGl2ZS8gcGxheXBhdGg9U3BvcnRoZHNreTQgcGFnZVVybD1odHRwOi8vd3d3LmhkY2FzdC5vcmcvIHRva2VuPSN5dyV0dCN3QGtrdQ==')))
+    match.append((base64.b64decode('U2tpIFNwb3J0IDUgVjI='),'manual',base64.b64decode('cnRtcGU6Ly80Ni4yNDYuMjkuMTYyOjE5MzUvbGl2ZS8gcGxheXBhdGg9U3BvcnRoZHNreTUgcGFnZVVybD1odHRwOi8vd3d3LmhkY2FzdC5vcmcvIHRva2VuPSN5dyV0dCN3QGtrdQ==')))
+    match.append((base64.b64decode('U2tpIFNwb3J0IEYxIFYy'),'manual',base64.b64decode('cnRtcGU6Ly80Ni4yNDYuMjkuMTYyOjE5MzUvbGl2ZS8gcGxheXBhdGg9U3BvcnRoZHNreWYxIHBhZ2VVcmw9aHR0cDovL3d3dy5oZGNhc3Qub3JnLyB0b2tlbj0jeXcldHQjd0Bra3U=')))
 
 
 

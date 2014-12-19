@@ -75,3 +75,5 @@ B]Version 3.0.7[/B]
 - Fixed DM source
 B]Version 3.0.8[/B]
 - Updated caption problem
+B]Version 3.0.8[/B]
+- updated sky v2 links
