@@ -260,6 +260,7 @@ def PlayOtherUrl ( url ):
     progress.create('Progress', 'Fetching Streaming Info')
     progress.update( 10, "", "Finding links..", "" )
 
+    direct=False
     if url=='http://live.aryzindagi.tv/':
         req = urllib2.Request(url)
         #req.add_header('User-Agent', 'Verismo-BlackUI_(2.4.7.5.8.0.34)')   
@@ -280,7 +281,7 @@ def PlayOtherUrl ( url ):
         curlpatth='<source src="(.*?)"'
         progress.update( 50, "", "Preparing url..", "" )
         dag_url =re.findall(curlpatth,link)[0]
-    elif 'dag1.asx' not in url and 'Lavf53.32.100' not in url:
+    elif 'dag1.asx' not in url and 'hdcast.org' not in url:
         req = urllib2.Request(url)
         #req.add_header('User-Agent', 'Verismo-BlackUI_(2.4.7.5.8.0.34)')   
         #req.add_header('User-Agent', 'Mozilla/5.0(iPad; U; CPU iPhone OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B314 Safari/531.21.10')
@@ -295,15 +296,16 @@ def PlayOtherUrl ( url ):
         else:
             dag_url=dag_url[0]
     else:
+        if 'hdcast.org' in url:
+            direct=True
         dag_url=url
     print 'dag_url',dag_url,name
+    
     if 'Dunya news' in name and 'dag1.asx' not in dag_url:
         print 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
         dag_url='http://dag-chi.totalstream.net/dag1.asx?id=ad1!dunya'
 
     if 'dag1.asx' in dag_url:    
-        
-
         req = urllib2.Request(dag_url)
         req.add_header('User-Agent', 'Verismo-BlackUI_(2.4.7.5.8.0.34)')   
         response = urllib2.urlopen(req)
@@ -311,7 +313,10 @@ def PlayOtherUrl ( url ):
         dat_pattern='href="([^"]+)"[^"]+$'
         dag_url =re.findall(dat_pattern,link)[0]
     print 'dag_url2',dag_url
-    final_url=get_dag_url(dag_url)
+    if direct:
+        final_url=dag_url
+    else:
+        final_url=get_dag_url(dag_url)
     progress.update( 100, "", "Almost done..", "" )
     print final_url
     listitem = xbmcgui.ListItem( label = str(name), iconImage = "DefaultVideo.png", thumbnailImage = xbmc.getInfoImage( "ListItem.Thumb" ) )
