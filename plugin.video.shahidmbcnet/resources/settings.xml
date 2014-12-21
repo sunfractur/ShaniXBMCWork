@@ -46,7 +46,7 @@
 			<setting label="32073" type="text" id="GLArabUserPwd" values="" default=""/>  
 			<setting label="32077" type="labelenum" id="GLArabServerHD" default="8.21.48.19:7777" values="8.21.48.19:7777|8.21.48.20:7777|38.99.146.36:7777|38.99.146.37:7777"/>
 			<setting label="32078" type="labelenum" id="GLArabServerMED" default="8.21.48.20:7777" values="8.21.48.19:7777|8.21.48.20:7777|38.99.146.36:7777|38.99.146.37:7777"/>
-			<setting label="32079" type="labelenum" id="GLArabServerLOW" default="38.99.146.42:7777" values="38.99.146.42:7777|38.99.146.43:7777"/>
+			<setting label="32079" type="labelenum" id="GLArabServerLOW" default="38.99.146.42:7777" values="8.21.48.26:7777|8.21.48.28:7777|38.99.146.42:7777|38.99.146.44:7777"/>
 
 			<!--<setting label="32075" type="labelenum" id="GLArabQuality" values="Low|Med|HD" default="Low"/> -->
 			<setting type="sep"/>
