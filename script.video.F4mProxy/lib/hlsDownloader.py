@@ -175,18 +175,26 @@ def getUrl(url,timeout=20, returnres=False):
 
 def download_chunks(URL, chunk_size=4096, enc=False):
     #conn=urllib2.urlopen(URL)
-    #print 'starting download'
-    if USEDec==1:
-        chunk_size*=1000
+    print 'starting download'
+    if enc:
+        if USEDec==1 :
+            chunk_size*=1000
+        else:
+            chunk_size*=100
     else:
-        chunk_size*=100
-    if not enc:
-        chunk_size*=100
+        chunk_size=chunk_size*10
     conn=getUrl(URL,returnres=True)
     while 1:
-        data=conn.read(chunk_size)
-        if not data: return
+        if chunk_size==-1:
+            data=conn.read()
+        else:
+            data=conn.read(chunk_size)
+        if not data : return
         yield data
+        if chunk_size==-1: return
+
+    print 'function finished'
+
     if 1==2:
         data= conn.read()
         #print repr(data)
@@ -441,6 +449,7 @@ def downloadInternal(url,file,maxbitrate=0):
     try:
         while 1==1:#thread.isAlive():
             medialist = list(handle_basic_m3u(url))
+            playedSomething=False
             if None in medialist:
                 # choose to start playback at the start, since this is a VOD stream
                 pass
@@ -473,7 +482,9 @@ def downloadInternal(url,file,maxbitrate=0):
                         #print '3. chunk available %d'%len(chunk)
                     last_seq = seq
                     changed = 1
-            if changed == 1:
+                    playedSomething=True
+            
+            '''if changed == 1:
                 # initial minimum reload delay
                 time.sleep(duration)
             elif changed == 0:
@@ -485,7 +496,11 @@ def downloadInternal(url,file,maxbitrate=0):
             else:
                 # third attempt and beyond
                 time.sleep(targetduration*3.0)
+            
             changed -= 1
+            '''
+            if not playedSomething:
+                xbmc.sleep(2000)
     except:
         control[0] = 'stop'
         raise
