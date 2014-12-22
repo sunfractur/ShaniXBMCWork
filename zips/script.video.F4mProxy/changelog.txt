@@ -43,3 +43,5 @@ support for Auth Param
 fix auth param in qs
 [B]Version 2.1.4[/B]
 HLS DRM Support
+[B]Version 2.1.5[/B]
+HLS non enc speed supported

@@ -173,12 +173,14 @@ def getUrl(url,timeout=20, returnres=False):
         traceback.print_exc()
         return None
 
-def download_chunks(URL, chunk_size=4096):
+def download_chunks(URL, chunk_size=4096, enc=False):
     #conn=urllib2.urlopen(URL)
     #print 'starting download'
     if USEDec==1:
         chunk_size*=1000
     else:
+        chunk_size*=100
+    if not enc:
         chunk_size*=100
     conn=getUrl(URL,returnres=True)
     while 1:
@@ -454,7 +456,7 @@ def downloadInternal(url,file,maxbitrate=0):
                 seq, enc, duration, targetduration, media_url = media
                 if seq > last_seq:
                     #print 'downloading.............',url
-                    for chunk in download_chunks(urlparse.urljoin(url, media_url)):
+                    for chunk in download_chunks(urlparse.urljoin(url, media_url),enc=enc):
                         #print '1. chunk available %d'%len(chunk)
                         if enc: 
                              if not USEDec==3:
