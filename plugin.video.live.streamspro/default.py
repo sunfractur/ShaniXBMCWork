@@ -19,7 +19,6 @@ except:
 import SimpleDownloader as downloader
 import time
 
-resolve_url=['180upload', 'streamin.to', '2gbhosting', 'alldebrid', 'allmyvideos', 'auengine', 'bayfiles', 'bestreams', 'billionuploads', 'castamp', 'cheesestream', 'clicktoview', 'cloudy', 'crunchyroll', 'cyberlocker', 'daclips', 'dailymotion', 'divxstage', 'donevideo', 'ecostream', 'entroupload', 'exashare', 'facebook', 'filebox', 'filenuke', 'flashx', 'gorillavid', 'hostingbulk', 'hostingcup', 'hugefiles', 'jumbofiles', 'lemuploads', 'limevideo', 'megarelease', 'megavids', 'mightyupload', 'mooshare_biz', 'movdivx', 'movpod', 'movreel', 'movshare', 'movzap', 'mp4stream', 'mp4upload', 'mrfile', 'muchshare', 'nolimitvideo', 'nosvideo', 'novamov', 'nowvideo', 'ovfile', 'play44_net', 'played', 'playwire', 'premiumize_me', 'primeshare', 'promptfile', 'purevid', 'putlocker', 'rapidvideo', 'realdebrid', 'rpnet', 'seeon', 'sharedsx', 'sharefiles', 'sharerepo', 'sharesix', 'sharevid', 'skyload', 'slickvid', 'sockshare', 'stagevu', 'stream2k', 'streamcloud', 'teramixer', 'thefile', 'thevideo', 'trollvid', 'tubeplus', 'tunepk', 'ufliq', 'uploadc', 'uploadcrazynet', 'veeHD', 'veoh', 'vidbull', 'vidcrazynet', 'video44', 'videobb', 'videoboxone', 'videofun', 'videomega', 'videoraj', 'videotanker', 'videovalley', 'videoweed', 'videozed', 'videozer', 'vidhog', 'vidpe', 'vidplay', 'vidspot', 'vidstream', 'vidto', 'vidup_org', 'vidxden', 'vidzi', 'vidzur', 'vimeo', 'vk', 'vodlocker', 'vureel', 'watchfreeinhd', 'xvidstage', 'yourupload', 'youwatch', 'zalaa', 'zooupload', 'zshare']
 
 g_ignoreSetResolved=['plugin.video.f4mTester','plugin.video.shahidmbcnet','plugin.video.SportsDevil','plugin.stream.vaughnlive.tv']
 
@@ -466,14 +465,7 @@ def getItems(items,fanart):
                     #print 'item link', item('link')
                     for i in item('link'):
                         if not i.string == None:
-                            if  any(x in i.string for x in resolve_url):
-                                
-                                need_resolve = i.string + '&mode=19'
-                                #print 'urlresolver link found', need_resolve
-                                url.append(need_resolve)
-
-                            else:
-                                url.append(i.string)
+                            url.append(i.string)
                     
                 elif len(item('sportsdevil')) >0:
                     for i in item('sportsdevil'):
@@ -483,6 +475,7 @@ def getItems(items,fanart):
                             if referer:
                                 #print 'referer found'
                                 sportsdevil = sportsdevil + '%26referer=' +referer
+                            print 'sportsdevil been added'
                             url.append(sportsdevil)
                 elif len(item('p2p')) >0:
                     for i in item('p2p'):
@@ -682,7 +675,34 @@ def get_ustream(url):
         return
     except:
         return
+def parse_m3u(url):
+    if "http" in url: content = makeRequest(url)
+    else: content = readfile(url)
+    match = re.compile('#EXTINF:(.+?),(.*?)\n(.*?)(?:\r|\n)').findall(content)
+    total = len(match)
+    print total
+    for other,channel_name,stream_url in match:
+        if 'tvg-logo' in other:
+            thumbnail = re_me(other,'tvg-logo="(.*?)"')
+            if thumbnail:
+                if not addon.getSetting('logo-folderPath') == "":
+                    logo_url = addon.getSetting('logo-folderPath')
+                    thumbnail = logo_url + thumbnail
+       #        
+                else:
+                    thumbnail = thumbnail
+            #else:
+            
+        else:
+            thumbnail = ''
+        addLink(stream_url, channel_name.encode('utf-8', 'ignore'),thumbnail,'','','','',True,'','',total)
         
+   
+            
+def readfile(filename):
+    f = open(filename, "r")
+    string = f.read()
+    return string        
  
 def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCall=False,cachedPages={}, rawPost=False, cookie_jar_file=None):#0,1,2 = URL, regexOnly, CookieJarOnly
         if not recursiveCall:
@@ -762,12 +782,7 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
                             m['page']=m['page'].replace('$epoctime2$',getEpocTime2())
 
                         #print 'Ingoring Cache',m['page']
-                        page_split=m['page'].split('|')
-                        pageUrl=page_split[0]
-                        header_in_page=None
-                        if len(page_split)>1:
-                            header_in_page=page_split[1]
-                        req = urllib2.Request(pageUrl)
+                        req = urllib2.Request(m['page'])
                         print 'req',m['page']
                         req.add_header('User-Agent', 'Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1')
                         if 'refer' in m:
@@ -783,11 +798,6 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
                             req.add_header('Cookie', m['setcookie'])
                         if 'origin' in m:
                             req.add_header('Origin', m['origin'])
-                        if header_in_page:
-                            header_in_page=header_in_page.split('&')
-                            for h in header_in_page:
-                                n,v=h.split('=')
-                                req.add_header(n,v)
 
 
                         if not cookieJar==None:
@@ -847,13 +857,7 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
                         if forCookieJarOnly:
                             return cookieJar# do nothing
                     elif m['page'] and  not m['page'].startswith('http'):
-                        if m['page'].startswith('$pyFunction:'):
-                            val=doEval(m['page'].split('$pyFunction:')[1],'',cookieJar )
-                            if forCookieJarOnly:
-                                return cookieJar# do nothing
-                            link=val
-                        else:
-                            link=m['page']
+                        link=m['page']
                 if '$pyFunction:playmedia(' in m['expre'] or  any(x in url for x in g_ignoreSetResolved):
                     setresolved=False
                 if  '$doregex' in m['expre']:
@@ -873,7 +877,7 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
 
                         val=doEval(m['expre'].split('$pyFunction:')[1],link,cookieJar )
 
-                        print 'url k val',url,k,val
+                        print 'url and val',url,val
 
                         url = url.replace("$doregex[" + k + "]", val)
                     else:
@@ -891,10 +895,10 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
                         if 'htmlunescape' in m:
                             #val=urllib.unquote_plus(val)
                             import HTMLParser
-                            val=HTMLParser.HTMLParser().unescape(val)                     
+                            val=HTMLParser.HTMLParser().unescape(val)
                         url = url.replace("$doregex[" + k + "]", val)
                         #return val
-                else:           
+                else:
                     url = url.replace("$doregex[" + k + "]",'')
         if '$epoctime$' in url:
             url=url.replace('$epoctime$',getEpocTime())
@@ -1003,19 +1007,6 @@ def get_leton_rtmp(page_value, referer=None):
     ret= 'rtmp://' + str(a) + '.' + str(b) + '.' + str(c) + '.' + str(d) + v;
     return ret
 
-
-def SaveToFile(file_name,page_data):
-	f=open(file_name,'wb')
-	f.write(page_data)
-	f.close()
-	return ''
-    
-def LoadFile(file_name):
-	f=open(file_name,'rb')
-	d=f.read()
-	f.close()
-	return d
-    
 def get_packed_iphonetv_url(page_data):
 	import re,base64,urllib; 
 	s=page_data
@@ -1133,7 +1124,36 @@ def unwise_func( w, i, s, e):
     else:
         print 'FINISHED'
         return ret
-    
+# borrow from https://github.com/enen92/P2P-Streams-XBMC/blob/master/plugin.video.p2p-streams/resources/core/livestreams.py
+# This will not go through the getItems functions ( means you must have ready to play url, no regex)        
+def parse_m3u(url):
+    if "http" in url: content = makeRequest(url)
+    else: content = readfile(url)
+    match = re.compile('#EXTINF:(.+?),(.*?)\n(.*?)(?:\r|\n)').findall(content)
+    total = len(match)
+    print total
+    for other,channel_name,stream_url in match:
+        if 'tvg-logo' in other:
+            thumbnail = re_me(other,'tvg-logo="(.*?)"')
+            if thumbnail:
+                if not thumbnail.startswith('http'):
+                    thumbnail = logo_url + urllib.quote(thumbnail)    #.replace(' ', '%20') #.replace('\n', '').replace('\r', '')
+                    print thumbnail
+        #        
+                else:
+                    thumbnail = thumbnail
+            #else:
+            
+        else:
+            thumbnail = ''
+        addLink(stream_url, channel_name.encode('utf-8', 'ignore'),thumbnail,'','','','',True,'','',total)
+        
+   
+            
+def readfile(filename):
+    f = open(filename, "r")
+    string = f.read()
+    return string    
 def get_unpacked( page_value, regex_for_text='', iterations=1, total_iteration=1):
     try:        
         reg_data=None
@@ -1614,13 +1634,7 @@ def addLink(url,name,iconimage,fanart,description,genre,date,showcontext,playlis
             name = name.encode('utf-8')
         except: pass
         ok = True
-        if regexs: 
-            mode = '17'
-        elif url.endswith('&mode=19'):
-            print 'activating urlresolver module'
-            url=url.replace('&mode=19','')
-            mode = '19'          
-        
+        if regexs: mode = '17'
         else: mode = '12'
         u=sys.argv[0]+"?"
         play_list = False
@@ -1887,17 +1901,3 @@ elif mode==16:
 elif mode==17:
     addon_log("getRegexParsed")
     getRegexParsed(regexs, url)
-elif mode==19:
-    addon_log("Urlresover")
-    print("Urlresover")
-    import urlresolver
-    resolver = urlresolver.resolve(url)
-    print 'resolve_url',resolver
-    if resolver:
-        liz = xbmcgui.ListItem(name, iconImage=iconimage)
-        liz.setInfo(type='Video', infoLabels={'Title':name})
-        liz.setProperty("IsPlayable","true")
-        liz.setPath(resolver)
-        xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, liz)        
-    else: 
-        print 'No Urlresover host foundfor::',url     
