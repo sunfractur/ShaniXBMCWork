@@ -755,7 +755,12 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
                             m['page']=m['page'].replace('$epoctime2$',getEpocTime2())
 
                         #print 'Ingoring Cache',m['page']
-                        req = urllib2.Request(m['page'])
+                        page_split=m['page'].split('|')
+                        pageUrl=page_split[0]
+                        header_in_page=None
+                        if len(page_split)>1:
+                            header_in_page=page_split[1]
+                        req = urllib2.Request(pageUrl)
                         print 'req',m['page']
                         req.add_header('User-Agent', 'Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1')
                         if 'refer' in m:
@@ -771,6 +776,11 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
                             req.add_header('Cookie', m['setcookie'])
                         if 'origin' in m:
                             req.add_header('Origin', m['origin'])
+                        if header_in_page:
+                            header_in_page=header_in_page.split('&')
+                            for h in header_in_page:
+                                n,v=h.split('=')
+                                req.add_header(n,v)
 
 
                         if not cookieJar==None:
@@ -986,6 +996,19 @@ def get_leton_rtmp(page_value, referer=None):
     ret= 'rtmp://' + str(a) + '.' + str(b) + '.' + str(c) + '.' + str(d) + v;
     return ret
 
+
+def SaveToFile(file_name,page_data):
+	f=open(file_name,'wb')
+	f.write(page_data)
+	f.close()
+	return ''
+    
+def LoadFile(file_name):
+	f=open(file_name,'rb')
+	d=f.read()
+	f.close()
+	return d
+    
 def get_packed_iphonetv_url(page_data):
 	import re,base64,urllib; 
 	s=page_data
