@@ -10,7 +10,7 @@ import xbmcgui
 import xbmcaddon
 import xbmcvfs
 import traceback
-
+import cookielib
 from BeautifulSoup import BeautifulStoneSoup, BeautifulSoup, BeautifulSOAP
 try:
     import json
@@ -626,6 +626,10 @@ def getItems(items,fanart):
                             regexs[i('name')[0].string]['setcookie'] = i('setcookie')[0].string
                         except:
                             addon_log("Regex: -- Not a setcookie")
+                        try:
+                            regexs[i('name')[0].string]['appendcookie'] = i('appendcookie')[0].string
+                        except:
+                            addon_log("Regex: -- Not a appendcookie")
                                                     
                         try:
                             regexs[i('name')[0].string]['ignorecache'] = i('ignorecache')[0].string
@@ -731,6 +735,8 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
 
                 if 'setcookie' in m and m['setcookie'] and '$doregex' in m['setcookie']:
                     m['setcookie']=getRegexParsed(regexs, m['setcookie'],cookieJar,recursiveCall=True,cachedPages=cachedPages)
+                if 'appendcookie' in m and m['appendcookie'] and '$doregex' in m['appendcookie']:
+                    m['appendcookie']=getRegexParsed(regexs, m['appendcookie'],cookieJar,recursiveCall=True,cachedPages=cachedPages)
 
                  
                 if  'post' in m and '$doregex' in m['post']:
@@ -765,7 +771,7 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
                         if len(page_split)>1:
                             header_in_page=page_split[1]
                         req = urllib2.Request(pageUrl)
-                        print 'req',m['page']
+                        print 'req',m['page'],pageUrl
                         req.add_header('User-Agent', 'Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1')
                         if 'refer' in m:
                             req.add_header('Referer', m['refer'])
@@ -778,6 +784,19 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
                         if 'setcookie' in m:
                             print 'adding cookie',m['setcookie']
                             req.add_header('Cookie', m['setcookie'])
+                        if 'appendcookie' in m:
+                            print 'appending cookie to cookiejar',m['appendcookie']
+                            cookiestoApend=m['appendcookie']
+                            cookiestoApend=cookiestoApend.split(';')
+                            for h in cookiestoApend:
+                                n,v=h.split('=')
+                                w,n= n.split(':')
+                                ck = cookielib.Cookie(version=0, name=n, value=v, port=None, port_specified=False, domain=w, domain_specified=False, domain_initial_dot=False, path='/', path_specified=True, secure=False, expires=None, discard=True, comment=None, comment_url=None, rest={'HttpOnly': None}, rfc2109=False)
+                                cookieJar.set_cookie(ck)
+
+                                
+
+                            
                         if 'origin' in m:
                             req.add_header('Origin', m['origin'])
                         if header_in_page:
@@ -1295,7 +1314,7 @@ def saveCookieJar(cookieJar,COOKIEFILE):
 	except: pass
 
 def getCookieJar(COOKIEFILE):
-	import cookielib
+
 	cookieJar=None
 	if COOKIEFILE:
 		try:
