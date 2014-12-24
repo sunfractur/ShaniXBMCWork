@@ -19,7 +19,7 @@ except:
 import SimpleDownloader as downloader
 import time
 
-
+resolve_url=['180upload', 'streamin.to', '2gbhosting', 'alldebrid', 'allmyvideos', 'auengine', 'bayfiles', 'bestreams', 'billionuploads', 'castamp', 'cheesestream', 'clicktoview', 'cloudy', 'crunchyroll', 'cyberlocker', 'daclips', 'dailymotion', 'divxstage', 'donevideo', 'ecostream', 'entroupload', 'exashare', 'facebook', 'filebox', 'filenuke', 'flashx', 'gorillavid', 'hostingbulk', 'hostingcup', 'hugefiles', 'jumbofiles', 'lemuploads', 'limevideo', 'megarelease', 'megavids', 'mightyupload', 'mooshare_biz', 'movdivx', 'movpod', 'movreel', 'movshare', 'movzap', 'mp4stream', 'mp4upload', 'mrfile', 'muchshare', 'nolimitvideo', 'nosvideo', 'novamov', 'nowvideo', 'ovfile', 'play44_net', 'played', 'playwire', 'premiumize_me', 'primeshare', 'promptfile', 'purevid', 'putlocker', 'rapidvideo', 'realdebrid', 'rpnet', 'seeon', 'sharedsx', 'sharefiles', 'sharerepo', 'sharesix', 'sharevid', 'skyload', 'slickvid', 'sockshare', 'stagevu', 'stream2k', 'streamcloud', 'teramixer', 'thefile', 'thevideo', 'trollvid', 'tubeplus', 'tunepk', 'ufliq', 'uploadc', 'uploadcrazynet', 'veeHD', 'veoh', 'vidbull', 'vidcrazynet', 'video44', 'videobb', 'videoboxone', 'videofun', 'videomega', 'videoraj', 'videotanker', 'videovalley', 'videoweed', 'videozed', 'videozer', 'vidhog', 'vidpe', 'vidplay', 'vidspot', 'vidstream', 'vidto', 'vidup_org', 'vidxden', 'vidzi', 'vidzur', 'vimeo', 'vk', 'vodlocker', 'vureel', 'watchfreeinhd', 'xvidstage', 'yourupload', 'youwatch', 'zalaa', 'zooupload', 'zshare']
 g_ignoreSetResolved=['plugin.video.f4mTester','plugin.video.shahidmbcnet','plugin.video.SportsDevil','plugin.stream.vaughnlive.tv']
 
 REMOTE_DBG=False;
@@ -287,8 +287,11 @@ def getSoup(url):
 
 def getData(url,fanart):
         #print 'url-getData',url
-        soup = getSoup(url)
-        #print 'xxxxxxxxxxsoup',soup
+        if 'm3u' in url:
+            parse_m3u(url)
+            return
+        else:
+            soup = getSoup(url)        
         if len(soup('channels')) > 0:
             channels = soup('channel')
             for channel in channels:
@@ -358,7 +361,31 @@ def getData(url,fanart):
             addon_log('No Channels: getItems')
             getItems(soup('item'),fanart)
 
-
+# borrow from https://github.com/enen92/P2P-Streams-XBMC/blob/master/plugin.video.p2p-streams/resources/core/livestreams.py
+# This will not go through the getItems functions ( means you must have ready to play url, no regex)
+def parse_m3u(url):
+    if "http" in url: content = makeRequest(url)
+    else: content = LoadFile(url) 
+    match = re.compile('#EXTINF:(.+?),(.*?)\n(.*?)(?:\r|\n)').findall(content)
+    total = len(match)
+    print total
+    for other,channel_name,stream_url in match:
+        if 'tvg-logo' in other:
+            thumbnail = re_me(other,'tvg-logo="(.*?)"')
+            if thumbnail:
+                if thumbnail.startswith('http'):
+                    thumbnail = thumbnail
+                
+                elif not addon.getSetting('logo-folderPath') == "":
+                    logo_url = addon.getSetting('logo-folderPath')
+                    thumbnail = logo_url + thumbnail
+                else:
+                    thumbnail = thumbnail
+            #else:
+            
+        else:
+            thumbnail = ''
+        addLink(stream_url, channel_name.encode('utf-8', 'ignore'),thumbnail,'','','','','',None,'',total)
 def getChannelItems(name,url,fanart):
         soup = getSoup(url)
         channel_list = soup.find('channel', attrs={'name' : name.decode('utf-8')})
@@ -432,7 +459,6 @@ def getSubChannelItems(name,url,fanart):
 def getItems(items,fanart):
         total = len(items)
         addon_log('Total Items: %s' %total)
-
         for item in items:
             #print item
             try:
@@ -475,7 +501,6 @@ def getItems(items,fanart):
                             if referer:
                                 #print 'referer found'
                                 sportsdevil = sportsdevil + '%26referer=' +referer
-                            print 'sportsdevil been added'
                             url.append(sportsdevil)
                 elif len(item('p2p')) >0:
                     for i in item('p2p'):
@@ -494,8 +519,15 @@ def getItems(items,fanart):
                 elif len(item('ilive')) >0:
                     for i in item('ilive'):
                         if not i.string == None:
-                            ilive = 'plugin://plugin.video.tbh.ilive/?url=http://www.ilive.to/view/'+i.string+'&amp;link=99&amp;mode=iLivePlay'
-                            url.append(ilive) 
+                            if not 'http' in i.string:
+                                ilive = 'plugin://plugin.video.tbh.ilive/?url=http://www.streamlive.to/view/'+i.string+'&amp;link=99&amp;mode=iLivePlay'
+                            else:
+                                ilive = 'plugin://plugin.video.tbh.ilive/?url='+i.string+'&amp;link=99&amp;mode=iLivePlay'
+                elif len(item('yt-dl')) >0:
+                    for i in item('yt-dl'):
+                        if not i.string == None:
+                            ytdl = i.string + '&mode=18'
+                            url.append(ytdl)  
                 if len(url) < 1:
                     raise
             except:
@@ -666,7 +698,7 @@ def getItems(items,fanart):
                     #print 'success'
             except:
                 addon_log('There was a problem adding item - '+name.encode('utf-8', 'ignore'))
-
+        
 
 #copies from lamda's implementation
 def get_ustream(url):
@@ -771,7 +803,6 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
                         if len(page_split)>1:
                             header_in_page=page_split[1]
                         req = urllib2.Request(pageUrl)
-                        print 'req',m['page'],pageUrl
                         req.add_header('User-Agent', 'Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1')
                         if 'refer' in m:
                             req.add_header('Referer', m['refer'])
@@ -933,15 +964,6 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
         else:
             xbmc.Player( xbmc.PLAYER_CORE_MPLAYER ).play(url)
             
-        #item.addStreamInfo('video', { 'Codec': 'h264', 'Width' : 1280 })
-        #setResolvedUrl
-        #xbmc.playlist(xbmc.playlist_video).clear()
-        #xbmc.playlist(xbmc.playlist_video).add(url)
-        #listitem = xbmcgui.ListItem('Ironman')
-        #listitem.setInfo('video', {'Title': 'Ironman', 'Genre': 'Science Fiction'})
-        #xbmc.Player( xbmc.PLAYER_CORE_MPLAYER ).play(url, listitem)
-
-        #xbmc.Player(xbmc.PLAYER_CORE_DVDPLAYER).play(item=url)
         
 def getmd5(t):
     import hashlib
@@ -1630,7 +1652,13 @@ def addLink(url,name,iconimage,fanart,description,genre,date,showcontext,playlis
             name = name.encode('utf-8')
         except: pass
         ok = True
-        if regexs: mode = '17'
+        if regexs: 
+            mode = '17'
+        elif  any(x in url for x in resolve_url):
+            mode = '19'
+        elif url.endswith('&mode=18'):
+            url=url.replace('&mode=18','')
+            mode = '18'             
         else: mode = '12'
         u=sys.argv[0]+"?"
         play_list = False
@@ -1651,7 +1679,6 @@ def addLink(url,name,iconimage,fanart,description,genre,date,showcontext,playlis
             date = None
         else:
             description += '\n\nDate: %s' %date
-        #print 'adding',name
         liz=xbmcgui.ListItem(name, iconImage="DefaultVideo.png", thumbnailImage=iconimage)
         liz.setInfo(type="Video", infoLabels={ "Title": name, "Plot": description, "Genre": genre, "dateadded": date })
         liz.setProperty("Fanart_Image", fanart)
@@ -1694,6 +1721,12 @@ def addLink(url,name,iconimage,fanart,description,genre,date,showcontext,playlis
         ok=xbmcplugin.addDirectoryItem(handle=int(sys.argv[1]),url=u,listitem=liz,totalItems=total)
         #print 'added',name
         return ok
+def playsetresolved(url,name,iconimage):
+    liz = xbmcgui.ListItem(name, iconImage=iconimage)
+    liz.setInfo(type='Video', infoLabels={'Title':name})
+    liz.setProperty("IsPlayable","true")
+    liz.setPath(url)
+    xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, liz)
 
 
 ## Thanks to daschacka, an epg scraper for http://i.teleboy.ch/programm/station_select.php
@@ -1897,3 +1930,24 @@ elif mode==16:
 elif mode==17:
     addon_log("getRegexParsed")
     getRegexParsed(regexs, url)
+elif mode==18:
+    addon_log("youtubedl")
+    try:
+        import youtubedl
+    except Exception:
+        xbmc.executebuiltin("XBMC.Notification(LiveStreamsPro,Please [COLOR yellow]install Youtube-dl[/COLOR] module ,10000,"")")
+        
+    print url
+    stream_url=youtubedl.single_YD(url)
+    playsetresolved(stream_url,name,iconimage)
+    #item = xbmcgui.ListItem(path=stream_url)
+    #xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, item)    
+elif mode==19:
+    addon_log("Urlresover")
+    import urlresolver
+    resolver = urlresolver.resolve(url)
+    print 'resolve_url',resolver
+    if resolver:
+        playsetresolved(resolver,name,iconimage)
+    else: 
+        print 'No Urlresover host foundfor::',url     
