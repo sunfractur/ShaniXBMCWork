@@ -459,7 +459,6 @@ def getSubChannelItems(name,url,fanart):
 def getItems(items,fanart):
         total = len(items)
         addon_log('Total Items: %s' %total)
-        start = time.time()
         for item in items:
             #print item
             try:
@@ -517,7 +516,7 @@ def getItems(items,fanart):
                         if not i.string == None:
                             vaughn = 'plugin://plugin.stream.vaughnlive.tv/?mode=PlayLiveStream&amp;channel='+i.string
                             url.append(vaughn)
-                 elif len(item('ilive')) >0:
+                elif len(item('ilive')) >0:
                     for i in item('ilive'):
                         if not i.string == None:
                             if not 'http' in i.string:
