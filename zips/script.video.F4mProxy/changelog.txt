@@ -45,3 +45,5 @@ fix auth param in qs
 HLS DRM Support
 [B]Version 2.1.6[/B]
 HLS non enc speed supported
+[B]Version 2.1.7[/B]
+support setresolved param

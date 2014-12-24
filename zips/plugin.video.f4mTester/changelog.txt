@@ -34,3 +34,5 @@
 - fixed auth param
 [B]Version 2.1.4[/B]
 - added stream type for hls support including DRM HLS
+[B]Version 2.1.7[/B]
+support setresolved param

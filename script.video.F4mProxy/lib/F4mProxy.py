@@ -43,7 +43,7 @@ import hmac
 import hashlib
 import base64
 import threading 
-import xbmcgui
+import xbmcgui,xbmcplugin
 import xbmc 
 import hashlib
 g_stopEvent=None
@@ -341,12 +341,11 @@ class f4mProxy():
 
 class f4mProxyHelper():
 
-    def playF4mLink(self,url,name,proxy=None,use_proxy_for_chunks=False, maxbitrate=0, simpleDownloader=False, auth=None, streamtype='HDS'):
+    def playF4mLink(self,url,name,proxy=None,use_proxy_for_chunks=False, maxbitrate=0, simpleDownloader=False, auth=None, streamtype='HDS',setResolved=False):
         print "URL: " + url
         stopPlaying=threading.Event()
         progress = xbmcgui.DialogProgress()
-        listitem = xbmcgui.ListItem(name)
-        listitem.setInfo('video', {'Title': name})
+
         
         f4m_proxy=f4mProxy()
         stopPlaying.clear()
@@ -357,6 +356,11 @@ class f4mProxyHelper():
         xbmc.sleep(stream_delay*1000)
         progress.update( 100, "", 'Loading local proxy', "" )
         url_to_play=f4m_proxy.prepare_url(url,proxy,use_proxy_for_chunks,maxbitrate=maxbitrate,simpleDownloader=simpleDownloader,auth=auth, streamtype=streamtype)
+        listitem = xbmcgui.ListItem(name,path=url_to_play)
+        listitem.setInfo('video', {'Title': name})
+
+        if setResolved:
+            return url_to_play, listitem
         mplayer = MyPlayer()    
         mplayer.stopPlaying = stopPlaying
         progress.close() 

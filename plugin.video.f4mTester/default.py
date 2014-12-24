@@ -24,6 +24,7 @@ proxy_string=None
 proxy_use_chunks=True
 auth_string=''
 streamtype='HDS'
+setResolved=False
 if paramstring:
     paramstring="".join(paramstring[1:])
     params=urlparse.parse_qs(paramstring)
@@ -69,13 +70,25 @@ if paramstring:
     except: pass
     play=True
 
-def playF4mLink(url,name,proxy=None,use_proxy_for_chunks=False,auth_string=None,streamtype='HDS'):
+    try:
+        setResolved = params['setresolved'][0]
+        import json
+        setResolved=json.loads(setResolved)
+    except:setResolved=False
+    
+def playF4mLink(url,name,proxy=None,use_proxy_for_chunks=False,auth_string=None,streamtype='HDS',setResolved=False):
     from F4mProxy import f4mProxyHelper
     player=f4mProxyHelper()
     #progress = xbmcgui.DialogProgress()
     #progress.create('Starting local proxy')
-    xbmcplugin.endOfDirectory(int(sys.argv[1]), cacheToDisc=False)
-    player.playF4mLink(url, name, proxy, use_proxy_for_chunks,maxbitrate,simpleDownloader,auth_string,streamtype)
+    if setResolved:
+        urltoplay,item=player.playF4mLink(url, name, proxy, use_proxy_for_chunks,maxbitrate,simpleDownloader,auth_string,streamtype,setResolved)
+        item.setProperty("IsPlayable", "true")
+        xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, item)
+
+    else:
+        xbmcplugin.endOfDirectory(int(sys.argv[1]), cacheToDisc=False)
+        player.playF4mLink(url, name, proxy, use_proxy_for_chunks,maxbitrate,simpleDownloader,auth_string,streamtype,setResolved)
     
     return   
     
@@ -196,9 +209,9 @@ if mode ==None:
    
     
 elif mode == "play":
-    print 'PLAying ',mode,url
+    print 'PLAying ',mode,url,setResolved
     if not name in ['Custom','TESTING not F4M'] :
-        playF4mLink(url,name, proxy_string, proxy_use_chunks,auth_string,streamtype)
+        playF4mLink(url,name, proxy_string, proxy_use_chunks,auth_string,streamtype,setResolved)
     else:
         listitem = xbmcgui.ListItem( label = str(name), iconImage = "DefaultVideo.png", thumbnailImage = xbmc.getInfoImage( "ListItem.Thumb" ), path=url )
         xbmc.Player().play( url,listitem)
