@@ -1,5 +1,12 @@
 <channels>
-
+<channel>
+      <cname>NBCSN</cname>
+      <imageurl>http://puckthemedia.files.wordpress.com/2011/08/nbcsn_a_reverse.jpg</imageurl>
+      <enabled>True</enabled>
+      <assignedcategory>
+      <category>sports</category>
+      </assignedcategory>
+</channel>
 <channel>
 	<cname>Ghenwaty</cname>
 	<imageurl></imageurl>
