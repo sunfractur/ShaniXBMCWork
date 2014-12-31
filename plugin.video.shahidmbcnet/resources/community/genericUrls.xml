@@ -260,79 +260,12 @@
 	</regex>
 	</item>
 </streaminginfo>
-<streaminginfo>
-	<cname>Paris Premiere</cname>
-	<item>
-	<title>576px</title>
-	<link>http://hls.francovox.com/hls/parispremiereb_mid.m3u8</link>
-	</item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Canal+ Sport</cname>
-	<item>
-	<title>LaTVdeFrance</title>
-	<link>http://stream5.latvdefrance.com/live/canalsport.m3u8</link>
-	</item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Canal plus</cname>
-	<item>
-	<title>LaTVdeFrance</title>
-	<link>http://stream5.latvdefrance.com/live/canalplus.m3u8</link>
-	</item>
-</streaminginfo>
+
 <streaminginfo>
 	<cname>Rotana cinema</cname>
 	<item>
 	<title>Youtube Rotana Cinema</title>
 	<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=cplhqpMGMXI</link>
-	</item>
-</streaminginfo>
-<streaminginfo>
-	<cname>LCI</cname>
-	<item>
-		<title>MYFRTV</title>
-		<link>http://max.myfrtv.com/1408/m3u8/1408.m3u8$doregex[get-token]</link>
-		<regex>
-			<name>get-token</name>
-                 	<expres>enableOver.*(\?.*)</expres>
-                	<page>https://gb-free-proxy.cyberghostvpn.com/go/browse.php?u=http%3A%2F%2Fmyfrtv.com%2Fchannels%2Fnew-file&amp;b=7&amp;f=norefer</page>
-			<x-forward></x-forward>
-		</regex>
-		</item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Canal plus</cname>
-	<item>
-		<title>MYFRTV</title>
-		<link>http://max.myfrtv.com/1427/m3u8/1427.m3u8$doregex[get-token]</link>
-		<regex>
-			<name>get-token</name>
-                 	<expres>enableOver.*(\?.*)</expres>
-                	<page>https://gb-free-proxy.cyberghostvpn.com/go/browse.php?u=http%3A%2F%2Fmyfrtv.com%2Fchannels%2Fnew-file&amp;b=7&amp;f=norefer</page>
-			<x-forward></x-forward>
-		</regex>
-		</item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Canal plus</cname>
-	<item>
-		<title>Halima-Live</title>
-		<link>rtmp://halima-live.com:1936/scorpion playpath=canal+fr swfUrl=http://www.scorpion-server.com.tn/js/jwplayer.flash.swf live=true flashver=WIN\2015,0,0,152 swfVfy=true timeout=30 pageUrl=http://halima-live.com/chaine.php?cat=16&amp;id=13</link> 
-	</item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Bein 1 FR</cname>
-	<item>
-		<title>Halima-Live</title>
-		<link>rtmp://halima-live.com:1936/scorpion playpath=bein1fr swfUrl=http://www.scorpion-server.com.tn/js/jwplayer.flash.swf live=true flashver=WIN\2015,0,0,152 swfVfy=true timeout=30 pageUrl=http://halima-live.com/chaine.php?cat=23&amp;id=33</link> 
-	</item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Bein 2 FR</cname>
-	<item>
-		<title>Halima-Live</title>
-		<link>rtmp://halima-live.com:1936/scorpion playpath=bein2fr swfUrl=http://www.scorpion-server.com.tn/js/jwplayer.flash.swf live=true flashver=WIN\2015,0,0,152 swfVfy=true timeout=30 pageUrl=http://halima-live.com/chaine.php?cat=23&amp;id=3</link> 
 	</item>
 </streaminginfo>
 <streaminginfo>
@@ -343,45 +276,15 @@
 	</item>
 </streaminginfo>
 <streaminginfo>
-	<cname>Comedie+</cname>
-	<item><title>NTV</title>
-	<link>http://comedie-hls.live.numericable.tv/live/hls/comedie/ipad.m3u8</link>
-	</item>
-</streaminginfo>
-<streaminginfo>
 	<cname>Bein 1 FR</cname>
-	<item><title>NTV</title>
-	<link>http://beinsport1-hls.live.numericable.tv/live/hls/beinsport1/ipad.m3u8</link>
+	<item><title>Bein14HD</title>
+	<link>rtmp://karimos-sat.com:1935/static/Bein14_HD swfVfy=true live=true timeout=60</link>
 	</item>
 </streaminginfo>
 <streaminginfo>
 	<cname>Bein 2 FR</cname>
-	<item><title>NTV</title>
-	<link>http://beinsport2-hls.live.numericable.tv/live/hls/beinsport2/ipad.m3u8</link>
-	</item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Eurosport France</cname>
-	<item><title>NTV</title>
-	<link>http://eurosport-hls.live.numericable.tv/live/hls/eurosport/ipad.m3u8</link>
-	</item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Eurosport 2 France</cname>
-	<item><title>NTV</title>
-	<link>http://eurosport2-hls.live.numericable.tv/live/hls/eurosport2/ipad.m3u8</link>
-	</item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Sky Sports 1</cname>
-	<item><title>sky1</title>
-	<link>rtmpe://31.220.0.198/live playpath=sky1 pageUrl=http://www.pvtserverz.com/Vd?u#bt!25 timeout=15</link>
-	</item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Boomerang</cname>
-	<item><title>NTV</title>
-	<link>http://boomerang-hls.live.numericable.tv/live/hls/boomerang/ipad.m3u8</link>
+	<item><title>Bein15HD</title>
+	<link>rtmp://karimos-sat.com:1935/static/Bein15_HD swfVfy=true live=true timeout=60</link>
 	</item>
 </streaminginfo>
 <streaminginfo>
@@ -398,14 +301,6 @@
 	<link>http://se-1.se.rtl9-hls.live.numericable.tv/live/hls/rtl9/ipadstream800rtl9.m3u8</link>
 	</item>
 </streaminginfo>
-<streaminginfo>
-	<cname>Boomerang</cname>
-	<item>
-	<title>NTV 2</title>
-	<link>http://se-1.se.boomerang-hls.live.numericable.tv/live/hls/boomerang/ipadstream800boomerang.m3u8</link>
-	</item>
-</streaminginfo>
-
 
 <streaminginfo>
 		<cname>Al Baghdadia</cname>
