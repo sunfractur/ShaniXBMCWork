@@ -3242,4 +3242,65 @@
 <streaminginfo><cname>Saudia Sport</cname><item><title>you need to install F.T.V Addon Filmon_Source</title>
 <link>plugin://plugin.video.F.T.V/?url=http%3A%2F%2Fwww.filmon.com%2Fchannel%2Fsaudi-arabian-tv-sports&amp;mode=125&amp;name=Saudi+Arabian+TV+Sports&amp;iconimage=http%3A%2F%2Fstatic.filmon.com%2Fcouch%2Fchannels%2F1781%2Fextra_big_logo.png&amp;start=saudi-arabian-tv-sports&amp;ch_fanart=1781</link></item></streaminginfo>
 
+
+
+
+<streaminginfo>
+		<cname>TNN</cname>
+		<item>
+		<title>Elahmad</title>
+		<link>rtmp://41.231.53.11/thd/tnn timeout=20</link>
+		</item>
+</streaminginfo>
+<streaminginfo>
+		<cname>KSA 1</cname>
+		<item>
+		<title>Elahmad</title>
+		<link>rtmp://74.50.103.199:1935/live/scsaud1?key=1DF7699BEF2100B54B5F770003AEF11E66B5DD32C3AB969A08536956804CF892.flv</link>
+		</item>
+</streaminginfo>
+<streaminginfo>
+		<cname>KSA 2</cname>
+		<item>
+		<title>Elahmad</title>
+		<link>rtmp://74.50.103.199:1935/live/scsaud2?key=1DF7699BEF2100B54B5F770003AEF11E66B5DD32C3AB969A08536956804CF892.flv</link>
+		</item>
+</streaminginfo>
+<channel>
+	<cname>Aldanah</cname>
+	<imageurl>http://www.aldanah.tv/images/logo.png</imageurl>
+	<enabled>True</enabled>
+	<assignedcategory>
+	<category>gulf</category>
+	</assignedcategory>
+</channel>
+<streaminginfo>
+		<cname>Aldanah</cname>
+		<item>
+		<title>Low</title>
+		<link>rtmp://streamer12.elementssys.com:1935/aldanah timeout=20</link>
+		</item>
+</streaminginfo>
+
+<streaminginfo>
+	<cname>Al Magharibia</cname>
+	<item>
+	<title>Al Magharibia 2</title>
+	<link>$doregex[get-m3u8]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
+	<regex>
+	<name>get-m3u8</name>
+	<expres>.*\s?(http.*?)\s</expres>
+	<page>$doregex[get-page]</page>
+	<agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
+	<cookieJar></cookieJar>
+	</regex>
+	<regex>
+	<name>get-page</name>
+	<expres>"m3u8_url":"(.*?)"</expres>
+	<page>http://new.livestream.com/accounts/7861901/events/3061680</page>
+	<cookieJar></cookieJar>
+	</regex>
+	</item>
+</streaminginfo>
+
 </streamingInfos>
