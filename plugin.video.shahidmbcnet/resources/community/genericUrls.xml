@@ -3266,14 +3266,7 @@
 		<link>rtmp://74.50.103.199:1935/live/scsaud2?key=1DF7699BEF2100B54B5F770003AEF11E66B5DD32C3AB969A08536956804CF892.flv</link>
 		</item>
 </streaminginfo>
-<channel>
-	<cname>Aldanah</cname>
-	<imageurl>http://www.aldanah.tv/images/logo.png</imageurl>
-	<enabled>True</enabled>
-	<assignedcategory>
-	<category>gulf</category>
-	</assignedcategory>
-</channel>
+
 <streaminginfo>
 		<cname>Aldanah</cname>
 		<item>
