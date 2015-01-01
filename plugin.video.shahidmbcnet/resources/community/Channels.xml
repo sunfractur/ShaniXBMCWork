@@ -1,5 +1,13 @@
 <channels>
 <channel>
+	<cname>Aldanah</cname>
+	<imageurl>http://www.aldanah.tv/images/logo.png</imageurl>
+	<enabled>True</enabled>
+	<assignedcategory>
+	<category>gulf</category>
+	</assignedcategory>
+</channel>
+<channel>
       <cname>NBCSN</cname>
       <imageurl>http://puckthemedia.files.wordpress.com/2011/08/nbcsn_a_reverse.jpg</imageurl>
       <enabled>True</enabled>
