@@ -3118,15 +3118,7 @@
 		</item>
 	</streaminginfo>
 	
-	<streaminginfo>
-		<cname>Al Magharibia</cname>
-		<item>
-			<title>Al Magharibia (Direct)</title>
-			<thumbnail>http://almagharibia.tv/neue/web/assets/almagharibia.png</thumbnail>
-			<link>rtmp://37.130.230.45/livepkgr/ playpath=livestream swfUrl=http://p.jwpcdn.com/6/8/jwplayer.flash.swf live=true timeout=15 pageUrl=http://almagharibia.tv/livestream</link>
-		</item>
-	</streaminginfo>
-	
+
 	<streaminginfo>
   		<cname>LCI</cname>
 		<item>
@@ -3275,25 +3267,6 @@
 		</item>
 </streaminginfo>
 
-<streaminginfo>
-	<cname>Al Magharibia</cname>
-	<item>
-	<title>Al Magharibia 2</title>
-	<link>$doregex[get-m3u8]|Cookie=$get_cookies$&amp;User-Agent=AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)&amp;X-Playback-Session-Id=$GUID$</link>
-	<regex>
-	<name>get-m3u8</name>
-	<expres>.*\s?(http.*?)\s</expres>
-	<page>$doregex[get-page]</page>
-	<agent>AppleCoreMedia/1.0.0.11B554a (iPhone; U; CPU OS 7_0_4 like Mac OS X; en_gb)</agent>
-	<cookieJar></cookieJar>
-	</regex>
-	<regex>
-	<name>get-page</name>
-	<expres>"m3u8_url":"(.*?)"</expres>
-	<page>http://new.livestream.com/accounts/7861901/events/3061680</page>
-	<cookieJar></cookieJar>
-	</regex>
-	</item>
-</streaminginfo>
+
 
 </streamingInfos>
