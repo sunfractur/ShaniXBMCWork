@@ -1,5 +1,13 @@
 <channels>
 <channel>
+	<cname>Lindex</cname>
+	<imageurl>http://www.lyngsat-logo.com/logo/tv/ll/l_index_tv_dz.png</imageurl>
+	<enabled>True</enabled>
+	<assignedcategory>
+	<category>dzair</category>
+	</assignedcategory>
+</channel>
+<channel>
 	<cname>Aldanah</cname>
 	<imageurl>http://www.aldanah.tv/images/logo.png</imageurl>
 	<enabled>True</enabled>
