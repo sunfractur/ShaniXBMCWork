@@ -1214,7 +1214,7 @@
 
 	<channel>
         <cname>Elsharq</cname>
-        <imageurl>https://yt3.ggpht.com/-J0u-FdsTfRo/AAAAAAAAAAI/AAAAAAAAAAA/yyvlY6Gtscg/s100-c-k-no/photo.jpg</imageurl>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/ee/el_sharq_tv_eg.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
 	<category>egypt</category>
@@ -5003,7 +5003,7 @@
     </channel>
 	<channel>
         <cname>elbiladtv</cname>
-        <imageurl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfp1/v/t1.0-1/1972516_425052304297001_1971848391_n.jpg?oh=6b368ab98dcec4ab0b21d1dbb31967eb&amp;oe=5440EB2E&amp;__gda__=1414602934_b23db6fd485e0d0771ce3edbdd01876f</imageurl>
+        <imageurl>http://s18.postimg.org/w9fjr3wz9/elbiladtv.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>dzair</category>
@@ -5964,7 +5964,7 @@
 
 <channel>
      <cname>Cairo Cinema 2</cname>
-     <imageurl></imageurl>
+     <imageurl>http://www.lyngsat-logo.com/hires/cc/cairo_cinema_2_eg.png</imageurl>
      <enabled>True</enabled>
      <assignedcategory>
      <category>drama</category>
@@ -6054,7 +6054,7 @@
 </channel>
 <channel>
      <cname>Gladiator</cname>
-     <imageurl></imageurl>
+     <imageurl>http://www.lyngsat-logo.com/logo/tv/gg/gladiator_tv.png</imageurl>
      <enabled>True</enabled>
      <assignedcategory>
      <category>sports</category>
