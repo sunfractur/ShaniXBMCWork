@@ -1,13 +1,13 @@
 <streaminginfos>
 
 
-
-
-
-
-
-
-
+<streaminginfo>
+	<cname>Lindex</cname>
+	<item>
+	<title>Low</title>
+	<link>http://$GL-IPLOW$/WeladElBalad.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
 
 <streaminginfo>
 	<cname>7Stars</cname>
@@ -1095,7 +1095,13 @@
 
 
 
-
+<streaminginfo>
+	<cname>Lindex</cname>
+	<item>
+		<title>Med</title>
+		<link>http://$GL-IPMED$/WeladElBalad_Med.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
 
 <streaminginfo>
 	<cname>7Stars</cname>
@@ -1595,7 +1601,7 @@
 	</item>
 </streaminginfo>
 <streaminginfo>
-	<cname>beINSports</cname>
+	<cname>Bein Sport News</cname>
 	<item>
 		<title>Med</title>
 		<link>http://$GL-IPMED$/beINSports_Med.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
@@ -2268,6 +2274,13 @@
 
 
 
+<streaminginfo>
+	<cname>Lindex</cname>
+	<item>
+		<title>HD</title>
+		<link>http://$GL-IPHD$/WeladElBalad_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
 
 <streaminginfo>
 	<cname>Toktok</cname>
@@ -3089,7 +3102,7 @@
 	</item>
 </streaminginfo>
 <streaminginfo>
-	<cname>beINSports</cname>
+	<cname>Bein Sport News</cname>
 	<item>
 		<title>HD</title>
 		<link>http://$GL-IPHD$/beINSports_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
