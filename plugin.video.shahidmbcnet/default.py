@@ -447,7 +447,9 @@ def AddSeries(Fromurl,pageNumber=""):
 
 
 	for cname in match:
-		addDir(cname[2] ,getMainUrl()+cname[0] ,4,cname[3])#name,url,img
+		img=cname[3]
+		img=img.replace(getMainUrl(),mainurl) 
+		addDir(cname[2] ,getMainUrl()+cname[0] ,4,img)#name,url,img
 	if mode==6:
 		if not pageNumber=="":
 			pageNumber=str(int(pageNumber)+1);#parseInt(1)+1;
@@ -556,8 +558,11 @@ def AddChannels(liveURL):
 	#print match
 	for cname in match:
 		chName=cname[1].split('/')[-1].split('.htm')[0]
+		img=cname[2]
+		img=img.replace(getMainUrl(),mainurl) 
+
 		#print chName
-		addDir(chName ,getMainUrl()+cname[1] ,3,cname[2], False,isItFolder=True)		#name,url,mode,icon
+		addDir(chName ,getMainUrl()+cname[1] ,3,img, False,isItFolder=True)		#name,url,mode,icon
 
 	return	
 	

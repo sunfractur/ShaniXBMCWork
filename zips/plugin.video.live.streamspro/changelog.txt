@@ -1,3 +1,6 @@
+Version 1.4.8
+Alibaba changes, bug fix
+
 Version 1.4.7
 Alibaba changes, support for m3u file,urlresolver and youtube-dl 
 
