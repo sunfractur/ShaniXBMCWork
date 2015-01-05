@@ -1632,7 +1632,7 @@ def addLink(url,name,iconimage,fanart,description,genre,date,showcontext,playlis
         ok = True
         if regexs: 
             mode = '17'
-        elif  any(x in url for x in resolve_url):
+        elif  any(x in url for x in resolve_url) and  url.startswith('http'):
             mode = '19'
         elif url.endswith('&mode=18'):
             url=url.replace('&mode=18','')
