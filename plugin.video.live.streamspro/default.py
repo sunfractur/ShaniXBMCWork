@@ -286,7 +286,7 @@ def getSoup(url):
 
 
 def getData(url,fanart):
-        #print 'url-getData',url
+        print 'url-getData',url
         if 'm3u' in url:
             parse_m3u(url)
             return
@@ -298,10 +298,13 @@ def getData(url,fanart):
 #                print channel
 
                 linkedUrl=''
+                lcount=0
                 try:
                     linkedUrl =  channel('externallink')[0].string
+                    lcount=len(channel('externallink'))
                 except: pass
-                #print 'linkedUrl',linkedUrl
+                print 'linkedUrl',linkedUrl,lcount
+                if lcount>1: linkedUrl=''
 
                 name = channel('name')[0].string
                 thumbnail = channel('thumbnail')[0].string

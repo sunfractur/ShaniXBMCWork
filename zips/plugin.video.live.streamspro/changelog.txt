@@ -1,3 +1,6 @@
+Version 1.4.9
+bug fix, Channels could contain multiple item which could have each externallink
+
 Version 1.4.8
 Alibaba changes, bug fix
 
