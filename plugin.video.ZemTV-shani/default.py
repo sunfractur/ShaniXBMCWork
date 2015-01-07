@@ -940,5 +940,5 @@ except:
 	traceback.print_exc(file=sys.stdout)
 	
 
-if not ( (mode==3 or mode==4 or mode==9 )  )  :
+if not ( (mode==3 or mode==4 or mode==9 or mode==11)  )  :
 	xbmcplugin.endOfDirectory(int(sys.argv[1]))
