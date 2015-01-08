@@ -319,62 +319,6 @@
 	 <category>sports</category>
      </assignedcategory>
 </channel>
-<channel>
-     <cname>CafeCreme 8</cname>
-     <imageurl>http://www.liveonlinetv247.com/images/stream8.png</imageurl>
-     <enabled>True</enabled>
-     <assignedcategory>
-	 <category>sports</category>
-     </assignedcategory>
-</channel>
-<channel>
-     <cname>CafeCreme 9</cname>
-     <imageurl>http://www.liveonlinetv247.com/images/stream9.png</imageurl>
-     <enabled>True</enabled>
-     <assignedcategory>
-	 <category>sports</category>
-     </assignedcategory>
-</channel>
-<channel>
-     <cname>CafeCreme 10</cname>
-     <imageurl>http://www.liveonlinetv247.com/images/stream10.png</imageurl>
-     <enabled>True</enabled>
-     <assignedcategory>
-	 <category>sports</category>
-     </assignedcategory>
-</channel>
-<channel>
-     <cname>CafeCreme 11</cname>
-     <imageurl>http://www.liveonlinetv247.com/images/stream11.png</imageurl>
-     <enabled>True</enabled>
-     <assignedcategory>
-	 <category>sports</category>
-     </assignedcategory>
-</channel>
-<channel>
-     <cname>CafeCreme 12</cname>
-     <imageurl>http://www.liveonlinetv247.com/images/stream12.png</imageurl>
-     <enabled>True</enabled>
-     <assignedcategory>
-	 <category>sports</category>
-     </assignedcategory>
-</channel>
-<channel>
-     <cname>CafeCreme 13</cname>
-     <imageurl>http://www.liveonlinetv247.com/images/stream13.png</imageurl>
-     <enabled>True</enabled>
-     <assignedcategory>
-	 <category>sports</category>
-     </assignedcategory>
-</channel>
-<channel>
-     <cname>CafeCreme 14</cname>
-     <imageurl>http://www.liveonlinetv247.com/images/stream14.png</imageurl>
-     <enabled>True</enabled>
-     <assignedcategory>
-	 <category>sports</category>
-     </assignedcategory>
-</channel>
 
 <channel>
      <cname>CinePolar</cname>
