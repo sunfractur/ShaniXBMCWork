@@ -666,7 +666,7 @@ def replaceGLArabVariables(link):
 
         if GLArabServerLOW=="": GLArabServerLOW="38.99.146.42:7777"
         if GLArabServerMED=="": GLArabServerMED="38.99.146.69:7777"
-        if GLArabServerHD=="": GLArabServerHD="8.21.48.19:7777"
+        if GLArabServerHD=="": GLArabServerHD="8.21.48.158:7777"
 
         GLArabQuality=selfAddon.getSetting( "GLArabQuality" )
         tryLogin=True
