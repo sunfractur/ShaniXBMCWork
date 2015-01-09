@@ -1,3 +1,6 @@
+[B]Version 3.4.4[/B]
+Try All option for GLArab
+
 [B]Version 3.4.3[/B]
 fixed image issue
 

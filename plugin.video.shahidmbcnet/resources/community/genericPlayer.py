@@ -327,9 +327,11 @@ def get_dag_url(page_data):
 def re_me(data, re_patten):
     match = ''
     m = re.search(re_patten, data)
+
     if m != None:
         match = m.group(1)
     else:
+    
         match = ''
     return match
 
@@ -664,9 +666,9 @@ def replaceGLArabVariables(link):
         GLArabServerHD=selfAddon.getSetting( "GLArabServerHD" )
         GLArabServerMED=selfAddon.getSetting( "GLArabServerMED" )
 
-        if GLArabServerLOW=="": GLArabServerLOW="38.99.146.42:7777"
-        if GLArabServerMED=="": GLArabServerMED="38.99.146.69:7777"
-        if GLArabServerHD=="": GLArabServerHD="8.21.48.158:7777"
+        if GLArabServerLOW=="": GLArabServerLOW="Try All"
+        if GLArabServerHD=="": GLArabServerHD="Try All"
+        if GLArabServerMED=="": GLArabServerMED="Try All"        
 
         GLArabQuality=selfAddon.getSetting( "GLArabQuality" )
         tryLogin=True
@@ -702,11 +704,40 @@ def replaceGLArabVariables(link):
         sessionpage=getUrl('http://www.glarab.com/ajax.aspx?stream=live&type=reg&ppoint=KuwaitSpace',cookieJar)
         print sessionpage
         sessionpage=sessionpage.split('|')[1]
-        link=link.replace('$GL-IPLOW$',GLArabServerLOW)
-        link=link.replace('$GL-IPHD$',GLArabServerHD)
-        link=link.replace('$GL-IPMED$',GLArabServerMED)
+        servers=''
+        serverPatern=''
+        
+        if '$GL-IPLOW$' in link:
+            serverPatern='GLArabServerLOW.*values="(.*?)"'
+            link=link.replace('$GL-IPLOW$',GLArabServerLOW)
+
+        if  '$GL-IPHD$' in link:
+            print 'i am here',GLArabServerHD
+            serverPatern='GLArabServerHD.*values="(.*?)"'
+            link=link.replace('$GL-IPHD$',GLArabServerHD)
+            
+        if '$GL-IPMED$' in link:
+            serverPatern='GLArabServerMED.*values="(.*?)"'
+            link=link.replace('$GL-IPMED$',GLArabServerMED)
+        
         link=link.replace('$GL-Qlty$',GLArabQuality)
         link=link.replace('$GL-Sesession$',sessionpage)
+        if 'Try All' in link:
+            fileName=communityStreamPath+'/../settings.xml'
+            settingsData= open(fileName, "r").read()
+            #print settingsData
+            servers=re.compile(serverPatern).findall(settingsData)[0] 
+            servers=servers.replace('Try All|','').split('|')  
+            #print servers
+
+            for server in servers:
+                try:
+                    finalUrl=link.replace('Try All',server)
+                    getUrl(finalUrl);
+                    link=finalUrl
+                    break
+                except: pass
+                                
         return link
     except:
         traceback.print_exc(file=sys.stdout)
