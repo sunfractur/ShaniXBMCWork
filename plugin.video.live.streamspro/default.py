@@ -1622,6 +1622,30 @@ def addDir(name,url,mode,iconimage,fanart,description,genre,date,credits,showcon
             liz.addContextMenuItems(contextMenu)
         ok=xbmcplugin.addDirectoryItem(handle=int(sys.argv[1]),url=u,listitem=liz,isFolder=True)
         return ok
+def ytdl_download(url,title,media_type='video',general=False):
+    # play in xbmc while playing go back to contextMenu(c) to "!!Download!!"
+    # Trial yasceen: seperate |User-Agent=
+    import youtubedl
+    if not url == '':
+        youtubedl.single_YD(url,download=True)    
+    elif xbmc.Player().isPlaying() == True :
+        import YDStreamExtractor
+        if YDStreamExtractor.isDownloading() == True:
+            #print 'already downloading Add to que'
+            YDStreamExtractor.manageDownloads()
+        else:
+            xbmc_url = xbmc.Player().getPlayingFile()
+            print 'title is ',title
+            xbmc_url = xbmc_url.split('|User-Agent=')[0]
+            #print xbmc_url
+            #url = 'rtmp://flash.oit.duke.edu/vod/_definst_/test/Wildlife2'
+            #title = 'rtmp'
+            info = {'url':xbmc_url,'title':title,'media_type':media_type}
+            
+            youtubedl.single_YD('',download=True,dl_info=info)    
+    else:
+        xbmc.executebuiltin("XBMC.Notification(DOWNLOAD,First Play [COLOR yellow]WHILE playing download[/COLOR] ,10000)")
+ 
 
 
 def addLink(url,name,iconimage,fanart,description,genre,date,showcontext,playlist,regexs,total,setCookie=""):
@@ -1632,12 +1656,22 @@ def addLink(url,name,iconimage,fanart,description,genre,date,showcontext,playlis
         ok = True
         if regexs: 
             mode = '17'
+            contextMenu.append(('[COLOR white]!!Download Currently Playing!![/COLOR]','XBMC.RunPlugin(%s?url=%s&mode=21&name=%s)'
+                                    %(sys.argv[0], urllib.quote_plus(url), urllib.quote_plus(name))))           
         elif  any(x in url for x in resolve_url) and  url.startswith('http'):
             mode = '19'
+            contextMenu.append(('[COLOR white]!!Download Currently Playing!![/COLOR]','XBMC.RunPlugin(%s?url=%s&mode=21&name=%s)'
+                                    %(sys.argv[0], urllib.quote_plus(url), urllib.quote_plus(name))))           
         elif url.endswith('&mode=18'):
             url=url.replace('&mode=18','')
-            mode = '18'             
-        else: mode = '12'
+            mode = '18' 
+            contextMenu.append(('[COLOR white]!!Download!![/COLOR]','XBMC.RunPlugin(%s?url=%s&mode=23&name=%s)'
+                                    %(sys.argv[0], urllib.quote_plus(url), urllib.quote_plus(name))))           
+            
+        else: 
+            mode = '12'
+            contextMenu.append(('[COLOR white]!!Download Currently Playing!![/COLOR]','XBMC.RunPlugin(%s?url=%s&mode=21&name=%s)'
+                                    %(sys.argv[0], urllib.quote_plus(url), urllib.quote_plus(name))))           
         u=sys.argv[0]+"?"
         play_list = False
         if playlist:
@@ -1929,3 +1963,10 @@ elif mode==19:
         playsetresolved(resolver,name,iconimage)
     else: 
         print 'No Urlresover host foundfor::',url     
+
+elif mode==21:
+    addon_log("download current file using youtube-dl service")
+    ytdl_download('',name,'video')
+elif mode==23:
+    addon_log("get info then download")
+    ytdl_download(url,name,'video') 
