@@ -1264,63 +1264,76 @@
         <chnumber>ch327</chnumber>
 <link>http://www.livetv.tn/Algeria-Tamazigh-en-direct-live.html</link></streaminginfo>
 
-    <streaminginfo>
-        <cname>Bein Sport HD 11</cname>
+        <streaminginfo>
+        <cname>Bein Sport 10</cname>
+        <title>HD</title>
+        <chnumber>ch910</chnumber>
+    <link>http://www.livetv.tn/Bein-Sport-HD-10-en-direct-live.html</link></streaminginfo>
+    
+        <streaminginfo>
+        <cname>Bein Sport 11</cname>
+        < title>HD< /title >
         <chnumber>ch866</chnumber>
     <link>http://www.livetv.tn/Bein-Sport-HD-11-en-direct-live.html</link></streaminginfo>
     
         <streaminginfo>
-        <cname>Bein Sport HD 12</cname>
+        <cname>Bein Sport 12</cname>
+        < title>HD< /title >
         <chnumber>ch870</chnumber>
     <link>http://www.livetv.tn/Bein-Sport-HD-12-en-direct-live.html</link></streaminginfo>
     
         <streaminginfo>
-        <cname>Bein Sport HD 13</cname>
+        <cname>Bein Sport 13</cname>
+        <title>HD</title>
         <chnumber>ch872</chnumber>
     <link>http://www.livetv.tn/Bein-Sport-HD-13-en-direct-live.html</link></streaminginfo>
     
-        <streaminginfo>
-        <cname>Bein Sport HD 13</cname>
-        <chnumber>ch869</chnumber>
-    <link>http://www.livetv.tn/Bein-Sport-HD-13-en-direct-live.html</link></streaminginfo>
-    
        <streaminginfo>
-        <cname>Bein Sport HD 14</cname>
-        <chnumber>ch868</chnumber>
+        <cname>Bein Sport 14</cname>
+        <title>HD</title>
+        <chnumber>ch869</chnumber>
     <link>http://www.livetv.tn/Bein-Sport-HD-14-en-direct-live.html</link></streaminginfo>    
 	
         <streaminginfo>
-        <cname>Bein Sport HD 15</cname>
-        <chnumber>ch870</chnumber>
+        <cname>Bein Sport 15</cname>
+        <title>HD</title>
+        <chnumber>ch868</chnumber>
     <link>http://www.livetv.tn/Bein-Sport-HD-15-en-direct-live.html</link></streaminginfo>
     
         <streaminginfo>
-        <cname>Bein Sport HD 9</cname>
+        <cname>Bein Sport 9</cname>
+        <title>HD</title>
         <chnumber>ch873</chnumber>
     <link>http://www.livetv.tn/Bein-Sport-HD-9-en-direct-live.html</link></streaminginfo>
     
         <streaminginfo>
-        <cname>Bein Sport HD 8</cname>
+        <cname>Bein Sport 8</cname>
+        <title>HD</title>
         <chnumber>ch874</chnumber>
     <link>http://www.livetv.tn/Bein-Sport-HD-8-en-direct-live.html</link></streaminginfo>
     
         <streaminginfo>
-        <cname>Bein Sport HD 7</cname>
+        <cname>Bein Sport 7</cname>
+        <title>HD</title>
         <chnumber>ch912</chnumber>
     <link>http://www.livetv.tn/Bein-Sport-HD-7-en-direct-live.html</link></streaminginfo>
     
         <streaminginfo>
-        <cname>Bein Sport HD 6</cname>
+        <cname>Bein Sport 6</cname>
+        <title>HD</title>
         <chnumber>ch911</chnumber>
     <link>http://www.livetv.tn/Bein-Sport-HD-6-en-direct-live.html</link></streaminginfo>
     
         <streaminginfo>
-        <cname>Bein Sport HD 5</cname>
+        <cname>Bein Sport 5</cname>
+        <title>HD</title>
         <chnumber>ch864</chnumber>
     <link>http://www.livetv.tn/Bein-Sport-HD-5-en-direct-live.html</link></streaminginfo>
     
         <streaminginfo>
-        <cname>Bein Sport HD 4</cname>
+        <cname>Bein Sport 4</cname>
+        <title>HD</title>
         <chnumber>ch867</chnumber>
     <link>http://www.livetv.tn/Bein-Sport-HD-4-en-direct-live.html</link></streaminginfo>
+        
 </streaminginfos>
