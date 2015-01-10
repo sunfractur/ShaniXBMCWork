@@ -265,10 +265,10 @@ def getCommunitySources(browse=False):
                 addDir(name,url+name,11,icon,fanart,'','','','','download')
 
 
-def getSoup(url):
+def getSoup(url,data=None):
         if url.startswith('http://') or url.startswith('https://'):
             data = makeRequest(url)
-        else:
+        elif data == None:
             if xbmcvfs.exists(url):
                 if url.startswith("smb://") or url.startswith("nfs://"):
                     copy = xbmcvfs.copy(url, os.path.join(profile, 'temp', 'sorce_temp.txt'))
@@ -365,7 +365,7 @@ def getData(url,fanart):
 # This will not go through the getItems functions ( means you must have ready to play url, no regex)
 def parse_m3u(url):
     if "http" in url: content = makeRequest(url)
-    else: content = LoadFile(url) 
+    else: content = LoadFile(url)
     match = re.compile('#EXTINF:(.+?),(.*?)\n(.*?)(?:\r|\n)').findall(content)
     total = len(match)
     print total
@@ -379,12 +379,25 @@ def parse_m3u(url):
                 elif not addon.getSetting('logo-folderPath') == "":
                     logo_url = addon.getSetting('logo-folderPath')
                     thumbnail = logo_url + thumbnail
+
                 else:
                     thumbnail = thumbnail
             #else:
             
         else:
             thumbnail = ''
+        if 'type' in other:
+            mode_type = re_me(other,'type="(.*?)"')
+            print mode_type
+            if mode_type == 'yt-dl':
+                stream_url = stream_url +"&mode=18"
+                print 'yt-dl stream_url', stream_url
+            elif mode_type == 'regex':
+                url = stream_url.split('&regexs=')
+                regexs = parse_regex(getSoup('',data=url[1]))
+              
+                addLink(url[0], channel_name.encode('utf-8', 'ignore'),thumbnail,'','','','','',None,regexs,total)
+                continue
         addLink(stream_url, channel_name.encode('utf-8', 'ignore'),thumbnail,'','','','','',None,'',total)
 def getChannelItems(name,url,fanart):
         soup = getSoup(url)
