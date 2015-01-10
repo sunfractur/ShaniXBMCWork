@@ -2087,10 +2087,17 @@
 			<category>gulf</category>
 			</assignedcategory>
 	</channel>
-
 	<channel>
 			<cname>Al Thakafiyah</cname>
 			<imageurl>http://www.lyngsat-logo.com/logo/tv/aa/al_thakafiyah_tv.png</imageurl>
+			<enabled>True</enabled>
+			<assignedcategory>
+			<category>gulf</category>
+			</assignedcategory>
+	</channel>
+	<channel>
+			<cname>Al Taghier</cname>
+			<imageurl></imageurl>
 			<enabled>True</enabled>
 			<assignedcategory>
 			<category>gulf</category>
@@ -5859,6 +5866,14 @@
     <channel>
         <cname>Al Iraqiya Sport</cname>
         <imageurl>http://imn.iq/data/sportlogo.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>Iraq</category>
+        </assignedcategory>
+    </channel>
+    <channel>
+        <cname>Al Iraqiya Tarbawiyah</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/aa/al_iraqya.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
             <category>Iraq</category>
