@@ -185,10 +185,24 @@
 	</item>
 </streaminginfo>
 <streaminginfo>
-	<cname>Al Iraqiya Documentary</cname>
+	<cname>Al Iraqiya Tarbawiyah</cname>
 	<item>
 		<title>Low</title>
 		<link>http://$GL-IPLOW$/AlIraqAlTarbawiyah.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Al Iraqiya Documentary</cname>
+	<item>
+		<title>Low</title>
+		<link>http://$GL-IPLOW$/AlIraqiaDocumentary.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Aliraqia 2</cname>
+	<item>
+		<title>Low</title>
+		<link>http://$GL-IPLOW$/AlIraqia2.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
 	</item>
 </streaminginfo>
 <streaminginfo>
@@ -1087,6 +1101,13 @@
 		<link>http://$GL-IPLOW$/ZweinaBaladna.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
 	</item>
 </streaminginfo>
+<streaminginfo>
+	<cname>Al Taghier</cname>
+	<item>
+		<title>Low</title>
+		<link>http://$GL-IPLOW$/AlTaghier.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
 
 
 
@@ -1293,10 +1314,17 @@
 	</item>
 </streaminginfo>
 <streaminginfo>
-	<cname>Al Iraqiya Documentary</cname>
+	<cname>Al Iraqiya Tarbawiyah</cname>
 	<item>
 		<title>Med</title>
 		<link>http://$GL-IPMED$/AlIraqAlTarbawiyah_Med.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Al Iraqiya Documentary</cname>
+	<item>
+		<title>Med</title>
+		<link>http://$GL-IPMED$/AlIraqiaDocumentary_Med.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
 	</item>
 </streaminginfo>
 <streaminginfo>
@@ -2265,6 +2293,13 @@
 		<link>http://$GL-IPMED$/ZweinaBaladna_Med.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
 	</item>
 </streaminginfo>
+<streaminginfo>
+	<cname>Al Taghier</cname>
+	<item>
+		<title>Med</title>
+		<link>http://$GL-IPMED$/AlTaghier_Med.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
 
 
 
@@ -2605,10 +2640,17 @@
 	</item>
 </streaminginfo>
 <streaminginfo>
-	<cname>Al Iraqiya Documentary</cname>
+	<cname>Al Iraqiya Tarbawiyah</cname>
 	<item>
 		<title>HD</title>
 		<link>http://$GL-IPHD$/AlIraqAlTarbawiyah_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Al Iraqiya Documentary</cname>
+	<item>
+		<title>HD</title>
+		<link>http://$GL-IPHD$/AlIraqiaDocumentary_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
 	</item>
 </streaminginfo>
 <streaminginfo>
@@ -4471,6 +4513,13 @@
 	<item>
 		<title>HD</title>
 		<link>http://$GL-IPHD$/ZweinaBaladna_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Al Taghier</cname>
+	<item>
+		<title>HD</title>
+		<link>http://$GL-IPHD$/AlTaghier_HD.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
 	</item>
 </streaminginfo>
 
