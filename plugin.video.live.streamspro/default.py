@@ -601,8 +601,38 @@ def getItems(items,fanart):
             regexs = None
             if item('regex'):
                 try:
+                    reg_item = item('regex')
+                    regexs = parse_regex(reg_item)
+                except:
+                    pass            
+           
+            try:
+                if len(url) > 1:
+                    alt = 0
+                    playlist = []
+                    for i in url:
+                        playlist.append(i)
+                    if addon.getSetting('add_playlist') == "false":                    
+                            for i in url:
+                                alt += 1
+                                addLink(i,'%s) %s' %(alt, name.encode('utf-8', 'ignore')),thumbnail,fanArt,desc,genre,date,True,playlist,regexs,total)                            
+                    else:
+                        addLink('', name.encode('utf-8', 'ignore'),thumbnail,fanArt,desc,genre,date,True,playlist,regexs,total)
+                else:
+                    if not isXMLSource:    
+                        addLink(url[0],name.encode('utf-8', 'ignore'),thumbnail,fanArt,desc,genre,date,True,None,regexs,total)
+                    else: 
+                        addDir(name.encode('utf-8'),url[0].encode('utf-8'),1,thumbnail,fanart,desc,genre,date,None,'source')
+                        
+                    #print 'success'
+            except:
+                addon_log('There was a problem adding item - '+name.encode('utf-8', 'ignore'))
+        
+
+def parse_regex(reg_item):
+                try:
                     regexs = {}
-                    for i in item('regex'):
+                    for i in reg_item:
                         regexs[i('name')[0].string] = {}
                         #regexs[i('name')[0].string]['expre'] = i('expres')[0].string
                         try:
@@ -682,33 +712,11 @@ def getItems(items,fanart):
                         #    addon_log("Regex: -- no ignorecache")			
 
                     regexs = urllib.quote(repr(regexs))
+                    return regexs
+                    #print regexs
                 except:
                     regexs = None
                     addon_log('regex Error: '+name.encode('utf-8', 'ignore'))
-            
-            try:
-                if len(url) > 1:
-                    alt = 0
-                    playlist = []
-                    for i in url:
-                        playlist.append(i)
-                    if addon.getSetting('add_playlist') == "false":                    
-                            for i in url:
-                                alt += 1
-                                addLink(i,'%s) %s' %(alt, name.encode('utf-8', 'ignore')),thumbnail,fanArt,desc,genre,date,True,playlist,regexs,total)                            
-                    else:
-                        addLink('', name.encode('utf-8', 'ignore'),thumbnail,fanArt,desc,genre,date,True,playlist,regexs,total)
-                else:
-                    if not isXMLSource:    
-                        addLink(url[0],name.encode('utf-8', 'ignore'),thumbnail,fanArt,desc,genre,date,True,None,regexs,total)
-                    else: 
-                        addDir(name.encode('utf-8'),url[0].encode('utf-8'),1,thumbnail,fanart,desc,genre,date,None,'source')
-                        
-                    #print 'success'
-            except:
-                addon_log('There was a problem adding item - '+name.encode('utf-8', 'ignore'))
-        
-
 #copies from lamda's implementation
 def get_ustream(url):
     try:
@@ -1650,11 +1658,7 @@ def ytdl_download(url,title,media_type='video',general=False):
             xbmc_url = xbmc.Player().getPlayingFile()
             print 'title is ',title
             xbmc_url = xbmc_url.split('|User-Agent=')[0]
-            #print xbmc_url
-            #url = 'rtmp://flash.oit.duke.edu/vod/_definst_/test/Wildlife2'
-            #title = 'rtmp'
             info = {'url':xbmc_url,'title':title,'media_type':media_type}
-            
             youtubedl.single_YD('',download=True,dl_info=info)    
     else:
         xbmc.executebuiltin("XBMC.Notification(DOWNLOAD,First Play [COLOR yellow]WHILE playing download[/COLOR] ,10000)")
