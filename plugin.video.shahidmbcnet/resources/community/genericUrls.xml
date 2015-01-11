@@ -2390,7 +2390,7 @@
 
 <streaminginfo>
 	<cname>Coptic_Christian</cname>
-	<item><title>Alhayat2 Ngmatv</title><link>http://85.91.143.22:1935/35431/35431.stream/playlist.m3u8</link></item> 
+	<item><title>Official</title><link>http://sc-e1.streamcyclone.com:1935/ctvch_live/ctvch/playlist.m3u8</link></item> 
 </streaminginfo>
 
 
@@ -3107,7 +3107,7 @@
 		</item>
 	</streaminginfo>
         <streaminginfo>
-		<cname>MBC Masr</cname>
+		<cname>MBCMasrPlus2</cname>
 		<item>
 			<title>Masr+2 Working</title>
 			<link>http://mbc-live.hds.adaptive.level3.net/hls-live/mbc-channel02/_definst_/live/stream1.m3u8</link>
@@ -3124,14 +3124,14 @@
 		<cname>Logos_Christian</cname>
 		<item>
 			<title>Logos Working</title>
-			<link>http://68.235.37.110/logoschannel.com/hls.m3u8</link>
+			<link>http://68.235.37.110:1935/logoschannel.com/smil:logostv.smil/playlist.m3u8</link>
 		</item>
 	</streaminginfo>
 	<streaminginfo>
 		<cname>MESat_Christian</cname>
 		<item>
 			<title>ME Sat Working</title>
-			<link>rtmp://sc-e1.streamcyclone.com:1935/jr1/_definst_/MeSatChannel</link>
+			<link>rtmp://roku-stream.mine.nu:1935/jr1/_definst_/MeSatChannel</link>
 		</item>
 	</streaminginfo>
 	
