@@ -1,10 +1,11 @@
-</streaminginfos>
+<streaminginfos>
 
-        <streaminginfo>
+ <streaminginfo>
         <cname>Bein 1 FR</cname>
         <title>HD</title>
         <chnumber></chnumber>
-    <link>http://www.livetv.tn/Bein-Sport-1-FR-en-direct-live.html</link></streaminginfo>
+    <link>http://www.livetv.tn/Bein-Sport-1-FR-en-direct-live.html</link>
+</streaminginfo>
 
         <streaminginfo>
         <cname>Bein 2 FR</cname>
@@ -44,13 +45,13 @@
     
         <streaminginfo>
         <cname>Bein Sport 11</cname>
-        <title>HD</title >
+        <title>HD</title>
         <chnumber>ch866</chnumber>
     <link>http://www.livetv.tn/Bein-Sport-HD-11-en-direct-live.html</link></streaminginfo>
     
         <streaminginfo>
         <cname>Bein Sport 12</cname>
-        <title>HD</title >
+        <title>HD</title>
         <chnumber>ch870</chnumber>
     <link>http://www.livetv.tn/Bein-Sport-HD-12-en-direct-live.html</link></streaminginfo>
     
@@ -108,10 +109,11 @@
         <chnumber>ch867</chnumber>
     <link>http://www.livetv.tn/Bein-Sport-HD-4-en-direct-live.html</link></streaminginfo>
 
-        <streaminginfo>
+<streaminginfo>
         <cname>2M</cname>
         <chnumber>ch76</chnumber>
-    <link>http://www.livetv.tn/2M-Maroc-en-direct-live.html</link></streaminginfo>
+    <link>http://www.livetv.tn/2M-Maroc-en-direct-live.html</link>
+</streaminginfo>
 
         <streaminginfo>
         <cname>Abu Dhabi</cname>
@@ -194,8 +196,8 @@
     <link>http://www.livetv.tn/Al-Hayat-2-en-direct-live.html</link></streaminginfo>
 
         <streaminginfo>
-        <cname></cname>
         <cname>Al-hurra Iraq</cname>
+       <chnumber></chnumber>
     <link>http://www.livetv.tn/Al-Hurra-TV-Iraq-en-direct-live.html</link></streaminginfo>
 
         <streaminginfo>
@@ -1185,7 +1187,7 @@
     <link>http://www.livetv.tn/Sky-Sport-1-DE-en-direct-live.html</link></streaminginfo>
 
         <streaminginfo>
-        <cnameSky Sports 2></cname>
+        <cname>Sports 2></cname>
         <chnumber>ch904</chnumber>
     <link>http://www.livetv.tn/Sky-Sport-2-DE-en-direct-live.html</link></streaminginfo>
 
