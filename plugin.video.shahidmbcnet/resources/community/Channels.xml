@@ -5951,7 +5951,7 @@
      <imageurl>http://www.lyngsat-logo.com/hires/ll/ldc_lb.png</imageurl>
      <enabled>True</enabled>
      <assignedcategory>
-     <category>news</category>
+     <category>sham</category>
      <category>ent</category>
      </assignedcategory>
 </channel>
@@ -6196,6 +6196,200 @@
 		<category>rdio</category>
         </assignedcategory>
 </channel>
+<channel>
+        <cname>Canal Plus Decale</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/cc/canalplus_fr_decale.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>french</category>
+            </assignedcategory>
+    </channel>
+    <channel>
+        <cname>Canal Plus Family</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/cc/canalplus_pl_family.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>french</category>
+            </assignedcategory>
+    </channel>
+    <channel>
+        <cname>Cartoon Network FR</cname>
+        <imageurl>http://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/langfr-170px-Cartoon_Network_2010_logo.svg.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>french</category>
+            </assignedcategory>
+    </channel>
+    <channel>
+        <cname>Cine Emotion</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/cc/cine_cinema_emotion.jpg</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>french</category>
+            </assignedcategory>
+    </channel>
+    <channel>
+        <cname>Cine Plus Frisson</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/cc/canalplus_fr_cine_plus_frisson_hd.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>french</category>
+            </assignedcategory>
+    </channel>
+    <channel>
+        <cname>Cine plus Premier</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/cc/cine_cinema_premier.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>french</category>
+            </assignedcategory>
+    </channel>
+    <channel>
+        <cname>Disney</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/dd/disney_channel_global.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>french</category>
+            </assignedcategory>
+    </channel>
+    <channel>
+        <cname>Disney XD</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/dd/disney_xd_us.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>french</category>
+            </assignedcategory>
+    </channel>
+    <channel>
+        <cname>MTV Base</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/mm/mtv_base_africa.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>french</category>
+            </assignedcategory>
+    </channel>
+    <channel>
+        <cname>MTV Idole</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/mm/mtv_idol.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>french</category>
+            </assignedcategory>
+    </channel>
+    <channel>
+        <cname>National Geo FR</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/nn/nat_geo_asia.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>french</category>
+            </assignedcategory>
+    </channel>
+    <channel>
+        <cname>National Geo Wild FR</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/nn/nat_geo_wild_lam.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>french</category>
+            </assignedcategory>
+    </channel>
+    <channel>
+        <cname>Planet Plus</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/aa/animal_planet_east.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>french</category>
+            </assignedcategory>
+    </channel>
+    <channel>
+        <cname>Planete Thalassa</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/pp/planete_plus_thalassa.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>french</category>
+            </assignedcategory>
+    </channel>
+    <channel>
+        <cname>Serie Club</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/ss/serieclub931231.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>french</category>
+            </assignedcategory>
+    </channel>
+    <channel>
+        <cname>SyFy</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/ss/syfy_universal_asia.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>french</category>
+            </assignedcategory>
+    </channel>
+    <channel>
+        <cname>TF6</cname>
+        <imageurl>http://www.lyngsat-logo.com/hires/tt/tf6.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>french</category>
+            </assignedcategory>
+    </channel>
+    <channel>
+        <cname>TV5 Monde Orient</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/tt/tv5_monde_orient.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>french</category>
+            </assignedcategory>
+    </channel>
+    <channel>
+        <cname>Ushuaia</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/uu/ushuaia.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>french</category>
+            </assignedcategory>
+    </channel>
+    <channel>
+        <cname>Voyage</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/vv/voyage.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>french</category>
+            </assignedcategory>
+    </channel>
+    <channel>
+        <cname>Sky Bundesliga </cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/ss/sky_de_bundesliga.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>french</category>
+            </assignedcategory>
+  </channel>
+    <channel>
+        <cname>Mehwar 2</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/ee/el_mehwar_tv2.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>Drama</category>
+            </assignedcategory>
+    </channel>
+    <channel>
+        <cname>Mehwar Drama</cname>
+        <imageurl>http://www.lyngsat-logo.com/logo/tv/ee/el_mehwar_drama_eg.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>Drama</category>
+            </assignedcategory>
+    </channel>
+    <channel>
+        <cname>Zee Alwan Aflam Hindi</cname>
+        <imageurl>http://i1.wp.com/www.lyngsat-logo.com/hires/zz/zee_aflam.png?w=720</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>Drama</category>
+            </assignedcategory>
+    </channel>
+    <channel>
+
 
 
 
