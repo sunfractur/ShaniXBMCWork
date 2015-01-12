@@ -1,3 +1,6 @@
+Version 1.5.0
+Thanks to Alibaba, added download support and fix url resolver issue with helix, plus many more
+
 Version 1.4.9
 bug fix, Channels could contain multiple item which could have each externallink
 
