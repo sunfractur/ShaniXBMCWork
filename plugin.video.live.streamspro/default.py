@@ -19,7 +19,7 @@ except:
 import SimpleDownloader as downloader
 import time
 
-resolve_url=['180upload', 'streamin.to', '2gbhosting', 'alldebrid', 'allmyvideos', 'auengine', 'bayfiles', 'bestreams', 'billionuploads', 'castamp', 'cheesestream', 'clicktoview', 'cloudy', 'crunchyroll', 'cyberlocker', 'daclips', 'dailymotion', 'divxstage', 'donevideo', 'ecostream', 'entroupload', 'exashare', 'facebook', 'filebox', 'filenuke', 'flashx', 'gorillavid', 'hostingbulk', 'hostingcup', 'hugefiles', 'jumbofiles', 'lemuploads', 'limevideo', 'megarelease', 'megavids', 'mightyupload', 'mooshare_biz', 'movdivx', 'movpod', 'movreel', 'movshare', 'movzap', 'mp4stream', 'mp4upload', 'mrfile', 'muchshare', 'nolimitvideo', 'nosvideo', 'novamov', 'nowvideo', 'ovfile', 'play44_net', 'played', 'playwire', 'premiumize_me', 'primeshare', 'promptfile', 'purevid', 'putlocker', 'rapidvideo', 'realdebrid', 'rpnet', 'seeon', 'sharedsx', 'sharefiles', 'sharerepo', 'sharesix', 'sharevid', 'skyload', 'slickvid', 'sockshare', 'stagevu', 'stream2k', 'streamcloud', 'teramixer', 'thefile', 'thevideo', 'trollvid', 'tubeplus', 'tunepk', 'ufliq', 'uploadc', 'uploadcrazynet', 'veeHD', 'veoh', 'vidbull', 'vidcrazynet', 'video44', 'videobb', 'videoboxone', 'videofun', 'videomega', 'videoraj', 'videotanker', 'videovalley', 'videoweed', 'videozed', 'videozer', 'vidhog', 'vidpe', 'vidplay', 'vidspot', 'vidstream', 'vidto', 'vidup_org', 'vidxden', 'vidzi', 'vidzur', 'vimeo', 'vk', 'vodlocker', 'vureel', 'watchfreeinhd', 'xvidstage', 'yourupload', 'youwatch', 'zalaa', 'zooupload', 'zshare']
+resolve_url=['180upload', 'my.mail.ru','streamin.to', '2gbhosting', 'alldebrid', 'allmyvideos', 'auengine', 'bayfiles', 'bestreams', 'billionuploads', 'castamp', 'cheesestream', 'clicktoview', 'cloudy', 'crunchyroll', 'cyberlocker', 'daclips', 'dailymotion', 'divxstage', 'donevideo', 'ecostream', 'entroupload', 'exashare', 'facebook', 'filebox', 'filenuke', 'flashx', 'gorillavid', 'hostingbulk', 'hostingcup', 'hugefiles', 'jumbofiles', 'lemuploads', 'limevideo', 'megarelease', 'megavids', 'mightyupload', 'mooshare_biz', 'movdivx', 'movpod', 'movreel', 'movshare', 'movzap', 'mp4stream', 'mp4upload', 'mrfile', 'muchshare', 'nolimitvideo', 'nosvideo', 'novamov', 'nowvideo', 'ovfile', 'play44_net', 'played', 'playwire', 'premiumize_me', 'primeshare', 'promptfile', 'purevid', 'putlocker', 'rapidvideo', 'realdebrid', 'rpnet', 'seeon', 'sharedsx', 'sharefiles', 'sharerepo', 'sharesix', 'sharevid', 'skyload', 'slickvid', 'sockshare', 'stagevu', 'stream2k', 'streamcloud', 'teramixer', 'thefile', 'thevideo', 'trollvid', 'tubeplus', 'tunepk', 'ufliq', 'uploadc', 'uploadcrazynet', 'veeHD', 'veoh', 'vidbull', 'vidcrazynet', 'video44', 'videobb', 'videoboxone', 'videofun', 'videomega', 'videoraj', 'videotanker', 'videovalley', 'videoweed', 'videozed', 'videozer', 'vidhog', 'vidpe', 'vidplay', 'vidspot', 'vidstream', 'vidto', 'vidup_org', 'vidxden', 'vidzi', 'vidzur', 'vimeo', 'vk', 'vodlocker', 'vureel', 'watchfreeinhd', 'xvidstage', 'yourupload', 'youwatch', 'zalaa', 'zooupload', 'zshare']
 g_ignoreSetResolved=['plugin.video.f4mTester','plugin.video.shahidmbcnet','plugin.video.SportsDevil','plugin.stream.vaughnlive.tv']
 
 REMOTE_DBG=False;
@@ -265,10 +265,10 @@ def getCommunitySources(browse=False):
                 addDir(name,url+name,11,icon,fanart,'','','','','download')
 
 
-def getSoup(url):
+def getSoup(url,data=None):
         if url.startswith('http://') or url.startswith('https://'):
             data = makeRequest(url)
-        else:
+        elif data == None:
             if xbmcvfs.exists(url):
                 if url.startswith("smb://") or url.startswith("nfs://"):
                     copy = xbmcvfs.copy(url, os.path.join(profile, 'temp', 'sorce_temp.txt'))
@@ -368,7 +368,7 @@ def getData(url,fanart):
 # This will not go through the getItems functions ( means you must have ready to play url, no regex)
 def parse_m3u(url):
     if "http" in url: content = makeRequest(url)
-    else: content = LoadFile(url) 
+    else: content = LoadFile(url)
     match = re.compile('#EXTINF:(.+?),(.*?)\n(.*?)(?:\r|\n)').findall(content)
     total = len(match)
     print total
@@ -382,12 +382,25 @@ def parse_m3u(url):
                 elif not addon.getSetting('logo-folderPath') == "":
                     logo_url = addon.getSetting('logo-folderPath')
                     thumbnail = logo_url + thumbnail
+
                 else:
                     thumbnail = thumbnail
             #else:
             
         else:
             thumbnail = ''
+        if 'type' in other:
+            mode_type = re_me(other,'type="(.*?)"')
+            print mode_type
+            if mode_type == 'yt-dl':
+                stream_url = stream_url +"&mode=18"
+                print 'yt-dl stream_url', stream_url
+            elif mode_type == 'regex':
+                url = stream_url.split('&regexs=')
+                regexs = parse_regex(getSoup('',data=url[1]))
+              
+                addLink(url[0], channel_name.encode('utf-8', 'ignore'),thumbnail,'','','','','',None,regexs,total)
+                continue
         addLink(stream_url, channel_name.encode('utf-8', 'ignore'),thumbnail,'','','','','',None,'',total)
 def getChannelItems(name,url,fanart):
         soup = getSoup(url)
@@ -591,8 +604,38 @@ def getItems(items,fanart):
             regexs = None
             if item('regex'):
                 try:
+                    reg_item = item('regex')
+                    regexs = parse_regex(reg_item)
+                except:
+                    pass            
+           
+            try:
+                if len(url) > 1:
+                    alt = 0
+                    playlist = []
+                    for i in url:
+                        playlist.append(i)
+                    if addon.getSetting('add_playlist') == "false":                    
+                            for i in url:
+                                alt += 1
+                                addLink(i,'%s) %s' %(alt, name.encode('utf-8', 'ignore')),thumbnail,fanArt,desc,genre,date,True,playlist,regexs,total)                            
+                    else:
+                        addLink('', name.encode('utf-8', 'ignore'),thumbnail,fanArt,desc,genre,date,True,playlist,regexs,total)
+                else:
+                    if not isXMLSource:    
+                        addLink(url[0],name.encode('utf-8', 'ignore'),thumbnail,fanArt,desc,genre,date,True,None,regexs,total)
+                    else: 
+                        addDir(name.encode('utf-8'),url[0].encode('utf-8'),1,thumbnail,fanart,desc,genre,date,None,'source')
+                        
+                    #print 'success'
+            except:
+                addon_log('There was a problem adding item - '+name.encode('utf-8', 'ignore'))
+        
+
+def parse_regex(reg_item):
+                try:
                     regexs = {}
-                    for i in item('regex'):
+                    for i in reg_item:
                         regexs[i('name')[0].string] = {}
                         #regexs[i('name')[0].string]['expre'] = i('expres')[0].string
                         try:
@@ -676,33 +719,11 @@ def getItems(items,fanart):
                         #    addon_log("Regex: -- no ignorecache")			
 
                     regexs = urllib.quote(repr(regexs))
+                    return regexs
+                    #print regexs
                 except:
                     regexs = None
                     addon_log('regex Error: '+name.encode('utf-8', 'ignore'))
-            
-            try:
-                if len(url) > 1:
-                    alt = 0
-                    playlist = []
-                    for i in url:
-                        playlist.append(i)
-                    if addon.getSetting('add_playlist') == "false":                    
-                            for i in url:
-                                alt += 1
-                                addLink(i,'%s) %s' %(alt, name.encode('utf-8', 'ignore')),thumbnail,fanArt,desc,genre,date,True,playlist,regexs,total)                            
-                    else:
-                        addLink('', name.encode('utf-8', 'ignore'),thumbnail,fanArt,desc,genre,date,True,playlist,regexs,total)
-                else:
-                    if not isXMLSource:    
-                        addLink(url[0],name.encode('utf-8', 'ignore'),thumbnail,fanArt,desc,genre,date,True,None,regexs,total)
-                    else: 
-                        addDir(name.encode('utf-8'),url[0].encode('utf-8'),1,thumbnail,fanart,desc,genre,date,None,'source')
-                        
-                    #print 'success'
-            except:
-                addon_log('There was a problem adding item - '+name.encode('utf-8', 'ignore'))
-        
-
 #copies from lamda's implementation
 def get_ustream(url):
     try:
@@ -1647,22 +1668,53 @@ def addDir(name,url,mode,iconimage,fanart,description,genre,date,credits,showcon
             liz.addContextMenuItems(contextMenu)
         ok=xbmcplugin.addDirectoryItem(handle=int(sys.argv[1]),url=u,listitem=liz,isFolder=True)
         return ok
+def ytdl_download(url,title,media_type='video',general=False):
+    # play in xbmc while playing go back to contextMenu(c) to "!!Download!!"
+    # Trial yasceen: seperate |User-Agent=
+    import youtubedl
+    if not url == '':
+        youtubedl.single_YD(url,download=True)    
+    elif xbmc.Player().isPlaying() == True :
+        import YDStreamExtractor
+        if YDStreamExtractor.isDownloading() == True:
+            #print 'already downloading Add to que'
+            YDStreamExtractor.manageDownloads()
+        else:
+            xbmc_url = xbmc.Player().getPlayingFile()
+            print 'title is ',title
+            xbmc_url = xbmc_url.split('|User-Agent=')[0]
+            info = {'url':xbmc_url,'title':title,'media_type':media_type}
+            youtubedl.single_YD('',download=True,dl_info=info)    
+    else:
+        xbmc.executebuiltin("XBMC.Notification(DOWNLOAD,First Play [COLOR yellow]WHILE playing download[/COLOR] ,10000)")
+ 
 
 
 def addLink(url,name,iconimage,fanart,description,genre,date,showcontext,playlist,regexs,total,setCookie=""):
         #print 'url,name',url,name
+        contextMenu =[]
         try:
             name = name.encode('utf-8')
         except: pass
         ok = True
         if regexs: 
             mode = '17'
+            contextMenu.append(('[COLOR white]!!Download Currently Playing!![/COLOR]','XBMC.RunPlugin(%s?url=%s&mode=21&name=%s)'
+                                    %(sys.argv[0], urllib.quote_plus(url), urllib.quote_plus(name))))           
         elif  any(x in url for x in resolve_url) and  url.startswith('http'):
             mode = '19'
+            contextMenu.append(('[COLOR white]!!Download Currently Playing!![/COLOR]','XBMC.RunPlugin(%s?url=%s&mode=21&name=%s)'
+                                    %(sys.argv[0], urllib.quote_plus(url), urllib.quote_plus(name))))           
         elif url.endswith('&mode=18'):
             url=url.replace('&mode=18','')
-            mode = '18'             
-        else: mode = '12'
+            mode = '18' 
+            contextMenu.append(('[COLOR white]!!Download!![/COLOR]','XBMC.RunPlugin(%s?url=%s&mode=23&name=%s)'
+                                    %(sys.argv[0], urllib.quote_plus(url), urllib.quote_plus(name))))           
+            
+        else: 
+            mode = '12'
+            contextMenu.append(('[COLOR white]!!Download Currently Playing!![/COLOR]','XBMC.RunPlugin(%s?url=%s&mode=21&name=%s)'
+                                    %(sys.argv[0], urllib.quote_plus(url), urllib.quote_plus(name))))           
         u=sys.argv[0]+"?"
         play_list = False
         if playlist:
@@ -1946,11 +1998,30 @@ elif mode==18:
     #item = xbmcgui.ListItem(path=stream_url)
     #xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, item)    
 elif mode==19:
-    addon_log("Urlresover")
-    import urlresolver
-    resolver = urlresolver.resolve(url)
-    print 'resolve_url',resolver
-    if resolver:
+    addon_log("Commonresolvers")
+    import commonresolvers
+    resolved=commonresolvers.get(url)
+    if resolved:
+        if isinstance(resolved,list):
+            for k in resolved:
+                quality = addon.getSetting('quality')
+                if k['quality'] == 'HD'  :
+                    resolver = k['url']
+                    break
+                elif k['quality'] == 'SD' :
+                    resolver = k['url']        
+                elif k['quality'] == '1080p' and addon.getSetting('1080pquality') == 'true' :
+                    resolver = k['url']
+                    break
+        else:
+            resolver = resolved        
         playsetresolved(resolver,name,iconimage)
     else: 
-        print 'No Urlresover host foundfor::',url     
+        print 'Probably,this host is not supported or resolver is broken::',url     
+
+elif mode==21:
+    addon_log("download current file using youtube-dl service")
+    ytdl_download('',name,'video')
+elif mode==23:
+    addon_log("get info then download")
+    ytdl_download(url,name,'video') 
