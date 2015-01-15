@@ -4268,6 +4268,17 @@
     </channel>
 
     <channel>
+        <cname>MBC Masr Drama</cname>
+        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/mbc-msr_zps87074427.png</imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>ent</category>
+            <category>egypt</category>
+            <category>drama</category>
+        </assignedcategory>
+    </channel>
+
+    <channel>
         <cname>MBC Max</cname>
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/mx_zpscb7cc7c3.png</imageurl>
         <enabled>True</enabled>
@@ -4999,7 +5010,16 @@
             <category>tunis</category>
         </assignedcategory>
     </channel>
-	
+
+    <channel>
+        <cname>Khartoum</cname>
+        <imageurl></imageurl>
+        <enabled>True</enabled>
+        <assignedcategory>
+            <category>tunis</category>
+        </assignedcategory>
+    </channel>
+
     <channel>
         <cname>Al Mutawasit</cname>
         <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/mtwst_zps980a7b4a.png</imageurl>
