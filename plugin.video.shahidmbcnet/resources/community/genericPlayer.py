@@ -665,7 +665,15 @@ def replaceGLArabVariables(link):
         GLArabServerLOW=selfAddon.getSetting( "GLArabServerLOW" )
         GLArabServerHD=selfAddon.getSetting( "GLArabServerHD" )
         GLArabServerMED=selfAddon.getSetting( "GLArabServerMED" )
-
+        glProxy=selfAddon.getSetting( "isGLProxyEnabled" )=="true"
+        glProxyAddress=selfAddon.getSetting( "GLproxyName" )
+        videoPath=''
+        try:
+            pattern='\$\/(.*?)\.m3u8'
+            videoPath=re.compile(pattern).findall(link)[0]
+        except: pass
+            
+        
         if GLArabServerLOW=="": GLArabServerLOW="Try All"
         if GLArabServerHD=="": GLArabServerHD="Try All"
         if GLArabServerMED=="": GLArabServerMED="Try All"        
@@ -701,46 +709,61 @@ def replaceGLArabVariables(link):
             print 'login or accessing the site failed.. continuing'
             traceback.print_exc(file=sys.stdout)
         
-        sessionpage=getUrl('http://www.glarab.com/ajax.aspx?stream=live&type=reg&ppoint=KuwaitSpace',cookieJar)
+        sessionpage=getUrl('http://www.glarab.com/ajax.aspx?stream=live&type=reg&ppoint=KuwaitSpace_Med',cookieJar)
         print sessionpage
-        sessionpage=sessionpage.split('|')[1]
-        servers=''
+        session=sessionpage.split('|')[1]
+        sessionserver=sessionpage.split('|')[2].replace(':2077','')
         serverPatern=''
-        
+        serverAddress=''
         if '$GL-IPLOW$' in link:
             serverPatern='GLArabServerLOW.*values="(.*?)"'
             link=link.replace('$GL-IPLOW$',GLArabServerLOW)
+            serverAddress=GLArabServerLOW
 
         if  '$GL-IPHD$' in link:
             print 'i am here',GLArabServerHD
             serverPatern='GLArabServerHD.*values="(.*?)"'
             link=link.replace('$GL-IPHD$',GLArabServerHD)
+            serverAddress=GLArabServerHD
+
             
         if '$GL-IPMED$' in link:
             serverPatern='GLArabServerMED.*values="(.*?)"'
             link=link.replace('$GL-IPMED$',GLArabServerMED)
+            serverAddress=GLArabServerHD
         
         link=link.replace('$GL-Qlty$',GLArabQuality)
-        link=link.replace('$GL-Sesession$',sessionpage)
+        link=link.replace('$GL-Sesession$',session)
+        print 'the links is ',link
         if 'Try All' in link:
             fileName=communityStreamPath+'/../settings.xml'
             settingsData= open(fileName, "r").read()
             #print settingsData
             servers=re.compile(serverPatern).findall(settingsData)[0] 
-            servers=servers.replace('Try All|','').split('|')  
+            servers=servers.replace('Disabled|Try All|','').split('|')  
             #print servers
+            
+            if not glProxy:
+                for server in servers:
+                    try:
+                        finalUrl=link.replace('Try All',server)
+                        getUrl(finalUrl);
+                        link=finalUrl
+                        break
+                    except: pass
+            else: serverAddress=servers[0]
 
-            for server in servers:
-                try:
-                    finalUrl=link.replace('Try All',server)
-                    getUrl(finalUrl);
-                    link=finalUrl
-                    break
-                except: pass
-                                
+        if glProxy:       
+            link=getProxyLink(glProxyAddress,serverAddress.replace(':7777',''),videoPath,session)
+         
+              
         return link
     except:
         traceback.print_exc(file=sys.stdout)
         return link
+
+def getProxyLink(proxy,server,video_path,session):
+    return 'http://%s:4500/channel.flv?server=%s&channel=%s&port=2077&session=%s'%(proxy,server,video_path,session)
+
         
         

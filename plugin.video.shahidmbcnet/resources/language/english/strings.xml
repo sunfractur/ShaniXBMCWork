@@ -74,5 +74,7 @@
 	<string id="32077">GL High Quality</string>		
     <string id="32078">GL Mediam Quality</string>		
      <string id="32079">GL Low Quality</string>		
+	 <string id="32080">Use GL Proxy</string>		
+	 <string id="32081">GL Proxy (use 127.0.0.1) for local machine</string>		
 	
 </strings>

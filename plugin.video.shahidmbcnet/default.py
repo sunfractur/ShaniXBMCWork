@@ -860,6 +860,15 @@ def getSourceAndStreamInfo(channelId, returnOnFirst,pDialog, filterBySource=""):
 		
 		pDialog.update(30, 'Looping on sources')
 		sources=sourcesXml.findall('source')
+		GLArabServerLOW=selfAddon.getSetting( "GLArabServerLOW" )
+		GLArabServerHD=selfAddon.getSetting( "GLArabServerHD" )
+		GLArabServerMED=selfAddon.getSetting( "GLArabServerMED" )
+		glHDDisabled=False if not GLArabServerHD=="Disabled" else True
+		glMedDisabled=False if not GLArabServerMED=="Disabled" else True
+		glLowDisabled=False if not GLArabServerLOW=="Disabled" else True
+#		print "glHDDisabled",glHDDisabled
+        
+        
 		for source in sources:
 			sname = source.findtext('sname')
 			num+=1
@@ -899,14 +908,18 @@ def getSourceAndStreamInfo(channelId, returnOnFirst,pDialog, filterBySource=""):
 					for inf in sInfos:
 						if inf.findtext('cname').lower()==channelId.lower():
 							source_title=''
-							if match_title<>'':
-								try:
-									if source.findtext('id')=='generic':
-										source_title=inf.find('item').findtext('title')
-									else:
-										source_title=inf.findtext('title')
-								except: pass
-                                    
+#							if match_title<>'':
+							try:
+								if source.findtext('id')=='generic':
+									source_title=inf.find('item').findtext('title')
+								else:
+									source_title=inf.findtext('title')
+							except: pass
+							#print sname,    glHDDisabled,source_title
+							if sname=="GLArab" and  glHDDisabled and source_title=="HD": continue                             
+							if sname=="GLArab" and  glMedDisabled and source_title=="Med": continue    
+							if sname=="GLArab" and  glLowDisabled and source_title=="Low": continue    
+                            
 							#print default_source,sid,match_title,inf.findtext('title'),inf
 							if not default_source=='' and default_source==sname and (match_title =='' or match_title==source_title):                       
 								default_source_exists=True
