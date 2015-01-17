@@ -1,3 +1,6 @@
+[B]Version 3.4.5[/B]
+GL disable and download fix
+
 [B]Version 3.4.4[/B]
 Try All option for GLArab
 

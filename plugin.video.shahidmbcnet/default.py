@@ -343,10 +343,12 @@ def RefreshResources(auto=False):
 		else:
 			fileToDownload = baseUrlForDownload+fname
 		#print fileToDownload
-		req = urllib2.Request(fileToDownload)
-		req.add_header('User-Agent','Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36')
-		response = urllib2.urlopen(req)
-		data=response.read()
+		try:
+			req = urllib2.Request(fileToDownload)
+			req.add_header('User-Agent','Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36')
+			response = urllib2.urlopen(req)
+			data=response.read()
+		except: data=''
 		if len(data)>0:
 			with open(os.path.join(communityStreamPath, fname), "wb") as filewriter:
 				filewriter.write(data)
