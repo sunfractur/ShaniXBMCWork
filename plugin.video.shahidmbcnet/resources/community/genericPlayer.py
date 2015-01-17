@@ -60,7 +60,7 @@ def PlayStream(sourceEtree, urlSoup, name, url):
         pDialog.update(80, line1)
         liveLink=replaceSettingsVariables(liveLink)
         name+='-'+sc+':'+title
-        if sc=='GLArab' or sc=='Local' :
+        if (sc=='GLArab' or sc=='Local')  and '$GL-' in liveLink :
             liveLink=replaceGLArabVariables(liveLink)
             if liveLink=="": return False
         print 'liveLink',liveLink
