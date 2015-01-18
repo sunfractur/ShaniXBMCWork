@@ -1,5 +1,13 @@
 <channels>
 <channel>
+	<cname>Houna Baghdad</cname>
+	<imageurl>http://honabaghdad.com/main/images/logo.png</imageurl>
+	<enabled>True</enabled>
+	<assignedcategory>
+	<category>Iraq</category>
+	</assignedcategory>
+</channel>
+<channel>
 	<cname>Almosul</cname>
 	<imageurl>http://www.lyngsat-logo.com/logo/tv/mm/mosul_tv_iq.png</imageurl>
 	<enabled>True</enabled>
