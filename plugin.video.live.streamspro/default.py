@@ -1814,7 +1814,10 @@ def addLink(url,name,iconimage,fanart,description,genre,date,showcontext,playlis
             url=url.replace('&mode=18','')
             mode = '18' 
             contextMenu.append(('[COLOR white]!!Download!![/COLOR]','XBMC.RunPlugin(%s?url=%s&mode=23&name=%s)'
-                                    %(sys.argv[0], urllib.quote_plus(url), urllib.quote_plus(name))))           
+                                    %(sys.argv[0], urllib.quote_plus(url), urllib.quote_plus(name)))) 
+            if addon.getSetting('dlaudioonly') == 'true':
+                contextMenu.append(('!!Download [COLOR seablue]Audio!![/COLOR]','XBMC.RunPlugin(%s?url=%s&mode=24&name=%s)'
+                                        %(sys.argv[0], urllib.quote_plus(url), urllib.quote_plus(name))))                                     
             
         else: 
             mode = '12'
