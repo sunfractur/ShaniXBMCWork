@@ -800,11 +800,12 @@
         </assignedcategory>
 </channel> 
 <channel>
-        <cname>Algerie</cname>
+        <cname>Radio Algerie</cname>
         <imageurl>http://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/256/Algeria-Flag-icon.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
         <category>rdio</category>
+        <category>dzair</category>
         </assignedcategory>
 </channel>
 
