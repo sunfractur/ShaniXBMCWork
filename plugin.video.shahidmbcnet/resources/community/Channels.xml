@@ -1,5 +1,14 @@
 <channels>
 <channel>
+	<cname>Almosul</cname>
+	<imageurl>http://www.lyngsat-logo.com/logo/tv/mm/mosul_tv_iq.png</imageurl>
+	<enabled>True</enabled>
+	<assignedcategory>
+	<category>Iraq</category>
+	</assignedcategory>
+	</channel>
+<channel>
+<channel>
      <cname>Atlas Music</cname>
      <imageurl>http://s4.postimg.org/b5ibeihul/profile.png</imageurl>
      <enabled>True</enabled>
