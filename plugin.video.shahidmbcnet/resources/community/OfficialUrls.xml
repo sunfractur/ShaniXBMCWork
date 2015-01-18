@@ -1,5 +1,12 @@
 <streamingInfos>
 <streaminginfo>
+		<cname>Almosul</cname>
+		<item>
+		<title>Low</title>
+		<link>rtmp://ns1.indexforce.com/mosultv/mystream timeout=20</link>
+		</item>
+</streaminginfo>
+<streaminginfo>
 	<cname>Noursat</cname>
 	<item>
 		<title>noursat.tv</title>
