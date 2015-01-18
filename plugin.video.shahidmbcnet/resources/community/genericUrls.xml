@@ -2615,7 +2615,7 @@
 </streaminginfo>
 
 <streaminginfo>
-    <cname>alnabaa</cname>
+    <cname>Nabaa</cname>
 	<item>
 	<title>Low</title>
 	<link>http://wpc.C1A9.edgecastcdn.net/hls-live/20C1A9/nabaa_tv/ls_satlink/b_264.m3u8</link>
@@ -2623,7 +2623,7 @@
 </streaminginfo>
 
 <streaminginfo>
-    <cname>alnabaa</cname>
+    <cname>Nabaa</cname>
 	<item>
 	<title>Med</title>
 	<link>http://wpc.C1A9.edgecastcdn.net/hls-live/20C1A9/nabaa_tv/ls_satlink/b_528.m3u8</link>
@@ -2631,13 +2631,34 @@
 </streaminginfo>
 
 <streaminginfo>
-    <cname>alnabaa</cname>
+    <cname>Nabaa</cname>
 	<item>
 	<title>High</title>
 	<link>http://wpc.C1A9.edgecastcdn.net/hls-live/20C1A9/nabaa_tv/ls_satlink/b_828.m3u8</link>
 	</item>
 </streaminginfo>
 
+<streaminginfo>
+    <cname>alnabaa</cname>
+	<item>
+	<title>Low</title>
+	<link>http://wpc.C1A9.edgecastcdn.net/hls-live/20C1A9/al_nabaa/ls_satlink/b_264.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+    <cname>alnabaa</cname>
+	<item>
+	<title>Med</title>
+	<link>http://wpc.C1A9.edgecastcdn.net/hls-live/20C1A9/al_nabaa/ls_satlink/b_528.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+    <cname>alnabaa</cname>
+	<item>
+	<title>High</title>
+	<link>http://wpc.C1A9.edgecastcdn.net/hls-live/20C1A9/al_nabaa/ls_satlink/b_828.m3u8</link>
+	</item>
+</streaminginfo>
 <streaminginfo>
         <cname>Euro News Arabic</cname>
 	<item>
