@@ -2161,14 +2161,7 @@
 	<cname>Asia Sat</cname>
 	<item>
 	<title>Med</title>
-	<link>http://asialive.asiasat.tv:1935/live/asiatv256/playlist.m3u8</link>
-	</item>
-</streaminginfo>
-<streaminginfo>
-	<cname>Asia Sat</cname>
-	<item>
-	<title>Low</title>
-	<link>http://asialive.asiasat.tv:1935/live/asiatv128/playlist.m3u8</link>
+	<link>rtmp://178.63.55.18:1935/live/myStream timeout=20</link>
 	</item>
 </streaminginfo>
 <streaminginfo>
