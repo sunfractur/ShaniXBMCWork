@@ -246,7 +246,7 @@
 	<cname>Bzaf</cname>
 	<item>
 	<title>Low</title>
-	<link>rtmp://fujtv.dyndns.org:4425/bzaftv/bzaftv swfUrl=http://player.longtailvideo.com/player.swf live=1 pageUrl=http://bzaf.tv/wp/?page_id=111</link>
+	<link>rtmp://ccfz.dyndns.org:4425/live/live.flv swfUrl=http://bzaf.tv/live/player.swf pageUrl=http://www.bzaf.tv/live/index.html live=1 timeout=20</link>
 	</item>
 </streaminginfo>
 <streaminginfo>
