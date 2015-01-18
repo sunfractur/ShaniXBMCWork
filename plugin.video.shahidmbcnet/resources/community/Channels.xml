@@ -6227,12 +6227,12 @@
         </assignedcategory>
     </channel>
 	<channel>
-        <cname>Maroc</cname>
+        <cname>Radio Maroc</cname>
         <imageurl>http://icons.iconarchive.com/icons/hopstarter/flag-borderless/256/Morocco-icon.png</imageurl>
         <enabled>True</enabled>
         <assignedcategory>
         <category>rdio</category>
-		<category>maroc</category>
+	<category>maroc</category>
         </assignedcategory>
 </channel>
 <channel>
