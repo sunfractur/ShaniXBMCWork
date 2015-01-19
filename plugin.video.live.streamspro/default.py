@@ -1818,7 +1818,11 @@ def addLink(url,name,iconimage,fanart,description,genre,date,showcontext,playlis
             if addon.getSetting('dlaudioonly') == 'true':
                 contextMenu.append(('!!Download [COLOR seablue]Audio!![/COLOR]','XBMC.RunPlugin(%s?url=%s&mode=24&name=%s)'
                                         %(sys.argv[0], urllib.quote_plus(url), urllib.quote_plus(name))))                                     
-            
+        elif url.startswith('magnet:?xt=') or '.torrent' in url:
+            if '&' in url and not '&amp;' in url :
+                url = url.replace('&','&amp;')
+            url = 'plugin://plugin.video.pulsar/play?uri=' + url
+            mode = '12'            
         else: 
             mode = '12'
             contextMenu.append(('[COLOR white]!!Download Currently Playing!![/COLOR]','XBMC.RunPlugin(%s?url=%s&mode=21&name=%s)'
