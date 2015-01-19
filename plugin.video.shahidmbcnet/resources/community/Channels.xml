@@ -5905,15 +5905,6 @@
         </assignedcategory>
     </channel>
     <channel>
-        <cname>CBC +2</cname>
-        <imageurl>http://i1064.photobucket.com/albums/u379/zombiB/cbc_zps770dbcaf.png</imageurl>
-        <enabled>True</enabled>
-        <assignedcategory>
-            <category>ent</category>
-            <category>egypt</category>
-        </assignedcategory>
-    </channel>
-    <channel>
         <cname>LCI</cname>
         <imageurl>http://www.gwenael.org/xbmc-streams/images/channels/89.png</imageurl>
         <enabled>True</enabled>
