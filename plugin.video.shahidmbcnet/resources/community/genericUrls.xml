@@ -3126,5 +3126,81 @@
 		<link>http://mbc-live.hds.adaptive.level3.net//hls-live/mbc-channel01/_definst_/live/stream1.m3u8</link>
 	</item>
 </streaminginfo>
-
+<streaminginfo>
+	<cname>CBC 2</cname>
+	<item>
+		<title>live</title>
+		<link>http://manifest.googlevideo.com/api/manifest/hls_playlist/id/HuuBn1kGXXQ.1/itag/92/source/yt_live_broadcast/ratebypass/yes/live/1/cmbypass/yes/gir/yes/dg_shard/HuuBn1kGXXQ.1_92/hls_chunk_host/r4---sn-vgqsen7s.googlevideo.com/gcr/us/pmbypass/yes/playlist_type/LIVE/mm/32/ms/lv/mv/u/pl/16/dover/2/sver/3/upn/u0yOwSTHiRo/keepalive/yes/fexp/900245,900718,905654,907263,924645,927622,930013,931357,941004,943917,946008,947209,947225,948124,948605,952302,952605,952901,955301,957103,957105,957201,959701/mt/1421702893/ip/50.158.44.17/ipbits/0/expire/1421724732/sparams/ip,ipbits,expire,id,itag,source,ratebypass,live,cmbypass,gir,dg_shard,hls_chunk_host,gcr,pmbypass,playlist_type,mm,ms,mv,pl/signature/8D0017FFE194442D1ED8F23A0DEAA0EA93BDB205.972DC6D7858EBD6943472F922D4614F6BE5F8AF4/key/dg_yt0/file/index.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>CBC Drama</cname>
+	<item>
+		<title>live</title>
+		<link>http://manifest.googlevideo.com/api/manifest/hls_variant/gcr/us/upn/Pb_kWnb9nW0/id/5eu2mYlpoto.1/signature/B5C0EA55E5E2E47FFE1262CAE1062BB65FBE6D95.9FB058BDC1581698F92A49139D939639F2B54D8F/expire/1421727624/playlist_type/LIVE/ipbits/0/sparams/gcr%2Chfr%2Cid%2Cip%2Cipbits%2Citag%2Cplaylist_type%2Cpmbypass%2Csource%2Cexpire/keepalive/yes/hfr/1/fexp/900718%2C907263%2C927622%2C9405613%2C9406038%2C941004%2C943917%2C947209%2C947225%2C948124%2C949429%2C952302%2C952605%2C952901%2C955301%2C957103%2C957105%2C957201%2C959701/source/yt_live_broadcast/sver/3/pmbypass/yes/itag/0/ip/50.158.44.17/key/yt5/file/index.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>CBC Extra</cname>
+	<item>
+		<title>live</title>
+		<link>http://manifest.googlevideo.com//api/manifest/hls_variant/id/v9v1jz5Csx0.1/playlist_type/LIVE/expire/1421727813/sparams/gcr%2Chfr%2Cid%2Cip%2Cipbits%2Citag%2Cplaylist_type%2Cpmbypass%2Csource%2Cexpire/hfr/1/gcr/us/ipbits/0/source/yt_live_broadcast/fexp/900504%2C900718%2C907263%2C912150%2C927622%2C931363%2C9405464%2C9405637%2C941004%2C943917%2C947209%2C947225%2C948124%2C952302%2C952605%2C952901%2C955301%2C957103%2C957105%2C957201%2C959701/itag/0/key/yt5/ip/50.158.44.17/keepalive/yes/upn/PdNx1vXu6ls/pmbypass/yes/sver/3/signature/6AAA1C17183B1D8455D2AE05717B68E4A0DF9EF9.75681EE7E966364822CEC6D624CB7EB71CE17B16/file/index.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>CBC Sofra</cname>
+	<item>
+		<title>live</title>
+		<link>http://manifest.googlevideo.com//api/manifest/hls_variant/sparams/gcr%2Chfr%2Cid%2Cip%2Cipbits%2Citag%2Cplaylist_type%2Cpmbypass%2Csource%2Cexpire/ip/50.158.44.17/keepalive/yes/sver/3/hfr/1/ipbits/0/signature/31DA174DA1BE85B96ABF8993832750C68F0D5599.8DFE7DBEA1DBFDCC1568153BD2359FF294D4B162/playlist_type/LIVE/gcr/us/source/yt_live_broadcast/itag/0/fexp/900718%2C905648%2C907263%2C912141%2C924637%2C927622%2C931343%2C936117%2C939981%2C9405784%2C941004%2C943917%2C947209%2C947225%2C948124%2C952302%2C952605%2C952901%2C955301%2C957103%2C957105%2C957201%2C959701/pmbypass/yes/expire/1421728023/upn/3Lk9-EsfVgI/key/yt5/id/uUMzIoiOLxY.1/file/index.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>CBC</cname>
+	<item>
+		<title>live</title>
+		<link>http://manifest.googlevideo.com/api/manifest/hls_variant/id/0XwNO4beBPk.1/playlist_type/LIVE/expire/1421728125/sparams/gcr%2Chfr%2Cid%2Cip%2Cipbits%2Citag%2Cplaylist_type%2Cpmbypass%2Csource%2Cexpire/hfr/1/signature/DF98D104C8BC9350E094BD9E33E6FDA785AD2CCF.1262F775E38895BA82728E0E1DA61A62AAE798B4/fexp/900718%2C907263%2C908415%2C927622%2C9406308%2C941004%2C943916%2C945084%2C947209%2C947225%2C948124%2C948532%2C952302%2C952605%2C952901%2C955301%2C957103%2C957105%2C957201%2C959701/gcr/us/upn/nAOWvVoqO6Y/source/yt_live_broadcast/itag/0/key/yt5/ipbits/0/keepalive/yes/pmbypass/yes/sver/3/ip/50.158.44.17/file/index.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Rotana cinema</cname>
+	<item>
+		<title>live</title>
+		<link>http://manifest.googlevideo.com/api/manifest/hls_variant/sparams/gcr%2Chfr%2Cid%2Cip%2Cipbits%2Citag%2Cplaylist_type%2Cpmbypass%2Csource%2Cexpire/gcr/us/ipbits/0/playlist_type/LIVE/pmbypass/yes/upn/SmooKdTcywU/id/4bpAGEKP0dg.1/fexp/900718%2C907263%2C912148%2C927622%2C940000%2C9406138%2C9406307%2C941004%2C943917%2C947209%2C947225%2C948124%2C948703%2C952302%2C952605%2C952901%2C955301%2C957103%2C957105%2C957201%2C958600%2C959701%2C960602/source/yt_live_broadcast/hfr/1/signature/ED2B2B4BEABAE9C6BFDAE80142BA33C26139C45D.51B5B88AE10CBFD92ACF009FFEC4B199C1B4ED28/key/yt5/ip/50.158.44.17/sver/3/expire/1421728363/keepalive/yes/itag/0/file/index.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Sada Al Balad</cname>
+	<item>
+		<title>live</title>
+		<link>http://manifest.googlevideo.com/api/manifest/hls_variant/fexp/900234%2C900245%2C900718%2C907263%2C927622%2C9405714%2C9405885%2C941004%2C942622%2C943917%2C947209%2C947225%2C948124%2C952302%2C952605%2C952901%2C953918%2C955301%2C957103%2C957105%2C957201%2C959701/signature/38BAFFAF6449F978648D50BB0F099BCCDBFDAFFF.EC4A1F9C437AB774C89F200F2158BE9A8AB5CFFA/id/jI3sR82er8I.1/sparams/gcr%2Chfr%2Cid%2Cip%2Cipbits%2Citag%2Cplaylist_type%2Cpmbypass%2Csource%2Cexpire/expire/1421728554/keepalive/yes/ip/50.158.44.17/upn/rG0XrvUMwJ8/source/yt_live_broadcast/playlist_type/DVR/itag/0/hfr/1/key/yt5/ipbits/0/pmbypass/yes/sver/3/gcr/us/file/index.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Sada Al Balad2</cname>
+	<item>
+		<title>live</title>
+		<link>http://manifest.googlevideo.com/api/manifest/hls_variant/ipbits/0/upn/L7-BftkGDho/hfr/1/fexp/900718%2C907263%2C927622%2C934947%2C937420%2C940927%2C941004%2C943917%2C947209%2C947225%2C948124%2C952302%2C952605%2C952901%2C955301%2C957103%2C957105%2C957201%2C959701/gcr/us/source/yt_live_broadcast/itag/0/key/yt5/expire/1421728755/sparams/gcr%2Chfr%2Cid%2Cip%2Cipbits%2Citag%2Cplaylist_type%2Cpmbypass%2Csource%2Cexpire/ip/50.158.44.17/pmbypass/yes/keepalive/yes/sver/3/id/e8JjEZd7a90.1/playlist_type/DVR/signature/294EC9E2CC13ADB55A88DE59985C54B51DA03768.CC1F39B2969E5802B33DEE8802EFC1E97F8712E7/file/index.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Sada AlBalad Drama</cname>
+	<item>
+		<title>live</title>
+		<link>http://manifest.googlevideo.com/api/manifest/hls_variant/expire/1421728858/signature/E703C112A896D5850D9FD1762D99997A13EC2A46.7522CAA49A49425D3AF22D565D601200B70D4DE1/source/yt_live_broadcast/gcr/us/sparams/gcr%2Chfr%2Cid%2Cip%2Cipbits%2Citag%2Cplaylist_type%2Cpmbypass%2Csource%2Cexpire/hfr/1/ipbits/0/ip/50.158.44.17/keepalive/yes/key/yt5/upn/c3AeiBCchsU/id/SPHCd3iHqd0.1/itag/0/sver/3/pmbypass/yes/fexp/900718%2C907263%2C927622%2C936100%2C9405684%2C9405952%2C941004%2C943917%2C947209%2C947225%2C948124%2C952302%2C952605%2C952901%2C955301%2C957103%2C957105%2C957201%2C959701/playlist_type/DVR/file/index.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>AlQahera W Elnas 2</cname>
+	<item>
+		<title>live</title>
+		<link>http://manifest.googlevideo.com/api/manifest/hls_variant/key/yt5/itag/0/source/yt_live_broadcast/sparams/gcr%2Chfr%2Cid%2Cip%2Cipbits%2Citag%2Cplaylist_type%2Cpmbypass%2Csource%2Cexpire/signature/F9AFB34267AD0643551E2E0328D2BAFF24A96BF0.A72041B4D1CD80E75B47EB41339D7797F1D47922/hfr/1/upn/VU4WHU3sSi0/ipbits/0/gcr/us/fexp/900718%2C907263%2C927622%2C936117%2C941004%2C943917%2C947209%2C947225%2C948124%2C952302%2C952605%2C952901%2C955301%2C957103%2C957105%2C957201%2C959701/sver/3/keepalive/yes/expire/1421729156/pmbypass/yes/playlist_type/DVR/id/kJ-RfDPqRPg.1/ip/50.158.44.17/file/index.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>AlQahera W Elnas</cname>
+	<item>
+		<title>live</title>
+		<link>http://manifest.googlevideo.com/api/manifest/hls_variant/signature/EE6E243C38CD3F5764EC27F79A098C1B19BC54D0.320A3267B7FDF87CF60D35182DDF1E737D625357/keepalive/yes/gcr/us/ip/50.158.44.17/key/yt5/sparams/gcr%2Chfr%2Cid%2Cip%2Cipbits%2Citag%2Cplaylist_type%2Cpmbypass%2Csource%2Cexpire/itag/0/ipbits/0/hfr/1/id/I3hPgpTdo8o.1/fexp/900718%2C907263%2C927622%2C930014%2C936118%2C9406245%2C941004%2C943917%2C945067%2C947209%2C947225%2C948124%2C952302%2C952605%2C952901%2C955006%2C955301%2C957103%2C957105%2C957201%2C959701/pmbypass/yes/upn/XQpdz4UNso4/expire/1421729386/sver/3/playlist_type/DVR/source/yt_live_broadcast/file/index.m3u8</link>
+	</item>
+</streaminginfo>
 </streamingInfos>
