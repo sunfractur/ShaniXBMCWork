@@ -284,13 +284,6 @@
 </streaminginfo>
 
 <streaminginfo>
-        <cname>CBC +2</cname>
-	<item>
-	<title>Low vustream</title>
-	<link>rtmp://live-f01.vustream.net/live/livestream1 timeout=20</link>
-	</item>
-</streaminginfo>
-<streaminginfo>
         <cname>MBC 2</cname>
 	<item>
 	<title>Low vustream</title>
@@ -353,48 +346,7 @@
 	<link>rtmp://176.58.79.15:1936/live/ALResala timeout=20</link>
 	</item>
 </streaminginfo>
-<streaminginfo>
-	<cname>MBC Action</cname>
-	<item>
-	<title>unknow</title>
-	<link>rtmp://176.58.79.15:1936/live//MBCAction timeout=20</link>
-	</item>
-</streaminginfo>
-<streaminginfo>
-	<cname>MBC Drama</cname>
-	<item>
-	<title>unknow</title>
-	<link>rtmp://176.58.79.15:1936/live//MBCDrama timeout=20</link>
-	</item>
-</streaminginfo>
-<streaminginfo>
-	<cname>MBC Bollywood</cname>
-	<item>
-	<title>unknow</title>
-	<link>rtmp://176.58.79.15:1936/live/MBCBollywood timeout=20</link>
-	</item>
-</streaminginfo>
-<streaminginfo>
-	<cname>MBC Masr</cname>
-	<item>
-	<title>MBC Masr</title>
-	<link>http://188.247.93.26:1935/live/mbcmasr.stream_360p/playlist.m3u8</link>
-	</item>
-</streaminginfo>
-<streaminginfo>
-	<cname>MBC Masr</cname>
-	<item>
-	<title>MBC Masr+2</title>
-	<link>http://188.247.93.26:1935/live/mbcmasr2.stream_360p/playlist.m3u8</link>
-	</item>
-</streaminginfo>
-<streaminginfo>
-	<cname>CBC Drama</cname>
-	<item>
-	<title>unknow</title>
-	<link>rtmp://176.58.79.15:1936/live/CBCDrama timeout=20</link>
-	</item>
-</streaminginfo>
+
 <streaminginfo>
 	<cname>Toyor Al Janah</cname>
 	<item>
@@ -402,20 +354,7 @@
 	<link>rtmp://176.58.79.15:1936/live/Toyoraljanah timeout=20</link>
 	</item>
 </streaminginfo>
-<streaminginfo>
-	<cname>Alhayat-Series</cname>
-	<item>
-	<title>unknow</title>
-	<link>rtmp://176.58.79.15:1936/live/AlHayat timeout=20</link>
-	</item>
-</streaminginfo>
-<streaminginfo>
-	<cname>MBC Max</cname>
-	<item>
-	<title>unknow</title>
-	<link>rtmp://176.58.79.15:1936/live/MBCMAX timeout=20</link>
-	</item>
-</streaminginfo>
+
 <streaminginfo>
 	<cname>Sharjah</cname>
 	<item>
@@ -439,46 +378,10 @@
 </streaminginfo>
 
 
-<streaminginfo>
-	<cname>CBC</cname>
-	<item>
-	<title>unknow</title>
-	<link>rtmp://176.58.79.15:1936/live/CBC timeout=20</link>
-	</item>
-</streaminginfo>
-
-<streaminginfo>
-	<cname>CBC Sofra</cname>
-	<item>
-	<title>176</title>
-	<link>rtmp://176.58.79.15:1936/live/CBCSofra timeout=20</link>
-	</item>
-</streaminginfo>
 
 
 
-<streaminginfo>
-	<cname>MBC 2</cname>
-	<item>
-	<title>unknow</title>
-	<link>rtmp://176.58.79.15:1936/live/mbc2 timeout=20</link>
-	</item>
-</streaminginfo>
 
-<streaminginfo>
-	<cname>MBC 3</cname>
-	<item>
-	<title>unknow</title>
-	<link>rtmp://176.58.79.15:1936/live/mbc3 timeout=20</link>
-	</item>
-</streaminginfo>
-<streaminginfo>
-	<cname>MBC 4</cname>
-	<item>
-	<title>unknow</title>
-	<link>rtmp://176.58.79.15:1936/live/mbc4 timeout=20</link>
-	</item>
-</streaminginfo>
 
 <streaminginfo>
         <cname>Hawas</cname>
@@ -3079,20 +2982,6 @@
 		</item>
 	</streaminginfo>
 	<streaminginfo>
-		<cname>On TV</cname>
-		<item>
-			<title>OnTv Working</title>
-			<link>http://50.7.180.18:1935/ONTV/smil:ontv.smil/gmswf.m3u8?v=gmswf</link>
-		</item>
-	</streaminginfo>
-	<streaminginfo>
-		<cname>ONTV Live</cname>
-		<item>
-			<title>OnTvLive Working</title>
-			<link>http://50.7.180.18:1935/ONTV/smil:ontv_live.smil/playlist.m3u8</link>
-		</item>
-	</streaminginfo>
-	<streaminginfo>
 		<cname>Alhorreya_Christian</cname>
 		<item>
 			<title>Working</title>
@@ -3104,13 +2993,6 @@
 		<item>
 			<title>Masr+2 Working</title>
 			<link>http://mbc-live.hds.adaptive.level3.net/hls-live/mbc-channel02/_definst_/live/stream1.m3u8</link>
-		</item>
-	</streaminginfo>
-	<streaminginfo>
-		<cname>CBC 2</cname>
-		<item>
-			<title>CBC Two Working</title>
-			<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=H0GBw6M_Wq0</link>
 		</item>
 	</streaminginfo>
 	<streaminginfo>
@@ -3223,6 +3105,26 @@
 </regex>
 </item>
 </streaminginfo>
-
+<streaminginfo>
+	<cname>Aghapy</cname>
+	<item>
+		<title>livestream</title>
+		<link>http://xaghapychannelx.api.channel.livestream.com/3.0/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>ONTV Live</cname>
+	<item>
+		<title>live</title>
+		<link>rtmp://50.7.180.18/elONTV/ontvlive_profile1.stream</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>MBC Masr</cname>
+	<item>
+		<title>live</title>
+		<link>http://mbc-live.hds.adaptive.level3.net//hls-live/mbc-channel01/_definst_/live/stream1.m3u8</link>
+	</item>
+</streaminginfo>
 
 </streamingInfos>
