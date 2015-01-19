@@ -904,23 +904,31 @@
 	<cname>Alquds Educ</cname>
 	<item>
         <title>Low</title>
-        <link>rtmp://178.214.64.156:1935/hd1-2/hd1-2 timeout=20</link>
+        <link>http://178.214.64.157/hd1-2/hd1-2/playlist.m3u8</link>
 	</item>
 </streaminginfo>
 <streaminginfo>
 	<cname>Alquds Educ</cname>
 	<item>
         <title>Med</title>
-        <link>rtmp://178.214.64.156:1935/hd1-3/hd1-3 timeout=20</link>
+        <link>http://178.214.64.157/hd1-3/hd1-3/playlist.m3u8</link>
 	</item>
 </streaminginfo>
 <streaminginfo>
 	<cname>Alquds Educ</cname>
 	<item>
         <title>High</title>
-        <link>rtmp://178.214.64.156:1935/live/MyStream timeout=20</link>
+        <link>http://178.214.64.157/live/MyStream/playlist.m3u8</link>
 	</item>
 </streaminginfo>
+<streaminginfo>
+	<cname>Alquds Educ</cname>
+	<item>
+        <title>High</title>
+        <link>http://178.214.64.157/aqtv/imm/playlist.m3u8</link>
+	</item>
+</streaminginfo>
+
 <streaminginfo>
 	<cname>Nabaa</cname>
 	<item><title>Med</title>
