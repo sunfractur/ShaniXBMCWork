@@ -3116,7 +3116,7 @@
 	<cname>ONTV Live</cname>
 	<item>
 		<title>live</title>
-		<link>rtmp://50.7.180.18/elONTV/ontvlive_profile1.stream</link>
+		<link>rtmp://50.7.180.18/elONTV/ontvlive_profile1.stream timeout=20</link>
 	</item>
 </streaminginfo>
 <streaminginfo>
