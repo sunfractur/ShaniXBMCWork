@@ -1,5 +1,14 @@
 <channels>
 <channel>
+      <cname>Elheddaf</cname>
+      <imageurl>http://www.elheddaf.com/themes/frontend/images/css-images/logo.png</imageurl>
+      <enabled>True</enabled>
+      <assignedcategory>
+      <category>dzair</category>
+      <category>sports</category>
+      </assignedcategory>
+</channel>
+<channel>
 	<cname>Houna Baghdad</cname>
 	<imageurl>http://honabaghdad.com/main/images/logo.png</imageurl>
 	<enabled>True</enabled>
