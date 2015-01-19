@@ -1,3 +1,6 @@
+[B]Version 3.4.7[/B]
+fix the icons issues for geoblocked users(channels)
+
 [B]Version 3.4.6[/B]
 fix the icons issues for geoblocked users
 

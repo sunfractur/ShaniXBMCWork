@@ -159,7 +159,7 @@
 
 <addon id="plugin.video.shahidmbcnet"
        name="Shahid Arabic"
-       version="3.4.6"
+       version="3.4.7"
        provider-name="shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>

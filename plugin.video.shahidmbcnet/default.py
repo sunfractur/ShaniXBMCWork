@@ -565,7 +565,7 @@ def AddChannels(liveURL):
 	for cname in match:
 		chName=cname[1].split('/')[-1].split('.htm')[0]
 		img=cname[2]
-		img=img.replace(getMainUrl(),mainurl) 
+#		img=img.replace(getMainUrl(),mainurl) 
 
 		#print chName
 		addDir(chName ,getMainUrl()+cname[1] ,3,img, False,isItFolder=True)		#name,url,mode,icon
