@@ -1,3 +1,6 @@
+[B]Version 3.4.6[/B]
+fix the icons issues for geoblocked users
+
 [B]Version 3.4.5[/B]
 GL disable and download fix
 

@@ -1,3 +1,6 @@
+Version 1.5.1
+Thanks to Alibaba, added daily motion search ,pulsar and many more 
+
 Version 1.5.0
 Thanks to Alibaba, added download support and fix url resolver issue with helix, plus many more
 

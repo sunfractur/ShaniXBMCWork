@@ -450,7 +450,8 @@ def AddSeries(Fromurl,pageNumber=""):
 
 	for cname in match:
 		img=cname[3]
-		img=img.replace(getMainUrl(),mainurl) 
+		#img=mainurl#img.replace(getMainUrl(),mainurl) 
+		print 'img is ',img
 		addDir(cname[2] ,getMainUrl()+cname[0] ,4,img)#name,url,img
 	if mode==6:
 		if not pageNumber=="":
@@ -499,7 +500,10 @@ def AddEnteries(Fromurl,pageNumber=0):
 		finalName=cname[1];
 		if len(finalName)>0: finalName+=' '
 		finalName+=cname[3].replace('<span>','').replace('</span>','')
-		
+		img=cname[2]
+#		img=img.replace(getMainUrl(),'http://shahid.mbc.net.prx.websiteproxy.co.uk')
+		print 'img is ',img
+
 		#print 'a1'
 		
 		#if len(finalName)>0: finalName+=u" ";
@@ -511,7 +515,7 @@ def AddEnteries(Fromurl,pageNumber=0):
 		#print 'a4'
         
 		#print cname[2]
-		addDir(finalName ,getMainUrl()+cname[0] ,5,cname[2],showContext=True,isItFolder=False)
+		addDir(finalName ,getMainUrl()+cname[0] ,5,img,showContext=True,isItFolder=False)
 		
 		
 	if totalEnteries>=24:
