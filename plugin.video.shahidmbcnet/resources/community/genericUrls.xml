@@ -3089,7 +3089,7 @@
 		<cname>Aldanah</cname>
 		<item>
 		<title>Low</title>
-		<link>rtmp://streamer12.elementssys.com:1935/aldanah timeout=20</link>
+		<link>http://94.127.209.149:8080/aldanah/playlist.m3u8</link>
 		</item>
 </streaminginfo>
 
