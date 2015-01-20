@@ -61,7 +61,12 @@ def PlayStream(sourceEtree, urlSoup, name, url):
         liveLink=replaceSettingsVariables(liveLink)
         name+='-'+sc+':'+title
         if (sc=='GLArab' or sc=='Local')  and '$GL-' in liveLink :
-            liveLink=replaceGLArabVariables(liveLink)
+            gcid=None
+            try:
+                gcid = urlSoup.item.glchannelid.text
+                if gcid and len(gcid)==0: gcid=None
+            except: pass
+            liveLink=replaceGLArabVariables(liveLink,pDialog,gcid)
             if liveLink=="": return False
         print 'liveLink',liveLink
         pDialog.close()
@@ -658,7 +663,7 @@ def decrypt_vaughnlive(encrypted):
         retVal+=chr(int(val.replace("0m0",""))/84/5)
     return retVal
 
-def replaceGLArabVariables(link):
+def replaceGLArabVariables(link, d,gcid):
     try:
         GLArabUserName=selfAddon.getSetting( "GLArabUserName" )
         GLArabUserPwd=selfAddon.getSetting( "GLArabUserPwd" )
@@ -667,7 +672,7 @@ def replaceGLArabVariables(link):
         GLArabServerMED=selfAddon.getSetting( "GLArabServerMED" )
         glProxy=selfAddon.getSetting( "isGLProxyEnabled" )=="true"
         glProxyAddress=selfAddon.getSetting( "GLproxyName" )
-        videoPath=''
+        videoPath='KuwaitSpace_Med'
         try:
             pattern='\$\/(.*?)\.m3u8'
             videoPath=re.compile(pattern).findall(link)[0]
@@ -709,28 +714,51 @@ def replaceGLArabVariables(link):
             print 'login or accessing the site failed.. continuing'
             traceback.print_exc(file=sys.stdout)
         
-        sessionpage=getUrl('http://www.glarab.com/ajax.aspx?stream=live&type=reg&ppoint=KuwaitSpace_Med',cookieJar)
-        print sessionpage
-        session=sessionpage.split('|')[1]
-        sessionserver=sessionpage.split('|')[2].replace(':2077','')
+        if gcid:
+            gcUrl='https://apps.glwiz.com:448/uniwebappandroidads/(S(g01ykv45pojkhpzwap1u14dy))/ajax.ashx?channel=tv&chid=%s&'%gcid
+            print gcUrl,'gcUrl'
+            gcidhtml=getUrl(gcUrl)
+            print gcidhtml
+            patt='makeHttpRequestNoCache\\(\'(.*?)\''
+            gcurl='https://apps.glwiz.com:448/uniwebappandroidads/(S(g01ykv45pojkhpzwap1u14dy))/'+ re.compile(patt).findall(gcidhtml)[0] 
+            print 'gcurl',gcurl
+            gcurl=gcurl.replace(' ','%20')
+            sessionpage=getUrl(gcurl,cookieJar)
+            
+            print sessionpage
+            session=sessionpage.split(':')[2]
+            sessionserver=sessionpage.split(':')[0].replace(':2077','')
+
+        else:        
+            sessionpage=getUrl('http://www.glarab.com/ajax.aspx?stream=live&type=reg&ppoint=%s'%videoPath,cookieJar)
+            print sessionpage
+            session=sessionpage.split('|')[1]
+            sessionserver=sessionpage.split('|')[2].replace(':2077','')
+            
+            
         serverPatern=''
         serverAddress=''
+        type='low'
         if '$GL-IPLOW$' in link:
             serverPatern='GLArabServerLOW.*values="(.*?)"'
             link=link.replace('$GL-IPLOW$',GLArabServerLOW)
             serverAddress=GLArabServerLOW
+            type='low'
 
         if  '$GL-IPHD$' in link:
             print 'i am here',GLArabServerHD
             serverPatern='GLArabServerHD.*values="(.*?)"'
             link=link.replace('$GL-IPHD$',GLArabServerHD)
             serverAddress=GLArabServerHD
+            type='hd'
 
             
         if '$GL-IPMED$' in link:
             serverPatern='GLArabServerMED.*values="(.*?)"'
             link=link.replace('$GL-IPMED$',GLArabServerMED)
             serverAddress=GLArabServerHD
+            print GLArabServerMED,'GLArabServerMED  '
+            type='med'
         
         link=link.replace('$GL-Qlty$',GLArabQuality)
         link=link.replace('$GL-Sesession$',session)
@@ -744,17 +772,24 @@ def replaceGLArabVariables(link):
             #print servers
             
             if not glProxy:
+                servers.insert(0,sessionserver+':7777');
+                print 'new',servers
                 for server in servers:
+                    if d.iscanceled(): return ""
                     try:
                         finalUrl=link.replace('Try All',server)
-                        getUrl(finalUrl);
+                        getUrl(finalUrl,timeout=15);
                         link=finalUrl
                         break
                     except: pass
             else: serverAddress=servers[0]
 
-        if glProxy:       
-            link=getProxyLink(glProxyAddress,serverAddress.replace(':7777',''),videoPath,session)
+         
+        if glProxy: 
+            if type=='low' or type=='med':        
+                link=getProxyLink(glProxyAddress,sessionserver.replace(':7777',''),videoPath,session)
+            else:    
+                link=getProxyLink(glProxyAddress,serverAddress.replace(':7777',''),videoPath,session)
          
               
         return link

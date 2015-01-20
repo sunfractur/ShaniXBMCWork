@@ -42,6 +42,7 @@
 	<item>
 		<title>Low</title>
 		<link>http://$GL-IPLOW$/ADSport.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+        <!--<glchannelid>303149</glchannelid>-->
 	</item>
 </streaminginfo>
 <streaminginfo>
@@ -4541,7 +4542,8 @@
 	<cname>Abu Dhabi</cname>
 	<item>
 		<title>Low</title>
-		<link>http://$GL-IPLOW$/AbuDhabi.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+		<link>http://$GL-IPLOW$/ADAlOula.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+        <!--<glchannelid>303146</glchannelid>-->
 	</item>
 </streaminginfo>
 
@@ -4549,7 +4551,7 @@
 	<cname>Abu Dhabi Drama</cname>
 	<item>
 		<title>Low</title>
-		<link>http://$GL-IPLOW$/AbuDhabiDrama.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
+		<link>http://$GL-IPLOW$/ADDrama.m3u8?session=$GL-Sesession$&amp;hlsid=HLS_2487419</link>
 	</item>
 </streaminginfo>
 
