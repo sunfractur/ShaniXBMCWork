@@ -1,6 +1,19 @@
 <streamingInfos>
 
-
+<streaminginfo>
+		<cname>Al Baghdadia</cname>
+		<item>
+		<title>Med</title>
+		<link>http://albaghdadiahls-i.akamaihd.net/hls/live/218980/albaghdadia-ios/master.m3u8</link>
+		</item>
+</streaminginfo>
+<streaminginfo>
+		<cname>Al Baghdadia 2</cname>
+		<item>
+		<title>Med</title>
+		<link>http://albaghdadiahls-i.akamaihd.net/hls/live/221008/albaghdadiaIOS2/master.m3u8</link>
+		</item>
+</streaminginfo>
 <streaminginfo>
 		<cname>Houna Baghdad</cname>
 		<item>
