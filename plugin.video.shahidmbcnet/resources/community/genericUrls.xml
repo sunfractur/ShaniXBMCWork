@@ -3127,4 +3127,61 @@
 	</item>
 </streaminginfo>
 
+<streaminginfo>
+	<cname>Sada Albalad</cname>
+	<item>
+		<title>youtubelive</title>
+		<link>plugin.video.youtube/?action=play_video&amp;videoid=jI3sR82er8I</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+	<cname>Sada Albalad Drama</cname>
+	<item>
+		<title>youtubelive</title>
+		<link>plugin.video.youtube/?action=play_video&amp;videoid=SPHCd3iHqd0</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+	<cname>Sada Albalad+2</cname>
+	<item>
+		<title>youtubelive</title>
+		<link>plugin.video.youtube/?action=play_video&amp;videoid=e8JjEZd7a90</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+	<cname>CBC</cname>
+	<item>
+		<item>
+			<title>youtubelive</title>
+			<link>plugin.video.youtube/?action=play_video&amp;videoid=0XwNO4beBPk</link>
+		</item>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+	<cname>CBC2></cname>
+	<item>
+		<title>youtubelive</title>
+		<link>plugin.video.youtube/?action=play_video&amp;videoid=HuuBn1kGXXQ</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+	<cname>Alqahera W Alnas</cname>
+	<item>
+		<title>youtubelive</title>
+		<link>plugin.video.youtube/?action=play_video&amp;videoid=I3hPgpTdo8o</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+	<cname>Alqahera Walnas 2</cname>
+	<item>
+		<title>youtubelive</title>
+		<link>plugin.video.youtube/?action=play_video&amp;videoid=Cf1tusy0yso</link>
+	</item>
+</streaminginfo>
 </streamingInfos>
