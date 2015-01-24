@@ -83,3 +83,5 @@ B]Version 3.1.1[/B]
 - removed test links
 B]Version 3.1.2[/B]
 - fixed the running from fav.
+B]Version 3.1.3[/B]
+- fixed shows  not appearing

@@ -496,7 +496,7 @@ def AddShows(Fromurl):
 #	match =re.findall('<img src="(.*?)" alt=".*".+<\/a>\n*.+<div class="post-title"><a href="(.*?)".*<b>(.*)<\/b>', link, re.UNICODE)
 
 	link=link.split('Artilces starts here')[0]
-	match =re.findall('<div class="thumbnail">\s*<a href="(.*?)".*\s*<img class="thumb" src="(.*?)".*\s*<div class="caption">\s*<p>(.*?)<', link, re.UNICODE)
+	match =re.findall('<div class="thumbnail">\s*<a href="(.*?)".*\s*<img class="thumb".*?data-cfsrc="(.*?)" alt="(.*?)"', link, re.UNICODE)
 #	print Fromurl
 
 #	print match
