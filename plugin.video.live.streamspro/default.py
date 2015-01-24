@@ -152,11 +152,12 @@ def addSource(url=None):
         media_info = None
         #print 'source_url',source_url
         data = getSoup(source_url)
-        #print 'source_url',source_url
-        if data.find('channels_info'):
-            media_info = data.channels_info
-        elif data.find('items_info'):
-            media_info = data.items_info
+        print 'source_url',source_url
+        if isinstance(data,BeautifulSOAP):
+            if data.find('channels_info'):
+                media_info = data.channels_info
+            elif data.find('items_info'):
+                media_info = data.items_info
         if media_info:
             source_media = {}
             source_media['url'] = source_url
@@ -277,10 +278,11 @@ def getCommunitySources(browse=False):
 
 
 def getSoup(url,data=None):
+        print 'getsoup',url,data
         if url.startswith('http://') or url.startswith('https://'):
             data = makeRequest(url)
             if re.search("#EXTM3U",data) or 'm3u' in url: 
-                print 'found m3u data'
+                print 'found m3u data',data
                 return data
                 
         elif data == None:
@@ -295,7 +297,7 @@ def getSoup(url,data=None):
                 else:
                     data = open(url, 'r').read()
                     if re.match("#EXTM3U",data)or 'm3u' in url: 
-                        print 'found m3u data'
+                        print 'found m3u data',data
                         return data
             else:
                 addon_log("Soup Data not found!")
@@ -416,9 +418,9 @@ def parse_m3u(data):
                 #print url[0] getSoup(url,data=None)
                 regexs = parse_regex(getSoup('',data=url[1]))
                 
-                addLink(url[0], channel_name.encode('utf-8', 'ignore'),thumbnail,'','','','','',None,regexs,total)
+                addLink(url[0], channel_name,thumbnail,'','','','','',None,regexs,total)
                 continue
-        addLink(stream_url, channel_name.encode('utf-8', 'ignore'),thumbnail,'','','','','',None,'',total)
+        addLink(stream_url, channel_name,thumbnail,'','','','','',None,'',total)
 def getChannelItems(name,url,fanart):
         soup = getSoup(url)
         channel_list = soup.find('channel', attrs={'name' : name.decode('utf-8')})
