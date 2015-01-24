@@ -59,8 +59,8 @@ def Addtypes():
 
 def getMainMenu():
     list=[]
-    list.append({'name':'Bangla Channels','url':mainurl+'/list/bangla.php','mode':'BC'})
-    list.append({'name':'Islamic Channels','url':mainurl+'/list/islamic.php','mode':'IC'})
+    list.append({'name':'Bangla Channels','url':mainurl+'/category/bangla-tv','mode':'BC'})
+    list.append({'name':'Islamic Channels','url':mainurl+'/category/islamic-channel','mode':'IC'})
     list.append({'name':'Settings','url':'Settings','mode':'Settings'})
     return list;
 
@@ -76,7 +76,7 @@ def AddChannels(Fromurl,mode):
 def getChannelsEnteries(Fromurl,PageNumber,mode):
     link=getURL(Fromurl).result;
     #print 'getEnteriesList',link
-    match =re.findall('<a target=\"_top\" href="(.*?)".*title="(.*?)"><img src="(.*?)"', link)
+    match =re.findall('<li><a href="(.*?)" rel="bookmark" title="(.*?)"><img.*?src="(.*?)"', link)
     listToReturn=[]
     rmode='PlayC';
     #if mode=='ALLC':

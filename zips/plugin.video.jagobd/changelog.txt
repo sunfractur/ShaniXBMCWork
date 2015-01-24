@@ -15,3 +15,5 @@ B]Version 1.0.3[/B]
 - recent key changes
 [B]Version 1.0.6[/B]
 - mobile access
+[B]Version 1.0.7[/B]
+- changed url
