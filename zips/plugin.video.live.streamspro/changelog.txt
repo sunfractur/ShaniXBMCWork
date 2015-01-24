@@ -1,3 +1,6 @@
+Version 1.5.2
+Fixed accented char issue in m3u8 parsing
+
 Version 1.5.1
 Thanks to Alibaba, added daily motion search ,pulsar and many more 
 
