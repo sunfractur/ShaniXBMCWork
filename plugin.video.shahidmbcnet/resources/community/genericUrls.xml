@@ -1523,6 +1523,100 @@
 <streaminginfo>
      <cname>Radio Maroc</cname>
 	<item>
+	<title>Only Raï</title>
+	<link>http://91.121.62.121:7100/;stream.mp3</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+     <cname>Radio Maroc</cname>
+	<item>
+	<title>Almanar Belgique </title>
+	<link>http://77.92.64.44:8043/;mp3</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+     <cname>Radio Maroc</cname>
+	<item>
+	<title>Medi1</title>
+	<link>http://streaming07.mit.ovea.com/medi1</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+     <cname>Radio Maroc</cname>
+	<item>
+	<title>Radio Orient</title>
+	<link>http://mp3lg.tdf-cdn.com/radioorient/all/radioorient.mp3</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+     <cname>Radio Maroc</cname>
+	<item>
+	<title>France Maghreb2</title>
+	<link>http://francemaghreb2.ice.infomaniak.ch:80/francemaghreb2-high.mp3</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+     <cname>Radio Maroc</cname>
+	<item>
+	<title>Radio Soleil</title>
+	<link>http://mp3.live.tv-radio.com/radiosoleilparis/all/radiosoleilparis.mp3</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+     <cname>Radio Maroc</cname>
+	<item>
+	<title>Beu FM</title>
+	<link>http://broadcast.infomaniak.net:80/beurfm-high.mp3</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+     <cname>Radio Maroc</cname>
+	<item>
+	<title>Hit Radio</title>
+	<link>http://208.92.53.111/HITRADIO_MAROC.mp3</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+     <cname>Radio Maroc</cname>
+	<item>
+	<title>Radio Plus Agadir</title>
+	<link>http://91.121.4.107:8000/radio_plus_agadir.mp3</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+     <cname>Radio Maroc</cname>
+	<item>
+	<title>MFM</title>
+	<link>http://mfm.ice.infomaniak.ch/mfm-128.mp3</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+     <cname>Radio Maroc</cname>
+	<item>
+	<title>Radio Mars</title>
+	<link>http://broadcast.infomaniak.net/radiomars-128.mp3</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+     <cname>Radio Maroc</cname>
+	<item>
+	<title>M24</title>
+	<link>http://2073.live.streamtheworld.com/SAM08AAC171.aac</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+     <cname>Radio Maroc</cname>
+	<item>
+	<title>Nass Radio</title>
+	<link>http://radio.nessradio.net:8000/nessradio-64kbs.mp3</link>
+	</item>
+</streaminginfo>
+
+<streaminginfo>
+     <cname>Radio Maroc</cname>
+	<item>
 	<title>Medi1</title>
 	<link>http://streaming07.mit.ovea.com/medi1</link>
 	</item>
