@@ -87,8 +87,10 @@ def PlayStream(sourceEtree, urlSoup, name, url):
 				rtmp+=' app='+'live/?id='+rtmp.split('live/?id=')[1]
 			#playpath=playpath.split(':')[1]
 			pre_liveLink= sourceEtree.findtext('rtmpstring');
-
-			liveLink=pre_liveLink%(rtmp,playpath)
+			if rtmp.startswith('http'):
+				liveLink=rtmp;            
+			else:
+				liveLink=pre_liveLink%(rtmp,playpath)
 			print 'rtmpstring',pre_liveLink,rtmp,playpath, liveLink
 
 			listitem = xbmcgui.ListItem( label = str(name), iconImage = "DefaultVideo.png", thumbnailImage = xbmc.getInfoImage( "ListItem.Thumb" ), path=liveLink )            
