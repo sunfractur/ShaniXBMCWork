@@ -1,5 +1,13 @@
 <channels>
 <channel>
+    <cname>Bedaya</cname>
+    <imageurl>http://s8.postimg.org/o16ibukdh/Logo_Bedaya_2014_0002.png</imageurl>
+    <enabled>True</enabled>
+    <assignedcategory>
+    <category>gulf</category>
+    </assignedcategory>
+</channel>
+<channel>
       <cname>Elheddaf</cname>
       <imageurl>http://www.elheddaf.com/themes/frontend/images/css-images/logo.png</imageurl>
       <enabled>True</enabled>
