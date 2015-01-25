@@ -44,8 +44,8 @@
 		   <setting label="32071" type="lsep"/>
 			<setting label="32072" type="text" id="GLArabUserName" values="" default=""/>
 			<setting label="32073" type="text" id="GLArabUserPwd" values="" default=""/>  
-			<setting label="32077" type="labelenum" id="GLArabServerHD" default="Try All" values="Disabled|Try All|38.99.146.36:7777|38.99.146.158:7777|38.117.88.97:7777"/>
-			<setting label="32078" type="labelenum" id="GLArabServerMED" default="Try All" values="Disabled|Try All|38.99.146.69:7777|38.99.146.70:7777|38.99.146.71:7777|38.99.146.72:7777|8.21.48.3:7777|8.21.48.4:7777|8.21.48.5:7777|38.99.146.158:7777|38.117.88.97:7777"/>
+			<setting label="32077" type="labelenum" id="GLArabServerHD" default="Try All" values="Disabled|Try All|38.99.146.36:7777|38.99.146.158:7777|38.117.88.97:7777|38.99.146.40:7777"/>
+			<setting label="32078" type="labelenum" id="GLArabServerMED" default="Try All" values="Disabled|Try All|38.99.146.69:7777|38.99.146.70:7777|38.99.146.71:7777|38.99.146.72:7777|8.21.48.3:7777|8.21.48.4:7777|8.21.48.5:7777|38.99.146.158:7777|38.117.88.97:7777|38.99.146.40:7777"/>
 			<setting label="32079" type="labelenum" id="GLArabServerLOW" default="Try All" values="Disabled|Try All|8.21.48.26:7777|8.21.48.28:7777|38.99.146.42:7777|38.99.146.44:7777"/>
     <setting label="32080" type="bool"   id="isGLProxyEnabled" default="false"/>
     <setting label="32081" type="text"   id="GLproxyName" default="127.0.0.1"  enable="!eq(-1,false)"  />
