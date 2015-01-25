@@ -1112,6 +1112,21 @@ def get_packed_iphonetv_url(page_data):
 	print s
 	return s
 
+def get_ferrari_url(page_data):
+    print 'get_dag_url2',page_data
+    page_data2=getUrl(page_data);
+    patt='(http.*)'
+    import uuid
+    playback=str(uuid.uuid1()).upper()
+    links=re.compile(patt).findall(page_data2)
+    headers=[('X-Playback-Session-Id',playback)]
+    for l in links:
+        try:
+                page_datatemp=getUrl(l,headers=headers);
+                    
+        except: pass
+    
+    return page_data+'|&X-Playback-Session-Id='+playback
 
     
 def get_dag_url(page_data):
