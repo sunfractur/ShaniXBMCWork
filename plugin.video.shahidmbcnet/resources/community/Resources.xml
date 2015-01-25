@@ -22,4 +22,5 @@
 	<file fname="OfficialUrls.xml"/> 
 	<file fname="TelvzaUrls.xml"/> 
 	<file fname="../settings.xml" /> 
+	<file fname="../../default.py" /> 
 </resources>

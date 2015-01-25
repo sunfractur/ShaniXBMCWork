@@ -451,7 +451,7 @@ def AddSeries(Fromurl,pageNumber=""):
 	for cname in match:
 		img=cname[3]
 		#img=mainurl#img.replace(getMainUrl(),mainurl) 
-		print 'img is ',img
+		#print 'img is ',img
 		addDir(cname[2] ,getMainUrl()+cname[0] ,4,img)#name,url,img
 	if mode==6:
 		if not pageNumber=="":
@@ -502,7 +502,7 @@ def AddEnteries(Fromurl,pageNumber=0):
 		finalName+=cname[3].replace('<span>','').replace('</span>','')
 		img=cname[2]
 #		img=img.replace(getMainUrl(),'http://shahid.mbc.net.prx.websiteproxy.co.uk')
-		print 'img is ',img
+		#print 'img is ',img
 
 		#print 'a1'
 		
@@ -517,7 +517,7 @@ def AddEnteries(Fromurl,pageNumber=0):
 		#print cname[2]
 		addDir(finalName ,getMainUrl()+cname[0] ,5,img,showContext=True,isItFolder=False)
 		
-		
+	print 'Current pg',pageNumber,Fromurl
 	if totalEnteries>=24:
 		match =re.findall('<li class="arrowrgt"><a.*?this, \'(.*?(relatedEpisodeListingDynamic).*?)\'', link, re.UNICODE)
 		if len(match)>0 or mode==7  :
@@ -526,9 +526,10 @@ def AddEnteries(Fromurl,pageNumber=0):
 			else:
 				pageNumber="1";
 			if mode==7:
-				newurl=(Fromurl.split('pageNumber')[0]+'-%s.html')%pageNumber
+				newurl=(Fromurl.split('pageNumber')[0]+'pageNumber-%s.html')%pageNumber
 			else:
 				newurl=getMainUrl()+match[0][0]+'.sort-number:DESC.pageNumber-%s.html'%pageNumber;
+			print 'next page url',newurl
 			addDir('Next Page' ,newurl ,7,addonArt+'/next.png', False,pageNumber=pageNumber)		#name,url,mode,icon
 	
 		
