@@ -3225,7 +3225,7 @@
 	<cname>Sada Al Balad</cname>
 	<item>
 		<title>youtubelive</title>
-		<link>plugin.video.youtube/?action=play_video&amp;videoid=jI3sR82er8I</link>
+		<link>plugin://plugin.video.youtube/play/?video_id=jI3sR82er8I</link>
 	</item>
 </streaminginfo>
 
@@ -3233,7 +3233,7 @@
 	<cname>Sada AlBalad Drama</cname>
 	<item>
 		<title>youtubelive</title>
-		<link>plugin.video.youtube/?action=play_video&amp;videoid=SPHCd3iHqd0</link>
+		<link>plugin://plugin.video.youtube/play/?video_id=SPHCd3iHqd0</link>
 	</item>
 </streaminginfo>
 
@@ -3241,33 +3241,14 @@
 	<cname>Sada Al Balad2</cname>
 	<item>
 		<title>+2youtubelive</title>
-		<link>plugin.video.youtube/?action=play_video&amp;videoid=e8JjEZd7a90</link>
+		<link>plugin://plugin.video.youtube/play/?video_id=e8JjEZd7a90</link>
 	</item>
 </streaminginfo>
-
-<streaminginfo>
-	<cname>CBC</cname>
-	<item>
-
-			<title>youtubelive</title>
-			<link>plugin.video.youtube/?action=play_video&amp;videoid=0XwNO4beBPk</link>
-
-	</item>
-</streaminginfo>
-
-<streaminginfo>
-	<cname>CBC 2></cname>
-	<item>
-		<title>youtubelive</title>
-		<link>plugin.video.youtube/?action=play_video&amp;videoid=HuuBn1kGXXQ</link>
-	</item>
-</streaminginfo>
-
 <streaminginfo>
 	<cname>AlQahera W Elnas</cname>
 	<item>
 		<title>youtubelive</title>
-		<link>plugin.video.youtube/?action=play_video&amp;videoid=I3hPgpTdo8o</link>
+		<link>plugin://plugin.video.youtube/play/?video_id=I3hPgpTdo8o</link>
 	</item>
 </streaminginfo>
 
@@ -3275,7 +3256,7 @@
 	<cname>AlQahera W Elnas 2</cname>
 	<item>
 		<title>youtubelive</title>
-		<link>plugin.video.youtube/?action=play_video&amp;videoid=Cf1tusy0yso</link>
+		<link>plugin://plugin.video.youtube/play/?video_id=Cf1tusy0yso</link>
 	</item>
 </streaminginfo>
 </streamingInfos>
