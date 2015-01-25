@@ -1,4 +1,14 @@
 <channels>
+
+<channel>
+    <cname>Misr Alaan</cname>
+    <imageurl>http://www.lyngsat-logo.com/hires/mm/misr_alaan_eg.png</imageurl>
+    <enabled>True</enabled>
+    <assignedcategory>
+    <category>egypt</category>
+    </assignedcategory>
+</channel>
+
 <channel>
     <cname>Bedaya</cname>
     <imageurl>http://s8.postimg.org/o16ibukdh/Logo_Bedaya_2014_0002.png</imageurl>
