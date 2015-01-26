@@ -1,4 +1,16 @@
-<streamingInfos>
+<streaminginfo>
+		<cname>bbc24news hd</cname>
+		<item>
+		<title>bbc 24 news</title>
+		<link>http://vs-hds-uk-live.edgesuite.net/pool_5/live/bbc_news_channel_hd/bbc_news_channel_hd.isml/bbc_news_channel_hd-audio_2/master.m3u8</link>
+		</item>
+</streaminginfo>
+<streaminginfo>
+		<cname>BBC2 HD</cname></cname>
+		<item>
+		<title>bbc2 HD</title>
+		<link>http://vs-hds-uk-live.edgesuite.net/pool_5/live/bbc_two_hd/bbc_two_hd.isml/bbc_two_hd-audio_3%3D64000-video%3D281000.f4m/master.m3u8</link>
+		</item><streamingInfos>
 <streaminginfo>
 	<cname>Misr Alaan</cname>
 	<item>
