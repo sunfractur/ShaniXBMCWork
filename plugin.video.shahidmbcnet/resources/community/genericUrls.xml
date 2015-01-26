@@ -3249,4 +3249,88 @@
 		<link>plugin://plugin.video.youtube/play/?video_id=Cf1tusy0yso</link>
 	</item>
 </streaminginfo>
+<streaminginfo>
+	<cname>Alhayat Cinema</cname>
+	<item>
+		<title>live</title>
+		<link>rtmp://162.212.176.107:1935/alhayat_cinema?v=a2V5bGl2ZTgzLTQ1LTEwMC.00MjIwMTQtMTItMDMtMTYtMzUtMzM=/globaltv-alhayat_cinema.stream timeout=15</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Alhayat 1</cname>
+	<item>
+		<title>live</title>
+		<link>rtmp://162.212.176.107:1935/alhayat_1?v=a2V5bGl2ZTgzLTQ1LTEwMy0yODIwMTUt.MDEtMjUtMDAtNDUtMTc=/globaltv-alhayat_1.stream timeout=15</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Arabica Music</cname>
+	<item>
+		<title>live</title>
+		<link>http://37.48.80.48:1935/arabicalive/arabicatv/chunklist_w525000.m3u8</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Dream 1</cname>
+	<item>
+		<title>live</title>
+		<link>rtmp://162.212.176.107:1935/dream_1?v=a2V5bGl2ZTgzLTQ1LTEwMy0yODIwMTUtMDEt.MjUtMDAtNDUtMTc=/globaltv-dream_1.stream timeout=15</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Rotana cinema</cname>
+	<item>
+		<title>live</title>
+		<link>rtmp://web.iptv-planet.com:1936/live2 playpath=rc swfUrl=http://iptv-planet.com/swfs/player.swf  pageUrl=http://iptv-planet.com/embed.php?id=cbc&width=600&height=400 timeout=15</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>CBC Drama</cname>
+	<item>
+		<title>live</title>
+		<link>rtmp://web.iptv-planet.com:1936/live2 playpath=cbcd swfUrl=http://iptv-planet.com/swfs/player.swf  pageUrl=http://iptv-planet.com/embed.php?id=cbc&width=600&height=400 timeout=15</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Art Aflam 2</cname>
+	<item>
+		<title>live</title>
+		<link>rtmp://162.212.176.107:1935/art_aflam_2?v=a2V5bGl2ZTgzLTQ1LTEwMy0yODIw.MTUtMDEtMjUtMDAtNDUtMTc=/globaltv-art_aflam_2.stream timeout=15</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Art Aflam 1</cname>
+	<item>
+		<title>live</title>
+		<link>rtmp://162.212.176.107:1935/art_aflam_1?v=a2V5bGl2ZTgzLTQ1LTEwMy0yODIw.MTUtMDEtMjUtMDAtNDUtMTc=/globaltv-art_aflam_1.stream timeout=15</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>CBC</cname>
+	<item>
+		<title>live</title>
+		<link>rtmp://web.iptv-planet.com:1936/live2 playpath=cbc swfUrl=http://iptv-planet.com/swfs/player.swf  pageUrl=http://iptv-planet.com/embed.php?id=cbc&width=600&height=400 timeout=15</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Cima</cname>
+	<item>
+		<title>live</title>
+		<link>rtmp://web.iptv-planet.com:1936/live2 playpath=cima swfUrl=http://iptv-planet.com/swfs/player.swf  pageUrl=http://iptv-planet.com/embed.php?id=cbc&width=600&height=400 timeout=15</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Nile Comedy</cname>
+	<item>
+		<title>live</title>
+		<link>rtmp://web.iptv-planet.com:1936/live2 playpath=Hi_nilecomedy swfUrl=http://iptv-planet.com/swfs/player.swf  pageUrl=http://iptv-planet.com/embed.php?id=cbc&width=600&height=400 timeout=15</link>
+	</item>
+</streaminginfo>
+<streaminginfo>
+	<cname>Nile Cinema</cname>
+	<item>
+		<title>live</title>
+		<link>rtmp://web.iptv-planet.com:1936/live2 playpath=Hi_nilecinema swfUrl=http://iptv-planet.com/swfs/player.swf  pageUrl=http://iptv-planet.com/embed.php?id=cbc&width=600&height=400 timeout=15</link>
+	</item>
+</streaminginfo>
 </streamingInfos>
